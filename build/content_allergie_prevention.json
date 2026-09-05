@@ -22,6 +22,79 @@
       "style": "body_sm"
      }
     },
+    [
+     {
+      "t": "section",
+      "text": "Légende des niveaux de preuve (NP) -- argumentaire, PAS un grade de recommandation",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Niveau",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Définition (méthode GRADE modifiée, comité des référentiels Sfar)",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "NP1",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Preuve globale forte : méta-analyses concordantes de haut niveau, ou étude(s) de haut niveau non contredite(s), ou >= 2 études de bas niveau non contradictoires avec RR > 2 ou < 0,5.",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "NP2",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Preuve globale modérée : >= 2 études de bas niveau non contradictoires, mais RR < 2 ou > 0,5 dans toutes (ou toutes sauf une).",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "NP3",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Preuve globale faible : plusieurs études de bas niveau, dont certaines contradictoires, avec une majorité se dégageant pour un effet favorable ou défavorable.",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "NP4",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Preuve globale très faible : études de haut niveau contradictoires, ou uniquement des études de très bas niveau.",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Définitions du document source : réaction allergique = réaction immunologique lors d'un contact renouvelé avec un antigène chez un sujet sensibilisé (période de sensibilisation silencieuse, minimum dix jours) ; anaphylaxie = terme réservé à une réaction grave d'HSI allergique ou non allergique ; atopie = susceptibilité anormale à synthétiser des IgE spécifiques contre des antigènes naturels de l'environnement.</i>",
@@ -51,6 +124,103 @@
       "style": "body_sm"
      }
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>Substances responsables</b> -- fréquence relative parmi les cas d'anaphylaxie publiés depuis 1980 (littérature anglaise et française) (NP2)",
+      "style": "cell_b"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Substance",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Fréquence relative",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Curares",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "62,6 %",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Latex",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "13,8 %",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Hypnotiques",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "7,2 %",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Antibiotiques",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "6 %",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Substituts du plasma (colloïdes)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "3,2 %",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Morphiniques",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "2,4 %",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "L'allergie aux anesthésiques locaux apparaît exceptionnelle compte tenu de leur fréquence d'utilisation. <b>Aucune réaction anaphylactique n'a été publiée avec les anesthésiques halogénés</b> (NP2). D'autres substances peuvent induire une anaphylaxie péranesthésique : aprotinine, chlorhexidine, protamine, papaïne, héparine, bleu patenté ou de méthylène. Tous les curares peuvent être en cause, y compris dès la première administration ; le curare le plus fréquemment impliqué dans les réactions immédiates allergiques est le <b>suxaméthonium</b> (NP2). Une sensibilisation croisée entre curares est possible.",
@@ -213,6 +383,133 @@
      "html": "<b>IgE spécifiques :</b> un taux d'IgE totales n'a aucune pertinence diagnostique. La recherche d'IgE spécifiques concerne principalement les ammoniums quaternaires (curares), le thiopental, le latex, les bêta-lactamines et la chlorhexidine (NP2). L'IgE anti-ammonium quaternaire reste détectable plusieurs années après une réaction à un curare (NP1) ; les techniques à privilégier sont le SAQ-RIA ou le PAPPC-RIA (NP2). Les techniques de dosage des IgE spécifiques du latex ont une excellente sensibilité (NP2). Seuls quelques antibiotiques sont dosables (pénicilloyl G et V, amoxicilloyl, ampicilloyl, céfaclor) ; il ne faut pas les rechercher à titre systématique, et seul l'allergologue en charge du bilan est habilité à demander et interpréter ces dosages, compte tenu de leur sensibilité faible (NP2).",
      "style": "body_sm"
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>Tableau 2 (source) -- modes et délais de prélèvement sanguin</b> pour les dosages d'histamine, de tryptase et d'IgE antiammonium quaternaire (AQ)",
+      "style": "cell_b"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Dosage",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Tube",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Prélèvement < 30 min",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Prélèvement 1 à 2 h",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Prélèvement > 24 h",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Histamine",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "EDTA",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "(+)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Tryptase",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "EDTA / sec",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "IgE anti-AQ",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Sec",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "(+)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "(+)",
+         "style": "cell"
+        }
+       ]
+      ]
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<i>+ : recommandé ; (+) : si non réalisé au moment de la réaction.</i>",
+      "style": "note"
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Modalités de prélèvement (S3.5.1) :</b> histamine sur tube EDTA (5 mL) ; tryptase sur tube sec ou EDTA (le même tube EDTA peut servir aux deux dosages) ; IgE sur tube sec (7 mL). Transmission au laboratoire dans les 2 heures, sinon conservation à +4°C pendant 12 h maximum ; après centrifugation, plasma et sérum congelés à -20°C en aliquotes, le plasma étant recueilli à distance de la couche leucocytaire (NP2). Du fait de la gravité potentielle et de la demi-vie courte de certains médiateurs, il est conseillé de disposer au bloc opératoire d'un sachet contenant les tubes de prélèvement, le protocole de recueil et la fiche de collecte des données cliniques.",
@@ -1081,6 +1378,230 @@
      "html": "<b>Tableau 4 -- Antiseptiques et colorants</b>",
      "style": "cell_b"
     },
+    [
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "DCI",
+         "style": "t3_head"
+        },
+        {
+         "t": "p",
+         "html": "Nom commercial",
+         "style": "t3_head"
+        },
+        {
+         "t": "p",
+         "html": "C (mg/mL)",
+         "style": "t3_head"
+        },
+        {
+         "t": "p",
+         "html": "PT Dilution",
+         "style": "t3_head"
+        },
+        {
+         "t": "p",
+         "html": "PT CM (mg/mL)",
+         "style": "t3_head"
+        },
+        {
+         "t": "p",
+         "html": "IDR Dilution",
+         "style": "t3_head"
+        },
+        {
+         "t": "p",
+         "html": "IDR CM (mg/mL)",
+         "style": "t3_head"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Antiseptiques",
+         "style": "t3_group"
+        },
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Chlorhexidine aqueuse non colorée",
+         "style": "t3_lb"
+        },
+        {
+         "t": "p",
+         "html": "--",
+         "style": "t3_l"
+        },
+        {
+         "t": "p",
+         "html": "0,5",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "Non dilué",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "0,5",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "1/10",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "50",
+         "style": "t3_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Povidone iodée aqueuse",
+         "style": "t3_lb"
+        },
+        {
+         "t": "p",
+         "html": "--",
+         "style": "t3_l"
+        },
+        {
+         "t": "p",
+         "html": "100",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "Non dilué",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "10",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "1/10",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "10 000",
+         "style": "t3_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Colorants",
+         "style": "t3_group"
+        },
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Bleu patenté",
+         "style": "t3_lb"
+        },
+        {
+         "t": "p",
+         "html": "--",
+         "style": "t3_l"
+        },
+        {
+         "t": "p",
+         "html": "25",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "Non dilué",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "25",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "1/10",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "2500",
+         "style": "t3_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Bleu de méthylène (chlorure de méthylthionine)",
+         "style": "t3_lb"
+        },
+        {
+         "t": "p",
+         "html": "--",
+         "style": "t3_l"
+        },
+        {
+         "t": "p",
+         "html": "10",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "Non dilué",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "10",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "1/100",
+         "style": "t3_c"
+        },
+        {
+         "t": "p",
+         "html": "100",
+         "style": "t3_c"
+        }
+       ]
+      ]
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<i>Pour les tests intradermiques aux colorants, risque de tatouage persistant plusieurs mois.</i>",
+      "style": "note"
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Autres points (S3.6.8.11 à S3.6.8.15) :</b> il faut rechercher une sensibilisation croisée avec tous les autres curares commercialisés en cas de positivité à un curare (NP2), y compris avec les curares nouvellement commercialisés après une réaction anaphylactique prouvée lors d'une anesthésie antérieure (NP3). En cas de réaction survenant plus de 24 heures après l'anesthésie, il est recommandé de réaliser des tests épicutanés (patch-tests) à lecture retardée (&gt;= 48 h), notamment pour une symptomatologie à type d'eczéma : antibiotiques, produits de contraste iodés, allergènes de contact (métaux, caoutchouc, colorants, antiseptiques) (NP3). Il faut exclure le terme « douteux » des comptes rendus : la réponse est binaire (positif/négatif), à refaire à distance si nécessaire (NP4). La performance des tests cutanés peut décroître avec le temps -- prolongée avec les curares, elle décroît avec les antibiotiques (NP2).",
@@ -1111,6 +1632,91 @@
      "text": "Question 4 -- Facteurs favorisants et place du bilan allergologique préanesthésique",
      "color": "navy"
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>Patients à risque de réaction d'hypersensibilité (S4.1)</b>",
+      "style": "cell_b"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Rep.",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation / conduite pratique (source)",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "S4.1.1",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Diagnostic d'allergie à un médicament/produit de l'anesthésie déjà établi par un bilan allergologique préalable.",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "S4.1.2",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Signes cliniques évocateurs d'une allergie lors d'une précédente anesthésie.",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "S4.1.3",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Manifestations cliniques lors d'une exposition au latex (NP2), quelles que soient les circonstances d'exposition.",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "S4.1.4",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Enfants multiopérés, notamment pour spina bifida ou myéloméningocèle (fréquence élevée de sensibilisation au latex, NP1, et d'HSI au latex, NP1).",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "S4.1.5",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Manifestations à l'ingestion d'avocat, kiwi, banane, châtaigne, sarrasin, etc., ou exposition au Ficus benjamina (fréquence élevée de sensibilisation croisée avec le latex, NP2).",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "panel",
      "tone": "grey",
@@ -1234,6 +1840,55 @@
      "html": "<i>Cette question est le cœur de cette fiche : c'est le volet du document 2011 que la fiche compagnon Fiche_SFAR_Anaphylaxie_2025.pdf déclare elle-même hors de son propre champ (« reste du Champ 3 -- prévention programmée »).</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>Prévention primaire (S5.1)</b>",
+      "style": "cell_b"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Rep.",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation / conduite pratique (source)",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "S5.1.1-2",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "La prévention primaire d'une sensibilisation correspond à la non-exposition au médicament ou au matériau. Impossible pour les agents anesthésiques, mais réalisable pour certains matériaux comme le latex ; l'administration des curares doit être raisonnée, selon les indications de la curarisation (NP4).",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "S5.1.3",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il faut éviter l'exposition des patients au latex pour diminuer le risque de sensibilisation. La décision institutionnelle de travailler en ambiance « latex-free » est une prévention primaire efficace (NP1).",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Prévention secondaire (S5.2)</b>",

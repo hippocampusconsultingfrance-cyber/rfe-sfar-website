@@ -75,11 +75,135 @@
   {
    "title": "Délai d'administration & réinjection peropératoire",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Quand administrer l'antibioprophylaxie ?",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Réf.",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Niveau",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.1",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé d'administrer l'antibioprophylaxie par céphalosporine (ou ses alternatives en cas d'allergie, hors vancomycine) au plus tôt 60 minutes avant et au plus tard avant l'incision chirurgicale ou le début de la procédure interventionnelle, pour diminuer l'incidence d'ISO.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "GRADE 1"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.2",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas d'utilisation de la vancomycine, les experts suggèrent d'en débuter l'administration intraveineuse sur 60 minutes chez le patient non obèse au plus tôt 60 minutes avant, et au plus tard 30 minutes avant l'incision ou le début de la procédure, pour diminuer l'incidence d'ISO.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Argumentaire clé :</b> une administration après l'incision est associée à un surrisque d'ISO (méta-analyse De Jonge 2017, OR 1,89 [1,05-3,40]) ; le délai optimal se situe dans les 60 minutes précédant l'incision, sans différence démontrée entre 60-30 min et 30-0 min. Une administration avant l'induction anesthésique facilite l'imputabilité d'une éventuelle réaction allergique. Pour la vancomycine, le délai optimal se situe entre 60 et 30 minutes avant l'incision (un début trop précoce ou trop tardif est associé à un surrisque d'ISO) ; dilution ≤ 5 mg/mL et antihistaminique prophylactique réduisent les effets indésirables liés à la perfusion.",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Réinjection peropératoire",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Réf.",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Niveau",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.3.1",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de réadministrer une à plusieurs dose(s) peropératoire(s) d'antibioprophylaxie en cas de prolongation de la chirurgie ou de l'acte interventionnel, pour diminuer l'incidence d'ISO.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "GRADE 1"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.3.2",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est probablement recommandé de réadministrer cette (ces) dose(s), à la moitié de la dose initiale, toutes les 2 demi-vies de l'antibiotique utilisé, pour diminuer l'incidence d'ISO.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "GRADE 2"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Rythme de réinjection peropératoire</b> (posologie = moitié de la dose initiale) :",
@@ -144,11 +268,135 @@
   {
    "title": "Durée & adaptation chez le patient obèse",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Durée de l'antibioprophylaxie",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Réf.",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Niveau",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.4",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il n'est pas recommandé, dans la très grande majorité des cas (et hors exceptions mentionnées dans chaque tableau disciplinaire), de prolonger l'administration de l'antibioprophylaxie au-delà de la fin de la chirurgie, pour diminuer l'incidence d'ISO.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "GRADE 1"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Argumentaire clé :</b> 33 méta-analyses (2000-2022) comparant administration « courte » (peropératoire, ≤ 24 h postopératoires) vs. « prolongée » (&gt; 24 h à 7 j) ne retrouvent, à de rares exceptions près (chirurgie cardiaque, chirurgie orthognatique — données anciennes ou contradictoires), aucune supériorité d'une administration prolongée. Quand une prolongation pourrait exceptionnellement se discuter (à ne pas confondre avec une antibiothérapie préemptive ou probabiliste), aucun argument ne justifie de dépasser 48 heures postopératoires.",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Adaptation chez le patient obèse",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Réf.",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Niveau",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.5.1",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il n'est probablement pas recommandé d'augmenter la dose unitaire de céphalosporine chez le patient obèse pour diminuer l'incidence d'ISO, en dehors de cas particuliers (notamment IMC &gt; 50 kg/m²).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "GRADE 2"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.5.2",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les experts suggèrent de ne pas augmenter la dose unitaire d'amoxicilline-clavulanate chez le patient obèse, en dehors de cas particuliers (notamment IMC &gt; 50 kg/m²).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.6",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Pour les alternatives aux bêtalactamines en cas d'allergie, les experts suggèrent d'utiliser des doses adaptées à l'IMC chez le patient obèse (détail ci-dessous), pour diminuer l'incidence d'ISO.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Rationnel R1.5.1/R1.5.2 :</b> céphalosporines (céfazoline, céfoxitine, céfuroxime) et amoxicilline sont hydrophiles — leur volume de distribution n'augmente pas proportionnellement à la masse grasse. Un bolus de 2 g de céfazoline atteint la cible pharmacocinétique chez l'obèse jusqu'à la fin de la chirurgie ou 4 h après injection (données PK/PD les plus étoffées), sans bénéfice clinique démontré d'une dose supérieure (3 g) sur l'incidence d'ISO dans plusieurs cohortes. Pour la céfoxitine (2 g), les concentrations restent au-dessus de la cible jusqu'à 2 h après injection (intervalle de réinjection) ; pour le céfuroxime, les données disponibles (bolus de 1,5 g) montrent de même des concentrations satisfaisantes jusqu'à au moins 2 h.",
@@ -229,6 +477,84 @@
   {
    "title": "Patient colonisé à E-BLSE & traçabilité",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Patient colonisé au niveau rectal à E-BLSE (chirurgie colo-rectale)",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Réf.",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Niveau",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.7.1",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Dans les centres où la prévalence de colonisation digestive à entérobactéries productrices de BLSE (E-BLSE) des patients opérés de chirurgie colorectale est ≥ 10 %, les experts suggèrent un dépistage de la colonisation rectale à E-BLSE dans le mois précédant la chirurgie, pour adapter l'antibioprophylaxie et diminuer l'incidence d'ISO.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.7.2",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas de positivité du dépistage, les experts suggèrent d'administrer, pour une chirurgie colo-rectale, une antibioprophylaxie ciblée active sur la souche d'E-BLSE identifiée, pour diminuer l'incidence d'ISO.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "R1.7.3",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les experts suggèrent une prise en charge multidisciplinaire (anesthésiste-réanimateur, chirurgien, infectiologue ou référent en infectiologie, microbiologiste) pour individualiser l'antibioprophylaxie des patients colonisés au niveau rectal à E-BLSE en chirurgie colo-rectale.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Argumentaire clé :</b> la colonisation à E-BLSE multiplie par ~1,6 le risque d'ISO toutes bactéries confondues, et par ~7 le risque d'ISO à E-BLSE (méta-analyse Righi et al.). Chez les porteurs, une antibioprophylaxie ciblée (ertapénème 2 g IV lent en dose unique, ou alternative efficace sur la souche — céfoxitine, amoxicilline/clavulanate, pipéracilline/tazobactam) réduit l'incidence d'ISO par rapport à une antibioprophylaxie standard (étude Nutman : NNT = 13). Dans un objectif d'épargne des carbapénèmes, l'administration systématique de carbapénème n'est <b>pas</b> synonyme d'antibioprophylaxie ciblée : plusieurs alternatives actives sur certaines souches d'E-BLSE existent. Seuil de 10 % retenu par analogie avec la définition OMS d'une colonisation « élevée », en l'absence de seuil prospectivement validé.",

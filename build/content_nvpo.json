@@ -109,6 +109,161 @@
       ]
      ]
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>TABLEAU 1</b> — Scores simplifiés de prédiction des NVPO",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Facteur de risque",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Apfel et al.",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Koivuranta et al.",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Sexe féminin",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Antécédent de NVPO",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Mal des transports",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Non-fumeur",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Morphiniques postopératoires",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Durée d'anesthésie > 60 min",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "+",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pouvoir discriminant (AUC ROC)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "0,68-0,71",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "0,70-0,71",
+         "style": "cell"
+        }
+       ]
+      ]
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<i>Risque de NVPO (%) selon le nombre de facteurs présents — Apfel : 0→&lt;10 %, 1→21 %, 2→39 %, 3→61 %, 4→79 % ; Koivuranta : 0→17 %, 1→18 %, 2→42 %, 3→54 %, 4→74 %, 5→87 %. Score Apfel = 4 critères ; score Koivuranta = 5 critères.</i>",
+      "style": "note"
+     }
+    ],
     {
      "t": "section",
      "text": "Q3 — Les antagonistes du récepteur 5HT3 (AR-5HT3, « sétrons »)",
@@ -205,6 +360,129 @@
      "html": "Efficaces quels que soient type d'intervention/anesthésie/patient ; pas de supériorité démontrée sur la dexaméthasone ou le dropéridol. Doses prophylaxie : ondansétron 4 mg, granisétron 0,3 mg, dolasétron 12,5 mg, tropisétron 2 mg. Doses traitement : ondansétron 4 mg (efficace dès 1 mg), dolasétron 12,5 mg, granisétron 0,1 mg, tropisétron 0,5 mg. Ne pas répéter le même antiémétique avant 6h ; changer de classe en cas d'échec. Effets secondaires modérés (céphalées 10-20 %, constipation 5-10 %) ; allongement du QT (effet de classe, sans conséquence clinique démontrée chez l'adulte).",
      "style": "note"
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>TABLEAU 2</b> — Pharmacocinétique et posologies des principaux AR-5HT3 (adulte)",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "AR-5HT3",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Demi-vie (h)",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Métabolisme CYP450",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Posologie NVPO (mg)",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Ondansétron",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "3",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "2D6 + autres",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "4,0",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Granisétron",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "9-11",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "3A",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "0,3-1,0",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Tropisétron",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "7,3",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "2D6",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "5,0",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Dolasétron",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "7-9",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "2D6",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "12,5",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "section",
      "text": "Q4 — Corticostéroïdes (dexaméthasone) et dropéridol",
@@ -924,6 +1202,93 @@
      "html": "<b>Conclusion (non graduée) :</b> les algorithmes améliorent la prise en charge antiémétique. Il n'existe cependant pas de preuve de la supériorité d'un algorithme par rapport aux autres — le facteur le plus important est le nombre d'antiémétiques administrés, pas l'algorithme précis suivi.",
      "style": "note"
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>FIGURE 1</b> — Exemple d'algorithme de prise en charge des NVPO",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<i>Redessin en tableau de l'algorithme de la page 876 du document source (vérifié visuellement à 200dpi) — combine le score de risque simplifié (Tableau 1, 0 à 4 facteurs), les circonstances/souhaits du patient, et 3 filières prophylaxie/secours par niveau de risque.</i>",
+      "style": "note"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Niveau de risque",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Prophylaxie",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Traitement de secours",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Faible\n(0-1 facteur)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Expectative armée (pas de prophylaxie systématique, traitement de secours prêt) — la monothérapie prophylactique reste une option à ce niveau de risque si un traitement de secours rapide est assuré (cf. Q7)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "1) AR-5HT3 ; 2) autre antiémétique validé ; 3) envisager la combinaison d'interventions",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Moyen\n(≈2 facteurs)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Dexaméthasone 4 mg + un autre antiémétique",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "1) antiémétique(s) de classe(s) différente(s) ; 2) combinaison d'interventions",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Élevé\n(3-4 facteurs)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "AG intraveineuse + dexaméthasone 4 mg + un autre antiémétique (si possible, réduire le risque de base : ALR, éviter halogénés peropératoires et morphiniques postopératoires)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "1) antiémétique(s) de classe(s) différente(s) ; 2) combinaison d'interventions",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "section",
      "text": "Q8 — Intégration des situations locales ou particulières",
@@ -1196,6 +1561,158 @@
   {
    "title": "Q9-10 — Pédiatrie (suite), ambulatoire, traçabilité",
    "items": [
+    [
+     {
+      "t": "p",
+      "html": "<b>TABLEAU 3</b> — Facteurs de risque de NVPO chez l'enfant",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Facteur de risque",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Âge supérieur à 3-4 ans",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Antécédent de NVPO/mal des transports, personnel ou familial",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Durée de chirurgie supérieure à 30-45 min",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Chirurgie du strabisme",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
+    [
+     {
+      "t": "p",
+      "html": "<b>TABLEAU 4</b> — Antiémétiques en pédiatrie : posologies en monothérapie",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Antiémétique",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Posologie (IV, mg/kg)",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Dose maximale (mg)",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Dropéridol",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "50 à 75 µg/kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "1,25",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Dexaméthasone",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "150 µg/kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "5,00",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Ondansétron",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "50 à 100 µg/kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "4,00",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Dolasétron",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "350 µg/kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "12,50",
+         "style": "cell"
+        }
+       ]
+      ]
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<i>D'après Gan TJ, et al. Anesth Analg 2003;97:62-71. Unité de posologie confirmée µg/kg par vérification visuelle de la page source (l'extraction automatique du texte supprime le glyphe µ — bug d'extraction déjà rencontré ailleurs dans ce corpus).</i>",
+      "style": "note"
+     }
+    ],
     {
      "t": "section",
      "text": "Q10 — Particularités en chirurgie ambulatoire",

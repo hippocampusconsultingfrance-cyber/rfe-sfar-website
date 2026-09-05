@@ -358,6 +358,144 @@
       ]
      ]
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>TABLEAU</b> — Suggestion de prise en charge des anticoagulants avant drainage pleural",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Anticoagulant",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Délai d'arrêt avant drainage",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Agent de réversion (si indiqué)",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "AVK",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "5 jours",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Concentrés de complexe prothrombinique + vitamine K",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Dabigatran",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "4 jours*",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Idarucizumab",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Apixaban, rivaroxaban",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "3 jours",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Concentrés de complexe prothrombinique",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "HNF IVSE curative",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "6 heures",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Protamine",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "HNF SC curative",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "12 heures",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Protamine",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "HBPM curative",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "24 heures*",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Protamine",
+         "style": "cell"
+        }
+       ]
+      ]
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<i>* En l'absence d'insuffisance rénale.</i>",
+      "style": "note"
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Argumentaire :</i> l'aspirine augmente peu le risque hémorragique, le drainage peut donc être réalisé sans arrêt. Il est suggéré de ne pas transfuser de plaquettes pour neutraliser les antiplaquettaires ; en urgence vitale immédiate, il est suggéré de ne pas attendre la correction de l'hémostase.",

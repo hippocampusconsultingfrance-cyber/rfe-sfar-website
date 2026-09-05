@@ -47,7 +47,134 @@
   },
   {
    "title": "Classification du risque hémorragique de la procédure",
-   "items": []
+   "items": [
+    [
+     {
+      "t": "section",
+      "text": "Classification du risque hémorragique de la procédure",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Proposition",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Principe",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de diviser le risque hémorragique associé à la procédure invasive en risque élevé, intermédiaire et faible.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risque élevé",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les procédures à risque hémorragique élevé sont définies comme non réalisables sous AAP, même sous aspirine en monothérapie. Ce sont celles pour lesquelles le risque hémorragique sous aspirine est soit inconnu mais considéré comme potentiellement préoccupant, soit inacceptable ou jugé comme tel (risque létal ou fonctionnel). Elles sont peu fréquentes et incluent, par exemple, certains actes d'urologie lorsque des techniques alternatives ne peuvent pas être utilisées, de nombreux actes de neurochirurgie intracrânienne, les chirurgies avec des délabrements importants ou de grandes dissections, certains actes de chirurgie hépatique ou thoracique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risque intermédiaire",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les procédures à risque hémorragique intermédiaire sont définies comme réalisables sous aspirine seule. Il s'agit de la majorité des procédures invasives.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risque faible",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les procédures à faible risque hémorragique sont définies comme réalisables sous bithérapie antiplaquettaire. Elles incluent, par exemple, la chirurgie de la cataracte, certains actes de chirurgie buccodentaire, certains actes d'urologie telle l'uréthrocystoscopie, certains actes de chirurgie vasculaire, certaines bronchoscopies, certains actes d'endoscopie digestive, incluant par exemple, toutes les endoscopies diagnostiques avec ou sans biopsies, les cholangio-pancréatographies rétrogrades endoscopiques sans sphinctérotomie, les polypectomies coliques &lt; 1 cm. Toutefois, l'expérience de ces procédures avec le ticagrélor ou le prasugrel est limitée. De plus, l'administration associée d'autres médicaments interférant avec l'hémostase, ou l'existence d'une comorbidité augmentant le risque hémorragique, peuvent conduire à choisir l'interruption de l'anti-P2Y12.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Absence de consensus",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Lorsqu'il n'existe pas de consensus ou de référentiel pour classer un acte invasif dans une de ces catégories, il est proposé qu'une équipe référente (opérateur, anesthésiste, cardiologue, pneumologue, médecin vasculaire, hémostasien…) dans l'établissement de santé définisse une attitude de prise en charge, au cas par cas, ou pour un profil de patient ou de geste. Ces décisions sont notifiées dans le dossier du patient ou dans les procédures de l'établissement.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Endoscopies digestives",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Concernant les endoscopies digestives, il est proposé que des stratégies de gestion des AAP soient définies dans chaque centre en fonction du profil des patients pris en charge et donc du geste invasif pouvant être potentiellement réalisé pendant l'endoscopie. Ainsi, si la probabilité d'un geste nécessitant une interruption des AAP pour un profil de patient déterminé est jugée élevée, c'est cette stratégie qui est adoptée (ex. : sphinctérotomie, gastrostomie…). En revanche, si la probabilité est faible, c'est la poursuite des AAP qui est privilégiée (ex. : maladies inflammatoires chroniques de l'intestin, dyspepsie…). Quand la probabilité et la nature des lésions à réséquer n'est pas connue a priori, chaque centre détermine son attitude (ex. : recherche de polypes).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ]
+   ]
   },
   {
    "title": "Figure 1 — synthèse des propositions & Tableau I",
@@ -285,12 +412,179 @@
       "html": "<b>Délai d'arrêt des AAP — dernière prise à :</b> J-3 pour l'aspirine ; J-5 pour le clopidogrel et le ticagrélor ; J-7 pour le prasugrel (ajouter 2 jours à chaque durée si neurochirurgie intracrânienne). En post-opératoire, reprendre les 2 AAP au plus vite, en fonction du risque hémorragique.",
       "style": "body_sm"
      }
-    }
+    },
+    [
+     {
+      "t": "p",
+      "html": "<b>TABLEAU I</b> — Caractéristiques d'un stent à haut risque thrombotique*",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Caractéristique",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Antécédent de thrombose de stent sous bithérapie antiplaquettaire",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Maladie coronaire diffuse en particulier chez le diabétique",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Insuffisance rénale chronique (i.e. ClCr &lt; 60 mL/min)",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Traitement d'une occlusion coronaire chronique",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Stenting de la dernière artère coronaire perméable",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Au moins trois stents implantés",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Au moins trois lésions traitées",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Bifurcation avec deux stents implantés",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Longueur totale de stent &gt; 60 mm",
+         "style": "cell"
+        }
+       ]
+      ]
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<i>* Renvoi de la Figure 1 et du Tableau I. ** Si stent &lt; 1 mois, discuter un relais par AAP injectable.</i>",
+      "style": "note"
+     }
+    ]
    ]
   },
   {
    "title": "Durées d'interruption, relais & gestion selon l'indication",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Durées d'interruption des AAP et relais",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Proposition",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Durées d'interruption",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Si l'interruption des AAP avant une procédure invasive est indiquée, il est proposé de les interrompre de la façon suivante : dernière prise d'aspirine à J-3 (J0 correspond au jour de la procédure) ; dernière prise de clopidogrel et de ticagrélor à J-5 ; dernière prise de prasugrel à J-7.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Relais",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de n'utiliser ni les héparines (HNF ou HBPM) ni les AINS en relais des AAP.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Aspirine — posologie",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Chez les patients traités au long cours par aspirine à des posologies allant jusqu'à 300 mg/j, il est proposé de ne pas réduire la posologie en vue de la chirurgie.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Note (neurochirurgie intracrânienne) :</b> pour la neurochirurgie intracrânienne, il est proposé que la dernière prise soit à J-5 pour l'aspirine, J-7 pour le clopidogrel et le ticagrélor, J-9 pour le prasugrel (accord fort).",
@@ -300,12 +594,280 @@
      "t": "p",
      "html": "<b>Note (ticagrélor, pontage semi-urgent) :</b> des données récentes suggèrent que la chirurgie semi-urgente de pontage aortocoronaire puisse être réalisée après une interruption plus courte du ticagrélor, de trois à cinq jours, sans surrisque hémorragique pour la majorité des patients. Cependant, dans cette situation, les patients n'ayant pas une correction de l'inhibition plaquettaire induite par le ticagrélor sont exposés à un risque accru d'hémorragie.",
      "style": "note"
-    }
+    },
+    [
+     {
+      "t": "section",
+      "text": "Gestion des AAP en fonction de leur indication",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Proposition",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Prévention primaire — non-initiation",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de ne pas initier un traitement par aspirine en préopératoire d'une chirurgie non cardiaque (à l'exception de l'endartériectomie carotidienne) dans le but de réduire les évènements cardiovasculaires périopératoires.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Prévention primaire — arrêt",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé d'arrêter l'aspirine en préopératoire lorsqu'elle est prescrite en prévention primaire.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Prévention secondaire — poursuite",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de ne pas arrêter l'aspirine en préopératoire lorsqu'elle est prescrite en prévention cardiovasculaire secondaire (post-accident vasculaire cérébral ischémique, coronaropathie, artériopathie des membres inférieurs), à l'exception des procédures à risque hémorragique élevé.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Anti-P2Y12 monothérapie — relais aspirine",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé que chez les patients traités par un anti-P2Y12 en monothérapie et programmés pour une chirurgie à risque intermédiaire, l'AAP soit remplacé par de l'aspirine, à la dose journalière 75 à 100 mg. Ce changement pourrait avoir lieu plus de sept jours avant la chirurgie, afin de permettre une correction complète de l'inhibition plaquettaire induite par l'anti-P2Y12.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Reprise postopératoire",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé que la reprise de l'AAP soit aussi précoce que possible, en fonction du risque de saignement postopératoire, chez les patients ayant une indication à un traitement par AAP en monothérapie au long cours.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ]
    ]
   },
   {
    "title": "Bithérapie antiplaquettaire — stent coronaire",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Bithérapie antiplaquettaire chez le patient porteur de stent coronaire",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Proposition",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Décision multidisciplinaire",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé que la gestion préopératoire des AAP et leur reprise postopératoire soit discutée avec le cardiologue du patient ou un cardiologue référent et tracée dans le dossier lorsqu'il s'agit d'une procédure à risque hémorragique intermédiaire ou élevé.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Report de la chirurgie",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de reporter toute chirurgie non cardiaque à la fin de la durée recommandée de la bithérapie antiplaquettaire quand cela ne génère pas de risque vital ou fonctionnel majeur pour le patient.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Si report impossible",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Si ce report n'est pas possible, il est proposé de repousser toute chirurgie non cardiaque au-delà du 1er mois qui suit la pose de stent, quel que soit le type de stent, quelle que soit l'indication (IDM ou coronaropathie stable). Si le geste ne peut être différé au-delà du 1er mois, il est proposé de réaliser cette chirurgie en poursuivant l'aspirine et dans un centre ayant un plateau de cardiologie interventionnelle actif 24 heures sur 24.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Haut risque thrombotique / IDM",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Chez les patients sous bithérapie antiplaquettaire dans les suites d'un IDM ou en cas de pose de stent associé à des caractéristiques à haut risque thrombotique, il est proposé de reporter toute chirurgie non cardiaque au-delà du 6e mois qui suit la pose de stent.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Aspirine — poursuite",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de poursuivre l'aspirine en préopératoire. Si elle a été interrompue, il est recommandé de la reprendre aussi précocement que possible après la procédure invasive, au mieux le jour même, en fonction du risque de saignement postopératoire.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Relais parentéral (cas exceptionnels)",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Si les deux AAP doivent être interrompus dans le 1er mois suivant la pose de stent, un relais par des AAP parentéraux réversibles comme le tirofiban ou le cangrélor peut être discuté au cas par cas, avec une approche multidisciplinaire (utilisation hors AMM). Dans ces situations exceptionnelles, associées à un haut risque hémorragique et thrombotique, le relais doit être réalisé en soins intensifs et la chirurgie doit être réalisée dans un centre ayant un service de cardiologie interventionnelle actif 24 heures sur 24.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Reprise des anti-P2Y12",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Si les anti-P2Y12 ont été interrompus avant la chirurgie, ils doivent être repris précocement, au mieux dans les 24 à 72 heures après la chirurgie, compte tenu de l'augmentation du risque thrombotique. La reprise se fait avec le même anti-P2Y12 qu'en préopératoire.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "AINS",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de ne pas administrer d'AINS en périopératoire chez les patients traités par bithérapie antiplaquettaire.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "panel",
      "tone": "grey",
@@ -325,6 +887,84 @@
   {
    "title": "Anesthésie locorégionale (rachidienne & blocs périphériques)",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Anesthésie locorégionale rachidienne (ALR-R)",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Proposition",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Aspirine",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "L'aspirine ne contre-indique pas une ALR rachidienne si le rapport bénéfice-risque est favorable, en vérifiant l'absence d'anomalie associée de l'hémostase, incluant un traitement anticoagulant. Il est proposé de préférer si possible la rachianesthésie en ponction unique à la péridurale.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Anti-P2Y12",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "L'ALR rachidienne est contre-indiquée en cas de traitement par anti-P2Y12 (clopidogrel, prasugrel, ticagrélor), sauf si ces AAP ont été interrompus respectivement 5, 7 et 5 jours avant le geste.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Cathéter péridural",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "La mise en place d'un cathéter péridural expose à une gestion complexe des AAP. Le retrait du cathéter suit les mêmes règles que la pose. Le recours au cathéter péridural ne doit pas compromettre la reprise postopératoire des AAP, et en particulier des anti-P2Y12.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "section",
      "text": "Blocs nerveux périphériques",
@@ -426,6 +1066,100 @@
   {
    "title": "Chirurgie de pontage aortocoronaire & traçabilité",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Chirurgie cardiaque de pontage aortocoronaire (PAC)",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Proposition",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Décision multidisciplinaire",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé que la stratégie de gestion des AAP en vue de pontage aortocoronaire (PAC) soit décidée de façon multidisciplinaire en fonction du risque hémorragique et du risque thrombotique de chaque patient.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Aspirine",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de poursuivre l'aspirine pour la chirurgie de PAC.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Anti-P2Y12 — durées",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Pour les patients traités par bithérapie antiplaquettaire, il est proposé de réaliser les procédures de PAC après interruption des anti-P2Y12, avec dernière prise de clopidogrel et de ticagrélor à J-5 et une dernière prise de prasugrel à J-7.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Ticagrélor — données récentes",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Des données récentes suggèrent que la chirurgie semi-urgente puisse être réalisée après une interruption plus courte du ticagrélor, de 3 à 5 jours, sans surrisque hémorragique pour la majorité des patients. Cependant, dans cette situation, les patients n'ayant pas une correction de l'inhibition plaquettaire induite par le ticagrélor sont exposés à un risque d'hémorragie.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "section",
      "text": "Sources et traçabilité",

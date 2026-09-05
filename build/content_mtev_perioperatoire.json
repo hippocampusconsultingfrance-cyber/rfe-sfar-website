@@ -94,6 +94,114 @@
   {
    "title": "Impact des protocoles & facteurs de risque liés au patient",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Q1 — Impact de l'implémentation de protocoles de thromboprophylaxie",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Protocoles locaux",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé d'implémenter localement des protocoles de thromboprophylaxie veineuse pour réduire le risque de complications péri-opératoires. Ces protocoles incluent la déambulation précoce et la thromboprophylaxie pharmacologique et mécanique, dont l'indication, les modalités et la durée dépendent du risque thromboembolique veineux de la chirurgie et du patient, du risque hémorragique et du parcours de soin.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ]
+      ]
+     }
+    ],
+    [
+     {
+      "t": "section",
+      "text": "Q2 — Facteurs de risque thromboembolique veineux liés au patient",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Chirurgie faible risque + FdR patient",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Après une chirurgie à faible risque thromboembolique veineux, si le patient présente un facteur de risque majeur ou plusieurs facteurs de risque mineurs, il est proposé de prescrire une thromboprophylaxie par anticoagulant pendant une durée minimale de 7 jours.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Thrombophilie majeure sans AC",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas de thrombophilie majeure sans traitement anticoagulant au long cours, il est suggéré de se rapprocher d'un centre spécialisé afin de documenter la thrombophilie et d'évaluer le risque thromboembolique veineux.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "panel",
      "tone": "default",
@@ -121,6 +229,89 @@
   {
    "title": "Orthopédie — PTH/PTG & Figure 1",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Orthopédie — Prothèse totale de hanche (PTH) ou de genou (PTG), hors fracture",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Indication",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de prescrire une thromboprophylaxie pharmacologique après PTH ou PTG.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Durée",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé que la durée de thromboprophylaxie pharmacologique soit de 35 jours après PTH et 14 jours après PTG.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Modalités",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de prescrire soit un anticoagulant (AOD, HBPM ou fondaparinux) pendant toute la durée, soit une thromboprophylaxie séquentielle (5 jours d'anticoagulant puis aspirine 75-100 mg/j pendant 30 jours après PTH ou 9 jours après PTG) si le patient est pris en charge dans un parcours de RAAC réussi et sans facteur de risque thromboembolique veineux majeur** ni plusieurs facteurs mineurs.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ]
+      ]
+     },
+     {
+      "t": "p",
+      "html": "** Facteurs de risque majeurs : antécédents personnels d'ETEV, thrombophilie majeure connue, cancer actif, obésité morbide (IMC ≥ 40 kg/m²) — cf Q2.",
+      "style": "note"
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Posologies :</i> apixaban 2,5 mg x2/j (débuté à H12-H24) ; rivaroxaban 10 mg x1/j (H6-H8) ; dabigatran 220 mg x1/j (150 mg si &gt;75 ans, ClCr 30-50, ou interaction vérapamil/amiodarone/quinidine) ; fondaparinux 2,5 mg x1/j SC (≥ H8) ; HBPM ≥ 4000 UI anti-Xa. Parcours optimisé (RAAC/ambulatoire) = chirurgie &lt;120 min ET marche avec déroulé du pas &lt;24h ET hospitalisation &lt;5 jours.",
@@ -250,26 +441,606 @@
   {
    "title": "Orthopédie/traumatologie — fractures & gestes non majeurs",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Fracture de l'extrémité supérieure du fémur (ESF)",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Anticoagulant",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Une thromboprophylaxie par anticoagulant (HBPM ou fondaparinux) est recommandée pendant 4 semaines après la chirurgie.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Chirurgie retardée",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Si la chirurgie est retardée, il est proposé de débuter la thromboprophylaxie en pré-opératoire, en préférant une HBPM et en respectant un délai de 12h entre la dernière injection d'HBPM et la chirurgie.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Fondaparinux 2,5 mg x1/j SC (poids &gt;50 kg, DFG &gt;50) débuté ≥ H8. Aspirine non recommandée dans cette indication à haut risque thrombotique (non comparée aux HBPM).</i>",
      "style": "note"
-    }
+    },
+    [
+     {
+      "t": "section",
+      "text": "Fracture diaphyse fémorale, plateau tibial, rotule, tibia, cheville, tendon d'Achille",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Anticoagulant",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Une thromboprophylaxie par anticoagulant (AOD anti-Xa ou HBPM) est recommandée après chirurgie pour ces fractures/ruptures.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Choix",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de préférer un AOD anti-Xa à une HBPM (essai PRONOMOS : rivaroxaban plus efficace que l'enoxaparine sans excès hémorragique).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Chirurgie différée",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Si l'intervention est prévue plus de 12h après l'hospitalisation, une thromboprophylaxie pré-opératoire par HBPM est proposée (délai 12h avant la chirurgie).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Durée",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de poursuivre jusqu'à l'appui plantaire avec déroulé du pied, durée minimale 7 jours.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Aspirine",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il n'est pas recommandé de prescrire de l'aspirine pour la thromboprophylaxie veineuse.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1-"
+        }
+       ]
+      ]
+     }
+    ],
+    [
+     {
+      "t": "section",
+      "text": "Ligamentoplastie du genou, arthroscopie simple, méniscectomie, chir. avant-pied, ablation de matériel",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pas de systématique",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de ne pas prescrire de thromboprophylaxie pharmacologique systématique après ces gestes.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Si FdR patient",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Si le patient présente un facteur de risque thromboembolique veineux majeur ou plusieurs facteurs mineurs, une thromboprophylaxie par anticoagulant (AOD anti-Xa ou HBPM) est proposée.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Durée si prescrite",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Si une thromboprophylaxie pharmacologique est prescrite, une durée de 7 jours minimum est suggérée.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ]
+      ]
+     }
+    ]
    ]
   },
   {
    "title": "Chirurgie abdomino-pelvienne, carcinologique & vasculaire",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Chirurgie abdomino-pelvienne (carcinologique ou non)",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risque élevé — HBPM",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Après chirurgie abdomino-pelvienne à risque élevé (carcinologique ou non), il est recommandé de prescrire une thromboprophylaxie par HBPM pour une durée de 4 semaines, y compris en cas de chirurgie mini-invasive ou de parcours de RAAC.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risque élevé — fondaparinux",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé que le fondaparinux puisse être utilisé en alternative aux HBPM.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risque élevé — AOD en relais",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé que les AOD anti-Xa puissent être utilisés en relais des HBPM après reprise du transit.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risque intermédiaire",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de prescrire une thromboprophylaxie par HBPM pour une durée minimale de 7 jours.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risque faible",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de ne pas prescrire de thromboprophylaxie pharmacologique systématique. Elle est proposée si le patient présente un facteur de risque majeur, plusieurs facteurs mineurs, une chirurgie prolongée ou une complication post-opératoire.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Chirurgie à risque élevé (durée &gt;2h, résection étendue, maladie carcinologique/inflammatoire) : ex. hépatectomie majeure, colectomie, gastrectomie, prostatectomie, cystectomie, néphrectomie, hystérectomie par voie haute, chirurgie du cancer de l'utérus/ovaire. Risque intermédiaire : ex. sigmoïdectomie à distance d'une poussée, néphrectomie pour don vivant. Risque faible : ex. cholécystectomie programmée, RTUP, conisation, hystéroscopie.</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Chirurgie carcinologique (hors abdomino-pelvienne : sein, ORL, poumon…)",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risque élevé",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Après chirurgie carcinologique à risque thromboembolique élevé, il est recommandé de prescrire une thromboprophylaxie par HBPM pour une durée minimale de 7 jours.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Délai",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de commencer la thromboprophylaxie pharmacologique en post-opératoire.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "CPI",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé d'utiliser la CPI en per- et post-opératoire en cas de très haut risque thromboembolique veineux# ou de contre-indication à la thromboprophylaxie pharmacologique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i># Combinaison d'un FdR majeur lié au patient et d'un risque chirurgical élevé. Sein : risque bas (&lt;0,5%), pas de prophylaxie systématique sauf mastectomie avec reconstruction, chimiothérapie péri-opératoire ou tamoxifène. ORL : majorité ambulatoire sans prophylaxie, prophylaxie si chirurgie majeure avec lambeau. Poumon : incidence élevée (2-5% à 1 mois) malgré prophylaxie, durée optimale non établie (certaines recommandations suggèrent jusqu'à 1 mois par analogie).</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Chirurgie vasculaire",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Carotidienne",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Après chirurgie carotidienne, il est proposé de ne pas prescrire de thromboprophylaxie veineuse systématique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Aortique / revasc. MI ouverte",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Après chirurgie aortique abdominale (ouverte ou endoprothèse) ou revascularisation artérielle des membres inférieurs par voie ouverte, il est proposé de prescrire une thromboprophylaxie jusqu'à reprise de la marche.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Endovasculaire MI",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Après procédure endovasculaire artérielle (angioplastie et/ou endoprothèse) des membres inférieurs, il est proposé de ne pas prescrire de thromboprophylaxie systématique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Revasc. MI + rivaroxaban",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Chez un patient éligible au rivaroxaban 2,5 mg x2/j + aspirine 100 mg/j (prévention cardiovasculaire), il est proposé de différer l'introduction du rivaroxaban à la fin de la thromboprophylaxie veineuse par HBPM lorsque celle-ci est indiquée.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "CPI contre-indiquée",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de ne pas utiliser de CPI en péri-opératoire de chirurgie de revascularisation artérielle des membres inférieurs (risque d'altération de la perfusion artérielle).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Varices — chirurgie ouverte",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Après chirurgie ouverte de varices (stripping), il est proposé de réaliser une thromboprophylaxie de courte durée (≤ 7 jours).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Varices — endoveineux thermique",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Après procédure thermique endovasculaire des varices, il est proposé de ne pas prescrire de thromboprophylaxie sauf en cas de facteurs de risque liés au patient.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Rivaroxaban 2,5 mg x2/j + aspirine : AMM post-opératoire de chirurgie vasculaire artérielle des MI (essai VOYAGER PAD) en prévention des évènements cardiaques et vasculaires majeurs, initié dans les 10 jours post-opératoires ; si HBPM veineuse prescrite, décaler le rivaroxaban à l'arrêt de l'HBPM (J5-J10).</i>",
@@ -280,6 +1051,121 @@
   {
    "title": "Délai d'introduction & anesthésie locorégionale",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Délai d'introduction de la thromboprophylaxie pharmacologique",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Post-opératoire",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En chirurgie programmée, lorsqu'une thromboprophylaxie pharmacologique est indiquée, il est proposé d'en administrer la première dose en post-opératoire pour réduire le risque hémorragique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "H12-H24",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de débuter la thromboprophylaxie entre la 12e et la 24e heure post-opératoire (le lendemain matin pour la chirurgie programmée).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "H6-H12 si FdR élevé",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas de risque thromboembolique veineux élevé lié au patient# les experts proposent de débuter entre la 6e et la 12e heure post-opératoire, en commençant par une HBPM quel que soit l'anticoagulant du lendemain.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Chirurgie urgente différée",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas de chirurgie urgente différée de plus de 12h, il est proposé de débuter la thromboprophylaxie en pré-opératoire par une HBPM, en respectant un délai de 12h avant la chirurgie.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Délais avant ALR",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de respecter les délais minimaux de sécurité entre la thromboprophylaxie pharmacologique et la réalisation de procédures d'ALR neuraxiale.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ]
+      ]
+     },
+     {
+      "t": "p",
+      "html": "# lié au patient : antécédent personnel d'ETEV, thrombophilie majeure connue, cancer actif, IMC ≥ 40 kg/m², ou association de plusieurs facteurs de risque (cf Q2).",
+      "style": "note"
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Délais entre thromboprophylaxie pharmacologique et geste neuraxial</b> (rachianesthésie, péridurale, péri-rachi combinée, y compris retrait de cathéter)",
@@ -419,16 +1305,317 @@
   {
    "title": "CPI, contentions élastiques & filtre cave",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Compression pneumatique intermittente (CPI)",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Si AC contre-indiqués",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé d'utiliser la CPI si une thromboprophylaxie veineuse est indiquée mais que les anticoagulants sont contre-indiqués.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Très haut risque",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas de très haut risque thromboembolique veineux§, il est proposé d'associer la CPI en per- et post-opératoire à la thromboprophylaxie pharmacologique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Déambulation",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé que l'usage de la CPI ne retarde pas la reprise de la déambulation.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ]
+      ]
+     },
+     {
+      "t": "p",
+      "html": "§ Combinaison d'un FdR thromboembolique majeur lié au patient et d'une chirurgie à risque élevé.",
+      "style": "note"
+     }
+    ],
+    [
+     {
+      "t": "section",
+      "text": "Contentions élastiques graduées",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Non recommandées",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les contentions élastiques graduées ne sont pas recommandées pour la thromboprophylaxie péri-opératoire, quel que soit le risque thromboembolique veineux.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1-"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Essai GAPS (n=1858, ajout de contentions à une HBPM) : aucun bénéfice. Registre médico-économique (n=24273) : RR=0,999 (IC95% 0,998-1,000). Les contentions augmentent les lésions cutanées et les coûts sans réduire les ETEV.</i>",
      "style": "note"
-    }
+    },
+    [
+     {
+      "t": "section",
+      "text": "Filtre cave",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Prévention primaire",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de ne pas poser de filtre cave pour la thromboprophylaxie veineuse péri-opératoire primaire.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Prévention secondaire — pose",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de discuter la mise en place d'un filtre cave optionnel en pré-opératoire d'une chirurgie à risque hémorragique lorsque celle-ci doit être réalisée moins d'un mois après une EP et/ou une TVP proximale des membres inférieurs.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Retrait",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de programmer le retrait du filtre cave dès que le traitement anticoagulant curatif a pu être repris sans complication.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ]
+      ]
+     }
+    ]
    ]
   },
   {
    "title": "Insuffisance rénale & obésité",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Insuffisance rénale",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Adapter à la fonction rénale",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé d'adapter les modalités de thromboprophylaxie pharmacologique à la fonction rénale.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "IR sévère — 1re intention",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas d'insuffisance rénale sévère (DFG estimé 15-30 mL/min/1,73 m²), il est proposé d'utiliser les HBPM en première intention plutôt que l'HNF ou les AOD.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "IR sévère — schémas AMM",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé d'utiliser : enoxaparine 2000 UI x1/j SC si DFG 15-30 ; tinzaparine 4500 UI x1/j SC si DFG &gt; 20.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "IR terminale (DFG &lt;15)",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas d'insuffisance rénale terminale, il est recommandé d'utiliser la calciparine (HNF) 5000 UI x2/j SC, les autres thérapeutiques n'étant pas recommandées.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Tableau — Thromboprophylaxie et fonction rénale</b> (reproduction verbatim du tableau-image source p.52)",
@@ -668,6 +1855,116 @@
      "html": "<i>En rouge : non recommandé par l'AMM ; en orange : non recommandé par le GIHP ; en vert : recommandé. Dabigatran 150 mg x1/j si DFG 30-50, contre-indiqué si DFG &lt;30. Apixaban/rivaroxaban : pas d'ajustement si DFG 15-30 mais données péri-opératoires très limitées ; contre-indiqués si DFG &lt;15. Fondaparinux 2,5 mg contre-indiqué si DFG &lt;50 (fondaparinux 1,5 mg non disponible en France).</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Obésité et poids extrêmes",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Classe I-II (IMC 30-39)",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Chez les patients présentant une obésité de classe I ou II nécessitant une thromboprophylaxie pharmacologique, il est proposé d'utiliser un schéma posologique standard.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Classe III+ (IMC ≥40)",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé d'utiliser : enoxaparine 4000 UI x2/j SC (ou 6000 UI x1/j ; 6000 UI x2/j réservé aux patients &gt;150 kg) ; daltéparine 5000 UI x2/j SC ; tinzaparine 75 UI/kg (poids réel) x1/j SC ; fondaparinux 5 mg x1/j SC ; apixaban 2,5 mg x2/j PO ; rivaroxaban 10 mg x1/j PO (peu d'expérience AOD si IMC &gt;50 ou poids &gt;150 kg).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Classe III + chirurgie à risque élevé",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé d'associer une CPI à la thromboprophylaxie pharmacologique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Chirurgie bariatrique",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de prescrire une thromboprophylaxie post-opératoire par HBPM ou fondaparinux pour une durée minimale de 10 jours.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Petit poids",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Chez les patients de petit poids, il est proposé d'adapter les schémas posologiques (risque d'accumulation et d'hémorragie).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i>C'est l'IMC (et non le poids seul) qui guide la discussion de thromboprophylaxie chez l'obèse ; le poids guide l'adaptation posologique chez le patient de grande taille sans obésité. Seule la tinzaparine a une AMM d'ajustement au poids réel. Petit poids : ex. réduire l'enoxaparine à 2000 UI ; le RCP du fondaparinux déconseille son usage si poids &lt;50 kg. AOD : apixaban/rivaroxaban sans adaptation nécessaire à petit poids selon leur RCP ; données limitées pour le dabigatran.</i>",
@@ -678,11 +1975,247 @@
   {
    "title": "Pédiatrie & patient de réanimation",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Chirurgie pédiatrique",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Dès la puberté / 14 ans",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé qu'à partir de la puberté ou de l'âge de 14 ans, la thromboprophylaxie pharmacologique réponde aux mêmes recommandations que chez l'adulte.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Avant la puberté / 14 ans",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les experts suggèrent que la présence de plusieurs facteurs de risque thromboembolique veineux conduise à discuter au cas par cas le bénéfice-risque d'une thromboprophylaxie pharmacologique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Schémas proposés pour l'enfant &lt;40 kg autour de la puberté (non formellement évalués) : 50 UI/kg/j d'enoxaparine (1-2 injections/j) ou 50 UI/kg de tinzaparine x1/j. Risque hémorragique conséquent chez l'enfant (0,4-3% saignements majeurs, jusqu'à 21% mineurs). AOD sans AMM en prévention primaire pédiatrique (fin 2023).</i>",
      "style": "note"
-    }
+    },
+    [
+     {
+      "t": "section",
+      "text": "Patient de réanimation",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Indication",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé d'administrer une thromboprophylaxie pharmacologique chez les patients de réanimation pour réduire les complications thromboemboliques veineuses.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "HBPM > HNF",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En l'absence d'insuffisance rénale terminale, il est recommandé de prescrire des HBPM à doses prophylactiques plutôt que de l'HNF.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pas de monitorage anti-Xa",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Lors d'une thromboprophylaxie par HBPM, il est proposé de ne pas monitorer l'activité anti-Xa pour adapter les posologies.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Adapter les posologies",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé d'adapter les posologies d'HBPM chez les patients de petits poids, les obèses de classe III et plus, et en cas d'insuffisance rénale sévère.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "IR sévère stable",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas d'insuffisance rénale sévère stable (DFG 15-30), il est proposé d'utiliser les HBPM en 1re intention selon les schémas AMM (enoxaparine 2000 UI x1/j si DFG 15-30 ; tinzaparine 4500 UI x1/j si DFG &gt;20).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "IR terminale",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas d'insuffisance rénale terminale (DFG &lt;15), il est recommandé d'utiliser la calciparine 5000 UI x2/j SC.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pas de CPI systématique associée",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il n'est pas recommandé d'associer systématiquement une CPI à une thromboprophylaxie pharmacologique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "CPI si contre-indication",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "La CPI est recommandée en cas de contre-indication à une thromboprophylaxie par anticoagulants, en particulier si risque hémorragique élevé.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Contentions non recommandées",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les contentions élastiques graduées ne sont pas recommandées, quel que soit le risque thromboembolique veineux.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1-"
+        }
+       ]
+      ]
+     }
+    ]
    ]
   },
   {
@@ -1036,21 +2569,370 @@
       ]
      ]
     },
+    [
+     {
+      "t": "section",
+      "text": "Acide tranexamique et thromboprophylaxie veineuse",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pas de modification",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de ne pas modifier les modalités de thromboprophylaxie en cas d'administration d'acide tranexamique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1-"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Essais randomisés et méta-analyses concordants : l'acide tranexamique n'augmente pas l'incidence des ETEV péri-opératoires (chirurgie générale, orthopédique, cardiaque, obstétrique, traumatologie), y compris lorsque l'initiation de l'AOD est repoussée au lendemain d'une chirurgie orthopédique majeure.</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Monitorage biologique — surveillance du niveau d'anticoagulation",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pas de mesure sous HBPM",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de ne pas mesurer l'activité anti-Xa au cours d'une thromboprophylaxie par HBPM.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pas de mesure AOD/fondaparinux/HNF",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les experts proposent de ne pas mesurer le niveau d'anticoagulation au cours d'une prophylaxie par AOD, fondaparinux ou HNF.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Poids extrêmes / IR",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Chez les patients de poids extrêmes et les insuffisants rénaux, il est proposé de ne pas mesurer le niveau d'anticoagulation.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Si hémorragie",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas d'hémorragie sous thromboprophylaxie (AOD, HBPM, HNF, fondaparinux), les experts suggèrent de déterminer le niveau d'anticoagulation pour estimer sa contribution à l'hémorragie et aider la prise en charge.*",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Procédure d'établissement",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les experts suggèrent d'établir une procédure institutionnelle définissant le bon usage de la mesure du niveau d'anticoagulation (conditions de prélèvement, valeurs seuils) et la prise en charge.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ]
+      ]
+     },
+     {
+      "t": "p",
+      "html": "* Cf RFE 2024 SFMU/SFAR/GIHP/SFTH dédiée à la prise en charge des hémorragies sous anticoagulant.",
+      "style": "note"
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Activités anti-Xa habituellement observées sous enoxaparine 1 injection/j : 0,2-0,5 UI/mL au pic (H4). Aucun essai randomisé n'a démontré le bénéfice d'une adaptation posologique guidée par l'anti-Xa pour réduire les complications ; variabilité inter-tests importante (CV 12-33% pour &lt;0,35 UI/mL).</i>",
      "style": "note"
-    }
+    },
+    [
+     {
+      "t": "section",
+      "text": "Monitorage biologique — surveillance plaquettaire et risque de TIH",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Numération plaquettaire",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé de surveiller la numération plaquettaire pour un dépistage précoce de TIH : sous HBPM, une à deux fois par semaine entre J4 et J14 puis une fois par semaine pendant un mois si le traitement est poursuivi ; sous HNF, deux à trois fois par semaine entre J4 et J14 puis une fois par semaine pendant un mois ; et en cas de survenue d'une thrombose malgré la thromboprophylaxie.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ]
+      ]
+     }
+    ]
    ]
   },
   {
    "title": "TVP distale post-opératoire & Figure 2",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Découverte d'une thrombose veineuse profonde distale post-opératoire",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pas de dépistage systématique",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de ne pas faire de dépistage systématique des TVP asymptomatiques post-opératoires.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pas de traitement systématique",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est recommandé de ne pas traiter systématiquement les TVP distales isolées post-opératoires par un anticoagulant à dose curative.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1-"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Évaluer les risques",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas de TVP distale isolée post-opératoire, il est recommandé d'évaluer le risque d'extension thrombotique (TVPd bilatérale ou multiple, antécédent de MTEV, cancer actif) et le risque hémorragique (patient et procédure) pour décider des modalités thérapeutiques.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "1+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Sans FdR d'extension",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En l'absence de facteur de risque d'extension, il est proposé d'introduire ou poursuivre la thromboprophylaxie par anticoagulant pendant 35 jours, sans contrôle écho-Doppler.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "FdR extension + risque hémorragique faible",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Il est proposé d'introduire un traitement anticoagulant à dose curative pendant 6 à 12 semaines.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2+"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "FdR extension + risque hémorragique élevé",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les experts proposent d'introduire ou poursuivre la thromboprophylaxie pendant 6 à 12 semaines (contrôle écho-Doppler possible à J7 ; passage à dose curative si le risque hémorragique diminue).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "AE"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Anticoagulant contre-indiqué",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En cas de contre-indication à un traitement anticoagulant préventif, il est proposé de ne pas anticoaguler, de ne pas poser de filtre cave, et de contrôler l'écho-Doppler à J7 (recherche d'extension proximale).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "2-"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<i>Les TVP distales (sous-poplitées, troncs jambiers et veines musculaires) représentent jusqu'à la moitié des TVP diagnostiquées, le plus souvent asymptomatiques (33-46% de dépistage systématique après PTG). Risque d'extension proximale/EP sans anticoagulant : 5-10% (jusqu'à 20% si cancer). Essai PROTHEGE : prophylaxie étendue à 35j réduit les complications des TVPd vs prophylaxie courte de 10j (extension/récidive 4,5% vs 14,8%, p&lt;0,001).</i>",

@@ -469,6 +469,72 @@
      "html": "R12-R13 : méta-analyse Warttig (11 essais, 699 patients) — le réchauffement cutané actif atteint la normothermie 32 min plus vite qu'une couverture en coton préalablement chauffée, et 89 min plus vite qu'une couverture en coton non chauffée ; l'air chaud pulsé est plus rapide de 54 min que la circulation d'eau chaude (niveau de preuve faible, 2 études, 36 patients/bras).",
      "style": "note"
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>R14 — Proposition de stratégie de prévention de l'hypothermie accidentelle péri-anesthésique</b>",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "chip",
+      "label": "AE"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Phase",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Actions",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Accueil du patient\n(bloc opératoire)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "T° salle d'opération : 20°C à l'accueil et pendant l'induction. Mesure T°C de départ. Réchauffement cutané actif avant l'induction (pré-warming, R3 — 2+) puis pendant l'induction. Objectifs : réchauffer, dépister une hypothermie.",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Per-anesthésie\n(bloc opératoire)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Monitorage per-anesthésique continu de la T°C. Réchauffement : cutané actif (R4 — 1+), fluides i.v. (R6 — 1+), produits sanguins labiles (R7 — 1+), liquides d'irrigation (R8 — 2+). Objectifs : réchauffer, maintenir la T°C à 36,5°C, ne pas passer sous le seuil de 36°C.",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "SSPI (service)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Mesure T°C à l'arrivée en SSPI. Réchauffement cutané actif si hypothermie (R12 — 1+), par air chaud pulsé de préférence (R13 — 2+). Mesure T°C à la sortie de SSPI. Objectifs : réchauffer, T°C à 36,5°C.",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "section",
      "text": "Sources et traçabilité",

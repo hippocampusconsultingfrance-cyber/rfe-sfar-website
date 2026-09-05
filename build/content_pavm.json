@@ -288,7 +288,167 @@
      "t": "p",
      "html": "<i>Note : la source utilise « tobramycine » dans le texte de ce protocole mais « gentamicine » dans la recette de préparation officinale du Tableau III ci-dessous — incohérence propre au texte source, reproduite fidèlement plutôt qu'harmonisée.</i>",
      "style": "note"
-    }
+    },
+    [
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Tableau III — Préparation officinale (indicatif)",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Gel oral (125 mL)",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Suspension (15 mL)",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Polymyxine E",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "4 g",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "1 g",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Gentamicine",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "4 g",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "0,8 g",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Amphotéricine B",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "4 g",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "5 g",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Eau stérile",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "134 mL",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "100 mL",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Méthylcarboxycellulose",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "6 g",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Méthylparahydroxybenzoate",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "0,3 g",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Propylène glycol",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "50 mL",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Alcool mentholé",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "6 mL",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ]
    ]
   },
   {

@@ -62,6 +62,178 @@
      "html": "<i>Épidémiologie (contexte, non tagué) : l'incidence annuelle des EME convulsifs et non convulsifs est comprise entre 10 et 41 pour 100 000 habitants, plus élevée chez l'enfant et l'adulte de plus de 60 ans. Les lésions cérébrales apparaissent expérimentalement chez le primate au bout de 60 à 90 minutes d'EME convulsif généralisé.</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Champ 1 — Définitions de l'EME",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Définition générale",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "L'EME est défini, de façon générale, par des crises continues ou par la succession de crises sans amélioration de la conscience sur une période de 30 minutes.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "EME tonicoclonique généralisé",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Du fait de sa gravité, l'EME tonicoclonique généralisé requiert une définition spécifique impliquant une prise en charge plus précoce. Cette définition opérationnelle fait référence à des crises continues ou subintrantes pendant au moins cinq minutes.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "EME larvé — définition",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "L'EME larvé correspond à l'évolution défavorable d'un EME tonicoclonique généralisé non traité ou traité de façon inadéquate. Il se caractérise par l'atténuation, voire la disparition des manifestations motrices chez un patient comateux contrastant avec la persistance d'un EME électrique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Crises sérielles",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Les crises sérielles avec récupération de la conscience antérieure entre les crises peuvent évoluer vers un état de mal mais ne rentrent pas dans la définition de celui-ci.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Définitions chez l'enfant (enfant)",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Chez l'enfant, les définitions sont les mêmes. L'état de conscience en pédiatrie étant très fluctuant, il est d'autant plus difficile à apprécier que l'enfant est plus jeune.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
+    [
+     {
+      "t": "section",
+      "text": "Formes cliniques et classification",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "EME convulsif vs non convulsif",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "On distingue sur un plan clinique les EME convulsifs, dont le diagnostic repose sur les seules données cliniques, des EME non convulsifs, dont le diagnostic plus difficile nécessite la réalisation d'un électroencéphalogramme (EEG).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Classification opérationnelle",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Une classification « opérationnelle » basée sur le pronostic et donc sur le degré d'urgence thérapeutique est indispensable dans la pratique quotidienne. La classification proposée prend en compte trois degrés de mise en jeu du pronostic (détail ci-dessous).",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "table",
      "rows": [
@@ -235,6 +407,52 @@
   {
    "title": "Champ 2 — Diagnostic différentiel",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Champ 2 — Diagnostic différentiel",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Réévaluation neurologique",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Tout patient hospitalisé pour un EME doit être secondairement réévalué par un neurologue, afin de préciser, à distance de l'épisode aigu, le diagnostic positif, syndromique et différentiel de l'EME, et d'adapter les éventuels traitements antiépileptiques.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Pseudo état de mal</b>",
@@ -465,6 +683,68 @@
   {
    "title": "Champ 3 — Place de l'électroencéphalogramme",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Champ 3 — Place de l'électroencéphalogramme",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Traitement sans attendre l'EEG",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Le traitement d'un EME dont le diagnostic est évident doit débuter sans attendre l'EEG.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Disponibilité de l'EEG",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Celui-ci devrait idéalement être disponible 24 h/24 pour le diagnostic et le suivi des formes graves.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Un EEG en urgence est indiqué :</b>",
@@ -743,6 +1023,84 @@
   {
    "title": "Champ 4 — Étiologie, pronostic & Champ 5 — PEC non spécifique",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Champ 4 — Enquête étiologique",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Recherche rapide",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "La recherche étiologique doit être effectuée rapidement, sans retarder ni la mise en œuvre du traitement antiépileptique ni les manœuvres de réanimation.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "EME multi-étiologique",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Un EME répond souvent à plusieurs étiologies.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Faible"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Étiologie non maîtrisée",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Si une étiologie n'est pas diagnostiquée et maîtrisée, elle peut être un facteur d'entretien de l'EME.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "table",
      "rows": [
@@ -1118,6 +1476,178 @@
      "html": "<i>La mortalité des EME est mieux étudiée que leur morbidité : elle est comprise entre 8 et 39 % des cas (décès survenant dans les 30 premiers jours après le début de l'EME), et est principalement déterminée par l'étiologie (contexte, non tagué).</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Facteurs pronostiques",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Qualité de la prise en charge",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "La qualité de la prise en charge améliore le pronostic.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pronostic fonctionnel",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Le pronostic fonctionnel (séquelles motrices, cognitives, apparition ou aggravation d'une maladie épileptique) est difficile à déterminer indépendamment des facteurs étiologiques sous-jacents et des complications liées à la prise en charge.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Trois déterminants (adulte et enfant)",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Chez l'adulte comme chez l'enfant, les trois principaux déterminants de la mortalité et des séquelles neurologiques d'un EME sont l'âge, sa cause et sa durée.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "EME de novo — risque d'épilepsie",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Par rapport à des crises épileptiques inaugurales, un EME de novo augmente le risque de développer une épilepsie.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Caractère réfractaire",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Le caractère réfractaire d'un EME augmente le risque de mortalité, le risque de récidive d'EME et possiblement celui de développer une maladie épileptique.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Pronostic plus sévère si fébrile (enfant)",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Chez l'enfant, le pronostic de l'EME est plus sévère lorsqu'il est fébrile, compte tenu du risque de lésions hippocampiques.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
+    [
+     {
+      "t": "section",
+      "text": "Champ 5 — Prise en charge non spécifique de l'EME convulsif généralisé",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Hospitalisation et transfert en réanimation",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "La prise en charge symptomatique de l'EME convulsif généralisé est une urgence. Elle nécessite, en préhospitalier, l'intervention d'une équipe médicale d'urgence. L'hospitalisation est systématique. Le transfert en réanimation est indiqué en cas de persistance des crises, du trouble de la vigilance ou de défaillances associées.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "table",
      "rows": [
@@ -1428,6 +1958,52 @@
      "html": "<i>Champ 6 (pharmacologie, contexte non tagué) : aucune courbe dose—effet n'est disponible pour les antiépileptiques utilisés dans l'EME, ce qui gêne la comparaison entre molécules en équipotence ; le choix d'un agent et/ou d'une stratégie repose donc sur une opinion consensuelle d'experts.</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Champ 7 — Schéma thérapeutique initial (EME convulsif généralisé)",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Urgence thérapeutique",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Un traitement antiépileptique doit être, une fois le diagnostic établi, administré en urgence devant des crises convulsives généralisées continues ou subintrantes persistant au moins cinq minutes. La pérennisation de l'EME convulsif augmente le risque de lésions cérébrales et induit une pharmacorésistance dont les mécanismes sont mal connus.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "table",
      "rows": [
@@ -2284,6 +2860,52 @@
   {
    "title": "Champ 8 — État de mal épileptique réfractaire",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Champ 8 — État de mal épileptique réfractaire",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Non convulsif/partiel moteur",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "En général, il n'est pas indiqué d'induire un coma médicamenteux dans les EME réfractaires non convulsifs et partiels moteurs. Un avis spécialisé est nécessaire.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "p",
      "html": "<b>Définition et diagnostic</b>",
@@ -2797,6 +3419,68 @@
   {
    "title": "Champ 9 — EME non convulsifs & traçabilité",
    "items": [
+    [
+     {
+      "t": "section",
+      "text": "Champ 9 — États de mal épileptiques non convulsifs",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Thème",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Recommandation",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Accord",
+         "style": "head_w_c"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Expression clinique",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "L'expression clinique d'un EME non convulsif est le plus souvent une confusion mentale d'intensité variable.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "EEG nécessaire dès que possible",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "La réalisation d'un EEG est nécessaire dès que possible lors de la suspicion clinique d'un EME non convulsif.",
+         "style": "cell"
+        },
+        {
+         "t": "chip",
+         "label": "Fort"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "table",
      "rows": [

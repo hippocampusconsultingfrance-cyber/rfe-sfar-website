@@ -865,6 +865,19 @@
      "html": "<i>Note — « Mesure en SSPI » : cette phrase, formulée comme une recommandation (« il faut »), ne porte aucune cotation NGP/Accord dans le texte source (vérifié par lecture directe du PDF à 250 dpi) — chip « N/D » plutôt qu'une cotation inventée. Voir disclosure en page 1.</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "section",
+      "text": "Champ 8 — Réalisation pratique du contrôle glycémique",
+      "color": "navy"
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<b>6.1. Les apports glucidiques</b>",
+      "style": "h2"
+     }
+    ],
     {
      "t": "table",
      "rows": [
@@ -977,6 +990,14 @@
      "html": "<i>Note — « Arrêt insuline IV / relais » : le tag « (accord modéré) » est imprimé tel quel dans la source, alors que la méthodologie ne définit que « fort »/« faible » pour l'axe Accord — anomalie disclosée en page 1, non résolue silencieusement.</i>",
      "style": "note"
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>6.2. Les modalités de surveillance</b>",
+      "style": "h2"
+     },
+     null
+    ],
     {
      "t": "table",
      "rows": [
@@ -1084,6 +1105,14 @@
       ]
      ]
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>6.3. Algorithmes et protocoles</b>",
+      "style": "h2"
+     },
+     null
+    ],
     {
      "t": "table",
      "rows": [

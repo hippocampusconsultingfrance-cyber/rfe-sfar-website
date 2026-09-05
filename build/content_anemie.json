@@ -219,6 +219,144 @@
   {
    "title": "Champ 2-3 — Figure, calibre, ASE, fer, traçabilité",
    "items": [
+    [
+     {
+      "t": "p",
+      "html": "<b>FIGURE 1</b> — Taux d'hémoglobine à cibler en cas de transfusion (avis d'experts)",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<i>Redessin en tableau du graphique en bandes dégradées de la page 13 du document source (vérifié visuellement à 200dpi) — le flou des bandes représente le degré d'incertitude des experts eux-mêmes ; les valeurs ci-dessous sont donc volontairement approximatives (fourchettes), pas des seuils exacts, sauf pour R2.1-R2.2 (seuils précis donnés dans le texte des recommandations elles-mêmes).</i>",
+      "style": "note"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Contexte clinique",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Hb cible (g/dL, approximatif)",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Grade",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Réanimation générale",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "≈ 7,0 - 9,0",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Grade 1",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Traumatisme",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "≈ 7,0 - 9,0",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Grade 1",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Sepsis",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "≈ 7,0 - 9,0",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Grade 1",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Lésions cérébrales",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "≈ 7,0 - 9,5",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Grade 2",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Post-opératoire chirurgie cardiaque",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "7,5 - 8,0 (R2.2)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Grade 1",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Syndrome coronarien aigu",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "≈ 7,3 - 9,5 (pas de cible > 10,0, R2.3)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Grade 2",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "table",
      "rows": [

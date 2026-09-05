@@ -10,6 +10,7 @@ module's real content-building functions (build_story()/build_annex()) and
 serializing what was recorded, in document order.
 """
 import sys, os, json, html as htmlmod
+from reportlab.platypus import KeepTogether
 
 BUILD_DIR = os.path.dirname(__file__)
 sys.path.insert(0, BUILD_DIR)
@@ -70,6 +71,13 @@ def resolve(obj):
         return {"t": "section", "text": obj.text, "color": obj.color}
     if isinstance(obj, (list, tuple)):
         return [resolve(x) for x in obj]
+    if isinstance(obj, KeepTogether):
+        # KeepTogether is a real (unpatched) reportlab flowable used purely as a print-layout
+        # hint to avoid orphan lines when merging short sections onto shared pages (see
+        # fiche_controle_temperature.py) - transparent for content extraction: flatten its
+        # wrapped flowables in place rather than dropping them (previously fell through to the
+        # "unknown flowable" case below and silently lost every item inside it).
+        return [resolve(x) for x in obj._content]
     # fallback: unknown flowable (Spacer, etc.) -> ignore
     return None
 
@@ -845,6 +853,34 @@ def extract_antibioprophylaxie():
     return {"doc": "antibioprophylaxie", "sections": blocks}
 
 
+def extract_controle_temperature():
+    import style
+    import fiche_controle_temperature as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        # This fiche wraps some champs in a real (unpatched) KeepTogether - a print-layout
+        # hint to avoid orphan lines when merging short champs onto shared pages - which
+        # resolve() now flattens into a list-of-items rather than a single item. Flatten one
+        # level here so "items" stays the flat list the site's renderer expects (no other
+        # fiche in the corpus needs this: none of them append a nested list at top level).
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "controle_temperature", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -1301,3 +1337,12 @@ if __name__ == "__main__":
         json.dump(antibioprophylaxie, f, ensure_ascii=False, indent=1)
     print("antibioprophylaxie sections:", len(antibioprophylaxie["sections"]),
           "total blocks:", sum(len(s["items"]) for s in antibioprophylaxie["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie"):
+            del sys.modules[mn]
+    controle_temperature = extract_controle_temperature()
+    with open(os.path.join(BUILD_DIR, "content_controle_temperature.json"), "w") as f:
+        json.dump(controle_temperature, f, ensure_ascii=False, indent=1)
+    print("controle_temperature sections:", len(controle_temperature["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in controle_temperature["sections"]))

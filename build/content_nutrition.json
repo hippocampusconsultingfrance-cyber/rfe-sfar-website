@@ -1343,7 +1343,86 @@
      "t": "p",
      "html": "Hypermétabolisme maximal les 2 premières semaines, s'atténuant selon la gravité. Bêtabloquants non sélectifs : effets surtout démontrés chez l'enfant (réduction hormones de stress/cytokines/hyper-catabolisme). Oxandrolone 10 mg/12h (0,1 mg/kg/12h chez l'enfant) : diminuerait perte de poids, catabolisme, délai de cicatrisation, durée de séjour et mortalité. rh-GH chez l'enfant (0,05-0,2 mg/kg/j) : accélérerait la cicatrisation des sites donneurs. Protéines : au-delà de 2,2 g/kg/j (adulte) ou 3 g/kg/j (enfant), pas de bénéfice supplémentaire démontré. Alpha-cétoglutarate d'ornithine : 30 g/j en 2-3 bolus, réduirait les délais de cicatrisation ; arginine non recommandable en l'absence de données de posologie/durée établies. Zinc/cuivre/sélénium : pertes majeures par les exsudats tant que les plaies sont ouvertes — substitution IV 8j (SCB 20-40 %), 15j (40-60 %), 30j (&gt;60 %) ; voie entérale inefficace (compétition cuivre/zinc pour le même transporteur).",
      "style": "note"
-    }
+    },
+    [
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Tableau 1 — Besoins énergétiques du brûlé grave (en l'absence de calorimétrie)",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Formule",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Adulte — formule de Toronto (kcal/j)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "4343 + (10,5 × %SCB) + (0,23 × apport calorique) + (0,84 × Harris-Benedict) + (114 × t° corporelle) − (4,5 × jour post-brûlure)",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Fille 3-10 ans — Schoffield",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "(16,97 × poids kg) + (1,618 × taille cm) + 371,2",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Garçon 3-10 ans — Schoffield",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "(19,6 × poids kg) + (1,033 × taille cm) + 414,9",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Fille 10-18 ans — Schoffield",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "(8,365 × poids kg) + (4,65 × taille cm) + 200",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Garçon 10-18 ans — Schoffield",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "(16,25 × poids kg) + (1,372 × taille cm) + 515,5",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ]
    ]
   },
   {
@@ -1673,7 +1752,203 @@
      "t": "p",
      "html": "Enfants dénutris = morbi-mortalité plus élevée ; réserves faibles et rapidement épuisées en situation d'agression. NP chez l'enfant à conduire selon les recommandations de l'ESPGHAN. Montée progressive sur 3-5 jours, tenant compte de la rupture du cycle entéro-insulaire et de la capacité maximale d'oxydation du glucose.",
      "style": "note"
-    }
+    },
+    [
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Tableau 2 — Apports recommandés en glucose parentéral (g/kg/j)",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "j1",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "j2",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "j3",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "j4",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "> 3 kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "10",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "14",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "16",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "18",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "3-10 kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "8",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "12",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "14",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "16-18",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "10-15 kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "6",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "8",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "10",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "12-14",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "15-20 kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "4",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "6",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "8",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "10-12",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "20-30 kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "4",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "6",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "8",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "< 12",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "> 30 kg",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "3",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "5",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "8",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "< 10",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ]
    ]
   },
   {

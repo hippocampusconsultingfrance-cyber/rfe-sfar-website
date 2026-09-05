@@ -203,6 +203,201 @@
      "html": "<b>TABLEAU I</b> — Classification de l'IRA selon les critères KDIGO",
      "style": "h2"
     },
+    [
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Stade",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Créatinine plasmatique",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Diurèse",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "1",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "≥ 26,5 µmol/L ou 1,5 à 1,9 fois la créatinine plasmatique de base",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "< 0,5 mL/kg/h pendant 6 à 12 h",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "2",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "2,0 à 2,9 fois la créatinine plasmatique de base",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "< 0,5 mL/kg/h pendant ≥ 12 h",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "3",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "3,0 fois la créatinine plasmatique de base, ou créatinine plasmatique ≥ 354 µmol/L, ou mise en route de l'épuration extrarénale",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "< 0,3 mL/kg/h pendant ≥ 24 h ou anurie pendant ≥ 12 h",
+         "style": "cell"
+        }
+       ]
+      ]
+     },
+     {
+      "t": "p",
+      "html": "Le stade est déterminé par le critère le plus péjoratif entre « créatinine plasmatique » et « diurèse ».",
+      "style": "note"
+     }
+    ],
+    [
+     {
+      "t": "p",
+      "html": "<b>TABLEAU II</b> — Critères diagnostiques et de gravité de l'IRA en pédiatrie (pRIFLE)",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Stade",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Clairance estimée créatinine",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Diurèse",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Risk (risque)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Diminuée de > 25 %",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "< 0,5 mL/kg/h pendant > 8 h",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Injury (atteinte)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Diminuée de > 50 %",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "< 0,5 mL/kg/h pendant > 16 h",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Failure (défaillance)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Diminuée de > 75 % ou clairance < 35 mL/min/1,73 m²",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "< 0,3 mL/kg/h pendant 24 h ou anurie > 12 h",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Loss (perte de fonction)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Stade « Failure » se prolongeant > 4 semaines",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "End stage (IRC terminale)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Stade « Failure » se prolongeant > 3 mois",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "section",
      "text": "Champ 2 — Stratégies de diagnostic précoce de l'IRA",
@@ -369,7 +564,18 @@
      "t": "p",
      "html": "<b>TABLEAU IV</b> — Principaux agents néphrotoxiques responsables d'IRA en réanimation et en période périopératoire",
      "style": "h2"
-    }
+    },
+    [
+     {
+      "t": "panel",
+      "tone": "default",
+      "content": {
+       "t": "p",
+       "html": "Produits de contraste iodés &nbsp;•&nbsp; Aminosides &nbsp;•&nbsp; Amphotéricine &nbsp;•&nbsp; Anti-inflammatoires non stéroïdiens &nbsp;•&nbsp; β-lactamines (néphropathies interstitielles) &nbsp;•&nbsp; Sulfamides &nbsp;•&nbsp; Aciclovir, méthotrexate, cisplatine &nbsp;•&nbsp; Ciclosporine, tacrolimus &nbsp;•&nbsp; Inhibiteurs de l'enzyme de conversion de l'angiotensine (IEC)",
+       "style": "body_sm"
+      }
+     }
+    ]
    ]
   },
   {

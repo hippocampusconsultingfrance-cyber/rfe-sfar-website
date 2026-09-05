@@ -48,7 +48,8 @@ var RAW = {
   glycemie: JSON.parse(document.getElementById('content-glycemie').textContent),
   mal_epileptique: JSON.parse(document.getElementById('content-mal_epileptique').textContent),
   allergie_prevention: JSON.parse(document.getElementById('content-allergie_prevention').textContent),
-  antibioprophylaxie: JSON.parse(document.getElementById('content-antibioprophylaxie').textContent)
+  antibioprophylaxie: JSON.parse(document.getElementById('content-antibioprophylaxie').textContent),
+  controle_temperature: JSON.parse(document.getElementById('content-controle_temperature').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -98,7 +99,8 @@ var FICHE_HREF_MATCH = {
   glycemie: ['controle-de-la-glycemie-en-reanimation-et-en-anesthesie', '2b_AFAR_Contrele-de-la-glycemie'],
   mal_epileptique: ['prise-en-charge-en-situation-durgence-et-en-reanimation-des-etats-de-mal-epileptiques', '3_REANIMATION_Prise-en-charge'],
   allergie_prevention: ['prevention-du-risque-allergique-peranesthesique-2', '2_AFAR_Prevention-du-risque-allergique-peranesthesique'],
-  antibioprophylaxie: ['antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/', 'wpdmdl=68362']
+  antibioprophylaxie: ['antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/', 'wpdmdl=68362'],
+  controle_temperature: ['controle-cible-de-la-temperature-en-reanimation', 'rfe-controle-cible-de-la-temperature-en-reanimation']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -639,6 +641,18 @@ var DOC_META = {
     methodology: "GRADE",
     pages: 4,
     url: "https://sfar.org/download/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/?wpdmdl=68362"
+  },
+  controle_temperature: {
+    key: 'controle_temperature',
+    badge: 'GRADE',
+    title: "Contrôle ciblé de la température en réanimation",
+    short: "30 recommandations GRADE réparties en 6 champs cliniques (adulte + variantes pédiatriques) : arrêt cardiaque (cible 32-36°C selon le rythme initial), traumatisme crânien grave (35-37°C, échec de la neuroprotection par hypothermie profonde), AVC grave et autres hémorragies cérébrales, état de mal épileptique réfractaire et méningite/méningo-encéphalite, états de choc (cardiogénique, septique), et modalités pratiques de mise en œuvre (méthodes asservies, sites de mesure, surveillance des complications). Hors nouveau-nés.",
+    society: "RFE commune SRLF-SFAR, avec l'ANARLF, le GFRUP, la SFMU et la SFNV — 2016",
+    version: "2016",
+    validated: "CA SRLF et CA SFAR le 18/02/2016 ; publié Anesth Reanim. 2019;5:49-66, doi 10.1016/j.anrea.2018.10.004",
+    methodology: "GRADE",
+    pages: 6,
+    url: "https://sfar.org/wp-content/uploads/2019/10/rfe-controle-cible-de-la-temperature-en-reanimation.pdf"
   }
 };
 

@@ -209,6 +209,240 @@
       ]
      ]
     },
+    [
+     {
+      "t": "p",
+      "html": "<b>TABLEAU 1</b> — Prise en charge symptomatique des défaillances d'organe extrahépatiques au cours de l'IHA sévère",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Système",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Ce qu'il faut faire",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Ce qu'il ne faut pas faire",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Neurologique",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Surveillance neurologique ; natrémie cible 140-145 mmol/L ; dépistage/traitement hypoglycémie toutes les 2h ; intubation si Glasgow < 8 ; minimiser la sédation ; Doppler trans-crânien ; si HTIC : traitement non spécifique",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Benzodiazépines et autres psychotropes (dont métoclopramide) ; laxatifs/antibiotiques non absorbables visant à diminuer l'ammoniémie",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Respiratoire",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Ventilation mécanique protectrice selon les recommandations usuelles",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Hémodynamique",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Évaluation répétée de la volémie et des fonctions cardiaques D/G ; remplissage par cristalloïdes en 1ère intention ; hypotension réfractaire : noradrénaline",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Rénal",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "EER selon les indications usuelles",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "AINS et autres néphrotoxiques",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Gastro-intestinal",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Prévention des hémorragies digestives de stress selon les recommandations usuelles",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Hémostase",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Administration systématique de facteurs de coagulation ou plaquettes en l'absence d'hémorragie",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Immunitaire",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Antibiothérapie dès suspicion d'un sepsis, incluant l'aggravation de l'encéphalopathie",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
+    [
+     {
+      "t": "p",
+      "html": "<b>FIGURE 1</b> — Prise en charge spécifique de l'insuffisance hépatique aiguë sévère (TP &lt; 50 %)",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Étape",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Contenu",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Bilan étiologique",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Bilan sanguin (paracétamol, sérologies VHA/VHB, toxiques urinaires) ; écho-Doppler hépatique ; échographie cardiaque",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Évaluation de la gravité",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Encéphalopathie ; défaillance hémodynamique ; défaillance rénale",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Surveillance",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "TP et/ou INR, facteur V ; glycémie ; acidose, lactatémie ; ammoniémie",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Traitement",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "N-acétylcystéine quelle que soit l'étiologie suspectée ; traitement étiologique ; aciclovir IV si suspicion d'hépatite herpétique (fièvre > 40 °C)",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Orientation",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Prendre contact avec un centre de transplantation hépatique",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ],
     {
      "t": "section",
      "text": "Champ 2 — Insuffisance hépatique sur foie cirrhotique (ACLF)",
@@ -278,6 +512,125 @@
      "html": "<b>TABLEAU 2</b> — Classification KDIGO modifiée de l'IRA chez les patients atteints de cirrhose",
      "style": "h2"
     },
+    [
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Élément",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Définition",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Créatininémie de base",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Valeur la plus récente datant de moins de 3 mois avant l'épisode d'IRA ; à défaut, la créatininémie à l'admission",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Définition de l'IRA",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Augmentation ≥ 0,3 mg/dL (≥ 26,5 µmol/L) en 48 h, ou > 1,5 fois la créatininémie de base dans les 7 jours précédents",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Stade 1",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Augmentation ≥ 0,3 mg/dL (≥ 26,5 µmol/L) ou > 1,5 à 2 fois la créatininémie de base",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Stade 2",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Augmentation > 2 à 3 fois la créatininémie de base",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "Stade 3",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Augmentation > 3 fois la créatininémie de base, ou ≥ 4 mg/dL (353,6 µmol/L), ou début d'épuration extra-rénale",
+         "style": "cell"
+        }
+       ]
+      ]
+     },
+     null,
+     {
+      "t": "p",
+      "html": "<i>Contrairement à la classification KDIGO standard, le critère diurèse est exclu chez le cirrhotique (oligurie fréquente par rétention hydrosodée malgré une fonction rénale normale).</i>",
+      "style": "note"
+     }
+    ],
+    [
+     {
+      "t": "p",
+      "html": "<b>FIGURE 2</b> — Prise en charge de l'IRA du cirrhotique selon la classification KDIGO modifiée",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "panel",
+      "tone": "default",
+      "content": {
+       "t": "p",
+       "html": "<b>Stade 1 :</b> arrêt des facteurs précipitants/aggravants (agents néphrotoxiques : AINS, vasodilatateurs, diurétiques) et correction d'une hypovolémie, puis surveillance.<br/><b>Stade 2-3 :</b> arrêt des facteurs précipitants/aggravants et administration d'albumine 1 g/kg pendant 48 h → si <b>amélioration</b> : surveillance ; si <b>aggravation/progression</b> : rechercher les critères de syndrome hépatorénal (SHR, Tableau 3) — si présents : vasoconstricteurs et albumine, épuration extrarénale à discuter avec un centre spécialisé (selon la RFE SFAR/SRLF EER 2014) ; si absents : prise en charge selon la RFE SFAR/SRLF IRA en réanimation (2015).",
+       "style": "body_sm"
+      }
+     }
+    ],
+    [
+     {
+      "t": "p",
+      "html": "<b>TABLEAU 3</b> — Définition du syndrome hépatorénal (SHR) — tous les critères doivent être réunis",
+      "style": "h2"
+     },
+     null,
+     {
+      "t": "panel",
+      "tone": "default",
+      "content": {
+       "t": "p",
+       "html": "Diagnostic de cirrhose avec présence d'ascite &nbsp;•&nbsp; Diagnostic d'IRA stade 2 ou 3 selon les critères KDIGO modifiés (Tableau 2), sans prendre en compte la valeur de la créatininémie &nbsp;•&nbsp; Absence de réponse après 2 jours consécutifs d'arrêt des diurétiques et remplissage vasculaire par albumine (1 g/kg) &nbsp;•&nbsp; Absence d'état de choc &nbsp;•&nbsp; Absence d'administration récente de néphrotoxiques (AINS, aminosides, produits de contraste iodé) &nbsp;•&nbsp; Absence de signe d'atteinte rénale parenchymateuse (protéinurie &gt; 500 mg/j, hématurie &gt; 50 érythrocytes/champ, échographie rénale normale)",
+       "style": "body_sm"
+      }
+     }
+    ],
     {
      "t": "table",
      "rows": [

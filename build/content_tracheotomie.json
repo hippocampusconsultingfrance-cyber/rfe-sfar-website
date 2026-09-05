@@ -588,7 +588,133 @@
       "html": "<b>Prérequis :</b> sevrage de la ventilation mécanique 24h/24 en cas de pathologie neurologique préalable.<br/><b>Conditions d'examen :</b> ballonnet dégonflé • aspiration préalable des sécrétions • position assise &gt;70° • aucune anesthésie (pour ne pas générer de troubles de déglutition) • endoscopie par voie narinaire jusqu'au ballonnet.",
       "style": "body_sm"
      }
-    }
+    },
+    [
+     {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "Étape (séquentielle)",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Critère évalué / seuil",
+         "style": "head_w"
+        },
+        {
+         "t": "p",
+         "html": "Si signe positif",
+         "style": "head_w"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "1. État des sécrétions salivaires",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Stagnation massive, inhalation occulte",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Pas de décanulation",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "2. Déglutition spontanée",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "&lt;1/minute, pas de voile blanc",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Pas de décanulation",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "3. Sensibilité laryngée / toux",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Anesthésie, pas de toux efficace",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Pas de décanulation",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "4. Déglutition bolus consistant",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Type « purée » — inhalation occulte du bolus",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Pas de décanulation",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "5. Déglutition bolus liquide",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Inhalation occulte sans déclenchement de la déglutition",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Pas de décanulation",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "→ Décanulation",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "Si les 5 étapes sont franchies sans signe positif (« Si NON » à chaque étape)",
+         "style": "cell"
+        },
+        {
+         "t": "p",
+         "html": "—",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    ]
    ]
   },
   {

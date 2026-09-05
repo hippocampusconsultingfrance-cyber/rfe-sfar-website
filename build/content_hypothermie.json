@@ -1,0 +1,509 @@
+{
+ "doc": "hypothermie",
+ "sections": [
+  {
+   "title": "Partie I — Hypothermie, conséquences, seuil",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ de la RFE :</b> prévention de l'hypothermie péri-opératoire accidentelle chez l'adulte au bloc opératoire — première RFE française sur ce sujet. L'hypothermie péri-opératoire favorise infections, saignements, accidents cardiovasculaires et surmortalité péri-opératoire ; malgré des moyens de prévention largement utilisés, une enquête française de 2015 (893 patients) a montré que plus d'1 patient sur 2 arrivait en SSPI avec une T°C &lt; 36°C (alors que 9 patients sur 10 étaient activement réchauffés — principal facteur en cause : usage impropre des moyens de réchauffement, démarrage trop tardif et arrêt trop précoce). RFE sous l'égide de la SFAR.<br/><br/><b>14 recommandations</b> formalisées, réparties en 5 Grade 1 + 7 Grade 2 + 2 avis d'experts (total confirmé par comptage direct des 14 grades littéraux, conforme au résumé de la source — aucun écart à signaler cette fois). Après trois tours de cotation, un accord fort a été obtenu pour <b>93 % des recommandations (13/14)</b> — R8 (réchauffement des liquides d'irrigation) est la seule exception avec un « Accord faible » malgré son grade numérique 2+. Pour une question (réchauffement des fluides gazeux/CO2 de cœlioscopie), aucun consensus n'a pu être obtenu : « Pas de recommandation » (signalé plus bas, entre R7 et R8 — d'où le décalage de numérotation avec les questions posées).<br/><br/><b>Normothermie péri-opératoire :</b> définie par convention comme une température centrale (T°C) comprise entre 36,5°C et 37,5°C. Sans moyen de réchauffement, la T°C peut chuter de 2 à 4°C pendant l'anesthésie, principalement par redistribution interne de la chaleur (80 % de la baisse en anesthésie générale, 89 % en anesthésie neuraxiale durant la 1<sup>ère</sup> heure).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Partie I — Hypothermie : conséquences et seuil cible",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lutter contre l'hypothermie péri-opératoire afin de diminuer la survenue des complications infectieuses, cardio-vasculaires et hémorragiques chez le patient anesthésié.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Maintenir une T°C ≥ 36,5°C afin de diminuer les complications hémorragiques chez le patient anesthésié.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R1 : essais randomisés (Kurz, Melling — infections de paroi ; Frank, Elmore — événements cardiaques) ; méta-analyse Rajagopalan (14 études) — lien hypothermie/saignement/transfusion ; étude Scott (45 304 patients) — compliance aux objectifs de lutte contre l'hypothermie associée à moins de complications et de mortalité. R2 : 4 études (150, 116, 59, 59 patients) montrent des pertes sanguines significativement plus faibles chez les patients « normothermes » (T°C ≥ 36,5°C) vs « hypothermes » (T°C proche de 36°C).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Partie II — Réchauffement cutané, fluides, irrigation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Partie II — Techniques de réchauffement",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Effectuer un réchauffement cutané actif avant l'induction de l'anesthésie (pré-warming) pour prévenir l'hypothermie et/ou diminuer la fréquence des complications infectieuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser le réchauffement cutané actif pour diminuer les complications de l'hypothermie chez le patient anesthésié.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier le réchauffement cutané actif au réchauffement passif par isolation cutanée (vêtements ou couvertures réfléchissants) pour maintenir la T°C.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R3 : pré-warming efficace surtout par air pulsé, débuté &gt; 10 min avant l'induction (réduction du taux d'hypothermie de 52 % en peropératoire et 41 % en postopératoire dans une étude avant/après de plus de 3800 patients par groupe) — le réchauffement actif doit être maintenu pendant l'induction pour conserver ce bénéfice. R4 : méta-analyse Madrid, 47 essais — RR infections 0,36 (IC95% 0,20-0,66). R5 : méta-analyse Alderson — pas de gain à associer réchauffement passif et actif.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsque le volume administré est important, réchauffer les fluides i.v. avec un matériel dédié, toujours en association avec un réchauffement cutané actif, afin de limiter la chute de la T°C.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réchauffer les produits sanguins labiles avec un matériel dédié, toujours en association avec un réchauffement cutané actif, afin de limiter la chute de la T°C et les complications cardiaques liées à leur basse température.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Pas de recommandation (Question 8)</b> — les données de la littérature n'ont pas permis d'aboutir à un consensus des experts concernant le réchauffement des fluides gazeux (gaz anesthésiques, CO2 pour cœlioscopie) ; aucune recommandation n'a pu être rédigée.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "R6 : réchauffement des fluides i.v. maintient une T°C 0,5°C plus élevée (méta-analyse Campbell) ; pas de volume seuil établi par la littérature — les experts proposent de réchauffer en cas de volumes inhabituellement importants. R7 : concentrés globulaires conservés à 4°C — administration rapide/volumes importants abaisse la T°C sous 30°C (risque d'arythmies/arrêts cardiaques) ; le réchauffement entre 30 et 36°C a réduit l'incidence des arrêts cardiaques de 58,3 % à 6,8 % lors de transfusions massives.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réchauffer les liquides d'irrigation chirurgicaux avant de les administrer dans le but de maintenir une T°C > 36°C. Le réchauffement des liquides d'irrigation seul est cependant insuffisant et doit être accompagné de techniques de réchauffement cutané actif.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser les aminoacides i.v. pour limiter la chute de la T°C et/ou diminuer les complications hémorragiques des patients anesthésiés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser les dispositifs de réchauffement actifs sans craindre une augmentation du risque infectieux attribuable à leur utilisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>R8 est la seule des 14 recommandations à n'avoir obtenu qu'un « Accord Faible »</b> malgré son grade GRADE 2+ — niveau de preuve faible (essais de faible effectif, hétérogénéité importante) et un essai annoncé randomisé mais non publié. R9 : aucune des 3 méta-analyses n'a évalué le maintien d'une T°C &gt; 36°C par les aminoacides. R10 : 13 méta-analyses, aucune n'a montré de risque infectieux ; revue Haeberle (8 études, chirurgie orthopédique) conclut à l'intérêt des dispositifs à air pulsé malgré des études de faible niveau de preuve suggérant un risque de contamination.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Partie II — Brûlures, SSPI, stratégie, traçabilité",
+   "items": [
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les dispositifs de réchauffement actif peuvent être pourvoyeurs de complications à type de brûlure en cas d'usage inapproprié.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Couvertures à air pulsé : accidents le plus souvent dus à une mauvaise utilisation (générateur non rattaché à une couverture/combinaison dédiée, objets déposés sur la couverture, réchauffement à température maximale prolongé) ; surveillance cutanée renforcée si zone insensibilisée, mal perfusée ou en pédiatrie. Dispositifs électriques et à eau chauffée : risque de surchauffe/escarres. Méthodes « artisanales » (solutés ou draps chauffés non homologués) : première cause de brûlures péri-opératoires — à proscrire. Produits sanguins : pas de contre-indication à réchauffer jusqu'à 43-45°C (hémolyse négligeable).",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'hypothermie à l'arrivée en SSPI, utiliser un dispositif de réchauffement cutané actif pour atteindre la normothermie le plus rapidement possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Préférer les dispositifs utilisant l'air chaud pulsé aux dispositifs à circulation d'eau chaude pour atteindre la normothermie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R12-R13 : méta-analyse Warttig (11 essais, 699 patients) — le réchauffement cutané actif atteint la normothermie 32 min plus vite qu'une couverture en coton préalablement chauffée, et 89 min plus vite qu'une couverture en coton non chauffée ; l'air chaud pulsé est plus rapide de 54 min que la circulation d'eau chaude (niveau de preuve faible, 2 études, 36 patients/bras).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prévention de l'hypothermie peropératoire accidentelle au bloc opératoire chez l'adulte » — Recommandations Formalisées d'Experts, SFAR. Auteurs : P. Alfonsi, F. Espitalier, M.-P. Bonnet, S. Bekka, L. Brocker, F. Garnier, M. Louis, I. Macquer, P. Pilloy, C. Hallynck, Y. Camus. Coordonnateur : P. Alfonsi. Comité d'organisation : F. Espitalier.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> texte validé par le Comité des Référentiels Cliniques de la SFAR le 12/06/2018 et le Conseil d'Administration de la SFAR le 21/06/2018.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (force forte [1+/1-] ou faible [2+/2-] ; avis d'experts lorsque la littérature ne permettait pas de graduer). Accord fort obtenu pour 93 % des recommandations (13/14) après 3 tours de cotation.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/prevention-de-lhypothermie-peroperatoire-accidentelle-au-bloc-operatoire-chez-ladulte/",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 14 recommandations, de l'item « pas de recommandation » et de la stratégie proposée (R14) de la RFE, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques par recommandation) et n'est ni édité ni validé par la SFAR. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

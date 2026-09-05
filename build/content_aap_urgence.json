@@ -1,0 +1,780 @@
+{
+ "doc": "aap_urgence",
+ "sections": [
+  {
+   "title": "Méthodologie, pharmacologie & tests plaquettaires",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> gestion des agents antiplaquettaires (AAP) oraux — aspirine, clopidogrel, prasugrel, ticagrelor — en cas de procédure invasive non programmée ou d'hémorragie. Complète les propositions 2018 du GIHP/GFHT/SFAR pour la procédure invasive <b>programmée</b> (fiche distincte).<br/><br/><b>Méthodologie — distincte de GRADE :</b> ce document ne comporte pas de niveaux GRADE 1+/1-/2+/2-. Les propositions ont été rédigées par groupes de travail GIHP/GFHT puis validées par un vote Delphi (n=38) : accord retenu si ≥50% d'accord et &lt;20% d'opposition, « accord fort » si ≥70% d'accord. <b>Toutes les propositions retenues dans ce document ont reçu un accord fort</b> (aucune « accord faible » dans le texte source) — chaque proposition est donc chipée « AE » (avis d'experts / proposition, accord fort), la nuance de sens (faire / ne pas faire / pas de proposition possible) étant portée par le texte lui-même.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Tableau I — propriétés pharmacologiques des AAP oraux",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "AAP",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Mécanisme",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Dose d'entretien",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Pic",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Demi-vie",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aspirine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Inhibiteur irréversible COX-1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "75-300 mg/j",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "15-40 min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "15-20 min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Clopidogrel",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Inhibiteur irréversible P2Y12",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "75 mg × 1/j",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "30-60 min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "30 min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prasugrel",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Inhibiteur irréversible P2Y12",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "10 mg × 1/j",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "30 min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3,7 h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ticagrelor",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Inhibiteur réversible P2Y12",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "90 mg × 2/j",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1,5-3 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6,7-9,1 h (métabolite actif 8,5-12,4 h)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Seul le ticagrelor a une action réversible. Il n'existe pas d'antidote disponible pour les AAP à la date de rédaction du texte source.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Tests fonctionnels plaquettaires — place dans l'urgence",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Proposition",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Préopératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un test fonctionnel plaquettaire en préopératoire pour identifier des dysfonctions plaquettaires (liées ou non aux AAP) quand elles sont suspectées sur une base clinique, dans les équipes ayant ce type de test à disposition et habituées à son utilisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pontage coronaire semi-urgent",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de chirurgie de pontage coronaire semi-urgente, utiliser un test fonctionnel plaquettaire pour raccourcir les durées d'arrêt des AAP (inhibiteurs de P2Y12 en particulier), dans les équipes formées à son utilisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Utilisation en POCT",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si un test fonctionnel plaquettaire est utilisé en dehors du laboratoire (POCT), le faire en coordination avec l'équipe d'hémostase et le dispositif local de médecine de laboratoire, en accord avec la réglementation en vigueur, et en l'insérant dans une organisation codifiée avec les algorithmes transfusionnels retenus localement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Principaux tests (Tableau II, source) : agrégation photométrique conventionnelle, thromboxane B2 sérique, test VASP, VerifyNow®, Multiplate®, ROTEM® Platelet, PFA (100/200), TEG® Platelet Mapping — non interchangeables, contraintes pré-analytiques variables. Aucun consensus sur la méthode à utiliser, ni sur les seuils de risque hémorragique. Il apparaît prématuré de recommander leur usage systématique pour évaluer le risque hémorragique chez tout patient traité par AAP, ou pour guider la transfusion plaquettaire en cas d'hémorragie.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Moyens de neutralisation des AAP",
+   "items": [
+    {
+     "t": "section",
+     "text": "Moyens de neutralisation des AAP — propositions",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Proposition",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Principe",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tenir compte du type d'AAP et de l'heure de la dernière prise (présence ou non d'un ou plusieurs métabolites actifs en circulation).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aspirine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Transfuser des plaquettes, dose de 0,5 à 0,7 ×10¹¹ pour 10 kg de poids. Avec les formes galéniques autres qu'à libération prolongée, le produit actif disparaît de la circulation en moins de 2 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Clopidogrel / prasugrel",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Transfuser des plaquettes, à une dose plus élevée que pour l'aspirine (au moins le double, plus importante pour le prasugrel que pour le clopidogrel). Efficacité réduite si la dernière prise date de moins de 6 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Clopidogrel / prasugrel",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de rFVIIa pour neutraliser le clopidogrel ou le prasugrel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ticagrelor",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si dernière prise &lt; 24h : aucune prise en charge spécifique ne peut être recommandée (transfusion plaquettaire aux doses habituelles inefficace ; efficacité de fortes doses ou du rFVIIa non évaluée). Si dernière prise &gt; 24h : la transfusion plaquettaire pourrait permettre une neutralisation partielle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Acide tranexamique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer de l'acide tranexamique pour son efficacité à réduire le saignement, que le patient soit ou non traité par AAP.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Desmopressine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser la desmopressine pour neutraliser les AAP.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Le rFVIIa accélère la génération de thrombine mais son effet hémostatique n'est pas observé pour les thiénopyridines (clopidogrel/prasugrel) ; les données avec le ticagrelor sont limitées à un modèle animal. L'acide tranexamique n'a pas d'effet direct sur le fonctionnement plaquettaire mais réduit le saignement par son effet antifibrinolytique — à administrer dans les 3 premières heures en cas d'hémorragie traumatique.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Procédure invasive non programmée",
+   "items": [
+    {
+     "t": "section",
+     "text": "Procédure invasive non programmée — propositions",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Proposition",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Classification NCEPOD",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Distinguer procédures de sauvetage (minutes ; ex. rupture d'anévrisme aortique, syndrome de loge), procédures urgentes (heures ; ex. péritonite par perforation, ischémie aiguë de membre), procédures semi-urgentes (jours ; ex. décollement de rétine, syndrome occlusif sur tumeur).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Durées d'interruption",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Quand possible (procédures semi-urgentes essentiellement), prendre en compte les durées optimales d'interruption : dernière prise d'aspirine à J-3, de clopidogrel et ticagrelor à J-5, de prasugrel à J-7 (+2 jours pour la neurochirurgie intracrânienne, quel que soit l'AAP).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Monothérapie, non réalisable en délai",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Aspirine ou clopidogrel en monothérapie : débuter la procédure non neurochirurgicale sans neutralisation ; neutraliser avant un acte de neurochirurgie intracrânienne urgent ou de sauvetage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bithérapie, non réalisable en délai",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Débuter la procédure non neurochirurgicale sans neutralisation — si le saignement per-procédural n'est pas contrôlable par l'opérateur senior et est attribué à la bithérapie, la neutraliser alors. Réaliser les procédures semi-urgentes plus de 24h après la dernière prise de prasugrel ou de ticagrelor. Neutraliser avant un acte de neurochirurgie intracrânienne urgent ou de sauvetage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ALR rachidienne",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients sous inhibiteur de P2Y12 (mono- ou bithérapie), ne pas réaliser de geste d'anesthésie locorégionale rachidienne (rachianesthésie, péridurale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Encadrés du texte source : fracture du col fémoral — un traitement par clopidogrel ne doit pas retarder la chirurgie. Moyens de neutralisation détaillés en Question précédente.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<i>Figure 1 — transcrite depuis l'algorithme de la page 12 du document source (vérifiée visuellement).</i>",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Figure 1 — Prise en charge des AAP pour une procédure invasive non programmée :</b><br/>Procédure réalisable sous AAP ? → <b>Oui</b> : réaliser la procédure. → <b>Non</b> :<br/>• <b>Procédure de sauvetage ou urgente</b> → neurochirurgicale ? Oui → neutralisation du/des AAP → réaliser la procédure. Non → commencer la procédure ; si saignement per-procédural non contrôlable attribué à la bithérapie antiplaquettaire → neutralisation du/des AAP.<br/>• <b>Procédure semi-urgente</b> → possibilité d'attendre les durées optimales d'interruption des AAP ? Oui → attendre puis réaliser la procédure. Non → même branche que sauvetage/urgente (neurochirurgicale ? oui/non...).",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Hémorragie associée aux AAP",
+   "items": [
+    {
+     "t": "section",
+     "text": "Hémorragie associée aux AAP — propositions",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Hémorragie grave</b> (définition HAS 2008, reprise pour les AVK) : présence d'au moins un critère parmi — hémorragie extériorisée non contrôlable par les moyens usuels ; instabilité hémodynamique (PAS &lt; 90 mmHg ou baisse de 40 mmHg, ou PAM &lt; 65 mmHg, ou tout signe de choc) ; nécessité d'un geste hémostatique urgent ; nécessité de transfusion de concentrés érythrocytaires ; localisation menaçant le pronostic vital ou fonctionnel (intracrânienne, intraspinale, intraoculaire/rétro-orbitaire, hémothorax, hémo-/rétropéritoine, hémopéricarde, hématome musculaire profond/syndrome de loge, hémorragie digestive aiguë, hémarthrose).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Proposition",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Principe général",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le traitement étiologique (gestes hémostatiques mécaniques) s'impose dans tous les cas, associé au traitement symptomatique (remplissage, vasopresseurs, transfusion de CGR, lutte contre l'hypothermie, acide tranexamique précoce).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie intracrânienne, neurochirurgie urgente indiquée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Neutraliser le traitement antiplaquettaire en préopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie intracrânienne, pas de neurochirurgie urgente",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas transfuser de plaquettes si le patient est traité par aspirine et présente un score de Glasgow &gt; 8 à l'arrivée. Dans les autres cas, aucune proposition ne peut être faite ni en faveur ni en défaveur de la neutralisation. Interrompre les AAP dans tous les cas.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Choc hémorragique, bithérapie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Neutraliser le traitement antiplaquettaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autres hémorragies graves",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Neutraliser le traitement antiplaquettaire en cas de persistance de l'hémorragie après échec des traitements étiologiques et symptomatiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragies non graves",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement symptomatique, sans neutraliser le traitement antiplaquettaire (réévaluer systématiquement l'indication du traitement en cours).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Algorithme hémorragie & traçabilité",
+   "items": [
+    {
+     "t": "p",
+     "html": "<i>Figure 2 — transcrite depuis l'algorithme de la page 13 du document source (vérifiée visuellement).</i>",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Figure 2 — Prise en charge des AAP en cas d'hémorragie :</b> hémorragie chez un patient traité par AAP → traitement symptomatique et étiologique, selon 4 branches :<br/>• <b>Hémorragie intracrânienne</b> → indication neurochirurgicale ? Oui → neutralisation du/des AAP. Non → GCS &gt; 8 : aspirine → pas de neutralisation de l'aspirine ; autre AAP → pas de proposition, discuter la neutralisation. GCS ≤ 8 → pas de proposition, discuter la neutralisation.<br/>• <b>Choc hémorragique</b> → bithérapie antiplaquettaire ? Oui → neutralisation des AAP. Non → pas de neutralisation des AAP.<br/>• <b>Hémorragie grave</b> → échec des traitements étiologiques et symptomatiques et persistance de l'hémorragie ? Oui → neutralisation du/des AAP. Non → pas de neutralisation.<br/>• <b>Hémorragie non grave</b> → pas de neutralisation du/des AAP.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Tableau — moyens de neutralisation proposés (Figure 2)",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "AAP",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Moyens de neutralisation proposés",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aspirine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Transfusion plaquettaire à dose standard (0,5-0,7 ×10¹¹ pour 10 kg de poids)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Clopidogrel",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Transfusion plaquettaire : 2 × dose standard. Efficacité réduite si &lt; 6h après la dernière prise",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prasugrel",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Transfusion plaquettaire : &gt; 2 × dose standard. Efficacité réduite si &lt; 6h après la dernière prise",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ticagrelor",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dernière prise &lt; 24h : pas de proposition (transfusion plaquettaire inefficace ; efficacité du rFVIIa non évaluée). Dernière prise &gt; 24h : transfusion plaquettaire pour une neutralisation partielle",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Gestion des agents antiplaquettaires en cas de procédure invasive non programmée ou d'hémorragie » — Propositions du Groupe d'intérêt en hémostase périopératoire (GIHP) et du Groupe français d'études sur l'hémostase et la thrombose (GFHT), en collaboration avec la SFAR. A. Godier, D. Garrigue, D. Lasne, P. Fontana, F. Bonhomme, J.-P. Collet, et al. Anesth Reanim. 2019;5:218-237 (doi:10.1016/j.anrea.2018.10.003), disponible en ligne le 23/11/2018.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> propositions rédigées par groupes de travail GIHP/GFHT, validées par vote Delphi (n=38, accord fort si ≥70% d'accord) — pas de système GRADE (voir légende page 1).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aap-en-urgence/?wpdmdl=34414",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des propositions et des 2 algorithmes (Figures 1 et 2) du document source, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques) et n'est ni édité ni validé par le GIHP, le GFHT ou la SFAR. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé. Document de 2018 : vérifier l'existence d'une actualisation plus récente en cas de doute (un antidote du ticagrelor était en développement au moment de la rédaction).",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

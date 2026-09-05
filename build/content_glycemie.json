@@ -1,0 +1,1920 @@
+{
+ "doc": "glycemie",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie, physiologie & Champ 5",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> contrôle de la glycémie chez l'adulte et l'enfant, en réanimation et en anesthésie-période périopératoire. Recommandations formalisées d'experts (RFE) Sfar/SRLF, élaborées par un groupe de <b>21 experts francophones</b> (France, Belgique, Suisse) coordonné par Carole Ichai, en partenariat avec l'Alfediam, l'Adarpef, le Gefrup, la Société belge d'anesthésie-réanimation (Sbar), la SFNEP et la SIZ. Dix champs d'application ont été répartis entre les experts. Recommandations validées définitivement en juillet 2008.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie — système à DEUX axes indépendants (spécifique à cette fiche) :</b> la méthode Grade a servi de cadre général, mais chaque recommandation des champs 5 à 10 porte, dans le texte source, <b>deux cotations distinctes et indépendantes</b>, à lire séparément :<br/>&bull; <b>NGP</b> (Niveau Global de Preuve) — Fort / Modéré / Faible — solidité de la littérature sous-jacente ;<br/>&bull; <b>Accord</b> — Fort / Faible (+ un cas unique « Indécision ») — force du consensus des experts, coté de 1 à 9 par vote (médiane), 3 zones : 1-3 désaccord, 4-6 indécision, 7-9 accord ; « fort » si l'intervalle de la médiane reste dans une seule zone, « faible » sinon.<br/>La source le précise explicitement : « il est possible d'obtenir un accord fort sur une proposition avec faible NGP et inversement ». Les deux chips ci-dessous ne doivent donc <b>jamais</b> être fusionnés en un seul.<br/><br/>Les <b>quatre premiers champs</b> (physiologie/physiopathologie du glucose et de l'insuline) \"ne pouvaient pas faire l'objet de recommandations avec de vraies cotations\" (dixit la source) et sont résumés en points forts, sans chip NGP/Accord. Les <b>six derniers champs</b> ont produit 74 recommandations formellement cotées.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Disclosure — deux anomalies source confirmées par lecture directe du PDF (250 dpi) :</b><br/>(1) Sur les 74 recommandations des champs 5-10, une seule (dernière phrase du champ 7, à propos de la mesure de glycémie en SSPI) ne porte <b>aucune</b> cotation imprimée dans le texte source — ni NGP ni Accord. Traitée ici avec un chip neutre « N/D » sur ses deux colonnes plutôt qu'une cotation inventée (voir note sous le tableau du champ 7).<br/>(2) La méthodologie ne définit que « fort »/« faible » pour l'axe Accord — pourtant une recommandation (champ 8, apports glucidiques, 1re phrase) porte littéralement le tag « (accord modéré) », niveau non prévu par la méthodologie déclarée pour cet axe. Transcrit verbatim, sans le forcer vers fort/faible.<br/>Ces deux constats sont disclosés tels quels, sans résolution silencieuse (même principe déjà appliqué ailleurs dans ce corpus).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende — NGP et Accord (deux axes indépendants)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "p",
+        "html": "Modéré",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "p",
+        "html": "Faible",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "Indécision"
+       },
+       {
+        "t": "p",
+        "html": "Cas unique (1/74) où le vote des experts n'a atteint ni l'accord ni le désaccord — champ 8, apports glucidiques.",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "N/D"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation sans aucune cotation imprimée dans la source (anomalie 1 ci-dessus) — pas un résultat de vote.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champs 1 à 4 — Notions de physiologie et de physiopathologie : les points forts",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>Le groupe d'experts a jugé que ces quatre champs ne pouvaient pas faire l'objet de recommandations avec de vraies cotations ; ils sont résumés ci-dessous sous forme de points forts, sans chip NGP/Accord.</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>Champ 1 — Métabolisme du glucose en situation physiologique</b><br/>&bull; Glycémie normale ~5 mmol/l (0,8 g/l), hors postprandial immédiat ; toute variation traduit un déséquilibre entrée/utilisation tissulaire du glucose.<br/>&bull; Transporteurs GLUT4 (insulino-dépendants : muscle, cœur, adipocytes) vs autres GLUT (non-insulino-dépendants).<br/>&bull; Régulation par l'insuline et les hormones de contre-régulation (glucagon, adrénaline, GH, cortisol), le GLP-1/GIP digestifs et le système nerveux central.<br/>&bull; Jeûne court : baisse insuline, hormones de stress maintiennent la production hépatique de glucose ; alimentation : hausse insuline, stockage.<br/>&bull; Hypoglycémie : réponse hormonale hiérarchisée — arrêt de la sécrétion d'insuline &lt; 4,4 mmol/l ; glucagon/adrénaline/GH &lt; 3,7 mmol/l ; cortisol &lt; 3,1 mmol/l.",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "<b>Champ 2 — Métabolisme du glucose en situation pathologique aiguë</b><br/>&bull; Hyperglycémie de stress (« diabète de stress ») : hormones de contre-régulation et médiateurs de l'inflammation, puis insulinorésistance et baisse de la sécrétion pancréatique d'insuline.<br/>&bull; Cercle d'auto-aggravation entre hyperglycémie et inflammation.<br/>&bull; Insulinorésistance hépatique (néoglucogenèse/glycogénolyse accrues) et périphérique (muscle, adipocytes : baisse de l'utilisation du glucose).<br/>&bull; Résultat : pénétration accrue de glucose dans les tissus non-insulino-dépendants (cellules immunitaires, inflammatoires, tissus lésés).<br/>&bull; Sepsis/hypoxie : anomalies mitochondriales déviant la glycolyse (lactate, shunt des pentoses, voies des hexosamines/polyols) ; HIF-1 impliqué lors de l'hypoxie.",
+        "style": "body_sm"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>Champ 3 — Les effets du glucose : de la cellule à l'organisme entier</b><br/>&bull; Substrat énergétique (glycolyse puis cycle de Krebs, ATP) ; capacité maximale d'oxydation 2 à 4 mg/kg/min.<br/>&bull; En situation critique, la perfusion de glucose ne freine que partiellement la production endogène : risque d'hyperglycémie si l'apport dépasse 2 à 3 mg/kg/min.<br/>&bull; Rendement énergétique : 4 kcal/g pour le glucose contre 9 kcal/g pour les lipides ; mais le glucose devient le substrat le plus rentable en hypoxie (dette en O2).<br/>&bull; Hyperglycémie aiguë : adaptative au début mais toxique si prolongée — effet pro-inflammatoire (cellules immunes, endothéliales, hépatocytes), stress oxydant.",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "<b>Champ 4 — Les effets de l'insuline : de la cellule à l'organisme entier</b><br/>&bull; Hormone protéique (cellules bêta des îlots de Langerhans), essentielle à l'homéostasie du glucose ; inhibe la production hépatique de glucose et la lipolyse.<br/>&bull; Deux voies de signalisation : MAPK (croissance) et IRS/PI-3 kinase (métabolique) ; l'inflammation et les acides gras libres favorisent l'insulinorésistance (IRS, TLR4/NF-kB).<br/>&bull; Effets pléiotropes : anti-inflammatoire, vasodilatateur (eNOS/NO), inotrope positif ; en réanimation, l'insulinothérapie à forte dose améliore la fonction rénale.<br/>&bull; Effets essentiels sur le cerveau, notamment pour sa croissance.",
+        "style": "body_sm"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 5 — L'hypoglycémie : diagnostic et risques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte intégral)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "NGP",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Seuil hypoglycémie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients de réanimation, il faut probablement un seuil glycémique inférieur à 3,3 mmol/l (0,6 g/l) pour définir une hypoglycémie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Seuil hypoglycémie sévère",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients de réanimation, il faut probablement un seuil glycémique inférieur à 2,2 mmol/l (0,4 g/l) pour définir une hypoglycémie sévère.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Durée prolongée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Par analogie avec le patient diabétique, il est probable que le caractère prolongé d'une hypoglycémie se définisse pour une durée de plus de deux heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Contrôle strict — incidence",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est possible que l'application de stratégies publiées de contrôle glycémique strict expose à une augmentation de l'incidence des hypoglycémies sévères.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Contrôle strict — durée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est possible que l'application de stratégies publiées de contrôle glycémique strict expose à une augmentation de la durée des hypoglycémies sévères.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque cérébral",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une hypoglycémie sévère et prolongée peut induire des lésions cérébrales irréversibles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dépistage clinique insuffisant",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients de réanimation ne pouvant pas s'exprimer, il ne faut pas se baser uniquement sur les signes cliniques évocateurs pour dépister les épisodes d'hypoglycémies.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surmortalité",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probable que la survenue d'une hypoglycémie sévère soit associée à un risque de surmortalité, sans lien démontré de causalité entre les deux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Recharge en glucose",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est possible que les lésions neurologiques observées au décours des hypoglycémies soient en partie liées à la recharge excessive en glucose.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surveillance rapprochée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans le cadre d'une stratégie de contrôle glycémique strict, il faut réaliser une surveillance rapprochée des mesures de glycémie pour le dépistage précoce des hypoglycémies sévères.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Choix du prélèvement",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients de réanimation chez qui on suspecte une hypoglycémie, l'utilisation d'échantillons artériels ou veineux est plus appropriée que celle réalisée sur l'échantillon capillaire qui surestime le plus souvent la valeur de la glycémie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champs 6-8 — Contrôle glycémique & réalisation pratique",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 6 — Le contrôle glycémique en réanimation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte intégral)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "NGP",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cible < 6,1 mmol/l — adultes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement exercer un contrôle du niveau glycémique avec une cible inférieur à 6,1 mmol/l (1,1 g/l) chez les patients adultes en réanimation car ce contrôle permet de diminuer les complications pendant l'hospitalisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Contrôle strict — chirurgicaux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut exercer un contrôle strict de la glycémie (&lt; 6,1 mmol/l ou 1,1 g/l) chez les patients adultes chirurgicaux en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie cardiaque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut maintenir une glycémie inférieure à 6,1 mmol/l (1,1 g/l) chez les patients de chirurgie cardiaque en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Contrôle strict en urgence",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas raisonnable de recommander un contrôle strict de la glycémie en urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Variations glycémiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En réanimation, il faut probablement éviter les variations glycémiques trop importantes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Voie d'administration",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors de l'insuline intraveineuse, il n'est pas possible d'utiliser d'autres moyens pour le contrôle glycémique en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Perfusion GIK",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La perfusion de glucose-insuline-potassium (GIK), n'a probablement pas d'effet bénéfique si le niveau glycémique n'est pas contrôlé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 7 — Le contrôle glycémique en périopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte intégral)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "NGP",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Insulinorésistance périop.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'insulinorésistance, cause principale de l'hyperglycémie périopératoire, peut apparaître dans les premières heures de l'intervention et se prolonger au moins deux à trois semaines en postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Insuline exogène",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est possible de diminuer l'hyperglycémie périopératoire induite par l'insulinorésistance en apportant de l'insuline exogène durant cette période.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Durée de séjour",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est possible de diminuer la durée de séjour postopératoire en limitant l'insulinorésistance périopératoire avec maintien d'une normoglycémie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Facteurs aggravants",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut lutter contre l'hypothermie, les pertes sanguines, l'agression chirurgicale intense qui accentuent l'insulinorésistance périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réhabilitation précoce",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut favoriser la réhabilitation postopératoire précoce de façon à limiter l'insulinorésistance postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Jeûne glucidique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le jeûne glucidique préopératoire de plus de 12 heures aggrave l'insulinorésistance périopératoire. Il faut le limiter, quand cela est possible, en autorisant les liquides clairs jusqu'à deux à trois heures préopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Apport HC préopératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors des patients à estomac plein (occlusion, grossesse, diabète, etc.), l'apport d'hydrates de carbone en préopératoire (100 g la veille et 50 g trois heures avant l'intervention) peut être recommandé afin de limiter l'insulinorésistance périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HC peropératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors des patients diabétiques et des nourrissons, il ne faut probablement pas administrer d'hydrates de carbone en peropératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie à risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Au cours de la chirurgie à risque (cardiovasculaire, obèse, âgé, chirurgie de longue durée ou urgente), il faut probablement éviter l'hyperglycémie supérieure à 10 mmol/l (1,8 g/l).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Voie IV peropératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'insulinothérapie peropératoire doit être intraveineuse continue et impose un contrôle glycémique toutes les 30 minutes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cibles adaptées",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut adapter les valeurs cibles de glycémie périopératoire aux ressources disponibles et à l'expérience de l'unité en charge du patient, en privilégiant des niveaux d'exigences croissants.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mesure peropératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement mesurer la glycémie peropératoire au cours des interventions à risque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mesure en SSPI",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients à risque, il faut réaliser une mesure de glycémie durant le séjour en salle de surveillance post-interventionnelle (SSPI).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "N/D"
+       },
+       {
+        "t": "chip",
+        "label": "N/D"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Note — « Mesure en SSPI » : cette phrase, formulée comme une recommandation (« il faut »), ne porte aucune cotation NGP/Accord dans le texte source (vérifié par lecture directe du PDF à 250 dpi) — chip « N/D » plutôt qu'une cotation inventée. Voir disclosure en page 1.</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte intégral)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "NGP",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Arrêt insuline IV / relais",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'insuline intraveineuse à la seringue électrique doit probablement être interrompue lorsque le patient a repris une alimentation orale et la surveillance glycémique doit être poursuivie par au moins trois contrôles préprandiaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Apports maximaux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Durant la phase aiguë, la quantité maximale de glucose intraveineux ne doit pas dépasser 100 g/24 h ; la quantité totale d'hydrates de carbone (entérale et parentérale) ne doit pas dépasser 200 g/24 h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Glucose chez le cérébrolésé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Durant la phase aiguë, chez tous les patients et y compris chez le cérébrolésé, il ne faut probablement pas proscrire l'apport de glucose à condition de contrôler la glycémie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Indécision"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Adaptation nutrition/insuline",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est possible que l'adaptation combinée du débit d'infusion de la nutrition entérale et du débit de perfusion d'insuline puisse améliorer l'observance de la cible glycémique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Note — « Arrêt insuline IV / relais » : le tag « (accord modéré) » est imprimé tel quel dans la source, alors que la méthodologie ne définit que « fort »/« faible » pour l'axe Accord — anomalie disclosée en page 1, non résolue silencieusement.</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte intégral)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "NGP",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Référence laboratoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut considérer que la glycémie mesurée au laboratoire est actuellement la valeur de référence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ordre des prélèvements",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement privilégier dans l'ordre, le prélèvement artériel, puis veineux, puis capillaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sang total vs plasma",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Du fait des différences de valeur entre sang total et plasma, il faut connaître les caractéristiques précises du lecteur de glycémie que l'on utilise (seuls certains appliquent directement le facteur de correction).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Interférences physicochimiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Du fait de nombreuses interférences physicochimiques endogènes et exogènes, il faut connaître les caractéristiques précises du lecteur de glycémie et des bandelettes que l'on utilise.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte intégral)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "NGP",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Protocole unique d'équipe",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Au sein d'une équipe, il faut choisir le même protocole formalisé de contrôle glycémique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Insuline rapide obligatoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tout protocole de contrôle glycémique strict doit inclure au minimum des recommandations relatives à l'utilisation d'une insuline d'action rapide en perfusion continue à la seringue électrique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Procédures anti-hypoglycémie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tout protocole de contrôle glycémique strict doit inclure au minimum des procédures de correction et de surveillance des épisodes d'hypoglycémie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Voie à débit constant",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement privilégier l'utilisation d'une voie permettant d'assurer un débit constant pour administrer l'insuline intraveineuse en continu.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pas de protocole supérieur",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Parmi les différents protocoles de contrôle glycémique strict existants, il est impossible d'en privilégier un par rapport aux autres.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Abandon des protocoles statiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut abandonner les protocoles de contrôle glycémique statiques qui déterminent le débit d'insuline uniquement à partir de la glycémie la plus récente.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prise en compte des apports HC",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tout protocole de contrôle glycémique devrait prendre en compte les apports d'hydrate de carbone pour la détermination du débit d'insuline.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Protocole informatisé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un protocole de contrôle glycémique strict basé sur plus de deux paramètres d'entrée et de sortie devrait être géré par un logiciel informatique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Charge de travail paramédical",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'augmentation de charge de travail paramédical doit être prise en compte lors de la mise en œuvre d'un protocole de contrôle glycémique strict.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Formation du personnel",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut prévoir un temps de formation du personnel soignant pour mettre en route un protocole de contrôle glycémique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Critères d'efficacité",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'efficacité d'un protocole de contrôle glycémique strict doit reposer sur l'ensemble des critères suivants : temps de formation, performance du contrôle, risque d'hypoglycémie sévère, taux moyen d'erreur, charge en soins infirmiers.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Paramètres d'évaluation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est souhaitable d'évaluer l'efficacité d'un protocole de contrôle glycémique strict par les principaux paramètres suivants : pourcentage de temps passé dans la cible glycémique et au dessus de cette cible, index d'hyperglycémie, variabilité de la glycémie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champs 9-10 — Diabète, pédiatrie & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 9 — Les spécificités du patient diabétique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte intégral)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "NGP",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surveillance systématique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La glycémie doit être surveillée régulièrement chez tout patient diabétique admis en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Impact du contrôle strict",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient diabétique admis en réanimation, l'impact d'un contrôle strict de la glycémie (4,4-6,1 mmol/l ou 0,8-1,1 g/l) sur la morbimortalité n'est pas démontré.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Seuil de traitement",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est indispensable de proposer un traitement de l'hyperglycémie pour tout patient diabétique admis en réanimation dont la glycémie est supérieure à 10 mmol/l (1,8 g/l). Entre 8,3 et 10 mmol/l (1,5 et 1,8 g/l), un tel traitement apparaît souhaitable bien que le bénéfice ne soit pas totalement établi.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Objectif non défini",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'objectif de traitement de l'hyperglycémie des patients diabétiques admis en réanimation n'est pas formellement défini. Néanmoins, des valeurs de glycémie inférieures à 6,1 mmol/l (1,1 g/l) et supérieures ou égales à 8,3 mmol/l (1,5 g/l) semblent délétères et doivent être évitées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cible péri-opératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En peropératoire, il faut probablement maintenir un niveau glycémique inférieur à 8,3 mmol/l (1,5 g/l) chez les patients diabétiques. En postopératoire, il semble souhaitable de maintenir cet objectif de traitement pendant trois jours (en l'absence de complications).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Insuline IV selon contexte",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient diabétique, il faut choisir l'insuline en perfusion intraveineuse continue pour contrôler la glycémie en cas de déséquilibre préopératoire, ainsi qu'en périopératoire d'une chirurgie majeure ou réalisée en urgence, ou en cas d'admission postopératoire en réanimation. Il ne faut probablement pas modifier l'insulinothérapie périopératoire du patient diabétique bien équilibré bénéficiant d'une chirurgie mineure sous réserve de la mise en place d'une perfusion de sérum glucosé pendant et après l'intervention avec surveillance glycémique rapprochée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Reprise des antidiabétiques oraux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les patients diabétiques traités antérieurement par des antidiabétiques oraux, la reprise orale du traitement doit être réévaluée après la phase aiguë de réanimation, en respectant les contre-indications de ces médicaments.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Insuline antérieure jamais interrompue",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les patients diabétiques traités antérieurement par insuline, il est impératif de ne jamais interrompre ce traitement sauf si l'arrêt est transitoire et justifié par une hypoglycémie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dépistage post-hyperglycémie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les patients admis en réanimation avec une hyperglycémie persistante, mais sans notion de diabète, devraient bénéficier d'une évaluation métabolique ultérieure et si possible avant la sortie de l'hôpital. Cette évaluation pourrait inclure une glycémie à jeun et une mesure de l'hémoglobine A1c. Une hyperglycémie provoquée par voie orale peut être utile dans certains cas.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sortie de réanimation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "À la sortie de la réanimation et avant la sortie de l'hôpital, une prise en charge optimale du contrôle glycémique doit probablement être proposée pour les patients diabétiques, nouveaux diagnostiqués ou insulinorésistants.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 10 — Les spécificités en pédiatrie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte intégral)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "NGP",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque accru — jeune enfant",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le risque d'hypoglycémie est d'autant plus important que l'enfant est jeune et que la période de jeûne se prolonge.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Signes d'alerte",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut rechercher les signes d'alerte d'hypoglycémie, difficiles à détecter chez le jeune enfant incapable d'exprimer une sensation de malaise.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Développement cérébral",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La survenue d'hypoglycémies sévères et récidivantes chez le jeune enfant peut altérer définitivement le développement cérébral et psychomoteur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement — bolus IV",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le traitement des hypoglycémies en réanimation ou en période périopératoire repose sur l'administration intraveineuse d'un bolus de 2 à 5 mg/kg de soluté glucosé à 10 % (0,2 à 0,5 g/kg), renouvelable selon le contrôle effectué 30 minutes plus tard.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Besoins de base",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les besoins de base en glucose sont deux à trois fois plus importants chez le nourrisson (5-8 mg/kg par minute) que chez l'adulte.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mesure systématique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut réaliser une mesure de la glycémie dès l'admission et au moins une fois par jour pendant la phase aiguë en réanimation chez l'enfant, même en l'absence d'insulinothérapie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Alimentation parentérale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez l'enfant, une alimentation parentérale ne doit pas être brutalement interrompue.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pas de contrôle strict",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas possible actuellement de recommander en pédiatrie une stratégie de contrôle glycémique strict par insulinothérapie en réanimation ou en période périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mesure chez le nourrisson",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le nourrisson, en cas de jeûne prolongé (plus de quatre heures) ou de chirurgie longue (plus d'une heure), une mesure de la glycémie peropératoire doit être faite.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Apports hydroélectrolytiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les apports hydroélectrolytiques du nourrisson au cours d'une chirurgie longue doivent être basés sur la perfusion de solutions contenant du NaCl (0,7-0,8 %) et du glucose (1-2,5 %).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Solutions avec ions",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut jamais prescrire de solutions glucosés sans ions chez le nourrisson et l'enfant, quel que soit l'âge, en raison du risque d'encéphalopathie hyponatrémique potentiellement létal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Posologie / absence de modèle",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En situation aiguë, les posologies d'insuline à action rapide en perfusion intraveineuse varient de 0,02 à 0,15 UI/kg par heure. Il n'est actuellement pas possible de recommander un modèle de protocole et de seuil glycémique cible en pédiatrie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Acidocétose diabétique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'acidocétose diabétique doit être prise en charge en tenant compte d'un risque particulièrement important de survenue d'œdème cérébral.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Modéré"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Contrôle de la glycémie en réanimation et en anesthésie » — Recommandations formalisées d'experts, Société française d'anesthésie et de réanimation (Sfar) et Société de réanimation de langue française (SRLF), en partenariat avec l'Alfediam, l'Adarpef, le Gefrup, la Sbar (Société belge d'anesthésie-réanimation), la SFNEP et la SIZ. Coordonnatrice : Carole Ichai. Comités des référentiels : Marc Léone, Benoît Veber (Sfar) ; Alain Cariou, Didier Barnoud (SRLF). 21 experts (France, Belgique, Suisse). Ann Fr Anesth Reanim 2009;28:410-415.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Publication :</b> doi 10.1016/j.annfar.2009.02.020, disponible en ligne le 27 mars 2009. Recommandations validées définitivement en juillet 2008.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> méthode Grade adaptée à deux axes indépendants (NGP et Accord, voir légende page 1) ; cotation du consensus par vote gradué de 1 à 9 (médiane, 3 zones). Champs 1-4 : points forts non cotés. Champs 5-10 : 74 recommandations, dont 73 portent une cotation NGP + Accord (ou Indécision pour 1 d'entre elles) et 1 (mesure en SSPI, champ 7) ne porte aucune cotation imprimée — voir disclosure page 1.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des 74 recommandations des champs 5 à 10 (transcription verbatim, sans paraphrase), ainsi qu'une synthèse compacte des points forts de physiologie/physiopathologie des champs 1 à 4.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations cotées du texte source, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques) et n'est ni édité ni validé par la Sfar, la SRLF ou les sociétés partenaires. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé. Document de 2009 : vérifier l'existence d'une actualisation plus récente en cas de doute (les cibles glycémiques en réanimation ont notamment évolué depuis dans la littérature).",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

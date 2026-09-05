@@ -1,0 +1,1148 @@
+{
+ "doc": "traumatisme_membre",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie & critères de gravité",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge initiale, pré- et intra-hospitalière, du patient victime d'un traumatisme sévère de membre(s) (TSM). Comité de 21 experts SFAR/SFMU/SOFCOT/SCVE/SSA, méthode GRADE®, format PICO, 11 questions. Les traumatismes pelviens (RFE dédiée) sont exclus du champ.<br/><br/><b>Définition opérationnelle du TSM</b> : traumatisme de membre(s) réunissant au moins un critère de Vittel <i>et</i> une classification AIS ≥ 3 — notamment amputation, dégantage, écrasement plus proximal que la cheville/le poignet, ischémie aiguë de membre, lésion vasculaire ischémique ou hémorragique, fractures de deux os longs proximaux (humérus/fémur), traumatisme pénétrant plus proximal que le coude/le genou.<br/><br/><b>Résultats (résumé officiel) :</b> 19 recommandations ; 4 de niveau de preuve élevé (GRADE 1+/-), 12 de niveau de preuve faible (GRADE 2+/-), 3 avis d'experts. Accord fort obtenu pour l'ensemble après deux tours de cotation.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Figure 1 — Critères de Vittel (un seul critère présent = traumatisé grave)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Critères",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Examen initial du patient",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Score de Glasgow &lt; 13 • Saturation &lt; 90 % en air ambiant • Pression artérielle systolique &lt; 90 mmHg",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Circonstances de l'accident",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Victime éjectée, projetée ou écrasée • Au moins une victime décédée dans l'accident • Chute de plus de 6 mètres • Explosion ou blast",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prise en charge préhospitalière",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ventilation assistée • Remplissage vasculaire &gt; 1 litre • Perfusion de catécholamines",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lésions observées ou suspectées",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Traumatisme pénétrant • Volet thoracique • Brûlure • Traumatisme du bassin • Amputation de membre • Ischémie aiguë de membre • Suspicion de lésion médullaire",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Caractéristiques du patient",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Âge &gt; 65 ans • Grossesse au 2e ou 3e trimestre • Pathologies associées (insuffisance cardiaque, respiratoire, anomalie de l'hémostase)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Figure 2 — Classification de Gustilo des fractures ouvertes",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Type",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Description",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Taux d'infection",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Plaie &lt; 1 cm, contamination minimale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 2 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Plaie de 1 à 10 cm, sans lésion extensive des tissus mous",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 à 5 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.A",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Lésion tissulaire étendue &gt; 10 cm, comminution importante, couverture cutanée possible",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5 à 10 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.B",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Exposition osseuse, comminution importante",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "10 à 50 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.C",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Lésion artérielle associée",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "25 à 50 %",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q1-Q2 — Orientation & contrôle du saignement",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 1 — Orientation vers un centre spécialisé",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients victimes de traumatisme sévère de membre(s), il est recommandé d'admettre en centre spécialisé de traumatologie grave les patients ayant au moins un critère de Vittel en préhospitalier.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Une survie additionnelle de 3-4 patients pour 100 admis avec ISS &gt; 15 (et de 11/100 si ISS &gt; 24) a été rapportée au Royaume-Uni. Critères spécifiques de gravité pour un membre : ≥ 2 fractures des os longs, amputation proximale au-dessus du poignet/de la cheville, délabrement majeur (dégantage, écrasement, ischémie aiguë).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Question 2 — Réduire le saignement en préhospitalier",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'hémorragie active de membre et d'inefficacité de la compression directe, d'amputation, de corps étranger au sein de la plaie hémorragique, d'absence de pouls radial (critère hémodynamique) ou de multiples actions simultanées à mener, il est probablement recommandé de mettre en place un garrot.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de pose d'un garrot, les experts suggèrent de réévaluer, dès que possible, son efficacité, son utilité et sa localisation sur le membre, y compris lors de la phase pré-hospitalière, afin de limiter sa morbidité (temps de pose le plus court et zone d'ischémie la plus limitée possible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Efficacité du garrot pour arrêter une hémorragie active : 69-97 % selon les modèles. Étude cas-témoins (186 vs 840 patients) : survie accrue avec garrot, OR 5,86 [1,40-24,57]. Délai à respecter : &lt; 1 heure entre lésion artérielle et bloc opératoire (risque d'amputation 6 % → 11,7 % au-delà, p &lt; 0,01). Complications locales rapportées (méta-analyse 2018) : syndrome compartimental 2-18 %, infection 7-9 %, parésie nerveuse 1-6 %, TVP 9 %, amputation 12-59 % (imputabilité difficile à établir vs. lésion initiale) ; systémiques : rhabdomyolyse 2 %, IRA 2-3 %.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q3 — Dépistage d'une lésion vasculaire",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 3 — Dépister une lésion vasculaire (imagerie injectée)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour ne pas méconnaître une lésion vasculaire chez un traumatisé grave de membre(s), il est probablement recommandé de réaliser en première intention un angioscanner en cas de présence d'un ou plusieurs des éléments suivants : notion de saignement extériorisé d'origine artérielle • proximité du traumatisme avec un axe vasculaire principal • présence d'un hématome non expansif • déficit neurologique isolé • Indice de pression systolique (IPS) cheville-bras &lt; 0,9.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Signes « forts » (saignement extériorisé important, hématome expansif/pulsatile, syndrome ischémique, souffle/thrill) → exploration chirurgicale immédiate ou angioscanner/artériographie rapide si patient stabilisé. Signes « faibles » (ci-dessus) → présence d'une lésion artérielle dans 3-25 % des cas. IPS &lt; 0,9 : sensibilité 87 %, spécificité 97 % (série de 93 patients). Méta-analyse récente : en l'absence de tout signe et avec IPS normal, probabilité de lésion vasculaire virtuellement nulle (rapport de vraisemblance négatif 0,01). Angioscanner : sensibilité/spécificité 96,2 %/99,2 % (méta-analyse, 11 études, 891 patients) — a remplacé l'artériographie en 1re intention, celle-ci gardant sa place en 2e intention (ex. artefacts métalliques).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q4 — Moment et modalités de l'ostéosynthèse",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 4 — Moment et modalités de l'ostéosynthèse",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Une approche clinique globale et personnalisée est nécessaire pour chaque patient par le biais d'une discussion multidisciplinaire fondée sur l'état clinique et le bilan lésionnel.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence d'autre lésion traumatique sévère (cérébrale, thoraco-abdomino-pelvienne ou médullaire), d'état de choc hémorragique, d'instabilité circulatoire ou respiratoire, il est recommandé de réaliser l'ostéosynthèse définitive et sûre du (des) foyer(s) de fracture des os longs dans les 24 premières heures afin de réduire l'incidence de complications locales ou systémiques associées, particulièrement pour les fractures diaphysaires fémorales et tibiales à haut risque de complications respiratoires (SDRA, embolie graisseuse).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En présence d'une ou plusieurs lésions traumatiques sévères (cérébrale, thoraco-abdomino-pelvienne ou médullaire) ou d'un état de choc hémorragique, d'une instabilité circulatoire ou d'une atteinte respiratoire sévère, il est probablement recommandé de retarder l'ostéosynthèse définitive au profit d'une stabilisation temporaire (fixateur externe ou traction selon les délais envisagés) pour réduire la survenue de complications systémiques induites par l'agression chirurgicale, les pertes sanguines péri-opératoires, la coagulopathie, ainsi que le risque d'embolie graisseuse. L'ostéosynthèse définitive et sûre devra être réalisée le plus précocement possible par la suite.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Concepts clés : « stabilisation précoce appropriée » (Early appropriate care) et « chirurgie séquentielle avec stabilisation temporaire » (Damage control orthopaedic surgery). Une stabilisation par fixateur externe est associée à une réduction de 15 % du risque de SDRA vs. traction, pour les fractures diaphysaires fémorales — à privilégier si la chirurgie définitive n'est pas envisagée dans un délai de 24 à 36 heures.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Tableau 1 — Gradation du risque de complications secondaires",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque faible",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque intermédiaire",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Statut circulatoire",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Stable (pas de noradrénaline ou débit &lt; 2 mg/h, pas de transfusion, lactate &lt; 2,5 mmol/L)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Choc modéré (noradrénaline 2-4 mg/h, transfusion 1-4 CGR, lactate 2,5-4 mmol/L)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Choc profond (noradrénaline &gt; 4 mg/h, transfusion ≥ 5 CGR, lactate &gt; 4 mmol/L)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Coagulation",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "TQr &lt; 1,2, fibrinogène ≥ 1,5 g/L, plaquettes ≥ 100 G/L",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "TQr 1,2-1,5, fibrinogène 1-1,5 g/L, plaquettes 50-100 G/L",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "TQr &gt; 1,5, fibrinogène &lt; 1 g/L, plaquettes &lt; 50 G/L",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Respiratoire / thermique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "PaO2/FiO2 &gt; 300, hypothermie &gt; 35°C",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "PaO2/FiO2 &lt; 300, hypothermie 32-35°C, rhabdomyolyse massive (myoglobine ≥ 10 000 UI/L)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "PaO2/FiO2 &lt; 150, hypothermie &lt; 32°C, rhabdomyolyse massive (myoglobine ≥ 20 000 UI/L)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Orientation (Fig. 3)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie définitive sûre précoce",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réanimation appropriée, réévaluations répétées dans les 24h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie définitive sûre retardée + stabilisation temporaire (si diaphyse de membre inférieur)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Figure 3 (algorithme visuel, page 25 de la source, transcrit ci-dessus sous forme de tableau) : évaluation individualisée (terrain, statut physiologique, profil lésionnel/local) → gradation du risque (tableau ci-dessus) → orientation vers la stratégie appropriée. En cas de stabilisation temporaire, réévaluation quotidienne (état circulatoire, coagulation, respiratoire, état local) : poursuite vers l'ostéosynthèse définitive retardée si les critères sont favorables, sinon non-réintervention et rééducation.</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q5 — Sauvetage de membre ou amputation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 5 — Sauvetage de membre ou amputation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de stabilité hémodynamique, il est probablement recommandé de procéder à un sauvetage du membre.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de choc hémorragique associé à un traumatisme grave de membre(s), il est probablement recommandé d'appliquer une stratégie de damage control. Aucun critère de gravité considéré isolément n'impose le recours à une amputation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Résultats fonctionnels équivalents possibles entre sauvetage et amputation (la décision doit se fonder sur l'état du membre, les comorbidités, les préférences du patient et le savoir-faire du chirurgien) — le sauvetage nécessite souvent plusieurs interventions et plus de réhospitalisations, l'amputation offre une réadaptation plus courte mais un vécu psychologique parfois moins bon. Score MESS &gt; 7 et score MESI &gt; 20 largement cités comme seuils d'amputation initiale, mais le MESS n'est <b>pas</b> un facteur de risque indépendant en analyse multivariée et ne doit pas être considéré isolément. Ischémie froide &gt; 6h : échec de réimplantation 87 % vs 61 % en deçà — à considérer comme un critère relatif, pas un marqueur prédictif indépendant. Situations favorisant une amputation initiale en contexte hémorragique : amputation traumatique complète, perte de substance rendant impossible tout recouvrement cutané, section avérée du nerf tibial, fractures multiples avec perte osseuse ou lésions vasculaires ischémiques.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q6 — Prévention du risque septique",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 6 — Prévention du risque septique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer une antibioprophylaxie en cas de traumatisme sévère avec fracture ouverte de membres le plus rapidement possible et pour une durée maximale de 48 à 72 heures (à l'exception d'une infection avérée).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas réaliser de prélèvements microbiologiques systématiques au bloc opératoire lors d'un traumatisme sévère avec fracture ouverte de membres.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Taux d'infection : ~1 % après traumatisme fermé, 6-44 % après fracture ouverte selon le type/terrain/définition retenue. Type de molécule selon la classification de Gustilo (Figure 2) et l'écologie locale. Prélèvements préopératoires non contributifs dans 47 % des cas (étude rétrospective, 245 patients) ; pathogène responsable retrouvé dans seulement 0-56 % des prélèvements peropératoires selon l'étude. Infections fongiques invasives : rares mais mortalité 7,8 % — prélèvement mycologique ciblé possible en cas de nécrose cutanée étendue/persistante ou de moisissures visibles sur la plaie (pas de dépistage systématique en population civile, faute de données).",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Figure 4 — Mesures de prévention du risque infectieux</b> (transcrite depuis l'affiche de la source, page 32, pure image, vérifiée visuellement) — à réaliser le plus tôt possible : <b>1.</b> Antibioprophylaxie systématique active sur les cocci Gram positifs et les anaérobies (amoxicilline + acide clavulanique ou céphalosporines — RFE SFAR 2018 ; si allergie : clindamycine ± gentamicine). <b>2.</b> Lavage abondant de la plaie. <b>3.</b> Emballage dans un pansement stérile humide. <b>4.</b> Immobilisation de la fracture. <b>5.</b> Vérification du statut antitétanique par test immunochromatographique et SAT/VAT selon HAS 2013. <b>6.</b> Prise en charge chirurgicale : irrigation, débridement ± parage, stabilisation de la fracture, recherche de lésions associées vasculo-nerveuses, couverture cutanée.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Q7-Q8 — Thromboprophylaxie & syndrome des loges",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 7 — Prévention de la maladie thromboembolique veineuse",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients victimes de traumatisme sévère de membre(s) inférieur(s), il est recommandé d'instaurer une thromboprophylaxie médicamenteuse précoce par héparine de bas poids moléculaire (HBPM), après contrôle de l'hémorragie et de l'hémostase, dont le délai d'instauration sera modulé par le bilan lésionnel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé de mettre en place un filtre cave chez des patients à risque thrombo-embolique majeur en dehors d'une contre-indication au traitement pharmacologique et mécanique (par compression veineuse intermittente).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Risque thromboembolique selon la zone : élevé pour fémur/plateau tibial, modéré pour tibia/cheville/pied/rupture du tendon d'Achille/immobilisation plâtrée. HBPM = traitement de référence depuis &gt; 20 ans ; instauration dans les 36 premières heures jugée sûre y compris avec lésion d'organe solide ou traumatisme crânien, sans majoration significative du saignement. Filtre cave optionnel envisageable si contre-indication formelle, avec retrait prévu d'emblée à distance (2+) — méta-analyse : pas de différence de mortalité, 1 embolie pulmonaire évitée pour 109/962 patients avec filtre.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Question 8 — Syndrome des loges",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient traumatisé sévère de membre(s), les experts suggèrent d'effectuer une fasciotomie précoce en cas de syndrome de loge récemment constitué pour réduire l'incidence des répercussions fonctionnelles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Recherche répétée (toutes les 30 min à 2h) pendant les 24 premières heures</b> chez le patient à risque (fracture, écrasement, lésion hémorragique/reperfusion, hypotension) : les « 4P » — <i>pain</i> (douleur spontanée ou à la mise sous tension), <i>paresthesia</i>, <i>paresis</i> — sont des signes précoces à haute valeur prédictive négative mais faible sensibilité. <i>Pulselessness</i> et <i>pallor</i> (pâleur, abolition du pouls) sont des signes tardifs traduisant un caractère déjà souvent irréversible — leur absence ne rassure pas. Pression intracompartimentale ≥ 30 mmHg ou pression différentielle (PA diastolique − pression intracompartimentale) &lt; 30 mmHg : utiles au dépistage. Traitement : fasciotomie précoce, incision large peau/tissu sous-cutané/fascia, ouverture de toutes les loges du segment.",
+      "style": "body"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Q9-Q10 — Rhabdomyolyse & embolie graisseuse",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 9 — Rhabdomyolyse aiguë post-traumatique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour détecter le risque de survenue d'une insuffisance rénale aiguë chez le patient atteint de rhabdomyolyse aiguë post-traumatique après traumatisme de membre(s), il est probablement recommandé de réaliser : un bilan biologique répété associant un dosage plasmatique de la myoglobine, de la créatine phosphokinase (CPK) et de la kaliémie ; un sondage urinaire permettant de monitorer la diurèse horaire et le pH urinaire (objectif ≥ 6,5).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Concernant les mesures de prévention de l'insuffisance rénale aiguë chez le patient atteint de rhabdomyolyse aiguë post-traumatique après traumatisme de membre, les préconisations sont celles des recommandations formalisées d'experts SFAR-SRLF de 2016 « insuffisance rénale aiguë en péri-opératoire et en réanimation ».",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "CPK &gt; 5× la normale (~1000 UI/L) signe la rhabdomyolyse ; CPK &gt; 75 000 UI/L associé à &gt; 80 % de défaillance rénale (cohorte crush syndrome, séisme). Myoglobine : pic plasmatique plus précoce, potentiellement plus sensible/spécifique que les CPK pour le risque rénal. Remplissage par cristalloïdes balancés : &gt; 6 L/j si rhabdomyolyse sévère (CPK &gt; 15 000 UI/L), 3-6 L/j si modérée (étude rétrospective post-séisme, 638 patients) — le délai d'instauration du remplissage est associé au risque de survenue d'une IRA.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Question 10 — Embolie graisseuse et atteintes inflammatoires systémiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de réaliser un traitement chirurgical d'une fracture de la diaphyse des os longs dans les 24 premières heures post-traumatiques pour limiter les complications respiratoires à type de SDRA ou d'embolie graisseuse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de réaliser en première intention une ostéosynthèse définitive des fractures diaphysaires d'os longs pour prévenir le risque de SDRA et d'embolie graisseuse. Chez les patients hémodynamiquement instables ou présentant une atteinte respiratoire sévère en préopératoire, la balance bénéfice-risque entre une ostéosynthèse définitive ou la pose d'un fixateur externe doit faire l'objet d'une discussion multidisciplinaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de ne pas administrer de corticoïdes pour prévenir l'embolie graisseuse en cas de fracture diaphysaire des os longs.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Recommandations centrées sur les fractures de diaphyse fémorale (données de la littérature). Chirurgie dans les 10 premières heures associée à un risque moindre d'embolie graisseuse dans une étude. Étude « borderline » (42/165 patients) : OR d'ALI 6,69 [1,01-44,08] dans le groupe enclouage précoce, à mettre en balance avec une durée de ventilation plus courte chez les patients stables traités par ostéosynthèse définitive. Corticoïdes : méta-analyse ancienne (7 études dont 6 réalisées entre 1977 et 1987, 430 patients, délai opératoire &gt; 5 jours, fortes doses 6-30 mg/kg de méthylprednisolone) montrait un effet protecteur (RR 0,22) mais validité externe faible et effets délétères démontrés par ailleurs (traumatisme crânien, blessés médullaires) — non recommandé en pratique actuelle avec prise en charge chirurgicale précoce.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q11, synthèse, sources & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 11 — Contrôle de la douleur aiguë",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les experts suggèrent qu'en cas de traumatisme sévère de membre(s) l'utilisation d'une stratégie d'analgésie multimodale soit favorisée et que le rapport bénéfice/risque des molécules choisies soit évalué à l'aune de la volémie et de l'atteinte musculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Renvoi aux RFE SFMU (sédation-analgésie en structure d'urgence) et SFAR (douleur postopératoire). Titration IV de morphine = technique de référence (efficace dans 82 % des cas), sans dose de charge préalable nécessaire. Kétamine 0,15-0,3 mg/kg en association à la morphine titrée : améliore l'analgésie et réduit les doses de morphine. MEOPA efficace sans effet indésirable majeur si contre-indications respectées. Sufentanil intranasal efficace (matériel adapté requis, taux non négligeable d'effets indésirables). ALR : bloc fémoral (ilio-fascial ou voie directe avec repérage nerveux) réalisable en préhospitalier ; blocs plus complexes évalués au cas par cas en intrahospitalier.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Synthèse et messages clés",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• Admission en centre spécialisé dès qu'un seul critère de Vittel est présent.<br/>• Garrot en 1re intention si hémorragie active de membre non contrôlée par compression, avec réévaluation itérative de son efficacité/utilité/localisation.<br/>• Angioscanner en 1re intention devant tout signe (fort ou faible) de lésion vasculaire, ou IPS cheville-bras &lt; 0,9.<br/>• Ostéosynthèse définitive et sûre dans les 24h si le patient est stable ; stabilisation temporaire (damage control orthopaedic surgery) puis ostéosynthèse différée si lésions sévères associées ou instabilité — orientation guidée par la gradation du risque (Tableau 1/Figure 3).<br/>• Aucun critère de gravité isolé n'impose une amputation d'emblée — décision multidisciplinaire fondée sur l'ensemble du tableau clinique.<br/>• Antibioprophylaxie précoce (48-72h max) en cas de fracture ouverte ; pas de prélèvements microbiologiques systématiques.<br/>• Thromboprophylaxie par HBPM précoce ; pas de filtre cave hors contre-indication formelle.<br/>• Recherche répétée des « 4P » (pain, paresthesia, paresis + douleur à l'étirement passif) pour le syndrome des loges — pâleur et abolition du pouls sont des signes tardifs.<br/>• Bilan biologique répété (myoglobine, CPK, kaliémie) et diurèse alcaline en cas de rhabdomyolyse ; pas de corticoïdes pour prévenir l'embolie graisseuse.<br/>• Analgésie multimodale, titration morphinique sans dose de charge, kétamine à faible dose en adjuvant.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge des patients présentant un traumatisme sévère de membre(s) » — Recommandations Formalisées d'Experts communes SFAR-SFMU, en association avec la SOFCOT, la SCVE et le SSA. Comité de 21 experts, coordination J. Pottecher (SFAR), H. Lefort (SFMU). Texte validé par le Comité des Référentiels Cliniques le 16/06/2020, le CA SFAR le 25/08/2020 et le CA SFMU le 15/09/2020.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE®, tags « Grade 1+/1-/2+/2- (Accord FORT) » et « Avis d'expert(s) (Accord FORT) » imprimés littéralement après chaque recommandation — cités ici tels quels.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> 19 recommandations (R1 à R11, dont 3 avis d'experts) reproduites intégralement, ainsi que les Figures 1 et 2 (critères de Vittel, classification de Gustilo) et le Tableau 1 de gradation du risque. La Figure 3 (algorithme d'orientation) et la Figure 4 (checklist de prévention infectieuse), pages 25 et 32 de la source — pures images, sans texte extractible — ont été vérifiées visuellement et retranscrites sous forme de tableau/liste structurés. L'Annexe 1 (codes techniques AIS détaillés par lésion, plusieurs centaines d'entrées) n'est <b>pas</b> reproduite ici : son contenu clinique essentiel — seuil AIS ≥ 3 et catégories de lésions définissant un TSM — est intégré dans le panneau d'introduction ; pour le codage AIS détaillé, se référer au texte intégral.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations de la RFE mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR/SFMU. En cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

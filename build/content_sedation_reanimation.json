@@ -1,0 +1,1444 @@
+{
+ "doc": "sedation_reanimation",
+ "sections": [
+  {
+   "title": "Q1 — Définitions & buts, Q2 (1/3) — Moyens non médicamenteux",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> place et modalités de la sédation et de l'analgésie en réanimation, à l'exclusion du nouveau-né et de l'analgésie postopératoire. Particularités pédiatriques en italique dans le texte source (reproduites ici entre crochets « [pédiatrie] »).<br/><br/><b>Méthodologie GRADE — convention de formulation du jury (pas de tag imprimé par recommandation) :</b> « il faut faire » / « il ne faut pas faire » = recommandation forte (1+/1-) ; « il faut probablement faire » / « il ne faut probablement pas faire » = recommandation optionnelle (2+/2-). <b>Les grades de cette fiche sont donc déduits de la formulation exacte de chaque phrase selon cette convention explicite du jury</b> — une formulation plus libre (« il est proposé », « peut être utilisé », un simple constat « est probablement une alternative ») est chipée « AE » (proposition/avis non formellement gradée) plutôt que forcée dans le système 1/2. Une interdiction univoque formulée différemment (« ne doit pas être utilisé », « est contre-indiqué ») est traitée comme équivalente à « il ne faut pas faire » (1-) ; une restriction conditionnelle (« ne doit être utilisé que dans le cas de… ») reste « AE », faute d'équivalent direct dans la convention du jury.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (convention du jury)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "«Il faut faire» (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "«Il ne faut pas faire» (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "«Il faut probablement»",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "«Il ne faut probablement pas»",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Proposition / avis (non gradée)",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 1 — Définitions et buts de la sédation-analgésie",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "La <b>sédation-analgésie « de confort »</b> vise en priorité à soulager la douleur et améliorer la tolérance à l'environnement. La <b>sédation-analgésie « thérapeutique »</b>, plus profonde, est un élément à part entière du traitement dans certaines circonstances pathologiques (patients cérébrolésés : évaluation neurologique et/ou contrôle de la pression intracrânienne ; insuffisance respiratoire aiguë/SDRA : amélioration des échanges gazeux ; fin de vie : soins palliatifs ; enfants : limiter les répercussions sur le comportement face à la douleur). Les buts communs sont identiques chez l'enfant et l'adulte : confort du patient et adaptation au ventilateur, dans le cadre d'une balance bénéfices-risques évaluée au plus près des situations cliniques.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation du jury)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Objectifs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut éviter une sédation-analgésie insuffisante ou excessive.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 2 (1/3) — Moyens non médicamenteux",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation du jury)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Moyens non médicamenteux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut promouvoir les moyens non médicamenteux — l'organisation du service doit prendre en compte l'environnement thermique, lumineux et sonore, et le sommeil.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur induite par les soins",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut limiter la douleur induite par les soins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "[Pédiatrie]",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut encourager les programmes d'éducation et d'assistance parentale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q2 (2/3) — Hypnotiques",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 2 (2/3) — Moyens médicamenteux : hypnotiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation du jury)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémodynamique instable",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients dont l'hémodynamique est instable, il faut toujours diminuer les doses des agents de sédation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémodynamique instable",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients dont l'hémodynamique est instable, il ne faut pas utiliser le nesdonal (thiopental) ou le propofol.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Propofol",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si le propofol est utilisé, il faut limiter l'administration à une durée inférieure à 48 heures et à des doses inférieures à 5 mg/kg/h, et dépister la survenue du « propofol infusion syndrome » (PRIS), qui engage le pronostic vital.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Propofol [pédiatrie]",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le propofol est contre-indiqué en sédation continue chez l'enfant de moins de 15 ans.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Midazolam",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour le midazolam, si un effet plateau est constaté, il ne faut pas poursuivre l'augmentation des doses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Étomidate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'étomidate ne doit pas être utilisé pour la sédation-analgésie en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Thiopental (Nesdonal)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le nesdonal ne doit être utilisé qu'en cas d'hypertension intracrânienne (HTIC) ou d'état de mal épileptique, après échec du traitement initial.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neuroleptiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement utiliser un neuroleptique dans les états confuso-délirants, l'agitation, les orages neurovégétatifs et les syndromes de sevrage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Clonidine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement utiliser la clonidine lors du sevrage et des orages neurovégétatifs.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Le choix du propofol ou du midazolam n'a pas de pertinence clinique sur la durée de la ventilation mécanique. Chez l'enfant, l'hémodynamique doit être restaurée avant l'initiation de la sédation-analgésie.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Tableau 2 — Agents de la sédation (posologies)",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Médicament",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Dose de charge",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Dose d'entretien",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Seuil convuls.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accumul.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Effets secondaires",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Propofol",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,1-3 mg/kg<br/>E : 0,1-5 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : < 5 mg/kg/h<br/>E : contre-indiqué",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Augmenté",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Hypotension, hypertriglycéridémie, PRIS",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Midazolam",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,05-0,2 mg/kg<br/>E : 0,02-0,1 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,10-0,15 mg/kg/h<br/>E : 0,02-0,4 mg/kg/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Augmenté",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+++",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Hypotension, accumulation, effet plateau",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Étomidate",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,2-0,4 mg/kg<br/>E : contre-indiqué",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Contre-indiqué",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Discuté",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "N.A.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dépression surrénalienne",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,5-2 mg/kg<br/>E : 0,5-2 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,12-3 mg/kg/h<br/>E : 0,12-2 mg/kg/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Discuté",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dissociatifs à fortes doses, hypersécrétion",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Nesdonal (thiopental)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3-5 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Variable selon associations",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Augmenté",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+++",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Hypotension, accumulation, dépression immunitaire",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Clonidine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,5-3 µg/kg<br/>E : 1 µg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "E : 0,2-2 µg/kg/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Inchangé",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Hypotension, bradycardie",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "A : adultes, E : enfants, C.I. : contre-indiqué, N.A. : non applicable.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q2 (3/3) — Analgésiques & curares",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 2 (3/3) — Analgésiques & curares",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation du jury)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Morphiniques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En administration continue, il faut utiliser la morphine, le fentanyl ou le sufentanil.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rémifentanil",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si l'on utilise le rémifentanil, il faut évaluer son rapport bénéfice/risque et respecter scrupuleusement les recommandations d'administration.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Gestes douloureux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour des gestes douloureux, il faut administrer un bolus du morphinique en cours, en tenant compte de son délai d'action.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rémifentanil",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire de bolus de rémifentanil.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AINS",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas utiliser les anti-inflammatoires non stéroïdiens (AINS) dans cette indication en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La kétamine ne doit pas être utilisée seule comme hypnotique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement utiliser la kétamine en réanimation pour ses propriétés antihyperalgésiques, son respect de la motricité intestinale et de l'hémodynamique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Emla [pédiatrie]",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser l'Emla lors de toute effraction cutanée chez l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Protoxyde d'azote",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le protoxyde d'azote peut être utilisé pour la sédation-analgésie au cours des soins douloureux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curares stéroïdiens",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas administrer les curares stéroïdiens en continu.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cisatracurium",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En perfusion continue, il faut probablement utiliser le cisatracurium.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "L'analgésie locorégionale (ALR) ne s'envisage qu'en postopératoire ou en traumatologie (analgésie notamment thoracique). Les différentes modalités d'administration des morphiniques (PCA, patch, voie sublinguale) doivent être évaluées en réanimation ; la place de l'analgésie multimodale doit être précisée.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Tableau 3 — Les morphiniques (posologies)",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Médicament",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Dose de charge",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Entretien",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accumulation",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Morphine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,1 mg/kg<br/>E : 0,05-0,2 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,01-0,05 mg/kg/h<br/>E : idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fentanyl",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 2-3 µg/kg<br/>E : 1-2 µg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,6-2 µg/kg/h<br/>E : 1-5 µg/kg/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+++",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sufentanil",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,1-0,2 µg/kg<br/>E : idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,1-0,5 µg/kg/h<br/>E : idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Alfentanil",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 10-25 µg/kg<br/>E : idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Peu utilisé",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rémifentanil",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : pas de bolus<br/>E : pas de bolus",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "A : 0,05-0,25 µg/kg/h<br/>E : idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q3 — Outils d'évaluation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 3 — Outils et impact de l'évaluation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation du jury)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Principe",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut évaluer la sédation-analgésie du patient en réanimation, définir les besoins en analgésiques et sédatifs, s'assurer de l'adéquation entre la réponse au traitement et les besoins prédéfinis, et réévaluer régulièrement les besoins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Champ couvert",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut au moins évaluer l'analgésie et la conscience (l'évaluation complète couvre aussi le confort, l'anxiété, l'agitation et l'adaptation au ventilateur).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traçabilité",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut assurer la traçabilité de l'évaluation et élaborer une procédure d'évaluation en concertation multiprofessionnelle, réalisée à intervalles réguliers, après toute modification du traitement et lors des stimulations douloureuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur — patient vigile",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient vigile et coopérant, et l'enfant de plus de 5-6 ans, il faut utiliser l'EVA (échelle visuelle analogique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur — patient inconscient",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient inconscient ou incapable de communiquer, il faut utiliser l'échelle BPS (Behavioral Pain Scale) ou l'échelle ATICE ; chez l'enfant, l'échelle COMFORT B.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Conscience",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour l'évaluation de la conscience, il faut utiliser l'une des échelles suivantes : Ramsay, RASS ou ATICE ; chez l'enfant, COMFORT B.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Index bispectral (BIS)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est proposé d'évaluer la profondeur de la sédation par l'analyse de l'index bispectral quand les échelles ne peuvent plus détecter une sédation inadaptée (curarisation, coma barbiturique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si une curarisation est utilisée, il faut surveiller régulièrement sa profondeur par la réponse au train de quatre du muscle sourcilier (objectif : deux réponses), à l'état stable et après toute modification de dose.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut évaluer la profondeur de la sédation-analgésie pendant toute la durée de la curarisation, au cours d'une fenêtre quotidienne de décurarisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si l'évaluation par fenêtre quotidienne de décurarisation est impossible, il est proposé d'utiliser l'index bispectral.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sevrage / confusion",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut rechercher les facteurs de risque de syndrome de sevrage et dépister la survenue d'un état confuso-délirant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Suivi post-réanimation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement recueillir l'avis du patient au décours du séjour en réanimation et dépister le syndrome de stress post-traumatique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q4-Q5 — Arrêt, sevrage, conduite pratique & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 4 — Arrêt de la sédation-analgésie & syndrome de sevrage",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation du jury)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Quand arrêter",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut que les objectifs de sédation-analgésie soient constamment adaptés à l'évolution de la pathologie causale ; lorsque la situation est contrôlée voire résolue, il faut systématiquement envisager l'allègement progressif puis l'arrêt de la sédation-analgésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Comment arrêter",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut une surveillance accrue lors de la décroissance de la sédation-analgésie, avec prise en compte des caractéristiques pharmacocinétiques des médicaments utilisés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Comment arrêter",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement diminuer de façon progressive les posologies des morphiniques et des hypnotiques, plutôt que de les arrêter brutalement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut que la curarisation soit la plus courte possible et que son arrêt soit envisagé dès son instauration.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Syndrome de sevrage",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut que le syndrome de sevrage soit prévenu, diagnostiqué et traité — à différencier de toute cause organique classique d'agitation aiguë. Son traitement fait appel à la réintroduction de la molécule estimée responsable, ainsi qu'aux neuroleptiques et/ou aux alpha-agonistes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sevrage [pédiatrie]",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez l'enfant, il faut rechercher des signes de syndrome de sevrage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sevrage [pédiatrie]",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La substitution par méthadone est probablement une alternative à la réintroduction du morphinique dans le cadre de la prise en charge du syndrome de sevrage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 5 — Conduite pratique de la sédation-analgésie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation du jury)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Procédure écrite",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut une procédure écrite prévoyant l'évaluation et l'adaptation des doses de sédation-analgésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Objectifs individualisés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut définir pour chaque patient les objectifs de sédation-analgésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Transcrit depuis l'algorithme de la page 4 (555) du document source (pure image, sans calque de texte extractible — vérifié visuellement).</i>",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Algorithme proposé par le jury —</b> boucle Évaluer → Comparer aux objectifs fixés :<br/><b>1. Évaluer</b> l'état du patient et les objectifs définis (douleur, agitation, adaptation au ventilateur) avec le(s) outil(s)/échelle(s) choisi(s) par l'équipe (auto-évaluation de la douleur si le patient est conscient).<br/><b>2.</b> Débuter la sédation-analgésie si besoin, en choisissant le(s) médicament(s) selon la procédure du service → comparer aux objectifs fixés (contrôler la douleur et l'agitation, adapter le patient au ventilateur).<br/><b>3a. Si objectifs atteints</b> → évaluer le niveau de conscience (outil de mesure indispensable) → comparer aux objectifs fixés → objectif atteint : pas d'adaptation nécessaire (rechercher un sevrage ?) ; objectif non atteint : patient trop endormi → diminution des doses d'hypnotiques et de morphiniques.<br/><b>3b. Si objectifs non atteints</b> → en cas d'agitation ou de désadaptation, prévenir le réanimateur (procédures d'alerte) et rechercher la cause → adapter la sédation-analgésie selon le protocole pour l'objectif → si patient agité/inconfortable : augmentation des doses d'hypnotiques et de morphiniques.<br/><b>4.</b> Dans tous les cas → réévaluer régulièrement, après modification des doses et lors des soins douloureux (retour à l'étape 1).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Sédation et analgésie en réanimation (nouveau-né exclu) » — Conférence de Consensus SFAR-SRLF, Paris, 15 novembre 2007. Texte court du jury, publié in Annales Françaises d'Anesthésie et de Réanimation 2008;27:552-555 (doi:10.1016/j.annfar.2008.04.025).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE, sans tag imprimé par recommandation — convention de formulation du jury (voir légende page 1). Grades de cette fiche déduits de cette convention explicite.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2015/10/2a_AFAR_Texte_court_Sedation-et-analgesie-en-reanimation_nouveau-ne-exclu.pdf",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 5 questions du texte court et de l'algorithme proposé, mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR. Document ancien (2007/2008) — les pratiques de sédation-analgésie en réanimation ont évolué depuis (échelles, molécules) ; en cas de doute, se référer au texte intégral, aux mises à jour ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

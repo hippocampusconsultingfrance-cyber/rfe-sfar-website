@@ -1,0 +1,881 @@
+{
+ "doc": "remplissage",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie & Tableau 1",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> choix du <b>type</b> de soluté de remplissage vasculaire en situation critique (ce référentiel ne traite ni de la quantité à administrer, ni des modalités d'administration). Groupe de 24 experts SFAR/SFMU, méthode GRADE®, format PICO. Quatre champs cliniques, chacun exploré par 2 questions : (1) un colloïde diminue-t-il la morbi-mortalité par rapport aux cristalloïdes ? (2) un type particulier de cristalloïde diminue-t-il la morbi-mortalité ?<br/><br/><b>Résultats (résumé officiel) :</b> neuf recommandations formulées ; 2 de niveau de preuve élevé (GRADE 1+/-), 6 de niveau de preuve faible (GRADE 2+/-), 1 avis d'experts. Accord fort obtenu pour l'ensemble après deux tours de cotation. Pour 2 questions, aucune recommandation n'a pu être formulée.<br/><br/><b>Périmètre exclu</b> de cette RFE (déjà couvert par d'autres référentiels ou hors champ) : cirrhose, pancréatite aiguë, SDRA, insuffisance rénale, population pédiatrique.<br/><br/><i>Le résumé officiel mentionne également « trois protocoles de prise en charge » élaborés par les experts. Après vérification visuelle exhaustive des 28 pages du document source (texte court), ces protocoles n'y apparaissent ni sous forme de texte ni sous forme de figure — ils ne sont donc pas reproduits ici. Se référer au texte long / aux annexes de la RFE pour ces protocoles.</i>",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Les 4 champs cliniques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Champ",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Population",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Patients atteints de sepsis ou de choc septique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Patients en situation de choc hémorragique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Patients cérébrolésés",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Patientes en péripartum",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Tableau 1 — Composition des solutés de remplissage disponibles",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Composition",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Plasma",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "NaCl 0,9 %",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Ringer Lactate",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Plasma-lyte",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Isofundine",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Na+ (mmol/l)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "142",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "154",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "130",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "140",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "145",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "K+ (mmol/l)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cl- (mmol/l)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "103",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "154",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "108",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "98",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "127",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ca2+ (mmol/l)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2,4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,9",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2,5",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mg2+ (mmol/l)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HCO3- (mmol/l)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "27",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autre (mmol/l)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Lactate 2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Lactate 27,6",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Acétate 27 / Gluconate 23",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Acétate 27 / Malate 5",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Osmolarité (mOsm/l)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "285",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "308",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "277",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "295",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "309",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "pH",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "7,4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5-6,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6-7,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6,5-7,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5-6,5",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Isotoniques : osmolarité 280-310 mOsm/L (NaCl 0,9 %, Plasmalyte, Isofundine). Hypotonique : &lt; 280 mOsm/L (Ringer lactate). Hypertoniques : &gt; 310 mOsm/L (NaCl 3 %, NaCl 7,5 %). « Solutés balancés » = composition ionique proche du plasma (Ringer lactate, Plasmalyte, Isofundine), par opposition au NaCl 0,9 % (riche en chlore). Le potassium des solutés balancés (4-5 mmol/l) n'entraîne pas d'augmentation de la kaliémie, y compris chez le patient hyperkaliémique (études randomisées chez le transplanté rénal).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 1 — Sepsis / choc septique",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 1 — Sepsis ou choc septique : colloïdes vs cristalloïdes",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé d'utiliser les hydroxyéthylamidons pour le remplissage vasculaire au cours du sepsis ou du choc septique, comparativement aux cristalloïdes non hypertoniques, pour diminuer la mortalité et/ou le recours à l'épuration extrarénale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les experts suggèrent de ne pas utiliser les gélatines pour le remplissage vasculaire au cours du sepsis ou du choc septique, comparativement aux cristalloïdes non hypertoniques, pour diminuer la mortalité et/ou le recours à l'épuration extrarénale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé d'utiliser en première intention de l'albumine au cours du sepsis ou du choc septique, comparativement aux cristalloïdes, pour diminuer la mortalité ou le recours à l'épuration extrarénale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Hydroxyéthylamidons (HEA) : essais VISEP et 6S (populations septiques) — surmortalité et insuffisance rénale aiguë accrue. CHEST et CRISTAL n'ont pas confirmé la surmortalité ; CHEST rapporte en outre un recours accru à l'épuration extrarénale dans le groupe HEA. L'Agence européenne des médicaments a recommandé en 2013 l'arrêt des HEA en réanimation, en particulier chez le patient septique. Gélatines : signal d'insuffisance rénale et de réactions anaphylactiques dans certaines études, sans supériorité démontrée. Albumine : 5 essais randomisés (dont SAFE, ALBIOS, EARSS), aucun bénéfice de survie établi malgré des hypothèses physiopathologiques favorables ; une seule méta-analyse sur 6 retrouve un bénéfice (Xu et al., OR 0,81).",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — Après analyse de la littérature, les experts ne sont pas en mesure d'émettre une recommandation concernant l'utilisation d'albumine en seconde intention chez les patients atteints d'hypoalbuminémie majeure et/ou nécessitant des volumes de remplissage importants.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Plusieurs études (SAFE, ALBIOS) suggèrent un bénéfice de l'albumine sur la réduction des volumes de remplissage et l'amélioration de la fonction circulatoire, sans que le niveau de preuve soit jugé suffisant par les experts pour une recommandation formelle — malgré une suggestion en ce sens de la Surviving Sepsis Campaign 2016.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 (suite) — Choix du type de cristalloïde",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients atteints de sepsis ou de choc septique, il est probablement recommandé d'utiliser des solutés cristalloïdes balancés pour le remplissage vasculaire pour diminuer la mortalité et/ou la survenue d'évènements indésirables rénaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Étude SMART (15 802 patients, sous-groupe sepsis n=2336) : moins d'événements rénaux majeurs à 30 jours avec les solutés balancés (OR 0,80). Méta-analyse Tseng 2020 (intégrant les données non publiées de CRISTAL) : moindre mortalité avec solutés balancés vs NaCl 0,9 % (OR 0,84). Résultat non retrouvé sur la survenue d'insuffisance rénale aiguë. Seule l'étude SPLIT (77 patients septiques sur &gt; 2000) ne va pas dans ce sens, jugée peu généralisable.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — Choc hémorragique",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 — Choc hémorragique : colloïdes vs cristalloïdes",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients en situation de choc hémorragique, quel que soit le contexte, il n'est probablement pas recommandé d'utiliser un colloïde comme soluté de remplissage vasculaire, comparativement aux cristalloïdes non hypertoniques, pour diminuer la mortalité et/ou le recours à l'épuration extrarénale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Depuis 2014, la HAS restreint l'usage des hydroxyéthylamidons à la 2e intention en cas de pertes sanguines si les cristalloïdes sont jugés insuffisants. Méta-analyses les plus récentes : pas de bénéfice de mortalité des HEA/gélatines vs cristalloïdes chez le traumatisé. Essais FLASH et Kabon et al. (chirurgie abdominale à haut risque hémorragique) : pas de différence sur le critère composite principal ; insuffisance rénale plus fréquente sous HEA dans FLASH. HEA également associé à un risque hémorragique accru par trouble de l'hémostase en périopératoire de chirurgie majeure. Pas d'étude dédiée pour l'albumine au cours de l'hémorragie ; il n'est probablement pas recommandé d'en administrer.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 (suite) — Choix du type de cristalloïde",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients en situation de choc hémorragique, il est probablement recommandé d'utiliser des solutés cristalloïdes balancés en première intention plutôt que du NaCl 0,9 % comme soluté de remplissage vasculaire pour diminuer la mortalité et/ou les évènements indésirables rénaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients en situation de choc hémorragique, il n'est pas recommandé d'administrer un soluté salé hypertonique à 3 % ou 7,5 % en première intention comme soluté de remplissage vasculaire pour diminuer la mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Aucune étude randomisée n'a spécifiquement comparé NaCl 0,9 % et solutés balancés au cours du choc hémorragique (volumes typiquement &gt; 5000-10 000 mL sur 24 h en traumatologie). Les données disponibles (études observationnelles, extrapolations d'essais en réanimation/périopératoire) montrent une association entre hyperchlorémie/hauts volumes de solutés riches en chlore et surmortalité, orientant le choix vers les solutés balancés en première intention, en l'absence d'étude dédiée robuste (d'où un GRADE 2 et non 1).",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Exception SSH :</b> les experts soulignent que dans les situations associant choc hémorragique et traumatisme crânien grave avec signe de focalisation, l'administration d'un bolus de sérum salé hypertonique reste indiquée pour son effet osmotique.",
+      "style": "body"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Champs 3-4 — Cérébrolésés & péripartum",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 3 — Patients cérébrolésés",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé d'utiliser des colloïdes, en particulier l'albumine, comme soluté de remplissage chez les patients cérébrolésés pour diminuer la mortalité et/ou améliorer le pronostic neurologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'utiliser des cristalloïdes isotoniques, en première intention, comme soluté de remplissage vasculaire chez les patients cérébrolésés pour diminuer la mortalité et/ou améliorer le pronostic neurologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Étude SAFE (sous-groupe traumatisés crâniens, n=460) : surmortalité sous albumine 4 % (RR 1,63). Étude ALIAS (AVC) : pas de bénéfice de l'albumine 25 %, risque accru d'œdème pulmonaire/hématome intracérébral. À l'inverse, dans l'hémorragie sous-arachnoïdienne, l'albumine était associée à un meilleur pronostic dans une étude rétrospective — données limitées et controversées.<br/>Solutés hypotoniques (Ringer lactate, &lt; 280 mOsm/L) à éviter à la phase aiguë du fait du risque d'œdème cérébral : une étude préhospitalière retrouve une surmortalité avec le Ringer lactate comparé au NaCl 0,9 % chez le traumatisé crânien (HR 1,78). Les experts ne peuvent pas se positionner sur une éventuelle supériorité des solutés isotoniques balancés par rapport au NaCl 0,9 % dans cette population (faible niveau de preuve, 2 petits essais randomisés montrant seulement une réduction du risque d'hyperchlorémie).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 4 — Patientes en péripartum",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — Du fait de l'absence de donnée disponible dans la littérature, aucune recommandation spécifique ne peut être émise concernant le choix du soluté de remplissage vasculaire à utiliser dans la prise en charge réanimatoire des femmes en péripartum. Par défaut, le soluté de remplissage utilisé sera celui recommandé selon le contexte dans la population générale.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Synthèse, sources & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Synthèse et messages clés",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• <b>Hydroxyéthylamidons :</b> non recommandés en situation critique (sepsis, choc hémorragique) — signal de surmortalité/insuffisance rénale au cours du sepsis, absence de bénéfice et risque hémorragique au cours du choc hémorragique.<br/>• <b>Gélatines :</b> à ne pas utiliser au cours du sepsis (avis d'experts).<br/>• <b>Albumine :</b> pas de bénéfice de mortalité démontré en 1re intention au cours du sepsis ; pas de donnée dédiée au choc hémorragique (probablement à ne pas utiliser) ; probablement délétère chez le cérébrolésé (surmortalité en sous-groupe traumatisme crânien).<br/>• <b>Cristalloïdes balancés</b> (Ringer lactate, Plasmalyte, Isofundine) probablement préférés au NaCl 0,9 % au cours du sepsis et du choc hémorragique (moindre risque rénal, meilleur équilibre acido-basique) — sans crainte fondée d'hyperkaliémie.<br/>• <b>Cérébrolésés :</b> cristalloïdes isotoniques en première intention ; éviter les solutés hypotoniques (Ringer lactate) à la phase aiguë (risque d'œdème cérébral).<br/>• <b>Sérum salé hypertonique :</b> non recommandé en première intention au cours du choc hémorragique isolé — sauf association à un traumatisme crânien grave avec signe de focalisation, où un bolus reste indiqué.<br/>• <b>Péripartum :</b> aucune donnée spécifique — appliquer les recommandations de la population générale selon le contexte clinique.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Choix du soluté pour le remplissage vasculaire en situation critique » — Recommandations Formalisées d'Experts communes SFAR-SFMU. Comité de 24 experts, coordination O. Joannes-Boyau (SFAR), P. Le Conte (SFMU). Texte validé par le Comité des Référentiels Cliniques de la SFAR le 10/05/2021, le Conseil d'Administration de la SFAR le 19/05/2021 et le Conseil d'Administration de la SFMU le 29/06/2021.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE®, tags « GRADE 1+/1-/2+/2-, accord FORT » et « Avis d'experts, accord FORT » imprimés littéralement après chaque recommandation dans le texte source — cités ici tels quels.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> 9 recommandations (R1.1 à R3.2, dont 1 avis d'experts) et 2 questions « absence de recommandation » reproduites intégralement, ainsi que le Tableau 1 (composition des solutés — image source sans texte extractible, vérifiée visuellement et retranscrite intégralement). Le résumé officiel mentionne « trois protocoles de prise en charge » qui ne figurent, ni en texte ni en figure, dans le document source (texte court) : ils ne sont donc pas reproduits ici — se référer au texte long / aux annexes de la RFE.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations de la RFE mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR/SFMU. En cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

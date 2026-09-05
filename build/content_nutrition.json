@@ -1,0 +1,1729 @@
+{
+ "doc": "nutrition",
+ "sections": [
+  {
+   "title": "Introduction & Points forts (champs 1-3)",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Objectif :</b> RFE commune SFAR-SRLF-SFNEP (Société francophone nutrition clinique et métabolique) — 33 experts, 3 présidents, 3 pilotes. Méthode GRADE. 10 champs, dont 3 premiers traités comme « points forts » (physiopathologie/évaluation, jugés non cotables formellement) et 7 derniers ayant conduit à des recommandations formalisées.<br/><br/><b>Résultats (résumé officiel) :</b> « 69 recommandations » issues des six derniers champs. <b>Terminologie propre à cette source :</b> chaque recommandation (« Encadré ») porte un tag explicite unique « (Accord fort) » ou « (Accord faible) » — reflétant la force du consensus des experts (vote Delphi), affiché ici comme chip coloré. Le niveau de preuve GRADE (1 = fort, 2 = faible) n'est jamais réimprimé à côté de chaque encadré individuel dans la source — il se déduit du verbe de l'énoncé lui-même : « il faut (faire/ne pas faire) » = recommandation forte (GRADE 1) ; « il faut probablement (faire/ne pas faire) » = recommandation optionnelle (GRADE 2). Cette nuance reste donc directement lisible dans le texte verbatim de chaque encadré ci-dessous, sans codage GRADE synthétique superposé (risque d'erreur d'interprétation sur certains énoncés composites).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Divergence source-interne (disclosure) :</b> notre inventaire direct, item par item, dénombre <b>71 encadrés numérotés</b> au total (contre « 69 » annoncés par le résumé officiel), y compris les 4 encadrés des champs 1-3 (1.1, 2.1, 2.2, 3.1) que la méthodologie décrit pourtant comme de simples « points forts » non formellement cotés — ces 4 encadrés portent pourtant, dans le texte, un tag « Accord fort/faible » identique en format à la grande majorité des autres (une seule autre exception existe par ailleurs : l'encadré 9.3.1 ne porte aucun tag, traité ci-après comme absence de recommandation). Aucun sous-ensemble testé de notre compte ne correspond exactement au chiffre « 69 » du résumé. Chaque encadré est néanmoins reproduit intégralement ci-dessous ; la divergence porte uniquement sur le chiffre agrégé du résumé.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Champs 1-3 — Points forts (physiopathologie et évaluation)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tout patient admis en réanimation pour une durée présumée supérieure à 3 jours est à risque de dénutrition. Cette dernière augmente la morbi-mortalité (infection en particulier) et les durées de ventilation, de séjour et d'hospitalisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour évaluer précisément la dépense énergétique d'un patient de réanimation, il faut utiliser la calorimétrie indirecte (méthode de référence, en tenant compte de ses limites d'utilisation) plutôt que les équations prédictives.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement limiter le déficit énergétique précoce (dépenses moins apports cumulés) durant la première semaine pour réduire la morbi-mortalité en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement évaluer l'état nutritionnel des patients à l'admission au minimum en calculant l'IMC et en évaluant la perte de poids.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Prévalence de la dénutrition : 0,5 à 100 % selon la population et le marqueur retenu ; augmente la morbidité infectieuse, le lâchage de sutures, le recours à la trachéotomie, les durées de VM/séjour, et la mortalité à l'hôpital et à 6 mois. Dépense énergétique : la calorimétrie indirecte reste la référence mais peu généralisable en routine ; les équations simples (âge/sexe/poids) ne sont pas fiables. Un déficit énergétique précoce &gt;100 kcal/kg cumulés peut s'installer dès la 1ère semaine — le limiter plutôt que le corriger complètement est la stratégie la plus raisonnable (sur/sous-compensation excessive = risque de complications). Évaluation nutritionnelle : IMC et perte de poids récente sont les marqueurs les plus simples ; circonférence brachiale également prédictive ; les autres paramètres (biologiques, bioimpédancemétrie, scores composites) ont une association inconstante avec la morbi-mortalité.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Stratégie générale & Champ 5 — Compléments oraux",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Stratégie générale du support nutritionnel",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut administrer dans les 24 premières heures un support nutritionnel entéral aux patients dénutris ou jugés incapables de s'alimenter suffisamment dans les 3 jours après l'admission.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser la nutrition entérale (NE) plutôt que la nutrition parentérale (NP), en l'absence de contre-indication formelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas utiliser la NE en amont d'une fistule digestive de haut débit, en cas d'occlusion intestinale, d'ischémie du grêle ou d'hémorragie digestive active.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut instaurer une NP de complément lorsque la NE n'atteint pas la cible calorique choisie au plus tard après 1 semaine de séjour en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'utilisation de calorimétrie indirecte, il ne faut probablement pas dépasser la dépense énergétique mesurée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de calorimétrie indirecte, il faut probablement un objectif calorique total de 20-25 kcal/kg/j à la phase aiguë et 25-30 kcal/kg/j après stabilisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de calorimétrie indirecte, il faut tenir compte du poids habituel (ou à défaut du poids à l'admission) pour des IMC entre 20 et 35.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut répartir les apports caloriques non protéiques en 60-70 % glucidiques et 30-40 % lipidiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut apporter 1,2 à 1,5 g/kg/j de protéines.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de limitation ou arrêt thérapeutique, il faut discuter de l'opportunité du support nutritionnel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Méta-analyses concordantes sur la réduction de morbi-mortalité par NE précoce (protection de la trophicité digestive, limitation du déficit énergétique) ; la NP est associée à un risque infectieux plus élevé. Contre-indications fonctionnelles (ischémie mésentérique) à discuter au cas par cas. En cas d'intolérance à la NE, ne pas chercher à compenser trop vite/rigoureusement par NP — apports ajustés au déficit mesuré si possible. Un excès d'apports caloriques (&gt;100 %) n'améliore pas la balance protéique et peut être délétère (métabolisme hépatique, sevrage ventilatoire) — la dépense mesurée excède rarement 30 kcal/kg/j sauf traumatisé crânien ou brûlé.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 5 — Compléments oraux",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsque l'alimentation orale exclusive est insuffisante, il faut probablement ajouter des compléments nutritionnels oraux (CNO), en dehors des heures de repas.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Aucune étude n'a confirmé l'intérêt spécifique des CNO en réanimation ; leur usage ne doit pas retarder la mise en route d'une NE chez un patient ne couvrant pas ses besoins. Argumentaire (non gradé dans la source) : il ne faut probablement pas prescrire de CNO spécifiques. Utilisation envisageable au début de la reprise alimentaire, dans le cadre de la rééducation à la déglutition.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 6 — Nutrition entérale",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 6 — Nutrition entérale",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas mesurer le volume résiduel gastrique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement privilégier la sonde d'alimentation naso- ou oro-gastrique en première intention (simplicité, moindre coût).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut envisager l'administration de prokinétiques (métoclopramide et/ou érythromycine) pour améliorer l'apport calorique global en cas de trouble de la vidange gastrique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement envisager le site post-pylorique en cas de trouble persistant (malgré les prokinétiques) de la vidange gastrique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut installer le patient en position semi-assise (&gt;30°) pendant la NE.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut instituer une stratégie multidisciplinaire formalisée de NE.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement poser une gastrostomie lorsque la durée anticipée d'une NE dépasse 4 semaines.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser des mélanges polymériques pour débuter une NE.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement réserver les mélanges semi-élémentaires à certaines situations digestives spécifiques (grêle court).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas utiliser de mélanges polymériques spécifiques (diabète, insuffisance respiratoire).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut administrer le mélange nutritif entéral de manière continue 24h/24 à l'aide d'une pompe.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement adapter le débit d'administration en vue d'atteindre la cible nutritionnelle en moins de 48 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement utiliser les mélanges contenant des fibres extraites de la gomme de guar en cas de diarrhée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Volume résiduel gastrique : sa mesure ne réduit pas le risque d'inhalation mais réduit les apports par les interruptions qu'elle impose. Sonde gastrique : simplicité, rapidité, coût limité, faible risque mécanique ; sondes de petit calibre (silicone/polyuréthane) mieux tolérées. Prokinétiques : érythromycine possiblement supérieure au métoclopramide (synergie mais diarrhée majorée) ; métoclopramide d'efficacité douteuse et risque d'HTIC chez le neurotraumatisé ; tachyphylaxie après quelques jours (pas d'usage préventif). Site post-pylorique : bénéfice potentiel sur les pneumopathies d'inhalation, à pondérer par la complexité de pose, le coût et le besoin d'endoscopie. Position semi-assise : réduit le RGO sur 5-6h, recommandation systématique du fait de son innocuité (sauf trauma rachidien/instabilité hémodynamique). Mélanges : polymériques normocaloriques adaptés à la majorité des situations ; semi-élémentaires réservés au grêle court/malabsorption ; pas de bénéfice démontré aux mélanges spécifiques diabète/insuffisance respiratoire. Administration continue à la pompe : meilleure tolérance (RGO, inhalation, diarrhée) qu'en discontinu. Gomme de guar : seule fibre ayant démontré une efficacité sur la diarrhée en association à un mélange polymérique.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 7 — Nutrition parentérale & Champ 8 — Pharmaconutrition",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 7 — Nutrition parentérale",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser les mélanges prêts à l'emploi plutôt que les flacons séparés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut supplémenter le patient en vitamines et éléments traces en cas de nutrition parentérale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas excéder un apport lipidique de 1,5 g/kg/j.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut administrer la nutrition parentérale en continu à l'aide d'une pompe électrique à régulation de débit, et éviter son administration cyclique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser un abord veineux central en cas d'administration de solutés hyperosmolaires (&gt;850 mOsm/L).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement privilégier l'administration de la nutrition parentérale sur une voie dédiée du cathéter veineux central.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut évoquer une complication métabolique ou un excès d'apport en cas d'anomalie(s) du bilan biologique (transaminases, bilirubine, gamma-GT, PAL, ionogramme, phosphore, glycémie, triglycérides).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Flacons séparés : davantage de manipulations = risque infectieux/bactériémie accru. Apport lipidique : au-delà de 1,5 g/kg/j, capacité d'oxydation dépassée = accumulation hépatique/réticulo-endothéliale toxique. Administration continue : limite les variations glycémiques/triglycéridémiques. Voie centrale dédiée : limite le risque d'incompatibilité médicamenteuse et de contamination (non validé spécifiquement en réanimation). Complications métaboliques à rechercher systématiquement : syndrome de renutrition, stéatose hépatique, cholestase, dysrégulation glycémique, hypertriglycéridémie.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 8 — Pharmaconutrition, vitamines, éléments traces",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si le patient a bénéficié d'une pharmaconutrition préopératoire (chirurgie carcinologique digestive), il faut la poursuivre en période postopératoire chez le patient préalablement dénutri.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas administrer de solution entérale enrichie en arginine chez le patient en sepsis sévère.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement associer à la nutrition parentérale exclusive de la glutamine intraveineuse à la posologie d'au moins 0,35 g/kg/j (sous forme de dipeptide à ≥0,5 g/kg/j), pendant une période minimale de 10 jours.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Pharmaconutrition préopératoire (arginine, oméga-3, nucléotides) : limite les complications postopératoires en chirurgie carcinologique digestive, à poursuivre si alimentation artificielle postopératoire nécessaire. Arginine en sepsis sévère : augmente les complications, allonge le séjour, accroît la mortalité dans certaines études — à éviter. Glutamine IV (NP exclusive) : les mélanges standards n'en contiennent pas (instabilité) ; l'ajout sous forme de dipeptide réduit les complications infectieuses, la durée de séjour et la mortalité.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 9 — Particularités liées au terrain",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 9 — Particularités liées au terrain",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation spécifique</b> — polytraumatisé — aucune spécificité nécessitant des recommandations particulières dans ce champ.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>Insuffisant rénal épuré (tous modes d'épuration extrarénale) :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement majorer l'apport protéique quotidien du patient sous épuration extrarénale continue à 1,7-2 g/kg/j.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si une supplémentation en glutamine est indiquée, il faut probablement la majorer.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement augmenter les apports en vitamines hydrosolubles (B1, C) et en éléments trace (sélénium, cuivre) chez les patients sous épuration extrarénale continue.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Pertes en acides aminés 10-17 % selon la technique ; glutamine représentant 30 % de la perte azotée totale (~3,5 g/24h), effet néphroprotecteur expérimental. Vitamine C : ne pas excéder 250 mg/j (risque d'oxalose) ; en pratique, doubler la dose habituelle d'oligo-éléments sous épuration continue.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Insuffisant hépatique :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation spécifique</b> — apport calorique — aucune spécificité, en dehors du risque hypoglycémique accru nécessitant 2 à 3 g/kg/j de glucose.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas diminuer l'apport d'acides aminés chez l'insuffisant hépatique aigu, sauf transitoirement en cas d'encéphalopathie et/ou d'hyperammoniémie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>SDRA :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas interrompre systématiquement la nutrition entérale lors de la mise en décubitus ventral.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation spécifique</b> — sepsis et syndrome de défaillance multiviscérale — aucune spécificité nécessitant des recommandations particulières dans ce champ.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>Obèse</b> (poids idéal théorique, PIT (kg) = 25 × [taille (m)]²) :",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas calculer les apports en fonction du poids réel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement calculer les apports nutritionnels en fonction du poids ajusté (PIT + 1/4 × [poids réel − PIT]).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En tenant compte de ce poids ajusté, il faut probablement apporter 20 kcal/kg/j dont 2 g/kg/j de protéines.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Dénutrition grave et syndrome de renutrition :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de dénutrition sévère et/ou de jeûne prolongé &gt;1 semaine, il faut probablement débuter la nutrition artificielle à 10 kcal/kg/j, puis augmenter progressivement selon la tolérance.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut supplémenter systématiquement en vitamines (B surtout), éléments trace et phosphore.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.7.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de dénutrition sévère et/ou de jeûne prolongé de plus d'une semaine, il faut doser la phosphatémie au moins 1×/jour ; suspecter un syndrome de renutrition si hypophosphatémie — dans ce cas, stopper temporairement l'alimentation et corriger la phosphatémie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Risques du syndrome de renutrition : troubles hydroélectrolytiques (hypophosphatémie, hypokaliémie, hypomagnésémie), déficit en vitamines hydrosolubles — complications cardiaques et neuromusculaires potentiellement létales, justifiant une montée progressive avec surveillance au moins quotidienne.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 9 (suite) — Patient gravement brûlé",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 9 (suite) — Patient gravement brûlé",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les besoins énergétiques du patient gravement brûlé sont fortement augmentés mais variables dans le temps, proportionnels à la surface corporelle atteinte, mais plafonnant à partir d'une SCB de 60 %.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de calorimétrie indirecte, il faut déterminer les besoins énergétiques avec la formule de Toronto (adulte) — les formules fixes conduisent à une sous/surestimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser des mesures non nutritionnelles pour atténuer l'hypermétabolisme/hypercatabolisme (température ambiante, chirurgie d'excision précoce, bêtabloquants non sélectifs, oxandrolone). Contrairement à l'adulte, il faut substituer en rh-GH les enfants brûlés à plus de 60 %.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.8.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement situer les besoins protéiques à 1,5-2 g/kg/j (respecter une proportion de l'apport énergétique total chez l'enfant).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.8.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement supplémenter en glutamine ou en alpha-cétoglutarate d'ornithine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.8.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas supplémenter en arginine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.8.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement associer une supplémentation en zinc, cuivre et sélénium.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Hypermétabolisme maximal les 2 premières semaines, s'atténuant selon la gravité. Bêtabloquants non sélectifs : effets surtout démontrés chez l'enfant (réduction hormones de stress/cytokines/hyper-catabolisme). Oxandrolone 10 mg/12h (0,1 mg/kg/12h chez l'enfant) : diminuerait perte de poids, catabolisme, délai de cicatrisation, durée de séjour et mortalité. rh-GH chez l'enfant (0,05-0,2 mg/kg/j) : accélérerait la cicatrisation des sites donneurs. Protéines : au-delà de 2,2 g/kg/j (adulte) ou 3 g/kg/j (enfant), pas de bénéfice supplémentaire démontré. Alpha-cétoglutarate d'ornithine : 30 g/j en 2-3 bolus, réduirait les délais de cicatrisation ; arginine non recommandable en l'absence de données de posologie/durée établies. Zinc/cuivre/sélénium : pertes majeures par les exsudats tant que les plaies sont ouvertes — substitution IV 8j (SCB 20-40 %), 15j (40-60 %), 30j (&gt;60 %) ; voie entérale inefficace (compétition cuivre/zinc pour le même transporteur).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 10 — Particularités pédiatriques",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 10 — Particularités pédiatriques",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Évaluation de l'état nutritionnel de l'enfant :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut dépister la dénutrition protéino-calorique à l'admission et surveiller sa survenue en cours de séjour.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut rechercher une évolution récente des courbes de croissance (cassure Poids/Taille/IMC) ou une perte de poids récente.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut mesurer poids, taille, périmètre crânien (PC) et périmètre brachial (PB) pour calculer les indices pédiatriques de dénutrition (rapport poids-taille, taille/âge, IMC, PB/PC chez les &lt;4 ans).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement estimer la taille des patients &gt;1 mètre, alités, rétractés ou déformés par la mesure de la longueur de l'ulna.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Prévalence de la dénutrition à l'admission en réanimation pédiatrique : 16-24 % (Europe). Formule d'estimation de la taille par l'ulna : T(cm,M) = 4,605×U + 1,308×A + 28,003 ; T(cm,F) = 4,459×U + 1,315×A + 31,485 (U = longueur ulna en cm, A = âge en années).",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Besoins énergétiques et macronutriments :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut fournir au moins les apports caloriques (100-90 kcal/kg/j &lt;1 an, nouveau-né exclu ; 90-75 entre 1-6 ans ; 75-60 entre 7-12 ans ; 60-30 entre 13-18 ans) et protidiques (2-3 g/kg/j &lt;2 ans, nouveau-né exclu ; 1,5-2 entre 2-12 ans ; 1,5 entre 13-18 ans) adaptés au poids et à l'âge.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement majorer les apports caloriques et protidiques en cas d'augmentation importante du travail respiratoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut fournir des apports lipidiques couvrant 30-40 % des apports caloriques totaux ; il ne faut probablement pas dépasser 4 g/kg/j.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En situation normale d'hydratation, il faut fournir les apports liquidiens suivants : 120-150 mL/kg/j (&lt;1 an, nouveau-né exclu) ; 80-120 (1-2 ans) ; 80-100 (3-5 ans) ; 60-80 (6-12 ans) ; 50-70 (13-18 ans), avec facteur correctif selon l'état d'hydratation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut assurer les apports recommandés en vitamines et éléments trace en fonction de l'âge — utiliser des produits spécifiquement destinés à l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "La calorimétrie indirecte (référence) est peu disponible en routine pédiatrique ; utiliser les tables d'apports conseillés (ANC, www.anses.fr) selon sexe/âge/poids. Capacité maximale d'oxydation des lipides atteinte pour 3-4 g/kg/j chez le nourrisson/enfant. Apports glucidiques (non gradés dans la source) : couvrant 50-60 % des apports caloriques totaux. Produits adultes non adaptés (acides gras, acides aminés essentiels, vitamines, oligo-éléments).",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Stratégie générale du support nutritionnel pédiatrique :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut nourrir tous les enfants hospitalisés en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser la voie entérale en première intention chez l'enfant présentant un tube digestif fonctionnel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement instaurer une nutrition parentérale entre le 3e et le 5e jour pour atteindre l'objectif calorique, en complément ou exclusivement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser des solutés de nutrition entérale et parentérale spécifiquement destinés à l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10.3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut augmenter les apports énergétiques de manière progressive, en particulier les apports glucosés parentéraux (incrémentation de 2 g/kg/j).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Faible"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Enfants dénutris = morbi-mortalité plus élevée ; réserves faibles et rapidement épuisées en situation d'agression. NP chez l'enfant à conduire selon les recommandations de l'ESPGHAN. Montée progressive sur 3-5 jours, tenant compte de la rupture du cycle entéro-insulaire et de la capacité maximale d'oxydation du glucose.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Synthèse, sources & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Synthèse et messages clés",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• Tout patient de réanimation à séjour présumé &gt;3 jours est à risque de dénutrition — dépistage à l'admission (IMC, perte de poids) et surveillance continue.<br/>• Nutrition entérale précoce (&lt;24-72h) en première intention chez le patient dénutri ou incapable de s'alimenter, sauf contre-indication formelle (fistule haut débit, occlusion, ischémie du grêle, hémorragie digestive active) ; NP de complément si cible non atteinte à 1 semaine, sans chercher à compenser trop vite.<br/>• Objectifs : 20-25 kcal/kg/j en phase aiguë puis 25-30 après stabilisation (sans calorimétrie), 1,2-1,5 g/kg/j de protéines ; limiter plutôt que corriger complètement le déficit énergétique précoce.<br/>• NE : sonde gastrique en 1ère intention, position semi-assise systématique, administration continue à la pompe, mélanges polymériques standards sauf indication spécifique (grêle court), pas de mesure du résidu gastrique, prokinétiques puis site post-pylorique si trouble de vidange persistant.<br/>• NP : mélanges prêts à l'emploi, supplémentation systématique en vitamines/oligo-éléments, lipides ≤1,5 g/kg/j, administration continue ; abord veineux central si osmolarité &gt;850 mOsm/L, et voie dédiée du cathéter central probablement à privilégier (recommandations distinctes).<br/>• Terrains spécifiques : majoration protéique et vitaminique sous épuration extrarénale continue ; poids ajusté chez l'obèse ; montée très progressive (10 kcal/kg/j) avec surveillance quotidienne de la phosphatémie en cas de dénutrition sévère/jeûne prolongé (risque de syndrome de renutrition) ; formule de Toronto/Schoffield et supplémentation en oligo-éléments prolongée chez le brûlé grave.<br/>• Pédiatrie : nourrir systématiquement tout enfant admis, voie entérale en 1ère intention, produits et solutés spécifiquement pédiatriques, apports caloriques/protidiques/hydriques dégressifs avec l'âge (cf. tableaux).",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Nutrition artificielle en réanimation » — Recommandations Formalisées d'Experts communes SFAR-SRLF-SFNEP. Ann Fr Anesth Reanim 2014;33:202-218, recommandations validées en février 2013. 33 experts, 3 présidents (J-Y. Lefrant/SFAR, D. Hurel/SRLF, N.J. Cano/SFNEP), 3 pilotes d'experts.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> les 71 encadrés numérotés identifiés dans le texte source (1.1 à 10.3.5, répartis sur 10 champs) sont reproduits intégralement, y compris les 3 items d'absence de spécificité explicite (polytraumatisé, insuffisance hépatique — volet calorique, sepsis/défaillance multiviscérale) et les 2 tableaux numériques (besoins énergétiques du brûlé, apports glucosés parentéraux pédiatriques).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Divergence d'agrégat (disclosure) :</b> le résumé officiel de la source annonce « 69 recommandations » issues des « six derniers champs » — notre inventaire direct dénombre 71 encadrés numérotés au total sur l'ensemble des 10 champs, sans qu'aucun sous-ensemble testé ne corresponde exactement à 69. La méthodologie de la source décrit par ailleurs les champs 1-3 comme non formellement cotés (« points forts »), alors que leurs 4 encadrés portent en pratique un tag « Accord fort/faible » identique en format à la quasi-totalité des autres (seule exception par ailleurs : l'encadré 9.3.1, sans tag, traité comme absence de recommandation) — divergence non réconciliée, disclosée telle quelle.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Convention de grading propre à cette source :</b> chaque encadré porte un unique tag imprimé « (Accord fort) » ou « (Accord faible) » (force du consensus), reproduit ici tel quel comme chip coloré. Le niveau de preuve GRADE (fort=« il faut… » / faible=« il faut probablement… ») n'est jamais réimprimé individuellement dans la source — il reste directement lisible dans le verbe de chaque énoncé verbatim, sans codage GRADE synthétique superposé ici (risque d'erreur d'interprétation sur les énoncés composites, ex. 9.8.3, 10.2.3).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations de la RFE mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR/SRLF/SFNEP. En cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

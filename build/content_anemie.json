@@ -1,0 +1,434 @@
+{
+ "doc": "anemie",
+ "sections": [
+  {
+   "title": "Champ 1-2 — Prévention, seuils transfusionnels",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ de la RFE :</b> prévention et prise en charge de l'anémie (définition, seuils transfusionnels, alternatives à la transfusion) chez le patient adulte de soins critiques — <b>hors hémorragie aiguë et anémies chroniques</b>, exclues du champ. L'anémie touche près de 2/3 des patients à l'admission en soins critiques et s'aggrave au cours du séjour (spoliations sanguines répétées, inflammation, hémodilution) ; elle est associée à la gravité et à la durée de séjour. RFE sous l'égide de la SFAR et de la SRLF, avec la SFTS (Société Française de Transfusion Sanguine) et la SFVTT (Société Française de Vigilance et de Thérapeutique Transfusionnelle) — <b>16 experts</b> (comptage direct de la liste des auteurs, confirmé — pas d'écart à signaler cette fois, contrairement à d'autres documents de ce corpus).<br/><br/><b>Trois champs :</b> (1) prévention non pharmacologique de l'anémie, (2) stratégies transfusionnelles, (3) traitement non transfusionnel. <b>10 recommandations</b> formalisées, réparties en 3 Grade 1 + 4 Grade 2 + 3 avis d'experts (total confirmé par comptage direct des 10 grades littéraux). Le résumé de la source annonce cependant « 3 grade élevé, 4 grade faible et 2 avis d'experts » — une somme de 9, pas 10 : incohérence arithmétique interne au résumé, non reconciliée ici (un comptage direct des 10 recommandations donne bien 3 avis d'experts, ce qui reconcilie le total correct de 10). Après deux tours de cotation, un accord fort a été obtenu pour l'ensemble des recommandations. Un item numéroté (R3.4) est une « Absence de recommandation » explicite (signalée plus bas).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Prévention non pharmacologique de l'anémie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Appliquer une stratégie de réduction des prélèvements sanguins (en volume et en nombre) pour diminuer l'incidence de l'anémie et la transfusion en soins critiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Prélèvements sanguins diagnostiques : 40-80 mL/jour en moyenne. Moyens : stratégies de réduction des examens complémentaires, réduction des volumes prélevés, systèmes de restitution du sang après prélèvement sur cathéter artériel (réduction du volume prélevé de 19 à 80 % selon les études).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Stratégies transfusionnelles",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Suivre une stratégie transfusionnelle restrictive (seuil d'Hb à 7,0 g/dL) chez les patients de soins critiques en général, y compris les patients septiques, afin de réduire le recours à la transfusion de concentrés érythrocytaires sans augmenter la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Suivre une stratégie transfusionnelle restrictive (seuil d'Hb entre 7,5 et 8,0 g/dL) chez les patients de soins critiques en post-opératoire de chirurgie cardiaque, afin de réduire le recours à la transfusion de concentrés érythrocytaires sans augmenter la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas suivre une stratégie transfusionnelle libérale ciblant un objectif d'Hb > 10,0 g/dL pour diminuer la morbi-mortalité chez les patients ayant un syndrome coronarien aigu, revascularisé ou non.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas suivre une stratégie transfusionnelle libérale ciblant un objectif d'Hb > 10,0 g/dL pour diminuer la morbi-mortalité chez les patients cérébrolésés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Ces cibles s'appliquent en dehors d'hémorragie active ou de mauvaise tolérance de l'anémie (notamment cardio-vasculaire).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2-3 — Figure, calibre, ASE, fer, traçabilité",
+   "items": [
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas choisir les concentrés érythrocytaires en fonction de leur durée de stockage pour diminuer la morbi-mortalité chez les patients de soins critiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adopter une stratégie transfusionnelle restrictive basée sur la transfusion d'un concentré érythrocytaire unitaire suivie d'une réévaluation de l'indication transfusionnelle, afin de réduire la consommation de concentrés érythrocytaires sans augmenter la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R2.5 : durée maximale de conservation en France = 42 jours ; deux essais randomisés de grande ampleur (ABLE 2430 patients, TRANSFUSE 4828 patients) n'ont retrouvé aucun impact de la durée de conservation sur le pronostic.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Traitement non transfusionnel de l'anémie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser des agents stimulants de l'érythropoïèse (ASE) chez les patients de soins critiques anémiques (Hb ≤ 10-12 g/dL) et/ou traumatisés, en l'absence de contre-indication (notamment antécédents cardio-vasculaires ischémiques et/ou thrombo-emboliques veineux), afin de réduire le recours à la transfusion de concentrés érythrocytaires et de diminuer la mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Arrêter les agents stimulants de l'érythropoïèse lorsque l'hémoglobine se stabilise entre 10,0 et 12,0 g/dL, afin de réduire la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R3.1 : dose la plus utilisée = 40 000 UI/semaine SC, associée à un apport de fer. R3.2 : à partir de 12,0 g/dL (≥12,0), une cible haute d'Hb augmente la mortalité (méta-analyse hors soins critiques, RR 1,17) et le risque de thrombose des accès vasculaires (RR 1,34).",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors d'une association avec un traitement par agent stimulant de l'érythropoïèse, ne pas administrer de fer pour réduire le recours à la transfusion érythrocytaire ou la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation (R3.4)</b> — il n'a pas été possible de formuler de recommandation concernant l'administration de vitamines chez le patient de réanimation dans l'objectif de réduire la transfusion érythrocytaire et/ou la morbi-mortalité liée à l'anémie ou à la transfusion.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "R3.3 : une méta-analyse combinant fer intraveineux (5 études) et fer par voie orale (1 étude) augmente l'Hb à la sortie de l'hôpital mais sans moindre recours à la transfusion pendant le séjour, et l'augmentation d'Hb est de pertinence clinique très faible (+0,31 g/dL). Risque de réaction anaphylactique (fer injectable) : 68/100 000 (fer dextran), 24/100 000 (fer sans dextran), minimal avec le fer sucrose. R3.4 (Question 3, vitamine B12/acide folique) : aucune donnée pour la B12 ; deux essais randomisés inconclusifs pour l'acide folique (absence de groupe contrôle ou déséquilibre des groupes à l'admission).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Gestion et prévention de l'anémie (hors hémorragie aiguë) chez le patient adulte de soins critiques » — Recommandations Formalisées d'Experts, SFAR et SRLF, avec la SFTS et la SFVTT. Auteurs : S. Lasocki, F. Pène, H. Ait Oufella, C. Aubron, S. Ausset, P. Buffet, O. Huet, Y. Launey, M. Legrand, T. Lescot, A. Mekontso Dessap, M. Piagnerelli, H. Quintard, L. Velly, A. Kimmoun, G. Chanques (16 experts). Coordonnateurs : S. Lasocki (SFAR), F. Pène (SRLF).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> texte validé par le CA de la SFAR le 20/06/2019 et le CA de la SRLF le 26/06/2019.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (force forte [1+/1-] ou faible [2+/2-] ; avis d'experts lorsque la littérature ne permettait pas de graduer). Accord fort obtenu pour l'ensemble des recommandations après 2 tours de cotation et un amendement.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/gestion-et-prevention-de-lanemie-hors-hemorragie-aigue-chez-le-patient-adulte-de-soins-critiques/",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 10 recommandations, de l'item « absence de recommandation » (R3.4) et de la Figure 1 de la RFE, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques par recommandation) et n'est ni édité ni validé par la SFAR ni la SRLF. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

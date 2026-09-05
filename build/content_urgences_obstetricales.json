@@ -1,0 +1,740 @@
+{
+ "doc": "urgences_obstetricales",
+ "sections": [
+  {
+   "title": "Champ 1 — Accouchement imminent",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ d'application :</b> prise en charge des complications obstétricales <b>hors structure spécialisée</b> (préhospitalier ou service d'urgence), c'est-à-dire hors maternité. <b>Méthodologie RPP (et non RFE)</b> : la littérature en médecine d'urgence étant très limitée, les experts ont choisi de formuler des <b>avis d'experts</b> (« les experts suggèrent de faire / de ne pas faire ») plutôt que des recommandations gradées GRADE 1/2. 15 recommandations + 4 recommandations reprises telles quelles de RFE antérieures (prévention HPP CNGOF/SFAR 2014, pré-éclampsie sévère SFAR/CNGOF 2020) pour les questions où aucune donnée spécifique au contexte extrahospitalier n'existe. 2 questions sans recommandation possible (arrêt cardiaque, transfert inter-hospitalier pour HPP grave).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (Accord fort) — méthodologie RPP",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "GRADE 1+ — repris de la RFE pré-éclampsie sévère SFAR/CNGOF 2020",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Accouchement imminent hors structure spécialisée",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Rechercher à l'interrogatoire, pour prédire l'imminence de l'accouchement : multiparité, antécédent d'accouchement rapide ou extrahospitalier, contractions utérines douloureuses et rapprochées, envie de pousser.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de suspicion d'accouchement imminent en préhospitalier, avec présence médicale habilitée (médecin ou sage-femme) sur place : réaliser un toucher vaginal avant de prendre contact avec l'équipe obstétricale d'accueil, pour orienter la suite de la prise en charge (transfert en maternité ou accouchement sur place).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de supériorité démontrée d'une installation par rapport à une autre : le soignant choisit avec la patiente la position dans laquelle ils sont tous deux le plus à l'aise pour réaliser l'accouchement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avoir la possibilité d'installer rapidement la patiente dans une position compatible avec la manœuvre de Mc Roberts (décubitus dorsal, cuisses hyperfléchies sur le tronc, tête fœtale abaissée dans l'axe ombilico-coccygien) en cas de dystocie des épaules.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas réaliser d'épisiotomie systématique en dehors des structures spécialisées dans le seul but de diminuer le risque de lésion du sphincter anal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Score de Malinas / SPIA :</b> aucun des deux scores n'est formellement validé pour prédire l'accouchement imminent, mais le score de Malinas reste utilisé en pratique par les SAMU en France. La rupture des membranes n'est <b>pas</b> un signe prédictif fiable d'accouchement imminent.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Technique privilégiée en France</b> pour l'accueil de l'enfant : positionnement d'une main (« hands-on ») en protection sur le périnée, pour prévenir une expulsion brutale du fœtus.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<i>Question non tranchée (pas de consensus au comité de pilotage, donc non soumise au vote) : l'intérêt du clampage tardif du cordon après un accouchement hors maternité à plus de 37 SA n'est pas abordé par ce document.</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2-3 — Hémorragie du post-partum & MAP",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 — Hémorragie du post-partum (prévention et prise en charge)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de spécificité liée au contexte hors maternité : appliquer les Recommandations de Pratique Clinique CNGOF/SFAR 2014 sur la prévention de l'HPP — <i>« il est recommandé d'administrer 5 à 10 UI d'oxytocine, en IVL ou en IM, au dégagement des épaules ou en post-partum immédiat pour réduire l'incidence d'hémorragie du post-partum »</i>.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez une patiente ayant accouché hors structure maternité : ne pas réaliser de délivrance artificielle pour réduire le risque d'HPP, sauf en cas de survenue d'une HPP sévère non contrôlable (dans ce cas, opérateur guidé à distance par un professionnel de l'obstétrique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez la patiente présentant une HPP hors structure spécialisée : administrer 1 g d'acide tranexamique en intraveineux, dans un délai maximal de 1 h à 3 h après le début du saignement, pour réduire la morbi-mortalité maternelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — transfert inter-hospitalier d'une patiente présentant une HPP avec signes de gravité vers un centre de recours maternel — à l'heure actuelle, les experts ne peuvent se prononcer sur les modalités et la temporalité de ce transfert (données quasi-inexistantes).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>En cas de décision de transfert</b> avec instabilité hémodynamique à l'arrivée de l'équipe : communication indispensable entre médecin du SMUR, équipe obstétricale/anesthésie-réanimation du centre d'origine, médecin régulateur et équipes du centre de recours receveur, pour (1) s'assurer du respect de l'algorithme thérapeutique de l'HPP et (2) décider collégialement entre prise en charge sur place (± renfort SMUR et produits sanguins labiles) ou transport.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Menace d'accouchement prématuré (MAP)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas médicaliser systématiquement les transferts inter-hospitaliers des femmes enceintes présentant une MAP en dehors d'une structure spécialisée, du fait de l'absence d'impact démontré sur le pronostic materno-fœtal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "L'existence d'un risque d'accouchement pendant le transport constitue une <b>contre-indication au transfert in utero</b> et une indication à un accouchement sur place (renfort néonatal à discuter). Sinon, l'indication d'un transfert médicalisé se discute au cas par cas (disponibilité SMUR, facteur temps) entre équipes d'accueil et médecin régulateur.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Pathologies hypertensives gravidiques",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Pathologies hypertensives gravidiques",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "En l'absence de données spécifiques au contexte extrahospitalier, les experts reprennent <b>in extenso</b> les recommandations de la RFE SFAR/CNGOF 2020 « Prise en charge de la patiente avec une pré-éclampsie sévère ». La décision d'initiation et les modalités du traitement, ainsi que l'indication de médicalisation du transport, doivent être discutées par téléphone avec l'équipe obstétricale/anesthésie-réanimation de la structure d'accueil et le médecin régulateur du SAMU.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pré-éclampsie sévère hors structure spécialisée : appliquer la RFE SFAR/CNGOF 2020 (argumentaire R2.1/R2.2 du texte 2020).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pré-éclampsie sévère hors structure spécialisée : appliquer la RFE SFAR/CNGOF 2020 — <i>« R2.1 [2020] – Il est recommandé d'administrer systématiquement un traitement antihypertenseur chez les patientes avec une pré-éclampsie sévère présentant une PAS ≥ 160 mmHg et/ou une PAD ≥ 110 mmHg au repos et persistant durant plus de 15 minutes, et de maintenir la pression artérielle en dessous de ces seuils, pour réduire la survenue de complications maternelles, fœtales et néonatales sévères »</i>.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Éclampsie hors structure spécialisée : appliquer la RFE SFAR/CNGOF 2020 — <i>« R2.8 [2020] – Il est recommandé d'administrer en anténatal du sulfate de magnésium aux femmes avec une pré-éclampsie sévère avec au moins un signe clinique de gravité afin de réduire le risque de survenue d'une éclampsie »</i> et <i>« R2.12 [2020] – Il est recommandé d'administrer du sulfate de magnésium en première intention chez des femmes ayant eu une crise d'éclampsie afin de réduire le risque de mortalité maternelle et le risque de récidive d'éclampsie »</i>.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Signes cliniques de gravité de la pré-éclampsie sévère</b> (RFE 2020, R1.3, repris ici) — <b>Clinique :</b> PAS ≥ 180 mmHg et/ou PAD ≥ 120 mmHg ; douleur épigastrique/hypocondre droit « en barre » persistante ou intense ; céphalées sévères ne répondant pas au traitement ; troubles visuels ou auditifs persistants ; déficit neurologique ; troubles de la conscience ; réflexes ostéo-tendineux vifs, diffusés et polycinétiques ; détresse respiratoire et/ou œdème aigu du poumon. <b>Biologique :</b> HELLP syndrome ; insuffisance rénale aiguë.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Champ 5-6 — Traumatisme & imagerie",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 5 — Traumatisme et grossesse",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Faire réaliser systématiquement un examen obstétrical par un obstétricien ou une sage-femme dans les suites immédiates d'un traumatisme thoraco-abdominal, même mineur, survenu chez une femme enceinte de plus de 20 SA, à la recherche de signes prédictifs de morbi-mortalité fœtale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Durée de surveillance :</b> en l'absence de facteurs de risque (âge gestationnel &gt; 35 SA, piéton, contexte d'agression) et en l'absence d'événement obstétrical associé (contractions rapprochées, anomalie du rythme cardiaque fœtal, saignement vaginal, décollement placentaire, sensibilité abdominale ou utérine, tachycardie ou hypotension maternelle), une surveillance de <b>4 à 6 heures</b> semble suffisante (niveau de preuve intermédiaire).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Champ 6 — Imagerie et grossesse",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une tomodensitométrie thoraco-abdomino-pelvienne (avec ou sans injection de produit de contraste), dès lors qu'elle est indiquée sur le plan maternel ; la balance bénéfice/risque de l'examen doit prévaloir à la décision de sa réalisation. Ne pas éviter l'examen au seul motif que la patiente est enceinte.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères de dose d'exposition fœtale</b> (échographie et IRM restent les techniques de choix ; ne pas y renoncer au seul motif de la grossesse si le TDM est indiqué) :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Seuil / examen",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque associé",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Angioscanner pulmonaire : 0,01 à 0,66 mGy",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Bien en dessous des seuils de risque",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "TDM thoraco-abdomino-pelvienne : 13 à 25 mGy",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Bien en dessous des seuils de risque",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "< 50 mGy",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque d'avortement ou de malformation négligeable",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "< 100 mGy",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "À ne pas prendre en compte pour discuter une interruption de grossesse",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "> 50 mGy",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Doublement du risque relatif de décès par cancer durant l'enfance (risque de base ≈ 1 à 2,5/1000 ; augmentation d'incidence estimée à 1,1 à 3/1000)",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "> 100 mGy",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque de retard mental (perte estimée à 0,025 point de QI par mGy au-delà de 100 mGy)",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "> 150 mGy",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque de malformation qui augmente",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "200 à 500 mGy",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Seuil évoqué pour discuter une interruption médicale de grossesse",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Produit de contraste iodé :</b> pas d'effet tératogène ou mutagène retrouvé dans les études animales ; impact thyroïdien fœtal théorique non confirmé chez l'homme — la patiente peut être rassurée sur la sécurité fœtale du geste. Signaler au pédiatre, à la naissance, toute injection de produit de contraste réalisée pendant la grossesse.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 7-8 — Arrêt cardiaque, formation & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 7 — Arrêt cardiaque et grossesse",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — extraction fœtale préhospitalière en cas d'arrêt cardiaque non traumatique de la femme enceinte — à l'heure actuelle, les experts ne peuvent pas se prononcer sur la pertinence de ce geste hors structure spécialisée (bénéfice très incertain, technique majoritairement non maîtrisée en extrahospitalier, très rares cas de survie décrits).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Points clés à connaître malgré l'absence de recommandation :</b><br/>&bull; Incidence : environ 1 arrêt cardiaque pour 20 000 grossesses (1 pour 10 à 15 000 accouchements).<br/>&bull; En intrahospitalier (repère de référence), au-delà de 20 SA : envisager une césarienne en urgence si pas de reprise d'activité cardio-circulatoire efficace 4 minutes après le début de la réanimation spécialisée, objectif d'extraction du nouveau-né dans les 5 minutes suivant le début de la réanimation. Aucune survie maternelle rapportée au-delà de 15 min de RCP, aucune survie fœtale rapportée au-delà de 30 min.<br/>&bull; <b>Un utérus palpé au niveau ou au-dessus de l'ombilic traduit un terme ≥ 20 SA</b> : penser systématiquement à la compression aorto-cave.<br/>&bull; Désigner un membre de l'équipe pour déplacer <b>en continu l'utérus gravide vers la gauche</b>, par traction des deux mains (ne pas pousser vers le pubis ou le dos). Sans ce déplacement, le débit cardiaque généré par le massage cardiaque externe chute à environ <b>10 %</b> de sa valeur habituelle en cours de grossesse.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Champ 8 — Formation aux urgences obstétricales",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Former les équipes de médecine d'urgence aux urgences obstétricales via la simulation, incluant les situations difficiles (dystocies mécaniques et dystocies dynamiques), pour améliorer l'apprentissage et le maintien des compétences techniques des professionnels, et pour pouvoir en étudier ensuite l'impact sur la morbi-mortalité materno-fœtale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Priorité suggérée : situations obstétricales difficiles (accouchement du siège, grossesse gémellaire), dystocie des épaules, contractions utérines inefficaces.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge des urgences obstétricales en médecine d'urgence » — Recommandations de Pratiques Professionnelles. SFMU (coord. Gilles Bagou), en association avec la SFAR (coord. Frédéric J. Mercier) et le CNGOF (coord. Patrick Rozenberg), 24 experts.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> Texte validé par le Comité des Référentiels Cliniques SFAR le 28/02/2022, le CA SFAR le 04/03/2022, le Comité des Référentiels SFMU le 26/01/2022, le CA SFMU le 31/03/2022, le Conseil Scientifique du CNGOF.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> RPP (avis d'experts, cotation GRADE grid, accord fort ≥ 70 %). 15 recommandations + 4 recommandations reprises in extenso de RFE antérieures (HPP 2014, pré-éclampsie sévère 2020) ; 2 questions sans recommandation possible.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/download/prise-en-charge-des-urgences-obstetricales-en-medecine-durgence/?wpdmdl=36656",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 15 recommandations, des 4 recommandations reprises d'autres RFE et des 2 questions sans recommandation possible de ce texte, mais ne remplace pas le texte intégral (argumentaire complet, méta-analyses) et n'est ni édité ni validé par la SFMU, la SFAR ou le CNGOF. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé. Pour la pré-éclampsie sévère et la prévention de l'HPP, se référer aux RFE dédiées de 2020 et 2014.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,833 @@
+{
+ "doc": "hyperthermie_maligne",
+ "sections": [
+  {
+   "title": "Q1 — Dépistage en consultation",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Définition :</b> l'hyperthermie maligne (HM) est une réponse anormale aux agents anesthésiques halogénés et/ou au curare dépolarisant, chez des personnes présentant une anomalie génétique affectant le muscle strié squelettique (gène RYR1 le plus souvent). <b>Ce document actualise et remplace les Recommandations d'Experts SFAR de septembre 2013</b> sur le même sujet. 12 recommandations (avis d'experts) réparties en 5 questions, reproduites intégralement, ainsi que l'affiche-protocole complète de traitement de la crise et le protocole de reconstitution du dantrolène.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (méthodologie RPP)",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Q1 — Dépistage des patients à risque en consultation d'anesthésie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dépister les patients à risque d'hyperthermie maligne en consultation d'anesthésie selon l'arbre décisionnel de la Figure 1 (ci-dessous).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour tout patient présentant une notion d'antécédent d'HM au cours d'une précédente anesthésie (personnel ou familial), non encore exploré : contacter l'un des centres experts « Hyperthermie Maligne » pour préciser le risque réel par des investigations appropriées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors de l'anesthésie, l'évaluation du risque HM chez les patients à risque et leur famille, et la décision d'investigations complémentaires, doivent faire l'objet d'une réflexion pluridisciplinaire (anesthésiste, expert HM, généticien, neurologue, patient).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Patients à risque HM</b> (hors antécédent per-anesthésique) : myopathies congénitales à cores et myopathies apparentées associées au gène RYR1, élévation chronique inexpliquée des CPK, hyperthermie grave d'effort, rhabdomyolyse grave d'effort. <b>Les antécédents de syndrome malin des neuroleptiques ne constituent pas une situation à risque d'HM anesthésique.</b>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Figure 1 — Algorithme de dépistage",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>Transcrit depuis le diagramme de la page 3 du document source (pure image, sans calque de texte extractible — vérifié visuellement). Reformulé en tableau situation/conduite pour la lisibilité.</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antécédent personnel ou familial d'HM per-anesthésique, compte-rendu/document HM disponible",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "IVCT négatif → pas de risque HM. IVCT positif ou mutation HM confirmée → « HM sensible », précautions anesthésiques HM systématiques (cf. Q3).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antécédent personnel ou familial d'HM per-anesthésique, document HM NON disponible",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Considérer le patient à risque HM. Chirurgie urgente → précautions anesthésiques HM d'emblée. Chirurgie programmée → contacter un centre HM avant l'intervention.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pas d'antécédent per-anesthésique, mais patient à risque HM hors anesthésie (myopathie RYR1, CPK élevées inexpliquées, hyperthermie/rhabdomyolyse d'effort grave)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Non → pas de risque HM. Oui, chirurgie urgente → précautions anesthésiques HM d'emblée. Oui, chirurgie programmée → contacter un centre HM avant l'intervention.",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q2 — Diagnostic de sensibilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Q2 — Diagnostic de sensibilité à l'hyperthermie maligne",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Préciser le diagnostic de sensibilité à l'HM chez les sujets à risque par des « In Vitro Contracture Tests » (IVCT) sur biopsie musculaire, ou par analyse génétique de l'ADN extrait du sang périphérique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>IVCT (test de référence) :</b> reproduit l'exposition pharmacologique aux agents déclenchants sur fragments de muscle frais (tests de contracture à l'halothane et à la caféine). Indiqué en 1ère intention ou après analyse génétique négative — <b>sensibilité 99 %</b>, supérieure à celle de l'analyse d'ADN sur sang périphérique (<b>50 %</b>).<br/><br/><b>Analyse génétique :</b> encadrée juridiquement en France (décret 2000-570) — consultation de conseil génétique et consentement écrit obligatoires. Mutations principalement sur le gène RYR1 (canal Ca2+ du réticulum sarcoplasmique), plus rarement CACNA1S. Une mutation causale trouvée chez le patient ayant fait une crise (« propositus ») classe la personne « HM Sensible » (HMS) et déclenche une enquête familiale ; l'absence de mutation reconnue n'exclut PAS le risque (anomalie non détectée possible). Chez les apparentés porteurs d'une mutation familiale validée : HMS. Chez les non-porteurs : risque non éliminé (IVCT à discuter). <b>Analyse génétique prédictive non recommandée chez les mineurs</b>, sauf bénéfice individuel direct.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Q3 — Anesthésie du patient à risque",
+   "items": [
+    {
+     "t": "section",
+     "text": "Q3 — Conduite de l'anesthésie chez un patient à risque d'HM",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Respecter trois principes absolus : (1) exclure tous les agents anesthésiques volatils halogénés ainsi que le curare dépolarisant (suxaméthonium/succinylcholine, Célocurine®) ; (2) disposer d'un monitorage de la capnographie et de la température centrale ; (3) vérifier avant l'induction la disponibilité du protocole (affiche diagnostic/traitement, fiche de reconstitution du dantrolène) et le libre accès au dantrolène injectable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "good",
+     "content": {
+      "t": "p",
+      "html": "<b>Autorisé :</b> tous les anesthésiques locaux (y compris avec vasoconstricteurs), tous les hypnotiques IV, morphiniques, curares NON dépolarisants, protoxyde d'azote.<br/><b>Hospitalisation ambulatoire possible.</b> Programmer le patient en 1ère position (éviter les vapeurs d'halogéné résiduelles au bloc). Purge du respirateur : flux de 10 L/min en circuit ouvert, 10 à 50 min selon le modèle (absorption des halogénés variable selon les circuits internes). Retirer les évaporateurs. Risque HM à intégrer à la check-list.<br/><b>Pas d'indication actuelle</b> à une prophylaxie par dantrolène (per os ou IV).<br/>Surveillance en SSPI : couleur des urines, température corporelle. Dosage de CPK pré- et postopératoire précoce possible pour le suivi. Aucune crise HM prouvée n'a été publiée en respectant ces règles.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Q4-Q5 — Affiche & après la crise",
+   "items": [
+    {
+     "t": "section",
+     "text": "Q4 — Affiche résumé (diagnostic et traitement)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer dans tous les lieux où sont réalisées des anesthésies générales d'une affiche « résumé » décrivant le diagnostic et le traitement de la crise d'HM.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'affiche « résumé » doit comporter des informations claires et précises sur l'accès immédiat au stock de dantrolène et sur la procédure de reconstitution pour injection IV.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Q5 — Que faire après une crise d'hyperthermie maligne ?",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Colliger dans un document tous les éléments en faveur du diagnostic (feuille d'anesthésie, cinétique des signes par rapport aux médicaments déclenchants, paramètres de surveillance, résultats biologiques) — capital pour la confirmation diagnostique ultérieure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser un dosage des CPK à 12h et 24h après la crise, répété jusqu'à normalisation en cas de positivité. Un taux normal est un argument important contre le diagnostic ; un taux qui reste élevé plusieurs jours doit faire rechercher une myopathie sous-jacente.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Informer systématiquement le patient et sa famille de la suspicion clinique, remettre un document relatant le protocole anesthésique et les signes évocateurs, et un document sur les conséquences du diagnostic (précautions futures, risque familial autosomique dominant).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prendre contact le plus rapidement possible avec un centre expert HM pour confirmer/infirmer le diagnostic et organiser les investigations de sensibilité HM.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Centres experts français « Hyperthermie Maligne »</b> (conseil, consultation, IVCT et/ou diagnostic génétique — coordonnées 2018, à vérifier sur sfar.org en cas de doute) :<br/>&bull; <b>CHRU de Lille</b> — Unité HM, Dr A.-F. Dalmas — 03 20 44 62 68 / 03 20 44 40 74<br/>&bull; <b>Hôpital Robert Debré, Paris</b> — Dr B. Bruneau / Dr F. Julien-Marsollier — 01 40 03 22 68<br/>&bull; <b>CHU de Grenoble</b> — Pr J.-F. Payen (anesthésie) / Dr J. Faure, Dr N. Roux-Buisson (génétique) — 04 76 76 56 30<br/>&bull; <b>Hôpital de la Timone, Marseille</b> — Dr C. Foutrier Morello (IVCT) / Dr K. Nguyen (génétique) — 04 91 25 50 90",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Annexe 2 — Protocole de traitement de la crise",
+   "items": [
+    {
+     "t": "section",
+     "text": "Annexe 2 — Affiche : diagnostic et traitement de la crise d'HM",
+     "color": "red"
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Agents déclenchants :</b> sévoflurane (Sevorane®), desflurane (Suprane®), isoflurane (Forène®), halothane (Fluothane®), méthoxyflurane (Penthrox®), suxaméthonium/succinylcholine (Célocurine®).<br/><b>Signes évocateurs :</b> spasme des masséters, hypercapnie (EtCO2 élevée), tachypnée, acidose respiratoire puis mixte, tachycardie/arythmies, rigidité musculaire, hyperthermie et sueurs, urines rouges (myoglobinurie), élévation des CPK, marbrures, coagulation intravasculaire.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Action",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Arrêter les agents volatils halogénés. Hyperventiler en O2 100 % (2 à 3× le volume minute utilisé avant la crise), en circuit ouvert.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Demander du renfort.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Relais par anesthésiques non déclenchants (propofol, morphinique). Monitorer l'EtCO2 et la température centrale. Réaliser un gaz du sang artériel et veineux.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dantrolène injectable — flacons de 20 mg à diluer avec 60 mL d'eau stérile (eppi). Injecter 2 à 3 mg/kg IV direct, le plus vite possible. Maintenir le patient en ventilation contrôlée pendant la durée de l'effet myorelaxant (demi-vie estimée à 10 heures).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La réponse au dantrolène doit apparaître en quelques minutes (régression hypercapnie/rigidité/hyperthermie). Doses supplémentaires de 1 mg/kg si besoin, jusqu'à 10 mg/kg au total. Cathéter veineux central si doses répétées. Dépression myocardique induite par le dantrolène modérée. Ne pas associer bloqueurs calciques IV et dantrolène.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Refroidissement par moyens physiques justifié si hyperthermie importante ; arrêter dès que la température centrale est < 38 °C.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surveiller : diurèse, température centrale, kaliémie, pH, CPK, myoglobine, coagulation.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hyperkaliémie → traiter par perfusion de glucose-insuline.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Acidose métabolique grave (pH < 7,2) → injection IV de bicarbonate de sodium.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Provoquer une diurèse > 1 mL/kg/h (sonde vésicale) par remplissage vasculaire. Chaque flacon de dantrolène contient 3 g de mannitol (diurèse osmotique).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après la crise : surveiller le patient en réanimation pendant au moins 24 heures (recrudescence possible).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Doses supplémentaires de dantrolène IV en IVSE, 1 mg/kg sur 4 heures, avec réévaluation de l'évolution des signes d'HM. Arrêt après rémission clinique.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance des CPK et de la kaliémie (sang et urines) pendant au moins 48 heures. Un dosage de CPK à 12h et 24h resté normal est un argument important de diagnostic différentiel.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Remise d'un document écrit au patient et à sa famille informant du diagnostic. Prendre contact avec un centre de référence HM.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évolution défavorable → prélèvement sanguin de 10 mL sur tube EDTA (analyse génétique) + prélèvement musculaire (examen anatomopathologique).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>« Ce protocole peut ne pas convenir à tous les patients et doit être modifié en fonction de cas particuliers » (avertissement de l'affiche source).</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Reconstitution du dantrolène & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Reconstitution du dantrolène (protocole numéroté 1-7)",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "<i>Transcrit depuis l'affiche-photo de la page 11 du document source (pure image, sans calque de texte extractible — vérifié visuellement page par page). Les étapes 5 et 6 partagent une même photo dans l'affiche d'origine, d'où la ligne combinée ci-dessous.</i>",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Stock Urgence Dantrolène</b> conforme à la circulaire de 1999 (DGS/SQ2/DH/99/631) : 18 flacons de 20 mg en kits, chacun composé de 1 flacon de dantrolène, 1 poche 100 mL d'eau stérile (eppi), 1 seringue 60 mL, 1 aiguille 19G, 1 dispositif de transfert à filtre à particules + prise d'air/filtre air. <b>36 flacons de 20 mg peuvent être nécessaires au traitement complet d'une crise d'HM.</b> Le dantrolène dilué doit être conservé à température ambiante, protégé de la lumière, et utilisé dans les 6 heures.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Action",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Matériel nécessaire : flacon de dantrolène, seringue 60 mL, poche d'eau ppi, dispositif de transfert.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prélever 60 mL d'eau ppi (eau pour préparation injectable) dans la seringue.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Insérer le dispositif de transfert sur le flacon de dantrolène.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Injecter les 60 mL d'eau ppi dans le flacon via le dispositif de transfert.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5-6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prélever les 60 mL de dantrolène dissous dans la seringue ; secouer en cas de présence de particules visibles.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Injecter — par un robinet à trois voies, sur une ligne de perfusion dédiée de sérum salé à 0,9 %, le plus rapidement possible.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Dose recommandée initiale : 2,5 mg/kg</b> chez l'adulte et l'enfant (fiche de reconstitution — cohérent avec la fourchette 2 à 3 mg/kg de l'étape 4 de l'affiche-protocole). Doses supplémentaires de 1 mg/kg jusqu'à un total de 10 mg/kg (étape 5). Injecter les seringues par un robinet à trois voies sur une ligne de perfusion dédiée de sérum salé à 0,9 %, le plus rapidement possible.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge de l'Hyperthermie Maligne » — Recommandations de Pratiques Professionnelles, SFAR, 2019 (actualisation des Recommandations d'Experts SFAR de septembre 2013, qui sont donc remplacées par ce texte). Auteurs : Pr R. Krivosic-Horber, Dr A.-F. Dalmas (CHRU Lille), Dr B. Bruneau, Dr F. Julien-Masquelier (Hôpital Robert Debré, Paris).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> Texte validé par le Comité des Référentiels Cliniques SFAR le 30/05/2018, le CA SFAR le 21/06/2018.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> RPP (avis d'experts). 12 recommandations + affiche-protocole complète (diagnostic/traitement de crise, reconstitution du dantrolène) reproduites intégralement.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/download/rpp-hyperthermie-maligne/?wpdmdl=24495",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire en situation aiguë. Elle reprend l'intégralité des recommandations et de l'affiche-protocole de cette RPP, mais ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR. Les coordonnées des centres experts et le protocole de reconstitution du dantrolène peuvent avoir évolué depuis la mise à jour 2018 de l'affiche source — vérifier sur le stock local et sfar.org en cas de doute. En cas de crise suspectée, se référer en priorité à l'affiche murale et au protocole local du bloc opératoire.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

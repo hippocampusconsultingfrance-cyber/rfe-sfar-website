@@ -1,0 +1,967 @@
+{
+ "doc": "ira",
+ "sections": [
+  {
+   "title": "Champs 1-3 — Diagnostic, gravité, risque",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ de la RFE :</b> diagnostic, évaluation du risque, prévention et traitement de l'insuffisance rénale aiguë (IRA) en réanimation et en période périopératoire — <b>hors techniques d'épuration extrarénale</b> (objet d'une RFE SRLF dédiée, 2014). RFE sous l'égide de la SFAR et de la SRLF, avec la participation du GFRUP (Groupe francophone de réanimation et urgences pédiatriques) pour le volet pédiatrique et de la SFN (Société française de néphrologie) — 24 experts répartis en 9 groupes de travail.<br/><br/><b>33 recommandations</b> formalisées, réparties en 8 champs : (1) diagnostic et gravité de l'IRA, (2) stratégies de diagnostic précoce, (3) évaluation du risque, (4) prévention non spécifique, (5) gestion des agents néphrotoxiques, (6) stratégies pharmacologiques, (7) nutrition, (8) évaluation de la récupération rénale. Selon le résumé de la source : « 9 sont fortes (Grade 1), 16 sont faibles (Grade 2) et, pour 8 recommandations, la méthode GRADE ne pouvait pas s'appliquer et celles-ci correspondent à un avis d'experts » — un comptage exact recommandation par recommandation confirme ce total (9+16+8=33), sans écart à signaler cette fois. Après 2 tours de cotation Delphi, un accord fort a été obtenu pour 32 des 33 recommandations (99 %) — la seule exception (R2.1) est signalée plus bas.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Diagnostic de l'IRA et évaluation de sa gravité",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser les critères KDIGO (stade 1) pour définir une IRA par la présence d'au moins 1 des 3 critères diagnostiques suivants : augmentation de la créatinine plasmatique ≥ 26,5 µmol/L en 48 h ; augmentation de la créatinine plasmatique ≥ 1,5 fois la valeur de base au cours des 7 derniers jours ; diurèse &lt; 0,5 mL/kg/h pendant 6 h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser la classification KDIGO pour caractériser la gravité d'une IRA, selon le tableau I ci-dessous.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si l'on souhaite estimer le débit de filtration glomérulaire (DFG), il ne faut pas utiliser les formules estimées (Cockroft-Gault, MDRD, CKD-EPI) chez le patient de réanimation ou en postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si l'on souhaite estimer le DFG, il faut probablement utiliser la formule de calcul de la clairance de la créatinine (UV/P créatinine).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1 P",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<i>(Pédiatrique)</i> Chez l'enfant, il faut probablement établir le diagnostic d'IRA en utilisant la classification de RIFLE modifiée pour la pédiatrie (pRIFLE) : clairance estimée de la créatinine diminuée d'au moins 25 %, ou diurèse &lt; 0,5 mL/kg/h pendant 8 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2 P",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<i>(Pédiatrique)</i> Chez l'enfant, il faut probablement évaluer la gravité d'une IRA selon les critères de la classification pRIFLE (tableau II ci-dessous).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Argumentaire (R1.4) :</i> le calcul de la clairance de la créatinine par la formule UV/P repose sur un recueil des urines d'au moins 1 heure.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>TABLEAU I</b> — Classification de l'IRA selon les critères KDIGO",
+     "style": "h2"
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Stratégies de diagnostic précoce de l'IRA",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas utiliser les biomarqueurs rénaux pour faire le diagnostic précoce d'IRA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas utiliser l'index de résistance mesuré par le Doppler rénal pour diagnostiquer ou traiter une IRA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>R2.1 est la seule des 33 recommandations à n'avoir obtenu qu'un « Accord Faible »</b> lors de la cotation Delphi du groupe de relecture, malgré un grade GRADE fort (1-) — les biomarqueurs rénaux <i>(argumentaire : NGAL, KIM-1, IL-18, cystatine C, IGFBP7/TIMP-2, etc.)</i> ont un signal fort pour la détection précoce de lésions rénales (sensibilité 70-92 %, spécificité 70-95 % selon le marqueur), mais aucune étude randomisée contrôlée ne permet à ce jour de les recommander pour le diagnostic de l'IRA proprement dit.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Évaluation du risque d'IRA",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut rechercher les facteurs de risque d'IRA liés au terrain et/ou au contexte (tableau III).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement, dans les situations à risque, surveiller la diurèse et la créatinine plasmatique pour objectiver la survenue d'une atteinte rénale aiguë et prendre les mesures préventives appropriées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>TABLEAU III</b> — Principaux facteurs de risque d'IRA liés au terrain et aux procédures",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Terrain / pathologies sous-jacentes",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Procédures / contextes",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Âge > 65 ans*, insuffisance rénale chronique*, sexe masculin, origine ethnique africaine, obésité (IMC > 40 kg/m²), hypertension artérielle, insuffisance cardiaque congestive, insuffisance hépatocellulaire, insuffisance respiratoire sévère, diabète, cancer, anémie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sepsis*, instabilité hémodynamique, période périopératoire*, chirurgie majeure* (urgence, abdomino-pelvienne, cardiovasculaire, thoracique, hémorragique), brûlures étendues, traumatismes graves, agents néphrotoxiques (médicaments, produits de contraste iodés)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* Facteurs de risque les plus importants.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>TABLEAU IV</b> — Principaux agents néphrotoxiques responsables d'IRA en réanimation et en période périopératoire",
+     "style": "h2"
+    }
+   ]
+  },
+  {
+   "title": "Champs 4-8 — Prévention, traitement, nutrition, récupération",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Stratégies de prévention non spécifiques de l'IRA",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En réanimation, il ne faut pas utiliser les hydroxyéthylamidons (HEA).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement préférer les cristalloïdes aux colloïdes en cas de remplissage vasculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement préférer les solutés balancés en cas de remplissage vasculaire important.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut maintenir un niveau minimal de pression artérielle moyenne (PAM) compris entre 60 et 70 mmHg pour prévenir et traiter l'IRA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement considérer que les patients hypertendus requièrent un objectif de PAM > 70 mmHg.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut monitorer et optimiser le volume d'éjection systolique ou ses dérivés en période périopératoire afin de guider le remplissage vasculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement appliquer les mêmes recommandations de monitorage/optimisation hémodynamique en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après stabilisation hémodynamique, il faut probablement éviter la surcharge hydro-sodée en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si un vasoconstricteur est nécessaire, il faut probablement utiliser la noradrénaline en première intention pour maintenir les objectifs de PAM.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas retarder la réalisation d'examens complémentaires ou l'administration de médicaments potentiellement néphrotoxiques s'ils sont nécessaires à la prise en charge du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Repères cliniques (argumentaire) :</b> le comité de pharmacovigilance de l'Agence européenne du médicament (11/10/2013) a statué que les HEA ne doivent plus être utilisés chez le patient septique, de réanimation ou brûlé (usage restant possible en choc hémorragique si les cristalloïdes seuls sont insuffisants, ≤ 24 h, avec surveillance rénale 90 jours). L'hyperchlorémie associée au NaCl 0,9 % est associée à une morbidité rénale accrue par rapport aux solutés balancés (ex. : recours à l'EER 4,8 % vs 1 % dans l'étude de Shaw et al., 30 994 patients de chirurgie abdominale). Un niveau de PAM &lt; 55-60 mmHg est associé à un surcroît d'IRA en chirurgie non cardiaque (33 300 patients) ; une chute peropératoire de 26 mmHg de PAM est associée à un surcroît d'IRA après chirurgie cardiaque. L'optimisation hémodynamique peropératoire vise typiquement un index cardiaque de 4,5 L/min/m², un transport en oxygène de 600 mL/min/m² ou une consommation en oxygène de 170 mL/min/m².",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Champ 5 — Gestion des agents néphrotoxiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement recourir à une hydratation par cristalloïdes pour prévenir la néphropathie associée aux produits de contraste iodés, idéalement avant l'injection et en poursuivant l'hydratation pendant 6 à 12 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas utiliser la N-acétylcystéine et/ou le bicarbonate de sodium en prévention de la néphropathie associée aux produits de contraste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement appliquer les règles suivantes lorsque l'usage d'aminosides est nécessaire : administrer en une injection par jour ; monitorer les taux résiduels au-delà d'une injection ; administrer au maximum 3 jours à chaque fois que possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement ne pas utiliser les anti-inflammatoires non stéroïdiens (AINS), inhibiteurs de l'enzyme de conversion (IEC) et antagonistes des récepteurs de l'angiotensine 2 (ARA2) chez les patients à risque d'IRA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Argumentaire (R5.3) :</i> cette limitation à 3 jours ne s'applique pas aux infections endovasculaires/endocardites ni aux infections ostéo-articulaires sur matériel, où une durée plus longue peut être nécessaire.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 6 — Stratégies pharmacologiques de prévention et de traitement de l'IRA",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas utiliser de diurétiques dans l'objectif de prévenir ou traiter une IRA ; il faut probablement les réserver au traitement de la surcharge hydro-sodée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas utiliser le bicarbonate de sodium pour prévenir ou traiter une IRA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas utiliser les traitements suivants dans l'objectif de prévenir ou traiter une IRA : mannitol, dopamine, fenoldopam, facteur atrial natriurétique, N-acétylcystéine, insulin-like growth factor-1, érythropoïétine, antagonistes des récepteurs de l'adénosine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Deux situations particulières, non couvertes par R6.1-R6.3, gardent un traitement préventif spécifique selon l'argumentaire : (1) méthotrexate à forte dose (1-12 g/m²) — hyperhydratation ≥ 2 L/m² IV et alcalinisation des urines ; (2) patients à haut risque de syndrome de lyse tumorale — la rasburicase réduit l'uricémie plus vite que l'allopurinol, sans bénéfice démontré sur l'incidence d'IRA à ce jour.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 7 — Modalités de nutrition en cas d'IRA",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement appliquer les mêmes règles de support nutritionnel chez le patient de réanimation en présence ou non d'une IRA (sans EER).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas limiter les apports nutritionnels dans le seul but de prévenir la surcharge hydro-sodée et/ou le recours à l'EER.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.1 P",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<i>(Pédiatrique)</i> Il faut probablement adapter les apports protéiques en fonction de l'âge des enfants présentant une IRA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Argumentaire (R7.1) :</i> à défaut de calorimétrie indirecte, apport énergétique de 20 à 30 kcal/kg/j et apport protéique de 1,5 g/kg/j en l'absence d'épuration extrarénale. <i>Argumentaire pédiatrique (R7.1 P) :</i> selon les KDIGO 2012, 2-3 g/kg/j de 0 à 2 ans ; 1,5-2 g/kg/j de 2 à 13 ans ; 1,5 g/kg/j après 13 ans. En présence d'une épuration extrarénale, il faut probablement majorer l'apport protéique (y compris en glutamine) et les micronutriments (vitamines hydrosolubles, oligo-éléments) — les vitamines du groupe B (B1, folates) sont éliminées en quantité significative lors de l'EER.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 8 — Évaluation de la récupération de la fonction rénale après IRA",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut considérer à risque de survenue d'insuffisance rénale chronique les patients ayant présenté une IRA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement évaluer la fonction rénale des patients ayant présenté une IRA 6 mois après la survenue de l'épisode aigu.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement définir la non-récupération de la fonction rénale après IRA comme suit : augmentation de la créatinine plasmatique de plus de 25 % de la valeur de base, ou dépendance à l'EER.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Un suivi néphrologique systématique est conseillé chez tout patient ayant développé une IRA, quel que soit le degré de récupération apparent : une récupération biologique jugée complète peut néanmoins évoluer vers l'insuffisance rénale chronique dans 10 % des cas à 3 ans (études pédiatriques), et un suivi néphrologique à 3 mois est associé à une meilleure survie (RR 0,76 [IC95% 0,62-0,93], cohorte de 3877 patients).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Figure 1 — De l'agression à la dysfonction rénale",
+     "color": "teal-dark"
+    },
+    {
+     "t": "p",
+     "html": "<i>Redessin simplifié du schéma à cercles concentriques de la page 3 du document source (vérifié visuellement) : trois notions emboîtées, de la plus large à la plus sévère.</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "L'<b>agression rénale aiguë</b> (kidney attack) désigne les situations exposant le rein à un risque d'IRA (sepsis, chirurgie majeure, agents néphrotoxiques...), sans lésion constituée. L'<b>atteinte rénale aiguë</b> (acute kidney damage) désigne une lésion parenchymateuse rénale (mise en évidence par l'histologie ou des biomarqueurs de lésion tissulaire), sans nécessairement de perte de fonction. L'<b>insuffisance rénale aiguë</b> (acute kidney injury) est le stade de dysfonction constituée, défini par les critères KDIGO (tableau I). Ces trois notions se développent conjointement plutôt que strictement séquentiellement.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Insuffisance rénale aiguë en périopératoire et en réanimation (à l'exclusion des techniques d'épuration extrarénale) » — Recommandations Formalisées d'Experts. C. Ichai, C. Vinsonneau, B. Souweine, F. Armando, E. Canet, C. Clec'h, J.-M. Constantin, M. Darmon, J. Duranteau, T. Gaillot, A. Garnier, L. Jacob, O. Joannes-Boyau, L. Juillard, D. Journois, A. Lautrette, L. Muller, M. Legrand, N. Lerolle, T. Rimmelé, E. Rondeau, F. Tamion, Y. Walrave, L. Velly — pour la Sfar, la SRLF, le GFRUP et la SFN. Coordonnateur Sfar : C. Ichai. Coordonnateur adjoint SRLF : C. Vinsonneau. 24 experts répartis en 9 groupes de travail.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> texte validé par le Conseil d'Administration de la Sfar le 19/06/2015 et le Conseil d'Administration de la SRLF le 06/08/2015. Publié Anesth Reanim. 2016;2:184-205, DOI 10.1016/j.anrea.2016.04.001.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (force forte [1+/1-] ou faible [2+/2-] via GRADE Grid et méthode Delphi ; avis d'experts lorsque la littérature ne permettait pas de graduer). Accord fort obtenu pour 32/33 recommandations (99 %) après 2 tours de cotation du groupe de relecture — R2.1 est la seule exception (Accord Faible).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Correction d'extraction :</b> les seuils de créatininémie de R1.1 et du Tableau I sont exprimés en µmol/L dans la source (confirmé par vérification visuelle des pages 4-5) ; l'extraction automatique du texte fait apparaître ces valeurs comme « mmol/L » par corruption du glyphe µ — corrigé dans cette fiche.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2016/05/ANREA_132_RFE-IRA-.pdf",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 33 recommandations et des 4 tableaux de la RFE, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques par recommandation) et n'est ni édité ni validé par la SFAR ni la SRLF. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1031 @@
+{
+ "doc": "intubation_urgence",
+ "sections": [
+  {
+   "title": "Champ 1 — Indications de l'intubation",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ d'application :</b> intubation trachéale de l'adulte en situation d'urgence, <b>hors bloc opératoire et hors unité de soins critiques</b> (préhospitalier, urgences, services conventionnels). Complète — sans s'y substituer — les RFE « Intubation difficile et extubation en anesthésie » (bloc opératoire) et « Intubation et extubation du patient de réanimation ». 32 recommandations : 5 GRADE 1, 12 GRADE 2, 15 avis d'experts ; 4 questions sans recommandation possible (littérature insuffisante).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Indications de l'intubation trachéale en urgence",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une intubation trachéale en 1ère intention plutôt qu'un dispositif supra-glottique pour le contrôle des VAS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Au cours de la RCP spécialisée de l'arrêt cardiaque : réaliser une intubation trachéale plutôt qu'un dispositif supra-glottique ou une ventilation au masque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans l'attente de l'intubation trachéale au cours de l'arrêt cardiaque : ventiler au masque facial + BAVU relié à une source d'oxygène.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traumatisme crânien grave : réaliser une intubation trachéale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traumatisme crânien grave : intubation/ventilation par un opérateur entraîné, en maintenant PAS constamment > 110 mmHg et EtCO2 entre 35 et 45 mmHg.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Obstruction des voies aériennes supérieures et/ou du plan glottique : prioriser la libération des VAS et l'oxygénation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traumatisme thoracique pénétrant : ne pas recourir à l'intubation trachéale systématique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traumatisme thoracique pénétrant nécessitant l'intubation : éliminer un pneumothorax à exsuffler/drainer avec les moyens disponibles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Choc hémorragique : ne pas intuber sur la seule indication du choc en l'absence d'autre indication formelle (neuro/respiratoire), même si chirurgie sous AG à courte échéance.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — obstruction des VAS — du fait de la multiplicité des étiologies possibles et de l'absence de données de haut niveau de preuve, aucune recommandation sur l'indication de l'intubation trachéale dans ce contexte.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — Check-list, matériel, formation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 — Check-list, matériel, formation",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — check-list / aides cognitives — les données de la littérature sur l'impact d'une check-list ou d'aides cognitives pour l'intubation en urgence hors bloc/soins critiques sont inexistantes ou hétérogènes ; aucune recommandation sur leur usage systématique.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avoir immédiatement disponible (fonctionnel, vérifié) : masques faciaux (T3-5), BAVU, aspiration + canule gros calibre, source d'O2, canules oropharyngées (T3-4), sondes d'intubation (T5-8), laryngoscope direct Macintosh (lames 3-4), vidéolaryngoscope, capnographe, stylet rigide, mandrin long béquillé, pince de Magill, dispositif supra-glottique permettant l'intubation, kit de cricothyroïdotomie (scalpel + mandrin long béquillé + sonde — technique SMS).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avoir à disposition immédiate le matériel d'intubation difficile.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Considérer d'emblée toute intubation trachéale en urgence hors bloc/soins critiques comme potentiellement difficile.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser systématiquement les scores prédictifs d'intubation difficile développés pour l'urgence (LEMON, HEAVEN, PreDAIT…).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si laryngoscopie directe : expérience minimale de l'opérateur en 1ère ligne ≥ 50 laryngoscopies directes réussies.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si vidéolaryngoscopie : expérience minimale de l'opérateur en 1ère ligne ≥ 15 vidéolaryngoscopies réussies.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 3 — Optimisation de la procédure",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 3 — Optimisation de la procédure d'intubation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procéder systématiquement à une pré-oxygénation avant intubation trachéale en urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser une pré-oxygénation par VNI (en l'absence de contre-indication).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser d'oxygénation apnéique après l'induction et avant la laryngoscopie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Désaturation après induction et avant laryngoscopie (ou patient hypoxémique avant induction) : ventilation manuelle au masque, FiO2 100 %, bas volume/basse pression.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas réaliser de pression cricoïdienne lors de l'intubation trachéale en urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Calculer le shock-index avant le geste (seuil > 0,9 = risque accru de collapsus cardiovasculaire au décours de l'intubation).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Patient à risque de collapsus au décours de l'intubation : éviter le propofol par mesure de prudence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sauf arrêt cardiaque : associer systématiquement un hypnotique puis un curare (agents à délai d'action court, bonne tolérance hémodynamique) pour faciliter l'intubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — optimisation hémodynamique avant induction — aucune stratégie préventive isolée (notamment l'expansion volémique) n'a démontré de réduction de la morbi-mortalité liée à la sédation/ventilation en pression positive ; le recours précoce aux vasopresseurs n'a pas été testé formellement.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Procédure & conduite en cas d'échec",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Procédure d'intubation trachéale",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser systématiquement en 1ère intention un dispositif guide (stylet malléable ou mandrin long béquillé) pour la sonde d'intubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En intrahospitalier : utiliser le vidéolaryngoscope en 1ère intention pour l'intubation trachéale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — vidéolaryngoscopie vs laryngoscopie directe en préhospitalier — l'hétérogénéité des données actuelles (expérience opérateur, type de dispositif) ne permet pas de recommander l'un plutôt que l'autre en 1ère intention en préhospitalier (à la différence de l'intrahospitalier, cf. R4.2).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Conduite à tenir en cas d'échec d'intubation (R4.3.1 à R4.3.4, avis d'experts, accord fort)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Principe général : l'oxygénation prime à toutes les étapes.</b> Échec = échec de cathétérisation trachéale après 2 laryngoscopies avec la technique choisie en 1ère intention. Reproduction fidèle des 2 algorithmes de la RFE (Figures 3 et 4) — ils diffèrent à l'étape 1.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Algorithme extrahospitalier (Figure 3)</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Action",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Issue",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Au choix selon expérience/expertise opérateur : laryngoscopie directe (LD) + stylet/mandrin, OU vidéolaryngoscopie (VL) + stylet/mandrin — maximum 2 tentatives en 2 min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Échec → ventilation manuelle BAVU, évaluer SpO2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2a",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "SpO2 > 90 % : technique alternative — maximum 1 tentative (si VL en 1ère intention → LD + cathétérisation au mandrin long béquillé ; si LD en 1ère intention → VL + stylet/mandrin)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Échec → passer à l'étape 3",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2b",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "SpO2 ≤ 90 % : ventilation manuelle BAVU, renfort possible ?",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "→ passer directement à l'étape 3",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dispositif supra-glottique de 2ème génération (ventilation + intubation possibles) — maximum 1 tentative",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Échec → ventilation manuelle BAVU, réévaluer SpO2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4a — SpO2 > 90 %",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Transport vers l'hôpital (SAUV ou déchoquage), ± réveil si envisageable — après information du service receveur",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Succès → contrôle capnographique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4b — SpO2 ≤ 90 %",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cricothyroïdotomie — technique SMS (Scalpel, Mandrin long béquillé, Sonde)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Succès → contrôle capnographique",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Algorithme intrahospitalier (Figure 4)</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Action",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Issue",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vidéolaryngoscopie + stylet/mandrin long béquillé (conforme à R4.2) — maximum 2 tentatives en 2 min. Si détresse respiratoire sur obstruction des VAS : discuter une trachéotomie de sauvetage au bloc, en ventilation spontanée sous AL, avant toute induction.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Échec → ventilation manuelle BAVU, évaluer SpO2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2a",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "SpO2 > 90 % : laryngoscopie directe + stylet/mandrin, OU fibroscope (choix selon contexte/expertise) — maximum 1 tentative",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Échec → passer à l'étape 3",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2b",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "SpO2 ≤ 90 % : ventilation manuelle BAVU, appel renfort expert",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "→ passer directement à l'étape 3",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dispositif supra-glottique de 2ème génération — maximum 1 tentative",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Échec → ventilation manuelle BAVU, « réveil possible ? »",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4a — Réveil possible : oui",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réveil du patient",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4b — Réveil possible : non",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cricothyroïdotomie — technique SMS (Scalpel, Mandrin long béquillé, Sonde)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Succès → contrôle capnographique",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Si procédure prolongée (> 5 min), dans les deux contextes : évoquer un complément d'induction anesthésique (hypnotique ± curare). Prévenir l'arrêt cardiaque hypoxique en cas d'impossibilité d'oxygéner (R4.3.4).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 5 — Après intubation & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 5 — Prise en charge après intubation trachéale",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser systématiquement la capnographie pour confirmer le bon positionnement de la sonde (ou du dispositif supra-glottique / abord trachéal direct).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si la confirmation par capnographie est impossible : utiliser l'échographie trans-trachéale et pulmonaire pour vérifier le bon positionnement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Associer un hypnotique et un morphinique pour la sédation d'un patient intubé en situation d'urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Points de vigilance :</b><br/>&bull; Toute intubation en urgence hors bloc/soins critiques doit être considérée d'emblée comme potentiellement difficile.<br/>&bull; L'oxygénation prime sur la poursuite de l'algorithme : ne jamais s'obstiner sur une technique si la SpO2 chute ≤ 90 %.<br/>&bull; Pas de pression cricoïdienne systématique, pas d'oxygénation apnéique systématique — ces gestes historiques ne sont plus recommandés en routine dans ce contexte.<br/>&bull; Choc hémorragique : le choc seul n'est pas une indication à intuber en l'absence d'indication neuro/respiratoire formelle.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Intubation en urgence d'un adulte hors bloc opératoire et hors unité des soins critiques » — Recommandations Formalisées d'Experts. SFAR (coord. Thomas Clavier) & SFMU (coord. Eric Cesareo), 24 experts.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> Texte validé par le Comité des Référentiels Cliniques SFAR le 25/10/2024, le CA SFAR le 03/12/2024, le Comité des Référentiels SFMU le 25/10/2024, le CA SFMU le 21/11/2024.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE. 32 recommandations (5 GRADE 1, 12 GRADE 2, 15 avis d'experts) ; 4 questions sans recommandation possible (littérature insuffisante).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/download/intubation-en-urgence-dun-adulte-hors-bloc-operatoire-et-hors-unite-des-soins-critiques/?wpdmdl=103152",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 32 recommandations gradées et des 2 algorithmes de sauvetage des voies aériennes de la RFE, mais ne remplace pas le texte intégral (argumentaire complet, méta-analyses en annexe) et n'est ni édité ni validé par la SFAR ou la SFMU. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2365 @@
+{
+ "doc": "anaphylaxie",
+ "sections": [
+  {
+   "title": "Méthodologie & champ d'application",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ de la RFE :</b> prise en charge de l'hypersensibilité immédiate (HSI) péri-opératoire (anaphylaxie péri-opératoire), 156 pages, 4 champs, 70 recommandations (6 GRADE 1, 16 GRADE 2, 48 avis d'experts). Cette fiche reproduit intégralement le <b>Champ 1</b> (bilan diagnostique post-réaction : scores, imputabilité, tryptase, histamine, IgE spécifiques, test d'activation des basophiles, tests cutanés, tests de provocation, cas particuliers enfant/femme enceinte), le <b>Champ 2</b> (facteurs de risque : antécédents, latex, bêtalactamines/céfazoline, pholcodine, dépistage systématique, mastocytose), le <b>Champ 4</b> (traitement, algorithme d'urgence complet) et la <b>conduite en cas de chirurgie urgente chez un patient rapportant une réaction non explorée</b> (R3.4, R3.5, Annexe 6, Champ 3). Seul le <b>reste du Champ 3</b> (prévention programmée au-delà de R3.4/R3.5) n'est pas repris ici : se référer au texte intégral.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 1 (1/4) — Scores & imputabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 1 (1/4) — Scores diagnostiques & imputabilité",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de se fonder sur la suspicion clinique d'HSI plutôt que sur l'utilisation de scores cliniques (score ISPAR), pour adresser le patient en consultation d'allergo-anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Considérer les caractéristiques cliniques de la réaction, le type de substance, la voie d'exposition et le délai entre l'exposition et la réaction, pour évaluer le degré d'imputabilité à une substance donnée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 1 (définitions cliniques) :</b> hypotension artérielle = chute de PAS &lt; 70 mmHg (à l'induction) ou &gt; 20% par rapport à une valeur stable (entretien) ; collapsus cardiovasculaire = PAS &lt; 60 mmHg ou &gt; 40% ; tachycardie = augmentation inexpliquée de la FC ≥ 50% ; bronchospasme = wheezing et/ou résistance des voies respiratoires ; bronchospasme sévère = associé à une SpO2 &lt; 85% ; urticaire = éruption prurigineuse et fugace (papules &lt; 24h) ; angiœdème = œdème dermique profond et/ou muqueux.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Substance suspectée",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Voie d'exposition",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Délai exposition-réaction habituel",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curares",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IV",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 30 min (quelques min en général)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antibiotiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IV",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 60 min après la fin de la perfusion",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chlorhexidine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dispositifs intravasculaires / cutanée-topique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 15 min / quelques min à 60 min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Latex",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Air / cutanée-sous-cutanée",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Quelques min / quelques min à 2h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Colorants (bleu patenté)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sous-cutané",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Quelques min à 90 min",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Tableau 2 — délais entre exposition et réaction, tel que reproduit dans la source. Un délai &lt; 5 min est en faveur d'une réaction allergique IgE-médiée (OR=4,4), un délai &gt; 60 min en défaveur (OR=0,12).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 1 (2/4) — Tryptase, histamine",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 1 (2/4) — Tryptase, histamine",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Effectuer au moins deux dosages de tryptase pour identifier une activation mastocytaire : 1er dosage entre 30 min et 2h après le début des symptômes (pic) ; 2ème dosage au moins 24h après la résolution des symptômes (taux basal).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Se baser sur une augmentation de la tryptasémie selon une formule prenant en compte le taux basal (ex. tryptase aiguë &gt; 1,2 × tryptase basale + 2 µg/L) pour définir une activation mastocytaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prendre en compte les résultats des dosages de tryptasémie pour décider d'adresser le patient en consultation d'allergo-anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser le dosage de l'histamine plasmatique à la phase aiguë (&lt; 30 min après la réaction), dans les centres ayant la capacité de le réaliser en respectant les conditions pré-analytiques, pour améliorer la performance diagnostique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Doser la tryptase et l'histamine pendant, ou au plus tard à l'arrêt des manœuvres de réanimation cardio-pulmonaire, pour apporter des arguments en faveur du caractère anaphylactique de la réaction (suspicion de décès par anaphylaxie).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Seuils rapportés en contexte d'arrêt cardio-respiratoire (Laroche et al.) : tryptase &gt; 7,35 µg/L (sensibilité 92%, spécificité 92%) ; histamine &gt; 6,35 nmol/L (sensibilité 91%, spécificité 92%). Post-mortem : une tryptase &gt; 40-60 µg/L est très évocatrice d'anaphylaxie (prélèvement idéalement dans les 24h suivant le décès). Situations à haut risque de faux négatif pour l'histamine : grossesse à partir du 2ème trimestre, héparinothérapie. La VPN des formules tryptase reste modérée (44 à 57,1%) : l'absence d'augmentation n'élimine pas formellement une HSI.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 1 (3/4) — IgE, TAB, concertation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 1 (3/4) — IgE spécifiques, test d'activation des basophiles, concertation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Doser les IgE spécifiques vis-à-vis des allergènes suspects, incluant en 1ère intention les IgE spécifiques des ammoniums quaternaires, du latex et de la chlorhexidine, pour orienter le bilan diagnostique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser les dosages d'IgE spécifiques sériques dès que possible, sans délai minimal par rapport à la réaction, pour améliorer le rendement diagnostique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser un test d'activation des basophiles (TAB) en 2ème intention lors du bilan allergologique, pour améliorer la performance diagnostique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Respecter un délai minimal de 4 jours après la réaction avant de réaliser un TAB, pour améliorer la sensibilité du bilan.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place une concertation multidisciplinaire (allergologue, anesthésiste-réanimateur, biologiste) pour prendre en charge les patients suspects d'une réaction d'HSI péri-opératoire, afin d'améliorer la qualité du diagnostic et le conseil pour les anesthésies ultérieures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "IgE spécifiques dosables en routine en France en 1ère intention (Tableau 3, source) : ammoniums quaternaires (curares, spécificité 80-100%), latex (composants Hev b 1/3/5/6.02), chlorhexidine (sensibilité 84,2%, spécificité 93,7%, seuil 0,35 kUA/L) ; bêtalactamines disponibles mais sensibilité faible et variable, risque de faux positifs. Le TAB a une sensibilité de 38,5-92% et une spécificité de 92-100% pour les curares selon les études ; environ 10% des tests sont non interprétables (absence de réponse du contrôle positif). Arrêter les corticoïdes systémiques 3 semaines avant le TAB (l'arrêt des antihistaminiques n'est pas nécessaire).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 1 (4/4) — Tests cutanés & provocation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 1 (4/4) — Tests cutanés, tests de provocation, bilan négatif, cas particuliers",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.9.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser des tests cutanés avec l'ensemble des substances auxquelles le patient a été exposé avant la réaction, pour identifier le ou les agent(s) responsable(s).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.9.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser les tests cutanés aux concentrations recommandées (cf. Annexe 4) afin d'éviter le risque de faux positifs.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.9.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si les tests cutanés sont positifs au curare auquel le patient a été exposé, tester tous les autres curares disponibles pour identifier les sensibilisations croisées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.9.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Respecter un délai minimal de 4 semaines après la résolution de la réaction avant de réaliser les tests cutanés, afin d'en améliorer la sensibilité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.9.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de nouvelle intervention urgente, réaliser les tests cutanés dès le 4ème jour mais ne considérer que les résultats positifs ; si négatifs, les renouveler à partir de 4 semaines après la réaction.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.10.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas réaliser de manière systématique un test de provocation (TP) aux agents anesthésiques intraveineux, pour limiter le risque lié à leur usage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.10.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser un TP aux anesthésiques généraux uniquement lorsque le bilan bien conduit n'a pas identifié la substance en cause et que les éléments clinico-biologiques sont très en faveur d'une HSI péri-opératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.10.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser les TP aux anesthésiques généraux dans des centres experts en allergo-anesthésie, après concertation multidisciplinaire, sous surveillance d'un médecin anesthésiste-réanimateur, selon des protocoles validés localement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.11.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Bilan négatif et probabilité clinique faible : autoriser la réutilisation des médicaments initialement suspectés, pour limiter la morbidité liée aux alternatives.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.11.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Substance identifiée et autres molécules testées négatives : autoriser la réutilisation des autres molécules, y compris les curares.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.11.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Bilan négatif, probabilité clinique élevée et/ou activation mastocytaire prouvée : décision au cas par cas, en revérifiant l'exhaustivité du dossier avec l'équipe présente (diagnostics différentiels, allergènes « cachés », recherche d'un désordre mastocytaire).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.12.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez l'enfant : conduire le bilan allergologique de manière similaire à l'adulte.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.12.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez la femme enceinte : réaliser les tests cutanés de manière similaire pour les anesthésiques généraux et locaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.12.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez la parturiente en début de travail, suspicion d'HSI aux anesthésiques locaux non explorée ou tests douteux : réaliser un test de réintroduction en présence d'un médecin anesthésiste-réanimateur, après évaluation bénéfice/risque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — durée maximale à respecter pour la réalisation des tests cutanés — en l'absence de données dans la littérature, les experts ne sont pas en mesure d'émettre de recommandation.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Fréquence de positivité des tests cutanés après réaction péri-opératoire : 18-80% selon les études ; VPN des tests aux autres substances suspectées 96-100% lorsqu'une substance est identifiée. Test de réintroduction aux anesthésiques locaux chez la parturiente : injection sous-cutanée de 0,5-1 mL de la solution non diluée et non adrénalinée ; négatif en l'absence de réaction dans les 30 min, en salle d'accouchement chez une patiente à terme, monitorée.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 (1/2) — Facteurs de risque & latex",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 (1/2) — Facteurs de risque généraux & latex",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Rechercher systématiquement en consultation d'anesthésie au moins un facteur de risque (hypersensibilité suspectée à un médicament de l'anesthésie, hypersensibilité ancienne à un médicament dont de nouvelles molécules de la même classe sont apparues depuis, réaction inexpliquée lors d'une précédente anesthésie, réaction à la viande de mammifère [alpha-gal], réaction suspectée au latex) pour adresser en consultation d'allergo-anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Rechercher systématiquement les signes cliniques évocateurs d'allergie au latex (réaction au préservatif, ballons, etc.) ou les facteurs de risque de sensibilisation (allergie alimentaire du groupe latex, Tableau 4).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Risque de récidive d'HSI après un bilan (avec ou sans allergène identifié) : 4-8%. Facteurs de risque de sensibilisation au latex : spina bifida, opérations multiples (&gt; 5), malformations urologiques congénitales, exposition professionnelle, terrain atopique.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Fréquence de réaction croisée avec le latex",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Aliments",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Régulièrement (20-30%)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Kiwi, banane, avocat, châtaigne",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Occasionnellement (&lt; 10%)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Papaye, figue, fruits exotiques, sarrasin",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rarement (&lt; 1%)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Tomate, pêche, poivron",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Bêtalactamines & céfazoline",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas retenir le diagnostic d'allergie aux bêtalactamines si l'histoire rapportée repose sur un antécédent familial, la prise ultérieure du même antibiotique sans réaction, ou une clinique non évocatrice (troubles digestifs isolés).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Éruption cutanée isolée avant 6 ans, sans signe de gravité, suite à une pénicilline : autoriser la céfazoline en antibioprophylaxie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser des scores cliniques (ex. PEN-FAST) pour décider de l'administration d'une bêtalactamine en antibioprophylaxie chez un patient rapportant une allergie aux pénicillines.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "La céfazoline est le 1er antibiotique impliqué dans les réactions d'HSI péri-opératoire en France ; 22% des patients réagissant à la céfazoline n'y avaient jamais été exposés auparavant (sensibilisation à une structure commune, le noyau bêtalactame).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 (2/2) — Pholcodine, dépistage, mastocytose",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 (2/2) — Pholcodine, dépistage systématique, mastocytose",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé d'exclure les curares chez les patients ayant consommé un sirop de pholcodine dans l'année précédant l'anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de réaliser un bilan allergo-anesthésique chez ces patients, pour limiter la morbidité liée à l'exclusion des curares.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de facteur de risque (cf. R2.1), il n'est pas recommandé de réaliser un bilan allergo-anesthésique de dépistage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de mastocytose systémique : adapter la stratégie anesthésique, prémédication systématique par anti-H1 et éviction des substances histaminolibératrices (Tableau 5).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de mastocytose, SAMA ou alpha-tryptasémie héréditaire : approche pluridisciplinaire (anesthésistes-réanimateurs, chirurgiens, allergologues, spécialiste référent) avant l'intervention, pour évaluer individuellement le risque péri-opératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — utilité d'une prémédication par antihistaminique H2 et corticoïdes en cas de mastocytose/SAMA/HaT — en l'absence de données suffisantes, les experts ne peuvent pas conclure.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Retrait du marché français (11/2022) et européen (03/2023) de la pholcodine après l'étude ALPHO (OR 4,2 pour une réaction aux curares en cas de consommation dans l'année). Alpha-tryptasémie héréditaire : tryptase basale &gt; 8 µg/L en dehors d'une maladie rénale ou d'un désordre mastocytaire clonal ; touche 5-6% de la population.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Fortement déconseillés",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Précautions d'emploi",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Usage habituel",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Atracurium, mivacurium, néfopam, AINS, codéine, morphine, produits de contraste iodés, thiopental, vancomycine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dérivés du fentanyl, anesthésiques locaux",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Autres hypnotiques, autres curares",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Tableau 5 — médicaments déconseillés ou à utiliser avec précaution en cas de mastocytose avérée ou suspectée.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Gravité & détection",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Classification de gravité (Ring & Messmer modifiée / CIM-11 OMS, Tableau 6)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Grade (Ring & Messmer modifiée / CIM-11 OMS)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Définition",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Signes cliniques",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Grade I — non anaphylactique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un seul système organique impliqué",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Signes cutanéomuqueux généralisés isolés : érythème ou urticaire, avec ou sans œdème angioneurotique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Grade II",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Atteinte de plus d'un système organique, sans mise en jeu du pronostic vital",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Signes cutanéomuqueux, tachycardie inhabituelle, hyperréactivité bronchique (bronchospasme, toux, dyspnée), symptômes digestifs",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Grade III",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cas potentiellement mortels, plus d'un système organique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Collapsus, tachycardie ou bradycardie, troubles du rythme cardiaque, bronchospasme",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Grade IV",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cas de danger de mort avec arrêt cardiaque",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt cardio-respiratoire",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R4.1 — Les experts suggèrent d'utiliser l'échelle de Ring & Messmer modifiée pour guider la prise en charge initiale, afin de réduire la morbi-mortalité de la réaction (AVIS D'EXPERTS, accord fort). Classification retenue par l'OMS dans la CIM-11. Tableau 6 reproduit tel quel ; hors tableau, une chute de l'EtCO2 (seuil ~20-25 mmHg) est décrite ailleurs dans le texte comme un signe précoce évocateur d'un grade III/IV chez le patient ventilé (cf. R4.2 ci-dessous).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Détection précoce",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Considérer une baisse de l'EtCO2 comme signe précoce dans les réactions sévères lorsque le patient est ventilé de manière invasive (seuils rapportés : chute sous 20-25 mmHg évocatrice d'un grade III/IV), afin de réduire la morbi-mortalité de la réaction.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Adrénaline",
+   "items": [
+    {
+     "t": "section",
+     "text": "Adrénaline — traitement de première intention (R4.3)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Injecter de l'adrénaline sans délai pour les réactions de grade II à IV, afin de réduire la morbi-mortalité de la réaction.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser la noradrénaline en 1ère intention à la place de l'adrénaline.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Titrer l'adrénaline en intraveineux, avec un monitorage continu comportant au minimum un suivi électrocardioscopique et la mesure automatisée de la pression artérielle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Grade II : titration IV 10 à 20 µg chez l'adulte, 1 µg/kg chez l'enfant (max 10 µg), toutes les 2 minutes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Grade III : titration IV 100 à 200 µg chez l'adulte, au minimum 1 µg/kg (jusqu'à 5-10 µg/kg, max 100 µg) chez l'enfant, toutes les 2 minutes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Grade IV : respecter les recommandations internationales sur l'adrénaline en arrêt cardiorespiratoire, en considérant son administration précoce.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Grade III-IV, instabilité hémodynamique persistante malgré 3 bolus IV : débuter une adrénaline IV continue, débit initial 0,05-0,1 µg/kg/min, ajusté selon la réponse clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adrénaline IM (face antérolatérale de la cuisse, 10 µg/kg jusqu'à 500 µg/dose, grades II-III) uniquement en l'absence de monitorage et/ou d'accès veineux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez la femme enceinte : mêmes doses que les autres adultes, en y associant le déplacement de l'utérus sur la gauche à partir de 20 SA pour améliorer le retour veineux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Âge &gt; 75 ans et/ou comorbidités cardiovasculaires importantes :</b> privilégier les doses basses des fourchettes proposées (10 µg pour les grades II, 100 µg pour les grades III). Voie IV = voie de référence en péri-opératoire (monitorage/expertise disponibles) ; voie IM réservée à l'absence de voie veineuse ou de monitorage.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Remplissage & réfractaire",
+   "items": [
+    {
+     "t": "section",
+     "text": "Remplissage vasculaire (R4.4)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Grade II ou plus : réaliser systématiquement un remplissage vasculaire à débit élevé, en association au traitement par adrénaline.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Volume minimal : 10 ml/kg (grade II) ou 20 ml/kg (grades III-IV), dans les 30 minutes suivant le début de la réaction.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de stabilisation hémodynamique après le remplissage initial : réaliser dès que possible une échographie cardiaque et/ou un monitorage du débit cardiaque pour guider la poursuite du remplissage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cristalloïde isotonique en 1ère intention ; colloïde seulement si hypovolémie persistante malgré ≥ 20 ml/kg de cristalloïdes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Attention — écart entre le texte des recommandations et le poster-algorithme du même document (Annexe 7) :</b> le texte de R4.4.2 précise <b>20 ml/kg</b> pour les grades III-IV ; l'algorithme visuel de synthèse en Annexe 7 affiche pour sa part <b>30 ml/kg en 30 minutes</b> pour ces mêmes grades. Les deux valeurs figurent telles quelles dans le document source — nous ne tranchons pas cet écart interne à la RFE ; à défaut de correctif publié par la SFAR/SFA, retenir au minimum 20 ml/kg et adapter selon la réponse clinique et l'échoguidage (R4.4.3).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Anaphylaxie réfractaire (R4.5)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Définition retenue : persistance d'une instabilité hémodynamique malgré plusieurs doses d'adrénaline et un remplissage vasculaire de 20 ml/kg.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vasoplégie intense persistante malgré adrénaline + remplissage (après exclusion d'une hypovolémie persistante et/ou d'une dysfonction myocardique) : associer noradrénaline, OU bleu de méthylène (1,5-3 mg/kg sur 20-30 min, CI si déficit en G6PD), OU argipressine (0,01 UI/min soit 0,6 UI/h, majoration toutes les 15-20 min jusqu'à 0,03 UI/min soit 1,8 UI/h) — selon expertise et disponibilité locale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt cardio-respiratoire lié à l'anaphylaxie : considérer l'ECLS (Extracorporeal Life Support) dans les centres qui y ont accès.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser le sugammadex en traitement de l'HSI réfractaire suspecte d'être liée au rocuronium.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — glucagon par voie intraveineuse — en l'absence de données dans la littérature, les experts ne sont pas en mesure d'émettre de recommandation.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Algorithme de synthèse (Annexe 7)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Annexe 7 — algorithme de synthèse par grade de gravité",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Réflexes immédiats (tous grades) :</b> appel à l'aide · retrait de l'allergène si possible · monitorage FC, ECG, PA automatisée, SpO2, capnométrie (EtCO2) · FiO2 100 % · déplacement de l'utérus vers la gauche chez la femme enceinte.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_xs_anaph"
+       },
+       {
+        "t": "p",
+        "html": "Grade I",
+        "style": "head_xs_anaph"
+       },
+       {
+        "t": "p",
+        "html": "Grade II",
+        "style": "head_xs_anaph"
+       },
+       {
+        "t": "p",
+        "html": "Grade III",
+        "style": "head_xs_anaph"
+       },
+       {
+        "t": "p",
+        "html": "Grade IV",
+        "style": "head_xs_anaph"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Signes",
+        "style": "cell_sm_anaph_b"
+       },
+       {
+        "t": "p",
+        "html": "Cutanés isolés diffus",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Variation modérée PA/FC/SpO2",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Variation intense PA/FC/SpO2, EtCO2 basse",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Inefficacité circulatoire",
+        "style": "cell_sm_anaph_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Adrénaline IV bolus",
+        "style": "cell_sm_anaph_b"
+       },
+       {
+        "t": "p",
+        "html": "Aucun traitement",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Adulte 10-20 µg ; enfant 1 µg/kg (max 10 µg) /2 min",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Adulte 100-200 µg ; enfant 1 µg/kg (max 5-10 µg/kg) /2 min",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Adulte 1 mg ; enfant 10 µg/kg /3-5 min (RCP)",
+        "style": "cell_sm_anaph_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Adrénaline IVSE",
+        "style": "cell_sm_anaph_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Si instabilité après 3 bolus : 0,05-0,1 µg/kg/min",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "idem grade III",
+        "style": "cell_sm_anaph_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Adrénaline IM (si pas de voie/monitorage)",
+        "style": "cell_sm_anaph_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "10 µg/kg (max 500 µg), répéter ×1 si inefficace, face antéro-latérale de cuisse",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "idem grade II",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "idem grade II",
+        "style": "cell_sm_anaph_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Remplissage vasculaire",
+        "style": "cell_sm_anaph_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Cristalloïdes 10 ml/kg/30 min",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Cristalloïdes 20-30* ml/kg/30 min ; colloïdes en 2e ligne si hypovolémie persistante",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "idem grade III",
+        "style": "cell_sm_anaph_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Choc réfractaire",
+        "style": "cell_sm_anaph_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "ETT/ETO ou monitorage invasif ; autres vasopresseurs (noradrénaline, bleu de méthylène, argipressine) ; ECLS",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "idem grade III",
+        "style": "cell_sm_anaph_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie",
+        "style": "cell_sm_anaph_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuite",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Poursuite",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Poursuite possible selon stabilisation",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "Discuter le report (hors urgence vitale)",
+        "style": "cell_sm_anaph_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Orientation",
+        "style": "cell_sm_anaph_b"
+       },
+       {
+        "t": "p",
+        "html": "SSPI (parcours standard)",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "SSPI prolongée",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "SSPI prolongée ou secteur de soins critiques",
+        "style": "cell_sm_anaph_c"
+       },
+       {
+        "t": "p",
+        "html": "idem grade III",
+        "style": "cell_sm_anaph_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "*Voir encadré ci-dessus : le texte de R4.4.2 indique 20 ml/kg, l'algorithme visuel Annexe 7 indique 30 ml/kg pour les grades III-IV — écart non résolu dans le document source.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Chirurgie & orientation post-réaction",
+   "items": [
+    {
+     "t": "section",
+     "text": "Poursuivre ou interrompre la chirurgie ? (R4.6) — orientation post-réaction (R4.7)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Anaphylaxie stabilisée après prise en charge initiale, après concertation pluridisciplinaire si réaction sévère : il n'est probablement pas recommandé d'interrompre systématiquement l'intervention, pour limiter la morbidité liée au report ou à une nouvelle anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de poursuite de l'intervention : ne pas réutiliser les classes pharmacologiques suspectées d'être à l'origine de la réaction.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de poursuite de l'intervention : passer systématiquement en environnement sans latex et changer la classe d'antiseptique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surveiller en structure de soins critiques (ou SSPI prolongée) en cas de réaction sévère (grade III-IV), notamment si l'adrénaline doit être poursuivie ou en cas de défaillance d'organe persistante.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si admission en soins critiques ou SSPI prolongée : surveiller au moins 24 h après la résolution complète des symptômes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Le changement du circuit respiratoire et des tubulures de perfusion n'est <b>pas</b> nécessaire pour poursuivre l'intervention. Complications parfois retardées (heures à jours) dans les réactions sévères — décès rapportés jusqu'à 60 jours après la réaction dans une série française.",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — administration de corticoïdes pour réduire la morbi-mortalité de la réaction — compte tenu du manque de données dans la littérature, les experts ne peuvent pas émettre de recommandation. Bénéfice incertain sur la prévention de l'anaphylaxie biphasique (revue Cochrane 2012, non conclusive) ; un registre canadien (3498 anaphylaxies) associe même un traitement préhospitalier par corticoïdes à davantage d'hospitalisations en soins intensifs (OR 2,84, IC95% 1,55-6,97) après ajustement. Pourraient rester pertinents en 2ème ligne en contexte d'asthme mal contrôlé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Champ 3 — Chirurgie urgente & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Chirurgie urgente chez un patient rapportant une HSI non explorée (R3.4, R3.5)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Intervention urgente, réaction d'HSI non explorée lors d'une précédente anesthésie locale ou locorégionale : éviction des anesthésiques locaux (AL) du même groupe, ou privilégier une anesthésie générale si le protocole antérieur est inconnu.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Intervention urgente, notion d'HSI non explorée aux AL, balance bénéfice-risque très en faveur d'une anesthésie locale/locorégionale : réaliser un test de réintroduction aux AL plutôt que d'imposer une anesthésie générale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de prescrire systématiquement une prémédication (antihistaminiques, corticoïdes) aux patients à risque de réaction d'HSI périopératoire (hors mastocytose).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Test de réintroduction aux AL (R3.4.2) :</b> après consentement informé et accord des équipes chirurgicales/obstétricales — injection sous-cutanée de 0,5 à 1 mL de l'AL souhaité, non dilué et non adrénaliné, chez un patient perfusé et monitoré (ECG/PNI/SpO2). Absence totale de réaction (cutanée et systémique) après 30 minutes de surveillance → utilisation standard de l'AL testé.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Annexe 6 — algorithme (chirurgie urgente, avis allergologique non disponible)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Éviction d'emblée, quelle que soit la branche :</b> latex, chlorhexidine, gélatines ; réévaluer la balance bénéfice/risque pour les bêtalactamines.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Branche anesthésie générale (ATCD de réaction lors d'une AG)</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Action",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Issue / suite",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaction compatible avec une HSI à un AG ?",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Non, ou patient déjà réexposé aux mêmes produits sans réaction → pas de modification du protocole anesthésique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui ou inconnu",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier AL/ALR si possible ; si AG nécessaire, éviction des curares",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si besoin impératif d'un curare",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Curare imputable connu → changer de classe pharmacologique ; sinon privilégier le cisatracurium",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Branche anesthésie locale/locorégionale (ATCD de réaction lors d'une AL/ALR)</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Action",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Issue / suite",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaction compatible avec une HSI à un AL ?",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Non, ou patient déjà réexposé aux mêmes produits sans réaction → pas de modification du protocole anesthésique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui ou inconnu, ET bénéfice net en faveur de l'utilisation d'un AL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Envisager un test de réintroduction au bloc/SSPI/salle de naissance (0,5 ml de l'AL pur non adrénaliné, sous-cutané, ECG/PNI/SpO2, 30 min) ; informer l'équipe chirurgicale ou obstétricale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Résultat du test",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Négatif → usage standard de l'AL testé · Positif → éviction des AL",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge de l'hypersensibilité immédiate péri-opératoire (anaphylaxie péri-opératoire) » — Recommandations Formalisées d'Experts. SFAR & Société Française d'Allergologie (SFA), méthodologie GRADE, 156 pages, 4 champs, 70 recommandations (6 GRADE 1, 16 GRADE 2, 48 avis d'experts).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Périmètre de cette fiche :</b> Champ 1 (bilan diagnostique), Champ 2 (facteurs de risque) et Champ 4 (traitement) intégraux, + R3.4/R3.5 et Annexes 6 et 7 (algorithmes visuels, transcrits depuis les pages source, Champ 3). Seul le reste du Champ 3 (prévention programmée au-delà de R3.4/R3.5) n'est pas couvert — se référer au texte intégral. Les annexes purement instrumentales (Annexe 1 — score ISPAR complet, Annexe 4 — concentrations détaillées des tests cutanés, Annexe 8 — arbre décisionnel bilan négatif) sont citées mais non reproduites intégralement ici : se référer au texte source pour leur usage direct au lit du malade.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les champs « Bilan diagnostique », « Facteurs de risque » et « Traitement » ainsi que le volet « chirurgie urgente / réaction non explorée » de la RFE, mais ne remplace pas le texte intégral (argumentaire complet, annexes instrumentales détaillées) et n'est ni éditée ni validée par la SFAR ou la SFA. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

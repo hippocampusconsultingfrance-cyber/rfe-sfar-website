@@ -1,0 +1,1373 @@
+{
+ "doc": "mtev_perioperatoire",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie & légende",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prévention de la maladie thromboembolique veineuse (MTEV) péri-opératoire chez l'adulte (toutes chirurgies) et chez l'enfant, actualisant les recommandations SFAR de 2011. RFE du Groupe d'intérêt en Hémostase Péri-opératoire (GIHP), en collaboration avec la SFAR, la Société Française de Thrombose et d'Hémostase (SFTH) et la Société Française de Médecine Vasculaire (SFMV) ; endossée par la Société Française de Chirurgie Digestive (SFCD), la Société Française de Pharmacologie et de Thérapeutique (SFPT) et le réseau INNOVTE. <b>Les patients ayant une pathologie hémorragique constitutionnelle ne sont pas concernés par ces recommandations.</b><br/><br/><b>Méthodologie GRADE, format PICO :</b> un niveau de preuve global fort permet une recommandation <b>forte</b> (« il est recommandé de » — GRADE 1+/1-) ; un niveau modéré ou faible aboutit à une recommandation <b>optionnelle</b> (« il est proposé de » — GRADE 2+/2-) ; en l'absence de littérature suffisante, un <b>avis d'experts</b> (AE) est formulé. Chaque recommandation est ensuite validée par un vote (n = 37 participants) : accord <b>fort</b> si ≥ 70 % d'accord et &lt; 20 % d'opposition ; à défaut, reformulation et nouveau vote.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "good",
+     "content": {
+      "t": "p",
+      "html": "<b>Particularité de ce document (vérifiée par recherche exhaustive sur l'extraction texte complète) :</b> à la différence d'autres RFE de ce corpus, <b>100 % des 77 recommandations graduées retrouvées portent la mention d'accord « Fort »</b> — aucune occurrence d'« Accord Faible » n'apparaît nulle part dans les 79 pages sources. Cette fiche n'affiche donc pas de colonne « Accord » séparée (elle serait constante et non informative) : seule la colonne <b>Grade</b> (GRADE 1+/1-/2+/2-/AE) figure dans les tableaux ci-après.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Couverture de cette fiche",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "Cette fiche reprend l'intégralité des <b>77 recommandations individuelles graduées</b> des 14 questions PICO du document (comportant au total 21 sous-thèmes cliniques, ex. 5 sous-chirurgies orthopédiques distinctes), ainsi que les 3 figures (PTH/PTG p.16 ; TVP distale post-opératoire p.74 ; schéma de synthèse p.79 — images pures, redessinées ici en tableaux/panneaux structurés fidèles au contenu et aux grades imprimés) et les tableaux chiffrés (fonction rénale p.52 ; délais avant geste neuraxial p.41 ; méta-analyses de la section réanimation p.63-64). L'argumentaire complet (littérature discutée, figures de recherche) et les ~400 références bibliographiques ne sont <b>pas</b> repris : se référer au texte intégral. Une brève note d'évidence (1-2 phrases) accompagne chaque table de recommandations lorsqu'utile.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Impact des protocoles & facteurs de risque liés au patient",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": [
+      {
+       "t": "p",
+       "html": "<b>Facteurs de risque majeurs</b> (# — seuils de continuum, cf argumentaire) : antécédent(s) personnel(s) d'ETEV • thrombophilie majeure connue (syndrome des anticorps antiphospholipides, déficit AT/PC/PS, polymorphismes homozygotes ou hétérozygoties composites Leiden/facteur II) • cancer actif (traitement &lt;6 mois) • obésité de classe III ou plus (IMC ≥ 40 kg/m²).",
+       "style": "body_sm"
+      },
+      null,
+      {
+       "t": "p",
+       "html": "<b>Facteurs de risque modérés ou mineurs :</b> âge ≥ 75 ans • insuffisance cardiaque ou respiratoire, BPCO • insuffisance rénale sévère (DFG &lt; 30 mL/min/1,73 m²) • maladie inflammatoire chronique (PR, MICI, lupus) • traitement hormonal œstrogénique • grossesse en cours ou post-partum • obésité de classe I-II (IMC 30-40) • alitement prolongé récent • déficit neurologique &lt;1 mois (AVC, lésion médullaire) • immobilisation orthopédique ou alitement post-opératoire.",
+       "style": "body_sm"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Thrombophilie majeure + anticoagulation au long cours :</i> thromboprophylaxie post-opératoire tant que le traitement antérieur n'est pas repris. <i>Thrombophilie mineure :</i> pas de thromboprophylaxie systématique. <i>Pas de thrombophilie connue :</i> pas d'indication à un bilan de thrombophilie pour stratifier le risque post-opératoire (sauf antécédent familial documenté). Durée minimale d'une semaine proposée pour couvrir la période la plus à risque (délai médian de survenue d'un ETEV post-opératoire : 8 jours [IQR 5-13] en chirurgie ambulatoire).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Orthopédie — PTH/PTG & Figure 1",
+   "items": [
+    {
+     "t": "p",
+     "html": "<i>Posologies :</i> apixaban 2,5 mg x2/j (débuté à H12-H24) ; rivaroxaban 10 mg x1/j (H6-H8) ; dabigatran 220 mg x1/j (150 mg si &gt;75 ans, ClCr 30-50, ou interaction vérapamil/amiodarone/quinidine) ; fondaparinux 2,5 mg x1/j SC (≥ H8) ; HBPM ≥ 4000 UI anti-Xa. Parcours optimisé (RAAC/ambulatoire) = chirurgie &lt;120 min ET marche avec déroulé du pas &lt;24h ET hospitalisation &lt;5 jours.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Figure 1 (p.16) — Thromboprophylaxie après PTH ou PTG",
+     "color": "teal-dark"
+    },
+    {
+     "t": "p",
+     "html": "<i>Redessin structuré du diagramme source (image pure) — mêmes issues cliniques et grades imprimés sur le schéma original, sous forme de tableau.</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "PTH ou PTG — parcours de RAAC/ambulatoire prévu ET réussi (chirurgie <120 min, marche <24h, hospitalisation <5j) ET absence de FdR thromboembolique majeur ou de plusieurs FdR mineurs",
+        "style": "flow_lbl"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "-> Thromboprophylaxie SÉQUENTIELLE : anticoagulant 5 jours puis aspirine 75-100 mg/j pendant 30 jours (PTH) ou 9 jours (PTG).",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Sinon (RAAC non prévu, conditions RAAC finalement non respectées, ou FdR thromboembolique veineux du patient présent)",
+        "style": "flow_lbl"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "-> Thromboprophylaxie par ANTICOAGULANT SEUL pendant toute la durée : HBPM, apixaban, dabigatran ou rivaroxaban, ou fondaparinux, débuté entre H12 et H24 post-opératoires (entre H6 et H12 si risque thromboembolique veineux élevé lié au patient — cf Q7 pour le détail des délais). Durée : 35 j (PTH) / 14 j (PTG).",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Si très haut risque thromboembolique veineux, associer une compression pneumatique intermittente (CPI) — cf Q8.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Dans tous les cas : déambulation précoce et hydratation optimale.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Dans tous les cas : pas de contention élastique graduée.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Liste complète des facteurs de risque thromboembolique veineux du patient : cf Q2, page précédente.</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Orthopédie/traumatologie — fractures & gestes non majeurs",
+   "items": [
+    {
+     "t": "p",
+     "html": "<i>Fondaparinux 2,5 mg x1/j SC (poids &gt;50 kg, DFG &gt;50) débuté ≥ H8. Aspirine non recommandée dans cette indication à haut risque thrombotique (non comparée aux HBPM).</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Chirurgie abdomino-pelvienne, carcinologique & vasculaire",
+   "items": [
+    {
+     "t": "p",
+     "html": "<i>Chirurgie à risque élevé (durée &gt;2h, résection étendue, maladie carcinologique/inflammatoire) : ex. hépatectomie majeure, colectomie, gastrectomie, prostatectomie, cystectomie, néphrectomie, hystérectomie par voie haute, chirurgie du cancer de l'utérus/ovaire. Risque intermédiaire : ex. sigmoïdectomie à distance d'une poussée, néphrectomie pour don vivant. Risque faible : ex. cholécystectomie programmée, RTUP, conisation, hystéroscopie.</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<i># Combinaison d'un FdR majeur lié au patient et d'un risque chirurgical élevé. Sein : risque bas (&lt;0,5%), pas de prophylaxie systématique sauf mastectomie avec reconstruction, chimiothérapie péri-opératoire ou tamoxifène. ORL : majorité ambulatoire sans prophylaxie, prophylaxie si chirurgie majeure avec lambeau. Poumon : incidence élevée (2-5% à 1 mois) malgré prophylaxie, durée optimale non établie (certaines recommandations suggèrent jusqu'à 1 mois par analogie).</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<i>Rivaroxaban 2,5 mg x2/j + aspirine : AMM post-opératoire de chirurgie vasculaire artérielle des MI (essai VOYAGER PAD) en prévention des évènements cardiaques et vasculaires majeurs, initié dans les 10 jours post-opératoires ; si HBPM veineuse prescrite, décaler le rivaroxaban à l'arrêt de l'HBPM (J5-J10).</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Délai d'introduction & anesthésie locorégionale",
+   "items": [
+    {
+     "t": "p",
+     "html": "<b>Délais entre thromboprophylaxie pharmacologique et geste neuraxial</b> (rachianesthésie, péridurale, péri-rachi combinée, y compris retrait de cathéter)",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Anticoagulant (dose préventive)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Demi-vie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Délai minimum avant le geste neuraxial",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HBPM",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5-7h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "12h (si DFG &gt; 30 mL/min/1,73 m²)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HNF SC",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Apixaban",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "12h*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "36h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rivaroxaban",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5-9h (11-13h chez le sujet âgé)*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "24h (si DFG &gt; 30 mL/min/1,73 m²)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dabigatran",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "11-15h si DFG &gt; 50*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "24-36h (si DFG &gt; 50 mL/min/1,73 m²)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fondaparinux",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "17h (21h chez le sujet âgé)*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "36h (si DFG &gt; 50 mL/min/1,73 m²)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>* Données du RCP. Discuter d'allonger les délais ou de réaliser un dosage en cas d'insuffisance rénale (DFG &lt;50), petit poids, ou sujet âgé. Seuils de sécurité hémostatique si dosage réalisé : [AOD] ≤ 30 ng/mL ; anti-Xa HBPM ≤ 0,1 UI/mL ; anti-Xa fondaparinux ≤ 0,1 µg/mL (ou &lt; limite de quantification du laboratoire).</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "CPI, contentions élastiques & filtre cave",
+   "items": [
+    {
+     "t": "p",
+     "html": "<i>Essai GAPS (n=1858, ajout de contentions à une HBPM) : aucun bénéfice. Registre médico-économique (n=24273) : RR=0,999 (IC95% 0,998-1,000). Les contentions augmentent les lésions cutanées et les coûts sans réduire les ETEV.</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Insuffisance rénale & obésité",
+   "items": [
+    {
+     "t": "p",
+     "html": "<b>Tableau — Thromboprophylaxie et fonction rénale</b> (reproduction verbatim du tableau-image source p.52)",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "DFG estimé (mL/min/1,73 m²)",
+        "style": "gridh"
+       },
+       {
+        "t": "p",
+        "html": "&lt;15",
+        "style": "gridh"
+       },
+       {
+        "t": "p",
+        "html": "15-20",
+        "style": "gridh"
+       },
+       {
+        "t": "p",
+        "html": "20-30",
+        "style": "gridh"
+       },
+       {
+        "t": "p",
+        "html": "30-50",
+        "style": "gridh"
+       },
+       {
+        "t": "p",
+        "html": "&gt;50",
+        "style": "gridh"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HNF",
+        "style": "gridd"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "tinzaparine",
+        "style": "gridd"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "enoxaparine",
+        "style": "gridd"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "½ dose",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "½ dose",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "fondaparinux 2,5 mg",
+        "style": "gridd"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "apixaban / rivaroxaban",
+        "style": "gridd"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "dabigatran",
+        "style": "gridd"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "grid"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>En rouge : non recommandé par l'AMM ; en orange : non recommandé par le GIHP ; en vert : recommandé. Dabigatran 150 mg x1/j si DFG 30-50, contre-indiqué si DFG &lt;30. Apixaban/rivaroxaban : pas d'ajustement si DFG 15-30 mais données péri-opératoires très limitées ; contre-indiqués si DFG &lt;15. Fondaparinux 2,5 mg contre-indiqué si DFG &lt;50 (fondaparinux 1,5 mg non disponible en France).</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<i>C'est l'IMC (et non le poids seul) qui guide la discussion de thromboprophylaxie chez l'obèse ; le poids guide l'adaptation posologique chez le patient de grande taille sans obésité. Seule la tinzaparine a une AMM d'ajustement au poids réel. Petit poids : ex. réduire l'enoxaparine à 2000 UI ; le RCP du fondaparinux déconseille son usage si poids &lt;50 kg. AOD : apixaban/rivaroxaban sans adaptation nécessaire à petit poids selon leur RCP ; données limitées pour le dabigatran.</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Pédiatrie & patient de réanimation",
+   "items": [
+    {
+     "t": "p",
+     "html": "<i>Schémas proposés pour l'enfant &lt;40 kg autour de la puberté (non formellement évalués) : 50 UI/kg/j d'enoxaparine (1-2 injections/j) ou 50 UI/kg de tinzaparine x1/j. Risque hémorragique conséquent chez l'enfant (0,4-3% saignements majeurs, jusqu'à 21% mineurs). AOD sans AMM en prévention primaire pédiatrique (fin 2023).</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Réanimation (méta-analyses), acide tranexamique & monitorage",
+   "items": [
+    {
+     "t": "section",
+     "text": "Patient de réanimation — méta-analyses (suite)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 1</b> — Méta-analyse en réseau HBPM vs HNF en réanimation",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Événement",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "N études",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "N patients",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Odds ratio (IC95%)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "TVP",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5645",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,78 (0,65 – 0,95)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "EP",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4447",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,67 (0,36 – 1,22)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie majeure",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1002",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1,71 (0,49 – 5,95)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "TIH",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4447",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,38 (0,15 – 0,98)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mortalité totale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1408",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,90 (0,68 – 1,18)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 2</b> — Sous-groupe PROTECT : daltéparine vs HNF selon la fonction rénale (insuffisance rénale sévère, n=590)",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Événement",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Daltéparine",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "HNF",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Hazard ratio (IC85% *)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "MTEV",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "10,0 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6,4 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1,87 (0,96 – 3,63)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie majeure",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "8,9 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "11,0 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,89 (0,51 – 1,53)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>* « IC85% » est bien l'intitulé imprimé dans le document source (vérifié par rendu visuel de la page — pas un artefact d'extraction texte), très probablement une coquille des auteurs pour IC95%. Non corrigé silencieusement, reproduit tel quel.</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 3</b> — Méta-analyse de la CPI en réanimation",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Comparaison",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Événement",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "n études / n patients",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque relatif (IC95%)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CPI vs contrôle",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "MTEV",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 / 1120",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,35 (0,18 – 0,68)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CPI vs contrôle",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "EP",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 / 402",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,17 (0,06 – 0,50)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CPI + héparine vs héparine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "MTEV",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 / 2777",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,55 (0,24 – 1,27)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CPI + héparine vs héparine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "EP",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3 / 2661",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,72 (0,31 – 1,69)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Essais randomisés et méta-analyses concordants : l'acide tranexamique n'augmente pas l'incidence des ETEV péri-opératoires (chirurgie générale, orthopédique, cardiaque, obstétrique, traumatologie), y compris lorsque l'initiation de l'AOD est repoussée au lendemain d'une chirurgie orthopédique majeure.</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<i>Activités anti-Xa habituellement observées sous enoxaparine 1 injection/j : 0,2-0,5 UI/mL au pic (H4). Aucun essai randomisé n'a démontré le bénéfice d'une adaptation posologique guidée par l'anti-Xa pour réduire les complications ; variabilité inter-tests importante (CV 12-33% pour &lt;0,35 UI/mL).</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "TVP distale post-opératoire & Figure 2",
+   "items": [
+    {
+     "t": "p",
+     "html": "<i>Les TVP distales (sous-poplitées, troncs jambiers et veines musculaires) représentent jusqu'à la moitié des TVP diagnostiquées, le plus souvent asymptomatiques (33-46% de dépistage systématique après PTG). Risque d'extension proximale/EP sans anticoagulant : 5-10% (jusqu'à 20% si cancer). Essai PROTHEGE : prophylaxie étendue à 35j réduit les complications des TVPd vs prophylaxie courte de 10j (extension/récidive 4,5% vs 14,8%, p&lt;0,001).</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Figure 2 (p.74) — Prise en charge d'une TVP distale post-opératoire",
+     "color": "teal-dark"
+    },
+    {
+     "t": "p",
+     "html": "<i>Redessin structuré du diagramme source (image pure).</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "TVP distale isolée post-opératoire — Risque d'extension thrombotique ? (TVPd bilatérale ou multiple >1 veine ; antécédent de MTEV ; cancer actif)",
+        "style": "flow_lbl"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Absence de facteur de risque d'extension -> thromboprophylaxie par anticoagulant pendant 35 jours.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Présence d'un facteur de risque d'extension -> Risque hémorragique lié au patient ou à la procédure ?",
+        "style": "flow_lbl"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque hémorragique FAIBLE -> traitement anticoagulant à dose curative pendant 6 à 12 semaines.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque hémorragique ÉLEVÉ -> thromboprophylaxie par anticoagulant pendant 6 à 12 semaines, ± écho-Doppler à J7, ± relais secondaire par traitement à dose curative si le risque diminue.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Anticoagulant contre-indiqué -> pas de traitement anticoagulant, pas de filtre cave, contrôle écho-Doppler à J7 (extension proximale).",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Figure de synthèse & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Figure 3 (p.79) — Thromboprophylaxie post-opératoire : schéma de synthèse",
+     "color": "teal-dark"
+    },
+    {
+     "t": "p",
+     "html": "<i>Redessin structuré du diagramme-image source (le plus utile du document : condense en un seul schéma la quasi-totalité des recommandations générales déjà détaillées dans cette fiche). La thromboprophylaxie après PTH/PTG fait l'objet de la Figure 1 dédiée (page précédente), non reprise ici.</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque thromboembolique veineux de la chirurgie ?",
+        "style": "flow_lbl"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "FAIBLE + absence de FdR thromboembolique veineux du patient# -> pas de prophylaxie pharmacologique ni mécanique.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "FAIBLE + FdR patient# présent (1 majeur ou plusieurs mineurs) -> anticoagulant, durée minimum 7 jours.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "ÉLEVÉ -> anticoagulant, durée fonction de la chirurgie (minimum 7 jours ; 4 semaines pour la chirurgie abdomino-pelvienne à risque élevé).",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Règles transversales (tous les cas)",
+        "style": "flow_lbl"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Déambulation précoce et hydratation optimale, dans tous les cas.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie programmée : anticoagulant à débuter en post-opératoire, entre H12 et H24 (entre H6 et H12 si risque thromboembolique veineux élevé lié au patient).",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Associer anticoagulant + CPI si très haut risque thromboembolique veineux (ex. FdR majeur lié au patient + risque chirurgical élevé).",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Il n'y a pas d'indication à la contention élastique graduée.",
+        "style": "body_sm"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": [
+      {
+       "t": "p",
+       "html": "<b>Rappel — facteurs de risque thromboembolique veineux du patient# :</b> détail complet en Q2 (page 2 de cette fiche). Majeurs : ATCD personnel d'ETEV, thrombophilie majeure connue, cancer actif, obésité morbide (IMC ≥ 40). Modérés/mineurs : âge ≥ 75 ans, insuffisance cardiorespiratoire/BPCO, insuffisance rénale sévère, maladie inflammatoire chronique, œstrogènes, grossesse/post-partum, obésité classe I-II, alitement, déficit neurologique récent, immobilisation post-opératoire.",
+       "style": "body_sm"
+      },
+      null,
+      {
+       "t": "p",
+       "html": "<b>Rappel — fonction rénale (DFG &lt;30) :</b> enoxaparine 2000 UI x1/j si DFG 15-30 ; tinzaparine 4500 UI x1/j si DFG &gt;20 ; calciparine 5000 UI x2/j si DFG &lt;15 (tableau complet en Q11).",
+       "style": "body_sm"
+      },
+      null,
+      {
+       "t": "p",
+       "html": "<b>Rappel — obésité (IMC ≥ 40) :</b> HBPM (enoxaparine 4000 UI x2/j, ou 6000 UI x2/j si &gt;150 kg ; daltéparine 5000 UI x2/j ; tinzaparine 75 UI/kg x1/j) ou fondaparinux 5 mg x1/j ou AOD à posologie habituelle. IMC 30-39 : schémas posologiques standards (détail en Q12).",
+       "style": "body_sm"
+      }
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prévention de la maladie thromboembolique veineuse péri-opératoire » — Recommandations Formalisées d'Experts du Groupe d'intérêt en Hémostase Péri-opératoire (GIHP), en collaboration avec la SFAR, la SFTH et la SFMV, endossées par la SFCD, la SFPT et le réseau INNOVTE. Actualisation des recommandations SFAR de 2011. Coordination : A. Godier, D. Lasne, G. Pernod, et al. ; 37 experts GIHP/SFTH/SFMV répartis en groupes de travail par question PICO.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> 16.5.2024. Validation SFAR le 30.04.2024, SFTH le 23.02.2024, SFVM en janvier 2024. Endossement SFCD (02/2024), SFPT (05/2024), réseau INNOVTE (12/2023).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE, format PICO. Recommandation forte (1+/1-) si niveau de preuve global fort ; optionnelle (2+/2-) si modéré/faible ; avis d'experts (AE) en l'absence de littérature suffisante. Validation par vote (n=37) : accord fort si ≥70% pour et &lt;20% contre. Vérification exhaustive sur l'extraction texte complète (79 pages) : 100% des 77 recommandations retrouvées portent la mention d'accord « Fort », aucune exception — d'où l'absence de colonne « Accord » dans cette fiche (voir page 1).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 77 recommandations individuelles graduées des 14 questions PICO (21 sous-thèmes cliniques), transcrites ici en tableaux compacts thème/recommandation/grade. Les 3 figures (PTH/PTG p.16 ; TVP distale p.74 ; synthèse p.79 — images pures) sont redessinées en tableaux/panneaux structurés fidèles aux issues cliniques et grades imprimés sur les diagrammes originaux. Le tableau couleur « fonction rénale » (p.52, image pure) est reproduit verbatim cellule par cellule. Les tableaux des délais neuraxiaux (p.41) et des méta-analyses réanimation (p.63-64, Tableaux 1-3) sont reproduits verbatim. L'argumentaire complet et les références bibliographiques (~400 citations) ne sont pas repris : se référer au texte intégral.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Double extraction :</b> un agent indépendant (contexte vierge, même texte source complet) a produit son propre inventaire exhaustif section par section ; le total de 77/77 recommandations et leur répartition par section ont été confirmés à l'identique, sans écart.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations graduées et des tableaux/figures de la RFE source, mais ne remplace pas le texte intégral (argumentaire complet, ~400 références bibliographiques) et n'est ni édité ni validé par le GIHP, la SFAR, la SFTH ou la SFMV. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

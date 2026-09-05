@@ -1,0 +1,2758 @@
+[
+ {
+  "year": "2026",
+  "title": "Place de l’ECBU avant une prise en charge urologique chirurgicale ou interventionnelle chez l’adulte et modalités de traitement en cas de colonisation",
+  "href": "https://sfar.org/recommandation-de-bonne-pratique-place-de-lecbu-avant-une-prise-en-charge-urologique-chirurgicale-ou-interventionnelle-chez-ladulte-et-modalites-de-traitement-en-cas-de-coloni/",
+  "exact_type": "RBP",
+  "exact_date": "2026-03-04",
+  "direct_pdf_url": "https://www.urofrance.org/wp-content/uploads/2026/03/Reco_ECBU_Synthese_04.03.2026_MEL.pdf",
+  "category": "Anesthésie, Urgences",
+  "keywords": [
+   "ECBU",
+   "infection urinaire",
+   "colonisation urinaire",
+   "chirurgie urologique",
+   "antibioprophylaxie",
+   "sondage urinaire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2026",
+  "title": "Gestion des anticoagulants pour une procédure invasive programmée",
+  "href": "https://sfar.org/wp-content/uploads/2026/04/RFE-20.4.2026-deifinitif-et-validei.pdf",
+  "exact_type": "RFE",
+  "exact_date": "2026-04-20",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2026/04/RFE-20.4.2026-deifinitif-et-validei.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "anticoagulants",
+   "AOD",
+   "AVK",
+   "hémostase",
+   "procédure invasive",
+   "chirurgie programmée",
+   "relais héparine"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2025",
+  "title": "Prise en charge neurochirurgicales des traumatismes cranio-encéphaliques de l’adulte et de l’enfant à la phase initiale",
+  "href": "https://sfar.org/prise-en-charge-neurochirurgicales-des-traumatismes-cranio-encephaliques-de-ladulte-et-de-lenfant-a-la-phase-initiale/",
+  "exact_type": "RPP",
+  "exact_date": "2025",
+  "direct_pdf_url": "https://sfar.org/download/prise-en-charge-neurochirurgicales-des-traumatismes-cranio-encephaliques-de-ladulte-et-de-lenfant-a-la-phase-initiale/?wpdmdl=123224",
+  "category": "Réanimation, Urgences, Pédiatrie",
+  "keywords": [
+   "traumatisme crânien",
+   "neurochirurgie",
+   "hématome extradural",
+   "hématome sous-dural",
+   "polytraumatisme",
+   "pédiatrie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2025",
+  "title": "Prise en charge péri-opératoire du patient adulte lors d’une résection hépatique",
+  "href": "https://sfar.org/prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique/",
+  "exact_type": "RFE",
+  "exact_date": "2025-09-11",
+  "direct_pdf_url": "https://sfar.org/download/prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique/?wpdmdl=123091",
+  "category": "Anesthésie",
+  "keywords": [
+   "résection hépatique",
+   "chirurgie hépato-biliaire",
+   "péri-opératoire",
+   "optimisation postopératoire",
+   "insuffisance hépatique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2025",
+  "title": "Décisions de limitation et d’arrêt de traitements (LAT) en soins critiques de l’adulte",
+  "href": "https://sfar.org/decisions-de-limitation-et-darret-de-traitements-lat-en-soins-critiques-de-ladulte/",
+  "exact_type": "RFE",
+  "exact_date": "2025-07-15",
+  "direct_pdf_url": "https://sfar.org/download/decisions-de-limitation-et-darret-de-traitements-lat-en-soins-critiques-de-ladulte/?wpdmdl=123089",
+  "category": "Réanimation",
+  "keywords": [
+   "limitation thérapeutique",
+   "arrêt des traitements",
+   "LAT",
+   "soins critiques",
+   "éthique",
+   "fin de vie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2025",
+  "title": "Prise en charge de la douleur de l’accouchement : analgésie périmédullaire et alternatives médicamenteuses",
+  "href": "https://sfar.org/prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses/",
+  "exact_type": "RFE",
+  "exact_date": "2025-05-15",
+  "direct_pdf_url": "https://sfar.org/download/prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses-texte-court/?wpdmdl=106110",
+  "category": "Obstétrique",
+  "keywords": [
+   "analgésie périmédullaire",
+   "péridurale",
+   "douleur de l'accouchement",
+   "rachianalgésie",
+   "analgésie obstétricale"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2025",
+  "title": "Intubation en urgence d’un adulte hors bloc opératoire et hors unité des soins critiques",
+  "href": "https://sfar.org/intubation-en-urgence-dun-adulte-hors-bloc-operatoire-et-hors-unite-des-soins-critiques/",
+  "exact_type": "RFE",
+  "exact_date": "2025-03-29",
+  "direct_pdf_url": "https://sfar.org/download/intubation-en-urgence-dun-adulte-hors-bloc-operatoire-et-hors-unite-des-soins-critiques/?wpdmdl=103152",
+  "category": "Urgences",
+  "keywords": [
+   "intubation difficile",
+   "intubation en urgence",
+   "voies aériennes",
+   "hors bloc opératoire",
+   "check-list intubation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2025",
+  "title": "Diagnostic et prise en charge des réactions d’hypersensibilité immédiate périopératoires",
+  "href": "https://sfar.org/diagnostic-et-prise-en-charge-des-reactions-dhypersensibilite-immediate-perioperatoires/",
+  "exact_type": "RFE",
+  "exact_date": "2025-03-04",
+  "direct_pdf_url": "https://sfar.org/download/diagnostic-et-prise-en-charge-des-reactions-dhypersensibilite-immediate-perioperatoires/?wpdmdl=103153",
+  "category": "Anesthésie",
+  "keywords": [
+   "anaphylaxie",
+   "hypersensibilité périopératoire",
+   "allergie peropératoire",
+   "choc anaphylactique",
+   "curares"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2025",
+  "title": "Prise en charge du sepsis du nouveau-né, de l’enfant et de l’adulte – HAS 2025",
+  "href": "https://sfar.org/prise-en-charge-du-sepsis-du-nouveau-ne-de-lenfant-et-de-ladulte-has-2025/",
+  "exact_type": "RPP",
+  "exact_date": "2025-02-11",
+  "direct_pdf_url": "https://sfar.org/download/prise-en-charge-du-sepsis-du-nouveau-ne-de-lenfant-et-de-ladulte-recommandations-pour-un-parcours-de-soins-integre/?wpdmdl=75093",
+  "category": "Réanimation, Urgences, Pédiatrie",
+  "keywords": [
+   "sepsis",
+   "choc septique",
+   "nouveau-né",
+   "parcours de soins",
+   "antibiothérapie",
+   "HAS"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2025",
+  "title": "Prise en charge du patient diabétique en péri opératoire",
+  "href": "https://sfar.org/download/prise-en-charge-du-patient-diabetique-en-peri-operatoire/?wpdmdl=122568&refresh=69bba8e9495ed1773906153",
+  "exact_type": "Préconisation",
+  "exact_date": "2025",
+  "direct_pdf_url": "https://sfar.org/download/prise-en-charge-du-patient-diabetique-en-peri-operatoire/?wpdmdl=122568",
+  "category": "Anesthésie",
+  "keywords": [
+   "diabète",
+   "hémoglobine glyquée",
+   "insulinothérapie",
+   "hypoglycémie",
+   "hyperglycémie",
+   "péri-opératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2024",
+  "title": "Préconisations pour les ressources humaines médicales en anesthésie programmée",
+  "href": "https://sfar.org/preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee/",
+  "exact_type": "RPP",
+  "exact_date": "2024-12-02",
+  "direct_pdf_url": "https://sfar.org/download/preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee/?wpdmdl=72905",
+  "category": "Anesthésie",
+  "keywords": [
+   "ressources humaines médicales",
+   "organisation du bloc opératoire",
+   "anesthésie programmée",
+   "démographie médicale"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2024",
+  "title": "Recommandations de bonne pratique relatives aux démarches anticipées en vue de don d’organes et de tissus",
+  "href": "https://sfar.org/wp-content/uploads/2024/10/RBP-deimarches-anticipeies_12_10_24.pdf",
+  "exact_type": "RBP",
+  "exact_date": "2024-09",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2024/10/RBP-deimarches-anticipeies_12_10_24.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "don d'organes",
+   "prélèvement d'organes",
+   "démarche anticipée",
+   "consentement",
+   "fin de vie",
+   "don de tissus"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2024",
+  "title": "Prévention des erreurs médicamenteuses",
+  "href": "https://sfar.org/prevention-des-erreurs-medicamenteuses-en-anesthesie-reanimation/",
+  "exact_type": "RPP",
+  "exact_date": "2024-05-27",
+  "direct_pdf_url": "https://sfar.org/download/prevention-des-erreurs-medicamenteuses/?wpdmdl=68460",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "erreurs médicamenteuses",
+   "sécurité du patient",
+   "prévention",
+   "médicaments à risque",
+   "check-list"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2024",
+  "title": "Prévention de la maladie thromboembolique veineuse péri-opératoire",
+  "href": "https://sfar.org/prevention-de-la-maladie-thromboembolique-veineuse-peri-operatoire/",
+  "exact_type": "RFE",
+  "exact_date": "2024-05",
+  "direct_pdf_url": "https://sfar.org/download/prevention-de-la-maladie-thromboembolique-veineuse-peri-operatoire/?wpdmdl=62247",
+  "category": "Anesthésie",
+  "keywords": [
+   "thrombose veineuse profonde",
+   "embolie pulmonaire",
+   "prophylaxie thromboembolique",
+   "héparine",
+   "péri-opératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2024",
+  "title": "Optimisation hémodynamique périopératoire – Adulte dont obstétrique",
+  "href": "https://sfar.org/optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique/",
+  "exact_type": "RFE",
+  "exact_date": "2024-01",
+  "direct_pdf_url": "https://sfar.org/download/optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique/?wpdmdl=62044",
+  "category": "Anesthésie, Obstétrique",
+  "keywords": [
+   "optimisation hémodynamique",
+   "monitorage hémodynamique",
+   "remplissage vasculaire",
+   "péri-opératoire",
+   "obstétrique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2024",
+  "title": "Gestion de l’anticoagulation dans un contexte d’urgence",
+  "href": "https://sfar.org/gestion-de-lanticoagulation-dans-un-contexte-durgence/",
+  "exact_type": "RFE",
+  "exact_date": "2024",
+  "direct_pdf_url": "https://sfar.org/download/gestion-de-lanticoagulation-dans-un-contexte-durgence/?wpdmdl=62045",
+  "category": "Urgences",
+  "keywords": [
+   "anticoagulants",
+   "hémorragie",
+   "urgence",
+   "antidote",
+   "procédure invasive urgente",
+   "AOD"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2024",
+  "title": "Optimisation hémodynamique périopératoire – Pédiatrie",
+  "href": "https://sfar.org/optimisation-hemodynamique-perioperatoire-pediatrie/",
+  "exact_type": "RPP",
+  "exact_date": "2024-03",
+  "direct_pdf_url": "https://sfar.org/download/optimisation-hemodynamique-perioperatoire-pediatrie/?wpdmdl=62046",
+  "category": "Anesthésie, Pédiatrie",
+  "keywords": [
+   "optimisation hémodynamique",
+   "pédiatrie",
+   "monitorage hémodynamique",
+   "remplissage vasculaire",
+   "péri-opératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2023",
+  "title": "Antibioprophylaxie en chirurgie et médecine interventionnelle",
+  "href": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/",
+  "exact_type": "RFE",
+  "exact_date": "2023-12",
+  "direct_pdf_url": "https://sfar.org/download/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/?wpdmdl=68362",
+  "category": "Anesthésie",
+  "keywords": [
+   "antibioprophylaxie",
+   "infection du site opératoire",
+   "prévention infectieuse",
+   "chirurgie",
+   "antibiotiques"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2023",
+  "title": "Organisation de l’anesthésie pédiatrique",
+  "href": "https://sfar.org/organisation-de-lanesthesie-pediatrique/",
+  "exact_type": "RPP",
+  "exact_date": "2023",
+  "direct_pdf_url": "https://sfar.org/download/organisation-de-lanesthesie-pediatrique/?wpdmdl=43179",
+  "category": "Anesthésie, Pédiatrie",
+  "keywords": [
+   "anesthésie pédiatrique",
+   "organisation des soins",
+   "sécurité anesthésique",
+   "centres pédiatriques"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2023",
+  "title": "Anesthésie pour chirurgie non cardiaque des patients adultes porteurs de cardiopathie congénitale",
+  "href": "https://sfar.org/anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale/",
+  "exact_type": "RPP",
+  "exact_date": "2023-09",
+  "direct_pdf_url": "https://sfar.org/download/anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale/?wpdmdl=50051",
+  "category": "Anesthésie",
+  "keywords": [
+   "cardiopathie congénitale",
+   "chirurgie non cardiaque",
+   "anesthésie adulte",
+   "cardiologie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2023",
+  "title": "Épanchement pleural liquidien de l’adulte en soins critiques",
+  "href": "https://sfar.org/epanchement-pleural-liquidien-de-ladulte-en-soins-critiques/",
+  "exact_type": "RPP",
+  "exact_date": "2023-09",
+  "direct_pdf_url": "https://sfar.org/download/epanchement-pleural-liquidien-de-ladulte-en-soins-critiques/?wpdmdl=50053",
+  "category": "Réanimation",
+  "keywords": [
+   "épanchement pleural",
+   "drainage thoracique",
+   "ponction pleurale",
+   "soins critiques"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2022",
+  "title": "Programme d’optimisation périopératoire du patient adulte",
+  "href": "https://sfar.org/programme-doptimisation-perioperatoire-du-patient-adulte/",
+  "exact_type": "RFE",
+  "exact_date": "2022-09",
+  "direct_pdf_url": "https://sfar.org/download/programme-doptimisation-perioperatoire-du-patient-adulte/?wpdmdl=37889",
+  "category": "Anesthésie",
+  "keywords": [
+   "réhabilitation améliorée après chirurgie",
+   "RAAC",
+   "optimisation périopératoire",
+   "programme de soins"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2022",
+  "title": "Réduction de l’impact environnemental de l’anesthésie générale",
+  "href": "https://sfar.org/reduction-de-limpact-environnemental-de-lanesthesie-generale/",
+  "exact_type": "RPP",
+  "exact_date": "2022-09",
+  "direct_pdf_url": "https://sfar.org/download/reduction-de-limpact-environnemental-de-lanesthesie-generale/?wpdmdl=37890",
+  "category": "Anesthésie",
+  "keywords": [
+   "impact environnemental",
+   "développement durable",
+   "gaz anesthésiques",
+   "bloc opératoire",
+   "écologie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2022",
+  "title": "Facteurs humains en situations critiques",
+  "href": "https://sfar.org/facteurs-humains-en-situations-critiques/",
+  "exact_type": "RPP",
+  "exact_date": "2022-09",
+  "direct_pdf_url": "https://sfar.org/download/facteurs-humains-en-situations-critiques/?wpdmdl=37888",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "facteurs humains",
+   "situations critiques",
+   "sécurité des patients",
+   "gestion de crise",
+   "qualité des soins"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2022",
+  "title": "Prise en charge anesthésique péri procédurale d’une revascularisation cérébrale par thrombectomie",
+  "href": "https://sfar.org/prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie/",
+  "exact_type": "RPP",
+  "exact_date": "2022-09",
+  "direct_pdf_url": "https://sfar.org/download/prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie/?wpdmdl=37892",
+  "category": "Anesthésie, Urgences",
+  "keywords": [
+   "thrombectomie",
+   "AVC",
+   "accident vasculaire cérébral",
+   "revascularisation cérébrale",
+   "anesthésie péri-procédurale"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2022",
+  "title": "Prise en charge des patients présentant un traumatisme crânien léger de l’adulte",
+  "href": "https://sfar.org/prise-en-charge-des-patients-presentant-un-traumatisme-cranien-leger-de-ladulte/",
+  "exact_type": "RPP",
+  "exact_date": "2022-09",
+  "direct_pdf_url": "https://sfar.org/download/prise-en-charge-des-patients-presentant-un-traumatisme-cranien-leger-de-ladulte/?wpdmdl=37891",
+  "category": "Urgences",
+  "keywords": [
+   "traumatisme crânien léger",
+   "commotion cérébrale",
+   "urgences",
+   "imagerie cérébrale",
+   "neurologie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2022",
+  "title": "Prise en charge des urgences obstétricales en médecine d’urgence",
+  "href": "https://sfar.org/prise-en-charge-des-urgences-obstetricales-en-medecine-durgence/",
+  "exact_type": "RPP",
+  "exact_date": "2022-03",
+  "direct_pdf_url": "https://sfar.org/download/prise-en-charge-des-urgences-obstetricales-en-medecine-durgence/?wpdmdl=36656",
+  "category": "Obstétrique, Urgences",
+  "keywords": [
+   "urgences obstétricales",
+   "accouchement extrahospitalier",
+   "hémorragie du post-partum",
+   "transport médicalisé",
+   "SAMU"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2022",
+  "title": "Préconisations pour l’adaptation de l’offre de soins en anesthésie-réanimation dans le contexte de pandémie de COVID-19 / Version Avril 2022",
+  "href": "https://sfar.org/preconisations-pour-ladaptation-de-loffre-de-soins-en-anesthesie-reanimation-dans-le-contexte-de-pandemie-de-covid-19/",
+  "exact_type": "RPP",
+  "exact_date": "2022-03-31",
+  "direct_pdf_url": "https://sfar.org/download/preconisations-pour-ladaptation-de-loffre-de-soins-en-anesthesie-reanimation-dans-le-contexte-de-pandemie-de-covid-19-version-avril-2022/?wpdmdl=36924",
+  "category": "Anesthésie, Réanimation, Urgences",
+  "keywords": [
+   "covid-19",
+   "pandémie",
+   "offre de soins",
+   "réorganisation",
+   "préconisations",
+   "anesthésie-réanimation"
+  ],
+  "status": "abrogé"
+ },
+ {
+  "year": "2021",
+  "title": "Insuffisance d’analgésie au cours de la césarienne sous anesthésie périmédullaire",
+  "href": "https://sfar.org/download/preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee/?wpdmdl=32629",
+  "exact_type": "Préconisation",
+  "exact_date": "2021",
+  "direct_pdf_url": "https://sfar.org/download/preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee/?wpdmdl=32629",
+  "category": "Obstétrique, Anesthésie",
+  "keywords": [
+   "analgésie",
+   "césarienne",
+   "anesthésie périmédullaire",
+   "rachianesthésie",
+   "péridurale",
+   "obstétrique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Guide de la réserve soignante en soins critiques",
+  "href": "https://sfar.org/download/guide-de-la-reserve-soignante-en-soins-critiques/?wpdmdl=33517",
+  "exact_type": null,
+  "exact_date": "2021",
+  "direct_pdf_url": null,
+  "category": "Réanimation",
+  "keywords": [
+   "réserve soignante",
+   "soins critiques",
+   "covid-19",
+   "ressources humaines",
+   "gestion de crise"
+  ],
+  "status": null
+ },
+ {
+  "year": "2021",
+  "title": "Gestion perioperatoire des patients sous AOD pour un acte programmé",
+  "href": "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme/?wpdmdl=33608",
+  "exact_type": "Autre",
+  "exact_date": "2015-09",
+  "direct_pdf_url": "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme/?wpdmdl=33608",
+  "category": "Anesthésie",
+  "keywords": [
+   "anticoagulants oraux directs",
+   "AOD",
+   "chirurgie programmée",
+   "périopératoire",
+   "GIHP",
+   "hémostase"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Gestion des patients sous AOD (dabigatran) en urgence",
+  "href": "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aod-en-urgence/?wpdmdl=34412",
+  "exact_type": "Autre",
+  "exact_date": "2016-09",
+  "direct_pdf_url": "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aod-en-urgence/?wpdmdl=34412",
+  "category": "Anesthésie, Urgences",
+  "keywords": [
+   "dabigatran",
+   "anticoagulants oraux directs",
+   "hémorragie",
+   "urgence",
+   "antidote",
+   "GIHP"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Gestion périopératoire des AOD en urgence",
+  "href": "https://sfar.org/download/gestion-perioperatoire-des-aod-en-urgence/?wpdmdl=34804",
+  "exact_type": "Autre",
+  "exact_date": "2013-03",
+  "direct_pdf_url": "https://sfar.org/download/gestion-perioperatoire-des-aod-en-urgence/?wpdmdl=34804",
+  "category": "Anesthésie, Urgences",
+  "keywords": [
+   "anticoagulants oraux directs",
+   "hémorragie grave",
+   "chirurgie urgente",
+   "anti-Xa",
+   "anti-IIa",
+   "GIHP"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Gestion perioperatoire des patients sous AAP en urgence",
+  "href": "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aap-en-urgence/?wpdmdl=34414",
+  "exact_type": "RFE",
+  "exact_date": "2018-11-23",
+  "direct_pdf_url": "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aap-en-urgence/?wpdmdl=34414",
+  "category": "Anesthésie, Urgences",
+  "keywords": [
+   "antiagrégants plaquettaires",
+   "hémorragie",
+   "procédure invasive",
+   "urgence",
+   "GIHP",
+   "GFHT"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Tests viscoélastiques",
+  "href": "https://sfar.org/download/tests-viscoelastiques-2018/?wpdmdl=34421",
+  "exact_type": "Autre",
+  "exact_date": "2018-02-03",
+  "direct_pdf_url": "https://sfar.org/download/tests-viscoelastiques-2018/?wpdmdl=34421",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "tests viscoélastiques",
+   "thromboélastographie",
+   "thromboélastométrie",
+   "coagulopathie",
+   "hémorragie",
+   "traumatisme"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Téléconsultation d’anesthésie",
+  "href": "https://sfar.org/teleconsultation-danesthesie/",
+  "exact_type": "Autre",
+  "exact_date": "2022-05-20",
+  "direct_pdf_url": "https://sfar.org/download/adaptation-de-lexamen-clinique/?wpdmdl=34983",
+  "category": "Anesthésie",
+  "keywords": [
+   "téléconsultation",
+   "consultation d'anesthésie",
+   "télémédecine",
+   "examen clinique",
+   "facturation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Tenue vestimentaire au bloc opératoire",
+  "href": "https://sfar.org/tenue-vestimentaire-au-bloc-operatoire/",
+  "exact_type": "RPP",
+  "exact_date": "2021-09-25",
+  "direct_pdf_url": "https://sfar.org/download/tenue-vestimentaire-au-bloc-operatoire/?wpdmdl=35399",
+  "category": "Anesthésie",
+  "keywords": [
+   "tenue vestimentaire",
+   "bloc opératoire",
+   "hygiène",
+   "infection",
+   "masques"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Réhabilitation améliorée après chirurgie cardiaque adulte sous CEC ou à cœur battant",
+  "href": "https://sfar.org/rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant/",
+  "exact_type": "RFE",
+  "exact_date": "2021-09-25",
+  "direct_pdf_url": "https://sfar.org/download/rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant/?wpdmdl=35416",
+  "category": "Anesthésie",
+  "keywords": [
+   "réhabilitation améliorée après chirurgie",
+   "chirurgie cardiaque",
+   "circulation extracorporelle",
+   "transfusion",
+   "postopératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Pancréatite aigüe du patient adulte en soins critiques",
+  "href": "https://sfar.org/pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques/",
+  "exact_type": "RFE",
+  "exact_date": "2021-09-25",
+  "direct_pdf_url": "https://sfar.org/download/pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques/?wpdmdl=35411",
+  "category": "Réanimation, Urgences",
+  "keywords": [
+   "pancréatite aigüe",
+   "soins critiques",
+   "nutrition",
+   "antibiotiques",
+   "choc",
+   "digestif"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2021",
+  "title": "Choix du soluté pour le remplissage vasculaire en situation critique",
+  "href": "https://sfar.org/choix-du-solute-pour-le-remplissage-vasculaire-en-situation-critique/",
+  "exact_type": "RFE",
+  "exact_date": "2021-09-25",
+  "direct_pdf_url": "https://sfar.org/download/choix-du-solute-pour-le-remplissage-vasculaire-en-situation-critique/?wpdmdl=35406",
+  "category": "Réanimation, Urgences",
+  "keywords": [
+   "remplissage vasculaire",
+   "cristalloïdes",
+   "colloïdes",
+   "choc septique",
+   "choc hémorragique",
+   "sepsis"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2020",
+  "title": "Indications de transfusion de plasmas lyophilisés (PLYO) chez un patient en choc hémorragique ou à risque de transfusion massive en milieu civil",
+  "href": "https://sfar.org/indications-de-transfusion-de-plasmas-lyophilises-plyo-chez-un-patient-en-choc-hemorragique-ou-a-risque-de-transfusion-massive-en-milieu-civil/",
+  "exact_type": "RPP",
+  "exact_date": "2020-12-19",
+  "direct_pdf_url": "https://sfar.org/download/indications-de-transfusion-de-plasmas-lyophilises-plyo-chez-un-patient-en-choc-hemorragique-ou-a-risque-de-transfusion-massive-en-milieu-civil-adulte-enfant-et-nouveau-ne/?wpdmdl=30312",
+  "category": "Réanimation, Urgences, Pédiatrie",
+  "keywords": [
+   "plasma lyophilisé",
+   "choc hémorragique",
+   "transfusion massive",
+   "acide tranexamique",
+   "fibrinogène"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2020",
+  "title": "Prise en charge des patients présentant un traumatisme sévère de membre(s)",
+  "href": "https://sfar.org/prise-en-charge-des-patients-presentant-un-traumatisme-severe-de-membres/",
+  "exact_type": "RFE",
+  "exact_date": "2019-09-21",
+  "direct_pdf_url": "https://sfar.org/download/prise-en-charge-des-patients-presentant-un-traumatisme-severe-de-membres/?wpdmdl=30307",
+  "category": "Urgences, Anesthésie",
+  "keywords": [
+   "traumatisme de membre",
+   "polytraumatisme",
+   "ostéosynthèse",
+   "syndrome des loges",
+   "rhabdomyolyse",
+   "thromboprophylaxie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2020",
+  "title": "Prise en charge de la patiente avec une pré-éclampsie sévère",
+  "href": "https://sfar.org/prise-en-charge-de-la-patiente-avec-une-pre-eclampsie-severe/",
+  "exact_type": "RFE",
+  "exact_date": "2020-12-19",
+  "direct_pdf_url": "https://sfar.org/download/rfe-prise-en-charge-de-la-patiente-avec-une-pre-eclampsie-severe-2/?wpdmdl=34698",
+  "category": "Obstétrique",
+  "keywords": [
+   "pré-éclampsie",
+   "éclampsie",
+   "hypertension artérielle gravidique",
+   "sulfate de magnésium",
+   "anesthésie périmédullaire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2020",
+  "title": "Évaluation du risque Covid-19 et impact sur la prise en charge en endoscopie digestive",
+  "href": "https://sfar.org/evaluation-du-risque-covid-19-et-impact-sur-la-prise-en-charge-en-endoscopie-digestive/",
+  "exact_type": "Autre",
+  "exact_date": "2020-05-14",
+  "direct_pdf_url": "https://sfar.org/download/evaluation-du-risque-covid-19-et-impact-sur-la-prise-en-charge-en-endoscopie-digestive/?wpdmdl=26319",
+  "category": "Anesthésie, Urgences",
+  "keywords": [
+   "covid-19",
+   "endoscopie digestive",
+   "risque infectieux",
+   "ventilation",
+   "prévention"
+  ],
+  "status": "abrogé"
+ },
+ {
+  "year": "2019",
+  "title": "Diagnostic et prise en charge d’une thrombopénie induite par l’héparine",
+  "href": "https://sfar.org/download/diagnostic-et-prise-en-charge-dune-thrombopenie-induite-par-lheparine/?wpdmdl=34610",
+  "exact_type": "Autre",
+  "exact_date": "2019",
+  "direct_pdf_url": "https://sfar.org/download/diagnostic-et-prise-en-charge-dune-thrombopenie-induite-par-lheparine/?wpdmdl=34610",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "thrombopénie induite par l'héparine",
+   "TIH",
+   "anticoagulants",
+   "hémostase",
+   "diagnostic"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Gestion et prévention de l’anémie (hors hémorragie aigüe) chez le patient adulte de soins critiques",
+  "href": "https://sfar.org/gestion-et-prevention-de-lanemie-hors-hemorragie-aigue-chez-le-patient-adulte-de-soins-critiques/",
+  "exact_type": "RFE",
+  "exact_date": "2019-09-21",
+  "direct_pdf_url": "https://sfar.org/download/rfe-gestion-anemie-reanimation/?wpdmdl=24462",
+  "category": "Réanimation",
+  "keywords": [
+   "anémie",
+   "soins critiques",
+   "transfusion",
+   "seuil transfusionnel",
+   "érythropoïétine",
+   "fer"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Prise en charge du traumatisme abdominal grave de l’adulte : les 48 premières heures",
+  "href": "https://sfar.org/prise-en-charge-du-traumatisme-abdominal-grave-de-ladulte-les-48-premieres-heures/",
+  "exact_type": "RFE",
+  "exact_date": "2019-09-21",
+  "direct_pdf_url": "https://sfar.org/download/rfe-urgence-trauma-abdominal/?wpdmdl=24463",
+  "category": "Urgences, Anesthésie",
+  "keywords": [
+   "traumatisme abdominal",
+   "polytraumatisme",
+   "laparotomie",
+   "damage control",
+   "chirurgie d'urgence"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Prise en charge des patients présentant, ou à risque, de traumatisme vertébromédullaire",
+  "href": "https://sfar.org/prise-en-charge-des-patients-presentant-ou-a-risque-de-traumatisme-vertebromedullaire/",
+  "exact_type": "RFE",
+  "exact_date": "2019-09-21",
+  "direct_pdf_url": "https://sfar.org/download/rfe-trauma-vertebro-medulaire/?wpdmdl=24464",
+  "category": "Urgences, Réanimation",
+  "keywords": [
+   "traumatisme vertébromédullaire",
+   "rachis",
+   "intubation",
+   "corticothérapie",
+   "moelle épinière"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Prise en charge du brûlé grave à la phase aiguë chez l’adulte et l’enfant",
+  "href": "https://sfar.org/prise-en-charge-du-brule-grave-a-la-phase-aigue-chez-ladulte-et-lenfant/",
+  "exact_type": "RPP",
+  "exact_date": "2019-09-21",
+  "direct_pdf_url": "https://sfar.org/download/rpp-prise-en-charge-du-brule-grave/?wpdmdl=24465",
+  "category": "Urgences, Pédiatrie, Réanimation",
+  "keywords": [
+   "brûlure grave",
+   "réanimation hémodynamique",
+   "inhalation de fumées",
+   "centre des brûlés",
+   "pédiatrie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Réhabilitation améliorée après lobectomie pulmonaire",
+  "href": "https://sfar.org/rehabilitation-amelioree-apres-lobectomie-pulmonaire/",
+  "exact_type": "RFE",
+  "exact_date": "2019-09-20",
+  "direct_pdf_url": "https://sfar.org/download/rfe-anesthesie-rac-lobectomie-pulmonaire/?wpdmdl=24440",
+  "category": "Anesthésie",
+  "keywords": [
+   "réhabilitation améliorée après chirurgie",
+   "lobectomie pulmonaire",
+   "chirurgie thoracique",
+   "préhabilitation",
+   "analgésie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Réhabilitation améliorée après chirurgie orthopédique lourde du membre inférieur (Arthroplastie de hanche et de genou hors fracture)",
+  "href": "https://sfar.org/rehabilitation-amelioree-chirurgie-orthopedique-lourde-membre-inferieur/",
+  "exact_type": "RFE",
+  "exact_date": "2019-09-20",
+  "direct_pdf_url": "https://sfar.org/download/rfe-rac-orthopedique/?wpdmdl=24459",
+  "category": "Anesthésie",
+  "keywords": [
+   "réhabilitation améliorée après chirurgie",
+   "arthroplastie de hanche",
+   "arthroplastie de genou",
+   "thromboprophylaxie",
+   "analgésie postopératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Propositions du GIHP et du GFHT pour le diagnostic et la prise en charge d’une thrombopénie induite par l’héparine",
+  "href": "https://sfar.org/propositions-tih-gihp-gfht-sfar/",
+  "exact_type": "Autre",
+  "exact_date": "2019-09-20",
+  "direct_pdf_url": "https://sfar.org/download/propositions-tih-gihp-gfht-sfar/?wpdmdl=24461",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "thrombopénie induite par l'héparine",
+   "TIH",
+   "anticoagulants",
+   "hémostase",
+   "GIHP",
+   "GFHT"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Prise en charge de l’Hyperthermie Maligne",
+  "href": "https://sfar.org/prise-en-charge-de-lhyperthermie-maligne/",
+  "exact_type": "RPP",
+  "exact_date": "2019-09-19",
+  "direct_pdf_url": "https://sfar.org/download/rpp-hyperthermie-maligne/?wpdmdl=24495",
+  "category": "Anesthésie",
+  "keywords": [
+   "hyperthermie maligne",
+   "anesthésie générale",
+   "dépistage",
+   "susceptibilité génétique",
+   "crise"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Prévention et prise en charge des effets indésirables pouvant survenir après une ponction lombaire",
+  "href": "https://www.has-sante.fr/upload/docs/application/pdf/2019-07/fm_ponction_lombaire.pdf",
+  "exact_type": "Autre",
+  "exact_date": "2019-06-12",
+  "direct_pdf_url": "https://www.has-sante.fr/upload/docs/application/pdf/2019-07/fm_ponction_lombaire.pdf",
+  "category": "Anesthésie, Urgences",
+  "keywords": [
+   "ponction lombaire",
+   "blood-patch",
+   "syndrome post-PL",
+   "céphalées",
+   "aiguille atraumatique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2019",
+  "title": "Intérêts de l’apprentissage par simulation en soins critiques",
+  "href": "https://sfar.org/interets-de-lapprentissage-par-simulation-en-soins-critiques/",
+  "exact_type": "RPP",
+  "exact_date": "2019-05-20",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2019/05/rfe-interets-de-lapprentissage-par-simulation-en-soins-critiques.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "simulation",
+   "soins critiques",
+   "formation médicale",
+   "compétences non techniques",
+   "pédagogie",
+   "GRADE"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Gestion des agents antiplaquettaires en cas de procédure invasive non programmée ou d’hémorragie",
+  "href": "https://sfar.org/gestion-des-agents-antiplaquettaires-en-cas-de-procedure-invasive-non-programmee-ou-dhemorragie/",
+  "exact_type": "Autre",
+  "exact_date": "2019-05-28",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2019/10/rfe-gestion-des-agents-antiplaquettaires.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "antiplaquettaires",
+   "hémorragie",
+   "hémostase périopératoire",
+   "GIHP",
+   "procédure invasive non programmée",
+   "anticoagulants"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Curarisation et décurarisation en anesthésie",
+  "href": "https://sfar.org/curarisation-et-decurarisation-en-anesthesie/",
+  "exact_type": "RFE",
+  "exact_date": "2018-10-05",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/10/2_RFE-CURARE-3.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "curares",
+   "décurarisation",
+   "monitorage neuromusculaire",
+   "intubation",
+   "ventilation au masque",
+   "bloc neuromusculaire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Gestion des voies aériennes de l’enfant",
+  "href": "https://sfar.org/gestion-des-voies-aeriennes-de-lenfant/",
+  "exact_type": "RFE",
+  "exact_date": "2018-09-29",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2019/10/rfe-gestion-des-voies-aeriennes-de-lenfant.pdf",
+  "category": "Pédiatrie, Anesthésie",
+  "keywords": [
+   "voies aériennes",
+   "pédiatrie",
+   "intubation difficile enfant",
+   "dispositifs supraglottiques",
+   "vidéolaryngoscope",
+   "infection respiratoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Prévention de l’hypothermie peropératoire accidentelle au bloc opératoire chez l’adulte",
+  "href": "https://sfar.org/prevention-de-lhypothermie-peroperatoire-accidentelle-au-bloc-operatoire-chez-ladulte/",
+  "exact_type": "RFE",
+  "exact_date": "2018-09-29",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/09/2_RFE-Hypothermie-Version-Finale-_-Validee-CRC120618.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "hypothermie peropératoire",
+   "réchauffement",
+   "thermorégulation",
+   "bloc opératoire",
+   "normothermie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Insuffisance hépatique en soins critiques",
+  "href": "https://sfar.org/insuffisance-hepatique-en-soins-critiques/",
+  "exact_type": "RFE",
+  "exact_date": "2018-09-29",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/09/RFE-IH-soins-critiques.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "insuffisance hépatique",
+   "cirrhose",
+   "soins critiques",
+   "défaillance hépatique",
+   "GRADE"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Optimisation du traitement par Bêta-Lactamines chez le patient de soins critiques",
+  "href": "https://sfar.org/optimisation-du-traitement-par-beta-lactamines-chez-le-patient-de-soins-critiques/",
+  "exact_type": "RPP",
+  "exact_date": "2018-09-29",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/09/RPP_beta-lactamines-en-soins-critiques_041018_logoSFPT.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "bêta-lactamines",
+   "antibiothérapie",
+   "pharmacocinétique",
+   "dosage plasmatique",
+   "soins critiques",
+   "sepsis"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Antibioprophylaxie en chirurgie et médecine interventionnelle (patients adultes)",
+  "href": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle-patients-adultes-maj2018/",
+  "exact_type": "RFE",
+  "exact_date": "2018-08-29",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/07/Antibioprophylaxie-RFE-mise-a-jour-2018.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "antibioprophylaxie",
+   "chirurgie",
+   "infection du site opératoire",
+   "antibiotiques",
+   "médecine interventionnelle"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Gestion des agents antiplaquettaires pour une procédure invasive programmée",
+  "href": "https://sfar.org/gestion-agents-antiplaquettaires-procedure-invasive-programmee/",
+  "exact_type": "RFE",
+  "exact_date": "2018-03-06",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/03/2_Gestion-des-agents-antiplaquettaires-pour-une-procedure-invasive-programmee.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "antiplaquettaires",
+   "procédure invasive programmée",
+   "hémostase périopératoire",
+   "anticoagulants",
+   "chirurgie programmée"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Recommandations pour le fonctionnement des USC dans les établissements de santé",
+  "href": "https://sfar.org/wp-content/uploads/2018/05/EXTE-USC-CNP.pdf",
+  "exact_type": "Autre",
+  "exact_date": "2018",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/05/EXTE-USC-CNP.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "unité de surveillance continue",
+   "USC",
+   "organisation des soins",
+   "lits de réanimation",
+   "typologie des patients"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2018",
+  "title": "Recommandations pour la prise en charge du SDRA",
+  "href": "https://sfar.org/recommandations-prise-charge-sdra/",
+  "exact_type": "RFE",
+  "exact_date": "2018-03-06",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/03/2_Recos-SDRA.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "SDRA",
+   "ventilation mécanique",
+   "détresse respiratoire aiguë",
+   "ARDS",
+   "ventilation protectrice"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2017",
+  "title": "Prise en charges des traumatises pelviens graves à la phase précoce (24 premières heures)",
+  "href": "https://sfar.org/prise-charges-traumatises-pelviens-graves-a-phase-precoce-24-premieres-heures/",
+  "exact_type": "RFE",
+  "exact_date": "2017-09-22",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2019/10/rfe-prise-en-charge-des-traumatises-pelviens-graves-a-la-phase-precoce.pdf",
+  "category": "Urgences, Anesthésie, Réanimation",
+  "keywords": [
+   "traumatisme pelvien",
+   "polytraumatisme",
+   "choc hémorragique",
+   "phase précoce",
+   "traumatologie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2017",
+  "title": "Pneumonies associées aux soins de réanimation",
+  "href": "https://sfar.org/pneumonies-associees-aux-soins-de-reanimation/",
+  "exact_type": "RFE",
+  "exact_date": "2017-09-22",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2017/09/Pneumonies-associees-au-soins-de-reanimation-ANREA.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "pneumonie acquise sous ventilation",
+   "infection nosocomiale",
+   "antibiothérapie",
+   "réanimation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2017",
+  "title": "Antibioprophylaxie en chirurgie et médecine interventionnelle (patients adultes)",
+  "href": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle-patients-adultes-2017/",
+  "exact_type": "RFE",
+  "exact_date": "2018-08-29",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/08/Antibioprophylaxie-version-2017-CRC_CA_MODIF.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "antibioprophylaxie",
+   "chirurgie",
+   "antibiotiques",
+   "infection du site opératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2017",
+  "title": "Anesthésie du sujet âgé : l’exemple de fracture de l’extrémité supérieure du fémur",
+  "href": "https://sfar.org/anesthesie-du-sujet-age-lexemple-de-fracture-de-lextremite-superieure-du-femur/",
+  "exact_type": "RFE",
+  "exact_date": "2017-09-22",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2019/10/rfe-anesthesie-du-sujet-age.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "sujet âgé",
+   "fracture du col du fémur",
+   "anesthésie gériatrique",
+   "fragilité",
+   "personne âgée"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2017",
+  "title": "Intubation difficile et extubation en anesthésie chez l’adulte",
+  "href": "https://sfar.org/actualisation-de-recommandations-intubation-difficile-et-extubation-en-anesthesie-chez-ladulte/",
+  "exact_type": "RFE",
+  "exact_date": "2017-09-22",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2017/09/RFE-ANREA-Intubation-difficile-et-extubation-en-anesthesie-chez-l-adulte.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "intubation difficile",
+   "extubation",
+   "vidéolaryngoscope",
+   "préoxygénation",
+   "désaturation",
+   "voies aériennes"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2017",
+  "title": "Trachéotomie en réanimation",
+  "href": "https://sfar.org/tracheotomie-en-reanimation/",
+  "exact_type": "RFE",
+  "exact_date": "2017-01-11",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2017/01/Tracheotomie-en-reanimation-ANREA.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "trachéotomie",
+   "voies aériennes",
+   "ventilation prolongée",
+   "sevrage ventilatoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2017",
+  "title": "Pertinence de la prescription des examens biologiques et de la radiographie thoracique en réanimation",
+  "href": "https://sfar.org/pertinence-de-la-prescription-des-examens-biologiques-et-de-la-radiographie-thoracique-en-reanimation/",
+  "exact_type": "RFE",
+  "exact_date": "2017-01-11",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2017/01/2_RFE-EC-en-rea-version-15-12-16.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "examens biologiques",
+   "radiographie thoracique",
+   "pertinence des soins",
+   "prescriptions",
+   "réanimation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Anesthésie Loco-Régionale périnerveuse",
+  "href": "https://sfar.org/anesthesie-loco-regionale-perinerveuse/",
+  "exact_type": "RFE",
+  "exact_date": "2016-12-02",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2019/10/rfe-anesthesie-loco-regionale-perinerveuse.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "anesthésie locorégionale",
+   "bloc périnerveux",
+   "échoguidage",
+   "analgésie postopératoire",
+   "anesthésiques locaux"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Prévention des erreurs médicamenteuses en A-R",
+  "href": "https://sfar.org/preconisations-2016-prevention-des-erreurs-medicamenteuses-en-a-r/",
+  "exact_type": "Préconisation",
+  "exact_date": "2016-11-10",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/11/texte-court-preco-erreurs-med-2016-SFAR-SFPC-version-finale-25-oct-2016.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "erreurs médicamenteuses",
+   "sécurité du patient",
+   "gestion des risques",
+   "médicaments",
+   "audit"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Intubation et extubation du patient de réanimation",
+  "href": "https://sfar.org/intubation-et-extubation-du-patient-de-reanimation/",
+  "exact_type": "RFE",
+  "exact_date": "2016-09-24",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/09/Intubation-et-extubation-du-patient-en-reanimation-ANREA.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "intubation",
+   "extubation",
+   "échec d'extubation",
+   "ventilation mécanique",
+   "réanimation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Prise en charge des traumatisés crâniens graves à la phase précoce (24 premières heures)",
+  "href": "https://sfar.org/prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce/",
+  "exact_type": "RFE",
+  "exact_date": "2016-09-24",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2017/09/RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce.pdf",
+  "category": "Urgences, Réanimation",
+  "keywords": [
+   "traumatisme crânien grave",
+   "phase précoce",
+   "neuro-réanimation",
+   "hypertension intracrânienne",
+   "polytraumatisme"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Réactualisation de la recommandation sur la douleur postopératoire",
+  "href": "https://sfar.org/reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire/",
+  "exact_type": "RFE",
+  "exact_date": "2016-09-01",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/09/RFE-ANREA-Reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "douleur postopératoire",
+   "analgésie",
+   "antalgiques",
+   "opioïdes",
+   "réhabilitation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Recommandations sur la prise en charge du tabagisme en période péri opératoire",
+  "href": "https://sfar.org/recommandations-sur-la-prise-en-charge-du-tabagisme-en-periode-perioperatoire/",
+  "exact_type": "RFE",
+  "exact_date": "2016-09-01",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/08/2-SFAR-RFE-tabac_proposition-CRC.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "tabagisme",
+   "sevrage tabagique",
+   "période périopératoire",
+   "complications postopératoires",
+   "prévention"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Contrôle cible de la température en réanimation (hors nouveau-nés)",
+  "href": "https://sfar.org/controle-cible-de-la-temperature-en-reanimation-hors-nouveau-nes/",
+  "exact_type": "RFE",
+  "exact_date": "2016-05-25",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2019/10/rfe-controle-cible-de-la-temperature-en-reanimation.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "hypothermie thérapeutique",
+   "contrôle de la température",
+   "arrêt cardiaque",
+   "neuroprotection"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Protection oculaire en Anesthésie et Réanimation",
+  "href": "https://sfar.org/protection-oculaire-en-anesthesie-et-reanimation/",
+  "exact_type": "RFE",
+  "exact_date": "2016-03-21",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/03/Protection-oculaire-en-Anesthesie-et-Reanimation-1.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "protection oculaire",
+   "kératite",
+   "complications oculaires",
+   "bloc opératoire",
+   "soins des yeux"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Organisation de l’Anesthésie-Réanimation Obstétricale",
+  "href": "https://sfar.org/wp-content/uploads/2018/03/RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale.pdf",
+  "exact_type": "Autre",
+  "exact_date": "2015-12-11",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2018/03/RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale.pdf",
+  "category": "Obstétrique, Anesthésie",
+  "keywords": [
+   "anesthésie obstétricale",
+   "organisation des soins",
+   "analgésie du travail",
+   "SSPI",
+   "réseau périnatal",
+   "transferts in utero"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2016",
+  "title": "Préparation colique et anesthésie générale",
+  "href": "https://sfar.org/wp-content/uploads/2019/04/preparation-colique-anesthesie-generale.pdf",
+  "exact_type": "Autre",
+  "exact_date": "2016-09-21",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2019/04/preparation-colique-anesthesie-generale.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "préparation colique",
+   "coloscopie",
+   "anesthésie générale",
+   "endoscopie digestive",
+   "PEG",
+   "gastroentérologie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2015",
+  "title": "Insuffisance rénale aiguë en périopératoire et en réanimation",
+  "href": "https://sfar.org/insuffisance-renale-aigue/",
+  "exact_type": "RFE",
+  "exact_date": "2014",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/05/ANREA_132_RFE-IRA-.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "insuffisance rénale aiguë",
+   "périopératoire",
+   "réanimation",
+   "épuration extrarénale",
+   "créatinine",
+   "AKI"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2015",
+  "title": "Prise en charge des infections intra-abdominales",
+  "href": "https://sfar.org/prise-en-charge-des-infections-intra-abdominales/",
+  "exact_type": "RFE",
+  "exact_date": "2015",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_Prise-en-charge-des-infections-intra-abdominales.pdf",
+  "category": "Réanimation, Urgences",
+  "keywords": [
+   "infections intra-abdominales",
+   "péritonite",
+   "choc septique",
+   "antibiothérapie",
+   "chirurgie digestive",
+   "sepsis"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2015",
+  "title": "La gestion périopératoire des patients sous AOD pour un acte programmé",
+  "href": "https://sfar.org/wp-content/uploads/2015/09/Reactualisation-GIHP_AOD_actes-programmes_Septembre-20151.pdf",
+  "exact_type": "Autre",
+  "exact_date": "2015-09",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/Reactualisation-GIHP_AOD_actes-programmes_Septembre-20151.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "anticoagulants oraux directs",
+   "AOD",
+   "chirurgie programmée",
+   "hémostase périopératoire",
+   "rivaroxaban",
+   "dabigatran",
+   "apixaban"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2015",
+  "title": "Recommandations sur l’utilisation de l’échographie lors de la mise en place des accès vasculaires",
+  "href": "https://sfar.org/recommandations-sur-lutilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires/",
+  "exact_type": "RFE",
+  "exact_date": "2015",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_utilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "échographie",
+   "accès vasculaires",
+   "voie veineuse centrale",
+   "échoguidage",
+   "cathétérisme"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2015",
+  "title": "Recommandations SNFCP/ ANAP / SFAR sur la Chirurgie ambulatoire en proctologie",
+  "href": "https://sfar.org/recommandations-snfcp-anap-sfar-sur-la-chirurgie-ambulatoire-en-proctologie/",
+  "exact_type": "RFE",
+  "exact_date": "2015",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/08/RECOCHIRAMBUSNFCP-120315.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "chirurgie ambulatoire",
+   "proctologie",
+   "chirurgie colorectale",
+   "SNFCP",
+   "ANAP"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2014",
+  "title": "Transfusion de globules rouges homologues : produits, indications alternatives",
+  "href": "https://sfar.org/transfusion-de-globules-rouges-homologues-produits-indications-alternatives/",
+  "exact_type": "RBP",
+  "exact_date": "2014",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_HAS_transfusion_de_globules_rouges_homologues_-_produits_indications_alternatives_-_recommandations.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "transfusion sanguine",
+   "globules rouges",
+   "produits sanguins",
+   "anémie",
+   "indications transfusionnelles"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2014",
+  "title": "Recommandations sur la réanimation du choc hémorragique",
+  "href": "https://sfar.org/recommandations-sur-la-reanimation-du-choc-hemorragique/",
+  "exact_type": "RFE",
+  "exact_date": "2015",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_Recommandations-sur-la-reanimation-du-choc-hemorragique.pdf",
+  "category": "Réanimation, Urgences",
+  "keywords": [
+   "choc hémorragique",
+   "hémorragie",
+   "transfusion massive",
+   "remplissage vasculaire",
+   "traumatologie",
+   "préhospitalier"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2014",
+  "title": "Réhabilitation rapide après une chirurgie colorectale programmée",
+  "href": "https://sfar.org/rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee/",
+  "exact_type": "RFE",
+  "exact_date": "2014",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "réhabilitation rapide",
+   "chirurgie colorectale",
+   "RAAC",
+   "chirurgie digestive",
+   "récupération améliorée"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2014",
+  "title": "Stratégies de réduction de l’utilisation des antibiotiques à visée curative en réanimation",
+  "href": "https://sfar.org/strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation-adulte-et-pediatrique/",
+  "exact_type": "RFE",
+  "exact_date": "2014",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_SPILF_Strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation.pdf",
+  "category": "Réanimation, Pédiatrie",
+  "keywords": [
+   "antibiothérapie",
+   "réanimation",
+   "antibioprophylaxie",
+   "désescalade antibiotique",
+   "résistance bactérienne",
+   "pédiatrie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2014",
+  "title": "Nutrition artificielle en réanimation",
+  "href": "https://sfar.org/nutrition-artificielle-en-reanimation%E2%80%A8/",
+  "exact_type": "RFE",
+  "exact_date": "2014",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Nutrition-artificielle-en-reanimation.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "nutrition artificielle",
+   "nutrition entérale",
+   "nutrition parentérale",
+   "réanimation",
+   "dénutrition"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2014",
+  "title": "Traumatisme Thoracique : Prise en charge des 48 premières heures",
+  "href": "https://sfar.org/traumatisme-thoracique-prise-en-charge-des-48-premieres-heures/",
+  "exact_type": "RFE",
+  "exact_date": "2015",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Traumatisme-thoracique-_prise-en-charge-des-48-premieres-heures.pdf",
+  "category": "Réanimation, Urgences",
+  "keywords": [
+   "traumatisme thoracique",
+   "polytraumatisme",
+   "trauma",
+   "réanimation",
+   "urgences"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2014",
+  "title": "Epuration extrarénale continue en réanimation (à l’exclusion de la dialyse péritonéale)",
+  "href": "https://sfar.org/epuration-extrarenale-en-reanimation-adulte-et-pediatrique/",
+  "exact_type": "RFE",
+  "exact_date": "2014",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_REANIMATION_epuration-extrarenale-en-reanimation-adulte-et-pediatrique.pdf",
+  "category": "Réanimation, Pédiatrie",
+  "keywords": [
+   "épuration extrarénale",
+   "insuffisance rénale aiguë",
+   "dialyse",
+   "réanimation",
+   "pédiatrie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2013",
+  "title": "Techniques analgésiques locorégionales et douleur chronique",
+  "href": "https://sfar.org/techniques-analgesiques-locoregionales-et-douleur-chronique/",
+  "exact_type": "RFE",
+  "exact_date": "2013",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2a_AFAR_Techniques-analgesiques-locoregionales-et-douleur-chronique.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "anesthésie locorégionale",
+   "douleur chronique",
+   "analgésie",
+   "algologie",
+   "bloc nerveux"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2013",
+  "title": "Recommandations d’Experts pour le Risque d’HYPERTHERMIE MALIGNE en Anesthésie Réanimation",
+  "href": "https://sfar.org/recommandations-dexperts-pour-le-risque-dhyperthermie-maligne-en-anesthesie-reanimation/",
+  "exact_type": "RFE",
+  "exact_date": "2013",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_HyperthermieMaligne.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "hyperthermie maligne",
+   "agents halogénés",
+   "curare",
+   "anesthésie générale",
+   "dantrolène",
+   "mis à jour par RPP 2019"
+  ],
+  "status": "abrogé"
+ },
+ {
+  "year": "2013",
+  "title": "Recommandations AFU/SFAR/AFCA/ANAP sur la Chirurgie Ambulatoire en Urologie",
+  "href": "https://sfar.org/recommandations-afusfarafcaanap-chirurgie-ambulatoire-en-urologie/",
+  "exact_type": "RFE",
+  "exact_date": "2013",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_PUROL_Recommandations-chirurgie-ambulatoire-en-urologie.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "chirurgie ambulatoire",
+   "urologie",
+   "AFU",
+   "ANAP",
+   "parcours patient"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2012",
+  "title": "Stratégie du remplissage vasculaire périopératoire",
+  "href": "https://sfar.org/strategie-du-remplissage-vasculaire-perioperatoire-2/",
+  "exact_type": "RFE",
+  "exact_date": "2012",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2a_AFAR_FRANCAIS_Strategie-du-remplissage-vasculaire-perioperatoire.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "remplissage vasculaire",
+   "optimisation hémodynamique",
+   "périopératoire",
+   "monitorage hémodynamique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2012",
+  "title": "Bris dentaires périanesthésiques",
+  "href": "https://sfar.org/bris-dentaires-perianesthesiques/",
+  "exact_type": "RFE",
+  "exact_date": "2012",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_COURT_Bris-dentaires-perianesthesiques-copie.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "bris dentaires",
+   "intubation",
+   "complications anesthésiques",
+   "prévention",
+   "laryngoscopie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2012",
+  "title": "Examens pré-interventionnels systématiques",
+  "href": "https://sfar.org/examens-preinterventionnels-systematiques/",
+  "exact_type": "RFE",
+  "exact_date": "2012",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/AFAR_Examens-preinterventionnels-systematiques.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "examens préopératoires",
+   "bilan préinterventionnel",
+   "consultation d'anesthésie",
+   "évaluation préopératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2012",
+  "title": "Transfusion de plasma thérapeutique : produits, indications",
+  "href": "https://sfar.org/transfusion-de-plasma-therapeutique-produits-indications/",
+  "exact_type": "RFE",
+  "exact_date": "2014",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Texte-court-ransfusion-de-plasma-therapeutique-Produits-indications.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "transfusion",
+   "plasma thérapeutique",
+   "coagulation",
+   "produits sanguins",
+   "hémorragie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2011",
+  "title": "Prévention de la maladie thromboembolique veineuse postopératoire",
+  "href": "https://sfar.org/prevention-de-la-maladie-thromboembolique-veineuse-postoperatoire-actualisation-2011-texte-court/",
+  "exact_type": "RFE",
+  "exact_date": "2011",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prevention-de-la-maladie-thromboembolique-veineuse-postoperatoire-copie.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "maladie thromboembolique veineuse",
+   "thrombose",
+   "embolie pulmonaire",
+   "prévention",
+   "anticoagulation postopératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2011",
+  "title": "Transport intra-hospitalier des patients à risque vital",
+  "href": "https://sfar.org/transport-intrahospitalier-des-patients-a-risque-vital-nouveau-ne-exclu/",
+  "exact_type": "RFE",
+  "exact_date": "2011",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_Transport-intrahospitalier-des-patients-a-risque-vital.pdf",
+  "category": "Réanimation, Urgences",
+  "keywords": [
+   "transport intrahospitalier",
+   "patient à risque vital",
+   "réanimation",
+   "sécurité du transport"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2011",
+  "title": "Échographie en anesthésie locorégionale",
+  "href": "https://sfar.org/echographie-en-anesthesie-locoregionale/",
+  "exact_type": "RFE",
+  "exact_date": "2011",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_echographie-en-anesthesie-locoregionale.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "échographie",
+   "anesthésie locorégionale",
+   "ALR",
+   "échoguidage",
+   "bloc nerveux périphérique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2011",
+  "title": "Prévention du risque allergique peranesthésique",
+  "href": "https://sfar.org/prevention-du-risque-allergique-peranesthesique-2/",
+  "exact_type": "RFE",
+  "exact_date": "2011",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prevention-du-risque-allergique-peranesthesique.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "allergie peranesthésique",
+   "anaphylaxie",
+   "hypersensibilité",
+   "curares",
+   "réaction allergique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2010",
+  "title": "Urgences Obstétricales Extrahospitalières",
+  "href": "https://sfar.org/urgences-obstetricales-extrahospitalieres/",
+  "exact_type": "RFE",
+  "exact_date": "2010",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Urgences-Obstetricales-Extrahospitalieres.pdf",
+  "category": "Obstétrique, Urgences",
+  "keywords": [
+   "urgences obstétricales",
+   "accouchement extrahospitalier",
+   "hémorragie du post-partum",
+   "SAMU",
+   "grossesse"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2010",
+  "title": "Prise en charge de l’interruption volontaire de grossesse jusqu’à 14 semaines",
+  "href": "https://sfar.org/prise-en-charge-de-linterruption-volontaire-de-grossesse-jusqua-14-semaines/",
+  "exact_type": "RFE",
+  "exact_date": "2010",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_ANAES_Prise-en-charge-de-l-interruption-volontaire-de-grossesse-jusqu-a-14-semaines.pdf",
+  "category": "Obstétrique",
+  "keywords": [
+   "interruption volontaire de grossesse",
+   "IVG",
+   "anesthésie obstétricale",
+   "ANAES"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2010",
+  "title": "Anesthésie loco-régionale en pédiatrie",
+  "href": "https://sfar.org/anesthesie-loco-regionale-en-pediatrie/",
+  "exact_type": "RFE",
+  "exact_date": "2010",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Anesthesie-loco-regionale-en-pediatrie.pdf",
+  "category": "Pédiatrie, Anesthésie",
+  "keywords": [
+   "anesthésie loco-régionale",
+   "pédiatrie",
+   "ALR pédiatrique",
+   "bloc caudal",
+   "enfant"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2010",
+  "title": "Monitorage de l’adéquation / profondeur de l’anesthésie à partir de l’analyse de l’EEG cortical",
+  "href": "https://sfar.org/monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-leeg-cortical/",
+  "exact_type": "RFE",
+  "exact_date": "2011",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-lEEG-cortical.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "monitorage de l'anesthésie",
+   "EEG cortical",
+   "index bispectral",
+   "profondeur d'anesthésie",
+   "réveil peropératoire",
+   "mémorisation peropératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2010",
+  "title": "Prise en charge du coronarien qui doit être opéré en chirurgie non cardiaque",
+  "href": "https://sfar.org/prise-en-charge-du-coronarien-opere-en-chirurgie-non-cardiaque/",
+  "exact_type": "RFE",
+  "exact_date": "2011",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "coronaropathie",
+   "chirurgie non cardiaque",
+   "risque cardiovasculaire périopératoire",
+   "stent coronaire",
+   "antiagrégants plaquettaires",
+   "évaluation cardiologique préopératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2010",
+  "title": "Recommandations de bonnes pratiques cliniques sur la nutrition périopératoire",
+  "href": "https://sfar.org/recommandations-de-bonnes-pratiques-cliniques-sur-la-nutrition-perioperatoire-actualisation-2010-de-la-conference-de-consensus-de-1994-sur-la-nutrition-artificielle-perioperatoire-en-chirurgie/",
+  "exact_type": "RFE",
+  "exact_date": "2011",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Nutrition-artificielle-perioperatoire-en-chirurgie-programmee-de-ladulte.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "nutrition périopératoire",
+   "nutrition artificielle",
+   "dénutrition",
+   "chirurgie programmée",
+   "immunonutrition",
+   "évaluation nutritionnelle"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2010",
+  "title": "Délivrance de l’information à la personne sur son état de santé",
+  "href": "https://sfar.org/delivrance-de-linformation-a-la-personne-sur-son-etat-de-sante/",
+  "exact_type": "RBP",
+  "exact_date": "2010",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2a_HAS_texte-court_Delivrance-de-l-information-a-la-personne-sur-son-etat-de-sante.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "information du patient",
+   "consentement éclairé",
+   "droit des patients",
+   "relation médecin-malade",
+   "obligation d'information",
+   "éthique médicale"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2010",
+  "title": "Sédation et analgésie en Structures d’Urgence",
+  "href": "https://sfar.org/sedation-analgesie-structure-durgence/",
+  "exact_type": "CE",
+  "exact_date": "2010",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/01/2_AFAR_Sedation-analgesie-en-structure-d-urgence.pdf",
+  "category": "Urgences",
+  "keywords": [
+   "sédation",
+   "analgésie",
+   "structure d'urgence",
+   "préhospitalier",
+   "intubation en séquence rapide",
+   "urgences extrahospitalières"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2009",
+  "title": "Prise en charge multidisciplinaire des formes graves de prééclampsie",
+  "href": "https://sfar.org/prise-en-charge-multidisciplinaire-des-formes-graves-de-preeclampsie/",
+  "exact_type": "RFE",
+  "exact_date": "2010",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Prise-en-charge-pre-et-interhospitaliere-des-formes-graves-de-preeclampsie.pdf",
+  "category": "Obstétrique",
+  "keywords": [
+   "prééclampsie",
+   "éclampsie",
+   "HELLP syndrome",
+   "obstétrique",
+   "hypertension gravidique",
+   "urgence obstétricale"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2009",
+  "title": "Contrôle de la glycémie en réanimation et en anesthésie",
+  "href": "https://sfar.org/controle-de-la-glycemie-en-reanimation-et-en-anesthesie/",
+  "exact_type": "RFE",
+  "exact_date": "2009",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2b_AFAR_Contrele-de-la-glycemie-en-reanimation-et-en-anesthesie_une-reactualisation-necessaire.pdf",
+  "category": "Réanimation, Anesthésie",
+  "keywords": [
+   "contrôle glycémique",
+   "hyperglycémie",
+   "insulinothérapie",
+   "réanimation",
+   "anesthésie",
+   "hypoglycémie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2009",
+  "title": "Gestion périopératoire des traitements chroniques et dispositifs médicaux",
+  "href": "https://sfar.org/gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux-anti-infectieux-immunosuppresseurs/",
+  "exact_type": "RFE",
+  "exact_date": "2009",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "gestion périopératoire",
+   "traitements chroniques",
+   "anti-infectieux",
+   "immunosuppresseurs",
+   "dispositifs médicaux",
+   "période périopératoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2009",
+  "title": "Prise en charge anesthésique des patients en hospitalisation ambulatoire",
+  "href": "https://sfar.org/prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire/",
+  "exact_type": "RFE",
+  "exact_date": "2009",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "chirurgie ambulatoire",
+   "hospitalisation ambulatoire",
+   "anesthésie ambulatoire",
+   "critères de sortie",
+   "éligibilité ambulatoire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2009",
+  "title": "Accident vasculaire cérébral : prise en charge précoce (alerte, phase préhospitalière, phase hospitalière initiale, indications de la thrombolyse)",
+  "href": "https://sfar.org/accident-vasculaire-cerebral-prise-en-charge-precoce/",
+  "exact_type": "RBP",
+  "exact_date": "2009",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce.pdf",
+  "category": "Urgences, Réanimation",
+  "keywords": [
+   "accident vasculaire cérébral",
+   "AVC",
+   "thrombolyse",
+   "urgence neurologique",
+   "phase préhospitalière",
+   "alerte AVC"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2009",
+  "title": "Mieux vivre la réanimation",
+  "href": "https://sfar.org/mieux-vivre-la-reanimation/",
+  "exact_type": "RFE",
+  "exact_date": "2009",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Mieux-vivre-la-reanimation.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "réanimation",
+   "qualité de vie en réanimation",
+   "famille en réanimation",
+   "confort du patient",
+   "éthique en réanimation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2008",
+  "title": "Recommandations AVK",
+  "href": "https://sfar.org/prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier/",
+  "exact_type": "RBP",
+  "exact_date": "2008",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K.pdf",
+  "category": "Urgences, Réanimation",
+  "keywords": [
+   "antivitamines K",
+   "surdosage AVK",
+   "hémorragie",
+   "anticoagulants",
+   "accident hémorragique",
+   "antagonisation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2008",
+  "title": "Prise en charge de la douleur postopératoire chez l’adulte et l’enfant",
+  "href": "https://sfar.org/prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant-2/",
+  "exact_type": "RFE",
+  "exact_date": "2008",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2a_AFAR_Prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant.pdf",
+  "category": "Anesthésie, Pédiatrie",
+  "keywords": [
+   "douleur postopératoire",
+   "analgésie postopératoire",
+   "morphiniques",
+   "analgésie pédiatrique",
+   "prise en charge de la douleur"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2008",
+  "title": "Prévention des infections nosocomiales en réanimation – transmission croisée et nouveau-né exclus",
+  "href": "https://sfar.org/prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus/",
+  "exact_type": "CC",
+  "exact_date": "2009",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "infections nosocomiales",
+   "réanimation",
+   "prévention des infections",
+   "pneumopathie sous ventilation",
+   "infection sur cathéter",
+   "infection urinaire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2008",
+  "title": "Prise en charge en situation d’urgence et en réanimation des états de mal épileptiques de l’adulte et de l’enfant (nouveau-né exclu)",
+  "href": "https://sfar.org/prise-en-charge-en-situation-durgence-et-en-reanimation-des-etats-de-mal-epileptiques-de-ladulte-et-de-lenfant-nouveau-ne-exclu/",
+  "exact_type": "RFE",
+  "exact_date": "2008",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/3_REANIMATION_Prise-en-charge-en-situation-durgence-et-en-reanimation-des-etats-de-mal-epileptiques-de-ladulte-et-de-lenfant.pdf",
+  "category": "Urgences, Réanimation, Pédiatrie",
+  "keywords": [
+   "état de mal épileptique",
+   "urgence neurologique",
+   "convulsions",
+   "réanimation pédiatrique",
+   "anticonvulsivants"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2008",
+  "title": "Indications de l’assistance circulatoire dans le traitement des arrêts cardiaques réfractaires",
+  "href": "https://sfar.org/recommandations-sur-les-indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires/",
+  "exact_type": "RFE",
+  "exact_date": "2009",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Recommandations-sur-les-indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires.pdf",
+  "category": "Réanimation, Urgences",
+  "keywords": [
+   "arrêt cardiaque réfractaire",
+   "assistance circulatoire",
+   "ECMO",
+   "réanimation cardio-pulmonaire",
+   "circulation extracorporelle"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2008",
+  "title": "Sécurisation des procédures à risques en réanimation : risque infectieux exclu",
+  "href": "https://sfar.org/securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu/",
+  "exact_type": "RFE",
+  "exact_date": "2008",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "sécurisation des soins",
+   "procédures à risque",
+   "réanimation",
+   "gestion des risques",
+   "erreurs médicales"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2007",
+  "title": "Prise en charge des nausées et vomissements postopératoires",
+  "href": "https://sfar.org/prise-en-charge-des-nausees-et-vomissements-postoperatoires/",
+  "exact_type": "RFE",
+  "exact_date": "2008",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-des-nausees-et-vomissements-postoperatoires.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "nausées et vomissements postopératoires",
+   "NVPO",
+   "antiémétiques",
+   "chirurgie ambulatoire",
+   "prévention NVPO"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2007",
+  "title": "Sédation et analgésie en réanimation (nouveau-né exclu)",
+  "href": "https://sfar.org/sedation-et-analgesie-en-reanimation-nouveau-ne-exclu/",
+  "exact_type": "RFE",
+  "exact_date": "2008",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2a_AFAR_Texte_court_Sedation-et-analgesie-en-reanimation_nouveau-ne-exclu.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "sédation en réanimation",
+   "analgésie en réanimation",
+   "ventilation mécanique",
+   "agitation",
+   "sevrage sédatif"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2007",
+  "title": "Organisation et Structuration de l’hôpital en cas de pandémie de grippe aviaire. Aspects spécifiques inhérents à l’activité de Réanimation",
+  "href": "https://sfar.org/wp-content/uploads/2016/01/Organisation-et-Structuration-de-l-Hopital-en-cas-de-pandemie-de-grippe-aviaire-Aspects-specifiques-inherents-a-lactivite-de-Reanimation.pdf",
+  "exact_type": "Autre",
+  "exact_date": "2007-02",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/01/Organisation-et-Structuration-de-l-Hopital-en-cas-de-pandemie-de-grippe-aviaire-Aspects-specifiques-inherents-a-lactivite-de-Reanimation.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "pandémie grippale",
+   "grippe aviaire",
+   "organisation hospitalière",
+   "réanimation",
+   "plan de crise",
+   "afflux massif de patients"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2006",
+  "title": "Prévention des erreurs médicamenteuses en anesthésie",
+  "href": "https://sfar.org/wp-content/uploads/2014/04/preverreurmedic_recos.pdf",
+  "exact_type": "Autre",
+  "exact_date": "2006-11",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2014/04/preverreurmedic_recos.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "erreur médicamenteuse",
+   "sécurité anesthésique",
+   "prévention des erreurs",
+   "étiquetage des seringues",
+   "gestion des risques"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2006",
+  "title": "Les blocs périmédullaires chez l’adulte",
+  "href": "https://sfar.org/les-blocs-perimedullaires-chez-ladulte/",
+  "exact_type": "RFE",
+  "exact_date": "2005-09-24",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "anesthésie périmédullaire",
+   "rachianesthésie",
+   "péridurale",
+   "bloc neuraxial",
+   "anesthésie loco-régionale"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2006",
+  "title": "Gestion du traitement antiplaquettaire oral chez les patients porteurs d’endoprothèses coronaires",
+  "href": "https://sfar.org/gestion-du-traitement-anti-plaquettaire-oral-chez-les-patients-porteurs-dendoprotheses-coronaires/",
+  "exact_type": "RFE",
+  "exact_date": "2006",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-du-traitement-anti-plaquettaire-.pdf",
+  "category": "Anesthésie, Réanimation",
+  "keywords": [
+   "antiagrégants plaquettaires",
+   "endoprothèse coronaire",
+   "stent",
+   "gestion périopératoire",
+   "risque hémorragique",
+   "risque thrombotique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2006",
+  "title": "Prise en charge initiale des états septiques graves de l’adulte et de l’enfant",
+  "href": "https://sfar.org/prise-en-charge-initiale-des-etats-septiques-graves-de-ladulte-et-de-lenfant/",
+  "exact_type": "RFE",
+  "exact_date": "2005",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-initiale-des-etats-septiques-graves-de-ladulte-et-de-lenfant.pdf",
+  "category": "Réanimation, Urgences, Pédiatrie",
+  "keywords": [
+   "sepsis",
+   "choc septique",
+   "état septique grave",
+   "prise en charge initiale",
+   "Surviving Sepsis Campaign",
+   "sepsis pédiatrique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2006",
+  "title": "Prise en charge de l’arrêt cardiaque",
+  "href": "https://sfar.org/prise-en-charge-de-larret-cardiaque/",
+  "exact_type": "RFE",
+  "exact_date": "2006",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-de-larret-cardiaque-1.pdf",
+  "category": "Urgences, Réanimation",
+  "keywords": [
+   "arrêt cardiaque",
+   "réanimation cardio-pulmonaire",
+   "défibrillation",
+   "RCP",
+   "chaîne de survie",
+   "obsolète (voir ILCOR/ERC 2015)"
+  ],
+  "status": "abrogé"
+ },
+ {
+  "year": "2006",
+  "title": "Prise en charge de l’infarctus du myocarde à la phase aiguë en dehors des services de cardiologie",
+  "href": "https://sfar.org/prise-en-charge-de-linfarctus-du-myocarde-a-la-phase-aigue-en-dehors-des-services-de-cardiologie/",
+  "exact_type": "RFE",
+  "exact_date": "2006",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde.pdf",
+  "category": "Urgences, Réanimation",
+  "keywords": [
+   "infarctus du myocarde",
+   "syndrome coronarien aigu",
+   "urgence cardiologique",
+   "phase aiguë",
+   "cardiologie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2006",
+  "title": "Monitorage du patient traumatisé grave en préhospitalier",
+  "href": "https://sfar.org/monitorage-du-patient-traumatise-grave-en-prehospitalier/",
+  "exact_type": "RFE",
+  "exact_date": "2006",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier.pdf",
+  "category": "Urgences, Réanimation",
+  "keywords": [
+   "traumatisme grave",
+   "monitorage préhospitalier",
+   "polytraumatisé",
+   "surveillance hémodynamique",
+   "médecine d'urgence préhospitalière"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2006",
+  "title": "Ventilation Non Invasive au cours de l’insuffisance respiratoire aiguë (nouveau-né exclu)",
+  "href": "https://sfar.org/ventilation-non-invasive%E2%80%A8au-cours-de-linsuffisance-respiratoire-aigue-nouveau-ne-exclu/",
+  "exact_type": "CC",
+  "exact_date": "2006-10-12",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2a_SFAR_texte-court_Ventilation-Non-Invasive-au-cours-del-insuffisance-respiratoire-aigue.pdf",
+  "category": "Réanimation, Urgences",
+  "keywords": [
+   "ventilation non invasive",
+   "VNI",
+   "insuffisance respiratoire aiguë",
+   "détresse respiratoire",
+   "BPCO",
+   "œdème aigu du poumon"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2005",
+  "title": "Anesthésie pour amygdalectomie chez l’enfant",
+  "href": "https://sfar.org/anesthesie-pour-amygdalectomie-chez-lenfant/",
+  "exact_type": "CE",
+  "exact_date": "2005",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2a_SFAR_TEXTE-COURT_Anesthesie-pour-amygdalectomie-chez-lenfant.pdf",
+  "category": "Pédiatrie, Anesthésie",
+  "keywords": [
+   "amygdalectomie",
+   "anesthésie pédiatrique",
+   "ORL",
+   "apnée du sommeil",
+   "analgésie postopératoire",
+   "nausées vomissements postopératoires"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2005",
+  "title": "Prise en charge hémodynamique du sepsis sévère (nouveau-né exclu)",
+  "href": "https://sfar.org/prise-en-charge-hemodynamique-du-sepsis-grave-nouveau-ne-exclu/",
+  "exact_type": "CC",
+  "exact_date": "2006",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "sepsis sévère",
+   "choc septique",
+   "hémodynamique",
+   "remplissage vasculaire",
+   "vasopresseurs",
+   "catécholamines"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2005",
+  "title": "Prise en charge des sujets en état de mort encéphalique dans l’optique d’un prélèvement d’organes",
+  "href": "https://sfar.org/prise-en-charge-des-sujets-en-etat-de-mort-encephalique-dans-loptique-dun-prelevement-dorganes/",
+  "exact_type": "RFE",
+  "exact_date": "2004",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique-dans-loptique-dun-prelevement-dorganes.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "mort encéphalique",
+   "prélèvement d'organes",
+   "don d'organes",
+   "réanimation du donneur",
+   "transplantation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2004",
+  "title": "Hémorragies du post-partum immédiat",
+  "href": "https://sfar.org/le-traitement-des-urgences-transfusionnelles-obstetricales/",
+  "exact_type": "RFE",
+  "exact_date": "2014",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Traitement-des-urgences-transfusionnelles-obstetricales.pdf",
+  "category": "Obstétrique",
+  "keywords": [
+   "hémorragie du post-partum",
+   "transfusion",
+   "produits sanguins labiles",
+   "hémorragie obstétricale",
+   "agglutinines irrégulières"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2004",
+  "title": "Pratique des anesthésies locales et locorégionales par des médecins non spécialisés en anesthésie-réanimation, dans le cadre des urgences",
+  "href": "https://sfar.org/pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation/",
+  "exact_type": "RFE",
+  "exact_date": "2004",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/01/2_AFAR_Pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation-dans-le-cadre-des-urgences.pdf",
+  "category": "Urgences, Anesthésie",
+  "keywords": [
+   "anesthésie locale",
+   "anesthésie locorégionale",
+   "médecine d'urgence",
+   "ALR",
+   "urgences préhospitalières"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2004",
+  "title": "Prise en charge des candidoses et aspergilloses invasives de l’adulte",
+  "href": "https://sfar.org/prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte/",
+  "exact_type": "CC",
+  "exact_date": "2004",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "candidose invasive",
+   "aspergillose invasive",
+   "infection fongique",
+   "antifongique",
+   "immunodépression"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2004",
+  "title": "Antibiothérapie probabiliste des états septiques graves",
+  "href": "https://sfar.org/antibiotherapie-probabiliste-des-etats-septiques-graves/",
+  "exact_type": "RFE",
+  "exact_date": "2004",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Antibiotherapie-probabiliste-des-etats-septiques-graves.pdf",
+  "category": "Réanimation, Urgences",
+  "keywords": [
+   "antibiothérapie probabiliste",
+   "sepsis sévère",
+   "choc septique",
+   "infection nosocomiale",
+   "pneumopathie",
+   "péritonite"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2004",
+  "title": "Hémorragie sous-arachnoïdienne grave",
+  "href": "https://sfar.org/hemorragie-sous-arachnoidienne-hsa-grave/",
+  "exact_type": "CE",
+  "exact_date": "2004",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "hémorragie sous-arachnoïdienne",
+   "anévrisme",
+   "vasospasme",
+   "hypertension intracrânienne",
+   "neuroréanimation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2003",
+  "title": "Recommandations concernant la mise en place, la gestion, l’utilisation et l’évaluation d’une salle d’Accueil des Urgences vitales (SAUV)",
+  "href": "https://sfar.org/wp-content/uploads/2016/01/Recommandations-concernant-la-mise-en-place-la-gestion-l-utilisation-et-l-evaluation-d-une-salle-d-accueil-des-urgences-vitales.pdf",
+  "exact_type": "Autre",
+  "exact_date": "2003-11-05",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/01/Recommandations-concernant-la-mise-en-place-la-gestion-l-utilisation-et-l-evaluation-d-une-salle-d-accueil-des-urgences-vitales.pdf",
+  "category": "Urgences",
+  "keywords": [
+   "SAUV",
+   "salle d'accueil des urgences vitales",
+   "déchoquage",
+   "urgences vitales",
+   "organisation des urgences"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2003",
+  "title": "Prise en charge d’un blessé adulte présentant un traumatisme vertébro-médullaire",
+  "href": "https://sfar.org/prise-en-charge-dun-blesse-adulte-presentant-un-traumatisme-vertebromedullaire/",
+  "exact_type": "CE",
+  "exact_date": "2004",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-d-un-blesse-adulte-presentant-un-traumatisme-vertebro-medullaire.pdf",
+  "category": "Urgences, Réanimation",
+  "keywords": [
+   "traumatisme médullaire",
+   "trauma vertébro-médullaire",
+   "moelle épinière",
+   "pression artérielle",
+   "neuroprotection"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2003",
+  "title": "Prise en charge des voies aériennes en anesthésie adulte à l’exception de l’intubation difficile",
+  "href": "https://sfar.org/prise-en-charge-des-voies-aeriennes-en-anesthesie-adulte-a-lexception-de-lintubation-difficile/",
+  "exact_type": "CC",
+  "exact_date": "2003",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2016/12/1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "contrôle des voies aériennes",
+   "intubation",
+   "masque laryngé",
+   "préoxygénation",
+   "anesthésie"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2002",
+  "title": "Coagulations Intra-Vasculaires Disséminées (CIVD) en réanimation – Définition, classification et traitement",
+  "href": "https://sfar.org/coagulations-intra-vasculaires-disseminees-civd-en-reanimation/",
+  "exact_type": "CC",
+  "exact_date": "2002",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/86-civdccons.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "CIVD",
+   "coagulation intravasculaire disséminée",
+   "coagulopathie",
+   "hémostase"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2002",
+  "title": "Thrombopénie induite par l’héparine",
+  "href": "https://sfar.org/thrombopenie-induite-par-lheparine/",
+  "exact_type": "CE",
+  "exact_date": "2002",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Thrombopenie-induite-par-lheparine.pdf",
+  "category": "Réanimation, Anesthésie",
+  "keywords": [
+   "thrombopénie induite par l'héparine",
+   "TIH",
+   "héparine",
+   "anticoagulants",
+   "thrombose"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2002",
+  "title": "Infections liées aux cathéters veineux centraux en réanimation",
+  "href": "https://sfar.org/infections-liees-aux-catheters-veineux-centraux-en-reanimation-3/",
+  "exact_type": "Autre",
+  "exact_date": "2002",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/1-s2.0-S1624069303000513-main.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "cathéter veineux central",
+   "infection sur cathéter",
+   "bactériémie",
+   "prévention des infections"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2002",
+  "title": "Prise en charge des crises d’asthme aiguës graves de l’adulte et de l’enfant (à l’exclusion du nourrisson)",
+  "href": "https://sfar.org/prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-a-lexclusion-du-nourrisson/",
+  "exact_type": "CC",
+  "exact_date": "2002",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/REANIMATION_Prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-.pdf",
+  "category": "Urgences, Réanimation, Pédiatrie",
+  "keywords": [
+   "asthme aigu grave",
+   "crise d'asthme",
+   "bêta-2 mimétiques",
+   "ventilation mécanique",
+   "intubation"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2001",
+  "title": "Dossier anesthésique",
+  "href": "https://sfar.org/dossier-anesthesique/",
+  "exact_type": "Autre",
+  "exact_date": "2001-12-14",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/11/Dossier-AnesthRea-SFAR.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "dossier anesthésique",
+   "traçabilité",
+   "consultation d'anesthésie",
+   "dossier médical",
+   "qualité"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2001",
+  "title": "****Les blocs périphériques des membres chez l’adulte",
+  "href": "https://sfar.org/recommandations-pour-la-pratique-clinique-les-blocs-peripheriques-des-membres-chez-ladulte/",
+  "exact_type": "RPC",
+  "exact_date": "2003",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Les-blocs-peripheriques-des-membres-chez-l-adulte.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "blocs périphériques",
+   "anesthésie locorégionale",
+   "ALR",
+   "blocs plexiques",
+   "anticoagulants"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2001",
+  "title": "Les traumatisés crâniens adultes en médecine physique et réadaptation : du coma à l’éveil",
+  "href": "https://sfar.org/traumatises-craniens-adultes-en-medecine-physique-et-readaptation/",
+  "exact_type": "Autre",
+  "exact_date": "2001",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/Annales-de-Readaptation-et-de-Medecine-Physique_Les-traumatises-craniens-adultes-en-medecine-physique-et-readaptation.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "traumatisme crânien",
+   "coma",
+   "éveil de coma",
+   "rééducation",
+   "médecine physique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2001",
+  "title": "Pancréatite aiguë",
+  "href": "https://sfar.org/pancreatite-aigue/",
+  "exact_type": "CC",
+  "exact_date": "2001",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/cc_pancreatiteaigue20010.pdf",
+  "category": "Urgences, Réanimation",
+  "keywords": [
+   "pancréatite aiguë",
+   "nécrose pancréatique",
+   "antibioprophylaxie",
+   "pancréatite biliaire"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2001",
+  "title": "Sevrage de la ventilation mécanique (à l’exclusion du nouveau-né et du réveil d’anesthésie)",
+  "href": "https://sfar.org/sevrage-de-la-ventilation-mecanique-2/",
+  "exact_type": "CC",
+  "exact_date": "2001",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Sevrage-de-la-ventilation-mecanique.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "sevrage ventilatoire",
+   "extubation",
+   "ventilation mécanique",
+   "épreuve de ventilation spontanée"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2001",
+  "title": "Recommandations concernant les relations entre anesthésistes-réanimateurs et chirurgiens, autres spécialistes ou professionnels de santé",
+  "href": "https://sfar.org/wp-content/uploads/2014/04/196-reco-anesth-chir-autres-2001.pdf",
+  "exact_type": "Autre",
+  "exact_date": "2001-12",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2014/04/196-reco-anesth-chir-autres-2001.pdf",
+  "category": "Anesthésie",
+  "keywords": [
+   "relations anesthésiste-chirurgien",
+   "déontologie",
+   "organisation des soins",
+   "consultation pré-anesthésique"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2000",
+  "title": "Corticothérapie au cours du choc septique et du SDRA",
+  "href": "https://sfar.org/corticotherapie-au-cours-du-choc-septique-et-du-sdra/",
+  "exact_type": "CC",
+  "exact_date": "2000",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Corticotherapie-au-cours-du-choc-septique-et-du-SDRA.pdf",
+  "category": "Réanimation",
+  "keywords": [
+   "corticothérapie",
+   "choc septique",
+   "SDRA",
+   "glucocorticoïdes",
+   "insuffisance surrénalienne"
+  ],
+  "status": "en vigueur"
+ },
+ {
+  "year": "2000",
+  "title": "Information des patients. Recommandations destinées aux médecins",
+  "href": "https://www.has-sante.fr/portail/jcms/c_272040/informations-des-patients-recommandations-destinees-aux-medecins?xtmc=information%20patients&xtcr=7",
+  "exact_type": null,
+  "exact_date": null,
+  "direct_pdf_url": null,
+  "category": null,
+  "keywords": [
+   "information du patient",
+   "consentement éclairé",
+   "obligation d'information",
+   "relation médecin-patient"
+  ],
+  "status": null
+ },
+ {
+  "year": "2000",
+  "title": "Recommandations pour les structures et le matériel de l’anesthésie pédiatrique",
+  "href": "https://sfar.org/recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique/",
+  "exact_type": "RFE",
+  "exact_date": "2000",
+  "direct_pdf_url": "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique.pdf",
+  "category": "Pédiatrie, Anesthésie",
+  "keywords": [
+   "anesthésie pédiatrique",
+   "structures",
+   "matériel",
+   "salle de surveillance post-interventionnelle",
+   "sécurité anesthésique"
+  ],
+  "status": "en vigueur"
+ }
+]

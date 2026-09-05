@@ -1,0 +1,653 @@
+{
+ "doc": "traumatisme_abdominal",
+ "sections": [
+  {
+   "title": "Champ 1 — Diagnostic (1/2)",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ de la RFE :</b> prise en charge du traumatisme abdominal grave de l'adulte au cours des <b>48 premières heures</b> (atteintes intra-péritonéales, rétro-péritonéales et diaphragmatiques). <b>Patients pédiatriques et femmes enceintes exclus.</b><br/><br/><b>Définition</b> du traumatisme abdominal grave ou de sa suspicion : (1) suspicion d'un traumatisme abdominal associée à la présence d'au moins un critère de Vittel en pré-hospitalier et/ou (2) une lésion abdominale classée ≥ 3 selon l'Abbreviated Injury Scale (AIS).<br/><br/>15 recommandations ont été formulées, réparties en 3 champs : (1) stratégie diagnostique, (2) stratégie thérapeutique, (3) modalités précoces de surveillance. Accord fort obtenu pour 100% des recommandations. Selon le résumé de la RFE : « cinq ont un niveau de preuve élevé (Grade 1+/-), six ont un niveau de preuve faible (Grade 2+/-) et quatre sont des avis d'experts ». Deux algorithmes/protocoles, donnés à titre indicatif, reposent sur des avis d'experts.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Stratégie diagnostique (1/2) : examen clinique & FAST",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients traumatisés graves, il n'est pas recommandé de se limiter à l'examen clinique pour affirmer ou infirmer la présence d'une lésion abdominale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de suspicion de traumatisme abdominal, il est probablement recommandé d'utiliser l'échographie de type FAST en préhospitalier pour diagnostiquer la présence d'un épanchement intra-péritonéal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de suspicion de traumatisme abdominal, il est recommandé d'utiliser l'échographie de type FAST en intra-hospitalier pour : (i) affirmer la présence d'un épanchement intra-péritonéal lorsqu'elle est positive ; (ii) éliminer un hémopéritoine supérieur à 500 mL lorsqu'elle est négative.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de suspicion de traumatisme abdominal, il n'est pas recommandé d'utiliser l'échographie de type FAST en pré- ou intra-hospitalier pour (i) éliminer une lésion d'organe ; (ii) affirmer ou éliminer la présence d'un épanchement rétropéritonéal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — après analyse de la littérature, les experts ne sont pas en mesure d'émettre une recommandation concernant l'impact de la réalisation de l'échographie de type FAST en pré-hospitalier sur la stratégie d'orientation du patient suspect d'un traumatisme abdominal grave.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Champ 1 — Diagnostic (2/2) & Champ 2 — Thérapeutique (1/2)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 1 — Stratégie diagnostique (2/2) : scanner",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de suspicion de traumatisme abdominal, il est recommandé de réaliser un scanner thoraco-abdomino-pelvien avec injection de produit de contraste pour faire le diagnostic des lésions abdominales traumatiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de suspicion de traumatisme abdominal grave, il est probablement recommandé de réaliser un scanner corps entier avec injection de produit de contraste pour réduire la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Estimation du risque d'irradiation : il est estimé qu'il faut entre 322 et 1250 scanners corps entier pour causer une lésion cancéreuse létale, à comparer à un bénéfice estimé entre 20 et 40 patients scannés pour sauver un patient (taux de mortalité 17%, Odds Ratio 0,7) — le bénéfice potentiel paraît donc bien supérieur au risque.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Stratégie thérapeutique (1/2) : laparotomie & damage control",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de traumatisme abdominal associé à un épanchement intra-abdominal abondant, les experts suggèrent de réaliser une laparotomie sans délai lorsque l'état hémodynamique après réanimation initiale du patient n'est pas compatible avec la réalisation d'un scanner injecté.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsqu'une laparotomie est réalisée après un traumatisme abdominal fermé ou ouvert chez les patients en état de choc, il est probablement recommandé d'effectuer une stratégie de type damage control afin de diminuer la mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Indication habituelle de laparotomie urgente</b> après traumatisme abdominal pénétrant : instabilité hémodynamique (PAS &lt; 90 ou 100 mmHg et/ou réponse nulle ou transitoire à une expansion volémique) — la réalisation d'un scanner retarde alors la laparotomie de 31 à 90 min et pourrait majorer la mortalité hospitalière de plus de 70%.<br/><br/><b>Critères de damage control</b> (revue systématique) : état de choc hémorragique post-traumatique pré- ou per-opératoire, s'accompagnant d'acidose métabolique (pH &lt; 7,2), d'hypothermie (température &lt; 34°C) et/ou d'une coagulopathie.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — Thérapeutique (2/2) & Champ 3 — Surveillance",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 — Stratégie thérapeutique (2/2) : cœlioscopie, TNO & embolisation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de doute sur le caractère pénétrant du traumatisme abdominal, il est probablement recommandé de réaliser, après l'imagerie initiale, une cœlioscopie diagnostique afin de rechercher une effraction péritonéale en l'absence de signe de péritonite ou d'éviscération.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de traumatisme abdominal fermé grave sans état de choc, les experts suggèrent d'envisager une voie cœlioscopique diagnostique et/ou thérapeutique afin de diminuer la morbidité, dans les cas suivants : (i) à la phase aiguë, lorsque l'imagerie fait suspecter une lésion diaphragmatique et/ou d'organe creux ; (ii) à distance, en complément du traitement non-opératoire (TNO).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence d'hémorragie intra-abdominale active et/ou de perforation digestive d'origine traumatique, il est probablement recommandé de réaliser un traitement non-opératoire afin de réduire la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En présence d'une hémorragie intra-abdominale active diagnostiquée, il est probablement recommandé d'envisager, après concertation multidisciplinaire, une angio-embolisation hémostatique en urgence afin de réduire la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Le TNO permet désormais de traiter plus de 80% des traumatismes abdominaux (plus de 90% des lésions rénales, 70-80% des lésions spléniques ou hépatiques). L'angio-embolisation préventive reste controversée pour les traumatismes spléniques et n'a pas démontré d'utilité pour les lésions rénales ; elle est en revanche efficace en cas d'hémorragie active documentée (spléniques, hépatiques, rénales, surrénaliennes) ou en présence d'un blush hépatique modéré.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Modalités précoces de surveillance",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients à risque d'hyperpression abdominale après un traumatisme abdominal grave, il est probablement recommandé de surveiller la pression intra-abdominale en unité de soins critiques afin de dépister précocement un syndrome du compartiment abdominal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de lésion abdominale grave (AIS ≥ 3) traitée par TNO, les experts suggèrent une hospitalisation pour surveillance clinico-biologique pendant une durée minimale de 3 à 5 jours, dans une unité de soins critiques au moins les 24 premières heures, puis dans un service de chirurgie. La possibilité d'accès à un plateau médico-technique complet est nécessaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de lésion abdominale grave (AIS ≥ 3) traitée par TNO, les experts suggèrent de réaliser un scanner abdomino-pelvien injecté de contrôle en cas de lésion abdominale à risque et/ou lorsqu'une complication infectieuse ou hémorragique est suspectée avant la sortie d'hospitalisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Un syndrome du compartiment abdominal est défini par une pression intra-abdominale &gt; 20 mmHg associée à un dysfonctionnement d'organe ; sans traitement, sa mortalité est de 90%. Plus de 95% des hémorragies secondaires après rupture splénique traitée par TNO sont diagnostiquées dans les 3 jours ; le maintien de l'alitement n'est pas nécessaire pendant cette période.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Fiche réflexe préhospitalière",
+   "items": [
+    {
+     "t": "section",
+     "text": "Figure 1 — Fiche réflexe : prise en charge préhospitalière",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "<i>Transcrit depuis l'affiche-poster de la page 30 du document source (pure image, sans calque de texte extractible — vérifié visuellement).</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Délai",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Actions",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anticiper",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traumatisme abdominal = grave jusqu'à preuve du contraire. Traumatisme sévère = traumatisme abdominal jusqu'à preuve du contraire. Traumatisme pénétrant du tronc = lésion abdominale associée jusqu'à preuve du contraire. Signes de gravité à l'appel : TAS &lt; 110 mmHg → prendre des culots globulaires. Objectifs : délais courts, traitement du choc, pré-alerte SAUV.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T0-5 min",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<b>ATTENTION : examen clinique peu fiable</b> — identifier les besoins et mesures immédiates → traiter la détresse vitale.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T5-15 min",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hypotension permissive en l'absence de traumatisme crânien. Expansion à petits volumes (bolus cristalloïdes 250 mL). Noradrénaline précoce après échec de l'expansion. Acide tranexamique 1 g. Transfusion sans retarder la prise en charge. Objectifs : PAS 80-90 mmHg (PAM 60-65), sauf traumatisme crânien (voir fiches Damage Control et Choc). FAST écho : ne pas retarder la prise en charge, peut être répétée — négative : n'élimine pas une lésion intra-abdominale ; positive : critère de gravité.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T15-30 min",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pré-alerte si choc ou critère de gravité → orientation trauma center.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T30-60 min",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Anticipation des moyens intra-hospitaliers (score d'activation) → possibilité de radio-embolisation, prise en charge chirurgicale, damage control. Transmissions structurées.",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Algorithme hospitalier & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Figure 2 — Algorithme de prise en charge hospitalière",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "<i>Transcrit depuis l'algorithme-poster de la page 31 du document source (pure image, sans calque de texte extractible — vérifié visuellement).</i>",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>1. Évaluation initiale</b><br/>• Clinique : examen abdominal, étude des points d'entrée et de sortie pour les traumas pénétrants ; recherche de signes de choc ou de spoliation sanguine ; évaluation extra-abdominale (recherche d'autres sources de saignement).<br/>• FAST échographie : recherche d'un épanchement péritonéal et quantification ; recherche de pneumothorax, d'épanchement pleural ou péricardique.<br/><br/><b>2. Orientation initiale</b><br/>• Si <b>hémopéritoine abondant avec scanner incompatible avec l'état du patient</b> → <b>traitement opératoire précoce**</b> (sans passer par le scanner initial).<br/>• Sinon → <b>scanner initial</b>, qui oriente vers l'une des trois voies suivantes : hémopéritoine abondant/scanner incompatible → traitement opératoire précoce** ; sinon → angio-embolisation hémostatique ou préventive, ou → traitement non-opératoire → surveillance.<br/><br/><b>3. Scanner secondaire</b> (guidé ou systématique)<br/>Réalisé après traitement opératoire précoce, angio-embolisation ou surveillance. Oriente ensuite vers : laparotomie secondaire, et/ou angio-embolisation secondaire, et/ou cœlioscopie/endoscopie ou intervention complémentaire.<br/><br/><b>4. Évolution</b><br/>Évolution post-opératoire simple — ou surveillance complexe et prolongée — ou évolution non-opératoire simple.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>** Règles de « damage control » laparotomie :</b> procédure écourtée + abord xypho-pubien + contrôle simple des sites hémorragiques + packing hépatique + coprostase + fermeture par VAC ou fermeture cutanée seule.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge du traumatisme abdominal grave de l'adulte : les 48 premières heures » — Recommandations Formalisées d'Experts. P. Bouzat, G. Valdenaire, T. Gauss, J. Charbit, C. Arvieux, P. Balandraud, X. Bobbia, JS. David, J. Frandon, D. Garrigue, JA. Long, J. Pottecher, B. Prunet, B. Simonnet, K. Tazarourte, C. Trésallet, J. Vaux, D. Viglino, B. Villoing, L. Zieleskiewicz, C. Gil-Jardine, E. Weiss, pour le groupe de travail SFAR, SFMU, AFC, AFU, SFRI, École du Val de Grâce.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> texte validé par le Conseil d'Administration de la SFAR le 20/06/2019 et le Conseil d'Administration de la SFMU le 16/09/2019.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (force forte [1+/1-] ou faible [2+/2-] via GRADE Grid ; avis d'experts lorsque la littérature ne permettait pas de graduer).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/download/rfe-urgence-trauma-abdominal/?wpdmdl=24463",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 15 recommandations et des 2 protocoles/algorithmes de la RFE, mais ne remplace pas le texte intégral (argumentaire complet, référence bibliographique par recommandation) et n'est ni édité ni validé par la SFAR. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

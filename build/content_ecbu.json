@@ -1,0 +1,975 @@
+{
+ "doc": "ecbu",
+ "sections": [
+  {
+   "title": "Principes généraux & grades",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Règle d'or (R1, Grade AE) :</b> lorsqu'un ECBU n'est <b>pas recommandé</b> en préopératoire, il est de fait <b>non recommandé de traiter</b> une colonisation urinaire, qu'il y ait ou non du matériel endo-urinaire en place. L'objectif : réduire la iatrogénie antibiotique sans augmenter le risque infectieux post-opératoire.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie HAS — Recommandations par Consensus Formalisé)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "p",
+        "html": "Preuve scientifique établie",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "p",
+        "html": "Présomption scientifique",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "p",
+        "html": "Faible niveau de preuve",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Accord d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Principes diagnostiques",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Acte interventionnel ou chirurgical",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Référence (niveau de preuve)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "L'ECBU est la méthode de référence pour dépister une colonisation urinaire.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R1 (Q2)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ne PAS utiliser la bandelette urinaire pour dépister une colonisation urinaire.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R2 (Q2)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réaliser l'ECBU préopératoire dans les 10 jours précédant l'intervention (extensible à 15 j si contrainte organisationnelle).",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R3 (Q2)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Seul le résultat de la culture bactérienne compte : ni le Gram ni la leucocyturie ne préjugent du résultat définitif.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R4 (Q2)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Culture mono/bi-microbienne : antibiogramme sur les espèces retrouvées selon le référentiel REMIC.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R6 (Q2)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Culture polymicrobienne (≥3 germes) : pas de consensus pour recommander (ou non) un nouvel ECBU ou un antibiogramme complet.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R7 (Q2)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dérivation urinaire (néphrostomie, Bricker...) : pas de données ni de consensus sur le mode de prélèvement à réaliser.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R8 (Q2)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "En cas d'infection urinaire (et non simple colonisation) : le groupe de travail suggère de reporter l'intervention chirurgicale jusqu'à résolution de l'infection.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R1.bis (Q1)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Cas particulier NLPC / calculs infectieux : ECBU per-opératoire sur urines pyéliques suggéré (à défaut, culture de calcul) pour ajuster l'antibiothérapie en cas de sepsis post-opératoire (Grade C).",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Contexte :</b> 7 à 9 millions d'ECBU réalisés chaque année en France (1er examen prescrit, ~180 M€/an). Le dépistage et le traitement systématiques d'une colonisation urinaire avant chirurgie urologique ne sont pertinents que pour un nombre limité d'interventions (RTUP, urétéroscopie, NLPC notamment) : la surprescription d'antibiotiques n'a pas montré de bénéfice infectieux et alimente l'antibiorésistance.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Dans les cas particuliers (ex : immunodéprimés), le clinicien peut s'écarter de ces recommandations si sa décision est argumentée, tracée et prise après discussion multidisciplinaire.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Tableau décisionnel — ECBU indiqué",
+   "items": [
+    {
+     "t": "section",
+     "text": "ECBU préopératoire INDIQUÉ",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Acte interventionnel ou chirurgical",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Référence (niveau de preuve)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Résection transurétrale de prostate (RTUP)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "ElMalik 2000 (NP2)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Énucléation prostate HBP (HoLEP, ThuLEP, GreenLEP, bipolaire)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Résection transurétrale de la vessie (RTUV)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Kohada 2019, Kutchukian 2024",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cure de jonction pyélo-urétérale (sonde JJ)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Cf. reco CIAFU",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Urétéroplastie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Urétéroscopie diagnostique et/ou thérapeutique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Martov 2015, Sohn 2013 — cf. reco CLAFU",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Uréthrotomie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Noble 2022 (NP4)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Uréthroplastie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Noble 2022 (NP4)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Montée / changement de sonde de néphrostomie, mono-J ou JJ",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Cf. reco CIAFU",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Néphrolithotomie percutanée (NLPC)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+ urine pyélique si possible — cf. reco CLAFU",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bilan urodynamique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Egrot 2018 — accord fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Tableau décisionnel — ECBU non indiqué",
+   "items": [
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Acte interventionnel ou chirurgical",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Référence (niveau de preuve)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prostatectomie totale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bourgi 2025b (NP4)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement HBP par UROLIFT® / embolisation artères prostatiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Adénomectomie chirurgicale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Biopsie de prostate (trans-périnéale ou transrectale)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Cf. reco CCAFU / CIAFU",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cystectomie partielle ou totale (quel que soit le mode de dérivation)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Haider 2019, Kyoda 2010",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cystoscopie (quelle que soit l'indication)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Herr 2012-2016 (études concordantes)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Implantation sphincter urinaire artificiel",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Kavoussi 2017 (NP4)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Instillations endovésicales (chimiothérapie, BCG, ac. hyaluronique...)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Herr 2012-2020 (études concordantes)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Injection toxine botulique A / neuromodulation racines sacrées",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Néphrectomie partielle ou totale / néphro-urétérectomie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bruyere 2025, Ayoub 2024",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surrénalectomie / embolisation artères rénales",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Biopsie rénale ou thermoablation de tumeur rénale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pose ou changement de cathéter de dialyse intrapéritonéale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Uréthrocystographie rétrograde",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pose d'implant pénien",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Kavoussi 2017 (NP4)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pose de prothèse testiculaire / chirurgie scrotale ou du pénis sans prothèse",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pose, ablation ou changement de sonde vésicale, cathéter sus-pubien",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Radiothérapie, curiethérapie, pose de fiduciaires prostatiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "ECBU positif, antibiothérapie & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Pas de consensus (ni recommandé, ni exclu)",
+     "color": "amber"
+    },
+    {
+     "t": "p",
+     "html": "Thermothérapie vapeur (Rezum®) • Ultrasons focalisés (HIFU) • Cure de prolapsus / incontinence (femme et homme) • Injection de macroplastique • Transplantation rénale • Lithotripsie extra-corporelle. Pour ces actes, la balance bénéfice-risque (antibiorésistance vs risque infectieux non démontré) penche pour la <b>non-prescription</b> selon la majorité du groupe de travail.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Prise en charge d'un ECBU positif (colonisation confirmée)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Acte interventionnel ou chirurgical",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Référence (niveau de preuve)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement antibiotique adapté si indiqué, indépendamment de la quantité de micro-organisme isolé.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R1 (Q3)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Durée : débuter 48h avant le geste, poursuivre au minimum jusqu'à J0 et au maximum 48h après → total 3 à 5 jours.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R2 (Q3)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "NLPC : traiter systématiquement la colonisation (durée optimale non consensuelle en France).",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R3 (Q3)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Colonisation urinaire fongique préopératoire : pas de données ni de consensus pour recommander ou non un traitement.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R4.bis (Q3)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Culture polymicrobienne (≥3 germes) : pas de consensus pour recommander ou non un traitement antibiotique.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "R5 (Q3)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "<b>Ordre de préférence des antibiotiques</b> (même en cas de BLSE/SARM, privilégier une molécule simple, efficace selon l'antibiogramme, à bonne diffusion urinaire, peu délétère sur le microbiote, PO de préférence) — Grade AE :",
+         "style": "body"
+        }
+       ],
+       [
+        {
+         "t": "table",
+         "rows": [
+          [
+           {
+            "t": "p",
+            "html": "<b>1<super rise=2 size=6>re</super> intention</b><br/>Fosfomycine-trométamol<br/>Nitrofurantoïne<br/>Pivmécillinam<br/>Triméthoprime",
+            "style": "cell_c"
+           },
+           {
+            "t": "p",
+            "html": "<b>2<super rise=2 size=6>e</super> intention</b><br/>Amoxicilline<br/>Cotrimoxazole",
+            "style": "cell_c"
+           },
+           {
+            "t": "p",
+            "html": "<b>3<super rise=2 size=6>e</super> intention</b><br/>Amoxicilline +<br/>acide clavulanique",
+            "style": "cell_c"
+           },
+           {
+            "t": "p",
+            "html": "<b>4<super rise=2 size=6>e</super> intention</b><br/>Fluoroquinolones<br/>Céfixime",
+            "style": "cell_c"
+           },
+           {
+            "t": "p",
+            "html": "<b>5<super rise=2 size=6>e</super> intention</b><br/>Autres<br/>antibiotiques*",
+            "style": "cell_c"
+           }
+          ]
+         ]
+        }
+       ]
+      ]
+     }
+    },
+    {
+     "t": "p",
+     "html": "* 5ème intention = autres antibiotiques selon antibiogramme, si les 4 premières lignes ne sont pas adaptées (résistance, allergie...). En cas de décision de traiter un ECBU polymicrobien sans antibiogramme exploitable par souche : privilégier Fosfomycine-trométamol, Nitrofurantoïne, Pivmécillinam ou Triméthoprime (R6, Grade AE).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> Recommandation de bonne pratique « Place de l'ECBU avant une prise en charge urologique chirurgicale ou interventionnelle chez l'adulte et modalités de traitement en cas de colonisation ». Élaborée par le Comité des Pratiques Professionnelles de l'AFU (CPP-AFU) et le Comité d'Infectiologie de l'AFU (CIAFU), avec l'AFUF, la SF2H, la SFM, la <b>SFAR</b>, Renaloo et Le Lien.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> Synthèse (texte court) — janvier 2026, version validée. Publiée sur le site de la SFAR le 4 mars 2026.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> Recommandations par Consensus Formalisé (RCF) — guide méthodologique HAS 2011. Grades A/B/C selon le niveau de preuve, ou Accord d'Experts (AE).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> urofrance.org/wp-content/uploads/2026/03/Reco_ECBU_Synthese_23.02.2023_MEL.pdf — relayée sur sfar.org",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire en situation de garde. Il ne remplace pas le texte intégral de la recommandation (argumentaire complet de 154 pages, niveaux de preuve détaillés, tableau exhaustif) et n'est ni édité ni validé par l'AFU, le CIAFU ou la SFAR. En cas de situation clinique complexe ou non listée, se référer au texte intégral et/ou à un avis infectiologique/urologique.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

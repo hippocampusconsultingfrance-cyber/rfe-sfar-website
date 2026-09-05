@@ -1,0 +1,814 @@
+{
+ "doc": "traumatisme_pelvien",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge extra- et intrahospitalière du traumatisé pelvien grave durant les 24 premières heures. Comité de 22 experts SFMU/SFAR, avec la SFR, le SSA, l'AFU, la SOFCOT et la SFCD ; méthode GRADE®, format PICO. Le traitement du choc hémorragique (objet d'une RFE dédiée) est explicitement exclu du champ.<br/><br/><b>Résultats (résumé officiel) :</b> 22 recommandations (5 préhospitalières, 17 hospitalières) ; 11 de niveau de preuve élevé (Grade 1), 11 de niveau de preuve faible (Grade 2). Accord fort obtenu pour 100 % des recommandations après trois tours de cotation.<br/><br/><i>Pour 9 questions posées, la méthode GRADE ne pouvait pas s'appliquer par manque de littérature et n'aurait pu produire qu'un avis d'experts — ces 9 questions n'ont délibérément pas été retenues pour la rédaction du document source lui-même (disclosure de la source), qui ne contient donc aucun « pas de recommandation » explicite : cette fiche reproduit les 22 recommandations réellement publiées, intégralement.</i><br/><br/><b>Épidémiologie :</b> les fractures du bassin représentent 5 % de l'ensemble des fractures, présentes chez 10-20 % des traumatisés graves ; mortalité globale 8-15 %, liée aux lésions hémorragiques pelviennes et aux lésions extra-pelviennes associées.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Prise en charge préhospitalière",
+   "items": [
+    {
+     "t": "section",
+     "text": "Prise en charge préhospitalière",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de considérer la douleur spontanée du pelvis chez un patient conscient comme un signe évocateur de fracture du bassin. Lorsque le patient est inconscient ou choqué, il doit être considéré systématiquement comme suspect d'un traumatisme pelvien.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de considérer comme critères cliniques de gravité d'un traumatisme pelvien : un traumatisme pelvien ouvert, l'association avec une autre lésion traumatique grave, ou des signes cliniques de gravité d'hémorragie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de mettre en place le plus tôt possible une contention externe du bassin chez tout patient suspect d'un traumatisme pelvien grave.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'utiliser comme contention externe du bassin une ceinture pelvienne, sans qu'un type particulier ne soit recommandé (à l'exclusion de draps noués). Pour avoir une efficacité comparable au C-clamp chirurgical elle doit être positionnée à hauteur des grands trochanters.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de transférer par transport médicalisé tous les patients présentant un traumatisme pelvien grave vers un centre de référence disposant d'un plateau technique spécialisé en première intention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Méta-analyse (5235 patients, 12 études) : examen clinique par équipe entraînée chez un patient conscient non choqué détecte une fracture du bassin avec une sensibilité proche de 100 % (seules 3/441 fractures manquées). Mortalité majorée si association à un traumatisme crânien grave (OR 4,57 [1,95-10,73]), thoracique (OR 2,8 [1,3-6,1]) ou abdominal sévère (OR 5,54 [1,61-18,37]) ; choc hémorragique associé : mortalité ×3 à ×5. Traumatisme ouvert : mortalité ×3-4. Ceinture pelvienne (positionnée aux grands trochanters) : réduit les besoins transfusionnels et les durées de séjour (non retrouvé avec des draps noués) — peut aggraver certains types de fracture (B2-B3) et causer des lésions cutanées (hommes maigres/âgés). Médicalisation préhospitalière : réduction de mortalité de 30 % ; hélicoptère médicalisé : +15 % de survie ; admission en Trauma Centre : -20 à -30 % de mortalité.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Imagerie initiale (1/2)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Prise en charge hospitalière — Imagerie initiale (1/2)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de réaliser une radiographie de bassin de face dès l'admission si le patient est instable sur le plan hémodynamique ou nécessite des thérapeutiques urgentes pour contrôler les fonctions vitales.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de réaliser une radiographie de bassin de face en dehors d'une instabilité hémodynamique à l'arrivée en salle d'accueil des détresses vitales, la réalisation rapide d'une tomodensitométrie thoraco-abdomino-pelvienne avec injection de produit de contraste pour bilan vasculaire et osseux complet du pelvis étant alors préférée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de réaliser une eFAST échographie chez tous les patients présentant un traumatisme sévère lors de la prise en charge d'un patient suspect d'un traumatisme grave du bassin.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Chez le patient instable, une décision d'intervention urgente basée sur la seule imagerie initiale (radio bassin/thorax, eFAST) était jugée appropriée dans 98 % des cas (étude de Peytel et al.). eFAST : diagnostic des fractures « open book » par mesure de la symphyse pubienne (anneau ouvert si &gt; 25 mm) et des lésions associées ; VPP 97 %, VPN 97 % chez le patient choqué (performance réduite en cas d'hémo-rétropéritoine ou de rupture vésicale intrapéritonéale). Hémopéritoine associé : foyer le plus souvent abdominal (70 % des cas) si fracture pelvienne stable, le plus souvent pelvien (56 % des cas) si fracture instable — certitude diagnostique non acquise, l'abondance de l'hémopéritoine (nombre de sites positifs) oriente vers la laparotomie.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Imagerie initiale (2/2)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Prise en charge hospitalière — Imagerie initiale (2/2)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de réaliser une tomodensitométrie thoraco-abdomino-pelvienne avec injection de produit de contraste avant la réalisation d'une artériographie à visée thérapeutique chez un patient victime d'un traumatisme pelvien grave si son état hémodynamique le permet.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de réaliser à titre systématique une imagerie dédiée pour le bas appareil urinaire (opacification de l'urètre et de la vessie) chez un patient traumatisé pelvien grave.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de réaliser une opacification rétrograde de l'urètre et de la vessie, couplée idéalement à une TDM pelvienne chez un patient traumatisé pelvien grave présentant des symptômes évocateurs de traumatisme de la vessie (impossibilité d'uriner, hématurie, empâtement sus-pubien douloureux, vessie sur le trajet d'une plaie pénétrante), en particulier avant tout sondage chez l'homme.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "TDM injectée vs artériographie (51 patients) : sensibilité 93,9 %, spécificité 77,8 %, VPP 88,6 %, VPN 87,5 %. Lésions vésicales : 60-90 % liées à une fracture du bassin (3,5 % des fractures) ; lésions de l'urètre postérieur (surtout chez l'homme) : 4-19 % des fractures, associées surtout aux fractures instables (atteinte bilatérale des branches ischiopubiennes + disjonction sacro-iliaque) ; lésions associées urètre+vessie : 4-15 % des cas. Ces lésions n'engagent jamais le pronostic vital à la phase aiguë (pas de réparation urgente impérative) mais leur diagnostic conditionne un drainage adapté. Urétrocystographie rétrograde = examen de référence chez l'homme (ballonnet gonflé à 1-2 mL seulement, remplissage vésical possible jusqu'à 350 mL), surtout si le scanner n'est pas accessible ou le patient instable. L'exploration endoscopique rétrograde est une option intéressante (avec possibilité de réalignement sur guide en cas de solution de continuité urétrale) ; elle est recommandée chez la femme en cas de suspicion, car l'urètre féminin, plus court, rend toute opacification rétrograde classique peu fiable.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Critères de gravité & classifications",
+   "items": [
+    {
+     "t": "section",
+     "text": "Critères de gravité anatomoradiologiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de considérer comme critères anatomoradiologiques de traumatisme pelvien grave : une fracture du pelvis instable selon les classifications de Young-Burgess et de Tile, en particulier les fractures dites « open book » et les ruptures de l'anneau pelvien avec atteinte postérieure ; l'existence d'une extravasation de produit de contraste au temps artériel observée sur une angioscanographie ou une tomodensitométrie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Les fractures instables de Tile (type C) et les ruptures de l'anneau à atteinte postérieure sont significativement plus associées aux lésions vasculaires hémorragiques et nécessitent davantage de transfusions. Les fractures instables de Young-Burgess (APC2/3, LC2/3, VS et combinées) ont une mortalité significativement plus élevée que les fractures stables (11,5 % vs 7,5 %, p &lt; 0,05). L'extravasation de produit de contraste prédit un saignement artériel avec une sensibilité de 82-89 % et une spécificité de 75-100 %.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classification",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Mécanisme / stabilité",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Types",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Young-Burgess (Annexe 1)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Classification par mécanisme lésionnel (planches anatomiques illustrées, non reproduites ici — voir texte intégral)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Compression antéro-postérieure (I/II/III) • Compression latérale (I/II/III) • Cisaillement vertical",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Tile (Annexe 2)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Classification par stabilité de l'anneau pelvien (planches anatomiques illustrées, non reproduites ici — voir texte intégral)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Tile A : stable • Tile B : instable dans le plan horizontal • Tile C : instable dans le plan horizontal ET vertical",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Hémostase & embolisation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Délai et modalités d'hémostase",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de réaliser un geste d'hémostase le plus rapidement possible en cas d'hémorragie active en lien avec un traumatisme pelvien grave. Le geste d'hémostase peut être une artériographie avec embolisation ou un tamponnement chirurgical pelvien pré-péritonéal de sauvetage réalisé par une équipe entraînée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé que le délai entre l'admission hospitalière et le geste d'hémostase ne dépasse pas 60 minutes, quelle que soit la technique utilisée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Essai randomisé récent : pas de différence de survie entre tamponnement pré-péritonéal et embolisation. Le délai jusqu'à l'embolisation est un facteur de risque indépendant de mortalité : mortalité de 16 % à 64 % si le délai dépasse 60 minutes ; chaque tranche de 3 minutes perdues augmente la mortalité d'environ 1 %.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Embolisation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les experts recommandent de réaliser une embolisation non sélective par un abord fémoral commun chez les patients instables, chez les patients stables présentant de nombreuses cibles identifiées en TDM ou à l'angiographie et en cas d'échec de l'embolisation sélective.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de réaliser un contrôle artériographique systématique chez tous les patients ayant bénéficié d'une artério-embolisation à la phase initiale de prise en charge d'un traumatisme pelvien grave.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Embolisation non sélective bilatérale (occlusion des troncs iliaques internes) si patient instable et cibles multiples bilatérales ; unilatérale si cibles unilatérales ou échec sélectif. Embolisation sélective réservée aux patients stables avec cible(s) limitée(s). Contention laissée en place pendant l'embolisation ; introducteur à valve anti-retour laissable 24h pour une nouvelle embolisation en cas de récidive. Contrôle artériographique systématique non recommandé — un contrôle n'est indiqué qu'en cas de doute sur une récidive hémorragique, de préférence après TDM.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Tamponnement pelvien & fixation externe",
+   "items": [
+    {
+     "t": "section",
+     "text": "Tamponnement pelvien et fixation externe",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'avoir recours à un tamponnement pelvien pré-péritonéal chirurgical en association avec une fixation externe du bassin en cas d'instabilité hémodynamique majeure rendant impossible le transfert du patient au scanner et/ou en embolisation, ou la réalisation d'une artériographie-embolisation dans un délai de 60 minutes à partir du diagnostic.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de réaliser une fixation externe précoce du bassin chez les patients présentant un traumatisme pelvien grave avec instabilité hémodynamique pour limiter l'expansion de l'hématome pelvien. La fixation externe peut être réalisée par un Clamp de Ganz ou un fixateur externe antérieur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser un clamp de Ganz pour les fractures Tile C essentiellement, après traction lourde du membre ascensionné (15 % du poids corporel). Il peut être placé en salle d'urgence par des opérateurs entraînés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser un fixateur externe pour stabiliser les bassins dans les fractures Tile C et pour les refermer dans les fractures Tile B1 et B3. Il doit être placé en antéro-inférieur de façon à permettre la réalisation d'une laparotomie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Le tamponnement pré-péritonéal vise une hémostase temporaire jusqu'à l'hémostase définitive — technique rapide mais nécessitant formation chirurgicale et discussion multidisciplinaire ; ne se substitue pas à l'embolisation. La fermeture de l'anneau pelvien limite l'expansion de l'hématome quelle que soit la méthode. Clamp de Ganz : referme les structures postérieures, permet la réalisation secondaire d'une embolisation, laparotomie ou packing pelvien. Fixateur externe : montage en cadre trapézoïdal (crêtes iliaques antérieures ou toit du cotyle), doit permettre l'accès vasculaire pour embolisation secondaire, packing rétropéritonéal et laparotomie. Fixation définitive réalisée à distance, sur patient stabilisé.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Traumatisme pelvien ouvert",
+   "items": [
+    {
+     "t": "section",
+     "text": "Traumatisme pelvien grave ouvert",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.16",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'assurer la prise en charge des traumatismes pelviens graves ouverts dans les centres de référence car les lésions pelviennes ouvertes sont rares, leur prise en charge est complexe et fait appel à des équipes multidisciplinaires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.17",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de considérer comme objectifs initiaux de la prise en charge des traumatismes pelviens graves ouverts le contrôle de l'hémorragie et de la contamination périnéale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Rares mais graves :</b> 52/3053 fractures du bassin sont ouvertes (1,7 %), pour une mortalité pouvant dépasser 50 %. <b>4 priorités :</b> contrôle de l'hémorragie • lavage et parage des tissus mous • identification et traitement des lésions associées (pelviennes ou extra-pelviennes) • traitement de la fracture du bassin. Gestes complexes fréquents : colostomie de décharge, fixateur externe, exceptionnellement hémi-pelvectomie. Rectosigmoïdoscopie pour écarter une lésion digestive associée. Reprises chirurgicales multiples souvent nécessaires (lavage/parage/excision des tissus dévitalisés) pour prévenir l'infection.",
+      "style": "body"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Synthèse, sources & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Synthèse et messages clés",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• Douleur pelvienne spontanée (patient conscient) ou tout patient inconscient/choqué = suspect de traumatisme pelvien ; contention externe (ceinture pelvienne aux grands trochanters) le plus tôt possible ; transfert médicalisé direct vers un centre de référence.<br/>• Radiographie de bassin réservée à l'instabilité hémodynamique ; sinon TDM thoraco-abdomino-pelvienne injectée d'emblée ; eFAST systématique.<br/>• TDM injectée avant artériographie si l'état hémodynamique le permet ; pas d'imagerie urinaire systématique, réservée aux signes d'appel (urétrocystographie rétrograde, prudence avant tout sondage chez l'homme).<br/>• Classifications Young-Burgess et Tile pour définir la gravité anatomoradiologique ; extravasation de contraste au temps artériel = signe de gravité.<br/>• Hémostase (embolisation ou tamponnement pré-péritonéal) le plus vite possible, délai cible &lt; 60 minutes depuis l'admission.<br/>• Fixation externe précoce (Clamp de Ganz si Tile C, fixateur externe) pour limiter l'expansion de l'hématome pelvien ; tamponnement pré-péritonéal si transfert au scanner/embolisation impossible dans les délais.<br/>• Traumatisme ouvert : rare mais mortalité &gt; 50 % — prise en charge en centre de référence, contrôle hémorragie + contamination périnéale en priorité.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge des traumatisés pelviens graves à la phase précoce (24 premières heures) » — Recommandations Formalisées d'Experts communes SFMU-SFAR, en collaboration avec la SFR, le SSA, l'AFU, la SOFCOT et la SFCD. Anesth Reanim. 2019;5:427-442. Comité de 22 experts, coordination P. Incagnoli (SFAR), A. Puidupin (SFMU). Texte validé par le CA SFMU et le CA SFAR le 29/06/2017.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE®, tags « (GRADE X+/-) ACCORD FORT » imprimés littéralement après chaque recommandation — cités ici tels quels.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> 22 recommandations (R1.1-R1.5, R2.1-R2.17) reproduites intégralement. Les 2 annexes de classification (Young-Burgess, Tile) sont des planches anatomiques illustrées dans la source (schémas de bassin) : leur contenu clinique — mécanisme lésionnel et catégories de stabilité — est résumé en tableau texte ; pour les planches elles-mêmes, se référer au texte intégral. La source elle-même exclut 9 questions n'ayant abouti qu'à un avis d'experts (littérature insuffisante pour la méthode GRADE) : ces questions ne figurent pas dans le texte publié et ne sont donc pas reproductibles ici.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations de la RFE mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFMU/SFAR. Le traitement du choc hémorragique est exclu du champ (RFE dédiée). En cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

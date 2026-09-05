@@ -1,0 +1,674 @@
+{
+ "doc": "epanchement_pleural",
+ "sections": [
+  {
+   "title": "Champ 1-2 — Diagnostic, voie d'abord, antithrombotiques",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ de la RPP :</b> diagnostic et prise en charge (indication du drainage, choix du type de drain, pose, surveillance, retrait) des épanchements pleuraux <b>liquidiens</b> de l'adulte en soins critiques — <b>hors pleurésie purulente, hémothorax et épanchement néoplasique</b>, et hors population pédiatrique. RPP sous l'égide de la SFAR, avec la SFMU (médecine d'urgence), la SPLF (pneumologie) et la SFCTCV (chirurgie thoracique).<br/><br/><b>25 recommandations</b> réparties en 4 champs : (1) diagnostic et retentissement, (2) procédure de drainage, (3) surveillance de l'efficacité et des complications, (4) procédure de retrait du drain. <b>Toutes les recommandations sont des « avis d'experts » avec accord FORT</b> (méthode GRADE grid utilisée pour le vote, mais aucune recommandation n'a pu être graduée numériquement faute de littérature suffisante — RPP, et non RFE). Après 4 tours de cotation, un accord fort a été obtenu pour les 25 recommandations, sans exception. Pour <b>3 questions</b>, les experts n'ont pas été en mesure de formuler de recommandation, faute de données dans la littérature (signalées explicitement plus bas). Selon le résumé de la source, « 15 experts » ont participé — un comptage direct des 4 listes nominatives (Experts SFAR, SFCTCV, SFMU, SPLF) donne toutefois 16 noms : incohérence interne à la source, non reconciliée.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Diagnostic et retentissement des épanchements pleuraux",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier l'échographie pleuro-pulmonaire par rapport à la radiographie thoracique pour affirmer ou infirmer le diagnostic d'un épanchement pleural en soins critiques, sous réserve de la disponibilité d'un échographe et de l'expertise de l'opérateur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une analyse biochimique, cytologique et bactériologique du liquide pleural lors de la première ponction, puis à chaque fois que la cause de l'épanchement pourrait avoir changé, pour établir un diagnostic étiologique et optimiser la prise en charge thérapeutique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser uniquement des critères quantitatifs basés sur l'imagerie pour poser l'indication d'une ponction ou d'un drainage d'un épanchement pleural liquidien, pour diminuer la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser le volume de l'épanchement, le délai précoce et la rapidité d'installation, ainsi que la tolérance respiratoire (avec notamment une baisse de la compliance thoraco-pulmonaire chez le patient ventilé) pour poser l'indication d'une ponction ou d'un drainage et améliorer le rapport PaO2/FiO2.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — devant l'absence de données dans la littérature, les experts ne sont pas en mesure d'émettre une recommandation concernant le choix préférentiel d'une évacuation par drainage ou par ponction d'un épanchement pleural liquidien chez les patients de soins critiques.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Procédure de drainage",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Un drain ≥ 20 Fr (1 French = 1/3 mm de diamètre interne, soit 24 Fr ≈ 8 mm) est considéré de gros calibre ; &lt; 20 Fr, de petit calibre. Les drains de petit calibre en « queue de cochon » (pigtail) sont posés par technique de Seldinger ; les drains de moyen/gros calibre sont montés sur trocart (drain de Joly) ou introducteur (Figure 1 — photographies d'équipement, non reproduites ici, cf. texte intégral).",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une échographie pleuro-pulmonaire (au minimum un écho-repérage ; au mieux un écho-guidage) pour améliorer la qualité et la sécurité du drainage pleural.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Quelle que soit la voie d'abord, faire suivre la ponction et l'insertion du drain le bord supérieur de la côte, pour minimiser le risque de lésions vasculaires et nerveuses intercostales.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsque les données de l'échographie laissent le choix à plusieurs sites d'insertion, privilégier le « triangle de sécurité », pour diminuer la morbidité liée à la pose.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Faire réaliser le drainage pleural par des personnes expérimentées lorsque les données de l'échographie ne retiennent pas le triangle de sécurité comme site possible d'insertion, pour diminuer la morbidité liée à la pose.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — devant l'absence de littérature, les experts ne sont pas en mesure d'émettre de recommandation concernant la position préférentielle du patient (allongée ou demi-assise) lors de l'évacuation d'un épanchement pleural liquidien, par drainage ou par ponction évacuatrice, chez les patients de soins critiques.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas privilégier le drainage percutané par la technique de Seldinger par rapport à un drainage par technique chirurgicale, pour diminuer la mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier le drainage percutané par la technique de Seldinger, pour diminuer la douleur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Devant l'absence de différence d'efficacité et de sécurité, privilégier un drain de petit calibre, pour diminuer la douleur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas arrêter les antithrombotiques (anticoagulants ou antiplaquettaires) avant de réaliser une ponction pleurale, considérée comme une procédure invasive à faible risque hémorragique, pour diminuer la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Suspendre les anticoagulants et les antiplaquettaires anti-P2Y12 (clopidogrel, prasugrel, ticagrelor) avant un drainage pleural, considéré comme une procédure invasive à haut risque hémorragique, pour diminuer la morbi-mortalité. L'aspirine peut être poursuivie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsque l'urgence ne permet pas un arrêt suffisamment long des anticoagulants, discuter au cas par cas de la réversion de l'effet anticoagulant avant le drainage, pour diminuer la morbi-mortalité — évaluation bénéfice/risque incluant la classe d'anticoagulant, le niveau d'anticoagulation (par dosage biologique ou en fonction de la dernière administration), la technique de drainage (percutanée vs chirurgicale) et le niveau d'expertise de l'opérateur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Argumentaire :</i> l'aspirine augmente peu le risque hémorragique, le drainage peut donc être réalisé sans arrêt. Il est suggéré de ne pas transfuser de plaquettes pour neutraliser les antiplaquettaires ; en urgence vitale immédiate, il est suggéré de ne pas attendre la correction de l'hémostase.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2-4 — Analgésie, surveillance, retrait",
+   "items": [
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas modifier les paramètres ventilatoires lors d'une ponction pleurale ou d'un drainage pleural, pour diminuer la morbidité liée à la pose.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser systématiquement une anesthésie locale lors de la pose d'un drain pleural, quelle que soit la technique de pose utilisée, pour diminuer la douleur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place une stratégie analgésique adaptée au patient pendant la durée du drainage, pour diminuer la douleur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réévaluer quotidiennement l'indication du maintien du drain thoracique pour permettre de le retirer le plus rapidement possible, et ainsi diminuer la douleur liée à sa présence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une analgésie multimodale associée à une infiltration d'anesthésique local et/ou à l'application locale de froid, afin de diminuer la douleur lors du retrait du drain.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Surveillance de l'efficacité et des complications",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser systématiquement une radiographie thoracique après le drainage d'un épanchement pleural, pour visualiser la bonne position du drain (orientation, longueur dans la cavité pleurale) et dépister précocement une complication (pneumothorax, hémothorax).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas mettre le drain systématiquement en aspiration, pour diminuer le risque de pneumothorax ou accélérer l'évacuation de l'épanchement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 4 — Procédure de retrait des drains",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas retirer un drain évacuant plus de 450 mL/24h, pour ne pas augmenter la morbidité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Retirer un drain évacuant moins de 300 mL/24h, pour diminuer la durée de drainage thoracique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsqu'une imagerie est jugée nécessaire, privilégier l'échographie à la radiographie de thorax pour évaluer la vidange pleurale et confirmer l'indication de l'ablation du drain.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient en ventilation spontanée, retirer le drain pleural en fin d'expiration forcée, afin de diminuer le risque de pneumothorax après le retrait.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — chez un patient sous ventilation mécanique, les experts ne sont pas en mesure d'émettre de recommandation concernant le meilleur temps du cycle respiratoire auquel retirer un drain pour diminuer le risque de pneumothorax après retrait.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<i>Argumentaire :</i> la littérature ne concerne essentiellement que des patients en ventilation spontanée, et peu de patients sous ventilation mécanique.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Épanchement pleural liquidien de l'adulte en soins critiques » — Recommandations pour la Pratique Professionnelle, SFAR, avec SFMU, SPLF, SFCTCV. Auteurs : B. Bouhemad, C. Arbelot, E. Artaud Macari, L. Brouchet, O. Collange, M. Froudarakis, A. Godier, S. Hamada, S. Garnier-Kepka, F. Le Pimpec-Barthes, M.-R. Losser, T. Marx, J. M. Maury, N. Mayeur, F. Remérand, H. Rozé, B. Riu-Poulenc, M. Jabaudon, H. Charbonneau. Coordonnateur : B. Bouhemad. Organisateurs : H. Charbonneau, M. Jabaudon. Résumé : 15 experts — un comptage direct des 4 listes nominatives (SFAR 9, SFCTCV 3, SFMU 2, SPLF 2) donne 16, incohérence interne non reconciliée.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> texte validé par le Comité des Référentiels Cliniques de la SFAR le 10/04/2023, le CA de la SFAR le 20/04/2023, les CA de la SFCTCV et de la SFMU le 21/06/2023, et le CA de la SPLF le 18/07/2023.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> avis d'experts (méthode GRADE grid pour le vote — RPP, aucune recommandation graduée numériquement faute de littérature). Accord fort obtenu pour les 25 recommandations après 4 tours de cotation. 3 questions sans recommandation formulée (disclosées ci-dessus).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/epanchement-pleural-liquidien-de-ladulte-en-soins-critiques/",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 25 recommandations et des 3 items « absence de recommandation » de la RPP, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques par recommandation) et n'est ni édité ni validé par la SFAR, la SFMU, la SPLF ni la SFCTCV. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

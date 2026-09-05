@@ -1,0 +1,846 @@
+{
+ "doc": "choc_hemorragique",
+ "sections": [
+  {
+   "title": "Principes généraux & objectifs hémodynamiques",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ de la RFE :</b> prise en charge du choc hémorragique à la phase précoce, en pré- et intra-hospitalier. <b>L'hémorragie digestive et l'hémorragie obstétricale sont exclues</b> du champ de cette RFE (voir les RFE dédiées). Priorité absolue : contrôler le saignement au plus vite — la mortalité des 24 premières heures est due essentiellement à l'impossibilité de le contrôler.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Objectifs de pression artérielle et monitorage",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tant que le saignement n'est pas contrôlé : tolérer une hypotension permissive, objectif PAS 80-90 mmHg (PAM 60-65 mmHg), en l'absence de traumatisme crânien grave.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traumatisme crânien grave (Glasgow ≤ 8) associé : objectif PAM ≥ 80 mmHg avant monitorage cérébral, malgré le risque d'aggravation du saignement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tant que le saignement n'est pas contrôlé, limiter le remplissage au strict maintien des objectifs de pression artérielle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Suivre l'évolution de la concentration du lactate artériel pour apprécier le degré d'hypoperfusion et d'hypoxie tissulaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Voies d'abord vasculaire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La pose d'un cathéter veineux central ne doit pas retarder le traitement étiologique et la stabilisation hémodynamique (remplissage vasculaire et vasopresseur) si des voies veineuses périphériques sont disponibles rapidement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Noradrénaline recommandée sur voie veineuse centrale ; dans un contexte d'urgence et dans l'attente d'un accès central, utiliser une voie périphérique dédiée (éviter les bolus).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En préhospitalier, privilégier l'accès intra-osseux au cathéter veineux central lorsqu'un abord veineux périphérique de bon calibre est impossible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Remplissage vasculaire & transfusion",
+   "items": [
+    {
+     "t": "section",
+     "text": "Choix du soluté de remplissage",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser en première intention les solutés cristalloïdes lors de la prise en charge initiale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser de solutés hypotoniques lors de la prise en charge initiale d'un patient avec traumatisme crânien grave.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Solutés à base d'hydroxyéthylamidons (HEA) : à envisager seulement si les cristalloïdes seuls sont insuffisants pour maintenir la volémie et en l'absence de contre-indication. Dose la plus faible possible, durée la plus courte possible. Il n'existe pas assez d'études de bonne qualité pour savoir si cette recommandation doit s'étendre aux autres colloïdes semi-synthétiques (ex. gélatines).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser l'albumine lors de la prise en charge initiale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Vasopresseurs",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après avoir débuté un remplissage vasculaire, administrer probablement un vasopresseur en cas de persistance d'une hypotension artérielle (PAS < 80 mmHg).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer probablement la noradrénaline en première intention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Transfusion — objectifs & organisation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Objectif d'hémoglobine probablement entre 7 et 9 g/dL.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Effectuer sans retard le diagnostic et le traitement des troubles de l'hémostase (bilan minimal : TP, fibrinogène, numération plaquettaire ; tests viscoélastiques ROTEM/TEG utiles pour un diagnostic rapide).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une procédure locale de gestion de l'hémorragie massive doit être élaborée dans chaque structure médico-chirurgicale, avec approche multidisciplinaire (packs hémostatiques CGR/plasma/plaquettes).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Sans résultat immuno-hématologique disponible : CGR O RH1 KEL-1 jusqu'à détermination du groupe (O RH-1 KEL-1 en 1ère intention pour la femme de la naissance jusqu'à la fin de la période procréatrice, dans la limite des disponibilités).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Acide tranexamique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer de l'acide tranexamique dès que possible chez le patient traumatisé : 1 g en bolus IV en 10 min, suivi de 1 g perfusé sur 8 h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer probablement l'acide tranexamique selon le même schéma chez le patient non traumatisé en choc hémorragique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas initier l'administration d'acide tranexamique au-delà de la 3ème heure suivant un traumatisme avec choc hémorragique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Produits sanguins labiles — plasma, plaquettes, fibrinogène",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "16",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Débuter la transfusion de plasma rapidement, idéalement en même temps que celle des CGR.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "17",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Transfuser probablement le plasma frais congelé en association aux CGR, ratio PFC:CGR entre 1/2 et 1/1.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "18",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Transfusion plaquettaire précoce (généralement à la 2ème prescription transfusionnelle) pour maintenir la numération plaquettaire au-dessus de 50 G/L.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "18",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ce seuil doit probablement être porté à 100 G/L en cas de traumatisme crânien associé ou de persistance du saignement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "19",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Transfuser probablement des plaquettes chez les patients présentant une hémorragie sévère et/ou intracrânienne traités par ticagrélor ou prasugrel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "20",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Concentrés de fibrinogène probablement recommandés si fibrinogénémie < 1,5 g/L, ou déficit fonctionnel en fibrinogène aux paramètres thromboélastographiques. Dose initiale suggérée : 3 g chez un adulte de 70 kg.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "21",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Monitorer la concentration de calcium ionisé en cas de transfusion massive pour la maintenir > 0,9 mmol/L (apport de chlorure de calcium sur voie indépendante de la transfusion).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Hémostase, anticoagulants & cas particuliers",
+   "items": [
+    {
+     "t": "section",
+     "text": "Facteur VII activé recombinant (rFVIIa)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "22",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le rFVIIa ne doit pas être utilisé en 1ère intention. À envisager seulement si le saignement ne peut être contrôlé malgré hémostase mécanique (chirurgie/endoscopie/embolisation), acide tranexamique, transfusion de PSL, fibrinogène, et correction d'une hypothermie/acidose sévère. Posologie initiale : 80 µg/kg (200 µg/kg en traumatologie).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Choc hémorragique chez un patient anticoagulé",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "23",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Patient sous AVK : administrer sans délai des concentrés de complexe prothrombinique (CCP/PPSB) à la dose de 25 UI/kg (ou adaptée à l'INR), associés à 10 mg de vitamine K. Objectif INR < 1,5 en quelques minutes ; contrôle INR à 30 min, réadministration de CCP si INR > 1,5.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "24",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Patient sous AOD (dabigatran, rivaroxaban, apixaban) : tenter probablement une neutralisation immédiate par FEIBA 30-50 UI/kg ou CCP 50 UI/kg, éventuellement renouvelés une fois à 8h d'intervalle. Mesurer l'anticoagulant par un test spécifique pour vérifier son imputabilité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Pour la prise en charge détaillée des anticoagulants en péri-procédure programmée, voir la fiche dédiée « Anticoagulants & procédure invasive » (RFE SFAR/GIHP 2026).",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Points de vigilance :</b><br/>&bull; Hors champ de cette RFE : hémorragie digestive et hémorragie obstétricale (RFE dédiées).<br/>&bull; L'hypotension permissive ne s'applique PAS en cas de traumatisme crânien grave associé — y maintenir une PAM ≥ 80 mmHg.<br/>&bull; L'acide tranexamique perd son bénéfice (voire devient délétère) au-delà de la 3ème heure post-traumatisme : ne jamais différer son administration.<br/>&bull; Le rFVIIa n'est jamais un traitement de première ligne.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Recommandations sur la réanimation du choc hémorragique » — Recommandations Formalisées d'Experts. J. Duranteau, K. Asehnoune, S. Pierre, Y. Ozier, M. Leone, J-Y. Lefrant, pour le groupe de travail SFAR, SRLF (Société de Réanimation de Langue Française), SFMU (Société Française de Médecine d'Urgence), GEHT (Groupe d'Études sur l'Hémostase et la Thrombose).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> Texte validé par le Conseil d'Administration de la SFAR le 12/09/2014 — publié en ligne le 2 février 2015 (Anesth Reanim. 2015;1:62-74).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (qualité des preuves haute/modérée/basse/très basse ; force de recommandation forte [1+/1-] ou faible [2+/2-] via GRADE Grid).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2015/09/2_AFAR_Recommandations-sur-la-reanimation-du-choc-hemorragique.pdf",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 24 recommandations gradées de la RFE, mais ne remplace pas le texte intégral (argumentaire complet, référence bibliographique par recommandation) et n'est ni édité ni validé par la SFAR. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

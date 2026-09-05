@@ -1,0 +1,973 @@
+{
+ "doc": "ih",
+ "sections": [
+  {
+   "title": "Champ 1 — IHA ; Champ 2 — admission, IRA, SHR",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ de la RFE :</b> prise en charge de première ligne de l'insuffisance hépatique en soins critiques, pour un public large de réanimateurs — ne détaille pas les mesures spécifiques des unités spécialisées (transplantation hépatique). RFE commune SFAR (Société Française d'Anesthésie et de Réanimation) et AFEF (Association Française pour l'Étude du Foie) — <b>23 experts</b> francophones selon le résumé (confirmé par comptage direct), mais l'introduction affirme séparément « <b>vingt</b> » — incohérence interne à la source, non reconciliée. Population pédiatrique exclue du champ.<br/><br/><b>Deux champs :</b> (1) l'insuffisance hépatique aiguë (IHA), maladie rare devant être reconnue rapidement (3 questions) ; (2) l'insuffisance hépatique sur foie cirrhotique / Acute-on-Chronic Liver Failure (ACLF), motif fréquent d'hospitalisation en soins critiques (7 questions). <b>19 recommandations</b> numérotées identifiées dans le texte (le résumé de la source annonce « 18 recommandations », mais sa propre répartition par grade — 6 Grade 1 + 7 Grade 2 + 6 avis d'experts = 19 — correspond exactement à un comptage direct des items numérotés ; le total « 18 » de la phrase-résumé est donc une incohérence interne à la source, non reconciliée ici). La source évoque aussi, à deux reprises, « trois protocoles de soins » distincts des 19 recommandations — probablement le Tableau 1 et les Figures 1-2 (structurés en tableaux/étapes) — repris ici intégralement, sans correspondance stricte forcée. Après deux tours de cotation, <b>un accord fort a été obtenu pour 100 % des recommandations</b> — aucune exception « Accord Faible » à signaler, contrairement à d'autres documents de ce corpus. Pour une sous-question (Question 9, thromboprophylaxie médicamenteuse), les experts n'ont pas pu formuler de recommandation (signalé explicitement plus bas).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Insuffisance hépatique aiguë (IHA)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'IHA est une maladie rare (&lt; 10 cas/million/an) : dysfonction hépatique rapidement évolutive avec baisse du TP, en l'absence d'hépatopathie préexistante, en moins de 26 semaines. <b>Sévère</b> si TP &lt; 50 % ; <b>grave</b> si une encéphalopathie s'y associe. Survie à 2 ans ≈ 90 % en cas de transplantation ou après IHA sévère au paracétamol sans transplantation.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients présentant une IHA sévère, il est recommandé d'effectuer le dosage sanguin du paracétamol, les sérologies virales A (IgM VHA) et B (Ag HBs, IgM HBc), la recherche urinaire de toxiques (amphétamine, cocaïne), une échographie cardiaque, et une écho-Doppler hépatique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'IHA, lorsqu'une intoxication au paracétamol est suspectée, il est recommandé d'instaurer un traitement par N-acétylcystéine sans attendre le résultat du dosage sanguin du paracétamol et quelle que soit sa valeur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'IHA sévère, quelle que soit l'étiologie suspectée, il est probablement recommandé d'instaurer un traitement par N-acétylcystéine afin de diminuer la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'IHA sévère, quelle que soit l'étiologie suspectée, les experts suggèrent de prendre contact avec un centre de transplantation hépatique pour discuter du bilan étiologique de seconde intention (si le bilan initial est négatif) et de l'indication de transplantation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Transplantation hépatique (TH) :</b> une IHA sévère (TP &lt; 50 %) suffit à prendre l'avis d'un centre de TH. La présence d'une encéphalopathie hépatique diminue significativement la survie (90,1 % sans encéphalopathie vs 37,8 % avec, p&lt;0,0001) ; les critères historiques du King's College Hospital (encéphalopathie ≥ grade III, créatinine &gt; 300 µmol/L, temps de Quick &gt; 100 s, pH &lt; 7,3, ± lactatémie &gt; 3,5 mmol/L à 4 h ou 3,0 mmol/L à 12 h) restent validés mais avec une sensibilité de 50-60 % seulement.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Afin de diminuer la morbi-mortalité des patients présentant une IHA sévère, les experts suggèrent de traiter précocement la survenue des défaillances d'organes autres que la défaillance hépatique et d'éviter tout facteur aggravant, selon le tableau proposé (Tableau 1).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Insuffisance hépatique sur foie cirrhotique (ACLF)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "700 000 personnes atteintes de cirrhose en France (100-150 000 décès/an) ; alcool, syndrome métabolique et virus responsables de 90 % des cas. L'<b>Acute-on-Chronic Liver Failure (ACLF)</b> — décompensation aiguë de la cirrhose définie par le nombre de défaillances d'organes (CLIF-SOFA, Annexes 1-2) — prédit mieux la mortalité en réanimation que les scores habituels (Child-Pugh, MELD). Mortalité en soins critiques ≈ 30-50 %.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de refuser d'admettre les patients cirrhotiques en soins critiques, du fait de leur seule maladie cirrhotique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Afin de définir et d'évaluer la sévérité de l'insuffisance rénale aiguë (IRA) chez les patients cirrhotiques, les experts suggèrent : d'utiliser la classification KDIGO modifiée pour ces patients (Tableau 2) ; de traiter l'IRA selon son stade de gravité et selon l'algorithme proposé (Figure 2) ; de ne pas contre-indiquer de principe une épuration extrarénale en cas d'IRA chez le patient cirrhotique du fait de sa seule pathologie cirrhotique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>TABLEAU 2</b> — Classification KDIGO modifiée de l'IRA chez les patients atteints de cirrhose",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de traiter, chez les patients cirrhotiques hospitalisés en soins critiques, un syndrome hépatorénal (SHR) par un vasoconstricteur (terlipressine en première intention), en association avec de l'albumine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Terlipressine : 0,5-1 mg IV toutes les 4-6 h, augmentée progressivement si la créatininémie ne diminue pas de plus de 25 %, jusqu'à 2 mg toutes les 4-6 h (ou 2-12 mg/24h IVSE en continu) ; poursuivie jusqu'à réponse complète ou 14 jours maximum si réponse partielle. L'association midodrine + octréotide est moins efficace et ne doit pas être utilisée. Albumine : 1 g/kg avant le vasoconstricteur puis 20-40 g/j (doses empiriques).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — Infection, hémorragie, hémostase, annexes",
+   "items": [
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Afin de diminuer la morbi-mortalité des patients cirrhotiques hospitalisés en unité de soins critiques, il est probablement recommandé, quels que soient les symptômes et la (les) défaillance(s) d'organe présentés, de rechercher systématiquement une infection (incluant le prélèvement du liquide d'ascite — polynucléaires neutrophiles &gt; 250/mm³ définissant une infection) et de débuter précocement une antibiothérapie probabiliste ciblée sur le foyer suspecté et adaptée à l'écologie locale et à celle du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'administrer de l'albumine concentrée chez le cirrhotique en soins critiques, en cas de paracentèse excédant 4 à 5 litres.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer de l'albumine concentrée chez le cirrhotique en soins critiques en cas d'infection spontanée du liquide d'ascite (ILA).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R6 — un patient cirrhotique sur trois-quatre développe une infection ; l'antibiothérapie empirique doit cibler entérobactéries et Cocci Gram+, principaux germes en cause (ILA et infections urinaires &gt; 50 % des cas). R7.1 — 6-8 g d'albumine par litre d'ascite retiré, dès le 1er litre si la paracentèse dépasse 4-5 L. R7.2 — albumine 1,5 g/kg à J1 puis 1 g/kg à J3, restreinte aux patients avec ILA (niveau de preuve abaissé, preuve indirecte).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Question 8 — Hémorragie digestive chez le cirrhotique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients cirrhotiques, en cas d'hémorragie digestive, il est recommandé d'administrer le plus tôt possible un traitement vasoactif intraveineux par octréotide, somatostatine ou terlipressine, en association avec une antibiothérapie préventive.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients cirrhotiques, en cas d'hémorragie digestive, il est probablement recommandé d'administrer le plus tôt possible un traitement par inhibiteurs de la pompe à protons.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients cirrhotiques, en cas d'hémorragie digestive, il est recommandé de réaliser une endoscopie œsogastroduodénale dès que possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients cirrhotiques, en cas d'hémorragie digestive, il est recommandé d'adopter une stratégie transfusionnelle restrictive visant une hémoglobinémie comprise entre 7 et 8 g/dL.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de rupture de varices œsophagiennes ou œsogastriques chez un patient cirrhotique, il est probablement recommandé d'envisager un TIPS (shunt porto-cave intra-hépatique par voie transjugulaire) à l'aide d'une prothèse couverte, dans un délai de 24 à 72 heures, chez les patients avec un score Child-Pugh C &lt; 14, ou un score Child-Pugh B ayant initialement présenté un saignement actif à l'endoscopie (prophylaxie secondaire par TIPS préemptif).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de rupture de varices œsophagiennes ou œsogastriques chez un patient cirrhotique, les experts suggèrent d'envisager un TIPS avec prothèse couverte, en urgence, en cas d'hémorragie réfractaire au traitement endoscopique (TIPS de sauvetage).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Argumentaire (R8.3) :</i> l'endoscopie doit être effectuée dans un délai maximal de 12 heures, délai le plus souvent rapporté dans les études sur ce sujet. R8.6 — le TIPS de sauvetage arrête le saignement dans &gt; 80 % des cas ; le tamponnement (sonde de Blakemore/Linton) ou la prothèse œsophagienne auto-expansible peuvent servir de « bridge » en attendant le TIPS, mais <i>aucune recommandation n'a pu être formulée entre ces deux options</i> (1 seul essai randomisé de faible effectif, sans bénéfice démontré).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Questions 9-10 — Hémostase et recours à un avis spécialisé",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avant la réalisation d'un geste invasif chez le patient cirrhotique, les experts suggèrent de ne pas administrer systématiquement, de manière préventive, du plasma, des plaquettes ou du fibrinogène pour limiter le saignement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Argumentaire (R9) :</i> l'évaluation du rapport bénéfice/risque doit se faire au cas par cas, selon le bilan d'hémostase du patient et le caractère invasif du geste.",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Pas de recommandation</b> — après analyse de la littérature, les experts ne sont pas en mesure d'émettre une recommandation concernant la prescription de thromboprophylaxie médicamenteuse chez le patient cirrhotique hospitalisé en soins critiques (niveau de preuve bas, études hétérogènes) — l'évaluation du rapport bénéfice/risque doit se faire au cas par cas, notamment en post-opératoire ; l'héparine non fractionnée semble majorer le risque hémorragique par rapport aux HBPM.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les experts suggèrent de demander un avis spécialisé pour tout patient cirrhotique hospitalisé en soins critiques : (1) à l'admission si le patient est déjà inscrit sur liste de transplantation hépatique ; (2) pour discuter précocement de l'engagement thérapeutique selon le nombre de défaillances d'organes et leur évolution ; (3) pour discuter de l'intérêt d'une suppléance hépatique ; (4) à la sortie des soins critiques, pour organiser une prise en charge en hépatologie en vue d'une possible transplantation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Annexes — CLIF-SOFA et grade ACLF",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<i>Score utilisé dans l'argumentaire des questions 4 et 10 pour graduer la sévérité de la décompensation et guider l'admission/réévaluation en soins critiques (vérifié directement dans le texte source, tableau reproduit ici).</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Organe/système",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Score 0",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Score 1",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Score 2",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Score 3",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Score 4",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Foie — bilirubine (µmol/L)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "< 20",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "20,4-34",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "34-102",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "102-204",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≥ 204",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rein — créatinine (µmol/L)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "< 105",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "105-165",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "165-305",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "305-440",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≥ 440",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cérébral — enceph. (West Haven)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Absente",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Grade 1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Grade 2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Grade 3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Grade 4",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Coagulation — INR",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "< 1,1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1,1-1,25",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1,26-1,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1,51-2,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "> 2,5 (TP = 30 %) ou plaq. ≤ 20 G/L",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Circulation — PAM/vasopresseurs",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "PAM ≥ 70",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "PAM < 70",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dopamine ≤5 ou dobutamine/terlipressine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dopamine 5-15 ou noradré./adré. ≤0,1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dopamine >15 ou noradré./adré. >0,1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Poumon — PaO2/FiO2 ou SpO2/FiO2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "> 400 / > 512",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≤ 400 / 357-512",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≤ 300 / 214-357",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≤ 200 / 89-214",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≤ 100 / ≤ 89",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Une case notée « défaillance d'organe » dans la source (score ≥ 3 pour la plupart des systèmes) déclenche le comptage de défaillances utilisé pour le grade ACLF ci-dessous.</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Grade ACLF",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Définition (à partir du CLIF-SOFA)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pas d'ACLF",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas de défaillance d'organe ; ou monodéfaillance (foie/coagulation/circulatoire/pulmonaire) avec créatininémie < 132 µmol/L et sans encéphalopathie ; ou monodéfaillance cérébrale avec créatininémie < 132 µmol/L",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ACLF-1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Monodéfaillance rénale ; ou monodéfaillance (foie/coagulation/circulatoire/pulmonaire) avec créatininémie 132-165 µmol/L et/ou encéphalopathie grade 1-2 ; ou monodéfaillance cérébrale avec créatininémie 132-165 µmol/L",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ACLF-2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 défaillances d'organe",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ACLF-3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Au moins 3 défaillances d'organe",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Insuffisance hépatique en soins critiques » (Liver failure in intensive care unit) — Recommandations Formalisées d'Experts, SFAR et AFEF. Auteurs : C. Paugam-Burtz, E. Levesque, A. Louvet, D. Thabut, R. Amathieu, C. Bureau, C. Camus, G. Chanques, S. Faure, M. Ferrandière, C. Francoz, A. Galbois, T. Gustot, C. Ichai, P. Ichai, S. Jaber, T. Lescot, R. Moreau, S. Roullet, F. Saliba, T. Thevenot, L. Velly, E. Weiss. Coordonnateurs SFAR : E. Levesque, C. Paugam-Burtz. Coordonnateurs AFEF : A. Louvet, D. Thabut. Résumé : 23 experts (confirmé par comptage des listes) — l'introduction affirme cependant « vingt », incohérence interne non reconciliée.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (force forte [1+/1-] ou faible [2+/2-] ; avis d'experts lorsque la littérature ne permettait pas de graduer, via une méthode GRADE grid — validation d'une recommandation si ≥ 50 % des experts convergent et &lt; 20 % s'y opposent ; recommandation forte si ≥ 70 % convergent). Accord fort obtenu pour 100 % des recommandations après 2 tours de cotation.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Comptage :</b> 19 items numérotés identifiés dans le texte (R1 à R10, avec sous-numéros), contre « 18 recommandations » annoncées par le résumé de la source — la propre répartition par grade du résumé (6+7+6=19) confirme que 19 est le total correct ; incohérence interne à la source, non reconciliée. Un item « Pas de recommandation » (thromboprophylaxie médicamenteuse, sous-question 9) est en sus, comme dans la source.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2018/09/RFE-IH-soins-critiques.pdf",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 19 recommandations, de l'item « pas de recommandation » et des tableaux/figures/annexes de la RFE, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques par recommandation) et n'est ni édité ni validé par la SFAR ni l'AFEF. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

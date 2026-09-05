@@ -1,0 +1,333 @@
+{
+ "doc": "sdra",
+ "sections": [
+  {
+   "title": "Introduction & volumes courants/Pplat/décubitus ventral",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Nature de ce document :</b> il ne s'agit pas d'une RFE rédigée par un comité d'experts SFAR, mais de la <b>traduction résumée officielle par la SFAR</b> d'un guideline international déjà publié : <i>An Official American Thoracic Society / European Society of Intensive Care Medicine / Society of Critical Care Medicine Clinical Practice Guideline: Mechanical Ventilation in Adult Patients with Acute Respiratory Distress Syndrome</i> (Am J Respir Crit Care Med 2017;195(9):1253-1263, incluant l'erratum 2017;195(11):1540). Traduction réalisée par le comité Réanimation de la SFAR sous la responsabilité de M. Garnier, M. Jabaudon, A. Monsel, C. Quesnel, J-M. Constantin ; texte validé par le Comité des Référentiels Cliniques (12/12/2017) et le CA SFAR (02/02/2018).<br/><br/><b>Champ :</b> stratégies ventilatoires chez l'adulte atteint de SDRA — 6 questions, méthode GRADE, comité international ATS/ESICM/SCCM (cliniciens, épidémiologistes, méthodologistes), revue systématique (MEDLINE, EMBASE, Cochrane, DARE, CINAHL, Web of Science) jusqu'à août 2016, méta-analyses sous RevMan 5.2. <b>Ces recommandations ne concernent que la prise en charge ventilatoire du SDRA et ne sont pas extrapolables aux autres causes d'insuffisance respiratoire aiguë.</b>",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Sévérité du SDRA",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Rapport PaO2/FiO2",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Léger",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "201 à 300 mmHg",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Modéré",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "101 à 200 mmHg",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sévère",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≤ 100 mmHg",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Terminologie GRADE :</b> recommandation forte = « il est recommandé » de faire (GRADE 1+) ou de ne pas faire (GRADE 1-) ; recommandation faible/optionnelle = « il est probablement recommandé » de faire (GRADE 2+) ou de ne pas faire (GRADE 2-). Deux recommandations de force identique ne sont pas nécessairement équivalentes : la force résulte du niveau de preuve, de l'ampleur de l'effet, de la balance bénéfice/risque, des préférences et des coûts pris ensemble — deux recommandations « faibles » peuvent l'être pour des raisons très différentes. <b>Note des traducteurs :</b> par simplification et conformité au format RFE SFAR, la confiance globale dans l'estimation de l'effet (Haute/Modérée/Basse/Très basse) n'est pas reportée en fin d'énoncé comme dans la version originale anglaise, mais elle reste précisée dans le texte du « résumé des connaissances » pour chaque critère de jugement — et donc citée dans les notes ci-dessous.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Poids théorique (PT), pour le réglage du volume courant :</b><br/>• Homme : PT (kg) = 50 + 0,91 × [taille (cm) − 152,4]<br/>• Femme : PT (kg) = 45,5 + 0,91 × [taille (cm) − 152,4]",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Volumes courants/pression de plateau & décubitus ventral",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé que les patients adultes atteints de SDRA soient ventilés avec une stratégie limitant le volume courant (Vt 4-8 mL/kg de poids théorique) et la pression de plateau (Pplat &lt; 30 cmH2O).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé que les patients adultes atteints de SDRA sévère soient positionnés en décubitus ventral pendant plus de 12 heures par jour.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>R1</b> — 9 ECR, 1629 patients ; Vt moyen 6,2±1,2 (faible Vt) vs. 11,4±1,1 mL/kg PT (conventionnel). Analyse principale (7 études, 1481 patients, excluant les co-interventions PEP élevée) : pas de différence de mortalité (RR 0,87 IC95 [0,70-1,08], confiance modérée). Analyse de sensibilité incluant les 9 études (1629 patients) : réduction significative de mortalité (RR 0,80 IC95 [0,66-0,98]) ; méta-régression confirmant une relation dose-effet entre delta de Vt et réduction du risque relatif de mortalité. Réglage initial : Vt 6 mL/kg PT, ajustable jusqu'à 8 mL/kg en cas de double déclenchement ou de pression des voies aériennes sous la PEP.<br/><b>R2</b> — 8 ECR, 2129 patients. Pas de différence de mortalité en analyse globale (RR 0,84 IC95 [0,68-1,04], confiance modérée), mais bénéfice net en sous-groupes : décubitus ventral &gt;12h/j (5 études, 1002 patients, RR 0,74 IC95 [0,56-0,99], confiance élevée) et SDRA modéré/sévère (5 études, 1006 patients, RR 0,74 IC95 [0,54-0,99], confiance modérée) — confirmé par l'étude PROSEVA (PaO2/FiO2 initial 100±30 mmHg). Complications : obstruction de sonde d'intubation (RR 1,76 IC95 [1,24-2,50]) et lésions cutanées d'appui (RR 1,22 IC95 [1,06-1,41]) plus fréquentes. Pas de consensus du comité pour une recommandation en cas de SDRA modéré (PaO2/FiO2 101-150 mmHg, critères PROSEVA) — 2 membres du comité en désaccord avec la gradation « forte ».",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "VOHF, PEP élevée, manœuvres de recrutement & ECMO",
+   "items": [
+    {
+     "t": "section",
+     "text": "VOHF & pression expiratoire positive (PEP) élevée",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de ne pas utiliser la ventilation par oscillations à haute fréquence (VOHF) en routine chez les patients atteints de SDRA modéré ou sévère.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé que les patients adultes atteints de SDRA modéré à sévère soient ventilés avec une PEP élevée plutôt qu'avec une PEP basse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>R3</b> — 6 ECR, 1715 patients. Analyse principale (3 études, 1371 patients, excluant co-interventions) : pas de différence de mortalité (RR 1,14 IC95 [0,88-1,48], confiance élevée) ; 6 études combinées (1705 patients) : RR 0,94 IC95 [0,71-1,2], confiance basse. Recommandation basée prioritairement sur 2 grands essais récents : OSCILLATE (mortalité significativement plus élevée sous VOHF, RR 1,41 IC95 [1,12-1,79]) et OSCAR (aucun bénéfice, OR ajusté 1,03 IC95 [0,75-1,40]) — balance bénéfice/risque en défaveur de l'intervention.<br/><b>R4</b> — 8 ECR, 2728 patients (PEP moyenne J1 : 15,1±3,6 vs. 9,1±2,7 cmH2O). Analyse principale (6 études, 2580 patients) : pas de différence significative de mortalité (RR 0,91 IC95 [0,80-1,03], confiance modérée) ; oxygénation significativement meilleure sous PEP élevée (+61 mmHg IC95 [46-77]). Recommandation basée avant tout sur une méta-analyse de données individuelles (3 grands essais) : mortalité significativement plus basse sous PEP élevée chez les SDRA modérés à sévères (PaO2/FiO2&lt;200, RR ajusté 0,90 IC95 [0,81-1,00]), sans bénéfice chez les SDRA légers. Point de départ clinique raisonnable : une des stratégies « PEP élevée » des essais ALVEOLI, LOV ou ExPRESS — en surveillant la pression de plateau (≥30 cmH2O = balance bénéfice/risque à repeser).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Manœuvres de recrutement & ECMO",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'appliquer des manœuvres de recrutement chez les patients adultes atteints de SDRA modéré à sévère.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — des preuves supplémentaires sont nécessaires pour formuler une recommandation définitive sur l'utilisation de l'ECMO veino-veineuse chez les patients atteints de SDRA sévère (Question 6).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>R5</b> — 6 ECR, 1423 patients (types de manœuvres très variables : CPAP prolongée 30-40 cmH2O, PEP croissante à pression motrice constante, pressions motrices élevées). Étude sans co-intervention (1 étude, 110 patients) : réduction significative de mortalité (RR 0,62 IC95 [0,39-0,98], confiance basse) ; 6 études combinées (1423 patients) : RR 0,81 IC95 [0,69-0,95], confiance modérée. Amélioration de l'oxygénation à 24h (+52 mmHg IC95 [23-81]) et réduction du recours aux traitements de sauvetage (RR 0,64 IC95 [0,35-0,93]). Prudence chez le patient hypovolémique ou en état de choc (risque d'hypotension transitoire).<br/><b>Q6 (ECMO)</b> — étude CESAR (180 patients, transfert vs. centre d'origine) : pas de différence de mortalité (RR 0,75 IC95 [0,53-1,06], confiance basse) ; méta-analyse combinant CESAR + études observationnelles (8 études, 1151 patients) : RR 0,96 IC95 [0,67-1,39], confiance très basse. Limites méthodologiques de CESAR : critère composite, 24 % du groupe interventionnel n'a pas reçu l'ECMO, pas de ventilation protectrice standardisée dans le groupe contrôle, co-intervention de transfert vers un centre expert à haut volume. En attendant l'essai EOLIA (en cours au moment du texte source), le groupe recommande une prise en charge basée sur la ventilation protectrice et une prise en charge médicalisée précoce avant toute VV-ECMO éventuelle.",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Conclusion du texte source :</b> ces recommandations doivent être personnalisées au cas par cas (rapport bénéfice/risque individuel) ; le bénéfice potentiel de stratégies combinées ou séquentielles n'a jamais été évalué et ne fait l'objet d'aucune recommandation. Le groupe international ATS-ESICM-SCCM prévoyait de compléter ces recommandations par des travaux sur les traitements pharmacologiques et les mesures associées à la prise en charge du SDRA.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Synthèse, sources & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Synthèse et messages clés",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• Ventilation protectrice systématique : Vt 4-8 mL/kg de poids théorique (initial 6 mL/kg, ajustable jusqu'à 8), Pplat &lt;30 cmH2O — recommandation forte, socle de la prise en charge quel que soit le niveau de sévérité.<br/>• Décubitus ventral &gt;12h/jour en cas de SDRA sévère — recommandation forte, bénéfice de mortalité démontré en sous-groupe (durée &gt;12h + SDRA modéré/sévère), mais pas de consensus pour le SDRA modéré isolé ; surveiller obstruction de sonde et points d'appui.<br/>• Ne pas utiliser la VOHF en routine dans le SDRA modéré ou sévère — recommandation forte contre, deux grands essais récents en défaveur (surmortalité ou absence de bénéfice).<br/>• PEP élevée plutôt que PEP basse dans le SDRA modéré à sévère (PaO2/FiO2&lt;200) — recommandation optionnelle, bénéfice de mortalité en méta-analyse de données individuelles limité à ce sous-groupe ; surveiller la pression de plateau.<br/>• Manœuvres de recrutement chez le SDRA modéré à sévère — recommandation optionnelle, prudence hémodynamique chez le patient hypovolémique/choqué.<br/>• ECMO veino-veineuse dans le SDRA sévère : aucune recommandation ne peut être formulée faute de preuves suffisantes — privilégier la ventilation protectrice et une prise en charge précoce en centre expert avant toute décision d'ECMO.<br/>• Ces recommandations concernent exclusivement la stratégie ventilatoire du SDRA et ne sont pas extrapolables aux autres causes d'insuffisance respiratoire aiguë.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> SFAR, « Recommandations pour la prise en charge du SDRA » — traduction résumée officielle de : An Official ATS/ESICM/SCCM Clinical Practice Guideline: Mechanical Ventilation in Adult Patients with Acute Respiratory Distress Syndrome (Am J Respir Crit Care Med 2017;195(9):1253-1263, incluant l'erratum 2017;195(11):1540). Traduction réalisée par le comité Réanimation de la SFAR sous la responsabilité de M. Garnier, M. Jabaudon, A. Monsel, C. Quesnel, J-M. Constantin ; texte validé par le Comité des Référentiels Cliniques SFAR (12/12/2017) et le CA SFAR (02/02/2018).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> les 5 recommandations numérotées (R1-R5) et l'absence de recommandation sur l'ECMO (Question 6) sont reproduites intégralement, avec les statistiques clés (RR, IC95%, effectifs) de chaque « résumé des connaissances ». Ce document ne comporte aucune figure, tableau ou algorithme (vérifié par lecture intégrale des 21 pages du texte source) — contenu purement narratif. Les argumentaires complets (rationnel détaillé, justification méthodologique complète, orientations de recherche futures) sont condensés ; se référer au texte intégral pour le détail exhaustif de chaque méta-analyse.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Note méthodologique :</b> à la différence de la version originale anglaise, la traduction française ne reporte pas la confiance globale dans l'estimation de l'effet (Haute/Modérée/Basse/Très basse) à la fin de chaque énoncé de recommandation, par souci de simplification et de conformité au format RFE SFAR — cette confiance reste néanmoins précisée dans le texte pour chaque critère de jugement détaillé, et citée dans les notes de cette fiche.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR. En cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

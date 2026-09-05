@@ -1,0 +1,1375 @@
+{
+ "doc": "traumatisme_cranien",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge neurochirurgicale des traumatismes cranio-encéphaliques (TC) de l'adulte et de l'enfant nécessitant un geste neurochirurgical à la phase initiale. Comité SFNC, avec SFNCP, SFNCL, ANARLF, SFAR, GFRUP, SFNR, SPILF, SOFMER ; méthode GRADE®, format PICO, 7 champs / 15 questions. <b>Exclusions explicites de la source</b> (déjà couvertes par d'autres recommandations existantes) : dérivation ventriculaire externe et craniectomie décompressive, chez l'adulte comme chez l'enfant.<br/><br/><b>Résultats (résumé officiel) :</b> 45 items formulés ; accord fort obtenu pour l'ensemble dès le premier tour de cotation. Parmi ces 45 items, 43 sont des recommandations réelles (39 avis d'experts + 4 « GRADE 2 ») et 2 sont des « ABSENCE DE RECOMMANDATION » explicites — ce qui réconcilie le chiffre « 43 » affiché sur la page sfar.org avec le chiffre « 45 » du résumé officiel du document lui-même : les deux sont corrects, ils ne comptent simplement pas la même chose.<br/><br/><i>Première RPP portée spécifiquement par la neurochirurgie depuis 2006 — les recommandations françaises existantes sur le TC (SFAR/SFMU sur le TC léger et grave, monitorage cérébral) ne couvraient pas les indications et modalités des gestes neurochirurgicaux eux-mêmes.</i>",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie GRADE simplifiée</b> — cette RPP ne comporte ni palier « GRADE 1 » ni suffixe +/- imprimé sur ses tags (contrairement aux RFE classiques du site) : seuls deux niveaux existent littéralement dans le texte source, « GRADE 2 (ACCORD FORT) » et « AVIS D'EXPERTS (ACCORD FORT) ». Le sens (+/-) de chaque « GRADE 2 » est ici déduit de la formulation littérale de la phrase elle-même — « il est probablement recommandé de… » = 2+, « il n'est probablement pas recommandé de… » = 2- — et non retypé depuis un tag source qui ne le précise pas. <b>Incohérence source relevée</b> (vérifiée par rendu visuel de la page 11) : R6.4 utilise la formule verbale du Grade 2 (« il est probablement recommandé ») mais est littéralement taguée « AVIS D'EXPERTS » — le tag imprimé fait foi (chippée « AE » ci-après), incohérence signalée plutôt que corrigée silencieusement.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Champ 1 — Facteurs de mauvais pronostic",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 1 — Facteurs de mauvais pronostic (craniotomie en urgence, adulte)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient présentant un TC grave, nécessitant théoriquement une craniotomie en urgence, mais présentant des caractéristiques jugées « dépassées » (ne laissant aucun espoir de pronostic favorable), l'abstention neurochirurgicale précoce (avant 72h) doit systématiquement faire l'objet d'une décision collégiale, impliquant chaque fois que possible trois médecins séniors (neurochirurgien, anesthésiste-réanimateur, médecin rééducateur).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En période de permanence des soins, une « collégialité restreinte » doit être mise en œuvre, impliquant au moins 2 médecins séniors pour permettre une meilleure évaluation du pronostic.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient victime de TC grave nécessitant une craniotomie en urgence, il est probablement recommandé de considérer les indices de fragilité pathologiques pour évaluer le pronostic, mais pas de manière isolée pour contre-indiquer le geste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les scores suivants (détaillés en annexe ci-dessous) peuvent être considérés comme pathologiques pour évaluer le pronostic : mFI-5 ≥ 2 ; Clinical Frailty Scale ≥ 4.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient présentant un TC grave nécessitant une craniotomie en urgence, la présence à la prise en charge d'une mydriase bilatérale aréactive non régressive (idéalement évaluée par pupillométrie automatisée) doit être considérée comme un facteur de mauvais pronostic, mais ne doit pas être considérée de manière isolée pour contre-indiquer le geste, en particulier si la mydriase est installée depuis moins de 2h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient victime de TC grave nécessitant une craniotomie en urgence, il ne faut pas prendre en compte le délai de prise en charge de manière isolée dans l'évaluation du pronostic et la décision neurochirurgicale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients nécessitant une craniotomie en urgence, en particulier chez ceux de plus de 65 ans, il est probablement recommandé de considérer, de manière non isolée, la présence d'un traitement anticoagulant (AVK ou AOD) comme facteur de mauvais pronostic, mais sans que cela ne contre-indique le geste de manière isolée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient présentant un TC grave nécessitant une craniotomie en urgence, il n'est probablement pas recommandé de considérer la présence d'un traitement anti-agrégant plaquettaire en monothérapie par aspirine comme un facteur de mauvais pronostic ; cela ne doit pas influencer l'indication opératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Les LATA précoces (&lt;72h) sont la première cause de décès après TC grave (45-87 % de la mortalité hospitalière). Mydriase bilatérale aréactive : évolution favorable (GOSE&gt;4) chez seulement 6,6 % des HSDA vs 54,3 % des HED (méta-analyse, 82 patients) ; chirurgie de décompression ultra-précoce (≤2h) = ~1 chance sur 3 de survie. Traitement AC préalable : surmortalité significative dans de nombreuses études (OR 1,3 à 5,2 selon les cohortes) — double AAP (OR 4,66), warfarine (OR 5,18), AOD (OR 5,09). Monothérapie aspirine : aucune différence de mortalité retrouvée (revue de 2447 patients sous AAP vs 4814 contrôles).",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "mFI-5 (frailty index)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Items (+1 chacun)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Interprétation",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "mFI-5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Diabète • HTA • Défaillance cardiaque congestive (OAP &lt;30j) • BPCO • Non autonome",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0 = non fragile • 1 = vulnérable • ≥2 = fragile",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — Hématomes extra-duraux",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 — Hématomes extra-duraux",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient présentant un TC associé à un hématome extra-dural (HED), il faut réaliser l'évacuation chirurgicale en urgence dans l'une ou plusieurs des circonstances suivantes : GCS ≤ 8 ; mydriase ; volume &gt; 30 mL ; déviation de la ligne médiane &gt; 5 mm ; compression du tronc cérébral ; signe de saignement actif (swirl sign).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut privilégier un traitement conservateur en cas d'HED d'origine artérielle sans signe de gravité clinique et radiologique (cf. R6.1).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour un HED d'origine veineuse, il faut évaluer la balance bénéfice-risque d'une prise en charge conservatrice au cas par cas, y compris en présence de signe de gravité, compte tenu des difficultés chirurgicales (plaie de sinus dural).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de décision de traitement conservateur, il faut effectuer une surveillance clinique rapprochée dans un centre doté d'un service de neurochirurgie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de traitement conservateur, il est probablement recommandé de réaliser un scanner de contrôle systématiquement à 6 heures post-traumatisme (si le premier scanner a été fait avant H6), ou plus précocement en cas d'aggravation clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "HED &gt;25-30mL = risque majoré de dégradation neurologique. Swirl sign (saignement actif) : présent dans 14-30 % des HED, GOS moyen 3,58 vs 4,43 sans ce signe. HED de fosse cérébrale postérieure : chirurgie si volume &gt;10mL, épaisseur &gt;15mm ou déviation &gt;5mm (Brain Trauma Foundation). 98,1 % des HED atteignent leur taille finale entre 5 et 6h post-traumatisme — d'où le scanner de contrôle ciblé à H6 ; scanner répété à 2h si altération clinique précoce. Attention particulière si lésion controlatérale opérée (risque d'aggravation rapide de l'HED restant après décompression controlatérale).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 3 — Hématomes sous-duraux aigus",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 3 — Hématomes sous-duraux aigus",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut réaliser l'évacuation chirurgicale en urgence d'un hématome sous-dural aigu (HSDA) dans les circonstances suivantes, cumulativement : âge &lt;65 ans (ou 65-80 ans avec score de fragilité faible) ET troubles de vigilance (GCS≤8 et/ou GCS≤12 mais perte rapide de ≥2 points de GCS) non expliqués par un autre mécanisme, ou HTIC réfractaire ET critères radiologiques (épaisseur &gt;10mm et/ou déviation de la ligne médiane &gt;5mm).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de resaignement au sein d'un hématome sous-dural chronique, il faut envisager une chirurgie différée, moins invasive.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors des circonstances ci-dessus, il faut préférer un traitement conservateur, avec scanner de contrôle : en urgence si évolution clinique péjorative ; précocement (7-10j) si réintroduction d'un traitement antithrombotique ; à distance (3-4 semaines) dans les autres cas.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Critères classiques de la Brain Trauma Foundation (GCS≤8 et/ou épaisseur&gt;10mm et/ou déviation&gt;5mm) établis sur des séries anciennes de patients jeunes — nuancés ici par l'âge et la fragilité. GCS initial à 3 : mortalité 65-100 %. Mydriase bilatérale associée à un HSDA : mortalité 66,4 %, évolution favorable (GOS≥4) chez seulement 6,6 % (méta-analyse, 82 patients). Bénéfice chirurgical démontré en mortalité (réduction absolue 23-40 %) mais pas en devenir neurologique (2 études récentes convergentes, dont la cohorte CENTER-TBI, 1407 patients).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Embarrures & brèches ostéo-durales",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Embarrures et brèches ostéo-durales de la base du crâne",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'embarrure, il faut réaliser une prise en charge chirurgicale rapide (dans les 24h), afin d'améliorer le pronostic neurologique ou esthétique, dans l'une ou plusieurs des circonstances suivantes : plaie complexe/contaminée ou signes d'infection locale ; plaie durale suspectée/pneumencéphalie ; issue de LCS ; effet de masse significatif ; autre(s) lésion(s) neurochirurgicale(s) ; préjudice esthétique majeur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'embarrure des sinus frontaux, il faut réaliser une réduction/ostéosynthèse de la paroi antérieure, en l'absence de défect majeur de la paroi postérieure, de brèche durale évidente, ou d'atteinte des canaux naso-frontaux. Sinon, le geste doit être complété par une cranialisation des sinus frontaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de TC non pénétrant associé à une embarrure et à une crise épileptique, il faut instaurer une prophylaxie antiépileptique secondaire ; une prophylaxie primaire ne doit pas être systématique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de brèche ostéoméningée (BOM) traumatique, il faut réaliser une chirurgie rapide (dans les 24h) uniquement en cas de défect dural majeur associé à une liquorrhée abondante. En cas d'indication neurochirurgicale pour d'autres lésions associées, la fermeture de la BOM dans le même temps opératoire est déconseillée en cas d'hypertension intracrânienne.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut envisager la chirurgie en cas de liquorrhée non abondante réfractaire à un traitement conservateur au-delà de 7 jours.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut associer au traitement conservateur des BOM un alitement en proclive à 30°, ainsi que la prescription de laxatifs, d'antitussifs et d'antiémétiques pendant au moins 72h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut réaliser ou mettre à jour les vaccinations suivantes : anti-pneumococcique (vaccin conjugué 15-valent chez le moins de 18 ans, 1 dose chez le plus de 2 ans ; ou 20-valent chez le plus de 18 ans, 1 dose non suivie de vaccin non-conjugué) ; anti-Haemophilus influenzae (1 dose) ; anti-méningococcique B et ACYW (rattrapage selon les recommandations générales : méningocoque ABCYW avant 2 ans et ACYW avant 25 ans).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut débuter la recherche d'une BOM traumatique par un scanner en fenêtre osseuse (coupes millimétriques) et une IRM incluant des séquences 3DT2 haute résolution. En cas de doute persistant, un myéloscanner puis une cisternographie isotopique peuvent être réalisés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Embarrures : lésions généralement de bon pronostic ; toute embarrure ouverte impose d'éliminer une brèche durale (= TC pénétrant, champ 5). Reconstruction préférentiellement en ostéosynthèse titane. Fuites de LCS : surviennent dans 0,3-39 % des fractures de la base du crâne ; &gt;50 % dans les 48h, 70 % dans les 7j. Risque de méningite : 0,24 % à 24h, cumulatif ~1,3 %/jour (15 premiers jours) puis 7,4 %/semaine (1er mois) — chute de 30,6 % (avant chirurgie) à 4 % (après) en cas de fuite persistante. Traitement conservateur (proclive 30° + laxatifs/antitussifs/antiémétiques 48-72h) : tarissement dans 39,5-68 % des cas à J2-3. Petits défects (≤1cm) : voie endonasale endoscopique ; défects &gt;1cm : voie haute. Pas d'antibioprophylaxie systématique en cas de simple fracture de la base du crâne (RFE SFAR/SPILF 2023), sauf en cas d'intervention neurochirurgicale.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 5 — TC pénétrants",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 5 — Traumatismes cranio-encéphaliques pénétrants",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut évaluer et prendre en compte le risque de mortalité (score SPIN, score de Maritzburg), de manière non isolée, dans l'indication d'une intervention chirurgicale en urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient avec un score de Glasgow ≥ 5, il faut proposer une prise en charge neurochirurgicale en urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La prise en charge neurochirurgicale doit être discutée au cas par cas pour les patients avec un score de Glasgow ≤ 4, en l'absence de mydriase bilatérale aréactive et en l'absence de lésions scanographiques de mauvais pronostic (cf. critères ci-dessous).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de délabrement cortical important, il faut réaliser une prophylaxie antiépileptique primaire pour une période d'au moins 7 jours, afin de réduire le risque épileptique à court terme.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut réaliser ou mettre à jour les vaccinations suivantes : chez la personne non à jour, vaccination antitétanique associée à une injection de 250 UI d'immunoglobulines humaines antitétaniques en cas de plaie étendue, pénétrante avec corps étranger ou traitée tardivement ; anti-méningococcique B et ACYW (rattrapage selon les recommandations générales : méningocoque ABCYW avant 2 ans et ACYW avant 25 ans) ; anti-Haemophilus influenzae (1 dose) ; anti-pneumococcique (vaccin conjugué 15-valent chez le moins de 18 ans, 1 dose chez le plus de 2 ans ; ou 20-valent chez le plus de 18 ans, 1 dose non suivie de vaccin non-conjugué).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut rechercher de manière systématique des lésions vasculaires intracrâniennes par angioscanner.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut compléter ce bilan par une artériographie cérébrale par soustraction numérique 6 axes en présence d'un ou plusieurs des facteurs suivants : détection/doute sur lésion vasculaire à l'angioscanner ; blessure ptérionale et/ou fronto-orbitaire ; violation durale multiple ; trajectoire/hématome à proximité des axes vasculaires principaux ; TC (fermé ou pénétrant) par explosion avec GCS &lt;8 ; vasospasme au doppler transcrânien et/ou baisse spontanée inexpliquée de la PtiO2.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de lésion vasculaire intracrânienne symptomatique ou asymptomatique à haut risque de rupture et/ou d'aggravation neurologique, il faut discuter d'un traitement en urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — sur la modalité (endovasculaire ou chirurgicale) du traitement d'une lésion vasculaire intracrânienne post-traumatique, qui doit être discutée collégialement (R11.4).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence d'authentification de lésion vasculaire intracrânienne initiale, il faut répéter une nouvelle imagerie cérébro-vasculaire à environ 14 jours du traumatisme.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "TC pénétrants : mortalité jusqu'à 85 % ; prise en charge agressive augmente la survie. GCS initial = principal facteur pronostique (0 % de bon pronostic si GCS 6-8 en conservateur vs 24 % si opéré ; 77,8 % de bons résultats si GCS≥9 opéré). Chirurgie idéalement dans les 5h (réduction du risque infectieux). Lésions vasculaires intracrâniennes : jusqu'à 60 % des TC pénétrants ; anévrismes post-traumatiques 20-50 % d'incidence, mortalité jusqu'à 50 % en cas de rupture. Artériographie = gold standard (angioscanner moins sensible). Épilepsie précoce (7j) : 14-20 % d'incidence. Antibioprophylaxie : amoxicilline-acide clavulanique 2g, poursuivie 24-48h si plaie souillée (RFE SFAR/SPILF 2023).",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Score SPIN (pronostic TC pénétrant)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Items",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Points",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "SPIN",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "GCS moteur (1-5 → 0 ; 6 → 9) • Pupilles (non réactives bilat. → 0 ; unilat. → 4 ; globe rompu → 6 ; normales → 9) • Blessure auto-infligée (oui → 0 ; non → 4) • Transfert d'un autre hôpital (non → 0 ; oui → 4) • Sexe (masculin → 0 ; féminin → 4) • ISS (≥56 → 0 ; 41-55 → 1 ; 25-40 → 5 ; ≤24 → 10) • INR (≥2,1 → 0 ; 1,4-2 → 6 ; ≤1,3 → 12)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Score ≥ 35 : 98 % de survie. Score ≤ 20 : 3 % de survie.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Critères scanographiques de mauvais pronostic dans le TC pénétrant :</b> trajectoire multilobaire ou bihémisphérique (hors lésions bilatérales des lobes frontaux) • trajectoire trans-ventriculaire • trajectoire traversant le centre géographique du cerveau • trajectoire oblique dans les 3 plans (x, y et z) • fragmentation diffuse • volume important de cerveau contus • hémorragie intracérébrale importante • hémorragie sous-arachnoïdienne • plaie de la fosse postérieure avec implication du tronc cérébral • signe des « rails de tramway » (hémorragie de part et d'autre d'une piste centrale sombre dans une blessure perforante) • déplacement de la ligne médiane &gt; 10 mm • citernes basales comprimées ou oblitérées.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Champ 6 — Désordres hydrauliques post-traumatiques",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 6 — Désordres hydrauliques post-traumatiques",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Deux entités à distinguer</b> — <b>Hygrome :</b> collection de LCS généralement stable (rarement progressive), unilatérale, absence de signe neurologique, PIC normale. <b>Hydrocéphalie externe :</b> collection de LCS progressive (sur scanners successifs), généralement bilatérale, ET aggravation neurologique ET/OU élévation de la PIC.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R12.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'hygrome, il faut réaliser un traitement conservateur en première intention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R12.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'hydrocéphalie externe, il faut drainer le LCS (ponction lombaire ou dérivation lombaire externe), après confirmation au scanner de : la perméabilité des citernes de la base ET l'absence de déviation de la ligne médiane &gt; 10mm ET l'absence d'engagement amygdalien. En cas d'hypertension intracrânienne, cette option ne doit être envisagée qu'après échec des mesures de 1ère ligne.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R12.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de dérivation lombaire externe pour hydrocéphalie externe, il faut placer le zéro de référence à hauteur du conduit auditif externe. En cas d'hypertension intracrânienne, un monitorage continu de la PIC doit être réalisé, et la contre-pression de drainage lombaire ne doit pas être abaissée en dessous de 10 mmHg. Le drainage lombaire doit être interrompu en cas de gradient de pression &gt; 5 mmHg entre la PIC et la pression lombaire du LCS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Revue systématique de 10 études (221 patients) sur la dérivation lombaire externe (DLE) dans le TC : réduction moyenne de PIC de -17,1 mmHg (-59,1 %). Complications : méningite 5,7 % (12/208), engagement amygdalien 7,1 % (21/295) — survenu surtout dans les études à contre-pression 0 ou +5cmH2O. Critères scanographiques utilisés dans toutes les études : liberté des citernes de la base, absence d'effet de masse significatif, absence de déviation &gt;5-10mm, absence d'engagement uncal/amygdalien. Le drainage lombaire externe n'a pas été retenu comme mesure thérapeutique de l'HTIC post-traumatique par la conférence internationale de Seattle 2019.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 7 — Particularités pédiatriques",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 7 — Particularités pédiatriques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R13.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le nouveau-né (&lt;1 mois) avec TC associé à un hématome extradural (HED), il faut réaliser l'évacuation chirurgicale en urgence en présence de signes de gravité cliniques ou radiologiques (déviation &gt;5mm de la ligne médiane, compression du tronc cérébral).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R13.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de consensus sur la technique chirurgicale optimale, il faut privilégier des approches moins invasives avant de recourir à une craniotomie : ponction du céphalhématome, ponction via une fracture crânienne, ou ponction épidurale (notamment si HED sans fracture ni céphalhématome).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R13.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de signes de gravité (cf. R13.1), il faut privilégier une approche conservatrice, avec surveillance étroite en unité de soins intensifs (examens cliniques rapprochés et imagerie de contrôle).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R14.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le nourrisson (&lt;2 ans) avec TC non accidentel associé à un hématome sous-dural, il faut réaliser une prise en charge chirurgicale rapide, préférentiellement par drainage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — sur l'utilisation de la craniectomie décompressive dans les TC non accidentels du nourrisson (R14.2).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R14.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut envisager une prise en charge conservatrice en présence d'un hématome sous-dural chronique de faible épaisseur (&lt;10mm), bien toléré cliniquement, avec surveillance rapprochée et contrôle de l'imagerie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R15.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le nourrisson (&lt;2 ans) avec embarrure type fracture « ping-pong », il faut réaliser une prise en charge chirurgicale en urgence en cas d'hypertension intracrânienne, ou d'effet de masse significatif sur le parenchyme, ou d'hématome intracrânien, ou de collection de LCS péri-encéphalique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R15.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence des critères ci-dessus, il faut privilégier initialement une prise en charge conservatrice ; une prise en charge chirurgicale pourra être ré-évaluée en l'absence d'évolution favorable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "HED néonatal : rare (incidence des hémorragies intracrâniennes post-instrumentales 0,4-1 %), souvent d'origine veineuse, tendance à se liquéfier rapidement — approche conservatrice si épaisseur &lt;20mm, sans déviation ni détérioration clinique ; chirurgie si volume &gt;30mL, épaisseur &gt;15mm, déviation &gt;5mm. Craniotomie néonatale : éviter la fixation par matériel d'ostéosynthèse (croissance crânienne ultérieure). Syndrome du bébé secoué (HSD du nourrisson) : entité sans équivalent adulte (mélange sang+LCR) ; mauvais pronostic corrélé à la sévérité clinique initiale, pas aux complications de la dérivation ; ponction sous-durale transfontanellaire en 1ère intention si HTIC, dérivation sous-duro-péritonéale si récidive ; place de la craniectomie décompressive non établie dans ce contexte spécifique (« Big Black Brain » à l'admission = contre-indication). Fracture « ping-pong » : incidence 1-2,5/10 000 nés vivants ; revue de 228 nourrissons — 30 % chirurgie, 30 % aspiration, 40 % conservateur, &gt;96 % d'évolution neurologique favorable quel que soit le type de prise en charge.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Synthèse, annexes, sources & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Synthèse et messages clés",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• Décision d'abstention neurochirurgicale précoce (avant 72h) = toujours collégiale (3 médecins séniors, ou 2 en permanence de soins restreinte). Fragilité (mFI-5≥2, CFS≥4), mydriase bilatérale aréactive et délai de prise en charge = facteurs pronostiques à considérer mais jamais isolément décisifs.<br/>• HED : évacuation en urgence si GCS≤8, mydriase, volume&gt;30mL, déviation&gt;5mm, compression du tronc, swirl sign. Conservateur si artériel sans gravité ou veineux au cas par cas — scanner de contrôle à H6.<br/>• HSDA : évacuation en urgence si âge&lt;65 ans (ou fragilité faible) ET troubles de vigilance/HTIC réfractaire ET épaisseur&gt;10mm/déviation&gt;5mm. Conservateur sinon, avec scanner adapté au contexte.<br/>• Embarrure : chirurgie sous 24h si plaie complexe/contaminée, brèche durale/pneumencéphalie, issue de LCS, effet de masse, ou préjudice esthétique majeur. Sinus frontaux : préserver si paroi postérieure/canaux naso-frontaux intacts, sinon cranialiser. Brèche ostéoméningée : chirurgie si défect majeur + liquorrhée abondante, sinon conservateur (proclive 30°, laxatifs/antitussifs/antiémétiques ≥72h) puis chirurgie si échec &gt;7j.<br/>• TC pénétrant : GCS≥5 → prise en charge neurochirurgicale en urgence ; GCS≤4 sans mydriase ni critères scanographiques péjoratifs → discussion au cas par cas. Angioscanner systématique ± artériographie 6 axes selon critères. Chirurgie idéalement &lt;5h. Vaccinations et antibioprophylaxie à jour.<br/>• Désordres hydrauliques : hygrome = conservateur ; hydrocéphalie externe = drainage après vérification scanographique stricte (citernes libres, déviation&lt;10mm, pas d'engagement).<br/>• Pédiatrie : HED néonatal souvent gérable médicalement (approches mini-invasives avant craniotomie) ; HSD non accidentel du nourrisson = drainage rapide, gravité corrélée à la présentation clinique initiale ; fracture « ping-pong » = conservateur sauf signes de gravité, pronostic favorable dans &gt;96 % des cas quelle que soit la prise en charge.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Annexes — GOSE",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "GOSE",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Évolution",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Mort",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Mauvaise évolution neurologique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "État végétatif",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Mauvaise évolution neurologique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Handicap sévère — niveau inférieur (totalement dépendant)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Mauvaise évolution neurologique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Handicap sévère — niveau supérieur (très dépendant)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Mauvaise évolution neurologique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Handicap moyen — niveau inférieur (partiellement dépendant)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bonne évolution neurologique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Handicap moyen — niveau supérieur (retour partiel au travail/école)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bonne évolution neurologique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bonne récupération — niveau inférieur (séquelles légères)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bonne évolution neurologique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bonne récupération — niveau supérieur (récupération complète)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bonne évolution neurologique",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prises en charge neurochirurgicales des traumatismes cranio-encéphaliques de l'adulte et de l'enfant à la phase initiale » — RPP de la SFNC, avec SFNCP/SFNCL/ANARLF/SFAR/GFRUP/SFNR/SPILF/SOFMER. V1.13, 19/03/2025 (R. Manet, A. Dagain, H. de Courson, J.F. Payen), publiée sur sfar.org le 19/09/2025.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE® simplifié à 2 niveaux (« GRADE 2 » et « Avis d'experts », sans palier « GRADE 1 » ni suffixe +/- imprimé) — le sens +/- de chaque « GRADE 2 » est déduit de la formulation littérale de la phrase, disclosure en page 1. Incohérence source relevée et signalée (R6.4, vérifiée par rendu visuel) plutôt que corrigée silencieusement.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> 45 items reproduits intégralement (R1.1-R15.2) — 43 recommandations réelles + 2 « Absence de recommandation » (R11.4, R14.2). Annexes reproduites : GOSE (ci-dessus), mFI-5 (Champ 1), score SPIN et critères scanographiques de mauvais pronostic du TC pénétrant (Champ 5). La Clinical Frailty Scale (9 niveaux), transcrite depuis une image source (page 50, sans couche de texte), n'est pas reproduite intégralement ici par souci de place — se référer au texte intégral pour sa version complète ; seul le seuil retenu par les experts (CFS ≥ 4 = fragile) est cité (R2.2). Exclusions explicites de la source elle-même : dérivation ventriculaire externe et craniectomie décompressive (adulte et enfant), déjà couvertes par d'autres recommandations existantes.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations de la RPP mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFNC/SFAR. En cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

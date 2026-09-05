@@ -1,0 +1,1665 @@
+{
+ "doc": "curares",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie & plan",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> actualisation 2018 de la Conférence de Consensus SFAR de 1999 sur les indications de la curarisation en anesthésie. Comité de 16 experts, déclaration et suivi des liens d'intérêts, aucun financement industriel. Méthode GRADE® : chaque question formulée en format PICO, analyse quantitative de la littérature, force de recommandation validée par vote Delphi/GRADE Grid (accord fort ≥ 70 %).<br/><br/><b>Résultats (texte du résumé officiel, cité verbatim) :</b> « Le travail de synthèse des experts et l'application de la méthode GRADE ont abouti à trente recommandations. Parmi les recommandations formalisées, 11 ont un niveau de preuve élevé (GRADE 1+/-) et 21 un niveau de preuve faible (GRADE 2+/-). Pour deux recommandations, la méthode GRADE ne pouvait pas s'appliquer, aboutissant à un avis d'experts. […] un accord fort a été obtenu pour l'ensemble des recommandations. » <i>Le décompte ci-dessus est celui du résumé officiel, reproduit tel quel malgré une incohérence arithmétique interne à la source (11+21+2 = 34, pour 33 items effectivement numérotés R1.1 à R8.14 dans le corps du texte) — chaque recommandation individuelle de cette fiche reste fidèle à son propre tag littéral, ce qui importe davantage cliniquement que le total agrégé.</i><br/><br/><b>La SFAR recommande l'usage d'un dispositif de monitorage de la curarisation au cours d'une anesthésie générale</b> (conclusion du résumé officiel).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Les 8 questions traitées par la RFE",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "#",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Question",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Vérifier la ventilation au masque avant curarisation ? Curariser pour faciliter la ventilation au masque ?",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Curariser pour faciliter l'intubation de la trachée ?",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Curariser pour la mise en place et la gestion des complications des dispositifs supra-glottiques ?",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Monitorer la curarisation pour le contrôle des voies aériennes ?",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Curariser pour faciliter les procédures interventionnelles, et lesquelles ?",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Monitorer la curarisation en peropératoire ?",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q7",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Stratégies de diagnostic et de traitement de la curarisation résiduelle ?",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q8",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Indications et précautions chez les populations spéciales (enfant, obésité, maladies neuromusculaires, ECT, insuffisance rénale/hépatique, sujet âgé) ?",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Risque allergique</b> — rappel des experts : les curares sont en cause dans plus de la moitié des accidents allergiques peranesthésiques en France depuis plus de trente ans. Pharmacovigilance française (680 cas confirmés tryptase + tests cutanés positifs) : taux de notification succinylcholine 7,05/100 000 administrations, rocuronium 4,15/100 000, autres curares entre 0,17 et 0,36/100 000 — deux groupes distincts (succinylcholine/rocuronium à taux élevé, autres curares à taux faible).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q1-Q2 — Ventilation au masque & intubation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 1 — Ventilation au masque facial",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de tester la possibilité de ventiler au masque avant d'administrer un curare.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer un curare pour faciliter la ventilation au masque facial.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Tester la ventilation au masque avant curarisation allonge la durée d'induction. Le réveil pour intubation impossible est extrêmement rare (2 cas sur ~100 intubations difficiles au sein d'une série de 11 257 intubations, et 9 cas parmi 698 patients avec ventilation au masque et intubation difficiles dans les séries citées). La curarisation n'augmente pas systématiquement la durée d'apnée ni le risque de désaturation et améliore la ventilation au masque dans plusieurs séries, y compris chez les patients à critères de ventilation/intubation difficiles.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Question 2 — Intubation de la trachée",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'administrer un curare pour faciliter l'intubation de la trachée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'administrer un curare pour réduire les traumatismes du pharynx et/ou du larynx.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer un curare à délai d'action court pour l'induction en séquence rapide.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Cohorte de 103 784 patients : mauvaises conditions d'intubation 6,7 % sans curare vs 4,5 % avec curare (facteur de risque indépendant d'intubation difficile). Six études randomisées (746 patients) : traumatismes pharyngo-laryngés réduits de 22,6 % à 9,7 % avec curarisation. Méta-analyse Cochrane (50 études, 4 151 patients) : la succinylcholine procure d'excellentes conditions d'intubation plus souvent que le rocuronium, différence non retrouvée si rocuronium &gt; 0,9 mg/kg — hétérogénéité justifiant un GRADE 2.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q3-Q4 — Dispositifs supra-glottiques & monitorage VAS",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 3 — Dispositifs supra-glottiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé d'administrer systématiquement un curare pour faciliter la pose d'un dispositif supra-glottique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer un curare en cas d'obstruction des voies aériennes liée à un dispositif supra-glottique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Laryngospasme</b> (fermeture glottique complète) : curarisation fortement recommandée même si le propofol (0,25-0,8 mg/kg) est efficace dans 77 % des cas. Agent de choix : succinylcholine (IV 1 mg/kg ; IM voire sublinguale 4 mg/kg si pas d'abord veineux) — associer atropine 0,02 mg/kg chez l'enfant &lt; 3 ans pour éviter bradycardie/arrêt cardiaque. Alternative possible : curare non dépolarisant à faible dose (rocuronium ou atracurium 0,1-0,2 mg/kg) si profondeur d'anesthésie suffisante.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Question 4 — Monitorage et contrôle des voies aériennes",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — Les données de la littérature sont insuffisantes pour établir une recommandation sur l'utilisation d'un monitorage instrumental de la curarisation lors de l'intubation de la trachée.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les experts suggèrent que si un monitorage instrumental de la curarisation est utilisé, le muscle sourcilier soit le site utilisé du fait de sa sensibilité aux curares et de sa cinétique de curarisation comparables à celles des muscles laryngés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Les conditions d'intubation sont moins bonnes lorsque l'orbiculaire de l'œil (plus sensible aux curares) est utilisé pour décider du moment de l'intubation, comparé au muscle sourcilier ou à l'adducteur du pouce.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q5-Q6 — Procédures interventionnelles & monitorage peropératoire",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 5 — Procédures interventionnelles",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'administrer un curare pour faciliter l'acte opératoire en chirurgie abdominale par laparotomie ou par laparoscopie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer un curare pour faciliter l'acte opératoire en chirurgie ORL sous laser.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — Les données de la littérature sont insuffisantes pour établir une recommandation sur le niveau de bloc neuromusculaire à atteindre (modéré versus profond) en chirurgie abdominale par laparotomie ou par laparoscopie.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Bloc modéré = 1-2 réponses au train de quatre (TDQ) à l'adducteur du pouce ; bloc profond = compte post-tétanique (CPT) ≤ 5, 0 réponse au TDQ. Un patient sur quatre bénéficierait du bloc profond en termes de conditions opératoires (études à faibles effectifs, n = 24-102), sans différence démontrée sur la morbidité chirurgicale. Chirurgie laryngée sous laser : curarisation profonde associée à une meilleure exposition du champ, moins de mouvements des cordes vocales et moins de sécheresse buccale postopératoire, sans différence sur les événements indésirables.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Question 6 — Monitorage peropératoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de monitorer la curarisation en peropératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'utiliser la stimulation par train de quatre du nerf ulnaire à l'adducteur du pouce pour monitorer la curarisation peropératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Recommandation applicable en salle d'intervention et en SSPI. Pour une curarisation profonde (diaphragme, paroi abdominale), attendre la disparition des 4 réponses au TDQ puis monitorer par CPT (1 à 5 réponses = paralysie complète des muscles abdominaux). Alternative : stimulation du nerf facial / muscle sourcilier (cinétique comparable aux muscles résistants) si accès aux membres supérieurs impossible. En fin d'intervention, basculer dès que possible sur l'adducteur du pouce pour quantifier la décurarisation.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q7 (1/3) — Curarisation résiduelle : diagnostic",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 7 — Curarisation résiduelle : diagnostic",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'utiliser un monitorage quantitatif de la curarisation à l'adducteur du pouce pour le diagnostic de la curarisation résiduelle et d'obtenir un rapport T4/T1 ≥ 0,9 à l'adducteur du pouce pour éliminer formellement le diagnostic de curarisation résiduelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Aucun test clinique n'est suffisamment sensible</b> pour dépister une curarisation résiduelle. Seul le monitorage instrumental quantitatif (rapport T4/T1, stimulation supramaximale, adducteur du pouce) permet de l'évaluer. Conséquences documentées d'une curarisation résiduelle non traitée : morbi-mortalité accrue dans les 24 premières heures postopératoires, risque accru d'événements respiratoires critiques en SSPI, risque accru de pneumopathie postopératoire, dysfonction des muscles pharyngés, prolongation de la durée de séjour en SSPI.",
+      "style": "body"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Q7 (2/3) — Décurarisation par la néostigmine",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 7 — Décurarisation par la néostigmine",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé après l'administration d'un curare non dépolarisant d'attendre une décurarisation spontanée égale à quatre réponses musculaires à l'adducteur du pouce après une stimulation en train de quatre au nerf ulnaire avant d'injecter de la néostigmine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'administrer la néostigmine sous couvert d'un monitorage de la curarisation à l'adducteur du pouce, d'administrer une dose comprise entre 40 et 50 µg/kg adaptée à la masse idéale, de ne pas augmenter la dose au-delà et de ne pas l'administrer en l'absence de bloc résiduel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de réduire la dose de néostigmine de moitié en cas de bloc résiduel très faible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de poursuivre le monitorage quantitatif de la curarisation après l'administration de la néostigmine jusqu'à l'obtention d'un rapport du train de quatre supérieur ou égal à 0,9.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "La néostigmine administrée après récupération complète (TDQ = 100 %) augmente la pression de fermeture des voies aériennes supérieures et réduit l'activité du muscle génio-glosse : elle diminue la perméabilité pharyngée si administrée hors bloc résiduel. À l'inverse, une dose trop élevée pour un bloc très superficiel peut altérer la transmission neuromusculaire (fatigue au TDQ) si administrée après récupération spontanée &gt; 90 %.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Algorithme 1 — Décurarisation avec la néostigmine",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "Après curare non dépolarisant (benzylisoquinoline ou stéroïdien). TDQ = stimulation en train de quatre à l'adducteur du pouce (AP), N = nombre de réponses (0 à 4).",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Évaluation initiale",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Résultat attendu",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "N &lt; 4 réponses au TDQ",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Attendre et maintenir l'anesthésie, recontrôler plus tard le TDQ",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "N = 4 réponses au TDQ",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Néostigmine 0,04 mg/kg + atropine 0,02 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Rapport TDQ ≥ 0,9 en 10 à 20 minutes",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q7 (3/3) — Décurarisation par le sugammadex",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 7 — Décurarisation par le sugammadex",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'ajuster la dose de sugammadex sur la masse idéale et en fonction du degré de bloc neuromusculaire induit par le rocuronium.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de poursuivre le monitorage quantitatif de la curarisation après l'administration de sugammadex afin de détecter une recurarisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Le sugammadex (gamma-cyclodextrine) n'encapsule que les curares stéroïdiens (rocuronium, vécuronium), une molécule pour une molécule : plus le bloc stéroïdien est profond, plus la dose nécessaire est élevée. Une dose insuffisante expose à une recurarisation. Efficacité ralentie chez le patient âgé et en cas d'insuffisance rénale sévère (clairance de la créatinine &lt; 30 mL/min), particulièrement pour la décurarisation d'un bloc profond.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Degré de bloc (rocuronium)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Dose de sugammadex",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Délai d'efficacité (TDQ &gt; 0,9)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Très modéré (TDQ = 50 %)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,22 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 5 min (95 % des patients)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Modéré (4 réponses au TDQ)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 mg/kg (0,5 mg/kg efficace mais plus lent)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 5 min (10 min à 0,5 mg/kg)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Modéré (2 réponses au TDQ)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≥ 2 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 5 min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Profond (1-2 réponses au compte post-tétanique)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≥ 4 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 5 min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Très profond (3-15 min après forte dose de rocuronium)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≥ 8 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 5 min",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Algorithme 2 — Décurarisation avec le sugammadex",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "Uniquement avec le rocuronium. AP = adducteur du pouce, CPT = compte post-tétanique.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Évaluation initiale",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Résultat attendu",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "N ≥ 2 réponses au TDQ à l'AP",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sugammadex 2 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Rapport TDQ &gt; 0,9 en 3 à 5 minutes",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "N = 0, CPT = 1 ou 2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sugammadex 4 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Rapport TDQ &gt; 0,9 en 3 à 5 minutes",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "N = 0, CPT = 0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Attendre et maintenir l'anesthésie, recontrôler le CPT plus tard — ou décurarisation immédiate : sugammadex 8-16 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Rapport TDQ &gt; 0,9 en 3 à 5 minutes",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q8 (1/4) — Électro-convulsivothérapie & obésité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 8 — Populations spéciales : ECT et obésité",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer un curare à délai d'action court pour l'électro-convulsivothérapie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Objectif : prévenir les conséquences motrices de la convulsion généralisée (morsure de langue, chute, luxation, fracture). Succinylcholine recommandée en première intention ; en cas de contre-indication formelle, l'association rocuronium-sugammadex a été proposée à partir de séries de cas.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé chez l'obèse massif (IMC ≥ 40 kg/m²) d'administrer un curare à délai d'action court pour faciliter l'intubation de la trachée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer la succinylcholine à la dose de 1 mg/kg adaptée sur la masse réelle de l'obèse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les experts suggèrent d'administrer le curare non dépolarisant à une dose calculée sur la masse maigre du patient obèse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — Les données sont insuffisantes pour formuler des recommandations sur l'intérêt du bloc profond en chirurgie par laparoscopie chez l'obèse.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'utiliser le sugammadex adapté à la masse idéale en cas d'utilisation de rocuronium chez l'obèse massif (IMC ≥ 40 kg/m²) compte tenu de l'allongement du délai de décurarisation et du risque de recurarisation avec la néostigmine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Succinylcholine sur masse réelle : conditions d'intubation excellentes et reproductibles (posologie sur masse idéale/maigre associée à de mauvaises conditions). Curares non dépolarisants et décurarisants : hydrosolubles, dose calculée sur la masse maigre (formule de Janmahasatian), augmentée chez l'obèse. Sugammadex chez l'obèse massif : 2 mg/kg sur masse idéale majorée de 40 % pour un bloc partiel (2 réponses au TDQ), 4 mg/kg pour un bloc profond (absence de réponse au TDQ).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q8 (2/4) — L'enfant",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 8 — Populations spéciales : l'enfant",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hors situations relevant d'une indication à une induction à séquence rapide et à l'utilisation d'un curare dépolarisant, il est probablement recommandé d'utiliser un curare non dépolarisant pour améliorer les conditions d'intubation au cours de l'anesthésie générale par induction intraveineuse chez l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans l'induction en séquence rapide classique, il est recommandé d'utiliser un curare d'action rapide chez l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans l'induction en séquence rapide classique, il est probablement recommandé d'utiliser chez l'enfant la succinylcholine en première intention pour l'induction en séquence rapide. En cas de contre-indication à la succinylcholine, il est probablement recommandé d'utiliser du rocuronium.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — Les données sont insuffisantes chez l'enfant pour formuler des recommandations concernant l'administration de curare pour faciliter la ventilation au masque facial, la mise en place et la gestion des complications des dispositifs supra-glottiques, faciliter le geste chirurgical, l'intérêt du monitorage de la curarisation pour l'intubation de la trachée et en peropératoire, le diagnostic et le traitement de la curarisation résiduelle.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Âge",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Dose de succinylcholine (ISR)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&lt; 1 mois",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1,8 mg/kg",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1 mois - 1 an",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 mg/kg",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1 an - 10 ans",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1,2 mg/kg",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&gt; 10 ans",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 mg/kg",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Rocuronium (alternative si CI à la succinylcholine) : &gt; 0,9 mg/kg selon la revue Cochrane citée (posologies de 0,6-0,9 mg/kg également rapportées) ; sugammadex non autorisé en 2018 chez l'enfant de moins de 2 ans. Contre-indications à la succinylcholine : risque d'hyperthermie maligne, pathologies musculaires à risque de rhabdomyolyse, hyperkaliémie, allergie, situations à risque d'hyperkaliémie. Alerte ANSM du 15/12/2017 : un curare dépolarisant ne doit pas être utilisé pour une induction intraveineuse ne relevant pas d'une induction en séquence rapide.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q8 (3/4) — Maladies neuromusculaires",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 8 — Populations spéciales : maladies neuromusculaires",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé d'utiliser la succinylcholine en cas d'atteinte musculaire primitive (myopathies) ou de dérégulation haute du récepteur nicotinique à l'acétylcholine de la plaque motrice (déficit moteur chronique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de monitorer la curarisation en cas d'administration de curare chez un patient atteint d'une maladie neuromusculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer du sugammadex pour le traitement d'une curarisation résiduelle en cas d'administration de curare stéroïdien chez un patient atteint d'une maladie neuromusculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Succinylcholine formellement contre-indiquée</b> : atteintes musculaires pures (myopathie, myotonie) → contracture généralisée avec rhabdomyolyse ; dérégulation haute du récepteur nicotinique (lésion chronique du moto-neurone, brûlures étendues, séjour prolongé en réanimation) → hyperkaliémie engageant le pronostic vital, pendant une durée prolongée après la constitution de la lésion.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Myasthénie (dérégulation basse) : curares non contre-indiqués mais résistance à la succinylcholine, sensibilité accrue et durée d'action allongée pour les curares non dépolarisants (réduction habituelle de 50-75 % des doses d'atracurium/cis-atracurium). Dystrophie musculaire de Duchenne : sensibilité très augmentée au rocuronium (délai d'installation et récupération significativement plus longs).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q8 (4/4) — Insuffisance rénale, hépatique, sujet âgé",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 8 — Insuffisance rénale, hépatique, sujet âgé",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'utiliser un curare de type benzylisoquinolines (atracurium/cis-atracurium) en cas d'insuffisance rénale ou hépatique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de ne pas modifier la dose initiale en cas d'insuffisance rénale ou hépatique quel que soit le type de curare.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'utilisation du sugammadex chez l'insuffisant rénal, il est probablement recommandé de l'utiliser aux doses habituelles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — Les données de la littérature sont insuffisantes pour établir une recommandation sur l'utilisation des curares chez le sujet âgé.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Rocuronium : élimination rénale et biliaire, clairance réduite chez l'insuffisant rénal et variabilité accrue chez le cirrhotique. Atracurium/cis-atracurium : élimination majoritairement non organique (réaction d'Hofmann, hydrolyse estérasique) → pharmacocinétique similaire quelle que soit la fonction rénale/hépatique ; le métabolite laudanosine s'accumule en insuffisance rénale sans effet indésirable démontré même après 72 h de perfusion. Sugammadex éliminé par le rein, s'accumule en insuffisance rénale mais efficacité préservée aux doses habituelles, sans recurarisation observée ; dialysable (ainsi que le complexe sugammadex-rocuronium).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Synthèse, sources & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Synthèse et messages clés",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• La curarisation facilite la ventilation au masque, l'intubation trachéale (réduction des traumatismes pharyngo-laryngés) et l'acte opératoire en chirurgie abdominale — sans tester systématiquement la ventilation au masque au préalable.<br/>• Le monitorage quantitatif de la curarisation (adducteur du pouce, TDQ) est recommandé en peropératoire et indispensable pour poser ou éliminer le diagnostic de curarisation résiduelle (T4/T1 ≥ 0,9).<br/>• Néostigmine : n'attendre le retour d'au moins 4 réponses au TDQ, dose 40-50 µg/kg sur masse idéale, jamais au-delà, jamais en l'absence de bloc résiduel.<br/>• Sugammadex : dose ajustée sur la masse idéale et le degré de bloc (rocuronium uniquement) ; efficacité ralentie chez le sujet âgé et en insuffisance rénale sévère.<br/>• Monitorage quantitatif à poursuivre après toute décurarisation pharmacologique, quel que soit l'agent, pour détecter une recurarisation.<br/>• Succinylcholine formellement contre-indiquée en cas de myopathie ou de dérégulation haute du récepteur nicotinique (brûlures étendues, lésion neurologique chronique, réanimation prolongée) — risque d'hyperkaliémie engageant le pronostic vital.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Curarisation et décurarisation en anesthésie » (actualisation de la Conférence de Consensus SFAR de 1999) — Recommandations Formalisées d'Experts, Société Française d'Anesthésie et de Réanimation. Comité de consensus de 16 experts, coordination C. Baillard, B. Debaene, B. Plaud. Texte validé par le Conseil d'Administration de la SFAR le 21 juin 2018.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE®, tags Grade 1+/1-/2+/2- et « Avis d'experts » imprimés littéralement après chaque recommandation dans le texte source — cités ici tels quels, sans convention à déduire.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> 33 recommandations numérotées (R1.1 à R8.14, dont 2 avis d'experts) et 5 questions/sous-questions « pas de recommandation » reproduites intégralement, ainsi que les 2 algorithmes de décurarisation (néostigmine, sugammadex ; pages 48-49 de la source, pages d'organigramme à faible contenu textuel extractible, vérifiées visuellement et reproduites ici sous forme de tableaux structurés fidèles au contenu).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations de la RFE mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR. En cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

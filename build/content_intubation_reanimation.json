@@ -1,0 +1,1209 @@
+{
+ "doc": "intubation_reanimation",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> intubation et extubation du patient adulte de réanimation (hors prise en charge pré-hospitalière, explicitement exclue par la source). Comité SFAR/SRLF, avec SFMU, GFRUP, ADARPEF, SKR ; méthode GRADE®, format PICO. Intubation explorée en 4 champs (intubation compliquée, matériel, agents d'induction, protocoles/bundles) ; extubation en 3 champs (pré-requis, échecs, gestion pratique).<br/><br/><b>Résultats (résumé officiel, recommandations adultes) :</b> 32 recommandations ; 12 de niveau de preuve élevé (Grade 1+/-), 19 de niveau de preuve faible (Grade 2+/-), 1 avis d'experts. Accord fort obtenu pour 31/32 (97 %) des recommandations — la seule exception (R7.5) porte un accord qualifié « FAIBLE » dans le texte source lui-même, disclosure conservée telle quelle. 2 algorithmes de synthèse également formalisés.<br/><br/><i>15 recommandations pédiatriques parallèles existent également dans ce document (5 Grade1, 9 Grade2, 1 avis d'experts) mais ne sont pas reproduites dans cette fiche, centrée sur l'adulte — se référer au texte intégral pour le volet pédiatrique.</i>",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 1 — Intubation compliquée",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 1 — Intubation compliquée en réanimation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut considérer tous les patients de réanimation à risque d'intubation compliquée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Afin d'en réduire l'incidence, il faut que les complications respiratoires et hémodynamiques de l'intubation soient anticipées et prévenues grâce à une préparation soigneuse de la procédure, intégrant le maintien de l'oxygénation et de l'hémodynamique systémiques tout au long de la procédure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut différencier les facteurs prédictifs d'intubation compliquée des facteurs prédictifs d'intubation difficile.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Intubation en réanimation = procédure à haut risque (20-50 % de complications pouvant menacer le pronostic vital), le plus souvent en urgence chez un patient hypoxémique et hémodynamiquement précaire. Intubation difficile (≥2 tentatives) : incidence 8-23 % en réanimation. Score MACOCHA (voir tableau ci-dessous) : seuil ≥3 = VPN 97-98 %, sensibilité 73-76 % pour prédire l'intubation difficile.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Tableau I — Complications de l'intubation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sévères",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Hypoxémie sévère • Collapsus cardiovasculaire sévère • Arrêt cardiaque • Décès",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Modérées",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Intubation difficile • Troubles du rythme • Intubation œsophagienne • Inhalation • Agitation • Bris dentaires",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Tableau II — Score MACOCHA",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Points",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "M — Mallampati score III ou IV",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "A — Apnées du sommeil",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C — Cervicale (mobilité rachidienne réduite)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "O — Ouverture de bouche < 3 cm",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C — Coma",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "H — Hypoxémie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "A — non-Anesthésiste ou Anesthésiste non entraîné",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Codé de 0 à 12. Un seuil ≥ 3 permet de retenir une intubation difficile avec une bonne sensibilité (73-76 %) ; un score &lt; 3 permet de l'écarter avec une excellente valeur prédictive négative (97-98 %).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — Matériel de l'intubation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 — Matériel de l'intubation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut mettre en œuvre un contrôle capnographique de l'intubation en réanimation pour confirmer la bonne position de la sonde d'intubation, du dispositif supra-glottique ou de l'abord trachéal direct.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut disposer d'un chariot d'intubation difficile et d'un bronchoscope (usuel ou à usage unique) en réanimation afin de pouvoir faire face immédiatement aux situations d'intubation difficile.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut employer des lames métalliques pour les laryngoscopies directes en réanimation afin d'en améliorer les chances de succès.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour limiter les échecs d'intubation, il faut probablement utiliser les vidéolaryngoscopes (VL) pour l'intubation en réanimation, soit d'emblée soit après échec de la laryngoscopie directe.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser les dispositifs supra-glottiques (DSG) dans la gestion des intubations difficiles en réanimation, pour oxygéner le patient puis favoriser l'intubation sous contrôle bronchoscopique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les connaissances théoriques et pratiques en matière d'intubation doivent être acquises et régulièrement entretenues.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Intubation œsophagienne : incidence jusqu'à 51 % en cas d'intubation difficile ; étude NAP4 — non-utilisation ou mauvaise interprétation de la capnographie impliquée dans 74 % des décès/dommages cérébraux irréversibles liés à l'intubation en réanimation/urgences. Méta-analyse (9 études, 2133 patients) : les VL augmentent le succès dès la 1ère tentative (OR=2,07 IC95 [1,35-3,16]), diminuent les intubations difficiles (OR=0,29), les Cormack-Lehane 3-4 (OR=0,26) et les intubations œsophagiennes (OR=0,14). Nombre de procédures recommandé en formation : 50-70 laryngoscopies directes, 20 poses de DSG, 30-60 intubations fibroscopiques, 5 cricothyroïdotomies, 20 utilisations de VL.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 3 — Agents d'induction",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 3 — Agents d'induction",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement choisir un hypnotique (étomidate, kétamine, propofol) permettant l'induction en séquence rapide (ISR) en fonction du terrain et de la situation clinique du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient de réanimation, il faut probablement utiliser la succinylcholine comme curare de première intention lors de l'ISR afin de réduire la durée de la procédure et le risque d'inhalation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser le rocuronium à une dose supérieure à 0,9 mg/kg [1,0-1,2 mg/kg] en cas de contre-indication à la succinylcholine et permettre un accès rapide au sugammadex en cas d'utilisation de celui-ci.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Étomidate : augmentation de l'insuffisance surrénale relative même en injection unique — prudence chez le patient septique. Kétamine : propriétés stimulantes sympathiques, alternative valable à l'étomidate. Propofol : risque d'instabilité hémodynamique, prévenu par le recours précoce/préventif aux amines vasopressives. Revue Cochrane (50 essais) : succinylcholine supérieure au rocuronium pour des conditions d'intubation excellentes (OR=0,86 IC95 [0,81-0,92]) — différence non significative si rocuronium &gt;0,9 mg/kg. Sugammadex 16 mg/kg : décurarisation plus rapide que la décurarisation spontanée de la succinylcholine.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Protocoles & bundles + Algorithme IOT",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Protocoles et bundles de l'intubation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement utiliser la VNI pour la préoxygénation des patients hypoxémiques en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est possible d'utiliser l'oxygénothérapie nasale haut débit (ONHD) pour la préoxygénation en réanimation, notamment pour les patients non sévèrement hypoxémiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement utiliser un protocole d'intubation incluant un versant ventilatoire au cours de l'intubation en réanimation pour diminuer les complications respiratoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement utiliser une manœuvre de recrutement post-intubation chez les patients de réanimation hypoxémiques en l'intégrant dans un protocole ventilatoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement appliquer une PEEP d'au moins 5 cm H2O après intubation des patients hypoxémiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement utiliser un protocole hémodynamique, définissant les modalités du remplissage vasculaire et de la mise en place précoce de catécholamines pour diminuer les complications hémodynamiques lors de l'intubation des patients en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Étude multicentrique avant/après : un protocole d'intubation incluant un volet ventilatoire réduit significativement les complications sévères. Étude « Preoxyflow » (randomisée) : l'ONHD n'est pas supérieure à l'oxygénothérapie conventionnelle chez le patient sévèrement hypoxémique — d'où sa place réservée aux patients non sévèrement hypoxémiques. Manœuvre de recrutement post-intubation (CPAP 40 cmH2O &gt;30 sec, étude bicentrique, 40 patients) : gain d'oxygénation significatif à 2 et 30 min (236±117 vs 93±36 mmHg puis 180±79 vs 110±39 mmHg), sans conséquence hémodynamique ni barotraumatisme. Bundle hémodynamique (244 patients, 3 centres) : réduction du collapsus post-intubation de 27 % à 15 %.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Algorithme IOT en réanimation</b> (source — avis d'experts, ACCORD FAIBLE) — transcrit en tableau de décision, vérifié par rendu visuel (page 14) :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Contenu",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Avant l'intubation",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Installation du patient, expansion volémique prudente (en l'absence de surcharge hydrosodée). Vérifier matériel (chariot d'intubation difficile, bronchoscope, matériel d'abord cervical direct) et personnel (2 médecins + 1 IDE en configuration optimale) : sédation, vasopresseurs, capnographie prêts. Évaluer le risque d'IOT difficile par le score MACOCHA (cf. Tableau II).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pendant l'intubation — préoxygénation",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Patient hypoxémique → VNI. Patient non hypoxémique → BAVU ou ONHD.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pendant l'intubation — induction",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Induction en séquence rapide : kétamine/étomidate/propofol ; succinylcholine 1 mg/kg ou rocuronium 1,2 mg/kg (accès immédiat au sugammadex requis) ; manœuvre de Sellick.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Score MACOCHA &lt; 3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1ère intention : laryngoscopie directe (Mc Intosh), sonde sur mandrin malléable, lame métallique, 2 tentatives max en 2 min. Échec → reprise au masque + appel expertise anesthésique → vidéolaryngoscope (retrait du Sellick, BURP, 2 tentatives max) → si échec → dispositif supra-glottique (DSG : retrait Sellick, BURP, 2 tentatives max) → ventilation efficace (contrôle capnographique, intubation à travers le DSG).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Score MACOCHA ≥ 3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1ère intention : vidéolaryngoscopie OU laryngoscopie directe (Mc Intosh, lame métallique, sonde sur mandrin malléable ou mandrin d'Eschmann), 2 tentatives max en 2 min. Échec → reprise au masque + appel expertise anesthésique → dispositif supra-glottique (DSG). Nouvel échec → reprise au masque → abord cervical direct (cricothyroïdotomie chirurgicale ou percutanée).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Après l'intubation",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "PEEP 5 cmH2O, ventilation protectrice, manœuvre de recrutement (FiO2 100 %, Paw 40 cmH2O, 30 sec — chez le patient hémodynamiquement stable, à interrompre immédiatement si elle induit une instabilité), mesure de la pression du ballonnet trachéal, recours aux vasopresseurs si PAD &lt; 35 mmHg.",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 5-6 — Pré-requis & échecs de l'extubation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 5 — Pré-requis à l'extubation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut réaliser une épreuve de sevrage en VS avant toute extubation chez le patient de réanimation ventilé depuis plus de 48 h afin de réduire le risque d'échec d'extubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'épreuve de sevrage n'étant pas suffisante pour dépister tous les patients à risque d'échec d'extubation, il faut probablement rechercher les causes et facteurs de risque plus spécifiques d'échec incluant l'inefficacité de la toux, l'abondance des sécrétions bronchiques, l'inefficacité de la déglutition, et les troubles de la conscience.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Succès de l'épreuve en VS (FR 10-30/min, SpO2&gt;92 %, absence de sueur/agitation/hypertension/tachycardie) : meilleur test diagnostique disponible pour prédire le succès de l'extubation, malgré ses limites (30-40 % des patients extubés malgré échec de l'épreuve nécessitent d'être réintubés). Échec d'extubation malgré succès de l'épreuve : 10-20 % des cas (extrêmes 5-30 % selon populations) — taux acceptable en réanimation entre 5 et 10 %.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 6 — Échecs de l'extubation (œdème laryngé)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement effectuer un test de fuite avant l'extubation pour prédire la survenue d'un œdème laryngé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut réaliser le test de fuite chez les patients de réanimation ayant au moins un facteur de risque de dyspnée laryngée afin de réduire les échecs d'extubation en rapport avec l'œdème laryngé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement mettre en œuvre des mesures limitant les lésions laryngées au cours de la ventilation mécanique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si le volume de fuite est faible ou nul, il faut probablement prescrire une corticothérapie pour prévenir les échecs d'extubation en rapport avec l'œdème laryngé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsqu'elle est décidée, la corticothérapie doit être débutée au moins 6 heures avant l'extubation pour être efficace.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Lésions laryngées présentes chez &gt;75 % des patients ventilés (œdème, ulcération muqueuse, parésie des cordes vocales, granulomes). Facteurs de risque de dyspnée laryngée : sexe féminin, intubation nasale, sonde de gros calibre, pressions de ballonnet élevées, intubation difficile/traumatique/prolongée. Seuils du test de fuite : &lt;110 mL en volume absolu ou &lt;10 % en volume relatif — bonne spécificité/VPN mais faible sensibilité/VPP. Corticothérapie (~1 mg/kg/j équivalent prednisolone), débutée ≥6h avant l'extubation, éventuellement en doses fractionnées, réservée aux patients à test de fuite positif.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 7 — Gestion pratique de l'extubation + Algorithme",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 7 — Gestion pratique de l'extubation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En préventif, il faut probablement utiliser l'oxygénothérapie nasale à haut débit en postopératoire de chirurgie cardiothoracique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En préventif, il faut probablement utiliser l'oxygénothérapie nasale à haut débit après extubation programmée en réanimation chez les patients hypoxémiques ou à risque faible de réintubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En préventif, il faut probablement utiliser la VNI prophylactique après extubation programmée en réanimation chez les patients à haut risque de réintubation, notamment chez les patients hypercapniques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En curatif, il faut probablement utiliser la VNI curative en cas d'insuffisance respiratoire aiguë postopératoire, notamment après chirurgie abdominale ou résection pulmonaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En curatif, il ne faut probablement pas utiliser la VNI curative en cas d'insuffisance respiratoire aiguë survenant après extubation programmée en réanimation, excepté chez les patients BPCO ou en cas d'OAP évident.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement faire intervenir un kinésithérapeute avant et après l'extubation chez les patients ventilés plus de 48 h afin de diminuer la durée de sevrage et limiter le risque de réintubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement faire intervenir un kinésithérapeute au cours du geste de l'extubation, afin de limiter les complications immédiates liées au sur-encombrement chez les patients à risque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>R7.5 est la seule recommandation de cette RFE à accord qualifié « FAIBLE »</b> (et non « FORT ») dans le texte source lui-même — disclosure conservée telle quelle, cohérente avec le résumé officiel (« accord fort pour 31/32, 97 % » des recommandations adultes).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Taux global de réintubation en réanimation ~15 %, jusqu'à 20-30 % chez les patients à risque ; mortalité en cas d'échec : 25-50 %. VNI prophylactique (6 études randomisées) : bénéfice non significatif toutes populations confondues (OR=0,80 IC95 [0,64-1,01]) mais significatif chez les patients à haut risque de réintubation (OR=0,63 IC95 [0,45-0,87]). VNI curative après extubation programmée : non recommandée hors BPCO/OAP (masque les signes d'IRA et retarde la réintubation). Kinésithérapie de désencombrement : limiterait significativement les réintubations, sans bénéfice démontré sur la durée de sevrage/VM.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Algorithme d'extubation en réanimation</b> (source — avis d'experts, ACCORD FORT) — transcrit en tableau de décision, vérifié par rendu visuel (page 20) :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Contenu",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1. Épreuve de sevrage",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser l'épreuve de sevrage en VS → succès de l'épreuve requis pour poursuivre.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2. Facteurs de risque spécifiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Rechercher : toux inefficace, encombrement trachéo-bronchique important, troubles sévères de déglutition, troubles de vigilance, balance hydrique positive. Si présents → envisager de différer l'extubation de 12 à 24h.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3. Test de fuite (si facteur de risque d'œdème laryngé)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "À réaliser uniquement si ≥1 facteur de risque présent : sexe féminin, intubation nasale, sonde de gros calibre, pressions de ballonnet élevées, intubation difficile/traumatique/prolongée. Si &lt;110 mL ou &lt;10-13 % → envisager corticothérapie ≥6h avant l'extubation.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4. Préparation du geste",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Expliquer le geste et asseoir le patient ; aspirer la cavité buccale ; pas d'aspiration intra-trachéale juste avant ni pendant l'extubation (si nécessaire, reventiler ≥2 min avant) ; pas de « pré-oxygénation » avant l'extubation.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5. Extubation et oxygénation",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Envisager l'ONHD chez les patients à risque faible, et la VNI prophylactique chez les patients à haut risque d'échec d'extubation (âge avancé, insuffisance respiratoire ou cardiaque chronique, PaCO2 &gt; 45 mmHg au cours de l'épreuve de VS).",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Synthèse, sources & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Synthèse et messages clés",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• Tout patient de réanimation = à risque d'intubation compliquée ; préparation soigneuse systématique (oxygénation + hémodynamique). Score MACOCHA ≥3 = intubation probablement difficile (VPN 97-98 % si &lt;3).<br/>• Matériel : capnographie systématique, chariot d'intubation difficile + bronchoscope disponibles immédiatement, lames métalliques, VL en 1ère intention ou après échec de la laryngoscopie directe, DSG pour la gestion des IRD. Formation continue indispensable (simulation).<br/>• Induction : hypnotique au choix (étomidate/kétamine/propofol) selon le terrain ; succinylcholine en 1ère intention (ISR) ; rocuronium &gt;0,9 mg/kg si contre-indication, avec accès immédiat au sugammadex.<br/>• Protocole d'intubation intégrant : VNI ou ONHD pour la préoxygénation (selon la sévérité de l'hypoxémie), volet ventilatoire (manœuvre de recrutement + PEEP ≥5 cmH2O), volet hémodynamique (remplissage + catécholamines précoces).<br/>• Extubation : épreuve de sevrage en VS obligatoire si VM &gt;48h, puis recherche des facteurs de risque spécifiques (toux inefficace, encombrement, troubles de déglutition/conscience). Test de fuite réservé aux patients à risque d'œdème laryngé — corticothérapie ≥6h avant si positif.<br/>• Après extubation : ONHD en préventif (postopératoire cardiothoracique, ou patients hypoxémiques/à risque faible de réintubation), VNI prophylactique si haut risque/hypercapnie ; VNI curative utile en postopératoire (chirurgie abdominale/résection pulmonaire) mais déconseillée en cas d'IRA post-extubation programmée hors BPCO/OAP. Kinésithérapie avant/pendant/après l'extubation chez les patients ventilés &gt;48h ou à risque de sur-encombrement.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Intubation et extubation du patient de réanimation » — Recommandations Formalisées d'Experts communes SFAR-SRLF, avec SFMU, GFRUP, ADARPEF, SKR. Anesth Reanim. 2018;4:523-547, texte validé par le CA SRLF et le CA SFAR le 17/06/2016. Coordination H. Quintard, J. Pottecher (SFAR), L. Donetti, E. l'Her (SRLF).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE®, tags « (Grade X+/-) Accord FORT/FAIBLE » ou « Avis d'experts » imprimés littéralement après chaque recommandation — cités ici tels quels. Piège d'extraction identifié et corrigé avant intégration : le signe moins du tag « Grade 2- » de R7.5 a été corrompu en caractère de contrôle non imprimable par l'extraction automatique du PDF source — confirmé par la formulation négative de la recommandation elle-même et par inspection du texte brut.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> 32 recommandations adultes (R1.1-R7.7) reproduites intégralement, ainsi que les 2 algorithmes de synthèse et les 2 tableaux (complications, score MACOCHA). Les 15 recommandations pédiatriques parallèles de ce même document ne sont pas reproduites ici — fiche centrée sur l'adulte, disclosure explicite en introduction. La gestion pré-hospitalière des voies aériennes est explicitement exclue du champ par la source elle-même.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations adultes de la RFE mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR/SRLF. En cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

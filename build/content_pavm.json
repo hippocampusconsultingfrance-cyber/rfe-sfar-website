@@ -1,0 +1,776 @@
+{
+ "doc": "pavm",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Objectif :</b> RFE commune SFAR-SRLF (en collaboration avec l'ADARPEF et le GFRUP pour la pédiatrie) — 16 experts francophones, produisant un cadre facilitant la prise de décision face à un patient suspect de pneumonie associée aux soins (PAS). 3 champs : prévention, diagnostic, traitement. 4 populations spécifiquement analysées : BPCO, neutropénie, postopératoire, pédiatrie — <b>seules la BPCO et la pédiatrie ont donné lieu à des recommandations dédiées</b> (R1.5 ; R1.1 et R2.2 « Pédiatrique ») ; neutropénie et postopératoire n'ont informé que l'argumentaire d'autres recommandations, sans recommandation propre. Méthode GRADE, format PICO, recherche bibliographique PubMed/Cochrane sur 10 ans (langue anglaise ou française).<br/><br/><b>Résultats (résumé officiel) :</b> 15 recommandations chez l'adulte + 2 recommandations pédiatriques spécifiques + 4 « protocoles de soins » (avis d'experts, à titre indicatif). Accord fort obtenu pour l'ensemble après 2 tours de cotation et un amendement.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Épidémiologie :</b> la pneumonie associée aux soins est l'infection la plus fréquente en réanimation. Incidence de la PAVM : 1,9 à 3,8/1000 jours de ventilation mécanique aux États-Unis, &gt;18/1000 jours en Europe. Mortalité associée ~20 %, mortalité attribuable débattue (5-13 %), probablement plus élevée chez le BPCO, quasi nulle chez le traumatisé. Un pathogène est identifié dans ~70 % des cas suspectés (infection polymicrobienne dans 30 % des cas) — Enterobacteriaceae, S. aureus, P. aeruginosa, A. baumannii principalement ; formes précoces (&lt;5 j) davantage liées à S. aureus méticilline-sensible, S. pneumoniae, H. influenzae.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Tableau I — Critères de définition d'une pneumonie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Signes radiologiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Deux clichés radiologiques successifs suggérant l'apparition d'un foyer (un seul cliché suffit en l'absence d'antécédent cardiopulmonaire) — ET au moins un signe parmi : température &gt;38,3°C sans autre cause • leucocytes &lt;4000/mm³ ou ≥12 000/mm³ — ET au moins deux signes parmi : sécrétions purulentes • toux ou dyspnée • désaturation, besoin accru en oxygène ou nécessité d'assistance ventilatoire.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pneumonie précoce vs. tardive",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "PAVM et pneumonie sévère acquise à l'hôpital = infections survenant après 48h de ventilation mécanique/d'hospitalisation respectivement, ni présentes ni en incubation à l'admission. Précoce = apparue &lt;5 jours ; tardive = ≥5 jours.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Divergence source-interne relevée (répartition GRADE) :</b> le résumé officiel annonce « 3 recommandations GRADE 1 et 11 GRADE 2 » (+1 avis d'experts = 15). Notre inventaire direct, vérifié tag par tag sur les 15 recommandations adultes, dénombre 4 recommandations GRADE 1 (R1.1, R3.2, R3.5, R3.7) et 10 GRADE 2 — le total (15) concorde avec le résumé officiel, mais pas la répartition annoncée. Chaque tag individuel ci-après est reproduit tel qu'imprimé à côté de sa recommandation.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Prévention",
+   "items": [
+    {
+     "t": "section",
+     "text": "Prévention",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut utiliser une approche standardisée multimodale de prévention des pneumonies associées aux soins pour diminuer la morbidité des patients hospitalisés en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1 P",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<i>(Pédiatrique)</i> Il faut probablement utiliser une approche standardisée multimodale visant la prévention des pneumonies associées aux soins pour diminuer la morbidité des patients hospitalisés en réanimation pédiatrique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans les unités où la prévalence des bactéries multirésistantes est faible (&lt;20 %), il faut probablement appliquer une décontamination digestive sélective associant un topique antiseptique par voie entérale et une antibioprophylaxie par voie systémique pour une durée inférieure à 5 jours pour diminuer la mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans le cadre d'une prévention multimodale, il faut probablement associer certaines des méthodes suivantes : favoriser le recours à la VNI pour éviter l'intubation (notamment en postopératoire de chirurgie digestive et chez le BPCO) ; limiter les doses et durées des sédatifs/analgésiques (échelles de sédation/douleur/confort, arrêts quotidiens) ; initier précocement une nutrition entérale ; contrôler régulièrement la pression du ballonnet ; réaliser une aspiration sous-glottique (toutes les 6-8h) ; préférer la voie orotrachéale pour l'intubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas utiliser les méthodes suivantes : trachéotomie précoce systématique (hors indication spécifique) ; prophylaxie anti-ulcéreuse hors indication ; nutrition entérale post-pylorique hors indication ; probiotiques/synbiotiques ; changement précoce systématique des filtres humidificateurs ; systèmes clos d'aspiration endotrachéale ; sonde d'intubation imprégnée d'antiseptique ou ballonnet « optimisé » ; décontamination oropharyngée à la polyvidone iodée ; antibioprophylaxie par aérosols ; décontamination cutanée quotidienne antiseptique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Au cours du sevrage des patients BPCO, il faut probablement utiliser la VNI pour réduire la durée de ventilation mécanique invasive, l'incidence des pneumonies associées aux soins et la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R1.2 : méta-analyses d'ECR — diminution significative de la mortalité hospitalière, de la durée de VM et de l'incidence des PAS avec la décontamination digestive sélective ; effet sur la mortalité observé uniquement pour les protocoles associant topique antiseptique entéral + antibiothérapie systémique, plus marqué chez les patients les plus graves ; efficacité démontrée dans des environnements à faible prévalence de BMR — à ne pas recommander si prévalence élevée, avec suivi régulier de l'écologie locale. R1.3 : bénéfices démontrés sur l'incidence des PAS et/ou la durée de VM/séjour pour chaque méthode listée, mais sans réduction de mortalité démontrée isolément — l'association pourrait apporter un bénéfice non démontré à ce jour. R1.4 : aucun impact positif démontré sur les PAS pour ces méthodes ; la polyvidone iodée expose à des effets toxiques potentiels. R1.5 : 2 méta-analyses (632 et 959 patients BPCO) — réduction significative de la mortalité (RR 0,36 et 0,27), de l'échec de sevrage et du risque de PAVM, mais limites méthodologiques (études non randomisées, faibles effectifs, définitions hétérogènes de la PAVM).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Figure 1 (source) — Protocole de soin n°1 : prévention multimodale (avis d'experts)",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Contenu",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Favoriser la ventilation non invasive (notamment en postopératoire de chirurgie digestive et chez le BPCO).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2 (si VM invasive nécessaire)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Appliquer un protocole de décontamination digestive sélective avec antibiothérapie systémique &lt;5 jours si prévalence de BMR faible (&lt;20 %).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3 — Associer en 1ère intention",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Favoriser le recours à la VNI pour éviter l'intubation • limiter doses/durées des sédatifs-analgésiques • initier précocement une nutrition entérale • contrôler régulièrement la pression du ballonnet • aspiration sous-glottique (/6-8h) • privilégier la voie orotrachéale. NB : proclive &gt;30° et/ou décontamination oropharyngée à la chlorhexidine 0,12-0,2 % envisageables en association (efficacité faible, peu coûteux, bien tolérés).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4 — Éviter",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Trachéotomie précoce systématique (hors indication spécifique) • prophylaxie anti-ulcéreuse hors indication • nutrition entérale post-pylorique hors indication • probiotiques • changement précoce systématique des filtres • systèmes clos d'aspiration • sonde/ballonnet « optimisés » • polyvidone iodée • antibioprophylaxie par aérosols • décontamination cutanée quotidienne.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Protocole de soin n°2 (avis d'experts) — Décontamination digestive sélective :</b> application oropharyngée d'une pâte/gel (×4/j jusqu'à sortie de réanimation) — polymyxine E 2 %, tobramycine 2 %, amphotéricine B 2 % — <b>+</b> suspension par sonde nasogastrique 10 mL (×4/j) — 100 mg polymyxine E, 80 mg tobramycine, 500 mg amphotéricine B — <b>+</b> antibioprophylaxie IV 48-72h chez les patients ne nécessitant pas d'antibiothérapie curative (posologie indicative en l'absence d'insuffisance rénale) : céfazoline 1g×3/j (si allergie aux céphalosporines : ofloxacine 200mg×2/j ou ciprofloxacine 400mg×2/j).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<i>Note : la source utilise « tobramycine » dans le texte de ce protocole mais « gentamicine » dans la recette de préparation officinale du Tableau III ci-dessous — incohérence propre au texte source, reproduite fidèlement plutôt qu'harmonisée.</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Diagnostic",
+   "items": [
+    {
+     "t": "section",
+     "text": "Diagnostic",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas utiliser les scores cliniques (CPIS, CPIS modifié) pour le diagnostic des pneumonies associées aux soins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement réaliser des prélèvements microbiologiques des voies aériennes, quel que soit le type, avant toute introduction ou modification de l'antibiothérapie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2 P",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<i>(Pédiatrique)</i> Il faut probablement réaliser des prélèvements microbiologiques des voies aériennes, quel que soit le type, avant toute introduction ou modification de l'antibiothérapie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas mesurer les concentrations plasmatiques de procalcitonine ou alvéolaires de TREM-1 soluble pour diagnostiquer une pneumonie associée aux soins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R2.1 : performances du CPIS variables (Se/Sp 60-80 % vs. LBA) selon le comparateur et la probabilité pré-test ; peu d'utilité pronostique du CPIS initial. R2.2 : méta-analyse — le type de prélèvement (aspiration endotrachéale, brosse protégée, LBA) et de culture (quantitative ou non) n'a pas d'effet significatif sur le devenir du patient (mortalité J28, durée de VM/séjour) — choix laissé au clinicien selon les habitudes de service ; possible avantage des cultures quantitatives pour le diagnostic et des prélèvements invasifs pour raccourcir la durée de traitement (~2 jours de moins) ; ne doit pas retarder l'antibiothérapie urgente des formes graves ou en SDRA. R2.3 : procalcitonine — 8 études/589 patients, Se 54 %, Sp 67 %, performances insuffisantes ; sTREM-1 — 7 études/317 patients, Se 83 %, Sp 77 %, mais seuils très variables (5-900 pg/mL) selon les techniques de dosage, non standardisées.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Figure 2 (source) — Protocole de soin n°3 : procédure diagnostique (avis d'experts)",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Contenu",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1. Seuil temporel",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≥48h depuis l'admission en milieu de soins ou l'exposition au risque invasif (intubation).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2. Suspicion clinique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Apparition/aggravation de : fièvre (≥38,3°C) • expectorations/aspirations purulentes ou d'aspect modifié • hyperleucocytose (≥12 000/mm³) ou leucopénie (≤4000/mm³) • hypoxémie ou oxygéno-dépendance • signes auscultatoires en foyer • ou sepsis/choc septique sans autre foyer évident. Diagnostics différentiels à évoquer : atélectasie(s), intubation sélective, épanchements pleuraux ; complications associées : abcès pulmonaires, pleurésie purulente.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3. Radiographie(s) de thorax",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Opacité(s) en foyer(s), nouvellement apparue(s) ou évolutive(s) = diagnostic radiographique. En cas de doute, envisager tomodensitométrie thoracique (sans/avec injection) ou échographie.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4. Prélèvements puis traitement probabiliste",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Prélèvement des voies respiratoires (invasif ou non) + culture.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5. Résultat de culture",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Négative → arrêt du traitement probabiliste. Positive (≥ seuil selon le type de prélèvement) = diagnostic microbiologique → adaptation/désescalade selon l'identification, puis selon l'antibiogramme.",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Traitement",
+   "items": [
+    {
+     "t": "section",
+     "text": "Traitement",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement réaliser les prélèvements et initier le traitement antibiotique en tenant compte des facteurs de risque de bactéries résistantes immédiatement en cas de suspicion de pneumonie avec signes de gravité hémodynamique (choc), respiratoire (SDRA) ou de terrain fragile (immunodépression).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut traiter par monothérapie en probabiliste les pneumonies associées aux soins du patient immunocompétent sous ventilation mécanique, en dehors de la présence de facteurs de risque de bactéries multirésistantes, de bacilles à Gram négatif non fermentants, et/ou de facteurs de risque élevé de mortalité (choc septique, défaillances d'organes).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les experts suggèrent de ne pas utiliser de manière probabiliste et systématique un antibiotique actif contre S. aureus résistant à la méticilline (SARM) dans le traitement des pneumonies associées aux soins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement réduire le spectre et privilégier une monothérapie pour l'antibiothérapie des pneumonies associées aux soins après documentation, y compris pour les bacilles à Gram négatif non fermentants.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas prolonger plus de 7 jours la durée du traitement antibiotique pour les pneumonies associées aux soins, y compris pour les pneumonies à bacille à Gram négatif non fermentant, en dehors de certaines situations (immunodépression, empyème, pneumonie nécrosante ou abcédée).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans le cadre des pneumonies documentées à bacilles à Gram négatif multirésistants, sensibles à la colimycine et/ou aux aminosides et lorsque aucun autre antibiotique n'est efficace, il faut probablement administrer la colimycine (colistiméthate sodique) et/ou un aminoside par voie nébulisée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas administrer des statines comme traitement adjuvant des pneumonies associées aux soins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "R3.2 : méta-analyse de 4 ECR (1163 patients) — aucune différence mono- vs. bithérapie sur la mortalité (OR 0,97), la guérison clinique (OR 0,88) ou les effets secondaires (OR 0,93) ; bithérapie probabiliste indiquée si ≥1 facteur de risque de BMR/BGN non fermentant (antibiothérapie &lt;90j, hospitalisation &gt;5j, EER, choc septique, SDRA) ou mortalité prédictible &gt;25 % — à réadapter en monothérapie selon l'antibiogramme. R3.3 : prévalence du SARM en France &lt;3 % (vs. 15 % dans l'étude positive isolée) — pas d'argument pour un usage systématique ; facteurs incitant à couvrir le SARM : prévalence locale élevée, colonisation récente, lésion cutanée chronique, dialyse chronique. R3.5 : 2 méta-analyses (508 et 883 patients) — pas de différence de mortalité J28/séjour/hôpital entre traitement court (≤8j) et long (&gt;9j), plus de jours vivants sans antibiotiques à J28 (+4,02j) avec le traitement court ; tendance à plus de récidives pour les BGN non fermentants (non confirmée dans la 2e méta-analyse) ; patients immunodéprimés et empyème/pneumonie nécrosante exclus des études — ne pas étendre la recommandation à ces situations. R3.6 : méta-analyse (6 ECR + 5 études observationnelles) — bénéfice sur la mortalité (RR 0,64) et réduction de néphrotoxicité (RR 0,33) avec la voie nébulisée ; nécessite une formation préalable des équipes au matériel spécifique. R3.7 : 5 ECR + 1 méta-analyse (867 patients) — aucun bénéfice des statines sur mortalité, durée de séjour ou de VM ; bonne tolérance mais absence d'effet retenue comme interprétable malgré un sous-groupe observationnel favorable (hétérogène, biais de publication).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Tableau IV (source) — Protocole de soin n°4 : schémas thérapeutiques (avis d'experts)",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Si allergie aux β-lactamines",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pneumonie précoce (&lt;5j), sans choc septique ni FdR de BMR",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline/acide clavulanique 3-6 g/j OU céfotaxime (C3G) 3-6 g/j",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Lévofloxacine",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pneumonie précoce (&lt;5j) + choc septique, sans FdR de BMR",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline/ac. clav. OU céfotaxime + aminoside (ex. gentamicine 8 mg/kg/j) OU fluoroquinolone (ex. ofloxacine 200 mg×2/j)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Lévofloxacine 500 mg×2/j + gentamicine 8 mg/kg/j",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pneumonie tardive (≥5j) ou FdR de bacille à Gram négatif non fermentant",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ceftazidime 6 g/j OU céfépime 4-6 g/j OU pipéracilline-tazobactam 16 g/j (ou si BLSE) OU imipénem-cilastatine 3 g/j OU méropénème 3-6 g/j + aminoside (amikacine 30 mg/kg/j, priorité sur gentamicine) OU fluoroquinolone (ciprofloxacine 400 mg×3/j)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Aztréonam 3-6 g/j + clindamycine 600 mg×3-4/j",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Facteurs de risque de SARM (ajout systématique)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Vancomycine 15 mg/kg puis 30-40 mg/kg/j OU linézolide 600 mg×2/j",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Posologies indicatives pour un patient à fonction rénale normale et poids standard. FdR de bacille à Gram négatif non fermentant : antibiothérapie dans les 90 jours précédents, hospitalisation &gt;5 jours, épuration extra-rénale au diagnostic, choc septique, SDRA. FdR de SARM : prévalence locale élevée, colonisation récente, lésion cutanée chronique, dialyse chronique. Privilégier les aminosides aux fluoroquinolones pour limiter l'émergence de BMR ; privilégier l'amikacine à la gentamicine pour son activité sur les bacilles à Gram négatif non fermentants.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Synthèse, sources & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Synthèse et messages clés",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• Prévention : approche standardisée multimodale systématique (protocole n°1) — privilégier la VNI, limiter sédation, nutrition entérale précoce, contrôle du ballonnet, aspiration sous-glottique, voie orotrachéale. Décontamination digestive sélective probablement recommandée si prévalence de BMR &lt;20 % (durée d'antibioprophylaxie systémique &lt;5 jours). Plusieurs pratiques autrefois proposées (trachéotomie précoce systématique, polyvidone iodée, filtres systématiques, systèmes clos d'aspiration…) sont probablement à éviter.<br/>• Diagnostic : il ne faut probablement pas se fier aux scores cliniques (CPIS) ni aux biomarqueurs (PCT, sTREM-1) — diagnostic radio-clinico-microbiologique (protocole n°3). Il faut probablement réaliser un prélèvement microbiologique avant toute (ré)introduction d'antibiotique, sans retarder le traitement urgent des formes graves.<br/>• Traitement : bithérapie probabiliste réservée aux patients à risque de BMR/BGN non fermentant ou à mortalité prédictible élevée — monothérapie en 1ère intention sinon (recommandation forte), et désescalade probablement recommandée après documentation (y compris pour les BGN non fermentants). Pas de couverture anti-SARM systématique en France (prévalence &lt;3 %). Durée de traitement ≤7 jours (recommandation forte ; hors immunodépression, empyème, pneumonie nécrosante/abcédée). Nébulisation de colimycine/aminoside probablement indiquée en cas d'impasse thérapeutique sur BGN multirésistant. Statines : pas d'indication en traitement adjuvant (recommandation forte).<br/>• Chez le BPCO : VNI probablement recommandée pour le sevrage ventilatoire (réduction attendue de la durée de VM invasive, de l'incidence des PAS et de la morbi-mortalité). Chez l'enfant : approche multimodale et prélèvements avant antibiothérapie, mêmes principes que chez l'adulte (niveau de preuve GRADE 2+).",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Pneumonies associées aux soins de réanimation » — Recommandations Formalisées d'Experts communes SFAR-SRLF, en collaboration avec l'ADARPEF et le GFRUP. Texte validé par le CA SFAR (29/06/2017) et le CA SRLF (08/06/2017), publié Anesth Reanim. 2018;4:421-441. 16 experts francophones, coordination M. Leone (SFAR), L. Bouadma (SRLF).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> les 15 recommandations numérotées chez l'adulte (R1.1-R1.5, R2.1-R2.3, R3.1-R3.7), les 2 recommandations pédiatriques (R1.1 et R2.2 « Pédiatrique »), et les 4 protocoles de soins (avis d'experts) sont reproduits intégralement, avec les statistiques clés de chaque argumentaire. Concordance exacte avec le résumé officiel sur le total (15 recommandations adultes + 2 pédiatriques + 4 protocoles).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Divergence de répartition GRADE (disclosure) :</b> le résumé officiel annonce « 3 GRADE 1 et 11 GRADE 2 » sur les 15 recommandations adultes ; notre comptage direct sur chacun des 15 tags imprimés dénombre 4 GRADE 1 (R1.1, R3.2, R3.5, R3.7) et 10 GRADE 2 — le total de 15 concorde, la répartition annoncée par le résumé non. Chaque tag est reproduit ici exactement comme imprimé à côté de sa recommandation dans le corps du texte.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Populations spécifiques :</b> 4 populations ont été « analysées » par la source (BPCO, neutropénie, postopératoire, pédiatrie) mais seules la BPCO et la pédiatrie ont donné lieu à des recommandations numérotées dédiées — neutropénie et postopératoire n'apparaissent que dans l'argumentaire d'autres recommandations (ex. R2.2 pour l'oncohématologie, R1.3 pour la VNI postopératoire), sans recommandation propre.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations de la RFE mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR/SRLF. En cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

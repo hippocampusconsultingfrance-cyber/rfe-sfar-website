@@ -1,0 +1,1300 @@
+{
+ "doc": "nvpo",
+ "sections": [
+  {
+   "title": "Q1-4 — Introduction, facteurs de risque, sétrons, stéroïdes",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge des nausées et vomissements postopératoires (NVPO) chez l'adulte et l'enfant — prévention (identification du risque, prophylaxie pharmacologique et non pharmacologique) et traitement curatif. Conférence d'experts SFAR (texte court), 10 « Questions » (chapitres), publiée 2008. <b>Convention de cotation propre à ce document</b> : G1+ = il faut faire ; G2+ = il faut probablement faire ; G1- = il ne faut pas faire ; G2- = il ne faut probablement pas faire — <b>pas de catégorie « avis d'experts »</b> : lorsque les données sont insuffisantes, le panel déclare explicitement ne pas être en mesure de formuler de recommandation (4 occurrences, signalées explicitement dans cette fiche).<br/><br/><b>Q1 — Les NVPO, un problème important ?</b> Environ 30 % des patients opérés sont sujets à des NVPO, jusqu'à 80 % dans certains groupes à risque. Facteurs associés : sexe féminin, enfants/adolescents, antécédents de NVPO/mal des transports (incidence augmentée) ; tabagisme, alcoolisme (incidence réduite) ; anesthésie générale par inhalation halogénée (vs AIVOC propofol) ; opiacés périopératoires ; néostigmine &gt; 2,5 mg ; durée d'anesthésie/chirurgie prolongée. Conséquences : inconfort, douleur postopératoire majorée, pneumopathie d'inhalation, troubles hydroélectrolytiques, désunion de sutures, retard de mobilisation, surcoûts (SSPI, réadmissions).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (convention propre à ce document)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas faire",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Q2 — Facteurs de risque des NVPO chez l'adulte",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Facteurs bien établis : sexe féminin (OR≈3, facteur indépendant le plus important) ; non-fumeur (OR≈2) ; antécédents de NVPO/mal des transports ; anesthésie par inhalation halogénée (double le risque vs AIVOC) ; protoxyde d'azote (facteur indépendant, influence moindre que les halogénés) ; morphiniques postopératoires (double le risque). Facteurs possibles : ASA I-II, migraine, anesthésie locorégionale (risque moindre), hydratation pré/peropératoire optimale (pourrait réduire le risque), sonde nasogastrique (aggravant), néostigmine aux doses habituelles (≤2,5 mg, sans sur-risque probable) ; type de chirurgie non clairement démontré comme facteur (données plus controversées pour la chirurgie gynécologique/laparoscopique). Facteurs réfutés : obésité, cycle menstruel, rémifentanil, FiO2 élevée (80 %).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Scores de\nprédiction",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser des scores de prédiction simplifiés pour estimer le risque de NVPO d'un patient donné.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Q3 — Les antagonistes du récepteur 5HT3 (AR-5HT3, « sétrons »)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prophylaxie\nsystématique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'administration prophylactique systématique d'AR-5HT3 n'est pas recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prophylaxie\nciblée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'administration prophylactique d'un AR-5HT3 est recommandée en fin d'intervention chez les patients à risque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Approche\nmultimodale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'usage d'AR-5HT3 est recommandé dans le cadre de l'approche multimodale des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement\ncuratif",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'usage d'AR-5HT3 est recommandé dans le traitement curatif de première intention des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Efficaces quels que soient type d'intervention/anesthésie/patient ; pas de supériorité démontrée sur la dexaméthasone ou le dropéridol. Doses prophylaxie : ondansétron 4 mg, granisétron 0,3 mg, dolasétron 12,5 mg, tropisétron 2 mg. Doses traitement : ondansétron 4 mg (efficace dès 1 mg), dolasétron 12,5 mg, granisétron 0,1 mg, tropisétron 0,5 mg. Ne pas répéter le même antiémétique avant 6h ; changer de classe en cas d'échec. Effets secondaires modérés (céphalées 10-20 %, constipation 5-10 %) ; allongement du QT (effet de classe, sans conséquence clinique démontrée chez l'adulte).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Q4 — Corticostéroïdes (dexaméthasone) et dropéridol",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dexa —\nprophylaxie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La dexaméthasone est recommandée dans la prévention des NVPO des patients à risque ; chez les patients à risque élevé, l'association à un AR-5HT3 et/ou au dropéridol est recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dexa — ACP",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans l'état actuel des connaissances, la dexaméthasone administrée en peropératoire n'est pas suffisante pour se substituer à l'ajout de dropéridol dans la prévention des NV induits par la morphine en ACP.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dexa —\ntraitement",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La dexaméthasone ne doit pas être utilisée seule dans le traitement curatif de NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dexa — dose",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La dose intraveineuse recommandée de dexaméthasone est comprise entre 4 et 8 mg, administrée à l'induction de l'anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dexa —\nitération",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'administration répétée de dexaméthasone n'a pas été évaluée dans cette indication et ne peut de ce fait pas être recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Dexaméthasone : efficacité similaire aux AR-5HT3 et au dropéridol, supérieure au métoclopramide ; simple, bien tolérée, peu coûteuse en dose unique. Hyperglycémie possible (diabétiques et non diabétiques) ; données rassurantes sur le risque infectieux.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q4-6 — Dropéridol, NK1, autres traitements",
+   "items": [
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dropéridol —\nprophylaxie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le dropéridol est recommandé dans la prophylaxie des NVPO chez les patients à risque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dropéridol —\ntraitement",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le dropéridol est recommandé pour le traitement des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dropéridol —\nhaut risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients à haut risque, l'association du dropéridol à un AR-5HT3 et/ou à la dexaméthasone peut être recommandée ; le dropéridol est recommandé dans la prévention des NV induits par la morphine en ACP.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dropéridol —\nQT long",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le dropéridol devrait être évité dans les syndromes du QT long congénitaux ou acquis.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dropéridol —\ndose/itération",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser la dose minimale efficace de dropéridol (0,625 à 1,25 mg IV) ; en cas de nécessité, il pourrait être réadministré au bout de 6 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Posologie en ACP : dropéridol 0,015 à 0,050 mg par mg de morphine. Le moment optimal d'administration du dropéridol n'a pas pu être déterminé par le panel d'experts (pas de recommandation sur ce point précis). Bien toléré globalement ; peut majorer la sédation et les symptômes extrapyramidaux (surtout en ACP) ; allonge le QT à faible dose (données épidémiologiques rassurantes sur le risque rythmique).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Q5 — Antagonistes du récepteur NK1 (AR-NK1)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aprépitant",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'aprépitant (40 mg per os, 1 à 3 heures avant l'intervention) peut être utilisé pour la prévention des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Enfant/\nadolescent",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La tolérance et l'efficacité n'ayant pas été établies chez l'enfant et l'adolescent, l'utilisation chez les patients de moins de 18 ans n'est pas recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Seul AR-NK1 approuvé en France en 2008 pour la prévention des NVPO. Supérieur à l'ondansétron 4 mg IV sur les vomissements et les nausées postopératoires. Forme injectable non disponible en France à la date de publication.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Q6 — Autres traitements (hors sétrons, dropéridol, stéroïdes, AR-NK1)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Acupuncture",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients à risque opposés à une prophylaxie pharmacologique recherchant des alternatives, une technique par stimulation de points d'acupuncture (point P6) peut être considérée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Relaxation/\nhypnose",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ni la relaxation, ni l'hypnose ne peuvent être recommandées pour la prise en charge des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cannabinoïdes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les cannabinoïdes ne doivent pas être utilisés pour le contrôle des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aromathérapie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'aromathérapie ne peut être recommandée pour le contrôle des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Oxygène —\npéropératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La supplémentation en oxygène ne peut être recommandée en tant que mesure de contrôle des NVPO réalisée en peropératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Oxygène —\npostopératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La supplémentation en oxygène ne peut être recommandée en tant que mesure de contrôle des NVPO réalisée en postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Soluté de\nremplissage",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La période de jeûne doit être compensée par l'administration d'une quantité adéquate de fluide.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Métoclo-\npramide",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En raison d'une activité antiémétique modeste aux doses faibles et du risque accru d'effets indésirables aux doses élevées, le métoclopramide ne peut être recommandé en antiémétique de première ligne.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Halopéridol —\nutilisation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'halopéridol à petites doses peut être utilisé comme antiémétique pour le contrôle des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Halopéridol —\n1ère ligne",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'halopéridol ne peut pas être considéré comme un médicament de première ligne dans cette indication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Scopolamine\ntransdermique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de contre-indication, la scopolamine transdermique peut être considérée en tant qu'antiémétique pour la prévention des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AR-H1\n(prométhazine…)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les anesthésistes peuvent envisager le recours à la prométhazine ou au dimenhydrinate lorsque les autres antiémétiques dont l'effet est mieux établi ne sont pas disponibles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AR-H2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour la prévention ou le traitement des NVPO, les AR-H2 ne peuvent être recommandés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Gingembre",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Du fait de l'absence de données validées suffisantes, le groupe ne peut recommander le gingembre pour le contrôle des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Midazolam",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les anesthésistes peuvent considérer le midazolam en tant qu'alternative lorsque d'autres antiémétiques dont l'effet est mieux établi ne sont pas disponibles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Propofol à\npetites doses",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour le contrôle des NVPO établis résistant à d'autres traitements, on peut envisager la perfusion de propofol à petites doses subanesthésiques, sous surveillance par du personnel médical qualifié dans une structure adaptée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Pas de recommandation possible (données insuffisantes)</b> — le panel déclare explicitement, dans les mêmes termes pour chacune des 4 substances suivantes, « ne pas être en mesure de proposer de recommandation » : <b>dixyrazine</b> (relation dose-effet inconnue, effets secondaires mal compris) ; <b>éphédrine</b> (peu d'essais, relation dose-effet non établie) ; <b>clonidine</b> (très peu d'essais randomisés) ; <b>gabapentine</b> (effet antiémétique propre non distingué d'un effet d'épargne opioïde).",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Q7-9 — Stratégies, algorithme, situations locales, pédiatrie",
+   "items": [
+    {
+     "t": "section",
+     "text": "Q7 — Stratégies de prise en charge des NVPO",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Monothérapie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La prévention antiémétique par un seul agent n'est recommandée que chez des patients à faible risque de NVPO, et seulement si un traitement de secours rapidement efficace peut être assuré sans délai.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Combinaison",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une combinaison de deux agents antiémétiques au moins doit être utilisée pour la prévention des NVPO chez les patients présentant des risques modérés ou élevés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Multimodal\nhaut risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les patients à haut risque doivent bénéficier d'une approche multimodale de prévention des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Secours —\n1ère intention",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de prophylaxie, les AR-5HT3 sont recommandés pour le traitement de première intention des NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Secours —\néchec prophylaxie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si une prophylaxie a échoué dans les six heures suivant son administration, il est recommandé d'utiliser pour le traitement de secours un antiémétique d'une autre classe que celle qui a été choisie pour la prophylaxie ; une association d'antiémétiques est raisonnable pour assurer un traitement curatif et une prophylaxie secondaire efficaces.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Conclusion (non graduée) :</b> les algorithmes améliorent la prise en charge antiémétique. Il n'existe cependant pas de preuve de la supériorité d'un algorithme par rapport aux autres — le facteur le plus important est le nombre d'antiémétiques administrés, pas l'algorithme précis suivi.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Q8 — Intégration des situations locales ou particulières",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Algorithme",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser un algorithme pour la prise en charge des NVPO, et d'adapter cette prise en charge aux situations locales ou particulières.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Programme\nqualité",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cette démarche peut s'inscrire dans le cadre général d'un programme qualité institutionnel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Facteurs\nsuppl.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Au-delà des facteurs de risque reconnus, il est recommandé de prendre en compte les situations où les vomissements entraînent un risque particulier pour le patient, de considérer les contraintes locales périopératoires, et de tenir compte des désirs exprimés par le patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Q9 — Particularités en chirurgie pédiatrique",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Incidence des VPO ≈ 30 % tous âges/chirurgies confondus, jusqu'à 80 % pour strabisme, amygdalectomie, hernie inguinale, neurochirurgie. Facteur âge : faible avant 3 ans, augmente ensuite ; sexe : jeunes filles plus affectées après la puberté ; antécédent personnel/familial de VPO/NVPO/mal des transports.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dépistage",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'identification des facteurs de risque est souhaitable pour établir une stratégie de prise en charge préventive des VPO de l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Faible risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les enfants à faible risque, l'administration prophylactique d'antiémétique n'est pas indiquée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque de base",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de réduire autant que possible le risque de base, en proposant une technique anesthésique la moins émétisante possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque modéré/\nélevé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser une stratégie préventive privilégiant les associations d'antiémétiques, supérieures aux monothérapies, en tenant compte de l'efficacité, des effets secondaires et du coût.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1ère intention",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'association thérapeutique préconisée en première intention combine un AR-5HT3 à la dexaméthasone.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement\nétabli",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le traitement des NVPO établis ou de leur récidive est extrapolé de celui de l'adulte.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Échec\nprophylaxie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'échec d'une prophylaxie, il est recommandé d'utiliser une autre classe antiémétique que celle déjà mise en œuvre.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réadmin.\nantiémétique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est éventuellement possible de réadministrer le même antiémétique après une durée de six heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réadmin.\ndexaméthasone",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de ne pas réadministrer la dexaméthasone.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dropéridol —\nusage restreint",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de n'utiliser le dropéridol qu'en cas d'échec des autres classes et seulement si le patient est hospitalisé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q9-10 — Pédiatrie (suite), ambulatoire, traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Q10 — Particularités en chirurgie ambulatoire",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Les NVPO prolongent le séjour, retardent le retour à domicile, augmentent le risque d'admission imprévue et diminuent la satisfaction du patient. Aucune stratégie spécifique à la chirurgie ambulatoire ne réduit la survenue des NVPO au-delà de la réduction du risque de base (analgésie multimodale, hydratation IV, anesthésie locorégionale).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Haut risque\nambulatoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'adopter une stratégie antiémétique prophylactique multimodale chez les patients ambulatoires identifiés à haut risque de NVPO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Après la\nsortie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le traitement des NVPO survenant après la sortie repose sur la prescription d'antiémétiques validés en prophylaxie, en changeant de classe et sous une forme galénique adaptée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge des nausées et vomissements postopératoires » — Conférence d'experts, texte court, SFAR. Coordonnateur : P. Diemunsch (Strasbourg). 10 chapitres rédigés par un panel international d'auteurs (France, Belgique, Suisse, Allemagne, Finlande, États-Unis).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Publication :</b> Ann Fr Anesth Réanim 2008;27:866-878, disponible en ligne le 25/10/2008. DOI 10.1016/j.annfar.2008.09.004.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> système GRADE, convention de cotation propre au document (G1+/G2+/G1-/G2-, pondérée par la balance bénéfices/risques ; pas de catégorie « avis d'experts » — items sans recommandation possible déclarés explicitement comme tels).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/prise-en-charge-des-nausees-et-vomissements-postoperatoires/",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations graduées, des 4 items « pas de recommandation » et des 4 tableaux + 1 figure de la conférence d'experts, mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

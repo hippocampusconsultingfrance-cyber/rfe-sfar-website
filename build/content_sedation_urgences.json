@@ -1,0 +1,3215 @@
+{
+ "doc": "sedation_urgences",
+ "sections": [
+  {
+   "title": "Méthodologie & Q1 — Pharmacologie",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> sédation et/ou analgésie en médecine d'urgence (extra- et intra-hospitalier), pour douleurs essentiellement sévères. Exclus : sédation de l'état de mal épileptique et des états d'agitation aiguë psychiatrique (référentiels dédiés), sédation pour imagerie, analgésie-sédation en bloc opératoire.<br/><br/><b>Méthodologie GRADE adaptée à 3 niveaux</b> (le groupe de travail a explicitement adapté la méthode GRADE classique faute d'études de haut niveau suffisantes) : <b>Niveau 1</b> (preuve élevée) — « il faut faire »/« on doit faire » ou « il ne faut pas faire »/« on ne doit pas faire » → recommandation forte (1+/1-). <b>Niveau 2</b> (preuve modérée) — « les experts recommandent de faire/de ne pas faire » → recommandation optionnelle (2+/2-). <b>Niveau 3</b> (preuve faible ou absente) — « les experts proposent » → avis d'experts (AE). Un accord DELPHI/RAND-UCLA modifié a validé chaque recommandation ; « accord faible » est signalé explicitement par la source pour certaines d'entre elles et reproduit ici entre parenthèses.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (convention des experts)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Forte — «il faut faire»",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Forte — «il ne faut pas faire»",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Optionnelle — «experts recommandent»",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Optionnelle — «ne recommandent pas»",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "«Les experts proposent» (preuve faible/absente)",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 1 — Pharmacologie des agents utilisés en urgence",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Principe",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un nombre restreint d'agents sédatifs et analgésiques doit être sélectionné pour l'utilisation en urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Titration",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adapter la posologie de tout agent anesthésique/sédatif (tous dépresseurs cardiovasculaires et respiratoires) à la situation d'urgence, en se basant sur la titration, sauf pour les médicaments de l'induction en séquence rapide (ISR).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer 0,1 à 0,3 mg/kg IV pour l'analgésie d'un patient en ventilation spontanée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer 0,1 à 0,2 mg/kg IV pour une coanalgésie en association avec un morphinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine — intubation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer 2 à 3 mg/kg IV pour faciliter l'intubation trachéale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Agents inhalés autres",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors du MEOPA (mélange équimoléculaire oxygène-protoxyde d'azote, agent analgésique intéressant en médecine d'urgence), les autres agents anesthésiques par inhalation ne sont pas recommandés en situation d'urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Salicylés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'utilisation des salicylés (aspirine) n'est pas recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Morphine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer la morphine en bolus titrés par voie intraveineuse (opiacé de référence pour les douleurs aiguës sévères en ventilation spontanée).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Agonistes-antagonistes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les opiacés agonistes partiels et agonistes-antagonistes ont un effet-plafond rapide et n'ont pas moins d'effets secondaires que la morphine à doses équi-analgésiques (pas d'avantage démontré).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Succinylcholine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Curare dépolarisant, délai d'action 60-90 s. Contre-indications : hyperkaliémie connue/suspectée, antécédents d'allergie ou d'hyperthermie maligne/myopathie, plaie du globe oculaire, dénervation étendue (hémi/para/tétraplégie), brûlé grave après 24h, rhabdomyolyse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rocuronium",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Curare non dépolarisant d'action rapide (1,2 mg/kg → conditions d'intubation proches de la succinylcholine en 60-90 s, durée ≥ 50 min) ; antagonisable par sugammadex (16 mg/kg), le rendant utilisable pour l'ISR en cas de contre-indication à la succinylcholine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curares non dépolarisants",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne se conçoit que chez un patient intubé, ventilé et correctement sédaté (sauf rocuronium en alternative à la succinylcholine).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Midazolam : molécule la mieux adaptée parmi les benzodiazépines pour la sédation en urgence (anxiolyse, amnésie, dépression ventilatoire, variabilité interindividuelle et durée d'action prolongée → titration). Étomidate : action hypnotique rapide (5-15 min), myoclonies fréquentes, bonne tolérance hémodynamique (intéressant si hypovolémie/dysfonction cardiaque), insuffisance surrénale aiguë transitoire même après injection unique. Propofol et thiopental : déconseillés pour l'induction en cas d'hypovolémie, instabilité hémodynamique potentielle, insuffisance coronaire/cardiaque, ou traumatisme crânien grave — le thiopental s'accumule rapidement en administration répétée/continue. Chez le patient ventilé, morphiniques usuels : fentanyl et sufentanil.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q2 (1/2) — Ventilation spontanée : évaluation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 2 (1/2) — Ventilation spontanée : évaluation & objectifs",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Principe",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traiter toute douleur aiguë en urgence, quelle que soit la pathologie, dès le début de la prise en charge ; prévenir et traiter les douleurs induites par les soins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Évaluation initiale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer l'intensité de la douleur dès le début de la prise en charge, après mise en œuvre des mesures non médicamenteuses (information, immobilisation, prévention de l'hypothermie, cryothérapie si besoin).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Protocoles",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le traitement de la douleur en urgence doit reposer sur des protocoles, associés à une formation des équipes et des évaluations régulières des pratiques (EPP).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réévaluation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réévaluer l'intensité de la douleur pour apprécier l'efficacité des thérapeutiques, avec des échelles d'autoévaluation (EVA, échelle numérique EN) chez l'adulte communicant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Échelle verbale simple",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si EVA/EN non réalisables, utiliser l'échelle verbale simple à cinq niveaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hétéro-évaluation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si l'autoévaluation n'est pas réalisable : échelles ECPA ou Algoplus proposées pour les personnes âgées (il n'existe pas d'échelle validée chez l'adulte non communicant, accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur neuropathique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser le questionnaire DN4 pour rechercher une douleur neuropathique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Niveau de sédation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer le niveau de sédation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Score de sédation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un score de sédation adapté à la médecine d'urgence (Ramsay, EDS ou ATICE).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Objectifs thérapeutiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cibler EVA ≤ 30 mm ou EN ≤ 3, avec un score de sédation Ramsay = 2, EDS < 2 ou ATICE ≥ 4.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ALR",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser les techniques d'anesthésie locale et/ou locorégionale lorsqu'elles sont indiquées et réalisables.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q2 (2/2) — Ventilation spontanée : traitement & Fig.1",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 2 (2/2) — Ventilation spontanée : traitement & surveillance",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Paliers I/II",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traiter les douleurs faibles à modérées par des antalgiques de palier I ou II, seuls ou en association.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "MEOPA",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser le MEOPA en traumatologie légère et pour les douleurs induites par les soins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleurs intenses",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les douleurs intenses (EVA ≥ 60 mm ou EN ≥ 6), recourir d'emblée aux morphiniques intraveineux en titration, seuls ou en analgésie multimodale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Agonistes-antagonistes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer les morphiniques de type agonistes-antagonistes ou agonistes partiels.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Titration morphine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Protocole de titration IV en morphine par bolus de 2 mg (patient < 60 kg) à 3 mg (patient ≥ 60 kg) toutes les 5 minutes, applicable à toutes les situations d'urgence y compris chez les sujets âgés. Un bolus initial rapporté au poids (0,05-0,1 mg/kg) peut être autorisé chez certains patients ciblés, sous surveillance médicale permanente prolongée (accord faible) — pas d'argument scientifique pour le recommander largement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fentanyl/sufentanil VS",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandés pour l'analgésie du patient en ventilation spontanée (rémifentanil et alfentanil insuffisamment évalués dans ce contexte).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Multimodale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier les associations d'antalgiques (analgésie multimodale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Multimodale — traumatologie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En traumatologie : MEOPA, kétamine, néfopam et/ou ALR en association à la morphine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur neuropathique aiguë",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Néfopam et/ou kétamine à faible posologie, en association aux antalgiques usuels (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ALR diffusion",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Diffuser plus largement les techniques d'ALR (bloc iliofascial, blocs au poignet, à la cheville, blocs de la face).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surveillance titration",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de titration IV morphinique : surveillance clinique systématique (score de sédation EDS, fréquence respiratoire), complétée selon les cas par surveillance hémodynamique et SpO2.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Procédures d'alerte",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place des procédures précisant les modalités d'interruption de la titration voire l'utilisation d'antagonistes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Naloxone",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer la naloxone en titration par bolus réitérés de 0,04 mg IV si sédation excessive (EDS > 2), apnée, bradypnée < 10/min ou désaturation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Nausées-vomissements",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dropéridol (1,25 mg IV) ou antagonistes 5HT3 (ondansétron 4 mg IV) pour prévention/traitement des nausées-vomissements liés à la titration morphinique (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sortie du SAU",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sortie vers un service non monitoré autorisée au plus tôt 1h après la dernière injection IV de morphine ; aptitude à la rue au plus tôt 2h après.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Relais analgésique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Initier le relais analgésique après la titration morphinique avant la récidive douloureuse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Relais — protocole",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un protocole de relais tenant compte du potentiel évolutif douloureux et de l'efficacité observée au SAU est proposé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Relais — voie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si relais morphinique envisagé : privilégier PCA ou voie sous-cutanée (données insuffisantes pour recommander la voie orale, accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleurs induites par les soins",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Favoriser molécules à pharmacocinétique rapide, MEOPA, anesthésie locale et/ou locorégionale dès que possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Benzodiazépines + morphine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas associer à la titration morphinique une sédation par benzodiazépines (potentialisation des effets secondaires).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Agitation persistante",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sauf agitation persistante malgré analgésie bien conduite : réserver alors le midazolam en titration IV par bolus de 1 mg, sous stricte surveillance (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Toxicomanie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient sous morphiniques au long cours ou toxicomane, ne pas interrompre brutalement les traitements morphiniques sans relais.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Toxicomanie — alternatives",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier la co-analgésie, l'administration de kétamine, ainsi que l'ALR, en complément de la titration morphinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Figure 1 — transcrite depuis le diagramme de la page 7 du document source (vérifié visuellement).</i>",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Figure 1 — Traitement antalgique selon l'intensité de la douleur (adulte, ventilation spontanée) :</b> évaluation quantitative de la douleur (EVA, EN, ou à défaut EVS) →<br/>• <b>EVA &lt; 60 / EN &lt; 6 / EVS = 1-2 :</b> paracétamol 1 g IV en 15 min (ou palier II) ± AINS IV ± MEOPA ± analgésie locale/locorégionale* → réévaluation → si EVA &gt; 30/EN &gt; 3/EVS ≥ 2 : morphine en titration IV sans dose maximale, bolus de 2-3 mg IVD toutes les 5 min.<br/>• <b>EVA ≥ 60 / EN ≥ 6 / EVS &gt; 2 :</b> morphine en titration IV par bolus de 2-3 mg IVD** ± MEOPA ± AINS IV ± analgésie locale/locorégionale* → réévaluation toutes les 5 min → si EVA ≤ 30/EN ≤ 3/EVS &lt; 2 et/ou sédation excessive et/ou bradypnée &lt; 10/min et/ou désaturation : stop morphine, mesures symptomatiques si nécessaire**** (stimulation et/ou assistance ventilatoire et/ou naloxone IV).<br/>* Respect des contre-indications de chaque molécule/technique. ** Dose de charge possible sous couverture d'une présence médicale permanente et prolongée : bolus initial 0,05-0,10 mg/kg IVD à adapter à l'âge et au terrain. *** Délai de réévaluation fonction du type d'antalgique administré.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Q3 — Intubation ISR & Fig.2",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 3 — Intubation sous ISR et sous anesthésie locale",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sédation systématique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer une sédation pour toutes les indications de l'intubation trachéale, excepté chez le patient en arrêt cardiaque (pas de sédation nécessaire).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intubation vigile",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si intubation présumée difficile : anesthésie locale de proche en proche possible, associée ou non à une sédation légère et titrée par voie générale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Choix ISR",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser les techniques d'ISR associant un hypnotique d'action rapide (étomidate ou kétamine) et un curare d'action brève (succinylcholine).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "État de mal épileptique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Thiopental (5 mg/kg) comme hypnotique pour l'ISR chez le patient hémodynamiquement stable, dans l'attente de l'actualisation de la Conférence de Consensus dédiée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rocuronium alternatif",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de contre-indication à la succinylcholine : rocuronium (1,2 mg/kg IVL), sous réserve de pouvoir l'antagoniser par sugammadex (16 mg/kg IVL) en cas d'échec de l'intubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bénéfice/risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer le rapport bénéfice/risque avant la procédure, compte tenu des risques de tentatives infructueuses et de l'utilisation des médicaments anesthésiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Effets hémodyn.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traiter les effets hémodynamiques liés à la sédation par expansion volémique et éphédrine (bolus de 3-6 mg IVD) ; chez le patient hypovolémique/vasoplégique, recourir d'emblée aux catécholamines type noradrénaline.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Figure 2 — transcrite depuis le diagramme de la page 9 du document source (page sans texte extractible, entièrement rasterisée — vérifiée visuellement à 400dpi).</i>",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Figure 2 — Algorithme intubation trachéale en urgence (adulte) :</b><br/><b>1. Équipement prêt à l'emploi et vérifié :</b> matériel de ventilation/aspiration immédiatement disponible, monitorage cardiovasculaire/SpO2/EtCO2, matériel d'intubation difficile disponible.<br/><b>2. Mise en condition du patient :</b> préoxygénation, voie veineuse et remplissage préalable si nécessaire, éphédrine (30 mg dilués dans 10 mL) prête à l'emploi.<br/><b>3a. Sédation dans le cadre d'une ISR :</b> étomidate 0,3-0,5 mg/kg IVL ou kétamine 2-3 mg/kg IVL, immédiatement suivi de succinylcholine 1 mg/kg IVL ; pression cricoïdienne (hors contre-indication) débutée dès la perte de conscience, maintenue jusqu'à vérification de la position endotrachéale, levée en cas de vomissement actif.<br/><b>3b. Intubation vigile :</b> lidocaïne 2-5% en pulvérisation de proche en proche ; complément de sédation IV : midazolam 1 mg par 1 mg, associé ou non à morphine 2 mg par 2 mg.<br/><b>4. Intubation endotrachéale par voie orale :</b> vérification de la position par EtCO2 et auscultation (absence d'intubation sélective), vérification de la pression du ballonnet (au mieux au manomètre).<br/><b>5.</b> La sédation en entretien doit débuter le plus rapidement possible.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Q4 — Intubé-ventilé & Q5a — État de choc",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 4 — Patient intubé-ventilé",
+     "color": "amber"
+    },
+    {
+     "t": "p",
+     "html": "<i>Question entière retranscrite depuis la page 9 du document source (page sans texte extractible — vérifiée visuellement, voir note de fiabilité de source en tête de fichier).</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Début immédiat",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La sédation chez le patient ventilé en structure d'urgence doit débuter immédiatement après la réalisation de l'intubation trachéale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Protocoles",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Des protocoles écrits et validés doivent être disponibles au sein de chaque structure, précisant les médicaments à utiliser, leurs modes d'administration et les éléments de monitorage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Molécules",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Midazolam et propofol pour les hypnotiques, fentanyl et sufentanil pour les antalgiques, sont les médicaments les plus adaptés chez le patient ventilé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bolus initial",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est possible de débuter la sédation-analgésie par la prescription d'un bolus, préférentiellement de morphinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Monitorage",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le monitorage des patients sédatés doit comporter au minimum la surveillance électrocardioscopique, de la pression artérielle non invasive, de la SpO2, des pressions inspiratoires et expiratoires, des données spirométriques et de la capnographie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Optimiser la sédation avant d'envisager le recours à une curarisation pour faciliter la ventilation mécanique, sous réserve d'avoir éliminé une complication de celle-ci.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation — choix",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si la curarisation est indiquée, éviter les agents les plus histamino-libérateurs au profit d'agents comme le cisatracurium, le vécuronium ou le rocuronium (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 5a — Circonstances particulières : état de choc",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>La phrase d'ouverture ci-dessous provient de la page 9 du document source (page sans texte extractible — vérifiée visuellement, voir note de fiabilité de source en tête de fichier), comme la question 4.</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Principe",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le rapport bénéfice/risque de la sédation-analgésie et de la ventilation mécanique doit être posé, en raison des effets hémodynamiques des agents et de la ventilation, en particulier chez le patient hypovolémique et/ou en tamponade.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Posologies",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Diminuer les posologies des médicaments administrés chez le patient en état de choc.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Induction",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Étomidate ou kétamine (posologies diminuées) pour l'induction du patient en état de choc.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Induction — à éviter",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser le propofol ou le thiopental pour l'induction (effets hémodynamiques marqués) ; midazolam et gamma-hydroxybutyrate de sodium non recommandés (pharmacocinétique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Tamponade",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conserver une ventilation spontanée si possible ; si intubation nécessaire, l'effectuer en position demi-assise et en ventilation spontanée — kétamine particulièrement adaptée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Choc non corrigé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si l'état de choc n'a pu être corrigé avant l'induction, anticiper les effets hémodynamiques délétères par expansion volémique et/ou catécholamines.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Entretien",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administration continue d'un morphinique (fentanyl ou sufentanil), associée si nécessaire à du midazolam à faible posologie (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Benzodiazépines",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser les benzodiazépines avec précaution (effet vasoplégiant, hypotension d'autant plus marquée que le patient est en état de choc).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine alternative",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Kétamine + midazolam peut remplacer le morphinique, voire kétamine seule pour la sédation du patient intubé-ventilé ; kétamine + morphinique possible pour la sédation continue en état de choc (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q5b-d — Neuro, respi, femme enceinte",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 5b — Atteinte neurologique aiguë",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Barbituriques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser les barbituriques comme agent de sédation en urgence, en dehors de l'état de mal épileptique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "État de mal épileptique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Midazolam, ou en alternative propofol, pour l'entretien de la sédation, dans l'attente de l'actualisation de la Conférence de Consensus dédiée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intubé-ventilé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Association midazolam + fentanyl ou sufentanil en administration continue pour la sédation-analgésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réévaluation neuro",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Propofol en administration continue possible pour faciliter une réévaluation neurologique répétée, sous réserve de respecter les objectifs de pression de perfusion cérébrale ; kétamine + hypnotique possible, notamment en cas d'instabilité hémodynamique (intérêt neuroprotecteur potentiel).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine seule",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'association midazolam-morphinique peut être remplacée par la kétamine seule (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation entretien",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas effectuer de curarisation systématique en entretien.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation préhospitalière",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans la prise en charge initiale d'un traumatisme crânien grave, l'indication d'une curarisation associée à la sédation peut être large (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Frisson post-anoxie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Effectuer une curarisation pour éviter le frisson lors de l'induction d'une hypothermie après anoxie cérébrale aiguë.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 5c — Insuffisance respiratoire aiguë",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Poursuite de sédation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuivre la sédation après intubation pour assurer le confort, l'adaptation au respirateur et réduire les lésions liées à la ventilation mécanique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Asthme aigu grave",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Agent aux propriétés bronchodilatatrices (propofol ou kétamine) possible chez le patient en état de mal asthmatique ventilé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "SDRA",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La réduction du volume courant n'impose pas d'augmentation systématique des posologies d'agents sédatifs.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation initiale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Curarisation possible lors de la phase initiale de la sédation-analgésie (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisation continue",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Curarisation en continu recommandée en cas de difficulté pour ventiler le patient, sous réserve d'avoir éliminé une complication de la ventilation mécanique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Monitorage : surveillance électrocardioscopique, pression artérielle non invasive, SpO2, pressions inspiratoires/expiratoires, données spirométriques, capnographie.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Question 5d — Femme enceinte",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Choix des molécules",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Choisir des molécules anciennes, très largement utilisées, sans effet tératogène démontré chez l'animal ni en clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Urgence vitale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de détresse vitale immédiate, le pronostic maternel prime — aucune contre-indication formelle n'est opposable si le bénéfice escompté est évident.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ALR péridurale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser les techniques d'ALR (notamment péridurale) en dehors d'un environnement adapté (maternité, salle d'opération).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "MEOPA travail",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser le MEOPA en première intention et de manière large pour l'analgésie lors du travail obstétrical (efficacité prouvée à tous les stades, pas de complication materno-fœtale connue).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Accouchement imminent",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Morphine IV titrée possible en cas d'accouchement imminent, en anticipant les effets secondaires respiratoires néonataux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Paracétamol",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Paracétamol PO/IV pour les douleurs autres (traumatiques ou médicales) — l'un des meilleurs profils de tolérance connus.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AINS",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer d'AINS lors des 1er et 3e trimestres de la grossesse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur sévère",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Morphine titrée recommandée pour la douleur sévère à tous les stades de la grossesse, hors accouchement imminent (ALR privilégiée dès que réalisable).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q5e-f — Actes douloureux, CEE",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 5e — Réalisation d'actes douloureux",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prévention",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prévenir et traiter toutes les douleurs induites par les soins (réalignements de membre fracturé, réductions de luxation), en informant le patient si possible du déroulement et des risques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ALR",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Techniques d'analgésie locale ou locorégionale lorsqu'elles sont possibles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réalignement/réduction",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Morphine en titration IV, associée à MEOPA et/ou kétamine (0,5-1 mg/kg IV en titration), chez le patient vigile ; midazolam en complément possible (potentialisation des effets respiratoires/hémodynamiques à anticiper, surveillance prolongée, accord faible). Alfentanil possible mais insuffisamment documenté.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sédation profonde",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si sédation profonde nécessaire (ex. réduction de luxation) : recours à un médecin anesthésiste-réanimateur privilégié ; à défaut, propofol lent et titré à faible posologie (1-1,5 mg/kg IV, à diminuer chez le sujet âgé/fragile), comme alternative à l'ISR classique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 5f — Choc électrique externe (CEE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ACR",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En présence d'un arrêt circulatoire (tachycardie sans pouls, ou arrêt cardiaque survenant devant l'équipe) : effectuer immédiatement le CEE, sans sédation préalable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Patient conscient",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pratiquer une sédation avant d'effectuer le CEE chez le patient conscient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sédation brève",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si tachycardie responsable d'une décompensation avec espoir de retour à l'état antérieur : CEE sous sédation brève, propofol lent et titré à faible posologie (0,5-0,8 mg/kg IV — meilleur rapport bénéfice/risque, utilisé hors AMM après formation dédiée).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Alternative midazolam",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Midazolam en titration IV, suivi ou non d'une réversion par flumazénil IV continu, en alternative au propofol (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque de régurgitation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans les situations à haut risque (obésité, grossesse, hernie hiatale, diabète, repas récent) : évaluer le rapport bénéfice/risque d'une ISR avec intubation orotrachéale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Défaillance cardiaque gauche",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si tachycardie dans un contexte de défaillance cardiaque gauche aiguë non directement responsable : ISR selon les modalités habituelles, CEE, puis maintien sous ventilation mécanique pour traiter la défaillance (notamment infarctus aigu, angioplastie).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q5g-h — Incarcéré, afflux de victimes",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 5g — Patient incarcéré",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fonctions vitales",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer de l'oxygène ; matériel d'aspiration, de ventilation, d'intubation et naloxone immédiatement disponibles ; envisager l'analgésie/sédation au plus tôt.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur tolérée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tolérer une douleur modérée pendant la désincarcération plutôt que de rechercher une analgésie totale exposant à hypoventilation/perte des réflexes de protection des voies aériennes (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Morphine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le blessé conscient : morphine IV en titration par bolus répétés de 2-3 mg toutes les 5 min, sous surveillance de la fréquence respiratoire et de la SpO2.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intubation précoce",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Toujours évaluer le rapport bénéfice/risque d'une intubation précoce (potentiellement difficile chez l'incarcéré) versus une intubation temporisée réalisée après extraction en décubitus dorsal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Patient comateux stable",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient comateux, assis, sans signe de décortication/décérébration ni hypoventilation, si la désincarcération va être rapide : temporiser l'intubation pour la réaliser en décubitus dorsal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intubation « au piolet »",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Technique de sauvetage dans certaines situations extrêmes (patient non allongeable), pratiquée par des opérateurs expérimentés — ne peut pas être recommandée en routine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Succinylcholine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Non contre-indiquée à la phase initiale (< 6h) de la prise en charge d'un patient incarcéré.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Amputation de sauvetage",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une anesthésie générale (procédure d'induction/entretien sans particularité par rapport au patient non incarcéré, sous réserve d'accessibilité aux voies aériennes supérieures) ; au mieux par une équipe chirurgicale complète.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 5h — Afflux de victimes",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Triage",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'afflux saturant, un triage préalable est nécessaire pour réserver l'analgésie/sédation aux blessés devant en bénéficier en priorité ; débuter par des mesures non spécifiques (communication, immobilisation, extraction rapide, réchauffement).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur modérée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Antalgique de palier 2 par voie orale pour les douleurs modérées (30 ≤ EVA < 60 mm, 3 ≤ EN < 6) (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur intense — blessés stables",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Morphine par voie sous-cutanée (0,1 mg/kg, soit 5-10 mg adulte, analgésie 4-6h) pour les blessés stables.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur intense — voie orale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La voie orale n'est pas recommandée (délai d'action, biodisponibilité imprévisible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleur intense — blessés instables",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Titration intraveineuse selon les modalités classiques pour les blessés instables (généralement déjà équipés d'une voie veineuse).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anxiolyse",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hydroxyzine comme anxiolytique (pas d'effet dépresseur respiratoire notable, pas de surveillance spécifique requise) — voie orale, IM ou IVL, ~1 mg/kg.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Gestes courts",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Kétamine pour la sédation-analgésie de gestes courts sur le terrain (réalignement, réduction) : 0,25-0,50 mg/kg en titration IV par bolus de 5-10 mg, éventuellement associée à du midazolam en titration IV.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intubation différée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en balance la nécessité d'une intubation versus sa temporisation, compte tenu des contraintes organisationnelles/logistiques des patients intubés-ventilés en situation d'afflux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q6 (1/2) — Pédiatrie : pharmaco & VS",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 6 (1/2) — Pédiatrie : pharmacologie & ventilation spontanée",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'évaluation de la douleur chez l'enfant de moins de 5 ans repose sur l'hétéroévaluation (échelle des visages, Comfort Scale) ; au-delà de 5 ans, sur l'autoévaluation (EVA, EN). L'échelle de Ramsay et la Comfort B ne sont pas validées chez l'enfant en contexte d'urgence, bien que couramment utilisées.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pharmacocinét.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La clairance plasmatique des benzodiazépines, de la kétamine et de l'étomidate est généralement plus élevée chez l'enfant que chez l'adulte (demi-vie d'élimination réduite).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Étomidate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas l'utiliser chez l'enfant de moins de 2 ans (AMM contre-indiquée dans cette tranche d'âge).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Succinylcholine — dose",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Doubler la posologie (2 mg/kg) lors de l'ISR chez l'enfant de moins de 18 mois (volume de distribution accru).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Succinylcholine — fasciculations",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas attendre la survenue de fasciculations pour intuber les enfants de moins de 4 ans (exceptionnelles à cet âge).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curares non dépolarisants",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas modifier les posologies chez les enfants de moins de 5 ans (l'augmentation du volume de distribution est compensée par une sensibilité accrue de la plaque motrice).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Analgésie systématique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pratiquer une analgésie, et si nécessaire une sédation, en présence de douleurs ou lorsqu'un geste invasif doit être réalisé, chez l'enfant en ventilation spontanée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Environnement",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Souci permanent de l'environnement de l'enfant et de sa famille, dialogue informatif sur ce qui va être fait.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Évaluation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une évaluation de la douleur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Évaluation — modalité",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Autoévaluation chez l'enfant âgé de plus de 5 ans, hétéroévaluation avant cet âge.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pas de CI par ASA",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de contre-indication à une analgésie en ventilation spontanée quel que soit l'état général (classe ASA) de l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sédation — indications",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sédation et/ou analgésie chez l'enfant en ventilation spontanée sans indication d'intubation : douleur évidente, frayeur/angoisse/anxiété/agitation, ou geste invasif.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sédation — ASA",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Bon état général (ASA 1-2) requis pour bénéficier d'une sédation en ventilation spontanée (ASA 3-4 = contre-indications relatives) ; précautions particulières si estomac plein.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Contre-indic.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traumatisme crânien en ventilation spontanée, insuffisance respiratoire, instabilité hémodynamique, troubles de conscience ou perte des réflexes de protection des voies aériennes chez un patient non intubé, allergie connue/suspectée aux agents sédatifs.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sédation consciente",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer très régulièrement le contact verbal (objectif : sédation consciente) et le noter sur la feuille de surveillance.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Conditions",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La réalisation d'une sédation associée ou non à une analgésie doit être effectuée dans des conditions structurelles et humaines permettant de dépister rapidement les complications et d'en assurer la prise en charge optimale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Conditions requises",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluation clinique préalable, consentement éclairé des parents/de l'enfant (sauf urgence immédiate), personnel formé, respect du jeûne (ou précautions), moyens de surveillance, score de sédation continu (Ramsay/Comfort B), locaux adéquats, critères précis de retour à domicile.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Monothérapie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Monothérapie en première intention, tant pour la sédation que pour l'analgésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "BZD + morphinique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas associer benzodiazépine et morphinique (risque de dépression respiratoire considérablement accru).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Protocoles & antagonistes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer de protocoles écrits pour les actes de sédation les plus courants et connaître les antagonistes ; en cas d'échec à posologie maximale, recourir à d'autres modalités.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q6 (2/2) — Pédiatrie : intubation & surveillance",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 6 (2/2) — Pédiatrie : analgésie, intubation & surveillance",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Topiques locaux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Topiques locaux (peau saine) pour abord veineux/artériel, ponction de chambre implantable, libération d'adhérences préputiales, ponctions lombaires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ALR",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lidocaïne = anesthésique de référence ; ropivacaïne+lidocaïne pour bloc fémoral/iliofascial (analgésie prolongée 4-6h, insuffisamment documenté en urgence). Pour les blocs périphériques à circulation terminale (digital, pénien) : ne pas utiliser la lidocaïne adrénalinée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Douleurs légères/modérées",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Paracétamol PO/IV et/ou codéine PO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Échec palier I / douleur sévère",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Passer directement au palier III pour une efficacité rapide.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Morphine PO",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer la morphine (AMM &gt; 6 mois) PO à la dose de 0,2-0,4 mg/kg toutes les 4h ou 1-2 mg/kg/j en 6 prises (compléments possibles de 0,1-0,2 mg/kg entre les prises).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Morphine IV",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Titration IV : injection initiale de 0,05 mg/kg, puis réinjections de 0,01 mg/kg toutes les 5-7 min jusqu'à obtention de l'analgésie désirée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Nalbuphine intra-rectale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "0,4 mg/kg en l'absence de voie veineuse (accord faible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prévention procédure courte",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "MEOPA, midazolam ou kétamine en traitement préventif d'une procédure courte peu douloureuse mais anxiogène.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "MEOPA — indications",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Actes peu douloureux ≤ 30 min, enfant &gt; 4 ans, coopérant, ASA 1-2 — associer à l'anesthésie locale et/ou aux antalgiques de palier I.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine — gestes courts",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "0,5-1,0 mg/kg IV lente ou 3-4 mg/kg IM pour l'analgésie de gestes courts en ventilation spontanée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ISR pédiatrique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Recours à l'ISR pour intuber les enfants en urgence, sauf arrêt cardiaque ou intubation difficile prévisible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hypnotique ISR",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Étomidate chez l'enfant &gt; 2 ans (0,3-0,4 mg/kg IV) ; kétamine chez l'enfant &lt; 2 ans (3-4 mg/kg IV si &lt; 18 mois, 2 mg/kg IV si plus âgé).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Succinylcholine ISR",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Curare à utiliser pour l'ISR chez l'enfant (2 mg/kg IV si &lt; 18 mois, 1 mg/kg IV si plus âgé).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sédation intubé-ventilé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Midazolam = agent de référence chez l'enfant intubé-ventilé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Propofol pédiatrie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé en sédation continue chez l'enfant de moins de 15 ans (effets hémodynamiques, risque de syndrome de perfusion du propofol / PRIS).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Kétamine transport",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utilisation recommandée lors du transport de l'enfant intubé-ventilé, en particulier chez l'enfant asthmatique ou brûlé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Morphiniques intubé-ventilé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fentanyl ou sufentanil chez l'enfant intubé-ventilé, en association avec le midazolam (perfusion continue).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Surveillance pédiatrique — acronyme SOAPME",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (formulation des experts)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "S — Succion",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer de matériel d'aspiration à dépression réglable et de sondes adaptées à l'âge.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "O — Oxygen",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pouvoir faire varier l'apport d'oxygène (FiO2) de façon linéaire selon les besoins (débit-litre, respirateurs).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "A — Airway",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'extubation accidentelle, disposer de tout l'équipement nécessaire à une réintubation et/ou ventilation manuelle d'attente.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "P — Pharmacy",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer d'un nombre limité de médicaments (sédatifs, antalgiques, antagonistes) dont le maniement est bien connu.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "M — Monitors",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance continue par monitorage : ECG, fréquence respiratoire, pression artérielle non invasive, SpO2, EtCO2.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "E — Equipment",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Limiter les mouvements de l'enfant pendant le transport, s'assurer de la bonne fixation et position des prothèses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Oxymétrie pulsée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Appareil non invasif de base pour la surveillance de l'oxygénation, à utiliser très largement en pédiatrie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "EtCO2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Monitorer l'EtCO2 chez l'enfant intubé et ventilé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q7 — Prérequis & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 7 — Prérequis et formation",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'utilisation de techniques anesthésiques en médecine d'urgence est rendue nécessaire par des considérations de sécurité et de qualité des soins : l'urgentiste les pratique pour des actes indiqués et effectués en urgence par lui-même, et non par un autre praticien. Les techniques et médicaments anesthésiques que l'urgentiste est à même d'utiliser ont été choisis en concertation entre la SFAR et la SFMU ; de même pour les techniques de réanimation, en concertation avec la SFAR, la SRLF et la SFMU. Le médecin urgentiste qui utilise ces techniques a reçu une formation appropriée, régulièrement entretenue, et s'efforce de confier dès que possible son patient relevant de soins de réanimation à un professionnel de la réanimation. Les seules circonstances où l'urgentiste pourrait réaliser une anesthésie pour un praticien tiers sont exceptionnelles (incarcération, isolement, catastrophe) en l'absence d'un anesthésiste-réanimateur disponible et lorsque l'anesthésie est immédiatement et impérativement nécessaire. La pratique de ces techniques par des urgentistes suppose le respect des règles de sécurité appropriées (vérification/maintenance du matériel, moyens cliniques et biomédicaux de surveillance et de suppléance). Tout médecin est susceptible d'utiliser un médicament hors AMM en l'absence d'autre thérapeutique possible, ou lorsque les alternatives comportent une balance bénéfice/risque défavorable. Une formation théorique et pratique adaptée est indispensable (formation initiale et continue). L'évaluation et le traitement de la douleur peuvent être effectués par délégation par un personnel infirmier formé, dans le cadre d'un protocole de service connu de tous, sous réserve qu'un médecin urgentiste puisse intervenir sans délai et à tout moment.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Sédation et analgésie en structure d'urgence » (réactualisation de la Conférence d'experts SFAR de 1999) — Recommandations Formalisées d'Experts SFAR-SFMU. B. Vivien, F. Adnet, V. Bounes, G. Chéron, X. Combes, J.S. David, J.F. Diependaele, J.J. Eledjam, B. Eon, M. Freysz, J.P. Fontaine, P. Michelet, G. Orliaguet, A. Puidupin, A. Ricard-Hibon, B. Riou, E. Wiel, J.E. de La Coussaye. Ann Fr Anesth Reanim 2010;29:934-949 (doi:10.1016/j.annfar.2010.10.005).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE adaptée à 3 niveaux (voir légende page 1). « Accord faible » signalé explicitement par la source pour certaines recommandations, reproduit entre parenthèses.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2016/01/2_AFAR_Sedation-analgesie-en-structure-d-urgence.pdf",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Note de fiabilité de source :</b> la page 9 du PDF (Figure 2, Question 4 « Patient intubé-ventilé » et la phrase d'ouverture de la question 5a « État de choc ») est entièrement rasterisée, sans aucun texte extractible — ce contenu a été intégralement retranscrit depuis le rendu visuel de cette page (vérifiée à 400dpi), et non depuis un calque de texte.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 7 questions (dont les 8 circonstances particulières de la question 5 et les 5 sous-questions pédiatriques de la question 6) et des 2 algorithmes de la RFE, mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

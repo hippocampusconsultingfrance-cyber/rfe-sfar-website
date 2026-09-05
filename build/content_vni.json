@@ -1,0 +1,962 @@
+{
+ "doc": "vni",
+ "sections": [
+  {
+   "title": "Q1 (1/2) — Patients relevant de la VNI",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> place et modalités de la ventilation non invasive (VNI) dans les différents types d'insuffisance respiratoire aiguë (IRA), nouveau-né exclu. VS-PEP (ventilation spontanée avec pression expiratoire positive) = pression positive continue (PPC). VS-AI-PEP (ventilation spontanée avec aide inspiratoire et PEP) = ventilation à deux niveaux de pression. Particularités pédiatriques en italique dans le texte source (reproduites ici entre crochets « [pédiatrie] »).<br/><br/><b>Méthodologie GRADE</b> — contrairement aux conférences de sédation-analgésie 2007/2010, les grades (G1+/G1-/G2+/G2-) sont <b>imprimés directement dans le texte source</b> après chaque recommandation et cités ici tels quels. Certaines situations sont explicitement présentées par la source comme « sans cotation possible » (preuve insuffisante même pour un avis d'experts) — reproduites comme telles ci-dessous, non forcées dans le système gradé.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire (G1+)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire (G1-)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement (G2+)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas (G2-)",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 1 (1/2) — Quels patients relèvent de la VNI ?",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 1 — Contre-indications absolues de la VNI</b> (le succès de la VNI impose le respect de ces contre-indications) :",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "Environnement inadapté ou expertise insuffisante de l'équipe • patient non coopérant, agité, opposant à la technique • intubation imminente (sauf VNI en pré-oxygénation) • coma (sauf coma hypercapnique de l'IRC) • épuisement respiratoire • état de choc, troubles du rythme ventriculaire graves • sepsis sévère • immédiatement après un arrêt cardio-respiratoire • pneumothorax non drainé, plaie thoracique soufflante • obstruction des voies aériennes supérieures (sauf apnées du sommeil, laryngo-trachéomalacie) • vomissements incoercibles • hémorragie digestive haute • traumatisme crânio-facial grave • tétraplégie traumatique aiguë à la phase initiale.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autres usages",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fibroscopie bronchique chez les patients hypoxémiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autres usages",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pré-oxygénation avant intubation pour IRA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Limitations thérapeutiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La VNI peut être réalisée chez des patients pour lesquels la ventilation invasive n'est pas envisagée (refus du patient ou mauvais pronostic).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Chez les patients en fin de vie, la VNI ne se conçoit que si elle leur apporte un confort.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q1 (2/2) & Q2 (1/2) — Indications & instauration",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 1 (2/2) — Tableau 2 : niveaux de recommandation par indication",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Indications",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intérêt certain — Il faut faire (G1+)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Décompensation de BPCO • OAP cardiogénique • IRA hypoxémique de l'immunodéprimé • Post-opératoire de chirurgie thoracique et abdominale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intérêt non établi de façon certaine — Il faut probablement faire (G2+)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Stratégie de sevrage de la ventilation invasive chez les BPCO • Prévention d'une IRA post-extubation • Traumatisme thoracique fermé isolé • Décompensation de maladies neuromusculaires chroniques et autres IRC restrictives • Mucoviscidose décompensée • Forme apnéisante de la bronchiolite aiguë [pédiatrie] • Laryngo-trachéomalacie [pédiatrie]",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aucun avantage démontré — Il ne faut probablement pas faire (G2-)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pneumopathie hypoxémiante • SDRA • Traitement de l'IRA post-extubation • Maladies neuromusculaires aiguës réversibles",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Situations sans cotation possible",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Asthme aigu grave • Syndrome d'obésité-hypoventilation • Bronchiolite aiguë du nourrisson [pédiatrie] (hors forme apnéisante)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 2 (1/2) — Critères cliniques d'instauration & modes",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "BPCO",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "VNI (mode VS-AI-PEP) recommandée dans les décompensations de BPCO avec acidose respiratoire et pH &lt; 7,35.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "BPCO",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La VS-PEP ne doit pas être utilisée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "OAP cardiogénique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La VNI ne se conçoit qu'en association au traitement médical optimal ; à instaurer sur le mode VS-PEP ou VS-AI-PEP ; en cas d'hypercapnie avec PaCO2 &gt; 45 mmHg.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "OAP cardiogénique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne doit pas retarder la prise en charge spécifique d'un syndrome coronarien aigu ; en cas de signes cliniques de détresse respiratoire, sans attendre le résultat des gaz du sang.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IRA de l'immunodéprimé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "VNI (mode VS-AI-PEP) à proposer en 1ère intention en cas d'IRA (PaO2/FiO2 &lt; 200 mmHg) avec infiltrat pulmonaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Post-opératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Indiquée en cas d'IRA après chirurgie de résection pulmonaire ou sus-mésocolique (VS-PEP ou VS-AI-PEP), sans retarder la recherche et la prise en charge d'une complication chirurgicale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Post-opératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "VNI prophylactique (VS-PEP) probablement à proposer après chirurgie d'anévrysme aortique thoracique et abdominal ; VS-PEP envisageable si PaO2/FiO2 &lt; 300 mmHg après abord sus-mésocolique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "VNI dans l'OAP cardiogénique, également en cas de non-réponse au traitement médical (critère non gradé dans la source).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Q2 (2/2) — Critères par pathologie",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 2 (2/2) — Critères cliniques par pathologie (suite)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sevrage de la VI",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "VS-AI-PEP envisageable en cas de sevrage difficile chez un BPCO, ou en prévention de l'IRA après extubation chez le patient hypercapnique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pathologies neuromusculaires",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Signes cliniques de lutte (même frustres) ou hypercapnie dès 45 mmHg = indications formelles de VNI, associée au désencombrement (modes possibles : VS-AI-PEP, VAC en pression ou en volume).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mucoviscidose (enfant et adulte)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "VS-AI-PEP = mode ventilatoire de 1ère intention dans les IRA des mucoviscidoses (modes VACp et VACv également possibles).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autres indications [pédiatrie]",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "VNI à envisager dans les formes apnéisantes des bronchiolites du nourrisson, et au cours des IRA sur laryngo-trachéomalacie (mode VS-PEP).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Endoscopie bronchique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un protocole de VNI peut être proposé en cas de rapport PaO2/FiO2 &lt; 250 mmHg.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Traumatismes thoraciques : mode VS-PEP ou VS-AI-PEP possible, sans niveau de preuve gradé associé au choix du mode. Des études contrôlées sont nécessaires dans les bronchiolites aiguës hors forme apnéisante.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Pneumopathies hypoxémiantes",
+     "color": "red"
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "La VNI <b>n'est pas recommandée en première intention</b> en cas de : défaillance extra-respiratoire, PaO2/FiO2 &lt; 150 mmHg, ou GCS &lt; 11/agitation. Si une VNI est malgré tout utilisée, le mode VS-AI-PEP doit être privilégié.",
+      "style": "body"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Q3 — Moyens de mise en œuvre",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 3 — Moyens requis pour la mise en œuvre",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Interfaces",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le masque naso-buccal est recommandé en 1ère intention. Elles doivent être disponibles en plusieurs tailles et modèles ; en cas de complications liées à l'interface, d'autres modèles (masque total, casque) peuvent améliorer la tolérance.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Humidification",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Peut améliorer la tolérance ; humidificateur chauffant privilégié en pédiatrie (ou filtre échangeur de chaleur et d'humidité).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Suivi et monitorage",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une surveillance clinique est indispensable, particulièrement durant la première heure. La mesure répétée de la fréquence respiratoire est essentielle (ainsi que la pression artérielle, la fréquence cardiaque et l'oxymétrie de pouls).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Interfaces [pédiatrie] :</b> avant l'âge de 3 mois, canules nasales privilégiées ; entre 3 et 12 mois, aucune interface commerciale adaptée n'est validée (certains masques « nasaux » peuvent être employés en « naso-buccal »).<br/><b>Modes ventilatoires :</b> VS-PEP (le plus simple, circuit « Venturi » adapté au pré-hospitalier) ou modes assistés (VS-AI-PEP, VAC) nécessitant un ventilateur avec réglage du trigger inspiratoire, de la pente, du temps inspiratoire maximal, du cyclage expiratoire, et affichage du volume courant expiré et des pressions.<br/><b>Réglages initiaux :</b> VS-PEP, niveau de pression habituel 5-10 cmH2O. VS-AI-PEP (mode le plus utilisé en aigu) : augmentation progressive de l'AI en débutant par 6-8 cmH2O ; volume courant expiré cible ~6-8 mL/kg ; pression inspiratoire totale &gt; 20 cmH2O expose à un risque accru d'insufflation gastrique et de fuites ; PEP habituellement entre 4 et 10 cmH2O selon l'indication. Tous les réglages doivent être adaptés à l'âge.<br/><b>Suivi :</b> surveillance clinique indispensable (pression artérielle, fréquence cardiaque, oxymétrie de pouls) ; surveillance des gaz du sang requise ; en mode assisté, monitorage du volume courant expiré, détection des fuites et asynchronies.<br/><b>Formation, moyens humains :</b> formation spécifique de l'équipe nécessaire ; protocoles de mise en route à utiliser ; l'initiation d'une VNI pédiatrique en aigu doit se faire au minimum en unité de soins continus pédiatrique.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Q4 — Efficacité, échec, risques & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 4 — Efficacité, échec et risques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pré-hospitalier/urgences",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La VNI se limite à la VS-PEP dans l'OAP.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pré-hospitalier/urgences",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La VS-AI-PEP (OAP cardiogénique ou décompensation de BPCO) est réservée aux équipes formées et entraînées disposant de respirateurs adaptés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Services de médecine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La VNI peut être envisagée pour les décompensations modérées de BPCO (pH ≥ 7,30), dans un environnement aux conditions de surveillance adaptées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Le risque principal de la VNI est le retard à l'intubation. Le succès dépend aussi du niveau de performance de l'équipe (ratio personnels/malades, compétences, disponibilité, pratiques protocolisées) et de la tolérance (choix des matériels et leur maîtrise).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Tableau 3 — Effets indésirables de la VNI",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Origine",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Complications",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Mesures préventives/curatives",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Interface",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Érythème, ulcération cutanée",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Protection cutanée, serrage adapté du harnais",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Interface",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Allergies cutanées",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Changement d'interface",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Interface",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réinhalation du CO2 expiré",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Changement d'interface, réduction de l'espace mort",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Interface",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Nécrose des narines/columelle (canules nasales)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Application d'une PEP, changement d'interface ou intubation",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Débit / Pressions",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sécheresse des voies aériennes supérieures",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Humidification",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Débit / Pressions",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Distension gastro-intestinale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réduction des pressions, sonde gastrique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Débit / Pressions",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Otalgies, douleurs naso-sinusiennes",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réduction des pressions",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Débit / Pressions",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Distension pulmonaire, pneumothorax",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Optimisation des réglages ; drainage thoracique, arrêt de la VNI",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ensemble",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Fuites, complications conjonctivales",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Changement d'interface, optimisation des réglages",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Tableau 4 — Critères associés à un risque d'échec accru",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Indication",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "À l'admission",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Réévaluation précoce",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Décompensation de BPCO",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "pH &lt; 7,25 ; FR &gt; 35/min ; GCS &lt; 11 ; pneumonie ; comorbidités cardiovasculaires ; score d'activité physique défavorable",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "À la 2e heure : pH &lt; 7,25, FR &gt; 35/min, GCS &lt; 11",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IRA hypoxémique sur cœur et poumons antérieurement sains",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Âge &gt; 40 ans ; FR &gt; 38/min ; pneumonie communautaire ; sepsis ; IRA post-opératoire par complication chirurgicale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "À la 1ère heure : PaO2/FiO2 &lt; 200 mmHg",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Dans le sevrage précoce de la ventilation invasive ou la prévention de l'IRA post-extubation, les chances de succès de la VNI sont supérieures dans l'insuffisance respiratoire chronique, en particulier des BPCO.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Critères de poursuite et d'arrêt de la VNI",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "La VNI doit être <b>interrompue</b> en cas : d'amélioration soutenue du patient en dehors d'une séquence de VNI (régression des signes cliniques d'IRA — plus rapide dans l'OAP —, oxygénation efficace, correction de l'acidose) ; de survenue d'une contre-indication ; d'intolérance ; d'inefficacité nécessitant une intubation.<br/><br/>La VNI <b>ne doit pas être interrompue brutalement</b> au-delà de la phase initiale de prise en charge de l'IRC décompensée.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Ventilation Non Invasive au cours de l'insuffisance respiratoire aiguë (nouveau-né exclu) » — 3e Conférence de Consensus commune SFAR-SPLF-SRLF, avec la participation de la SFMU, du SAMU de France, du GFRUP et de l'ADARPEF. Paris, Institut Montsouris, 12 octobre 2006. Président du jury : R. Robert (Poitiers).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE, grades imprimés directement dans le texte source (G1+/G1-/G2+/G2-) — pas de convention à déduire, contrairement aux conférences de sédation-analgésie 2007/2010 (voir légende page 1).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2015/10/2a_SFAR_texte-court_Ventilation-Non-Invasive-au-cours-del-insuffisance-respiratoire-aigue.pdf",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des 4 questions et des 4 tableaux de la conférence, mais ne remplace pas le texte intégral et n'est ni édité ni validé par la SFAR. Document ancien (2006) — les pratiques de VNI ont évolué depuis (interfaces, oxygénothérapie à haut débit) ; en cas de doute, se référer au texte intégral, aux recommandations ultérieures et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4163 @@
+{
+ "doc": "sepsis",
+ "sections": [
+  {
+   "title": "Définitions & dépistage",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Périmètre de cette fiche :</b> définitions, scores diagnostiques (adulte et enfant), messages clés du parcours de soins complet (prévention → dépistage → prise en charge précoce → prévention des séquelles → accompagnement au long cours), bonnes pratiques de l'hémoculture, facteurs de risque de BMR, et les <b>Annexes 5 et 6 (Surviving Sepsis Campaign 2021 adulte et 2020 enfant/nouveau-né, validées pour le contexte français) reproduites intégralement</b> — 149 recommandations au total (84 adulte + 65 enfant). <b>Hors champ :</b> le détail des indications vaccinales spécifiques (Annexe 4 — référentiel externe, non actionnable en situation aiguë).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Définitions",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Sepsis :</b> dérégulation de la réponse immunitaire à une infection entraînant un dysfonctionnement vital d'organes — score SOFA &gt; 2 points (adulte, sur 24) ; score Phoenix ≥ 2 points (enfant, sur 13).",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>Choc septique (adulte) :</b> nécessité d'un traitement vasopresseur pour maintenir une pression artérielle moyenne à 65 mmHg <b>et</b> une lactatémie ≥ 2 mmol/L.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>Choc septique (enfant) :</b> score Phoenix hémodynamique ≥ 1 point (nécessité d'un traitement vasoactif, ou lactatémie ≥ 5 mmol/L, ou hypotension artérielle définie selon l'âge).",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>qSOFA</b> (repérage du risque de sepsis, hors soins critiques) : PAS &lt; 100 mmHg, fréquence respiratoire &gt; 22/min, altération neurologique centrale (Glasgow &lt; 15) — score à 2 ou 3 = patient à risque.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Dépistage — adulte : ≥ 3 des 6 variables cliniques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Variable",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Seuil",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Âge",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "> 65 ans",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Température",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "> 38 °C",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pression artérielle systolique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≤ 110 mmHg",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fréquence cardiaque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "> 110 /min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Saturation périphérique en O2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≤ 95 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fonctions supérieures",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Troubles",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Dépistage — enfant entièrement déshabillé",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "&bull; Troubles de conscience ou changement de comportement<br/>&bull; Signes de mauvaise perfusion périphérique : TRC allongé, marbrures, extrémités froides<br/>&bull; Augmentation de la fréquence respiratoire et tachycardie<br/>&bull; Baisse de la pression artérielle<br/>&bull; Apparition et extension de purpura ecchymotique ou nécrotique",
+     "style": "body"
+    }
+   ]
+  },
+  {
+   "title": "Scores diagnostiques pédiatriques",
+   "items": [
+    {
+     "t": "section",
+     "text": "Score de sepsis pédiatrique de Phoenix — 4 domaines, 0 à 13 points",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Domaine",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "0 point",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "1 point",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "2 points",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "3 points",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Respiratoire</b> (0-3)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "PaO2/FiO2 ≥ 400 ou SpO2/FiO2 ≥ 292",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "PaO2/FiO2 &lt; 400 ou SpO2/FiO2 &lt; 292, sous support respiratoire",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "PaO2/FiO2 100-200 ou SpO2/FiO2 148-220, et VMI",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "PaO2/FiO2 &lt; 100 ou SpO2/FiO2 &lt; 148, et VMI",
+        "style": "cell_sm_sepsis"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Cardiovasculaire</b> (0-6) — vasoactifs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "0 traitement vasoactif, lactate &lt; 5 mmol/L",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "1 traitement vasoactif (1 pt/traitement, max 3)",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "≥ 2 traitements vasoactifs (2 pts/traitement, max 6)",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Lactate ≥ 11 mmol/L",
+        "style": "cell_sm_sepsis"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Coagulation</b> (0-2)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Plaquettes ≥ 100×10³/µL, INR ≤ 1,3, D-dimères ≤ 2 mg/L, fibrinogène ≥ 100 mg/dL",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "1 critère anormal = 1 pt",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "≥ 2 critères anormaux = 2 pts",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_sepsis"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Neurologique</b> (0-2)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Glasgow &gt; 10, pupilles réactives",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Glasgow ≤ 10 ou pupilles fixes bilatérales = 2 pts",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_sepsis"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Seuil PAM (mmHg) pour 1 pt cardiovasculaire, selon l'âge : &lt;1 mois &lt;30 ; 1-11 mois &lt;38 ; 1-&lt;2 ans &lt;43 ; 2-&lt;5 ans &lt;44 ; 5-&lt;12 ans &lt;48 ; 12-17 ans &lt;51. Traitements vasoactifs = adrénaline, noradrénaline, dopamine, dobutamine, milrinone, vasopressine. Score calculable même si des variables manquent (points = 0 si non mesuré). Ne s'applique pas aux nouveau-nés &lt;37 SA ni aux ≥18 ans.",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Choc septique pédiatrique = score Phoenix hémodynamique ≥ 1 point</b> (sous-score cardiovasculaire, incluant le critère lactate ≥ 5 mmol/L ou hypotension selon l'âge).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Feux tricolores NICE — risque chez l'enfant fébrile",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Signe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Vert (bas risque)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Orange (risque intermédiaire)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Rouge (haut risque)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Coloration<br/>(peau, lèvres, langue)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Normale",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Pâleur rapportée par les parents ou le référent parental",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Pâleur, marbrures, cyanose",
+        "style": "cell_sm_sepsis"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réactivité",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Bonne interaction sociale, souriant, bien éveillé ou se réveille facilement, pleurs normaux ou pas de pleurs",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Mauvaise interaction sociale, ne sourit pas, ne se réveille qu'à la stimulation prolongée, moins réactif/actif qu'à l'habitude",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Aucune interaction, aspect « toxique/malade »/inquiétude du professionnel de santé, ne se réveille pas ou moments d'éveil très fugaces, pleurs faibles ou cri continu inconsolable",
+        "style": "cell_sm_sepsis"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Respiration",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Battements des ailes du nez, tachypnée (RR &gt;50/min entre 6 et 12 mois, RR &gt;40/min si &gt;12 mois), saturation en O2 ≤ 95 % en air ambiant, crépitants à l'auscultation",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Geignement, tachypnée &gt;60/min, tirage intercostal modéré ou important",
+        "style": "cell_sm_sepsis"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Circulation et état d'hydratation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Aspect normal de la peau et des yeux, muqueuses bien humectées",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Tachycardie (&gt;160/min si &lt;1 an, &gt;150/min entre 12-24 mois, &gt;140/min entre 2-5 ans), TRC ≥ 3 s, muqueuses sèches, refus d'alimentation chez le nouveau-né, oligurie",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Pli cutané persistant",
+        "style": "cell_sm_sepsis"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autres",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Aucun des signes de la zone orange ou rouge",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Âge de 3 à 6 mois avec une fièvre ≥ 39 °C ; fièvre depuis plus de 5 jours ; raideur d'un membre ; gonflement articulaire ou d'un membre ; boiterie, impotence fonctionnelle d'un membre",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "p",
+        "html": "Âge &lt; 3 mois et fièvre ≥ 38 °C* ; purpura ; fontanelle bombante chez le nourrisson ; raideur de nuque ; état de mal convulsif ; déficit neurologique focalisé ; crise focale",
+        "style": "cell_sm_sepsis"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* Certaines vaccinations peuvent induire de la fièvre chez l'enfant de moins de 3 mois.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Signes vitaux & messages clés (1/2)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Normes des signes vitaux chez l'enfant (European Resuscitation Council)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "1 mois",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "1 an",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "2 ans",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "5 ans",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "10 ans",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Fréquence respiratoire (/min)</b>",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valeur haute",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "50",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "40",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "30",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "25",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valeur basse",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "25",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "20",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "18",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "17",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "14",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Fréquence cardiaque (/min)</b>",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valeur haute",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "180",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "170",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "160",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "140",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "120",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valeur basse",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "110",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "100",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "90",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "70",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "60",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Pression artérielle systolique (mmHg)</b>",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "50ème percentile",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "75",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "95",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "100",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "110",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5ème percentile",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "50",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "70",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "75",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "80",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Pression artérielle moyenne (mmHg)</b>",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "50ème percentile",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "55",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "70",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "75",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "75",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Messages clés — parcours de soins complet",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Mieux prévenir le sepsis, c'est :</b> respecter le calendrier vaccinal à tous les âges · connaître les facteurs de risque d'évolution vers un sepsis en cas d'infection · respecter les règles d'hygiène.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>Mieux dépister le sepsis, c'est :</b> promouvoir des stratégies d'information et de communication afin d'identifier précocement les signes de sepsis, en particulier chez les patients ayant des facteurs de risque de sepsis ; et rechercher les signes cliniques détaillés en page 1 (enfant déshabillé / variables adulte).",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>Mieux prendre en charge précocement le sepsis, c'est : agir sans délai.</b>",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>En ville :</b> contacter le 15 sans délai · ne pas réaliser d'examen complémentaire chez l'enfant · prélever chez l'adulte ambulatoire à risque une hémoculture (≥ 40 mL, 2-3 paires aérobie/anaérobie, prélevable en une fois) et/ou ECBU et/ou ECBC · transport médicalisé, quel que soit l'âge, vers un établissement disposant de soins critiques.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>À l'hôpital — bundle de la 1ère heure (au mieux) :</b>",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "&bull; Pose d'une voie d'abord veineuse ou intra-osseuse<br/>&bull; Hémoculture (≥ 40 mL, 2-3 paires aérobie/anaérobie) + dosage du lactate<br/>&bull; Antibiothérapie IV adaptée au site/pathogènes probables, au caractère communautaire ou non, aux facteurs de risque de BMR et à l'écologie locale<br/>&bull; Restauration hémodynamique individualisée guidée par évaluation clinique et échographique : remplissage vasculaire 10-20 mL/kg en 15-20 min, puis agents vaso-inotropes si non-réponse ou mauvaise tolérance au remplissage",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "Admettre en soins critiques en l'absence de résolution des variables cliniques après traitement initial · respecter les recommandations de la Surviving Sepsis Campaign pour la suite de la prise en charge.",
+     "style": "body"
+    }
+   ]
+  },
+  {
+   "title": "Messages clés (2/2) & hémoculture",
+   "items": [
+    {
+     "t": "p",
+     "html": "<b>Mieux prévenir les séquelles, c'est :</b>",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "&bull; Dès les 48 premières heures d'hospitalisation : programme de réadaptation standardisé progressif en 6 étapes (mobilisation passive → déambulation dans l'unité) ; réadaptation respiratoire systématique si sepsis pulmonaire initial ou ventilation artificielle<br/>&bull; Puis adaptation de la réadaptation et orientation si besoin vers une équipe mobile de médecine physique et de réadaptation (MPR)<br/>&bull; En post-aigu : orientation vers des équipes de réadaptation pluriprofessionnelles (kinésithérapeute, APA, ergothérapeute, orthophoniste, neuropsychologue, psychologue, diététicien, travailleur social) coordonnées par un médecin MPR ; suivi ambulatoire sécurisé si retour à domicile ; consultation de suivi dans les 3 mois suivant la sortie",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>Mieux accompagner au long cours, c'est :</b>",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "&bull; Évaluation psychologique systématique après le retour à domicile, suivi selon l'évaluation initiale<br/>&bull; Recours à un service d'aide sociale de proximité en situation précaire ou à risque<br/>&bull; Suivi clinique post-sepsis à minima à 3 mois et 1 an de l'hospitalisation",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Bonnes pratiques de l'hémoculture",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Adulte :</b> volume total optimal 40-60 mL, soit 4 à 6 flacons (8-10 mL/flacon), obtenus en 2-3 ponctions ou en une seule ponction. Limiter à 3 hémocultures (6 flacons) par épisode si patient stable. L'« hémoculture solitaire » (2 flacons/24h) est un indicateur négatif de qualité, à décourager. Soin particulier à l'antisepsie préalable et au remplissage des flacons.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>Enfant — volume de sang à mettre en culture selon le poids :</b>",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Poids (kg)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Culture 1 (Aér./Anaér., mL)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Culture 2 (Aér./Anaér., mL)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Culture 3 (Aér./Anaér., mL)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Vol. total cultivé (mL)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "≤ 1",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "0,5 à 2 / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "0,5 à 2",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1,1 - 2",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "1,5 à 4,5 / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "1,5 à 4,5",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2,1 - 3,9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "3 à 6 / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "3 à 6",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4 - 7,9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "6 / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "6",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8 - 13,9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "4 à 5 / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "4 à 5 / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "8 à 10",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "14 - 18,9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "5 / 5 à 7",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "5 à 8 / 5 à 7",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "20 à 24",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "19 - 25,9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "5 / 5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "5 / 5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "5 / 5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "30",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "26 - 39,9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "10 / 10",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "10 / 10",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "— / —",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "40",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "≥ 40",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "10 / 10",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "10 / 10",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "10 / 10",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "60",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Ordres de grandeur à ajuster selon le poids exact dans la catégorie (plus le poids est élevé, plus le volume doit se rapprocher du volume supérieur). Un seul flacon (patient ≤ 8 kg) : aérobie ou anaérobie au choix.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Facteurs BMR",
+   "items": [
+    {
+     "t": "section",
+     "text": "Facteurs de risque de portage/infection à bactéries multi-résistantes (BMR)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "&bull; Antibiotiques dans les 90 jours précédents<br/>&bull; Hospitalisation &gt; 2 jours dans les 90 jours précédents<br/>&bull; Séjour hospitalier actuel &gt; 5 jours<br/>&bull; Dialyse chronique dans les 30 jours<br/>&bull; Soins complexes à domicile (perfusion, pansements complexes)<br/>&bull; Immunodépression (cancer hématologique actif, transplantation, chimiothérapie, radiothérapie, corticothérapie chronique ≥ 25 mg/j de prednisone, splénectomie, maladie auto-immune)<br/>&bull; Portage de BMR dans l'entourage familial<br/>&bull; Retour de voyage d'une zone d'endémie",
+     "style": "body"
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Points de vigilance :</b><br/>&bull; Le choc septique adulte requiert impérativement les 2 critères : vasopresseurs pour PAM 65 mmHg <b>ET</b> lactate ≥ 2 mmol/L — l'un sans l'autre ne suffit pas à la définition.<br/>&bull; qSOFA sert au repérage du risque, pas au diagnostic : un qSOFA négatif n'élimine pas un sepsis.<br/>&bull; France : jusqu'à cette RBP, aucune recommandation nationale sur la prise en charge globale du sepsis n'existait — la prise en charge aiguë symptomatique et anti-infectieuse détaillée s'appuie sur la Surviving Sepsis Campaign, reproduite intégralement dans les pages suivantes (Annexes 5 et 6).",
+      "style": "body"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Annexe 5 (SSC adulte) — dépistage & infection (1/2)",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Annexe 5 — Surviving Sepsis Campaign (SSC) 2021, recommandations pour l'adulte validées pour le contexte français.</b> Population par défaut de chaque ligne : patient adulte en sepsis ou choc septique (précisée seulement si différente). Numérotation reprise telle quelle du document source (des numéros sont absents : items exclus de la validation française de la SSC).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Suggéré (conditionnelle)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Suggéré de ne pas faire (conditionnelle)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation possible (preuve insuffisante)",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Dépistage, organisation & prise en charge initiale",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adoption par les hôpitaux d'un programme d'amélioration des performances dans la prise en charge du sepsis (protocole de détection des patients graves/à haut risque + protocoles thérapeutiques).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser un score isolé (qSOFA, SIRS, autre « early warning score ») comme seul outil de dépistage du sepsis/choc septique.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mesure du lactate sérique en cas de suspicion de sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sepsis et choc septique = urgences médicales : traitement et réanimation à débuter immédiatement.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser des paramètres dynamiques plutôt que l'examen physique seul ou des paramètres statiques seuls pour guider le remplissage vasculaire.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Guider la réanimation sur la baisse de la lactatémie chez les patients dont elle est élevée, plutôt que de ne pas utiliser le lactate.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser le temps de recoloration cutanée comme mesure adjonctive aux autres paramètres de perfusion pour guider la réanimation.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Objectif initial de pression artérielle moyenne à 65 mmHg plutôt que des objectifs supérieurs.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Admettre en réanimation dans les 6 heures les patients qui le nécessitent.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Prise en charge de l'infection (1/2)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réévaluation permanente + recherche de diagnostics alternatifs + arrêt des antimicrobiens probabilistes si infection non confirmée et cause alternative démontrée/fortement suspectée.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administration immédiate d'antimicrobiens (idéalement dans l'heure) en cas de choc septique possible ou forte probabilité de sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réévaluation rapide de la probabilité infectieuse vs non infectieuse en cas de sepsis possible sans choc (cf. bonnes pratiques hémoculture, page précédente).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Durée limitée d'investigation rapide puis, si le problème persiste, antimicrobiens dans les 3 h à partir de l'identification du sepsis (sepsis possible sans choc).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Différer les antimicrobiens en cas de faible probabilité d'infection et absence de choc, avec surveillance rapprochée.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "16",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser la procalcitonine associée à l'évaluation clinique pour décider du moment de débuter les antimicrobiens, par rapport à l'évaluation clinique seule.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "17",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Antimicrobiens probabilistes couvrant le SARM chez les patients à haut risque d'infection à SARM.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "18",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser d'antimicrobiens couvrant le SARM chez les patients à faible risque.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "20",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser 2 antimicrobiens probabilistes à Gram négatif (plutôt qu'1 seul) chez les patients à faible risque de BMR.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "21",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser de double couverture antimicrobienne dès que le micro-organisme et sa sensibilité sont identifiés.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "22",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement antifongique probabiliste chez les patients à haut risque d'infection fongique.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "23",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser de traitement antifongique probabiliste chez les patients à faible risque d'infection fongique.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "24",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur l'utilisation des agents antiviraux.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "25",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Perfusions prolongées de bêtalactamines après le bolus initial, plutôt qu'une perfusion en bolus conventionnelle.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Annexe 5 (SSC adulte) — infection (2/2), hémodynamique & respiratoire",
+   "items": [
+    {
+     "t": "section",
+     "text": "Prise en charge de l'infection (2/2)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "27",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Identification/exclusion rapide d'un diagnostic anatomique nécessitant un contrôle du foyer infectieux en urgence, et mise en œuvre de ce contrôle dès que médicalement et logistiquement possible.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "28",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Retrait rapide des dispositifs intravasculaires identifiés comme foyer possible, après mise en place d'un autre accès vasculaire.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "29",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réévaluation quotidienne en vue d'une désescalade des antimicrobiens, plutôt que des durées fixes sans réévaluation.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "31",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la procalcitonine + évaluation clinique pour décider d'interrompre les antimicrobiens (contrôle du foyer adéquat, durée optimale indéterminée), plutôt que l'évaluation clinique seule.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Prise en charge hémodynamique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "32",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cristalloïdes en première ligne de réanimation liquidienne.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "33",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cristalloïdes « balancés » plutôt que sérum salé isotonique.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "34",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Albumine chez les patients ayant reçu de grands volumes de cristalloïdes.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "35",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser d'hydroxyéthylamidons pour le remplissage vasculaire.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "36",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser de gélatines pour le remplissage vasculaire.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "37",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Noradrénaline comme vasopresseur de 1ère ligne, par rapport aux autres vasopresseurs.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "40",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser de terlipressine en choc septique.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "41",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dysfonction cardiaque avec hypoperfusion persistante malgré volémie/PA adéquates : ajouter la dobutamine à la noradrénaline, ou utiliser l'adrénaline seule.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "42",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Même situation : ne pas utiliser de lévosimendan.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "43",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Monitorage invasif de la pression artérielle plutôt que non invasif, dès que réalisable.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "44",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Initier le vasopresseur sur une voie veineuse périphérique pour rétablir la PAM, plutôt que de retarder son initiation jusqu'à l'obtention d'une voie centrale.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Prise en charge respiratoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "46",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur les objectifs d'oxygénation en insuffisance respiratoire hypoxémique liée au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "47",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oxygénothérapie nasale à haut débit plutôt que VNI, en insuffisance respiratoire hypoxémique liée au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "48",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur VNI vs ventilation invasive en insuffisance respiratoire hypoxémique liée au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "49",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ventilation à petits volumes courants (6 mL/kg) plutôt que grands volumes (&gt; 10 mL/kg) en SDRA lié au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "50",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Limite haute de pression de plateau à 30 cmH2O plutôt que pressions supérieures, en SDRA lié au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "52",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ventilation à petits volumes courants en détresse respiratoire liée au sepsis sans SDRA.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "54",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si des manœuvres de recrutement sont utilisées : ne pas utiliser de titration incrémentale de la PEEP.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "55",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Décubitus ventral &gt; 12 h en SDRA modéré à sévère lié au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "56",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Bolus intermittents de curares non dépolarisants plutôt que perfusion continue, en SDRA modéré à sévère lié au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "57",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "ECMO veino-veineuse en SDRA sévère lié au sepsis si échec de la ventilation mécanique conventionnelle, dans des centres expérimentés.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Annexe 5 (SSC adulte) — adjuvants & long cours",
+   "items": [
+    {
+     "t": "section",
+     "text": "Traitements adjuvants",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "58",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Corticoïdes IV en choc septique avec besoins croissants en vasopresseurs.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "59",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser l'hémoperfusion de polymyxine B.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "60",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur les autres techniques d'épuration sanguine.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "61",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Stratégie transfusionnelle restrictive plutôt que sans limite imposée/libérale.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "62",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser d'immunoglobulines intraveineuses.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "63",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prophylaxie de l'ulcère de stress chez les patients avec facteurs de risque de saignement gastro-intestinal.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "64",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prophylaxie de la maladie thromboembolique veineuse en dehors de contre-indications existantes.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "65",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM plutôt qu'HNF pour la prophylaxie de la maladie thromboembolique.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "66",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser la compression mécanique intermittente en prévention de la MTEV en plus de la prophylaxie pharmacologique.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "67",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Épuration extra-rénale (continue ou intermittente) en cas d'insuffisance rénale aiguë.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "68",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser l'épuration extra-rénale en l'absence d'indication définie.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "69",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Initiation d'une insulinothérapie à partir d'une glycémie ≥ 10 mmol/L.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "70",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser de vitamine C intraveineuse.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "71",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Choc septique + hypoperfusion par acidose lactique : ne pas utiliser de bicarbonate de sodium pour améliorer l'hémodynamique/réduire les besoins en vasopresseurs.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "72",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Choc septique + acidose métabolique sévère (pH ≤ 7,2) + insuffisance rénale aiguë (AKIN 2-3) : bicarbonate de sodium.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "73",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Initiation précoce (dans les 72 h) de l'alimentation entérale si possible.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Objectifs de soins & prise en charge au long cours",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "74",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Discussion sur les objectifs de soins et le pronostic avec le patient et son entourage.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "75",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Définir les objectifs de soins précocement (dans les 72 h) plutôt que tardivement.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "76",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur des critères standardisés pour décider d'entamer une discussion sur les objectifs de soins.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "77",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Intégrer le principe de soins palliatifs (± consultation dédiée selon jugement médical) dans le plan de traitement si approprié.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "78",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas organiser systématiquement une consultation formalisée de soins palliatifs, par rapport à une consultation basée sur le jugement médical.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "79",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Orientation vers des groupes de soutien pour les survivants et leur entourage.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "80",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fiche de transmission avec les informations importantes pour la poursuite de la prise en charge.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "81",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur un modèle particulier de fiche de transmission.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "82",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer systématiquement les besoins de soutien économique et social (logement, alimentation, finances, psychologique) et agir en conséquence.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "83",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Éducation orale et écrite sur le sepsis (diagnostic, traitement, syndrome post-sepsis) avant la sortie et lors du suivi.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "84",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Participation de l'équipe soignante aux décisions de sortie post-réanimation pour une planification de sortie acceptable et réalisable.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "85",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Programme de transition (plutôt que soins standards) lors du transfert vers un service de soins non critiques.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "86",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Reprise des traitements usuels à la sortie de réanimation et de l'hôpital.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "87",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Information formalisée (résumé oral et écrit) sur le séjour en réanimation, le sepsis, les diagnostics associés, les traitements et les troubles habituels après un sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "88",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Plan de sortie incluant un suivi par des cliniciens compétents en cas de nouvelles séquelles.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "89",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur le suivi précoce après la sortie vs suivi de routine.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "90",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation pour ou contre les thérapies cognitives précoces.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "91",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluation et suivi des problèmes physiques, cognitifs et émotionnels après la sortie de l'hôpital.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "92",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Orientation vers un programme de suivi des maladies post-réanimation, lorsque celui-ci existe.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "93",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Orientation vers un programme de réadaptation si ventilation mécanique &gt; 48 h ou séjour en réanimation &gt; 72 h.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Annexe 6 (SSC pédiatrique) — détection & anti-microbiens",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Annexe 6 — Surviving Sepsis Campaign (SSC) 2020, recommandations pour l'enfant (y compris le nouveau-né) validées pour le contexte français.</b> Population par défaut de chaque ligne : enfant en choc septique ou défaillance d'organe liée au sepsis. Grades explicitement indiqués dans le texte source (force + niveau de certitude) — reproduits ici en un seul chip de synthèse.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Suggéré (conditionnelle)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Suggéré de ne pas faire (conditionnelle)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation possible (preuve insuffisante)",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Détection, diagnostic, prise en charge générale & anti-microbiens",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mise en place et application de protocoles de prise en charge de l'enfant en choc septique ou en défaillance d'organe liée au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Au moins 1 hémoculture d'au moins 2 mL avant antibiothérapie, dans toutes les situations où cela n'induit pas de retard d'administration (cf. bonnes pratiques hémoculture, page précédente).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Choc septique : débuter une antibiothérapie aussi vite que possible, dans l'heure.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de choc : débuter une antibiothérapie aussi vite que possible, dans l'heure suivant la reconnaissance du sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement empirique à large spectre couvrant les agents pathogènes les plus probables.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dès que pathogène et sensibilité sont connus : réduire le spectre des traitements empiriques.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de pathogène identifié : réduire le spectre ou arrêter les traitements empiriques selon l'état clinique, l'évolution, le site d'infection et les facteurs de risque, en lien avec l'infectiologie.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Enfants immunodéprimés et/ou à très haut risque de germe multirésistant : association d'antibiotiques probabilistes en cas de choc septique ou de défaillance d'organe liée au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Stratégies de dosage d'antibiotiques fondées sur les principes pharmacocinétiques/pharmacodynamiques, en tenant compte des propriétés spécifiques des médicaments.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer quotidiennement (clinique et biologique) la possibilité d'une désescalade de l'antibiothérapie.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Déterminer la durée d'antibiothérapie selon le site d'infection, l'agent causal, la réponse au traitement et le contrôle de la source.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Contrôler au plus vite la source de l'infection (tests diagnostiques appropriés, avis d'équipes spécialisées si nécessaire pour prioriser les interventions).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "16",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Retrait d'un dispositif intravasculaire confirmé comme source de l'infection, après mise en place d'un autre dispositif — le maintien reste parfois possible selon le germe et la balance bénéfices/risques d'une chirurgie.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Annexe 6 (SSC pédiatrique) — hémodynamique, respiratoire & métabolique",
+   "items": [
+    {
+     "t": "section",
+     "text": "Remplissage vasculaire, monitorage hémodynamique & traitements vasoactifs",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "20",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cristalloïdes plutôt qu'albumine pour la réanimation initiale.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "21",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cristalloïdes « balancés » plutôt que sérum salé à 0,9 %, en particulier pour les remplissages faisant suite au remplissage initial.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "22",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser les dérivés de l'amidon comme soluté de remplissage.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "23",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser les gélatines comme soluté de remplissage.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "24",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur la cible de pression artérielle moyenne (5ème ou 50ème percentile pour l'âge).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "25",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La catégorisation clinique seule en choc septique « chaud »/« froid » n'est pas recommandée.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "26",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mesure de variables hémodynamiques avancées (au mieux par échographie : débit/index cardiaque, résistances vasculaires systémiques, ScvO2), en complément des variables cliniques, quand disponibles. Lactate persistant élevé → réanimation probablement incomplète, poursuivre l'optimisation.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "28",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adrénaline plutôt que dopamine.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "29",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Noradrénaline plutôt que dopamine.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "30",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas suffisamment d'éléments pour recommander un vasopresseur plus qu'un autre en première ligne.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "33",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur l'adjonction d'un inotrope vasodilatateur en cas de dysfonction cardiaque malgré l'usage d'autres agents vasoactifs.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Prise en charge respiratoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "34",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur le moment exact pour intuber un enfant en choc septique réfractaire aux remplissages et aux catécholamines.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "35",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser l'étomidate pour l'intubation.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "36",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Essai de ventilation non invasive en cas de SDRA sans indication claire d'intubation et ayant répondu à la réanimation initiale (réévaluation attentive, ne doit pas retarder l'intubation).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "37",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "PEP élevée en cas de SDRA lié au sepsis (niveau exact non déterminé ; effets hémodynamiques délétères plus marqués en choc septique).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "38",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur les manœuvres de recrutement dans le SDRA lié au sepsis avec hypoxie réfractaire.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "39",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Essai de décubitus ventral en cas de SDRA sévère avec hypoxémie ne répondant pas aux autres thérapeutiques (durée non précisée chez l'enfant).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "40",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser en routine le NO inhalé chez tous les enfants avec SDRA lié au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "41",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "NO inhalé en dernier recours si hypoxie réfractaire + défaillance cardiaque droite, une fois les autres stratégies d'oxygénation utilisées.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "42",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur la ventilation à oscillation haute fréquence en SDRA grave (si utilisée : hypoxie réfractaire uniquement, en attendant un transfert vers un centre d'assistance extracorporelle).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "43",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Curares chez les enfants présentant un SDRA grave lié au sepsis.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Corticostéroïdes & traitement hormonal/métabolique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "44",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser l'hydrocortisone IV si le remplissage vasculaire et le traitement vasopresseur ont restauré l'état hémodynamique.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "45",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administration ou non d'hydrocortisone IV, au choix, en cas d'échec du remplissage vasculaire + traitement vasopresseur — recommandé chez l'adulte avec un niveau de preuve élevé, usage pouvant se justifier en choc réfractaire, en particulier si âge physiologique proche de l'adulte.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "46",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas instituer de traitement par insuline pour maintenir la glycémie ≤ 7,8 mmol/L (140 mg/dL).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "47",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur la cible glycémique précise (consensus d'expérience pour cibler &lt; 10 mmol/L soit 180 mg/dL, sans consensus sur une borne inférieure).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "48",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur une cible calcémique normale (en pratique, cible souvent une calcémie normale dès qu'un vasopresseur est nécessaire).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "49",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser la lévothyroxine en routine en situation d'euthyroïdie.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "50",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement antipyrétique ou attitude permissive de la fièvre, au choix.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Annexe 6 (SSC pédiatrique) — nutrition, transfusion & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Nutrition",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "51",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation tranchée entre nutrition entérale trophique précoce à augmentation lente vs nutrition entérale complète précoce. En pratique : préférence pour débuter une nutrition entérale dans les 48 h, augmentée par étapes.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "52",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas interrompre l'alimentation sur le seul critère de l'usage d'un traitement vasoactif.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "53",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Alimentation entérale privilégiée par rapport à la nutrition parentérale dans les 7 premiers jours suivant l'admission.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "54",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de supplémentation en émulsions lipidiques (chez le nouveau-né/prématuré sous nutrition parentérale : données insuffisantes pour trancher).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "55",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas surveiller en routine le volume de résidu gastrique.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "56",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Nutrition entérale par sonde gastrique plutôt que sonde transpylorique, en l'absence de contre-indication.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "57",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de prokinétiques en routine pour le traitement de l'intolérance alimentaire.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "58",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de sélénium.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "59",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de supplémentation en glutamine.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "60",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de supplémentation en arginine.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "61",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de supplémentation en zinc.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "62",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de supplémentation en vitamine C.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "63",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de supplémentation en thiamine.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "64",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de supplémentation en vitamine D.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Transfusion, épuration extra-rénale/échanges plasmatiques, immunoglobulines & prophylaxie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "65",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas transfuser de globules rouges si Hb ≥ 7 g/dL (seuil variable chez le nouveau-né selon le terme, l'âge postnatal et les comorbidités, notamment le canal artériel persistant).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "66",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation sur le seuil transfusionnel de globules rouges chez l'enfant en choc septique instable.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "67",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas transfuser de plaquettes en prophylaxie sur le seul taux de plaquettes, en l'absence de signes hémorragiques.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "68",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas transfuser de plasma en prophylaxie en l'absence de signes hémorragiques.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "69",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas faire d'échanges plasmatiques en l'absence de syndrome de thrombopénie associée à une défaillance multi-organe (TAMOF).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "70",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de recommandation pour ou contre les échanges plasmatiques en cas de TAMOF avéré.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "?"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "71",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Épuration extra-rénale pour prévenir/traiter une surcharge hydrique ne répondant pas à la restriction hydrique et au traitement diurétique (techniques parfois limitées chez le nouveau-né/prématuré ; considérations éthiques à prendre en compte).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "75",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser en routine les immunoglobulines intraveineuses — possible en choc toxique streptococcique réfractaire aux amines vasopressives/inotropes, si disponibles.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "76",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas faire en routine de prophylaxie contre l'ulcère de stress (sauf patients à très haut risque, ≥ 13 %).",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "77",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas faire en routine de prophylaxie (mécanique ou pharmacologique) contre la maladie thromboembolique veineuse, sauf populations spécifiques à bénéfice potentiel supérieur aux risques/coûts.",
+        "style": "cell_sm_sepsis"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge du sepsis du nouveau-né, de l'enfant et de l'adulte : recommandations pour un parcours de soins intégré » — Haute Autorité de Santé (HAS). Promoteurs : SRLF, SFAR, SFMU, SPILF, SOFMER, SFP, SFN, GFRUP, GPIP, SFM, SFMM, SF2H, SFGG, SFSP, CNGE, WAAAR. Coordination : Pr Djillali Annane (SRLF). Annexes 5-6 : recommandations de la Surviving Sepsis Campaign (SSC) 2021 (adulte) et 2020 (enfant/nouveau-né), validées pour le contexte français par le groupe de travail HAS.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> Validée par le Collège de la HAS le 29 janvier 2025.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> Recommandation pour la Pratique Clinique (RPC) ; grading GRADE (forte/conditionnelle, niveau de certitude) pour les Annexes 5-6 reprenant la Surviving Sepsis Campaign.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/download/prise-en-charge-du-sepsis-du-nouveau-ne-de-lenfant-et-de-ladulte-recommandations-pour-un-parcours-de-soins-integre/?wpdmdl=75093",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend les définitions, scores diagnostiques, messages clés, bonnes pratiques d'hémoculture et l'intégralité des Annexes 5 et 6 (Surviving Sepsis Campaign 2021 adulte et 2020 enfant/nouveau-né) du document source, mais ne remplace pas le texte intégral (59 pages, argumentaire complet, Annexe 4 vaccinale) et n'est ni éditée ni validée par la HAS ou les sociétés promotrices. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

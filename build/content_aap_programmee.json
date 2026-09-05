@@ -1,0 +1,466 @@
+{
+ "doc": "aap_programmee",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie & légende",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> gestion péri-procédurale d'un traitement antiplaquettaire (AAP) oral au long cours — aspirine, clopidogrel, prasugrel, ticagrélor — chez un patient devant bénéficier d'une <b>procédure invasive programmée</b> (élective). Complète la fiche déjà construite dans ce site pour la procédure invasive <b>non programmée / l'hémorragie</b> (document distinct, même groupe de travail).<br/><br/><b>Méthodologie — distincte de GRADE :</b> ce document ne comporte pas de niveaux GRADE 1+/1-/2+/2-. Les propositions ont été rédigées par cinq groupes de travail du Groupe d'intérêt en hémostase périopératoire (GIHP) et du Groupe français d'études sur l'hémostase et la thrombose (GFHT), en collaboration avec la SFAR, puis soumises à un vote (n = 37) : une proposition est retenue si au moins 50 % des votants expriment leur accord (et moins de 20 % une opinion contraire) ; l'accord est qualifié de <b>« fort »</b> si le seuil atteint 70 %. En l'absence d'accord, les propositions étaient reformulées puis resoumises au vote.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Divergence source-interne (disclosure) :</b> le Résumé de la source affirme : « Ces propositions ont été discutées et validées par vote ; <i>toutes sauf une</i> ont fait l'objet d'un accord fort. » Une vérification directe, proposition par proposition, de l'intégralité du corps du texte (y compris les propositions associées à la Figure 1 et au Tableau I, vérifiées visuellement sur le rendu de page) montre que <b>toutes les propositions retrouvées portent explicitement le tag « (accord fort) »</b>, sans qu'aucune ne porte un tag différent ou plus faible nulle part dans le document. L'exception annoncée par le résumé n'est donc <b>pas identifiable</b> dans le corps du texte source — elle n'est pas devinée ici ; les deux constats (l'affirmation du résumé et l'absence de toute proposition tagée autrement que « accord fort » dans le corps du texte) sont disclosés tels quels, sans résolution silencieuse.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende (convention de ce document)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "p",
+        "html": "Proposition retenue par vote du groupe de travail GIHP/GFHT (n = 37) avec « accord fort » (≥ 70 % des voix). Seul tag de force imprimé par la source à côté de chaque proposition individuelle du corps du texte (voir encadré ci-dessous).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Classification du risque hémorragique de la procédure",
+   "items": []
+  },
+  {
+   "title": "Figure 1 — synthèse des propositions & Tableau I",
+   "items": [
+    {
+     "t": "section",
+     "text": "Figure 1 — Synthèse des propositions",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>Tableau-matrice reproduisant intégralement la Figure 1 du document source (risque hémorragique de la procédure en colonnes, risque thrombotique du patient en lignes).</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "mx_head"
+       },
+       {
+        "t": "p",
+        "html": "Risque hémorragique de la procédure (à évaluer avec le chirurgien ou le responsable de la procédure)",
+        "style": "mx_super"
+       },
+       "",
+       ""
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque thrombotique du patient",
+        "style": "mx_head"
+       },
+       {
+        "t": "p",
+        "html": "Faible",
+        "style": "mx_head"
+       },
+       {
+        "t": "p",
+        "html": "Intermédiaire",
+        "style": "mx_head"
+       },
+       {
+        "t": "p",
+        "html": "Élevé",
+        "style": "mx_head"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aspirine en prévention primaire",
+        "style": "mx_b"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt ou poursuite",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt",
+        "style": "mx"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AAP en prévention secondaire (prévention cardiovasculaire, artériopathie des membres inférieurs, antécédent d'accident vasculaire cérébral ischémique)",
+        "style": "mx_group"
+       },
+       "",
+       "",
+       ""
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aspirine en monothérapie",
+        "style": "mx_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuite",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Poursuite",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt",
+        "style": "mx"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Clopidogrel en monothérapie",
+        "style": "mx_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuite",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt et relais par aspirine",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt",
+        "style": "mx"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bithérapie antiplaquettaire pour stent coronaire (différer la procédure à la fin de la bithérapie antiplaquettaire en l'absence de risque vital ou fonctionnel)",
+        "style": "mx_group"
+       },
+       "",
+       "",
+       ""
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Stent &lt; 1 mois / stent &lt; 6 mois à haut risque thrombotique* / IDM &lt; 6 mois",
+        "style": "mx_b"
+       },
+       {
+        "t": "p",
+        "html": "Différer la procédure. Si impossible : poursuivre les 2 AAP",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Différer la procédure. Si impossible : poursuivre l'aspirine, interrompre l'anti-P2Y12",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Différer la procédure. Si impossible : interrompre les 2 AAP**",
+        "style": "mx"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aucun des 3 critères ci-dessus",
+        "style": "mx_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuivre les 2 AAP",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Poursuivre l'aspirine, interrompre l'anti-P2Y12",
+        "style": "mx"
+       },
+       {
+        "t": "p",
+        "html": "Interrompre les 2 AAP",
+        "style": "mx"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Risque hémorragique de la procédure</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Faible",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Intermédiaire",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Élevé",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réalisable sous bithérapie antiplaquettaire (ex : cataracte)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réalisable sous aspirine seule (ex : PTH)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Non réalisable sous AAP (ex : ampullectomie endoscopique)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Délai d'arrêt des AAP — dernière prise à :</b> J-3 pour l'aspirine ; J-5 pour le clopidogrel et le ticagrélor ; J-7 pour le prasugrel (ajouter 2 jours à chaque durée si neurochirurgie intracrânienne). En post-opératoire, reprendre les 2 AAP au plus vite, en fonction du risque hémorragique.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Durées d'interruption, relais & gestion selon l'indication",
+   "items": [
+    {
+     "t": "p",
+     "html": "<b>Note (neurochirurgie intracrânienne) :</b> pour la neurochirurgie intracrânienne, il est proposé que la dernière prise soit à J-5 pour l'aspirine, J-7 pour le clopidogrel et le ticagrélor, J-9 pour le prasugrel (accord fort).",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Note (ticagrélor, pontage semi-urgent) :</b> des données récentes suggèrent que la chirurgie semi-urgente de pontage aortocoronaire puisse être réalisée après une interruption plus courte du ticagrélor, de trois à cinq jours, sans surrisque hémorragique pour la majorité des patients. Cependant, dans cette situation, les patients n'ayant pas une correction de l'inhibition plaquettaire induite par le ticagrélor sont exposés à un risque accru d'hémorragie.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Bithérapie antiplaquettaire — stent coronaire",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de proposition</b> — concernant le recours, ou non, à une dose de charge lors de la reprise des anti-P2Y12 après leur interruption préopératoire, aucune proposition ne peut être faite.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>Note (AINS) :</b> l'utilisation périopératoire des coxibs reste possible.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Anesthésie locorégionale (rachidienne & blocs périphériques)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Blocs nerveux périphériques",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Blocs à faible risque hémorragique</b> (saignement facilement contrôlable, zone compressible) : blocs superficiels — bloc fémoral, bloc axillaire, bloc sciatique au creux poplité, etc.<br/><b>Blocs à haut risque hémorragique</b> (saignement non compressible ou aux conséquences potentiellement graves) : blocs profonds — bloc infraclaviculaire, bloc sciatique para-sacré, bloc du plexus lombaire postérieur, etc. ; contre-indiqués sous anti-P2Y12.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Proposition",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Faible risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est proposé que les blocs nerveux périphériques à faible risque hémorragique puissent être réalisés sous AAP, en mono- ou en bithérapie, si le rapport bénéfice/risque est favorable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Haut risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est proposé que les blocs nerveux périphériques à haut risque hémorragique puissent être réalisés sous aspirine en monothérapie si le rapport bénéfice/risque est favorable. Ces blocs sont contre-indiqués sous anti-P2Y12 (clopidogrel, prasugrel, ticagrélor), sauf si ces AAP ont été interrompus respectivement 5, 7 et 5 jours avant le geste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Échoguidage",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est proposé que ces blocs (superficiels ou profonds) soient réalisés par échoguidage et par un opérateur expérimenté.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cathéter périnerveux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La mise en place d'un cathéter périnerveux ne doit pas compromettre la reprise postopératoire des AAP, et en particulier des anti-P2Y12. Son retrait suit les mêmes règles que la pose.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chirurgie de pontage aortocoronaire & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Gestion des agents antiplaquettaires pour une procédure invasive programmée » — Propositions du Groupe d'intérêt en hémostase périopératoire (GIHP) et du Groupe français d'études sur l'hémostase et la thrombose (GFHT), en collaboration avec la Société française d'anesthésie-réanimation (SFAR). Anne Godier, Pierre Fontana, Serge Motte, Annick Steib, Fanny Bonhomme, Sylvie Schlumberger, Thomas Lecompte, Nadia Rosencher, Sophie Susen, André Vincentelli, Yves Gruel, Pierre Albaladejo, Jean-Philippe Collet, et le French Working Group on perioperative hemostasis (GIHP). Anesth Reanim 2018 (ANREA-314).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Publication :</b> doi 10.1016/j.anrea.2018.01.002.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> pas de système GRADE — propositions rédigées par cinq groupes de travail GIHP/GFHT puis validées par vote (n = 37) ; seuil de 50 % pour retenir une proposition, seuil de 70 % pour un « accord fort » (voir légende page 1 et disclosure sur la divergence source-interne concernant l'unique exception annoncée par le résumé mais non identifiable dans le corps du texte).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des propositions du corps du texte (classification du risque hémorragique de la procédure, durées d'interruption et relais, gestion selon l'indication, bithérapie pour stent coronaire, anesthésie locorégionale rachidienne et blocs périphériques, chirurgie de pontage aortocoronaire), ainsi que la Figure 1 (synthèse des propositions) et le Tableau I (caractéristiques d'un stent à haut risque thrombotique), reproduits intégralement en tableaux structurés.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des propositions, de la Figure 1 et du Tableau I du document source, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques) et n'est ni édité ni validé par le GIHP, le GFHT ou la SFAR. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé. Document de 2018 : vérifier l'existence d'une actualisation plus récente en cas de doute.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

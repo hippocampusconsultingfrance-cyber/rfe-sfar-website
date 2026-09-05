@@ -1,0 +1,4279 @@
+{
+ "doc": "anticoagulants",
+ "sections": [
+  {
+   "title": "Principes généraux & délais d'arrêt",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Principe general (R1 — GRADE 1+, accord fort) :</b> la gestion péri-procédurale des anticoagulants se decide en croisant 3 elements : le <b>risque hémorragique de la procédure</b>, le <b>risque thromboembolique du patient</b>, et les <b>conséquences d'un report</b> de la procédure si les deux risques sont élevés.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (méthodologie GRADE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Définitions — Risque hémorragique de la procédure",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>Risque faible</b>",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Saignements peu fréquents, de faible intensité ou aisément contrôlés. Réalisable sous anticoagulant curatif.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Risque élevé</b>",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Nécessite l'arrêt de l'anticoagulant : le saignement est majoré chez le patient anticoagulé.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "<b>Procédures neuraxiales</b>",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ponction lombaire, rachianesthésie, péridurale, péri-rachianesthésie combinée (hors chirurgie rachidienne) — considérées à risque hémorragique très élevé.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Procédure à risque hémorragique FAIBLE — pas d'arrêt",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AVK : poursuivre le traitement ; contrôler l'INR dans la semaine précédant la procédure (absence de surdosage).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AOD (apixaban, dabigatran, édoxaban, rivaroxaban) : sauter la prise de la veille au soir ET celle du matin de la procédure (quel que soit le schéma), reprise aux doses habituelles ≥ 6h après le geste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Procédure à risque hémorragique ÉLEVÉ — délais d'arrêt pré-procédural",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Anticoagulant",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Dernière prise / injection avant la procédure (J0)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AVK — Warfarine (Coumadine®)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "J-6, puis contrôle INR la veille (objectif ≤ 1,5 ; ≤ 1,2 si neurochirurgie/neuraxial)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AVK — Fluindione (Préviscan®)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "J-5, puis contrôle INR la veille",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AVK — Acénocoumarol (Sintrom®)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "J-4, puis contrôle INR la veille",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AOD anti-Xa (apixaban, édoxaban, rivaroxaban)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "J-3 si fonction rénale normale ; J-5 si risque hémorragique très élevé (neurochirurgie intracrânienne, neuraxial)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dabigatran",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "J-3 (fonction rénale normale) ; adapter si IRC (cf. tableau rénal)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HBPM dose curative",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "24h avant la procédure",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HNF sous-cutanée dose curative",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "24h avant la procédure",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HNF IVSE dose curative",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6h avant la procédure",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fondaparinux dose curative",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "J-4",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* Si INR > seuil de sécurité la veille : vitamine K 2 à 5 mg PO (voie orale préférée à l'IV : risque anaphylactique décrit par voie IV), contrôle INR le lendemain.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "* Reprise post-procédurale (risque hémorragique élevé) : AVK dans les 24 premières heures, posologie habituelle, sans dose de charge (R4.1, GRADE 2+, Fort — upgradé à 1+ pour la FA spécifiquement, cf. p.2). AOD idéalement entre 48h et 72h, sans relais héparinique (R4.5/R5.6/R7.10, GRADE 2+, Fort). Si reprise impossible : héparine dose curative 48-72h après (R4.2/R4.6, GRADE 2+, Fort). Thromboprophylaxie veineuse post-procédurale recommandée dans l'attente (R4.7, GRADE 1+, Fort).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Synthèse par indication — Fibrillation atriale & valve mécanique",
+   "items": [
+    {
+     "t": "section",
+     "text": "Fibrillation atriale (FA) — patient sous AOD",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "ATCD d'AVC ischémique : différer la procédure au-delà du 3ème mois post-AVC si possible (sauf urgence vitale/fonctionnelle).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.3/5.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque hémorragique élevé : arrêt AOD, dernière prise à J-3 (DFG normal), sans relais héparinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Reprise du traitement curatif par l'AOD habituel, idéalement entre 48h et 72h, sans relais héparinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Thromboprophylaxie veineuse post-procédurale dans l'attente de la reprise curative.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Fibrillation atriale (FA) — patient sous AVK",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.1/3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt AVK avant procédure à risque élevé (délais p.1) + contrôle INR veille ; vitamine K si besoin.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sans ATCD d'AVC/AIT/embolie systémique : PAS de relais héparinique pré-procédural.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avec ATCD d'AVC/AIT/embolie systémique : relais pré-procédural par HBPM dose curative (1ère inj. soir J-3, dernière au plus tard matin J-1), sans contrôle anti-Xa systématique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Reprise des AVK dans les 24 premières heures post-procédure, posologie habituelle, sans dose de charge, sans relais héparinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si reprise AVK impossible <24h : héparine dose curative (HBPM préférée), idéalement 48-72h post-procédure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Valve cardiaque mécanique (AVK)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Relais pré-procédural systématique par HBPM dose curative 2x/j (1ère inj. soir J-3, dernière matin J-1), sans contrôle anti-Xa.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Programmer la procédure le matin pour ne pas prolonger l'arrêt des anticoagulants.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Valve aortique à double ailettes, rythme sinusal, sans ATCD thrombotique : pas de relais héparinique post-procédural si AVK repris <24h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Autres cas : relais héparinique post-procédural (HBPM 2x/j), débuté idéalement 48-72h après, arrêté au 1er INR ≥ 2.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Synthèse par indication — Maladie thromboembolique veineuse",
+   "items": [
+    {
+     "t": "section",
+     "text": "Maladie thromboembolique veineuse (MTEV) — stratification du risque",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "table",
+      "rows": [
+       [
+        {
+         "t": "p",
+         "html": "<b>Très élevé</b>",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "EP ou TVP proximale < 1 mois",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "<b>Élevé</b>",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "EP ou TVP proximale de 1 à 3 mois",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "<b>À évaluer</b>",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "SAPL, HTP-TEC, thrombophilie majeure, TIH en cours, récidive sous traitement → <b>discussion multidisciplinaire</b>",
+         "style": "cell"
+        }
+       ],
+       [
+        {
+         "t": "p",
+         "html": "<b>Modéré</b>",
+         "style": "cell_b"
+        },
+        {
+         "t": "p",
+         "html": "Autres cas",
+         "style": "cell"
+        }
+       ]
+      ]
+     }
+    },
+    {
+     "t": "p",
+     "html": "Différer la procédure au-delà du 1er mois (idéalement > 3 mois) après EP/TVP proximale si possible (R7.2, GRADE 2+, Fort).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "MTEV — patient sous AOD",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque hémorragique élevé, cas non complexe : arrêt AOD, dernière prise à J-3 (DFG normal), sans relais.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "EP/TVP proximale < 1 mois : stratégie personnalisée multidisciplinaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Autres cas de MTEV : interrompre l'AOD sans relais héparinique pré-procédural.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Reprise du traitement curatif par l'AOD habituel, idéalement 48-72h après, sans relais héparinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si le traitement curatif ne peut pas être repris par l'AOD habituel, initier une anticoagulation par héparines à dose curative (HBPM de préférence), idéalement 48-72h après la procédure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "MTEV — patient sous AVK",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "EP/TVP proximale < 3 mois : relais pré-procédural par HBPM dose curative (1ère inj. soir J-3, dernière au plus tard matin J-1).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque de récidive modéré : PAS de relais héparinique pré-procédural.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "EP/TVP < 3 mois ou déficit connu en prot. C/S : relais post-procédural par héparine dose curative, débuté 48-72h après, arrêté au 1er INR ≥ 2.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Autres cas : pas de relais post-procédural si AVK repris < 24h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "MTEV — filtre cave & thromboprophylaxie mécanique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "EP/TVP proximale < 1 mois + procédure à risque hémorragique élevé : discuter un filtre cave optionnel pré-procédural.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Retrait du filtre programmé dès reprise de l'anticoagulation curative (idéalement < 3 mois).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "TVP distale symptomatique : différer la procédure au-delà du 1er mois suivant la thrombose si cela ne génère pas de risque vital/fonctionnel majeur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque hémorragique ET thromboembolique élevés : compression pneumatique intermittente per- et post-procédurale, en association à la prophylaxie pharmacologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7.15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Contentions élastiques graduées : NON recommandées quel que soit le risque thromboembolique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Adaptation à l'insuffisance rénale",
+   "items": [
+    {
+     "t": "section",
+     "text": "Insuffisance rénale chronique (IRC) — stades (CKD-EPI)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Stade",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "DFGe (mL/min/1,73m²)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IRC modérée (3)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "30 – 49",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IRC sévère (4)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "15 – 29",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IRC terminale (5 / 5D)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "< 15",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "AVK et HNF : maniement inchangé quel que soit le stade d'IRC (élimination non rénale). AOD et HBPM : cf. tableaux ci-dessous.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Délai d'arrêt pré-procédural des AOD selon le DFGe (FA)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Molécule",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "DFGe",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque faible",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Apixaban / Édoxaban / Rivaroxaban",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≥ 50",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'arrêt\n(sauter J-1 soir + matin)",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "J-3",
+        "style": "cell_c"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "30 – 49",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "J-3",
+        "style": "cell_c"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "15 – 29",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "J-5",
+        "style": "cell_c"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "< 15",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'AOD / pas de dosage validé",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_c"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dabigatran",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≥ 50",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "J-3",
+        "style": "cell_c"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "30 – 49",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "J-5",
+        "style": "cell_c"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "< 30",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_c"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Applicable si l'AOD est prescrit à la posologie adaptée au DFGe. Après la procédure : reprise selon les mêmes modalités que la population générale, quel que soit le stade d'IRC.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Posologie des AOD dans la FA selon le DFGe",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "DFGe (mL/min)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Apixaban",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Rivaroxaban",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Édoxaban",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Dabigatran",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "≥ 50",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "5 mg x2*",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "20 mg/j",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "60 mg/j",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "150 mg x2",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "30 – 49",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "5 mg x2*",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "15 mg/j",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "30 mg/j",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "110 mg x2",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "15 – 29",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "2,5 mg x2",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "15 mg/j",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "30 mg/j",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "< 15",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "2,5 mg x2 (hors AMM)",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "15 mg/j (hors AMM)",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* 2,5 mg x2 pour l'apixaban si ≥ 2 facteurs parmi : âge > 80 ans, poids < 60 kg, créatininémie > 133 µmol/L.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Relais AVK par héparines selon le stade d'IRC (Q10)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Stade IRC (DFGe)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Modalités du relais héparinique pré-procédural",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sévère/terminale<br/>(&lt; 30 mL/min)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HNF IVSE débutée le soir de J-3, arrêtée 6h avant la procédure (surveillance/adaptation identiques à la population générale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Alternative (notamment prise en charge extra-hospitalière) : HNF calcique SC 333 UI/kg le soir de J-3, puis 250 UI/kg/12h, dernière injection le matin de J-1, sans surveillance biologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sévère<br/>(15-29 mL/min)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM en alternative à l'HNF : tinzaparine 175 UI/kg x1/j OU énoxaparine 100 UI/kg x1/j — 1ère injection le soir de J-3, dernière le soir de J-2 (2 doses au total, pas d'injection la veille), sans surveillance biologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Terminale<br/>(&lt; 15 mL/min)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tinzaparine 175 UI/kg x1/j en alternative à l'HNF — 1ère injection le soir de J-3, dernière le soir de J-2 (2 injections au total), sans surveillance biologique. Les autres HBPM ne sont pas recommandées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Stade IRC (DFGe)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Relais post-procédural (héparine curative, idéalement 48-72h après)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sévère/terminale<br/>(&lt; 30 mL/min)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HNF à dose curative, schéma posologique et surveillance identiques à la population générale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sévère<br/>(15-29 mL/min)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM en alternative à l'HNF : tinzaparine 175 UI/kg x1/j ou énoxaparine 100 UI/kg x1/j.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Terminale<br/>(&lt; 15 mL/min)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tinzaparine 175 UI/kg x1/j en alternative à l'HNF, avec mesure de l'activité anti-Xa 4 à 6h après la 3ème injection (objectif ≤1,5 UI/mL) — contacter le laboratoire d'hémostase référent si dépassement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Stade IRC (DFGe)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Thromboprophylaxie veineuse post-procédurale (dans l'attente du curatif)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sévère/terminale<br/>(&lt; 30 mL/min)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Héparine calcique SC 5 000 UI x2/j.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sévère<br/>(15-29 mL/min)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM en alternative à l'HNF : tinzaparine 4 500 UI x1/j ou énoxaparine 2 000 UI x1/j.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Terminale<br/>(&lt; 15 mL/min)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tinzaparine 4 500 UI x1/j en alternative à l'HNF.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "AOD en IRC sévère (DFGe 30-49) : arrêt sans relais ni dosage, dernière prise à J-3 (anti-Xa) ou J-5 (dabigatran) avant procédure à risque élevé (R10.3.1, GRADE 2+, Fort). DFGe &lt;30 : arrêt sans relais ni dosage, dernière prise des AOD anti-Xa à J-5 (R10.3.2, Avis d'experts, Fort). AOD à faible risque hémorragique : sauter veille au soir + matin quel que soit le stade d'IRC (R10.2, GRADE 2+, Fort).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Annexe — Classification du risque hémorragique par spécialité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Annexe — Classification du risque hémorragique par spécialité",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Reproduction fidèle des tableaux de classification établis par chaque société savante partenaire de la RFE (source : texte intégral, annexes p.79-116). Ce classement guide le choix « faible / élevé / très élevé » utilisé dans les tableaux de délais d'arrêt (p.1). Il peut être adapté localement.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Anesthésie loco-régionale (ALR)  —  Recommandations dédiées ESAIC/ESRA, ASRA",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque faible<br/>(pas d'arrêt)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé<br/>(arrêt anticoagulant)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Blocs périphériques superficiels (bloc axillaire, bloc fémoral, bloc sciatique poplité, bloc des érecteurs...)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Blocs périphériques profonds (bloc paravertébral, bloc infraclaviculaire, bloc du plexus lombaire par voie postérieure...)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Péridurale, rachianesthésie, péri-rachi combinée (risque très élevé — cf. Q3)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Reprise d'une anticoagulation curative non indiquée avec cathéter de péridurale en place ; possible ≥24h après son retrait. Pas de données robustes pour classer les blocs périphériques profonds en risque très élevé : gestion identique aux autres procédures à risque élevé (AVK : INR≤1,5 ; AOD : J-3 hors IRC).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Radiologie interventionnelle  —  Fédération de Radiologie Interventionnelle (FRI)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque faible<br/>(pas d'arrêt)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé<br/>(arrêt anticoagulant)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponctions/drainages d'abcès superficiels",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Biopsie hépatique ou rénale percutanée",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Biopsies superficielles (thyroïde, sein, ganglion, parties molles)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Biopsie pulmonaire profonde/pleurale sous TDM",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pose/échange cathéters veineux tunnelisés / chambre implantable (site compressible)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Biopsie osseuse profonde (rachis, bassin)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Retrait de chambre implantable",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Drainage d'abcès profonds (hépatique, rétropéritonéal, pelvien...)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Phlébographie diagnostique / cavographie sans thrombolyse",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Néphrostomie percutanée",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mise en place / retrait de filtre cave",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Drainage biliaire percutané (transhépatique)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltration articulaire périphérique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Embolisation artérielle thérapeutique (hémorragie, TACE, fibromes, prostate...)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltration rachidienne si articulaire postérieur",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Embolisation splénique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Angioplastie simple de fistule d'hémodialyse (sans thrombolyse prolongée)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Procédures portales complexes (TIPS, ponction portale, recanalisation)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ablations tumorales percutanées (RFA, MWA, cryo-ablation)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Thrombolyse / thrombectomie endovasculaire",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Vertébro/kyphoplastie, consolidation osseuse périph.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Infiltration rachidienne si épidurale — risque très élevé*",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* Gestes à risque de complication neurologique sévère : préférer INR≤1,2 (AVK) ou concentration en AOD nulle (dernière prise à J-5).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Rhumatologie — gestes percutanés musculosquelettiques  —  Société Française de Rhumatologie (SFR)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque faible<br/>(pas d'arrêt)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé<br/>(arrêt anticoagulant)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration articulaire postérieure*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ponction-infiltration articulations coxo-fémorales",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltration branche médiale du rameau postérieur*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Trituration d'une articulation périphérique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration articulations périphériques hors coxo-fémorales",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Infiltration canalaire superficielle à l'aveugle",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltration des sacro-iliaques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Injection IM dont toxines botuliques site profond (ex. glutéale)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltrations périarticulaires",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Aponévrotomie digitale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltration canalaire superficielle sous guidage",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Biopsie synoviale, d'artère temporale, musculaire, osseuse",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltration de poulie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ponction lombaire, blood patch, infiltration rachidienne épidurale†",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Injection sous-cutanée",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Neurotomie par radiofréquence†",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Injection intra-musculaire (dont toxine botulique) site superficiel",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Vertébroplastie/kyphoplastie†",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Acupuncture",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ponction-biopsie disco-vertébrale†",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aponévrotomie palmaire",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Infiltration canalaire profonde†",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Biopsie des glandes salivaires accessoires",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* à moduler selon la morphologie du patient. † gestes à considérer comme à risque hémorragique très élevé (complication neurologique sévère possible).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Procédures invasives cardiologiques  —  Société Française de Cardiologie (SFC)",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Particularité :</b> certaines procédures cardiologiques (ablation endocavitaire pour flutter/FA, stimulateurs/défibrillateurs, TriClip) se font <b>sans arrêt des anticoagulants</b> (AOD : pas de prise le matin ni la veille ; AVK : en zone thérapeutique) car le risque thrombotique périprocédural est directement majoré.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Sans arrêt des anticoagulants",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt des anticoagulants (correction hémostase)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ablation endocavitaire par cathéter pour flutter et FA (supraventriculaire)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ablation endocavitaire par cathéter hors arythmies atriales",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Explorations électrophysiologiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ablation d'arythmie par voie épicardique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intervention coronaire percutanée",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Défibrillateurs extravasculaires (voie sous-costale)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Stimulateurs et défibrillateurs de tous types",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Cardioversion électrique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réparation tricuspide percutanée (TriClip)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réparation mitrale percutanée (MitraClip)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Remplacement valvulaire tricuspide percutané (TTVR)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Remplacement valvulaire aortique percutané (TAVI, toutes voies)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fermeture percutanée du foramen ovale perméable",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Remplacement valvulaire mitral percutané (TMVR)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fermeture percutanée de communication inter-auriculaire",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Fermeture percutanée de communication inter-ventriculaire",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Fermeture percutanée de fuite para-valvulaire",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Biopsie endomyocardique",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "TAVI : l'essai POPular PAUSE TAVI a montré la supériorité de l'interruption pré-procédurale (AOD J-2, AVK J-3/J-5) avec reprise le jour même en l'absence de complication vasculaire. Fermeture d'auricule gauche : cf. indication (souvent CI définitive aux anticoagulants).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Chirurgie thoracique et cardio-vasculaire  —  SFCTCV & Société de Chirurgie Vasculaire et Endovasculaire (SCVE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque faible<br/>(AOD: pas de prise matin/veille — AVK: zone thérapeutique)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé<br/>(arrêt pour correction hémostase)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie thoracique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tous les gestes (dont pose de drain pleural)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie cardiaque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Tous les gestes sous CEC. Pose de PM/DAI épicardique, changement de sonde, ablation fils d'acier, reprise de scarpa (faux anévrisme)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie vasculaire et endovasculaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédures endoveineuses superficielles et profondes, amputations mineures, embolisations",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Toute la chirurgie veineuse et artérielle ouverte, traitement endovasculaire des anévrysmes de l'aorte abdominale, angioplasties artérielles périphériques, abords pour hémodialyse",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "CEC : circulation extracorporelle. Reprise de l'anticoagulation curative après chirurgie vasculaire à moduler : plus précoce après pontages périphériques distaux, plus tardive en cas de grands décollements ou d'abords redux (scarpa).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Chirurgie orale — classement des actes  —  Société Française de Chirurgie Orale (SFCO)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Actes",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Mesures préventives",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sans risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Anesthésie locale, détartrage, débridement parodontal",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Hémostase mécanique simple par compression",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Faible risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avulsion simple, avulsions multiples ≤2 quadrants (1 côté), implants avec lambeau 1 quadrant, élévation sinus voie crestale, dégagement implants, incision/drainage, biopsie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Hémostase chirurgicale conventionnelle*, acide tranexamique, chirurgies minimalement invasives, flapless/naviguées",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque élevé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avulsions multiples >2 quadrants, dent(s) incluse(s), implants multiples/zygomatiques, élévation sinus voie latérale, greffes osseuses d'apposition, chirurgie pré-orthodontique dent incluse, chirurgie lithiase salivaire, tumeurs bénignes muqueuse buccale, chirurgie osseuse endodontique périapicale, fermeture communication bucco-sinusienne, gingivectomie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Mêmes mesures + dérivés du sang (fibrinogène/thrombine), électrocoagulation, CBCT pour position artère alvéolo-antrale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Déconseillés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Bloc alvéolaire inférieur unilatéral ; greffe autologue symphysaire (préférer hétérologue/synthétique)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Aspiration de contrôle impérative en cas d'ALR",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Contre-indiqués",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Gestes hémorragiques si plateau technique/expérience insuffisants ; bloc alvéolaire inférieur bilatéral (hématome latéropharyngé) ; prélèvement symphysaire (hématome plancher buccal)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* hémostase mécanique + sutures + hémostatiques locaux résorbables ± colle synthétique, bain de bouche acide tranexamique 10%. Le tissu osseux maxillaire permet souvent le maintien des AOD/AVK/AAP avec hémostase locale renforcée.",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Gestion pratique (mise à jour 2026 vs 2015) :</b> Actes sans risque et à faible risque → poursuite AVK (INR≤4) et AOD sans saut de prise (segmenter les interventions si possible ; si facteur de risque hémorragique supplémentaire sous AOD, sauter la veille au soir + le matin). Actes à risque élevé → interruption AOD/AVK obligatoire ; <b>protocole AOD proposé</b> : dernière prise à J-3 hors IRC (J-5 si dabigatran et DFG&lt;50, ou apixaban/rivaroxaban et DFG&lt;30), reprise à 48-72h. AVK : recommandations 2015 inchangées. Discussion pluridisciplinaire si double risque hémorragique et thrombotique élevé.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Chirurgie ORL — classement par sous-spécialité  —  Société Française d'ORL et de Chirurgie Cervico-Faciale (SFORL)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Sous-spécialité",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque faible (pas d'arrêt)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé (arrêt anticoagulant)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Otologie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Examen sous AG, extraction corps étranger, ATT, myringotomie, pose pilier ancrage osseux",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Otoplastie, méatoplastie/canaloplastie, chirurgie des tympans, chaîne ossiculaire, cholestéatome, implants cochléaires/oreille moyenne/ancrage osseux, pétrectomies*, chirurgie du sac endolymphatique*, paragangliomes*, voies trans-labyrinthiques*/rétro-sigmoïdes*/sus-pétreuses*",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rhinologie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Endoscopie cavité nasale sans biopsie, turbinoplastie par radiofréquence/coblation, pose implant sous-cutané valve nasale, réduction fracture os propres du nez, ablation corps étranger intra-nasal, biopsie lésion fosse nasale, cryothérapie nasale postérieure",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Turbinoplastie au microdébrideur/ciseaux, ablation végétations par voie endonasale, méatotomie, maxillectomie médiale, sphénoïdotomie, ethmoïdectomie, chirurgie sinus frontal, polypectomie intra-nasale, septoplastie, rhinoseptoplastie, drainage abcès septal, fermeture perforation septale, correction valve nasale, sclérothérapie (Rendu-Osler), cautérisation intra-nasale, ligature artère sphéno-palatine/ethmoïdale, fermeture brèche méningée endonasale, chirurgie base du crâne/tumorale naso-sinusienne",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Laryngologie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Laryngoscopie en suspension avec biopsie simple, exérèse endoscopique limitée lésion bénigne, injection endolaryngée (hors graisse abdominale), dilatation laryngotrachéale simple, laryngoplastie voie endoscopique Wendler",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Injection laryngée avec prélèvement de graisse abdominale, laryngoplastie de féminisation vocale par voie externe",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cancérologie cervico-faciale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Panendoscopie des VADS, diverticule de Zenker voie endoscopique, adénectomie simple, trachéotomie urgente (à discuter)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie carcinologique sans reconstruction* (laryngectomie partielle*/totale*, pharyngo-laryngectomie*, oropharyngectomie*, basiglossectomie*, glossectomie*, pelvectomie*, maxillectomie*...), chirurgie avec lambeau libre/pédiculé*, curage cervical*, trachéotomie, chirurgie glandes salivaires, thyroïdectomie/parathyroïdectomie, kyste tractus thyréoglosse, cervicotomie, diverticule de Zenker par cervicotomie, réduction pomme d'Adam",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sommeil",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Endoscopie sous sommeil induit",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Amygdalectomie, chirurgie vélaire, pharyngoplastie d'expansion, basiglossectomie (endoscopique/robot), épiglottectomie partielle, chirurgie orthognatique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ORL pédiatrique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "ATT, kystes dermoïdes sous-cutanés, chirurgie endoscopique du larynx de l'enfant",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Amygdalectomie*, adénoïdectomie*, chirurgies par voies externes larynx/trachée enfant, angiofibromes nasopharyngés*, orbitotomie voie externe, KTT, malformations lymphatiques, kystes/fistules branchiaux",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* Situations particulières à très haut risque : reprise différée à 72h et/ou anticoagulant à durée de vie courte/antagonisable en relais. Amygdalectomie/adénoïdectomie : risque hémorragique postopératoire retardé (1-2% des cas, formes graves possibles).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Procédures endoscopiques  —  Société Française d'Endoscopie Digestive (SFED)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque faible<br/>(pas d'arrêt)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé<br/>(arrêt anticoagulant)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Procédures diagnostiques ± biopsies#",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Polypectomie / mucosectomie / dissection sous-muqueuse",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prothèses biliaires ou pancréatiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "CPRE avec sphinctérotomie",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Échoendoscopie diagnostique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ampullectomie*",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Entéroscopie simple/double ballon sans polypectomie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Échoendoscopie avec biopsie",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pose de stent œsophagien, entéral ou colique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Échoendoscopie thérapeutique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Gastrostomie percutanée",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dilatation de sténoses",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Radiofréquence œsophagienne",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Traitement des varices",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Électrocoagulation au plasma Argon (APC)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Entéroscopie spiralée",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement des fistules post-opératoires",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Nécrosectomie endoscopique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "POEM",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Gastroplastie endoscopique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "# Toute coloscopie doit être envisagée comme potentiellement hémorragique (fréquence élevée des polypes). * À l'exception de l'ampullectomie, les gestes endoscopiques (même à haut risque) peuvent être réalisés sous aspirine.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Chirurgie viscérale  —  SFCD, ACHBPT, SOFFCO-MM, SFCP-CH",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Société",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque faible",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "SFCD (chirurgie digestive)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie colorectale bénigne et maligne ; chirurgie œsogastrique bénigne et maligne",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ACHBPT (hépato-bilio-pancréatique)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Hépatectomie, pancréatectomie, cholécystectomie, transplantation hépatique ou pancréatique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "SOFFCO-MM (chirurgie de l'obésité)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Anneau gastrique, sleeve, bypass en Y/oméga, dérivation biliopancréatique + switch duodénal, Nissen-Sleeve, SADI-S, bipartition du transit, endo-sleeve, toute révision de chirurgie bariatrique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "SFCP-CH (chirurgie pariétale)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Cure de hernie (inguinale, fémorale, ombilicale, ligne blanche), éventration, éviscération",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Toutes ces procédures sont classées à risque hémorragique élevé (arrêt des anticoagulants). Particularités : hépatectomie avec reconstruction vasculaire prothétique → discuter anticoagulation précoce. Transplantation pancréatique → héparine IVSE 72h. Chirurgie pariétale (hernie/éventration complexe) → différer la reprise curative à 48h (risque thromboembolique élevé, ex. valve mécanique) ou 72h (risque plus faible) du fait du risque d'hématome de paroi (3,6% dans une série de 3384 patients).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Chirurgie proctologique  —  Société Nationale Française de Colo-Proctologie (SNFCP)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Faible (peut être réalisé sous anticoagulation efficace)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Élevé (reprise curatif à 48-72h)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Exceptionnel (reprise différée >72h, ou molécule différente)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Formolisation",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Électrocoagulation d'une condylomatose extensive",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie hémorroïdaire (toute technique)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Incision d'abcès superficiel",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Fissurectomie avec ou sans anoplastie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Exérèse de tumeur rectale par voie transanale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Encollage de trajet fistuleux",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Excision de sinus pilonidal",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Drainage d'une suppuration complexe",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Électrocoagulation d'une condylomatose peu extensive",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Traitement par laser/radiofréquence d'un sinus pilonidal",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgies impliquant des résections cutanées extensives",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement par laser/radiofréquence d'une fistule anale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Drainage et/ou mise à plat d'une fistule anale basse",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie d'épargne sphinctérienne (lambeau d'avancement rectal FLAP ; ligature intersphinctérienne LIFT)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "L'ensemble de cette classification relève d'accords d'experts. Chirurgie hémorroïdaire : risque hémorragique très prolongé (saignement retardé par chute d'escarre jusqu'à J20, incidence globale 6-8%). AVK : taux de saignement 23% vs 4% sans anticoagulant (RR=5,8). AOD : sur-risque marqué si reprise avant J15 (33% vs 8%) ; risque de saignement majoré en cas de relais par HBPM. Chez les patients à faible risque thromboembolique, une reprise tardive (>J15) ou un relais à dose préventive limite les complications.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Procédures gynécologiques  —  Collège National des Gynécologues et Obstétriciens Français (CNGOF)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque faible<br/>(pas d'arrêt)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé<br/>(arrêt anticoagulant)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hystéroscopie diagnostique, polypes, synéchie, cloison, thermocoagulation endomètre, ablation stérilet",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie voie vaginale endoscopique : résection de fibrome",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction superficielle (lymphocèle...)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Toutes chirurgies vaginales/vulvaires : hystérectomies, prolapsus, incontinence TOT/TVT, fistule, plasties vulvaires, mutilations sexuelles, conisation, amputation col",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Drainage abcès superficiels (bartholinite, abcès mammaire)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Cœlioscopie exploratrice#",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Salpingectomie par cœlioscopie (surtout trocart 3-5mm)#",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie cœlioscopie : hystérectomie, kystectomie, endométriose, annexectomie",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Biopsie col, endomètre, vulve, sein*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgies voie haute / laparotomies (hystérectomies...)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement incontinence par agents comblants, toxine botulique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sénologie : mastectomies partielles/sentinelles, curages RMI, lipomodelage...",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sénologie geste sous local, tumorectomie superficielle bas risque",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lésion cutanée*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chambre implantable percutanée (CIP)*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* Gestes de biopsies cutanées/seins/CIP/orifices de trocarts peuvent nécessiter des compressions. # Pas de consensus évident : plutôt arrêt des anticoagulants pour toutes les cœlioscopies, mais salpingectomie avec trocarts 3-5mm plutôt classée en bas risque.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Procédures urologiques  —  Association Française d'Urologie (AFU)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque faible (pas d'arrêt)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé (arrêt — reprise 48-72h)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sondage urétral",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie abdominale ou rétropéritonéale (ouverte ou cœlio — inclut AVH et transplantation rénale)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Instillations endo-vésicales",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie par voie vaginale (incontinence/prolapsus)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Injections intra-caverneuses",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie par voie périnéale (urètre, pénectomie, sphincter homme, implant pénien...)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Changement de cystostomie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie scrotale ou inguinale (dont vasectomie)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Changement de sonde de néphrostomie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Néphrostomie percutanée#",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pose/changement de sonde JJ",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Néphrolithotomie percutanée (NLPC)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pose/changement de sonde urétérale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Urétéroscopie#",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ablation de sonde JJ",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Lithotritie extracorporelle",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Urétrocystoscopie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Drainage d'une collection profonde#",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Drainage d'une collection superficielle",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Biopsie prostatique transrectale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Biopsie prostatique transpérinéale*",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Biopsie rénale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "RTUV/RTUP/incision cervico-prostatique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Énucléation prostatique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Photovaporisation prostatique*",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Traitements mini-invasifs de l'HBP",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Neuromodulation des racines sacrées",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Injection intradétrusorienne de toxine botulique",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* Intérêt de l'arrêt moins certain, à discuter au cas par cas. # Attitude pouvant différer en situation d'urgence. Reprise possiblement différée au-delà de 48-72h si : hématurie persistante, NLPC avec ponctions multiples/saignement, saignement non contrôlé — discuter un geste chirurgical pour permettre la reprise. Reprise à envisager au plus tard à 3 semaines en l'absence de re-saignement.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Chirurgie plastique, reconstructrice et esthétique  —  Société Française de Chirurgie Plastique (SoFCPRE)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque faible<br/>(pas d'arrêt)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé<br/>(arrêt anticoagulant)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie dermatologique avec résection-suture sans greffe de peau ni lambeau*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie plastique et reconstructrice de la face, du sein ou de la silhouette#",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Greffe de peau",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Lambeaux",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "* Une prise en charge ambulatoire n'est pas recommandée ; hospitalisation à préférer pour surveillance. # Reprise post-procédurale le plus souvent par héparines à dose curative, avec reprise différée des anticoagulants oraux. La balance bénéfice-risque doit être systématiquement positive en chirurgie esthétique.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Chirurgie orthopédique — classement par sous-spécialité (1/2)  —  SOFCOT, SFA, SFCR, GSF-GETO, SFHG, SFCM",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Sous-spécialité",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque faible",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Tumeurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Biopsies percutanées# (trucut/trocart sous écho ou scanno-guidé)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Biopsie à ciel ouvert, tous les gestes de résection ; biopsies ostéo-médullaires",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rachis",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Toutes chirurgies d'arthrodèse/libération canalaire (cervical, thoracique, lombaire), chirurgie d'expansion, cimentoplastie/vertébroplastie, pose de halo crânien£",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hanche et genou",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ponction ou infiltration de hanche*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Toutes les chirurgies de hanche et de genou",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "# Biopsies pour suspicion de métastase rénale/thyroïdienne ou sur lésion anévrysmatique à l'IRM : souvent à risque élevé. * Avis d'experts. £ Hématomes extraduraux rapportés lors de la pose de halo (perforation table interne).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Chirurgie orthopédique — classement par sous-spécialité (2/2)  —  SOFCOT, SFA, SFCR, GSF-GETO, SFHG, SFCM",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Sous-spécialité",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque faible",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Arthroscopie — Épaule",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Arthroscopie diagnostique, décompression sous-acromiale/ténotomie biceps, synovectomie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réparation de coiffe, chirurgie de stabilisation osseuse ou capsulo-labrale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Arthroscopie — Hanche",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Arthroscopie diagnostique, synovectomie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Capsulotomie, procédures osseuses ou cartilagineuses",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Arthroscopie — Genou",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Arthroscopie diagnostique, méniscectomie simple",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ligamentoplastie, réparation multi-ligamentaire, microfractures/procédures cartilagineuses, synovectomie",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Arthroscopie — Cheville",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Arthroscopie diagnostique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Ligamentoplastie, microfractures/procédures cartilagineuses, synovectomie",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Main",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie de la main@, canal carpien (toute technique), kystes digitaux, lésions digitales/unguéales, ressaut, chirurgies digitales",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Dupuytren, transposition du nerf ulnaire, greffes de lunatum/scaphoïde ou autre geste osseux important (ostéotomie, curetage/greffe)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "@ Pour les AVK, préférer idéalement un INR≤2. Reprise de l'anticoagulation curative : 48-72h pour tumeurs et arthroscopie (avis d'experts, extrapolé de la chirurgie générale).",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Rachis — reprise de l'anticoagulation :</b> données fragiles et hétérogènes. Une cohorte suisse (332 patients sous AVK) a montré un risque de saignement post-opératoire x3,4 (surtout hématomes extraspinaux 3,3% vs 0,6%), majoré en cas de valve mécanique ou d'allongement du TCA à J1-J2. À l'inverse, une reprise des AOD après J3 était associée à 5% d'événements thromboemboliques. <b>Au total : reprise individualisée entre J3 et J7</b> selon le profil de risque thrombotique/hémorragique ; en cas de risque hémorragique élevé, reprise par HBPM avec relais différé des anticoagulants oraux.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Neurochirurgie  —  Société Française de Neurochirurgie (SFNC)",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Principe absolu :</b> aucune procédure programmée de neurochirurgie n'est réalisée sous anticoagulation curative — pas même un changement de boîtier de neurostimulation. Le risque hémorragique de toute procédure neurochirurgicale est <b>élevé ou très élevé</b>, jamais faible.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Risque faible",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque très élevé (hémostase optimale requise)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aucune (0)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie rachidienne sans ouverture durale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie rachidienne avec ouverture durale ou chirurgie crânienne, exérèse tumeur gliale, exérèse schwannome vestibulaire (angle ponto-cérébelleux), exérèse méningiome intra-canalaire cervical, dérivation ventriculo-péritonéale, pose d'électrodes de SEEG",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "SEEG : stéréo-électroencéphalographie. Pour le risque très élevé (toute chirurgie crânienne + rachis avec ouverture durale) : objectif INR≤1,2 (AVK) ou dernière prise d'AOD à J-5 — délais allongés par rapport au schéma standard (Q3, p.1). Chirurgie sans ouverture durale : gestion identique au risque élevé standard (AVK INR≤1,5 ; AOD J-3 hors IRC).",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "Reprise : chirurgie intracrânienne le plus souvent vers J10. Chirurgie du rachis : cf. données orthopédie ci-dessus (reprise individualisée J3-J7, HBPM en relais si risque hémorragique élevé).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Situations particulières & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "AVC péri-procédural (Q9)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de suspicion d'AVC péri-procédural : imagerie cérébrale (parenchyme + vaisseaux) en urgence ; contacter une équipe neurovasculaire (reperfusion envisageable jusqu'à 24h) ; décubitus dorsal, PAS d'antithrombotique avant l'imagerie ; respecter l'HTA jusqu'à 220/120 mmHg.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après un AVC ischémique chez un patient avec pathologie thromboembolique artérielle (ex. FA) : reprendre l'anticoagulation curative par AOD dans les 4 jours, ou dans les 48h si AVC mineur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Assistance ventriculaire gauche longue durée — LVAD (Q8)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AVK + reprise curative envisageable à 24-48h : NE PAS interrompre les AVK ; antagonisation temporaire par CCP seuls (sans vitamine K), dose selon INR pré-procédure pour objectif INR &lt;1,5 (~20 UI/kg) ; reprise des AVK le soir même à dose habituelle sans relais héparinique ; contrôle INR quotidien jusqu'à cible (2-3).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Autres cas à risque hémorragique élevé : arrêter les AVK, relais pré-procédural par HBPM dose curative (1ère inj. soir J-3, dernière au plus tard matin J-1, sans contrôle anti-Xa) ; reprise des AVK dans les 24 premières heures, sans relais héparinique post-procédural.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Poids extrême (Q11)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Accord",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "11.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poids ≥ 100 kg nécessitant un relais péri-procédural : utiliser les HBPM à dose curative sans surveillance biologique en 1ère intention ; HNF seulement en 2ème intention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "11.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poids ≥ 100 kg sous HBPM : ne pas dépasser les doses recommandées pour 100 kg — ex. 18 000 UI x1/j (tinzaparine, daltéparine, nadroparine) ou 10 000 UI x2/j (énoxaparine).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "11.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poids ≥ 100 kg sous HNF IVSE curative : débuter à dose réduite par rapport au schéma habituel (ex. 1500 UI/h soit 36 000 UI/j quel que soit le poids), puis adapter comme en population générale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "11.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poids &lt; 50 kg nécessitant un relais péri-procédural : HBPM à dose curative en 1ère intention, ajustées au poids selon le RCP ; HNF en 2ème intention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Fort",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "AOD et AVK : prescrits selon les mêmes modalités posologiques/de surveillance que la population générale quel que soit le poids ou l'IMC (sauf posologie AOD selon RCP si &lt;50 kg).",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Points de vigilance garde :</b><br/>&bull; Ne jamais réaliser une procédure neuraxiale ou de neurochirurgie sans avoir vérifié le délai d'arrêt ET, en cas de doute (IRC, poids extrême, dabigatran), sans dosage de la concentration résiduelle si disponible.<br/>&bull; Vitamine K : privilégier la voie orale (risque anaphylactique décrit en IV, rare mais grave).<br/>&bull; Toute situation complexe de MTEV (SAPL, HTP-TEC, TIH, récidive sous traitement) impose un avis multidisciplinaire avant toute décision d'arrêt/relais.<br/>&bull; Pour classer le risque hémorragique d'un acte précis (ORL, orthopédie, viscéral, neurochirurgie...), voir l'annexe par spécialité ci-avant, reproduite du texte intégral (p.79-116).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> Recommandations Formalisées d'Experts « Gestion des anticoagulants pour une procédure invasive programmée ». Coordonnées par le Groupe d'Intérêt en Hémostase Péri-Opératoire (GIHP), en collaboration avec la Société Française d'Anesthésie-Réanimation et médecine péri-opératoire (SFAR) et 25 autres sociétés savantes (SFC, SFMV, SFNV, SFTH, SFNDT, INNOVTE, SFPT, SFCO, SFED, SFCD, ACHBPT, SOFFCO-MM, SFCP-CH, SNFCP, AFU, CNGOF, FRI, SFR, SOFCOT, SFA, SFCM, SFHG, GSF-GETO, SFCR, SFNC, SFORL, SoFCPRE, SFCTCV, SCVE).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Auteurs principaux :</b> A. Godier, A. Mansour, S. Motte, S. Roullet, B. Iung, P. Albaladejo, P. Mismetti et coll.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> 20 avril 2026 — Validée par le Conseil d'Administration de la SFAR le 18 mars 2026.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (niveau de preuve global + force de recommandation via vote, accord fort si ≥70% d'accord et <20% d'opposition).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2026/04/RFE-20.4.2026-deifinitif-et-validei.pdf",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire en situation de garde. Il reprend l'intégralité des recommandations gradées et des tableaux de classification par spécialité de la RFE, mais ne remplace pas le texte intégral (argumentaire détaillé, ~180 références bibliographiques complètes) et n'est ni édité ni validé par la SFAR. En cas de doute ou de situation complexe, se référer au texte intégral et/ou à un avis spécialisé (hémostase, cardiologie, spécialité chirurgicale concernée).",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

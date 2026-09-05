@@ -1,0 +1,2132 @@
+{
+ "doc": "anticoag_urgence",
+ "sections": [
+  {
+   "title": "Champ 1 — Biologie & principes généraux",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ d'application :</b> gestion de l'anticoagulation en situation d'urgence — hémorragie sous anticoagulant, surdosage asymptomatique, procédure invasive non programmée (&lt; 48h), thrombolyse d'un AVC ischémique sous anticoagulant. 102 recommandations (19 GRADE 1, 35 GRADE 2, 48 avis d'experts), 5 champs — reproduites intégralement. <b>Complémentaire</b> à la fiche « Anticoagulants & procédure invasive » (RFE 2026), qui couvre la chirurgie PROGRAMMÉE.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandé (forte)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Proposé (optionnel)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Proposé de ne pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Définitions clés",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Hémorragie GRAVE</b> = au moins un critère parmi : (i) hémorragie extériorisée non contrôlable par les moyens usuels ; (ii) instabilité hémodynamique (PAS &lt; 90 mmHg ou chute de 40 mmHg vs PAS habituelle, ou PAM &lt; 65 mmHg, ou tout signe de choc) ; (iii) geste hémostatique urgent nécessaire (chirurgie, radiologie interventionnelle, endoscopie) ; (iv) transfusion de CGR nécessaire ; (v) localisation menaçant le pronostic vital/fonctionnel (hémorragie intracrânienne ou intraspinale, intraoculaire/rétro-orbitaire, hémothorax, hémopéritoine, hémopéricarde, hématome musculaire profond/syndrome de loge, hémorragie digestive aiguë, hémarthrose, rupture d'anévrysme aortique, dissection aortique…). <b>Sans aucun de ces critères → hémorragie NON GRAVE.</b><br/><br/><b>Antagonisation :</b> traitement interférant spécifiquement avec le mode d'action de l'anticoagulant (CCP pour les AVK, idarucizumab pour le dabigatran). <b>Réversion :</b> terme générique incluant l'antagonisation et toute amélioration de l'hémostase sans mécanisme spécifique (ex. CCP pour les AOD anti-Xa).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Biologie : dépister un anticoagulant et son niveau",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement anticoagulant inconnu : évaluer l'activité anti-Xa (HNF/HBPM) et le temps de thrombine (TT) en plus du TP/INR et du TCA, pour exclure ou détecter un anticoagulant circulant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement connu : AVK → INR (labo ou délocalisé) ; HNF/HBPM/fondaparinux → activité anti-Xa calibrée ; AOD → concentration du médicament.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser les tests viscoélastométriques pour dépister un anticoagulant circulant ou en déterminer le niveau.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "TP/INR : sensible aux AVK, inconstamment modifié par les AOD. TCA : sensible à l'HNF, peu adapté aux HBPM, très peu sensible au fondaparinux. TT : très sensible au dabigatran et à l'HNF (permet de les exclure si normal), peu sensible aux HBPM. Anti-Xa calibré : sensible aux AOD anti-Xa (apixaban, rivaroxaban) — permet leur dépistage.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — Hémorragie : principes généraux",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 — Principes généraux face à une hémorragie sous anticoagulant",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie grave : débuter en urgence l'arrêt de l'anticoagulant, la prise en charge symptomatique/hémostatique/étiologique, la mesure du niveau d'anticoagulation et la réversion.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie intracrânienne ou choc hémorragique : réverser sans attendre le résultat des tests biologiques, sauf s'il est disponible en quelques minutes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie non grave : débuter un traitement hémostatique par les moyens usuels quand possible, sans réverser l'anticoagulation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie non grave : prise en charge ambulatoire possible si contrôle rapide et environnement médico-social favorable, sans majorer le risque de resaignement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Grave ou non grave : rechercher la cause du saignement et les facteurs de risque de surdosage/accumulation (comédications, insuffisance rénale, contre-indications).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Formaliser des procédures organisationnelles pluridisciplinaires pour améliorer la rapidité et la qualité de la prise en charge.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Quelle que soit la gravité de l'hémorragie sous anticoagulant : administrer l'acide tranexamique selon les mêmes indications qu'un patient non anticoagulé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Un geste hémostatique réalisable immédiatement (chirurgie, embolisation, endoscopie, tamponnement, compression) doit être fait quel que soit le niveau d'anticoagulation — la réversion ne doit pas le retarder.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — AVK & dabigatran",
+   "items": [
+    {
+     "t": "section",
+     "text": "Hémorragie sous AVK (R2.3)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mesurer l'INR (labo ou délocalisé) ; en cas d'hémorragie grave, ne pas retarder le geste hémostatique pour l'obtenir.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie grave, INR &gt; 1,5 (&gt; 1,2 si hémorragie intracrânienne) : arrêter l'AVK et antagoniser en urgence par CCP (dose selon INR/RCP, ou 25 UI/kg si INR non disponible rapidement) + 10 mg de vitamine K (IV ou PO).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie grave : contrôler l'INR entre 30 min et 6-8h, puis à 24h après l'antagonisation, pour décider d'une administration supplémentaire de CCP.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie non grave : rechercher/corriger un surdosage uniquement par vitamine K (sans CCP), traitement symptomatique puis réévaluation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Vitamine K IV</b> corrige plus vite l'INR mais expose à un risque (rare, ~3/10 000) de réaction anaphylactoïde — privilégier la voie orale si possible. Risque thrombotique de l'antagonisation par CCP estimé faible (~1,8 %). Ne pas utiliser le PFC pour antagoniser un AVK (fortes doses &gt; 30 mL/kg nécessaires, inefficace en pratique).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Hémorragie sous dabigatran (R2.4)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie grave : mesurer en urgence la concentration plasmatique en dabigatran.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie grave, concentration &gt; 50 ng/mL (&gt; 30 ng/mL si intracrânienne), ou mesure non disponible rapidement : antagoniser en urgence par idarucizumab 5 g IVL.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Contrôler la concentration à 12-24h après idarucizumab si concentration initiale &gt; 200 ng/mL (dépister un rebond) — contrôle plus précoce (4-6h) si &gt; 600 ng/mL ou ClCr &lt; 30 mL/min ; discuter une 2ème dose si rebond.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si idarucizumab non disponible : CCP 25-50 UI/kg (50 UI/kg si hémorragie intracrânienne).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie non grave : traitement symptomatique sans idarucizumab, réévaluer posologie/fonction rénale/comédications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — AOD anti-Xa & héparines",
+   "items": [
+    {
+     "t": "section",
+     "text": "Hémorragie sous AOD anti-Xa — rivaroxaban, apixaban, edoxaban (R2.5)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie grave : mesurer en urgence la concentration plasmatique en AOD anti-Xa.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie grave, concentration &gt; 50 ng/mL (&gt; 30 ng/mL si intracrânienne), ou mesure non disponible rapidement : réverser par CCP (25-50 UI/kg). Sans délai, par CCP 50 UI/kg, si hémorragie intracrânienne ou choc hémorragique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie non grave : traitement symptomatique sans CCP, contrôler les modalités du traitement (posologie, fonction rénale, comédications).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>L'andexanet alfa n'est pas disponible en France</b> (situation au 06/01/2024). En son absence, les CCP sont proposés — efficacité incertaine mais suggérée par des cohortes observationnelles. Événements thromboemboliques après CCP ~4 % (vs ~10 % pour l'andexanet dans les données publiées). Pas de contrôle de concentration après CCP (celle-ci n'est pas modifiée par le CCP) ni de administration supplémentaire recommandée après la 1ère dose.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Hémorragie sous héparines — HNF / HBPM (R2.6)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HNF dose curative, hémorragie intracrânienne ou choc hémorragique : arrêter et antagoniser en urgence par sulfate de protamine (selon dose/voie/délai d'administration de l'HNF).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HNF dose curative, hémorragie grave (hors intracrânienne/choc) : arrêter et discuter la protamine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HNF dose curative, hémorragie non grave : traitement symptomatique + vérifier l'absence de surdosage (anti-Xa ou TCA).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM, hémorragie grave : mesurer en urgence l'activité anti-Xa.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM dose curative, hémorragie intracrânienne ou choc hémorragique : arrêter et antagoniser en urgence par protamine (selon type d'HBPM/dose/délai).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM dose curative, hémorragie grave (hors intracrânienne/choc) : arrêter et discuter la protamine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM dose curative, hémorragie non grave : traitement symptomatique + vérifier l'adaptation au poids/fonction rénale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer de protamine si l'activité anti-Xa (HNF ou HBPM) est &lt; 0,2 UI/mL.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Protamine :</b> 1 mg (100 UAH) neutralise 100 UI d'HNF (rapport 1:1, neutralisation ~100 %). Neutralisation partielle des HBPM (variable : tinzaparine &gt; 80 %, dalteparine ~75 %, énoxaparine/nadroparine ~50 %) — ne neutralise pas le fondaparinux. Injection IV lente (10 min) : risque d'hypotension, bradycardie, réaction anaphylactoïde (risque accru si exposition antérieure à la protamine/insuline NPH, allergie au poisson, vasectomie).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — Fondaparinux, reprise & Champ 3",
+   "items": [
+    {
+     "t": "section",
+     "text": "Hémorragie sous fondaparinux (R2.7) & reprise post-hémorragie (R2.8)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fondaparinux dose curative, hémorragie grave, réversion décidée : CCP (25-50 UI/kg) ou facteur VII activé recombinant (90 µg/kg).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fondaparinux dose curative, hémorragie non grave : traitement symptomatique + vérifier l'adaptation au poids/fonction rénale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après hémorragie grave (hors intracrânienne) : reprendre l'anticoagulation curative après évaluation risque hémorragique/thrombotique (à titre indicatif J2-J7) — d'autant plus précoce qu'un geste hémostatique garantit une faible récidive.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie intracrânienne ou situation complexe : décider la reprise en discussion multidisciplinaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie grave dans le 1er mois suivant une TVP proximale/EP : discuter un filtre cave optionnel en réunion multidisciplinaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Fondaparinux : demi-vie longue (17h), élimination rénale exclusive, contre-indiqué si DFG &lt; 30 mL/min. Aucun antidote spécifique ; la protamine est inefficace.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Surdosages asymptomatiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surdosage asymptomatique sous AVK : ne pas administrer de CCP ni de plasma.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vitamine K PO : INR cible 2,5, si INR ≥ 6 (2 mg entre 6-10, 5 mg si &gt; 10) ; INR cible ≥ 3, si INR &gt; 10 (2 mg).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prise en charge ambulatoire possible dès la régulation si bonne compréhension/accompagnant, recherche étiologique et suivi INR réalisables, absence de risque hémorragique majoré (thrombopénie &lt; 50 G/L, autre antithrombotique associé sauf aspirine seule, ATCD hémorragie/AVC &lt; 1 mois, lésion évolutive à fort potentiel hémorragique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Intoxication massive supposée aux AOD : charbon activé seulement si &lt; 8h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surdosage AOD asymptomatique (&gt; 400 ng/mL) : rechercher la cause, surveillance clinique sans réversion.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Anticoagulant injectable, surdosage asymptomatique : ne pas réverser.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Procédures non programmées : AVK",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Procédures invasives non programmées (< 48h)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Risque hémorragique <b>faible</b> : sonde gastrique/urinaire, ponction d'ascite, ponction/infiltration articulaire périphérique, ponction sternale/BOM, ponction pleurale échoguidée, cathéter artériel ou central jugulaire/fémoral, bronchoscopie simple + LBA, prothèse biliaire/pancréatique, drainage d'abcès superficiel, avulsion dentaire (1 quadrant), urétéroscopie souple + JJ, ALR périphérique superficielle.<br/>Risque hémorragique <b>élevé</b> : drain thoracique, bronchoscopie rigide + biopsies, sphinctérotomie endoscopique, ampullectomie, dilatation de sténose, cathéter sus-pubien/sous-clavier, chirurgie intra-abdominale, hernie étranglée, fracture ESF, compression médullaire, torsion testiculaire, neurochirurgie, <b>gestes neuraxiaux</b> (PL, rachianesthésie, péridurale), ALR périphérique profonde, PMO/transplantation, chirurgie pour reprise hémorragique.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "AVK (R4.1)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédure à faible risque hémorragique : ne pas arrêter ni antagoniser l'AVK.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédure à risque élevé : mesurer l'INR avant la procédure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Seuil de sécurité hémostatique : INR ≤ 1,5 (≤ 1,2 pour neurochirurgie intracrânienne ou gestes neuraxiaux).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si l'INR est sous le seuil visé : ne pas antagoniser (ni CCP, ni vitamine K).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédure sans délai, résultat de l'INR indisponible : CCP 25 UI/kg + 5 mg vitamine K IV, débuter la procédure, contrôler l'INR à 30 min (complément de dose selon RCP si besoin).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "INR au-dessus du seuil, procédure dans les 12h : CCP à la posologie du RCP + 5 mg vitamine K IV ou PO, contrôle INR à 30 min (idéalement avant le début de la procédure).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "INR au-dessus du seuil, procédure prévue &gt; 12h : vitamine K 5 mg (IV de préférence), pas de CCP, contrôle INR avant la procédure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — AOD, héparines, fondaparinux",
+   "items": [
+    {
+     "t": "section",
+     "text": "AOD (R4.2)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédure à faible risque hémorragique : ne pas doser l'AOD, ni arrêter ni réverser.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.3/8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédure à risque élevé : mesurer la concentration (dabigatran ou AOD anti-Xa) — seuil de sécurité hémostatique 50 ng/mL (30 ng/mL pour neurochirurgie intracrânienne et gestes neuraxiaux).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dabigatran, concentration sous le seuil : ne pas administrer d'idarucizumab ni de CCP avant la procédure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AOD anti-Xa, concentration sous le seuil : réaliser la procédure sans réversion.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dabigatran au-dessus du seuil, procédure non différable : idarucizumab 5 g (dose unique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Concentration initiale &gt; 200 ng/mL : contrôler la concentration à 12-24h post-procédure ; discuter une 2ème dose d'idarucizumab en cas de ré-ascension.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.7/11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Concentration au-dessus du seuil, procédure différable sans perte de chance : attendre la baisse, nouvelle mesure ≥ 12h plus tard ou se baser sur la demi-vie estimée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AOD anti-Xa au-dessus du seuil, procédure non différable : CCP 50 UI/kg avant la procédure si hémostase devant être normalisée d'emblée (ex. neurochirurgie) ; ou CCP 25 UI/kg pendant la procédure en cas de saignement anormal (renouvelable 1×).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AOD anti-Xa au-dessus du seuil : ne pas réaliser de geste neuraxial, même après CCP.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Héparines (R4.3) & fondaparinux (R4.4)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HNF, procédure à faible risque : réaliser sans arrêter/antagoniser, après vérification de l'absence de surdosage (anti-Xa).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HNF, procédure à risque élevé non différable : sulfate de protamine (Tableau 4).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM, procédure à faible risque : réaliser sans mesurer l'anti-Xa, sans arrêter ni réverser.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM, procédure à risque élevé : mesurer l'activité anti-Xa avant la procédure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM, anti-Xa &lt; 0,2 UI/mL : ne pas administrer de protamine, quelle que soit la procédure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM, anti-Xa &gt; 0,2 UI/mL, risque hémorragique non acceptable : si la procédure peut être retardée de quelques heures sans perte de chance, attendre la baisse de l'anti-Xa.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM, anti-Xa &gt; 0,2 UI/mL, procédure non différable : neutraliser partiellement par protamine (IVL 10 min).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HBPM : pas de geste neuraxial, même après protamine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fondaparinux, procédure à faible risque : réaliser sans mesurer l'anti-Xa, sans arrêter ni réverser.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fondaparinux, procédure à risque élevé : mesurer l'activité anti-Xa fondaparinux avant la procédure pour réduire les complications hémorragiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fondaparinux, procédure à risque élevé non différable, réversion décidée : CCP ou facteur VII activé recombinant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fondaparinux, procédure à risque élevé différable sans perte de chance : attendre la baisse de l'anti-Xa, nouvelle mesure ≥ 12h plus tard ou se baser sur la demi-vie estimée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fondaparinux : pas de geste neuraxial.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Fracture ESF, neuraxial, reprise",
+   "items": [
+    {
+     "t": "section",
+     "text": "Fracture de l'ESF (R4.5), gestes neuraxiaux en urgence (R4.6)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fracture de l'extrémité supérieure du fémur : ne pas retarder la chirurgie du fait du traitement anticoagulant (opérer dans les 48h, comme en population générale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas réaliser de geste neuraxial sous anticoagulant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Geste neuraxial envisageable après réversion complète, selon l'anticoagulant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AVK, geste indispensable : CCP + vitamine K, vérifier le seuil (INR ≤ 1,2) avant le geste, opérateur expérimenté.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dabigatran, geste indispensable : idarucizumab avant le geste, opérateur expérimenté. Si indisponible, le CCP ne garantit ni la normalisation ni la réduction du risque — non recommandé dans cette indication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Apixaban, rivaroxaban, HBPM ou fondaparinux : la réversion (CCP, protamine ou rFVIIa) pour réaliser un geste neuraxial n'est pas recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Anticoagulant",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Délai avant geste neuraxial (sans IR sévère)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AVK",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5 jours (3 j acénocoumarol) et INR ≤ 1,2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AOD anti-Xa",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5 jours",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dabigatran",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5 jours",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HBPM dose curative",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "24 heures",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fondaparinux dose curative",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 jours",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Seuils de sécurité hémostatique pour geste neuraxial (mesure du niveau résiduel possible pour raccourcir ces délais) : AVK INR ≤ 1,2 ; AOD ≤ 30 ng/mL ; anti-Xa HBPM ≤ 0,1 UI/mL ; anti-Xa fondaparinux ≤ 0,1 µg/mL.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Reprise post-procédure (R4.7) & filtre cave (R4.8)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après procédure à risque hémorragique élevé : reprendre l'anticoagulation curative dès que l'hémostase chirurgicale le permet (à titre indicatif 24-72h).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans l'attente de la reprise curative : thromboprophylaxie veineuse médicamenteuse postopératoire quand indiquée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.7.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après procédure à faible risque : reprendre aux horaires habituels, au moins 6h après la fin du geste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédure &lt; 1 mois après TVP proximale/EP : discuter un filtre cave optionnel dès que possible (pré- ou postopératoire immédiat).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédure 1-3 mois après TVP/EP, reprise curative impossible dans les 72h post-op : discuter un filtre cave optionnel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Retirer le filtre dès que l'anticoagulation curative a pu être reprise sans complication et qu'aucun nouvel arrêt n'est prévu à court terme.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 5 — Thrombolyse AVC & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 5 — Thrombolyse d'un AVC ischémique sous anticoagulant",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AVK, AVCi éligible à thrombolyse IV : thrombolyser si INR &lt; 1,7.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AVK, INR &gt; 1,7 : ne pas thrombolyser, même après antagonisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AOD anti-Xa pris dans les 48h : thrombolyser si concentration &lt; 50 ng/mL.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AOD anti-Xa ou dabigatran (48h) : ne pas administrer de CCP ni d'andexanet alfa pour permettre une thrombolyse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AOD anti-Xa (48h) : ne pas thrombolyser si concentration ≥ 100 ng/mL.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AOD anti-Xa (48h), concentration entre 50 et 100 ng/mL : décision de thrombolyse au cas par cas.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dabigatran (48h) : thrombolyser si concentration &lt; 50 ng/mL (ou TT &lt; 60 s), ou après antagonisation par idarucizumab 5 g IV.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "HNF, HBPM ou fondaparinux à dose curative : ne pas thrombolyser.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Envisager une thrombectomie en cas d'occlusion proximale, que la thrombolyse ait été réalisée ou non.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> — HNF à dose curative et AVCi — les données de la littérature ne permettent pas d'émettre de recommandation sur l'usage ou non de sulfate de protamine pour permettre une thrombolyse.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Si seuls les tests standards (TP/TCA) sont disponibles pour un patient sous AOD, la thrombolyse IV est contre-indiquée (pas de seuil de sécurité interprétable).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Recommandations sur la gestion de l'anticoagulation dans un contexte d'urgence » — Recommandations Formalisées d'Experts. SFMU, SFAR, Groupe d'Intérêt en Hémostase Péri-opératoire (GIHP), Société Française de Thrombose et d'Hémostase (SFTH), 2024.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE. 102 recommandations (19 GRADE 1, 35 GRADE 2, 48 avis d'experts), 5 champs, 73 pages.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/download/gestion-de-lanticoagulation-dans-un-contexte-durgence/?wpdmdl=62045",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des recommandations gradées de cette RFE, mais ne remplace pas le texte intégral (argumentaire complet, algorithmes en figures, tableaux détaillés de posologie de protamine par HBPM) et n'est ni éditée ni validée par la SFMU, la SFAR, le GIHP ou la SFTH. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé (hémostase).",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

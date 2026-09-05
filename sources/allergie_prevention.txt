@@ -1,0 +1,1624 @@
+Recommandations formalise´es d’experts
+Pre´vention du risque allergique peranesthe´sique. Texte court
+Reducing the risk of anaphylaxis during anaesthesia. Short text
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar) a,*, Socie´te´ franc¸aise d’allergologie (SFA) b
+a 74, rue Raynouard, 75016 Paris, France
+b Institut Pasteur, 28, rue du Dr-Roux, 75724 Paris cedex 15, France
+Le travail de re´actualisation des RPC « pre´vention du risque
+allergique peranesthe´sique » est le re´sultat d’une collaboration
+entre des experts de la Socie´te´ franc¸aise d’anesthe´sie et re´anima-
+tion (Sfar) et ceux de la Socie´te´ franc¸aise d’allergologie (SFA). Les
+recommandations re´actualise´es avaient e´te´ e´labore´es en 2001 a`
+l’initiative de la Sfar et de la Socie´te´ franc¸aise d’allergologie et
+d’immunologie (SFAIC devenue SFA) et publie´es en 2002.
+Les supports bibliographiques parus dans les dix dernie`res
+anne´es ont e´te´ extraits a` partir de trois bases de donne´es : la base
+Medline, la base Pascal et la base Embase. Des bibliographies
+personnelles des experts ont e´te´ ajoute´es et des bibliographies
+de´rive´es des re´fe´rences des articles retenus ont e´galement e´te´
+prises pour re´fe´rences.
+La re´actualisation des recommandations a e´te´ re´alise´e selon un
+sche´ma en six questions pose´es aux experts, pour re´pondre aux
+interrogations les plus fre´quentes relatives a` la pre´vention du
+risque allergique peranesthe´sique :
+ Question 1. Quelle est la re´alite´ du risque d’hypersensibilite´
+allergique en anesthe´sie ?
+ Classiﬁcation.
+Incidence.
+Aspects
+cliniques
+(imme´diats
+et
+retarde´s). Morbidite´–mortalite´. Substances responsables.
+ Question 2. Me´canismes de la sensibilisation et de l’hypersensi-
+bilite´ imme´diate aux anesthe´siques – Physiopathologie du choc.
+ Question 3. Conduite du bilan diagnostique de la re´action
+d’hypersensibilite´ imme´diate.
+ Question 4. Facteurs favorisant une re´action d’hypersensibilite´ et
+place du bilan allergologique pre´anesthe´sique
+ Question 5. Pre´vention primaire et secondaire. Pre´me´dication et
+techniques anesthe´siques – pre´paration des patients.
+ Question
+6.
+Traitement
+des
+re´actions
+d’hypersensibilite´
+imme´diates et, en particulier, du choc anaphylactique survenant
+en cours d’anesthe´sie.
+Les niveaux de preuve et la force des recommandations retenus
+ont e´te´ e´tablis a` partir de la me´thode GRADE, modiﬁe´s et agre´e´s par
+le comite´ des re´fe´rentiels de la Sfar.
+Les niveaux de preuve retenus a` partir des e´tudes publie´es dans
+les revues avec comite´s de lecture sont :
+ un niveau de preuve e´leve´ :
+ l’essai randomise´ controˆle´,
+ le me´ta-analyse ;
+ un niveau de preuve bas :
+ l’e´tude « tout ou rien »,
+ les e´tudes controˆle´es de validation de tests diagnostiques,
+ les
+e´tudes
+prospectives
+de
+cohortes
+paralle`les,
+e´tudes
+« expose´s–non expose´s » prospectives, e´tudes cas-te´moins ;
+ un niveau de preuve tre`s bas :
+ autre type d’e´tude.
+Selon ces crite`res, la me´thode de classement du niveau global
+de preuve retenue est :
+ NP1 = une preuve globale forte (les recherches futures ont peu de
+chances de modiﬁer la conﬁance que l’on peut avoir en
+l’estimation de l’effet ou du risque) :
+ une ou plusieurs me´ta-analyses concordantes, classe´es haut
+niveau,
+ au moins une e´tude classe´e « haut niveau » dont les re´sultats
+sont non contradictoires avec les autres e´tudes de « haut
+niveau » ou de « bas niveau »,
+ au moins deux e´tudes classe´es « bas niveau », non contra-
+dictoires, de´montrant un risque relatif supe´rieur a`
+2 ou
+infe´rieur a` 0,5 ;
+ NP2 = une
+preuve
+globale
+mode´re´e
+(il
+est
+possible
+que
+les
+recherches
+futures
+modiﬁent
+l’effet
+ou
+le
+risque
+estime´
+et
+la
+conﬁance
+que
+l’on
+peut
+avoir
+dans
+cette
+estimation) :
+ deux e´tudes « bas niveau » ou plus, non contradictoires, mais
+avec risque relatif < 2 ou > 0,5 dans toutes ces e´tudes, ou dans
+toutes sauf une e´tude ;
+ NP3 = une
+preuve
+globale
+faible
+(il
+est
+probable
+que
+les
+recherches futures modiﬁent l’effet ou le risque estime´ et la
+conﬁance que l’on peut avoir dans cette estimation) :
+ plusieurs e´tudes de « bas niveau », dont certaines contra-
+dictoires, mais avec une majorite´ se de´gageant pour un effet
+favorable ou de´favorable ;
+Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+* Auteur correspondant.
+Adresse e-mail : jmmalinovsky@chu-reims.fr (Socie´te´ franc¸aise d’anesthe´sie et
+re´animation (Sfar)).
+0750-7658/$ – see front matter  2010 Elsevier Masson SAS. Tous droits re´serve´s.
+doi:10.1016/j.annfar.2010.12.002
+ NP4 = une preuve globale tre`s faible (toute estimation de l’effet
+de l’intervention the´rapeutique ou pre´ventive, ou toute estima-
+tion du risque est incertaine) :
+ e´tudes de « haut niveau » contradictoires,
+ uniquement des e´tudes de « tre`s bas niveau », cohe´rentes entre
+elles ou non.
+Comite´ d’organisation
+Pre´sident : Pr Jean Marc Malinovsky (Reims) jmmalinovsky@
+chu-reims.fr.
+Charge´s de projet :
+ Pr Christophe BAILLARD (Bobigny) ;
+ Dr Dragos RADU (Paris).
+Membres :
+ Pr Francis BONNET (Paris) ;
+ Pr Pascal DEMOLY (Montpellier) ;
+ Pr Jean-Louis GUEANT (Nancy) ;
+ Dr Franc¸ois LAVAUD (Reims) ;
+ Pr Francisque LEYNADIER (Paris) ;
+ Pr Dan LONGROIS (Paris) ;
+ Pr Jean MARTY (Paris) ;
+ Pr Paul Michel MERTES (Nancy) ;
+ Pr Denise Anne MONERET-VAUTRIN (Nancy) ;
+ Pr Marc SAMAMA (Paris) ;
+ Pr Daniel VERVLOE¨T (Marseille).
+Groupes de travail
+Pre´sident : Pr Paul Michel MERTES (Nancy).
+Membres :
+ Dr Nissen Abuaf, Paris ;
+ Dr Bassam Al Nasser, Beauvais ;
+ Dr Isabelle Aimone-Gastin, Nancy ;
+ Pr Yves Auroy, Clamart ;
+ Dr E´tienne Beaudoin, E´pinal ;
+ Dr Yves Benoıˆt, Lyon ;
+ Pr Fre´de´ric Berard, Lyon ;
+ Dr Marie Bruye`re, Clamart ;
+ Pr Isabelle Constant, Paris ;
+ Dr Fanny Codreanu, Luxembourg ;
+ Pr Bertrand Debaene, Poitiers ;
+ Me Germain Decroix, Paris La De´fense ;
+ Pr Gilles Dhonneur, Bondy ;
+ Dr Martine Drouet, Angers ;
+ Dr Isabelle Durand Zaleski, Cre´teil ;
+ Dr Sophie Orlowski-Fremont, Nancy ;
+ Pr Jacques Fusciardi, Tours ;
+ Dr Marie-Laure Germain, Reims ;
+ Dr Laurence Guilloux, Lyon ;
+ Pr Gise`le Kanny, Nancy ;
+ Dr Chantal Karila, Paris ;
+ Dr Dominique Laroche, Caen ;
+ Pr Corinne Lejus, Nantes ;
+ Dr Marie-Madeleine Lucas, Rennes ;
+ Pr Antoine Magnan, Nantes ;
+ Pr Fre´de´ric Mercier, Clamart ;
+ Dr Claudie Mouton-Faivre, Nancy ;
+ Pr Benoıˆt Plaud, Paris ;
+ Pr Claude Ponvert, Paris ;
+ Dr Jean Sainte-Laudy, Limoges ;
+ Pr Benoıˆt Vallet, Lille.
+Groupe de lecture.
+ Dr Michel Abbal, Toulouse ;
+ Dr Be´atrice Benabes, Amiens ;
+ Pr Laurent Beydon, Angers ;
+ Dr Franc¸oise Bienvenu, Pierre-Be´nite ;
+ Dr Joelle Birnbaum allergologue, Marseille ;
+ Dr Marie-Caroline Bonnet-Boyer, Montpellier ;
+ Dr Maryline Bordes, Bordeaux ;
+ Dr Marie Fazia Boughenou, Paris ;
+ Dr Aness Bouhamida, Alger ;
+ Dr Michel Bouvier, Lyon ;
+ Dr Sylvia Caboni, Viale Marconi, Italie ;
+ Dr Suzanne Carme, Albi ;
+ Dr Philippe Carre, Tours ;
+ Pr Sylvie Chollet-Martin, Paris ;
+ Mme Nathalie Commun, Nancy ;
+ Pr Antoine Coquerel, Caen ;
+ Dr Christian Cottineau, Angers ;
+ Dr Yvonne Delaval, Rennes ;
+ Pr Alain Didier, Toulouse ;
+ Pr Bertrand Dureuil, Rouen ;
+ Dr Rolande Dubost-Ferrenq, Pierre-Be´nite ;
+ Dr Jacques Dubost, Pierre-Be´nite ;
+ Dr Nathalie Diot-Junique, Lyon ;
+ Dr Olivier Eve, Lyon ;
+ Dr Alain Facon, Lille ;
+ Dr Christine Fessenmeyer, Le Kremlin-Biceˆtre ;
+ Dr Re´gis Fuzier, Toulouse ;
+ Dr Marc Gentili, Saint-Gre´goire ;
+ Dr Jacques Gayraud, Tarbes ;
+ Dr Dominique Giamarchi, Montauban ;
+ Dr Olivier Giraud, Lyon ;
+ Dr Ste´phane Guez, Bordeaux ;
+ Dr Marie-The´re`se Guinnepain, Suresnes ;
+ Dr Claude Jacquot, Grenoble ;
+ Dr Marie-Alix Kimmoun-Regnier, Nancy ;
+ Dr Anne-Marie Korinek, Paris ;
+ Dr Je´roˆme Laurent, Paris ;
+ Pr Marie-Claire Laxenaire, Nancy ;
+ Dr Luisa Lombardelli, Parme, Italie ;
+ Dr Nathalie Louvier, Dijon ;
+ Dr Philippe Mahiou, E´ chirolles ;
+ Pr Pierre Maurette, Bordeaux ;
+ Dr Yannick Meunier, Rouen ;
+ Dr Christine Mullet, Lyon ;
+ Dr Catherine Neukirch, Paris ;
+ Pr Jean-Franc¸ois Nicolas, Lyon ;
+ Dr Gise`le Occelli, Nice ;
+ Pr Michel Ollagnier, Saint-E´tienne ;
+ Dr Sophie Orlowski-Fremont, Nancy ;
+ Dr Isabelle Orsel, CHU Limoges ;
+ Pr Yves Pacheco, Pierre-Be´nite ;
+ Dr Me´lanie Perquin, Amiens ;
+ Dr Jean-Marie Renaudin, E´pinal ;
+ Dr Franc¸oise Rochefort-Morel, Rennes ;
+ Dr Philippe Scherer, Chalon-sur-Saoˆne ;
+ Pr Michel Schmitt, Nancy ;
+ Dr Jacqueline Seraphin Jean-Charles, Dijon ;
+ Dr Rodolphe Stenger, Strasbourg ;
+ Dr Jocelyne Valfrey, Strasbourg ;
+ Dr Ve´ronique Suars, Mont-Godinne, Belgique ;
+ Dr Marion Verdaguer, Poitiers ;
+ Dr Franc¸ois Wessel, Nantes ;
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+213
+De´ﬁnitions
+1. Re´action allergique : re´action immunologique pathologique
+lors d’un contact renouvele´ avec un antige`ne survenant chez un
+individu sensibilise´. La pe´riode de sensibilisation pre´alable est
+silencieuse
+et
+prend
+au
+minimum
+dix
+jours.
+L’allergie
+ou
+hypersensibilite´ allergique est lie´e a` la production d’anticorps
+spe´ciﬁques IgE spe´ciﬁques (hypersensibilite´ allergique imme´diate)
+ou de cellules sensibilise´es, les lymphocytes T (hypersensibilite´
+allergique retarde´e).
+2. Re´actions d’hypersensibilite´ : les re´actions d’hypersensi-
+bilite´ imme´diate peuvent eˆtre allergiques (habituellement lie´e a` la
+pre´sence d’IgE spe´ciﬁques, parfois d’IgG) ou non allergiques
+(anciennement re´actions anaphylactoı¨des, le plus souvent par
+histaminolibe´ration non spe´ciﬁque). Les re´actions d’hypersensi-
+bilite´ retarde´e allergiques surviennent apre`s un intervalle libre
+exce´dant une a` deux heures et sont le plus souvent d’expression
+cutane´e.
+3. Anaphylaxie ou re´action anaphylactique : terme re´serve´ a`
+une re´action grave d’hypersensibilite´ imme´diate allergique ou non
+allergique.
+4. Atopie : susceptibilite´ anormale d’un organisme a` synthe´tiser
+des IgE spe´ciﬁques contre des antige`nes naturels de l’environne-
+ment introduits par voies naturelles (asthme allergique aux
+pollens, allergie alimentaire, allergie au latex).
+5. Sfar : Socie´te´ franc¸aise d’anesthe´sie et de re´animation, 74, rue
+Raynouard, 75016 Paris. Site web : www.sfar.org.
+6. SFA : Socie´te´ franc¸aise d’allergologie, Institut Pasteur, 28, rue
+du Docteur-Roux, 75724 Paris cedex 15. Site web : www.lesaller-
+gies.fr.
+1. Quelle est la re´alite´ du risque d’hypersensibilite´ allergique en
+anesthe´sie ? Classiﬁcation. Incidence. Aspects cliniques
+(imme´diats et retarde´s). Morbidite´–mortalite´. Substances
+responsables
+1.1. Parmi les re´actions d’hypersensibilite´ imme´diates surve-
+nant en situation d’anesthe´sie, environ 60 % sont IgE-de´pendantes
+(re´action d’hypersensibilite´ imme´diate allergique) (NP2).
+1.2. Plus de 7000 cas de re´actions d’hypersensibilite´ imme´diates
+IgE-de´pendantes peranesthe´siques ont e´te´ publie´s ces 25 dernie`res
+anne´es (NP2).
+1.3. La majorite´ des cas provient de France, d’Australie, de
+Nouvelle-Ze´lande et, plus re´cemment de Scandinavie, graˆce a`
+l’organisation mise en place par ces pays pour le diagnostic des
+re´actions, et a` la strate´gie de communication orale et e´crite qu’ils
+entretiennent dans le monde me´dical.
+1.4. L’exploration et la de´claration en pharmacovigilance ou en
+mate´riovigilance des re´actions d’hypersensibilite´
+doivent eˆtre
+syste´matiques.
+La
+constitution
+de
+re´seaux
+de
+consultations
+spe´cialise´es, d’observatoires et de registres doit eˆtre encourage´e.
+1.5. La mortalite´ des re´actions d’hypersensibilite´ imme´diates
+peranesthe´siques varie de 3 a` 9 % selon les pays (NP2). La morbidite´
+la plus se´ve`re s’exprime par des se´quelles anoxiques ce´re´brales
+plus ou moins graves. Son incidence n’est pas pre´cise´ment connue.
+1.6. L’incidence des re´actions d’hypersensibilite´ imme´diates
+allergiques peranesthe´siques varie selon les pays de 1/10 000 a` 1/
+20 000 anesthe´sies (NP2). Elle a e´te´ e´value´e en France, en 1996, a` 1/
+13 000 anesthe´sies ge´ne´rales et locore´gionales, toutes substances
+responsables confondues. L’incidence de l’anaphylaxie aux curares
+varie selon les pays. Elle a e´te´ estime´e a` 1/6 500 anesthe´sies ayant
+comporte´ un curare en France, et a` 1/5200 en Norve`ge (NP2).
+1.7. Les substances responsables des re´actions allergiques
+imme´diates survenues en cours d’anesthe´sie ont e´te´ identiﬁe´es a`
+partir des cas d’anaphylaxie publie´s depuis 1980 dans la litte´rature
+de langues anglaise et franc¸aise. Les curares repre´sentent 62,6 %
+d’entre elles, le latex 13,8 %, les hypnotiques 7,2 %, les antibiotiques
+6 %, les substituts du plasma 3,2 %, les morphiniques 2,4 % (NP2).
+L’allergie aux anesthe´siques locaux apparaıˆt exceptionnelle compte
+tenu de la fre´quence d’utilisation des anesthe´siques locaux. Aucune
+re´action anaphylactique n’a e´te´ publie´e avec les anesthe´siques
+haloge´ne´s (NP2). D’autres substances peuvent induire une anaphy-
+laxie en cours d’anesthe´sie : aprotinine, chlorhexidine, protamine,
+papaı¨ne, he´parine, bleu patente´ ou de me´thyle`ne.
+1.8. Tous les curares peuvent eˆtre a` l’origine d’une re´action
+d’hypersensibilite´ imme´diate. Les re´actions peuvent survenir de`s
+la premie`re administration. Le curare le plus fre´quemment
+implique´
+dans
+les
+re´actions
+imme´diates
+allergiques
+est
+le
+suxame´thonium (NP2). Une sensibilisation croise´e entre diffe´rents
+curares est possible.
+1.9. Les manifestations cliniques sont de´crites suivant quatre
+grades de gravite´ croissante (adapte´ de la classiﬁcation de Ring et
+Messmer) (Tableau 1).
+1.10. Les manifestations cliniques sont souvent plus graves et
+plus durables en cas de re´action d’hypersensibilite´ imme´diate
+allergique qu’en cas de re´action d’hypersensibilite´ imme´diate non
+allergique (NP2). Les signes cliniques ne sont pas toujours au
+complet, et peuvent prendre des masques trompeurs. L’absence de
+signes cutane´omuqueux n’exclut pas le diagnostic d’anaphylaxie
+(NP2). La symptomatologie est de survenue imme´diate apre`s
+l’injection des me´dicaments de l’induction anesthe´sique mais peut
+eˆtre de survenue tardive (jusqu’a` plus d’une heure) si le latex ou les
+colorants sont responsables.
+1.11. Les substances potentiellement responsables de choc
+anaphylactique chez l’enfant sont les meˆmes que chez l’adulte,
+mais l’allerge`ne le plus fre´quemment en cause est le latex, en
+particulier chez l’enfant multiope´re´ et porteur de spina biﬁda, ce
+qui justiﬁe la mise en place d’une strate´gie de pre´vention primaire
+de la sensibilisation au latex. (NP1).
+1.12. Les re´actions d’hypersensibilite´ non imme´diates impli-
+quant les produits de l’anesthe´sie sont peu fre´quentes. Elles sont
+principalement de´crites avec les anesthe´siques locaux (NP2), les
+antibiotiques, les antiseptiques, les he´parines et les produits de
+contraste iode´s ou gadoline´s (NP2).
+2. Me´canismes de la sensibilisation et de l’hypersensibilite´
+imme´diate aux anesthe´siques – physiopathologie du choc
+2.1. La re´action d’hypersensibilite´ imme´diate allergique est un
+cas particulier de la re´action inﬂammatoire spe´ciﬁque d’un
+allerge`ne reconnu par les effecteurs du syste`me immunitaire du
+patient allergique. La pre´sentation antige´nique va de´terminer
+l’orientation de la re´ponse vers la diffe´renciation d’effecteurs de
+l’allergie (lymphocytes TCD4+ Th1 ou Th2, lymphocytes TCD8+
+cytotoxiques, lymphocytes B producteurs d’IgE). Le phe´nome`ne de
+tole´rance serait la conse´quence de la diffe´renciation des lympho-
+cytes en lymphocytes T re´gulateurs (NP2).
+2.2. La re´action d’hypersensibilite´ allergique imme´diate re´sulte
+d’une activation des lymphocytes Th2. La re´action d’hypersensi-
+bilite´ allergique non imme´diate est associe´e a` une activation de
+Tableau 1
+Score de gravite´ des manifestations cliniques au cours des re´actions d’hypersensi-
+bilite´ imme´diates.
+I Signes cutane´omuqueux ge´ne´ralise´s : e´rythe`me, urticaire, avec ou sans œde`me
+II Atteinte multivisce´rale mode´re´e, avec signes cutane´omuqueux, hypotension
+arte´rielle (chute systolique > 30 %) et tachycardie (> 30 %), hyperre´activite´
+bronchique (toux, difﬁculte´ ventilatoire)
+IIIAtteinte multivisce´rale se´ve`re menac¸ant la vie et imposant une
+the´rapeutique spe´ciﬁque = collapsus, tachycardie ou bradycardie, troubles
+du rythme cardiaque, bronchospasme ; les signes cutane´s peuvent eˆtre
+absents ou n’apparaıˆtre qu’apre`s la remonte´e tensionnelle.
+IVArreˆt circulatoire et/ou respiratoire
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+214
+lymphocytes de « proﬁl Th1 », avec production d’IFN-g a` l’origine
+des phe´nome`nes de cytotoxicite´ (NP2).
+2.3. L’hypersensibilite´
+allergique imme´diate est lie´e a`
+la
+production d’immunoglobulines de type E (IgE). Les antige`nes
+des me´dicaments sont rarement identiﬁe´s.
+2.4. Pour les me´dicaments, une partie de la mole´cule, appele´e
+e´pitope, est responsable de la re´action allergique. La mole´cule
+native ou un de ses me´tabolites peuvent jouer le roˆle d’hapte`ne et
+se lier a` une prote´ine. Une partie de cet ensemble se lie a` une
+mole´cule du complexe majeur d’histocompatibilite´ (MHC) au
+cours de sa digestion dans une cellule pre´sentatrice de l’allerge`ne.
+L’ensemble ainsi forme´
+est reconnu de fac¸on spe´ciﬁque et
+de´clenche la re´action allergique (NP2). Un autre me´canisme de
+sensibilisation, original et spe´ciﬁque de l’allergie me´dicamen-
+teuse, appele´ « p-i concept », correspondrait a` la liaison non
+covalente des hapte`nes avec les mole´cules du MHC ou avec le
+re´cepteur T (TCR) sans passage par la cellule pre´sentatrice de
+l’antige`ne (NP3).
+2.5. Manifestations cliniques de l’hypersensibilite´ imme´diate
+Les re´actions d’hypersensibilite´ imme´diates allergiques sont la
+conse´quence de l’activation des mastocytes et basophiles sous
+l’action de l’allerge`ne reconnu par les IgE ﬁxe´es a` la surface de ces
+cellules (NP2). Les me´diateurs libe´re´s sont l’histamine, les de´rive´s
+de l’acide arachidonique, le TNF alpha, et certaines enzymes
+(tryptase, notamment). Ils induisent une alte´ration de la perme´-
+abilite´ capillaire (urticaire, œde`me), une bronchoconstriction et
+une chute tensionnelle avec tachycardie, tous signes observe´s au
+cours du choc anaphylactique (NP1).
+Les re´actions d’hypersensibilite´ imme´diates non allergiques
+(anciennement anaphylactoı¨des) entraıˆnent des manifestations
+de gravite´ moindre que les re´actions d’hypersensibilite´ imme´di-
+ate allergiques. Elles re´sultent d’une activation des basophiles et
+des mastocytes par des stimuli ne de´pendant pas des IgE
+spe´ciﬁques.
+2.5.3 La premie`re phase du choc anaphylactique correspond au
+tableau
+d’un
+choc
+hyperkine´tique,
+associant
+tachycardie
+et
+effondrement des re´sistances vasculaires syste´miques par vaso-
+dilatation pe´riphe´rique arte´riolaire provoquant une diminution du
+retour veineux et du de´bit cardiaque. Puis apparaıˆt un tableau de
+choc hypovole´mique hypokine´tique, secondaire a` l’extravasation
+plasmatique transcapillaire. Les effets des me´tabolites de l’acide
+arachidonique, par leurs actions sur le muscle lisse vasculaire et
+sur les plaquettes, majorent les effets circulatoires (NP2). Le retard
+au traitement ou une the´rapeutique inadapte´e peut aboutir a` une
+anoxie tissulaire, puis a` un syndrome de de´faillance visce´rale
+rendant le choc rapidement re´fractaire.
+La prise au long cours de ß-bloquants est un facteur de gravite´
+(NP1).
+3. Conduite du bilan diagnostique de la re´action
+d’hypersensibilite´ imme´diate
+3.1. Tout patient pre´sentant une re´action d’hypersensibilite´
+imme´diate au cours d’une anesthe´sie doit be´ne´ﬁcier d’une
+investigation imme´diate et a` distance pour de´terminer le type
+de re´action (IgE-de´pendante ou non), l’agent causal et rechercher,
+le cas e´che´ant, une sensibilisation croise´e.
+3.2. L’anesthe´siste-re´animateur doit :
+ s’assurer de la mise en œuvre des investigations, en partenariat
+avec une consultation d’allergoanesthe´sie (Annexe I) ;
+ informer le patient sur la nature de la re´action peranesthe´sique
+et sur la ne´cessite´ absolue de re´aliser un bilan allergologique
+dans un centre d’allergoanesthe´sie. La remise d’un courrier
+de´taille´ et d’une carte d’allergie provisoire est recommande´e
+(Annexe II) ;
+ de´clarer l’accident au centre re´gional de pharmacovigilance si un
+me´dicament est suspecte´, ou au responsable de la mate´riovigi-
+lance de l’e´tablissement si le latex est suspecte´.
+3.3. Bilan biologique imme´diat
+Des examens biologiques imme´diats utiles au diagnostic
+e´tiologique doivent eˆtre demande´s en cas de re´action d’hyper-
+sensibilite´ per anesthe´sique.
+3.3.1. La probabilite´ que la symptomatologie clinique soit lie´e a`
+une re´action d’hypersensibilite´
+imme´diate est augmente´e en
+pre´sence d’une e´le´vation des marqueurs que sont la tryptase
+se´rique et l’histamine plasmatique (NP1), meˆme si une concen-
+tration normale n’exclut pas totalement le diagnostic (NP3).
+3.3.2. Dosage de la tryptase se´rique.
+3.3.2.1. L’augmentation franche de la concentration de tryptase
+se´rique (> 25 mg L1) est en faveur d’un me´canisme immunolo-
+gique IgE-de´pendant (NP2). Les concentrations sont normales ou
+peu augmente´es dans les re´actions cutane´omuqueuses (grade 1) et
+les re´actions syste´miques mode´re´es (grade 2).
+3.3.2.2. Les de´lais optimaux de pre´le`vement sont de 15 a`
+60 minutes pour les grades 1 et 2 ; 30 minutes a` deux heures pour
+les grades 3 et 4. La positivite´ exce`de souvent six heures pour les
+grades de se´ve´rite´ e´leve´s (NP3).
+3.3.2.3. Du fait de l’importante dispersion des valeurs normales
+d’un individu a` l’autre, un e´chantillon a` distance de la re´action est
+ne´cessaire pour interpre´ter les faibles augmentations (NP3).
+3.3.2.4. Exceptionnellement des augmentations de concentra-
+tion de tryptase basale, non lie´es a` un accident allergique, peuvent
+eˆtre observe´es chez des patients ayant une mastocytose syste´mi-
+que ou une leuce´mie mye´loı¨de aigue¨ (NP2).
+3.3.3. Dosage de l’histamine plasmatique.
+3.3.3.1. La mise en e´vidence d’une concentration d’histamine
+augmente´e dans le plasma peut eˆtre due a`
+un me´canisme
+d’hypersensibilite´ imme´diate allergique ou non allergique activant
+exclusivement les basophiles.
+3.3.3.2. Le pic d’histamine est observe´ de`s la premie`re minute
+qui suit la re´action. Le pic est d’autant plus e´leve´ que la re´action est
+grave. La demi-vie d’e´limination est ensuite de 15 a` 20 minutes
+(NP2).
+3.3.3.3. Le dosage du taux plasmatique d’histamine doit eˆtre
+effectue´ le plus pre´cocement possible apre`s le de´but de la re´action,
+surtout en cas de re´action peu se´ve`re. Pour les re´actions
+cutane´omuqueuses isole´es (grade 1), le de´lai ide´al se situe moins
+de 15 minutes apre`s la re´action, pour les re´actions de grade 2,
+avant 30 minutes, et pour les re´actions plus se´ve`res, avant deux
+heures.
+3.3.3.4. La lyse spontane´e ou provoque´e des basophiles dans le
+tube pre´leve´
+provoque des faux-positifs. Il est possible de
+conserver le sang total une nuit a`
+4 8C, ou deux heures a`
+tempe´rature ambiante. Apre`s centrifugation, le plasma doit eˆtre
+aspire´ de´licatement pour e´viter toute contamination par des
+basophiles (NP2), puis congele´ a` 20 8C.
+3.3.3.5. Il ne faut pas re´aliser de dosage de l’histamine
+plasmatique dans les situations cliniques qui sont associe´es a`
+des faux-ne´gatifs : les femmes enceintes, a` partir du deuxie`me
+semestre de gestation (synthe`se placentaire de diamine oxydase),
+et les patients recevant de l’he´parine (augmentation de diamine
+oxydase, proportionnelle a` la dose d’he´parine rec¸ue).
+3.3.3.6. Associer le dosage d’histamine a` celui de la tryptase
+dans les re´actions mode´re´es augmente la performance diagnos-
+tique de ces dosages.
+3.3.4. Leucotrie`nes urinaires.
+Ce dosage est possible, mais son utilite´ reste a` e´valuer dans le
+diagnostic des re´actions peranesthe´siques.
+3.4. Les tests se´rologiques.
+3.4.1. Le dosage des immunoglobulines E.
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+215
+3.4.1.1. Un taux d’IgE totales n’a aucune pertinence diagnos-
+tique.
+3.4.1.2. La recherche des IgE spe´ciﬁques dans le se´rum du
+patient concerne principalement les ions ammonium quaternaire
+(curares), le thiopental, le latex, les ß-lactamines et la chlorhex-
+idine. Il est possible de rechercher ces IgE antime´dicaments dans le
+cadre d’un bilan d’une re´action d’hypersensibilite´ imme´diate, ou
+pour interpre´ter des tests cutane´s ne´gatifs en pre´sence de signes
+cliniques e´vocateurs de re´actions d’hypersensibilite´ imme´diate
+(NP2).
+3.4.1.3. On peut rechercher les IgE antiammoniums quater-
+naires au de´cours imme´diat de la re´action (voire imme´diatement
+apre`s la survenue d’un choc a` l’induction de l’anesthe´sie si la
+responsabilite´ du curare est suspecte´e) ou lors du bilan d’aller-
+goanesthe´sie re´alise´ a` distance. Ce dosage ne se substitue pas a` la
+re´alisation des tests cutane´s. La pre´sence d’IgE antiammonium
+quaternaire est de´tectable plusieurs anne´es apre`s une re´action
+d’hypersensibilite´ imme´diate a` un curare (NP1).
+3.4.1.4. Il faut utiliser les techniques offrant la meilleure
+sensibilite´, soit actuellement le SAQ-RIA ou le PAPPC-RIA (NP2). En
+cas de test positif, il est recommande´ de re´aliser un test d’inhibition
+spe´ciﬁque avec le curare qui a e´te´ administre´ pendant l’anesthe´sie.
+Les performances diagnostiques du test ImmunoCap c2601 (IgE
+spe´ciﬁques des ammoniums quaternaires) seraient proches de
+celles du SAQ-RIA et du PAPPC-RIA.
+3.4.1.5. Les techniques commerciales permettant de rechercher
+et doser les IgE spe´ciﬁques du latex ont une excellente sensibilite´
+(NP2).
+3.4.1.6. Seuls les dosages d’IgE spe´ciﬁques a` un nombre limite´
+d’antibiotiques sont disponibles (pe´nicilloyl G et V, amoxicilloyl,
+ampicilloyl et ce´faclor). Il ne faut pas rechercher les IgE spe´ciﬁques
+des ß-lactamines a` titre syste´matique. Compte tenu de la faible
+sensibilite´ de ces tests, seul le me´decin allergologue en charge du
+bilan est habilite´ a` demander et interpre´ter ces dosages. Ces
+dosages peuvent aider a` l’interpre´tation du bilan allergologique,
+notamment lorsque les tests cutane´s sont ne´gatifs alors que les
+signes cliniques sont e´vocateurs de re´action d’hypersensibilite´
+imme´diate a` ces me´dicaments (NP2).
+3.5. Les modalite´s de pre´le`vement.
+3.5.1. Les dosages d’histamine ne´cessitent un pre´le`vement
+sanguin de 5 mL sur tube EDTA, et pour la tryptase sur tube sec ou
+EDTA. Si l’on choisit de pre´lever le sang pour doser la tryptase sur
+un tube EDTA, le meˆme tube peut servir a` doser la tryptase et
+l’histamine. Le dosage des IgE se fait sur tube sec de 7 mL. Les tubes
+doivent eˆtre transmis au laboratoire local dans les deux heures. En
+cas d’impossibilite´, ils peuvent eˆtre conserve´s au re´frige´rateur a`
++4 8C pendant 12 heures au maximum. Apre`s centrifugation,
+plasma et se´rum doivent eˆtre congele´s a` –20 8C en plusieurs
+aliquotes. Le plasma doit eˆtre recueilli a` distance de la couche des
+leucocytes (NP2).
+3.5.2. En cas de re´action se´ve`re, il faut pre´lever du sang pour le
+dosage de la tryptase, meˆme si le de´lai optimal est de´passe´ (car la
+positivite´ de la tryptase peut exce´der six heures) (NP2).
+3.5.3. En cas de re´action apre`s injection d’un curare, il est
+possible
+de doser les IgE spe´ciﬁques des ions ammonium
+quaternaire sans attendre que soient effectue´s les tests cutane´s
+(NP2).
+3.5.4. En cas de de´ce`s du patient, les pre´le`vements sanguins
+pour le dosage de la tryptase et pour la recherche des IgE
+spe´ciﬁques (en lien avec les allerge`nes suspecte´s) doivent eˆtre
+pratique´s avant l’arreˆt de la re´animation plutoˆt qu’en post-mortem
+(NP4). La re´alisation du pre´le`vement au niveau fe´moral est
+recommande´e (NP3).
+3.5.5. Du fait de la gravite´ potentielle de la situation et de la
+demi-vie plasmatique courte de certains des me´diateurs, il est
+conseille´ de disposer, au bloc ope´ratoire, d’un sachet contenant les
+tubes a` pre´le`vement, le protocole de recueil, et la ﬁche de
+collection des donne´es cliniques (Annexe I).
+3.5.6. Il faut pre´lever les e´chantillons sanguins pour le dosage de
+l’histamine, de la tryptase et des IgE (trois e´chantillons sanguins)
+selon les de´lais et les modalite´s suivantes (Tableau 2).
+3.6. Les tests cutane´s.
+En l’e´tat actuel des connaissances les tests cutane´s (prick-tests/
+PT et intradermore´actions/IDR) sont la re´fe´rence pour le diagnostic
+des
+allergies
+IgE-de´pendantes.
+Le
+me´decin
+allergologue
+qui
+re´alisera les tests doit eˆtre rompu aux techniques diagnostiques
+de l’allergie me´dicamenteuse.
+3.6.1. Aﬁn de permettre la reconstitution des me´diateurs de
+l’allergie dans les basophiles et mastocytes, les tests cutane´s
+doivent eˆtre effectue´s quatre a` six semaines apre`s la re´action
+d’hypersensibilite´ imme´diate peranesthe´sique (NP3).
+En cas de ne´cessite´, ils peuvent eˆtre re´alise´s plus pre´cocement.
+Cela accroıˆt le risque de re´sultats faussement ne´gatifs et seuls les
+re´sultats positifs seront pris en compte (NP4). Ce bilan pre´coce ne
+doit pas se substituer au bilan re´alise´ apre`s un de´lai de quatre a` six
+semaines.
+3.6.2. Pour re´aliser l’enqueˆte e´tiologique il faut avoir les
+suivants.
+4.6.2.1. Une formation, une expe´rience et une mise a` jour
+re´gulie`re des connaissances en allergoanesthe´sie de la part de
+l’allergologue et de l’anesthe´siste qui re´alisent et interpre`tent les
+investigations.
+3.6.2.2. Un approvisionnement en produits ne´cessaires a` la
+re´alisation des tests cutane´s et un stockage conforme aux bonnes
+re`gles pharmaceutiques (en acceptant une utilisation hors AMM)
+et aux re`gles d’hygie`ne et d’asepsie. Il est recommande´ de tester les
+me´dicaments dilue´s extemporane´ment.
+3.6.2.3. Un environnement permettant la re´animation rapide
+des patients.
+3.6.3. Le diagnostic d’une re´action d’hypersensibilite´ imme´diate
+repose sur l’association des signes cliniques, le dosage des
+me´diateurs et la re´alisation d’un bilan allergologique a` distance
+(tests cutane´s, tests de laboratoire et e´ventuellement tests de
+provocation).
+3.6.4. Les tests cutane´s sont pratique´s et ne peuvent eˆtre
+interpre´te´s qu’en fonction des renseignements cliniques chrono-
+logiques et de´taille´s fournis par l’anesthe´siste (Annexe I), ide´ale-
+ment accompagne´s d’une copie de la feuille d’anesthe´sie et de la
+feuille de salle de surveillance postinterventionnelle, ainsi que du
+re´sultat des dosages de tryptase et d’histamine pratique´s au
+de´cours de la re´action.
+3.6.5. Pour re´aliser des tests cutane´s il faut :
+ obtenir le consentement e´claire´ du patient,
+Tableau 2
+Modes et temps de pre´le`vements sanguins pour les dosages d’histamine, de tryptase et d’IgE antiammonium quaternaire.
+Dosages
+Tube
+Pre´le`vement < 30 min
+Pre´le`vement 1 a` 2h
+Pre´le`vement > 24 h
+Histamine
+EDTA
++
+(+)
+Tryptase
+EDTA/sec
++
++
++
+IgE anti-AQ
+Sec
++
+(+)
+(+)
++ : recommande´ ; (+) : si non re´alise´ au moment de la re´action.
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+216
+ arreˆter quelques jours auparavant les me´dicaments connus pour
+inhiber la re´activite´ cutane´e (par exemples les antihistaminiques
+et les psychotropes) (NP2).
+3.6.6. La grossesse, le jeune aˆge, ou un traitement par
+beˆtabloquants
+(sauf
+en
+ce
+qui
+concerne
+les b-lactamines),
+corticoı¨des oraux, ou inhibiteur de l’enzyme de conversion ne
+constituent pas une contre-indication a` la re´alisation des tests
+cutane´s (NP3).
+3.6.7. Il est recommande´ de re´aliser les tests cutane´s avec les
+me´dicaments du protocole anesthe´sique, le latex et les autres
+me´dicaments ou produits administre´s en pe´riode pe´rianesthe´si-
+que. Le choix des me´dicaments a` tester se fera par le binoˆme
+me´decin allergologue–me´decin anesthe´siste lors de la consulta-
+tion d’allergoanesthe´sie.
+3.6.8. La re´alisation des tests cutane´s.
+3.6.8.1. Pour la plupart des me´dicaments, les tests cutane´s (PT et
+IDR) sont les examens de re´fe´rence pour le diagnostic des re´actions
+d’hypersensibilite´ imme´diate allergiques (Tableaux 3 et 4) (NP1).
+Quand ils ne sont pas disponibles, d’autres tests allergologiques
+doivent eˆtre re´alise´s (NP2).
+3.6.8.2.
+Il
+est
+recommande´
+de
+faire
+la
+recherche
+d’une
+anaphylaxie au latex par prick-tests (NP2).
+4.6.8.3. La recherche d’une hypersensibilite´ imme´diate aux
+me´dicaments anesthe´siques est re´alise´e par PT et/ou IDR, en
+utilisant les solutions commerciales pures ou dilue´es de manie`re
+extemporane´e dans du se´rum physiologique ou phe´nole´.
+3.6.8.4. La valeur pre´dictive diagnostique des PT est infe´rieure a`
+celle des IDR (NP4).
+3.6.8.5. Le re´sultat des PT guide le choix de la premie`re
+concentration teste´e en IDR. Ainsi quand les PT sont ne´gatifs, la
+re´alisation des IDR commence a` une dilution au 1/1000e de la
+solution me`re pour les curares, et au 1/10 000e pour la morphine. Si
+l’IDR
+est
+ne´gative,
+la
+concentration
+suivante,
+10
+fois
+plus
+concentre´e, est utilise´e en respectant un intervalle de 20 minutes
+entre chaque test. Les concentrations maximales a` ne pas de´passer
+pour e´viter les faux positifs ﬁgurent dans les Tableaux 3 et 4 (NP1).
+En cas de re´action de grade IV, le me´dicament soupc¸onne´ sera teste´
+a` partir du 1/100e de la solution me`re de`s le prick-test.
+3.6.8.7. L’interpre´tation
+des
+tests
+cutane´s
+ne´cessite
+une
+ve´riﬁcation pre´alable de la re´activite´ normale de la peau par
+un test te´moin ne´gatif (PT et IDR avec le meˆme volume de
+solvant) et un test te´moin positif (PT avec du phosphate de
+code´ine a` 9 % et/ou avec de l’histamine a` 10 mgmL1), induisant
+un œde`me de diame`tre e´gal ou supe´rieur a` 3 mm dans les
+20 minutes (NP2).
+3.6.8.8. Le site de re´alisation des tests cutane´s (dos, bras ou
+avant-bras) est indiffe´rent a` condition que l’interpre´tation du
+re´sultat tienne compte de la re´activite´ normale de la peau au site de
+re´alisation du test et de la taille de la papule d’injection
+intradermique du produit a` tester (NP2).
+3.6.8.9. Le crite`re de positivite´ d’un PT est l’apparition apre`s
+20 minutes d’un œde`me de diame`tre supe´rieur de 3 mm a` celui
+obtenu pour le te´moin ne´gatif ou de diame`tre e´gal ou supe´rieur a` la
+Tableau 3
+Concentrations normalement non re´actives des agents anesthe´siques.
+Solutions commerciales
+Prick-tests
+Tests intradermiques
+DCI
+Nom commercial
+C (mg mL1)
+Dilution
+CM (mg mL1)
+Dilution
+CM (mg mL1)
+Atracurium
+Tracrium1
+10
+1/10
+1
+1/1000
+10
+Cis-atracurium
+Nimbex1
+2
+Non dilue´
+2
+1/100
+20
+Mivacurium
+Mivacron1
+2
+1/10
+0,2
+1/1000
+2
+Pancuronium
+Pavulon1
+2
+Non dilue´
+2
+1/10
+200
+Rocuronium
+Esmeron1
+10
+Non dilue´
+10
+1/200
+50
+Suxame´thonium
+Ce´locurine-klorid1
+50
+1/5
+10
+1/500
+100
+Ve´curonium
+Norcuron
+4
+Non dilue´
+4
+1/10
+400
+E´tomidate
+Hypnomidate1, E´ tomidate1, Lipuro1
+2
+Non dilue´
+2
+1/10
+200
+Midazolam
+Hypnovel1
+5
+Non dilue´
+5
+1/10
+400
+Propofol
+Diprivan1
+10
+Non dilue´
+10
+1/10
+1000
+Thiopental
+Nesdonal1
+25
+Non dilue´
+25
+1/100
+250
+Ke´tamine
+Ketalar1
+100
+1/10
+10
+1/100
+1000
+Alfentanil
+Rapifen1
+0,5
+Non dilue´
+0,5
+1/10
+50
+Fentanyl
+Fentanyl1
+0,05
+Non dilue´
+0,05
+1/10
+5
+Morphine
+Morphine1
+10
+1/10
+1
+1/1000
+10
+Re´mifentanil
+Ultiva1
+0,05
+Non dilue´
+0,05
+1/10
+5
+Sufentanil
+Sufentanyl1
+0,005
+Non dilue´
+0,005
+1/10
+0,5
+Bupivacaı¨ne
+Marcaı¨ne1
+2,5
+Non dilue´
+2,5
+1/10
+250
+Lidocaı¨ne
+Xylocaı¨ne1
+10
+Non dilue´
+10
+1/10
+1000
+Me´pivacaı¨ne
+Carbocaı¨ne1
+10
+Non dilue´
+10
+1/10
+1000
+Ropivacaı¨ne
+Narope´ine1
+2
+Non dilue´
+2
+1/10
+200
+DCI : de´nomination commune internationale ; C : concentration ; CM : concentration maximale.
+Tableau 4
+Concentrations normalement non re´actives des antiseptiques et colorants.
+DCI
+Prick-tests
+Tests intradermiques
+C(mg mL1)
+Dilution
+CM (mg mL1)
+Dilution
+CM (m mL1)
+Antiseptiques
+Chlorhexidine aqueuse non colore´e
+0,5
+Non dilue´
+0,5
+1/10
+50
+Povidone iode´e aqueuse
+100
+Non dilue´
+10
+1/10
+10 000
+Colorants
+Bleu patente´
+25
+Non dilue´
+25
+1/10
+2500
+Bleu de me´thyle`ne
+(chlorure de me´thylthionine)
+10
+Non dilue´
+10
+1/100
+100
+Pour les tests intradermiques aux colorants risque de tatouage persistant plusieurs mois. DCI : de´nomination commerciale internationale ; C : concentration ; CM :
+concentration maximale.
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+217
+moitie´ du diame`tre de l’œde`me obtenu avec le te´moin positif
+(NP2).
+3.6.8.10. Il faut re´aliser les IDR en injectant dans le derme un
+volume de 0,03 a` 0,05 mL de la solution commerciale dilue´e, aﬁn
+d’obtenir une papule d’injection (PI) ayant au maximum 4 mm de
+diame`tre. Le crite`re de positivite´ de l’IDR est l’apparition apre`s
+20 minutes d’une papule e´rythe´mateuse et souvent prurigineuse,
+appele´e papule obtenue (PO), dont le diame`tre sera au moins e´gal
+au double de celui de la PI (NP2).
+3.6.8.11. Il faut rechercher une sensibilisation croise´e avec les
+autres curares en cas de positivite´ du PT ou de l’IDR avec un curare.
+La recherche d’une sensibilisation croise´e doit eˆtre re´alise´e avec
+tous les autres curares commercialise´s, en tenant compte des
+concentrations maximales a` ne pas de´passer (Tableau 3) (NP2).
+3.6.8.12. Il est recommande´ de rechercher une allergie croise´e
+avec les nouveaux curares commercialise´s en cas de re´action
+anaphylactique avec un curare lors d’une anesthe´sie ante´rieure
+prouve´e par la positivite´ des tests cutane´s (NP3). La concentration
+maximale a` ne pas de´passer avec le nouveau curare (ou tout
+nouveau me´dicament anesthe´sique introduit sur le marche´) doit,
+au pre´alable, avoir e´te´ e´tablie chez des sujets te´moins.
+3.6.8.13. En cas de re´action d’hypersensibilite´ survenant plus de
+24 heures apre`s l’anesthe´sie, il est recommande´ de re´aliser des
+tests e´picutane´s (patch tests) a` lecture retarde´e ( 48 h), notam-
+ment en cas de symptoˆme cutane´ a` type d’ecze´ma. Les allerge`nes
+concerne´s sont les antibiotiques, les produits de contraste iode´s et
+les allerge`nes de contact (me´taux, caoutchouc, colorants, anti-
+septiques) (NP3).
+3.6.8.14. Il faut exclure des comptes rendus des bilans
+allergologiques le terme « douteux » pour qualiﬁer le re´sultat
+d’un test cutane´. La re´ponse ne peut eˆtre que binaire en termes de
+« positivite´ » ou de « ne´gativite´ ». Si ne´cessaire, il faut refaire le test a`
+distance (NP4).
+3.6.8.15. La performance des tests cutane´s peut diminuer au
+cours du temps, selon les me´dicaments teste´s. Elle est prolonge´e
+avec les curares, mais de´croıˆt avec les antibiotiques (NP2).
+3.7. Les tests cellulaires.
+3.7.1. Les tests cellulaires actuellement disponibles sont le test
+d’histaminolibe´ration, le test d’activation des basophiles par
+cytome´trie en ﬂux, et le test de libe´ration des leucotrie`nes
+leucocytaires.
+3.7.2. Il n’a pas e´te´ de´montre´ que l’un de ces tests e´tait
+franchement supe´rieur aux deux autres, et, de ce fait, ces tests
+peuvent eˆtre prescrits en fonction de l’expertise du laboratoire.
+3.7.3. Il est possible de re´aliser ces tests biologiques en
+comple´ment des tests cutane´s qu’ils ne remplacent pas. Ces tests
+sont inutiles si le diagnostic est obtenu avec les TC et la biologie
+« standard ».
+3.7.4. En cas de re´action  grade II et si les tests cutane´s sont
+ne´gatifs a` tous les produits suspecte´s, on peut prescrire un test
+cellulaire.
+3.7.5. Lorsque les tests cutane´s sont difﬁcilement interpre´tables
+(dermographisme, sujet tre`s aˆge´ ou tre`s jeune, atopiques avec
+le´sions cutane´es e´tendues ou prise de me´dicaments ayant un effet
+antihistaminiques), les tests cellulaires peuvent eˆtre re´alise´s.
+3.7.6. En cas de re´action d’hypersensibilite´ imme´diate allergi-
+que a` un curare, les tests cellulaires peuvent conﬁrmer le choix
+d’un curare pour lequel les tests cutane´s ont e´te´ ne´gatifs.
+3.7.7. Pour le diagnostic de l’hypersensibilite´ aux AINS, il est
+possible de re´aliser un test de cytome´trie en ﬂux ou de libe´ration
+de leucotrie`nes.
+3.8. Les tests d’introduction re´aliste.
+3.8.1. Les tests de re´introduction ont des indications restreintes.
+En cas d’histoire clinique compatible avec une re´action d’hyper-
+sensibilite´ imme´diate, ces tests peuvent eˆtre effectue´s avec les
+me´dicaments
+pour
+lesquels
+les
+tests
+cutane´s
+sont
+ne´gatifs
+(anesthe´siques locaux, antibiotiques ou exceptionnellement au
+latex) ou si les tests cutane´s ne sont pas valide´s (AINS) ou
+impossibles a` re´aliser.
+3.8.2. Quand l’allerge`ne n’est pas disponible sous sa forme
+re´active ade´quate (de´rive´s me´taboliques du me´dicament), seuls les
+tests re´alistes de provocation permettent de porter le diagnostic.
+C’est notamment le cas des pe´nicillines lorsque les tests cutane´s
+sont ne´gatifs, des antibiotiques autres que les pe´nicillines et des
+anti-inﬂammatoires non ste´roı¨diens (NP2).
+3.8.3. Ils sont re´alise´s au moins 1 mois apre`s la re´action
+d’hypersensibilite´, en utilisant le me´dicament et la voie d’admi-
+nistration utilise´s lors de la re´action. Il faut les re´aliser sous haute
+surveillance, uniquement dans certains centres spe´cialise´s associe´s
+a` un secteur de soins intensifs ou de re´animation (NP1).
+3.8.4. L’information du patient sur le de´roulement de ces tests et
+sur leurs risques est indispensable pour obtenir son consentement
+e´claire´. La remise d’un document d’information est souhaitable.
+3.8.5. Un rapport be´ne´ﬁce risque favorable est un pre´alable a` la
+re´alisation de ces tests (NP3).
+3.8.6. Re´introduction des anesthe´siques locaux.
+Il faut injecter de 0,5 a` 1 mL de la solution d’anesthe´sique local
+non dilue´e et non-adre´naline par voie sous-cutane´e. Le test est
+conside´re´ comme ne´gatif si aucune re´action d’hypersensibilite´
+imme´diate ne survient pendant les 30 minutes suivant l’injec-
+tion. Chez la parturiente, il faut re´aliser ce test en salle de
+naissances, 30 minutes avant la re´alisation de la technique
+d’anesthe´sie pe´rime´dullaire, en ayant pre´venu l’e´quipe obste´-
+tricale (NP4).
+En urgence, ce test de re´introduction peut eˆtre re´alise´ si la
+ne´gativite´ des tests cutane´s n’a pas e´te´ ve´riﬁe´e avant l’accouche-
+ment, et si l’anamne`se n’est pas en faveur d’une re´action se´ve`re.
+Cependant, la re´alisation anticipe´e des tests cutane´s par
+l’allergologue est a` privile´gier.
+3.8.7. Tests de provocation avec le latex : faire porter un gant en
+latex naturel pendant 15 minutes (ve´riﬁer que ce gant est riche en
+prote´ines et non poudre´). Le test est conside´re´ comme ne´gatif si
+aucun signe d’hypersensibilite´ imme´diate ne survient pendant les
+30 minutes suivant le port du gant. En cas de bronchospasme lors
+de la re´action initiale, on peut envisager de re´aliser un test de
+provocation bronchique avec un gant poudre´ en s’entourant de
+toutes les pre´cautions pour traiter le bronchospasme qui peut eˆtre
+se´ve`re (NP3).
+3.9. Les re´sultats de l’enqueˆte allergologique.
+3.9.1. Le diagnostic positif d’hypersensibilite´ imme´diate aller-
+gique repose sur la positivite´ des tests cutane´s, les re´sultats des
+examens biologiques et la cohe´rence des re´sultats avec la clinique
+et le protocole d’anesthe´sie.
+3.9.2. Une collaboration e´troite entre allergologue et anesthe´-
+siste apparaıˆt ide´ale dans le cadre d’une consultation d’allergo-
+logie.
+3.9.3. Le compte rendu re´dige´ par l’allergologue doit eˆtre
+adresse´ a` l’anesthe´siste-re´animateur prescripteur, et doit ﬁgurer
+dans le dossier me´dical du patient. Le double doit eˆtre adresse´ par
+l’allergologue au centre re´gional de pharmacovigilance, accom-
+pagne´ du descriptif clinique de l’accident (Annexe I), ainsi qu’au
+me´decin traitant. Enﬁn, un double du compte rendu et une « carte
+d’allergie » doivent e´galement eˆtre remis au patient.
+3.9.4. Les conclusions – lettre de´taille´e et carte d’allergie
+de´ﬁnitive (Annexe III) – sont transmises au patient a` la ﬁn de la
+consultation d’allergoanesthe´sie. Les conseils en matie`re de
+technique et d’indication anesthe´sique ne peuvent e´maner que
+d’anesthe´sistes-re´animateurs.
+3.9.5. Le patient doit eˆtre encourage´ a` porter ce document e´crit,
+ainsi que sa « carte d’allergie » (Annexe III), a` proximite´ de ses
+papiers d’identite´. Le port de bracelets ou me´dailles me´rite d’eˆtre
+encourage´.
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+218
+3.9.6. En cas de difﬁculte´ d’interpre´tation du bilan allergolo-
+gique et des conse´quences induites par cette difﬁculte´ sur la
+conduite anesthe´sique ulte´rieure, le recours a` un groupe re´gional
+ou local d’allergologues et d’anesthe´sistes-re´animateurs re´fe´rents
+ayant une formation et une mise a` jour re´gulie`re des connaissances
+en allergoanesthe´sie apparaıˆt souhaitable. Leur liste devrait eˆtre
+aise´ment disponible pour les praticiens qui en manifestent le
+besoin (site web de la Sfar et de la SFA, avec lien entre les
+deux sites).
+3.10. Il est souhaitable de suivre re´gulie`rement l’e´volution du
+nombre de re´actions d’hypersensibilite´.
+3.10.1. En colligeant les donne´es des centres re´fe´rents et des
+centres re´gionaux de pharmacovigilance.
+3.10.2. En les situant dans le cadre de la mortalite´ et de la
+morbidite´ lie´es a` l’anesthe´sie, notamment a` partir d’enqueˆtes de la
+Sfar ou du GERAP.
+4. Facteurs favorisant une re´action d’hypersensibilite´ et place
+du bilan allergologique pre´anesthe´sique
+4.1. Patients a` risque de re´action d’hypersensibilite´.
+4.1.1. Patients dont le diagnostic d’allergie a` un des me´dica-
+ments ou produits susceptibles d’eˆtre administre´s pour l’anesthe´-
+sie a e´te´ e´tabli par un bilan allergologique pre´alable.
+4.1.2. Patients ayant manifeste´ des signes cliniques e´vocateurs
+d’une allergie lors d’une pre´ce´dente anesthe´sie.
+4.1.3. Patients ayant pre´sente´ des manifestations cliniques
+d’allergie lors d’une exposition au latex (NP2), quelles que soient
+les circonstances d’exposition.
+4.1.4. Enfants multiope´re´s, notamment pour spina biﬁda ou
+mye´lome´ningoce`le, en raison de la fre´quence importante de la
+sensibilisation au latex (NP1) et de l’incidence e´leve´e de re´actions
+d’hypersensibilite´ imme´diate au latex chez ces patients (NP1).
+4.1.5. Patients ayant pre´sente´ des manifestations cliniques a`
+l’ingestion d’avocat, kiwi, banane, chaˆtaigne, sarrasin, etc., ou lors
+d’exposition au Ficus benjamina en raison de la fre´quence e´leve´e de
+sensibilisation croise´e entre ces aliments ou plantes et le latex
+(NP2).
+4.2. Bilan allergologique pre´anesthe´sique.
+4.2.1. Les facteurs de risque allergique doivent eˆtre recherche´s
+de manie`re syste´matique avant toute anesthe´sie (exemple :
+Annexe IV).
+4.2.2. Dans la population ge´ne´rale, il n’y a pas lieu de pratiquer
+avant une anesthe´sie un de´pistage syste´matique d’une sensibilisa-
+tion au(x) me´dicament(s) et/ou produit(s) utilise´(s) en anesthe´sie.
+Ceci est justiﬁe´ par l’absence de connaissances sufﬁsantes sur les
+valeurs
+pre´dictives
+positive
+et
+ne´gative
+des
+tests
+cutane´s
+allergologiques et des examens biologiques dans la population
+ge´ne´rale. En effet, tout comme une valeur faussement ne´gative,
+une valeur faussement positive peut avoir des conse´quences
+ne´fastes en matie`re d’anesthe´sie en induisant un changement de
+technique non ne´cessairement adapte´. De ce fait, le rapport
+be´ne´ﬁce/risque d’une telle pratique est inconnu.
+4.2.3.
+Chez
+les
+patients
+atopiques
+ou
+allergiques
+a`
+un
+me´dicament non utilise´ dans le cadre de l’anesthe´sie, il n’y a
+pas lieu de pratiquer des investigations a` la recherche d’une
+sensibilisation aux me´dicaments anesthe´siques ou autres produits
+utilise´s pendant l’anesthe´sie.
+4.2.4. Chez les patients a` risque de´ﬁnis pre´ce´demment (§ 4.1.), il
+faut proposer des investigations allergologiques a` la recherche
+d’une sensibilisation allergique avant toute anesthe´sie. Si les tests
+sont re´alise´s plus de 6 mois apre`s la re´action, le risque de faux
+ne´gatif existe.
+4.2.4.1. Investigations chez les patients de´ﬁnis au § 4.1.1.
+ conserver les conclusions du bilan allergologique ante´rieur ;
+ en cas d’allergie aux curares, tester les curares nouvellement
+commercialise´s.
+4.2.4.2. Investigations a` pratiquer chez les patients de´ﬁnis au
+§ 4.1.2.
+Suivant les circonstances de l’intervention, la conduite a` tenir
+est explique´e.
+4.2.4.2.1. En situation re´gle´e, l’anesthe´siste-re´animateur doit
+rechercher le protocole anesthe´sique suspect d’eˆtre a` l’origine de la
+re´action pour le transmettre a` l’allergologue qui re´alisera les tests :
+ protocole inconnu : tester tous les curares et le latex (tests
+cutane´s  IgE spe´ciﬁques) ;
+ protocole identiﬁe´ : tester les me´dicaments du protocole ancien
+et le latex (tests cutane´s  IgE spe´ciﬁques). S’il s’agit d’anesthe´-
+siques locaux, effectuer un test de re´introduction apre`s s’eˆtre assure´
+que les tests cutane´s sont ne´gatifs.
+4.2.4.2.2. En situation d’urgence, le principe de pre´caution fera
+exclure le latex de l’environnement du patient, utiliser une
+anesthe´sie locore´gionale ou une anesthe´sie ge´ne´rale en e´vitant
+les curares et les me´dicaments histaminolibe´rateurs (NP4).
+4.2.4.3. Investigations chez les patients de´ﬁnis aux § 4.1.3. a`
+4.1.5.
+Pricks au latex  IgE spe´ciﬁques du latex.
+4.3. Situations particulie`res et demande de bilan allergologique.
+4.3.1. En cas de re´action e´voquant une hypersensibilite´
+imme´diate a` un AINS non se´lectif.
+4.3.1.1. Si l’intervention n’est pas urgente, il faut faire un bilan
+allergologique en milieu hospitalier avec des tests d’introduction
+re´alistes.
+4.3.1.2. En cas d’urgence, il ne faut pas administrer d’AINS anti-
+COX-1. En revanche, les anti-COX-2 sont utilisables (ce´le´coxib et
+pare´coxib). Il est possible d’administrer du parace´tamol, mais il
+faut re´duire la posologie (effet anti-COX-1 du parace´tamol a` fortes
+doses) (NP2).
+4.3.2. En cas de suspicion d’hypersensibilite´ au parace´tamol.
+En cas d’intervention non urgente, il faut re´aliser un bilan en
+milieu hospitalier spe´cialise´ avec des tests d’introduction re´alistes.
+4.3.3. Si le patient signale une re´action a` la morphine ou a` la
+code´ine.
+Il ne faut pas re´injecter de morphine ou de code´ine, mais tous
+les autres morphiniques sont utilisables.
+4.3.4. En cas d’allergie alimentaire a` l’œuf ou au soja.
+Un seul cas d’hypersensibilite´
+au propofol chez un sujet
+allergique a` l’œuf ayant e´te´ rapporte´ dans la litte´rature, l’utilisation
+de propofol est possible chez les sujets allergiques a` l’œuf. De
+meˆme, la pre´sence d’huile puriﬁe´e de soja dans l’excipient du
+propofol ne doit pas faire contrindiquer ce dernier chez les patients
+atteints d’allergie alimentaire au soja (NP4).
+4.3.5. En cas d’allergie aux fruits de mer ou au poisson.
+L’allerge`ne en cause n’e´tant pas l’iode, les me´dicaments et
+badigeons iode´s ne sont pas contre-indique´s (NP3).
+4.3.6. En cas d’allergie documente´e a` la protamine.
+Celle-ci doit eˆtre contrindique´e. Un cas de re´action anaphylac-
+tique a` la protamine chez un sujet allergique au poisson a e´te´
+rapporte´, mas une re´cente revue de la litte´rature ne justiﬁe pas son
+e´viction en cas d’allergie au poisson (NP2).
+5. Pre´vention primaire et secondaire. Pre´me´dication et
+technique anesthe´sique – Pre´paration des patients
+5.1. Pre´vention primaire.
+5.1.1. La pre´vention primaire d’une sensibilisation correspond a`
+la non-exposition au me´dicament ou au mate´riau.
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+219
+5.1.2. La pre´vention primaire est impossible pour les agents
+anesthe´siques, mais est re´alisable avec certains mate´riaux comme
+le latex. L’administration des diffe´rents types d’anesthe´siques doit
+eˆtre raisonne´e. En particulier, l’administration des curares doit eˆtre
+re´alise´e selon les indications de la curarisation en anesthe´sie (NP4).
+5.1.3. Il faut e´viter l’exposition des patients au latex pour
+diminuer le risque de les sensibiliser vis-a`-vis du latex. La de´cision
+institutionnelle de travailler en ambiance « latex-free » est une
+pre´vention primaire efﬁcace (NP1).
+5.2. Pre´vention secondaire.
+5.2.1. La meilleure pre´vention secondaire correspond a` la non-
+administration du me´dicament auquel un sujet est sensibilise´. Il
+faut de´terminer l’allerge`ne responsable d’une re´action d’hyper-
+sensibilite´ imme´diate pour e´viter une re´action d’hypersensibilite´
+imme´diate lors d’une utilisation ulte´rieure du me´dicament (NP2).
+5.2.2. Les facteurs de risque de sensibilisation au latex sont : un
+terrain atopique, les sujets en contact re´pe´te´ par exposition
+professionnelle ou non avec le latex, les malformations urinaires
+(spina biﬁda, vessie neurologique, etc.), et les malformations
+justiﬁant de multiples interventions. Ces patients pre´sentent un
+risque plus e´leve´
+que les autres de pre´senter une re´action
+d’hypersensibilite´ allergique au latex.
+5.2.3. Les patients sensibilise´s au latex doivent eˆtre inscrits en
+premie`re position sur le programme ope´ratoire, dans un envir-
+onnement exempt de latex. Il faut notiﬁer la sensibilisation du
+patient au latex pendant son se´jour hospitalier (service d’hospi-
+talisation, bloc ope´ratoire, SSPI) (NP3) (Annexe V).
+5.2.4. On peut utiliser un questionnaire pre´ope´ratoire pour
+de´pister la sensibilisation au latex, lors de la consultation
+pre´anesthe´sique. Cette mesure pourrait permettre de re´duire
+l’incidence des re´actions au latex (NP4).
+5.2.5. En cas de suspicion de sensibilisation au latex, il faut
+adresser le patient en consultation d’allergologie en pre´ope´ratoire
+(NP3).
+5.2.6. Il faut e´tablir des listes, re´gulie`rement remises a` jour, des
+mate´riels contenant du latex dans chaque service d’anesthe´sie-
+re´animation, en collaboration avec la pharmacie (NP3).
+5.2.7. Il ne faut pas faire de recherche syste´matique pre´-
+anesthe´sique
+d’une
+sensibilisation,
+en
+dehors
+des
+patients
+appartenant a` un groupe a` risque (NP2).
+5.2.8. Il faut adresser en consultation d’allergologie, avant une
+anesthe´sie, les patients pre´sentant un risque de faire une re´action
+allergique avec les me´dicaments et mate´riaux utilisables pendant
+la pe´riode pe´riope´ratoire. Ces patients sont :
+ ceux ayant fait une re´action inexplique´e a` un allerge`ne non
+identiﬁe´ lors d’une anesthe´sie ante´rieure ;
+ les sujets allergiques connus a` une classe de me´dicaments qui
+sera utilise´e pendant la pe´riode anesthe´sique, et les sujets a`
+risque d’allergie au latex.
+5.2.9. Il ne faut pas utiliser la me´thode de la dose-test par voie
+intraveineuse pour de´tecter les sujets sensibilise´s aux me´dica-
+ments anesthe´siques (NP4).
+5.3. Pre´me´dication
+5.3.1. Aucune pre´me´dication n’est efﬁcace pour pre´venir une
+re´action d’hypersensibilite´ imme´diate allergique.
+5.3.2. Pour diminuer les effets de la ﬁxation de l’histamine sur
+ses re´cepteurs, il est possible d’administrer au pre´alable un
+antihistaminique. L’utilisation de me´dicaments antagonistes des
+re´cepteurs a` l’histamine a permis de diminuer l’incidence et
+l’intensite´ des re´actions d’hypersensibilite´ imme´diate non allergi-
+ques (NP2).
+5.3.3. L’association d’un anti-H1 a` un anti-H2 n’a pas montre´ de
+supe´riorite´ a` un anti-H1 seul pour pre´venir les effets pe´riphe´riques
+de l’histamine (NP3).
+5.3.4. Il n’existe pas de preuve de l’efﬁcacite´, en administration
+unique, de la pre´me´dication par corticoı¨des pour la pre´vention
+d’une re´action d’hypersensibilite´ imme´diate (NP4). Chez l’asthma-
+tique prenant ce type de traitement au long cours, les corticoı¨des
+diminuent l’incidence de l’hyperre´activite´ bronchique lors d’une
+anesthe´sie (NP3).
+5.4. L’anesthe´sie des patients allergiques ou susceptibles de
+l’eˆtre.
+5.4.1. Il est recommande´ d’administrer l’antibioprophylaxie
+pre´ope´ratoire au bloc ope´ratoire chez un patient monitore´ et
+e´veille´, avant l’induction anesthe´sique. Dans ce cas, l’imputabilite´
+de l’antibiotique est plus facile a` de´terminer. La re´animation d’un
+patient n’ayant pas rec¸u de me´dicaments agissant sur le syste`me
+cardiovasculaire est plus facile (NP4).
+5.4.2. Le choix de la technique anesthe´sique se fera en fonction
+du sujet et du type d’actes a` pratiquer. En urgence, en l’absence de
+bilan allergologique, il faut privile´gier les techniques d’anesthe´sie
+locore´gionales et les techniques d’anesthe´sie ge´ne´rale e´vitant les
+curares et les me´dicaments histaminolibe´rateurs, et re´aliser
+l’intervention en environnement sans latex. (NP3).
+5.4.3. Le choix des agents anesthe´siques sera fait en fonction des
+donne´es anamnestiques et des re´sultats des bilans allergologiques
+e´ventuellement re´alise´s (NP2).
+5.4.3.1. Parmi les hypnotiques, les haloge´ne´s n’ont jamais e´te´
+incrimine´s
+dans
+les
+re´actions
+d’hypersensibilite´
+imme´diate
+L’allergie au propofol et aux benzodiaze´pines est exceptionnelle.
+5.4.3.2. Les re´actions d’hypersensibilite´
+aux opiace´s sont
+essentiellement de´crites avec la morphine et la code´ine. Il s’agit
+le plus souvent d’une re´action d’hypersensibilite´ imme´diate non
+allergique.
+5.4.3.3.
+Tous
+les
+curares
+peuvent
+induire
+des
+re´actions
+d’hypersensibilite´ imme´diates allergiques. Le choix du curare se
+fera en fonction de l’indication de la curarisation et des re´sultats
+des tests cutane´s (NP3).
+5.4.3.4. Chez un sujet ayant pre´sente´ une re´action d’hypersen-
+sibilite´
+imme´diate allergique a`
+un curare, il faut rechercher
+syste´matiquement une sensibilite´ croise´e avec les autres curares
+disponibles, a` l’aide de tests cutane´s, aﬁn de pouvoir proposer un
+curare pour les interventions ulte´rieures (NP3).
+6. Traitement des re´actions d’hypersensibilite´ imme´diate et, en
+particulier, du choc anaphylactique survenant en cours
+d’anesthe´sie
+6.1. Les recommandations pour le traitement des re´actions
+d’hypersensibilite´ imme´diate survenant durant l’anesthe´sie ne
+doivent pas eˆtre conc¸ues comme un sche´ma rigide. Ce traitement
+doit eˆtre adapte´ a` la gravite´ clinique, aux ante´ce´dents du patient,
+aux traitements en cours et a` la re´ponse au traitement d’urgence.
+Il sous-entend le monitorage ne´cessaire a`
+toute anesthe´sie
+(NP4).
+6.2. Les mesures ge´ne´rales sont a` appliquer dans tous les cas
+(NP4) :
+6.2.1. Arreˆt de l’administration du produit suspecte´.
+6.2.2. Information de l’e´quipe chirurgicale (en fonction de la
+situation : abstention, simpliﬁcation, acce´le´ration, ou arreˆt du
+geste chirurgical).
+6.2.3. Administration d’oxyge`ne pur (NP4).
+6.3. Dans les re´actions de grade I, les mesures de´crites au
+paragraphe 6.2 sont ge´ne´ralement sufﬁsantes.
+Certaines
+recommandations
+internationales
+pre´conisent
+l’administration d’antihistaminiques H1 (diphenhydramine) a` la
+posologie de 25 a` 50 mg soit 0,5–1 mg kg1 par voie intraveineuse)
+associe´s a` des antihistaminiques H2 (ranitidine 50 mg a` diluer et a`
+injecter en cinq minutes). Ce me´dicament n’e´tant pas commercia-
+lise´ en France, il peut eˆtre remplace´ par l’administration de
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+220
+dexchlorphe´niramine a` la posologie de 5 mg par voie intraveineuse
+e´ventuellement renouvelable une fois.
+6.4. Dans les cas plus se´ve`res (grade II ou III) (NP3) :
+6.4.1. Oxyge´nation. Controˆle rapide des voies ae´riennes.
+6.4.2. Adre´naline par voie intraveineuse par bolus a` doses
+titre´es. La dose initiale de´pend de la se´ve´rite´ de l’hypotension (10 a`
+20 mg pour les grades II ; 100 a` 200 mg pour les grades III), et doit
+eˆtre re´pe´te´e toutes les 1 a` 2 minutes jusqu’a` restauration d’une
+pression arte´rielle sufﬁsante (PAM = 60 mm Hg). En cas d’efﬁcacite´
+insufﬁsante, les doses doivent eˆtre augmente´es de fac¸on rapide-
+ment croissante. Une perfusion intraveineuse a` la dose de 0,05 a`
+0,1 mg kg1 min1 peut e´viter d’avoir a` re´pe´ter les bolus d’adre´na-
+line. En l’absence de voie veineuse efﬁcace, la voie intramusculaire
+peut eˆtre utilise´e (0,3 a` 0,5 mg), a` re´pe´ter apre`s cinq a` dix minutes,
+en
+fonction
+des
+effets
+he´modynamiques.
+Dans
+les
+meˆmes
+circonstances, la voie intratrache´ale peut eˆtre utilise´e chez le
+patient intube´, en sachant que seul un tiers de la dose parvient dans
+la circulation syste´mique.
+6.4.3. Demande d’aide de personnel compe´tent.
+6.4.4. Sure´le´vation des membres infe´rieurs.
+6.4.5. Remplissage vasculaire rapide par cristalloı¨des isotoni-
+ques. Les colloı¨des sont substitue´s aux cristalloı¨des lorsque le
+volume de ces derniers de´passe 30 ml kg1, en e´vitant les produits
+suspecte´s eˆtre a` l’origine de l’accident.
+6.4.6. En cas de bronchospasme sans hypotension arte´rielle, il
+faut administrer des agonistes b2-adre´nergiques inhale´s, type
+salbutamol, avec chambre d’inhalation. En cas de re´sistance ou de
+forme d’emble´e se´ve`re, on peut utiliser la voie intraveineuse :
+salbutamol en bolus de 100 a` 200 mg, suivi d’une perfusion
+continue (5 a` 25 mg min1). Les formes les plus graves peuvent
+relever de la perfusion continue d’adre´naline.
+6.4.7. Chez les patients traite´s par ß-bloquants, il peut eˆtre
+ne´cessaire d’augmenter rapidement les doses d’adre´naline : le
+premier bolus est de 100 mg, suivi, en cas d’inefﬁcacite´, par 1 mg,
+voire 5 mg, a` une ou deux minutes d’intervalle. En cas d’inefﬁ-
+cacite´, le glucagon peut eˆtre propose´
+(1 a`
+2 mg par voie
+intraveineuse, a` renouveler toutes les cinq minutes). Une perfusion
+continue de glucagon peut eˆtre utilise´e (5–15 mg min1 ou 0,3–
+1 mg h1).
+6.4.8. En cas d’hypotension re´fractaire a`
+de fortes doses
+d’adre´naline, divers autres me´dicaments vasoconstricteurs ont
+e´te´
+propose´s,
+notamment
+la
+noradre´naline
+(a`
+partir
+de
+0,1 mg kg1 min1) ou les autres a-agonistes, ou la terlipressine
+a`
+la dose de 2 mg en bolus (La vasopressine n’e´tant pas
+commercialise´e en France).
+6.5. En cas d’arreˆt cardiaque (grade IV) (NP4) :
+ massage cardiaque ;
+ adre´naline : bolus de 1 mg toutes les une a` deux minutes;
+ mesures habituelles de re´animation d’une inefﬁcacite´ cardio-
+circulatoire.
+6.6. En seconde intention dans les formes graves (NP4) :
+ les corticoı¨des peuvent atte´nuer les manifestations tardives du
+choc : he´misuccinate d’hydrocortisone, a` raison de 200 mg par
+voie intraveineuse toutes les six heures ;
+ une surveillance intensive doit eˆtre assure´e durant au moins
+24 heures, en raison du risque d’instabilite´ tensionnelle.
+6.7. Particularite´s chez la femme enceinte :
+6.7.1. La re´animation fœtale passe par la restauration de l’e´tat
+he´modynamique maternel. Il n’y a pas de modiﬁcations dans
+l’algorithme
+de
+la
+prise
+en
+charge
+de
+l’arreˆt
+cardiaque
+concernant les traitements me´dicamenteux, l’intubation et la
+de´ﬁbrillation.
+6.7.2. Le traitement des re´actions de grade I ne pre´sente pas
+de particularite´s. Les agonistes b2-adre´nergiques, les antihis-
+taminiques H1 et H2 ainsi que les corticoste´roı¨des peuvent eˆtre
+utilise´s.
+6.7.3. Les particularite´s de la re´animation du choc anaphylac-
+tique s’appliquent a` la femme enceinte (NP3) :
+6.7.3.1. Oxyge´nation maternelle pre´coce et prise en charge des
+voies ae´riennes en tenant compte des modiﬁcations anatomiques
+et physiologiques respiratoires lie´es a` l’e´tat de grossesse.
+6.7.3.2. Positionner la patiente en de´cubitus late´ral gauche (158)
+ou de´placer l’ute´rus manuellement sur la gauche pour lever la
+compression aortocave.
+6.7.3.3. Envisager l’extraction fœtale de`s la 25 SA par ce´sarienne
+apre`s cinq minutes d’inefﬁcacite´ circulatoire malgre´ une re´anima-
+tion bien conduite pour ame´liorer la re´animation maternelle (lever
+de la compression aortocave et manœuvres de re´animation plus
+faciles).
+6.7.4. Il faut utiliser l’adre´naline en cas de choc anaphylac-
+tique chez la femme enceinte, selon les meˆmes modalite´s
+(se´quence, voie d’administration, doses) qu’en dehors de la
+grossesse (NP3).
+6.7.5. Il est possible d’utiliser les solute´s de type hydroxye´thy-
+lamidon pour le remplissage vasculaire de la femme enceinte
+(NP3).
+6.8. Particularite´s chez l’enfant.
+6.8.1. Les principes du traitement des re´actions anaphylac-
+tiques chez l’enfant sont identiques a` ceux de´crits chez l’adulte. Les
+seules
+particularite´s
+portent
+sur
+les
+posologies
+des
+agents
+me´dicamenteux.
+6.8.2. En cas d’arreˆt circulatoire (grade IV), la posologie des
+bolus
+d’adre´naline
+recommande´e
+est
+habituellement
+de
+10 mg kg1 (NP1). Les bolus ite´ratifs peuvent eˆtre relaye´s, comme
+chez
+l’adulte,
+par
+une
+perfusion
+continue
+de´bute´e
+a`
+0,1 mg kg1 min1.
+6.8.3. Pour les re´actions anaphylactiques de grade 2 et 3, en
+l’absence de donne´es concernant la dose d’adre´naline a` admi-
+nistrer, il est recommande´ d’adapter les doses a` la re´ponse
+he´modynamique en re´alisant une titration jusqu’a` restauration
+d’un niveau normal de pression arte´rielle en fonction de l’aˆge
+(NP4). Une dose de 1 mg kg1 peut eˆtre sufﬁsante, des doses plus
+e´leve´es peuvent s’ave´rer ne´cessaires (5 a` 10 mg kg1).
+6.8.4. Une pression arte´rielle systolique < 70 mm Hg entre 1 et
+12 mois, 70 plus deux fois l’aˆge (en anne´es) entre un et dix ans, et
+90 mm Hg au-dela` de dix ans, traduit une hypotension.
+6.8.5. Le remplissage vasculaire est re´alise´ avec des cristal-
+loı¨des, a` raison de 20 ml kg1 puis de colloı¨des (10 ml kg1). Une
+dose cumule´e de 60 ml kg1 peut eˆtre ne´cessaire.
+6.8.6. Les corticoı¨des peuvent eˆtre utilise´s en deuxie`me
+intention, comme chez l’adulte. Chez les enfants asthmatiques
+pre´sentant un choc anaphylactique, l’administration pre´coce de
+corticoı¨des est be´ne´ﬁque comme chez l’adulte. Il n’y a pas
+d’e´le´ment dans la litte´rature sur lequel faire reposer le choix de
+la
+dose
+optimale
+dans
+le
+choc
+anaphylactique.
+Les
+doses
+habituellement pre´conise´es, par analogie avec l’e´tat de mal
+asthmatique, sont de 1 a`
+2 mg kg1 de me´thylprednisolone
+(Solume´drol1) ou d’Hydrocortisone1, a` raison de 200 mg au-dela`
+de 12 ans, 100 mg entre six et 12 ans, 50 mg entre six mois et
+six ans, et 25 mg en dessous de six mois (NP4).
+6.8.7. Dans les chocs avec signes respiratoires pre´dominants,
+les posologies pre´conise´es de salbutamol sont de 50 mg kg1
+(maximum 1000 a` 1500 mg), soit 4 a` 15 bouffe´es d’e´quivalent
+salbutamol), a` renouveler toutes les 10 a` 15 minutes (NP4).
+L’administration intraveineuse est une alternative efﬁcace dans
+l’asthme aigu grave (NP4). Les posologies pre´conise´es sont de
+5 mg kg1 (en 5 minutes), suivies d’une perfusion continue de
+0,1 a` 0,3 mg kg1 min1. Cependant, ces doses semblent insufﬁ-
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+221
+santes
+en
+pratique,
+et
+des
+doses
+de
+0,5
+a`
+2 mg kg1
+min1 peuvent eˆtre administre´es selon la re´ponse du patient.
+Il ne semble pas utile d’augmenter les doses au-dela`
+de
+5 mg kg1 min1 (NP4).
+6.8.8. En cas de traitement par b-bloquant et de choc re´fractaire
+a` l’adre´naline, du glucagon peut eˆtre utilise´ a` la dose de 20–
+30 mg kg1, sans de´passer 1 mg par voie veineuse sur cinq minutes,
+relaye´e par une administration continue (5–15 mg min1) selon le
+niveau de pression arte´rielle.
+6.8.9. Les donne´es disponibles dans la litte´rature quant a`
+l’utilisation de la vasopressine chez l’enfant ne permettent pas de
+proposer son utilisation.
+Annexe A. Mate´riel comple´mentaire
+Le mate´riel comple´mentaire accompagnant la version en ligne
+de cet article est disponible sur doi:10.1016/j.annfar.2010.12.002.
+Socie´te´ franc¸aise d’anesthe´sie et re´animation (Sfar), Socie´te´ franc¸aise d’allergologie (SFA) / Annales Franc¸aises d’Anesthe´sie et de Re´animation 30 (2011) 212–222
+222

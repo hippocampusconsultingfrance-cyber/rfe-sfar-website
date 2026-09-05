@@ -46,7 +46,8 @@ var RAW = {
   aap_programmee: JSON.parse(document.getElementById('content-aap_programmee').textContent),
   mtev_perioperatoire: JSON.parse(document.getElementById('content-mtev_perioperatoire').textContent),
   glycemie: JSON.parse(document.getElementById('content-glycemie').textContent),
-  mal_epileptique: JSON.parse(document.getElementById('content-mal_epileptique').textContent)
+  mal_epileptique: JSON.parse(document.getElementById('content-mal_epileptique').textContent),
+  allergie_prevention: JSON.parse(document.getElementById('content-allergie_prevention').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -94,7 +95,8 @@ var FICHE_HREF_MATCH = {
   aap_programmee: ['gestion-agents-antiplaquettaires-procedure-invasive-programmee', 'Gestion-des-agents-antiplaquettaires-pour-une-procedure-invasive-programmee'],
   mtev_perioperatoire: ['prevention-de-la-maladie-thromboembolique-veineuse-peri-operatoire', '240516-Txt-definitif'],
   glycemie: ['controle-de-la-glycemie-en-reanimation-et-en-anesthesie', '2b_AFAR_Contrele-de-la-glycemie'],
-  mal_epileptique: ['prise-en-charge-en-situation-durgence-et-en-reanimation-des-etats-de-mal-epileptiques', '3_REANIMATION_Prise-en-charge']
+  mal_epileptique: ['prise-en-charge-en-situation-durgence-et-en-reanimation-des-etats-de-mal-epileptiques', '3_REANIMATION_Prise-en-charge'],
+  allergie_prevention: ['prevention-du-risque-allergique-peranesthesique-2', '2_AFAR_Prevention-du-risque-allergique-peranesthesique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -611,6 +613,18 @@ var DOC_META = {
     methodology: "Accord fort/faible (méthode RAND/UCLA, non GRADE)",
     pages: 14,
     url: "https://sfar.org/wp-content/uploads/2015/10/3_REANIMATION_Prise-en-charge-en-situation-durgence-et-en-reanimation-des-etats-de-mal-epileptiques-de-ladulte-et-de-lenfant.pdf"
+  },
+  allergie_prevention: {
+    key: 'allergie_prevention',
+    badge: 'NP (preuve)',
+    title: "Prévention du risque allergique péranesthésique",
+    short: "Réalité du risque et substances responsables (curares en tête), mécanismes et physiopathologie du choc, bilan diagnostique biologique (histamine, tryptase, IgE spécifiques) et cutané (tests cutanés, tableaux de concentrations de référence), facteurs favorisants et croisements allergéniques, place du bilan allergologique préanesthésique, prévention primaire/secondaire et choix de la technique — complète la fiche « Anaphylaxie 2025 » (traitement aigu) déjà publiée sur ce site.",
+    society: "SFAR & Société française d'allergologie (SFA) — RFE 2011",
+    version: "2011 (actualisation 2001/2002)",
+    validated: "Publié Ann Fr Anesth Reanim 2011;30:212-222, doi:10.1016/j.annfar.2010.12.002",
+    methodology: "Niveaux de preuve NP1-4 (argumentaire) — pas de grade par recommandation",
+    pages: 9,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prevention-du-risque-allergique-peranesthesique.pdf"
   }
 };
 

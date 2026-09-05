@@ -94,6 +94,8 @@ with open(os.path.join(BASE, "content_mal_epileptique.json"), encoding="utf-8") 
     content_mal_epileptique = f.read()
 with open(os.path.join(BASE, "content_allergie_prevention.json"), encoding="utf-8") as f:
     content_allergie_prevention = f.read()
+with open(os.path.join(BASE, "content_antibioprophylaxie.json"), encoding="utf-8") as f:
+    content_antibioprophylaxie = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -146,6 +148,7 @@ out = out.replace("__CONTENT_MTEV_PERIOPERATOIRE__", safe(content_mtev_periopera
 out = out.replace("__CONTENT_GLYCEMIE__", safe(content_glycemie))
 out = out.replace("__CONTENT_MAL_EPILEPTIQUE__", safe(content_mal_epileptique))
 out = out.replace("__CONTENT_ALLERGIE_PREVENTION__", safe(content_allergie_prevention))
+out = out.replace("__CONTENT_ANTIBIOPROPHYLAXIE__", safe(content_antibioprophylaxie))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

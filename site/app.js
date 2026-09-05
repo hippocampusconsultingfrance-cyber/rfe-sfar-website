@@ -47,7 +47,8 @@ var RAW = {
   mtev_perioperatoire: JSON.parse(document.getElementById('content-mtev_perioperatoire').textContent),
   glycemie: JSON.parse(document.getElementById('content-glycemie').textContent),
   mal_epileptique: JSON.parse(document.getElementById('content-mal_epileptique').textContent),
-  allergie_prevention: JSON.parse(document.getElementById('content-allergie_prevention').textContent)
+  allergie_prevention: JSON.parse(document.getElementById('content-allergie_prevention').textContent),
+  antibioprophylaxie: JSON.parse(document.getElementById('content-antibioprophylaxie').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -96,7 +97,8 @@ var FICHE_HREF_MATCH = {
   mtev_perioperatoire: ['prevention-de-la-maladie-thromboembolique-veineuse-peri-operatoire', '240516-Txt-definitif'],
   glycemie: ['controle-de-la-glycemie-en-reanimation-et-en-anesthesie', '2b_AFAR_Contrele-de-la-glycemie'],
   mal_epileptique: ['prise-en-charge-en-situation-durgence-et-en-reanimation-des-etats-de-mal-epileptiques', '3_REANIMATION_Prise-en-charge'],
-  allergie_prevention: ['prevention-du-risque-allergique-peranesthesique-2', '2_AFAR_Prevention-du-risque-allergique-peranesthesique']
+  allergie_prevention: ['prevention-du-risque-allergique-peranesthesique-2', '2_AFAR_Prevention-du-risque-allergique-peranesthesique'],
+  antibioprophylaxie: ['antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/', 'wpdmdl=68362']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -625,6 +627,18 @@ var DOC_META = {
     methodology: "Niveaux de preuve NP1-4 (argumentaire) — pas de grade par recommandation",
     pages: 9,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prevention-du-risque-allergique-peranesthesique.pdf"
+  },
+  antibioprophylaxie: {
+    key: 'antibioprophylaxie',
+    badge: 'GRADE',
+    title: "Antibioprophylaxie — recommandations générales",
+    short: "Les 11 recommandations générales (Champ 1) de la RFE : délai d'administration avant l'incision, réinjection peropératoire et rythme par molécule, durée (limitée à la période peropératoire dans la grande majorité des cas), adaptation posologique chez le patient obèse (céphalosporines, amoxicilline-clavulanate, clindamycine, gentamicine, vancomycine, teicoplanine), et dépistage/antibioprophylaxie ciblée chez le patient colonisé à E-BLSE avant chirurgie colo-rectale. Périmètre volontairement limité : exclut les Champs 2-3 (18 tableaux disciplinaires adultes et pédiatriques de posologie par procédure, ~85 pages) — voir le texte intégral pour le choix et la dose d'une procédure donnée.",
+    society: "SFAR / SPILF (32 sociétés savantes associées) — RFE 2024",
+    version: "V3.0 du 04/05/2026 (V1.0 originale 08/12/2023)",
+    validated: "CA SFAR 30/06/2023 (Champs 1-2) ; CA SFAR 20/05/2026 (Champ 3 pédiatrique)",
+    methodology: "GRADE",
+    pages: 4,
+    url: "https://sfar.org/download/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/?wpdmdl=68362"
   }
 };
 

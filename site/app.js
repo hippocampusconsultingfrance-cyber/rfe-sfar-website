@@ -59,7 +59,8 @@ var RAW = {
   asthme_aigu_grave: JSON.parse(document.getElementById('content-asthme_aigu_grave').textContent),
   pancreatite: JSON.parse(document.getElementById('content-pancreatite').textContent),
   corticotherapie: JSON.parse(document.getElementById('content-corticotherapie').textContent),
-  antibiotherapie_probabiliste: JSON.parse(document.getElementById('content-antibiotherapie_probabiliste').textContent)
+  antibiotherapie_probabiliste: JSON.parse(document.getElementById('content-antibiotherapie_probabiliste').textContent),
+  hsa: JSON.parse(document.getElementById('content-hsa').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -120,7 +121,8 @@ var FICHE_HREF_MATCH = {
   asthme_aigu_grave: ['prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-a-lexclusion-du-nourrisson', 'REANIMATION_Prise-en-charge-des-crises-dasthme-aigues-graves'],
   pancreatite: ['pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques', 'wpdmdl=35411'],
   corticotherapie: ['corticotherapie-au-cours-du-choc-septique-et-du-sdra', '2_SFAR_Corticotherapie-au-cours-du-choc-septique-et-du-SDRA'],
-  antibiotherapie_probabiliste: ['antibiotherapie-probabiliste-des-etats-septiques-graves', '2_AFAR_Antibiotherapie-probabiliste-des-etats-septiques-graves']
+  antibiotherapie_probabiliste: ['antibiotherapie-probabiliste-des-etats-septiques-graves', '2_AFAR_Antibiotherapie-probabiliste-des-etats-septiques-graves'],
+  hsa: ['hemorragie-sous-arachnoidienne-hsa-grave', '2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -793,6 +795,18 @@ var DOC_META = {
     methodology: "Conférence d'experts — tableau général des niveaux de preuve I à V, non rattaché explicitement à une proposition individuelle du corps du texte",
     pages: 7,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Antibiotherapie-probabiliste-des-etats-septiques-graves.pdf"
+  },
+  hsa: {
+    key: 'hsa',
+    badge: 'GRADE A/B/D/E',
+    title: "Hémorragie sous-arachnoïdienne grave",
+    short: "Prise en charge de l'HSA grave par rupture d'anévrysme (WFNS III-V) : diagnostic et prise en charge initiale (clinique, classifications WFNS/Hunt-Hess/Fisher, imagerie, ponction lombaire, transfert en centre de référence), complications précoces (HTIC, hydrocéphalie, resaignement, épilepsie, retentissement cardio-pulmonaire, natrémie), traitement de l'anévrysme (chirurgie vs endovasculaire, délai de 72h), anesthésie et douleur, vasospasme (diagnostic Doppler, prévention par nimodipine, triple H, traitement endovasculaire), stratégie de suivi et filière de soins. Grades A/B/D/E imprimés par le jury, sans définition dans ce texte court (disclosure dans la fiche) ; aucune occurrence de Grade C.",
+    society: "SFAR, avec l'ANARLF, la Société française de neurochirurgie et la Société française de neuroradiologie",
+    version: "2004 (Conférence d'experts, texte court)",
+    validated: "Président du jury : L. Beydon (Angers)",
+    methodology: "Conférence d'experts (grades A/B/D/E, pas de GRADE) — signification des lettres non définie dans le texte court",
+    pages: 12,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne.pdf"
   }
 };
 

@@ -1,0 +1,1763 @@
+{
+ "doc": "hsa",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie, diagnostic initial & imagerie",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge de l'hémorragie sous-arachnoïdienne (HSA) grave par rupture d'anévrysme (WFNS III à V, <i>Grade D</i>) — pathologie touchant une population le plus souvent jeune et en bonne santé, au pronostic incertain, dont le traitement urgent met en jeu une filière complexe et multidisciplinaire. Conférence d'experts organisée par la SFAR en partenariat avec l'Association de neuroanesthésie-réanimation de langue française (ANARLF), la Société française de neurochirurgie et la Société française de neuroradiologie, en réponse à l'obsolescence des recommandations américaines (1994) et canadiennes (1997) sur le sujet. Panel présidé par le Pr L. Beydon (Angers).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie — disclosure :</b> le « faible niveau de preuve » de la majorité des études disponibles a justifié le choix méthodologique d'une <b>conférence d'experts</b> plutôt qu'une recommandation GRADE. Chaque proposition du jury porte un grade parmi <b>A, B, D, E</b> (comptage exhaustif du corps du texte : 2× Grade A, 1× Grade B, 10× Grade D, 48× Grade E — <b>aucune occurrence de Grade C</b>). Le « texte court » exploité ici <b>ne définit nulle part</b> la signification précise de ces lettres ; cette définition figure vraisemblablement dans l'argumentaire scientifique complet (texte long), non disponible pour cette fiche. Les deux faits sont disclosés tels quels plutôt que résolus par une définition devinée.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (tels qu'imprimés par le jury)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "p",
+        "html": "Preuve scientifique forte (littéralement « Grade A » de la source)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "p",
+        "html": "Présomption scientifique (« Grade B »)",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       },
+       {
+        "t": "p",
+        "html": "« Grade D » — signification non définie dans le texte court",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       },
+       {
+        "t": "p",
+        "html": "« Grade E » — signification non définie dans le texte court",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Diagnostic en hôpital général et prise en charge initiale",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Épidémiologie :</b> âge moyen ~50 ans, prédominance féminine (~60 %). Incidence en France de 5 à 7/100 000 sujets-année. Facteurs de risque identifiés : hypertension artérielle, tabagisme. Formes familiales/génétiques rares, justifiant des explorations.<br/><b>Clinique :</b> céphalée brutale, intense, inhabituelle, souvent suivie de vomissements — pierre angulaire du diagnostic. Perte de conscience fréquente (sa prolongation est de mauvais pronostic) ; convulsions accompagnant la céphalée hautement évocatrices. Le syndrome méningé peut apparaître plusieurs heures après l'HSA et peut donc manquer à l'admission.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 1</b> — Classification de la World Federation of Neurological Surgeons (WFNS)",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Score de Glasgow",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Déficit moteur",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "I",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "15",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "absent",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "II",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "13-14",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "absent",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "III",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "13-14",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "présent",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IV",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "7-12",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "présent ou absent",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "3-6",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "présent ou absent",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 2</b> — Classification de Hunt et Hess",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Description clinique",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Anévrysme non rompu",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Asymptomatique ou céphalée minime",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Céphalée modérée à sévère, raideur de nuque",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Somnolence, confusion, déficit focal minime",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Coma léger, déficit focal, troubles végétatifs",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Coma profond, moribond",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "D.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le score de Glasgow doit être utilisé en complément de ces échelles pour quantifier la gravité de l'HSA tout au long de l'évolution clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "D.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "On retient la définition d'HSA <b>grave</b> pour des HSA cotées III à V dans l'échelle de la WFNS, qui doit être privilégiée par rapport à celle de Hunt et Hess.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Imagerie, ponction lombaire, transfert",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 3</b> — Échelle scanographique de Fisher",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Aspect scanner",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Absence de sang",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Dépôts de moins de 1 mm d'épaisseur",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Dépôts de plus de 1 mm d'épaisseur",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Hématome parenchymateux ou hémorragie ventriculaire",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "D.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tout patient suspect d'HSA doit être exploré par un scanner cérébral, en urgence — permettant d'évaluer l'importance de l'HSA et ses conséquences (hydrocéphalie, hématome, infarctus).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "D.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de doute d'interprétation, les images feront l'objet d'une télétransmission vers un centre de référence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "D.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'intérêt de pratiquer un angio-scanner pour rechercher la cause de l'HSA en dehors d'un centre neurochirurgical est discutable — cet examen n'a qu'un intérêt préthérapeutique et n'est donc pas utile pour la décision de transfert.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "D.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Toute dégradation neurologique impose la réalisation d'un nouveau scanner.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "D.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La ponction lombaire n'a aucune indication lorsque l'HSA est visualisée sur le scanner cérébral. On y recourt pour l'éliminer lorsque la symptomatologie est évocatrice et le scanner normal — exceptionnel dans les formes graves.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "D.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le diagnostic d'HSA impose le transfert dans un centre de référence incluant des équipes de neurochirurgie, de neuroradiologie et de neuroanesthésie-réanimation, comportant une unité compétente en neuro-réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Complications précoces & traitement de l'anévrysme",
+   "items": [
+    {
+     "t": "section",
+     "text": "Complications précoces — HTIC, hydrocéphalie, resaignement, épilepsie",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'HSA anévrysmale s'accompagne d'une HTIC quasi constante pour les grades cliniques élevés, résultant d'un hématome intracérébral compressif (20 % des cas), d'un œdème cérébral et/ou d'une hydrocéphalie aiguë par trouble de résorption du LCS. Facteurs prédictifs de l'hydrocéphalie : âge, hémorragie intraventriculaire, importance de l'HSA, localisation postérieure de l'anévrysme. Une réaction de Cushing (HTA + bradycardie + ataxie respiratoire) contribue au maintien d'un niveau minimal de PPC.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Index bicaudé</b> — signes scanographiques d'hydrocéphalie discrets dans les premières heures : dilatation des cornes temporales ou augmentation de l'index bicaudé (rapport A/B : A = largeur des cornes frontales au niveau des noyaux caudés ; B = diamètre cérébral au même niveau). Valeur normale décroissant avec l'âge :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Âge (ans)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Index bicaudé normal",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "≤ 30",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 0,16",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "50",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 0,18",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "60",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 0,19",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "80",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 0,21",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "100",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 0,25",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un hématome intracérébral compressif doit être évacué chirurgicalement, geste associé au traitement chirurgical de l'anévrysme.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'engagement cérébral avec localisation de l'hématome suffisamment informative au scanner, le traitement chirurgical de l'anévrysme peut être réalisé sans angiographie diagnostique (pronostic dépendant de la précocité du traitement).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un œdème cérébral impose un monitorage de la PIC, au mieux par cathéter intraventriculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une hydrocéphalie impose une dérivation ventriculaire externe (DVE) en urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si un geste endovasculaire est envisagé, la DVE devrait être posée avant l'embolisation (l'héparinothérapie péri-embolisation gênerait sa pose ultérieure) ; elle est maintenue à 15 cm au-dessus de l'orifice du conduit auditif externe.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de doute sur une HTIC, le Doppler transcrânien (DTC) peut permettre d'en objectiver des signes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le traitement de l'HTA relève d'un nécessaire compromis entre le risque de resaignement et celui d'hypoperfusion cérébrale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'objectif premier du traitement de l'anévrysme est d'éviter la récidive hémorragique (mortalité &gt; 70 % en cas de resaignement) par une exclusion précoce.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une prophylaxie anti-épileptique peut être envisagée chez les patients à haut risque de convulsions (sang dans les citernes, infarctus cérébral, lésion focale, hématome sous-dural) — aucune donnée ne permet de statuer sur la durée de cette prophylaxie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Complications précoces — retentissement cardio-pulmonaire, natrémie",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'hyperactivation sympathique/décharge noradrénergique de l'HSA peut entraîner troubles du rythme, altération de la fonction myocardique et œdème pulmonaire « neurogénique » (pouvant aboutir à un SDRA). Diagnostic par la clinique, les marqueurs biologiques (troponine I sensible mais peu spécifique ; BNP) et l'échocardiographie/cathétérisme droit. Une hyponatrémie (natrémie &lt; 135 mmol/l), généralement différée (J4-J10), peut traduire un « Cerebral Salt Wasting Syndrome » (CSWS) — hypovolémie + natriurèse augmentée ; le syndrome de sécrétion inappropriée d'ADH est souvent évoqué à tort. Une hypernatrémie (natrémie &gt; 145 mmol/l, densité urinaire &lt; 1005) doit faire rechercher un diabète insipide.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Des taux élevés de troponine I doivent inciter à réaliser un bilan échocardiographique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une défaillance cardiovasculaire et/ou respiratoire sévère peut nécessiter de différer le traitement étiologique de l'anévrysme, réalisé dès la situation contrôlée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de CSWS (hyponatrémie + hypovolémie + natriurèse augmentée), remplacer les pertes en eau et en sel et proscrire toute restriction hydrique (minéralocorticoïdes possibles en complément).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'hyponatrémie symptomatique, une correction initiale rapide, objectif natrémie 125 mmol/l, est recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C.14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'hypernatrémie (diabète insipide à rechercher), la correction ne doit pas être trop rapide (&lt; 12 mmol/l/24 h) — elle peut majorer une éventuelle HTIC.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Traitement de l'anévrysme",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Le traitement précoce du sac anévrysmal a deux objectifs : mettre à l'abri du resaignement et optimiser la PPC pour prévenir les conséquences ischémiques de l'HTIC. Le choix chirurgie / endovasculaire tient compte de la localisation et de la morphologie de l'anévrysme, de l'état clinique et des antécédents du patient, ainsi que de la disponibilité et de l'expérience des équipes.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le traitement précoce (dans les 72 premières heures) du sac anévrysmal s'impose.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La décision du choix thérapeutique doit résulter d'une discussion entre chirurgiens, radiologues et neuro-anesthésistes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un traitement intensif des patients en grade clinique élevé (monitorage de la PIC, drainage du LCS, monitorage hémodynamique, « triple H » thérapie précoce) améliore significativement leur pronostic.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Quand le traitement endovasculaire et chirurgical sont tous deux possibles, en dehors des hématomes compressifs, le traitement endovasculaire est probablement l'option thérapeutique appropriée (extrapolation de l'étude ISAT, menée sur des grades WFNS faibles, aux grades élevés).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le choix thérapeutique ne doit pas retarder la mise en place d'une DVE ; en cas de défaillance cardiaque, le traitement du sac anévrysmal doit être différé jusqu'à stabilisation de la fonction cardiaque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement chirurgical : le volet doit être large en raison de l'HTIC souvent associée aux formes graves d'HSA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement chirurgical : l'hypotension artérielle est à proscrire, sauf conditions de sauvetage sur rupture incontrôlable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement endovasculaire : une héparinothérapie à dose efficace est nécessaire durant le geste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement endovasculaire : en cas de rupture durant la procédure, il convient de poursuivre le remplissage de la poche anévrysmale le plus rapidement possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement endovasculaire : avant de reprendre un éventuel traitement anticoagulant, un scanner de contrôle est indiqué.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement endovasculaire : une thrombose en cours d'embolisation doit faire envisager un traitement par fibrinolytique in situ ou par agent antiplaquettaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement endovasculaire : en cas de déficit neurologique apparaissant dans les suites de la procédure, une exploration tomodensitométrique doit être impérativement réalisée pour écarter un resaignement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "T.13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement endovasculaire : il est particulièrement indiqué de poser la DVE avant l'embolisation (arrêt/antagonisation de l'héparine circulante requis sinon, ce qui n'est pas sans danger) — même justification que C.5.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Anesthésie, douleur & vasospasme (clinique)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Anesthésie et traitement de la douleur",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "A.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'HSA grave avec HTIC, l'anesthésie intraveineuse est clairement à préférer ; l'injection de fortes doses de morphiniques en bolus est à éviter (risque d'augmentation de la PIC). Objectif peranesthésique : éviter les poussées hypertensives (risque de rupture) et l'hypotension (hypoperfusion cérébrale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "A.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les principes de l'anesthésie pour le traitement endovasculaire sont les mêmes que ceux de la chirurgie : maintien d'une PPC suffisante et immobilité absolue.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "A.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les patients d'HSA grave hospitalisés en réanimation et ventilés ne présentent aucune contre-indication aux opiacés ; l'utilisation du paracétamol est intéressante par son effet antipyrétique associé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "A.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les AINS sont à discuter, car ils induisent des risques mal documentés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Note :</i> les curares, à l'exception de la succinylcholine, n'ont pas d'effet sur la circulation cérébrale et la pression intracrânienne.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Vasospasme — aspects cliniques et diagnostic",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Le vasospasme est une réduction réversible de la lumière d'une artère de l'espace sous-arachnoïdien, débutant le plus souvent entre J4 et J14, identifiable par angiographie dans 30 à 70 % des cas. Il peut aboutir à un « déficit neurologique ischémique retardé » (DNI, 17-40 % des HSA anévrysmales) : altération de conscience, céphalées croissantes, déficit focal (hémiparésie, aphasie), souvent avec fièvre, HTA, leucocytose et/ou hyponatrémie. Diagnostic clinique difficile chez les patients de grade élevé ou sous sédation ; peut évoluer vers l'infarctus cérébral.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La première étape du diagnostic par imagerie consiste à éliminer les autres causes d'aggravation neurologique (ischémie postopératoire, hydrocéphalie, resaignement, troubles hydroélectrolytiques, convulsions infracliniques) ; on réalisera un scanner de façon systématique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La réalisation quotidienne d'un Doppler transcrânien est recommandée. Seul le vasospasme de l'artère sylvienne peut être prédit avec une sensibilité et une spécificité suffisantes pour être validé en pratique clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La valeur seuil de 120 cm/s pour la vitesse moyenne du flux sanguin de l'artère cérébrale moyenne est celle retenue habituellement ; un rapport vitesse ACM/carotide interne extra-crânienne &gt; 3 traduit un vasospasme, &gt; 6 un vasospasme sévère.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un accroissement des vitesses supérieur à 50 cm/s par jour est un facteur prédictif de déficit neurologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de doute et pour pallier les limites du Doppler, l'IRM, le scanner de perfusion, ou toute imagerie évaluant le débit sanguin cérébral peuvent être utilisés, selon les possibilités locales.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Vasospasme — traitement",
+   "items": [
+    {
+     "t": "section",
+     "text": "Vasospasme — traitement préventif, curatif et endovasculaire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La prévention pharmacologique du vasospasme cérébral dans les suites d'une HSA est basée sur l'utilisation de nimodipine (nombre de sujets à traiter pour une bonne évolution neurologique supplémentaire : 7 à 13).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La nimodipine doit être administrée par voie orale à la dose de 360 mg/j pendant 21 jours (voie IV 1-2 mg/h selon le poids = alternative courante en France, à risque d'hypotension systémique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cette durée de 21 jours pourrait être abrégée à 15 jours.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'hypotension sous nimodipine IV doit impérativement être corrigée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le traitement hyperdynamique (« triple H therapy » : hypervolémie, hypertension, hémodilution) n'a démontré son efficacité dans aucune étude contrôlée randomisée ; la stratégie est réduite, dans la plupart des centres, au contrôle de la volémie associé à l'HTA, une fois l'anévrysme sécurisé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un objectif de PAM jusqu'à 100-120 mmHg peut être envisagé en l'absence d'infarctus constitué (l'HTA contrôlée doit être limitée en cas d'infarctus, pour réduire le risque de transformation hémorragique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le traitement hyperdynamique nécessite un monitorage continu approprié (mesure invasive de la PA et de la PVC au minimum) et un contrôle fréquent de la natrémie, de la glycémie et de la température.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'infusion intra-artérielle de vasodilatateur (papavérine, nimodipine diluée) et/ou l'angioplastie par ballonnet sont deux techniques endovasculaires utilisables pour le traitement du vasospasme (évaluation en cours, indications non généralisables).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "V.14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'efficacité du traitement endovasculaire du vasospasme est corrélée à la précocité de l'intervention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Contexte (non gradé dans le texte source) :</i> en dehors de la nimodipine, aucun médicament (nicardipine, tirilazad, magnésium) n'a une efficacité démontrée dans la prévention du vasospasme après HSA. <i>Complications de la « triple H therapy » :</i> œdème cérébral et HTIC, hémorragie cérébrale, œdème pulmonaire. <i>Complications du traitement endovasculaire du vasospasme :</i> rares et habituellement transitoires (perfusions trop rapides) ; rupture artérielle en cours de dilatation par ballonnet = complication majeure, généralement catastrophique mais rare.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Suivi, filière & traçabilité",
+   "items": [
+    {
+     "t": "section",
+     "text": "Stratégie de suivi du malade",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Marqueurs et monitorage :</b> la protéine S100b (LCS et sang périphérique) augmente proportionnellement à la sévérité de l'HSA et est corrélée au pronostic à six mois ; une élévation secondaire est prédictive d'un vasospasme. Le monitorage métabolique invasif (PO2/PCO2/pH tissulaires) contribue à déceler HTIC et ischémie — la microdialyse est prometteuse mais lourde et discontinue ; la spectroscopie proche infrarouge n'a pas fait la preuve de sa fiabilité.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "S.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La protéine S100b peut s'intégrer dans le monitorage multimodal des patients ayant une HSA d'origine anévrysmale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "S.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients en grade sévère d'HSA, un monitorage systématique de la PIC par une DVE ou, à défaut, par capteur intraparenchymateux, est recommandé ; la DVE est utilisée avec une contre-pression de 15 cmH2O.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "S.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pendant la phase aiguë, la réalisation d'un Doppler par jour est utile pour détecter l'apparition d'un vasospasme, principalement sur le territoire sylvien — même recommandation que V.2, répétée par la source dans cette section dédiée au suivi.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Filière de prise en charge de l'HSA",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "F.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une filière de prise en charge permettant l'hospitalisation dans le centre de référence dans les plus brefs délais doit être préalablement établie dans chaque région ; l'information des différents acteurs potentiels de la filière d'amont doit être assurée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "F.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le centre de référence doit traiter un nombre suffisant de patients souffrant d'HSA pour entretenir une filière interne efficace.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "F.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cette filière doit prendre en compte les particularités propres à chaque établissement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "F.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cela implique : en amont, un diagnostic précoce reposant sur la qualité de formation des médecins généralistes et urgentistes ; au cours de l'hospitalisation, le traitement précoce du sac anévrysmal dès que les conditions physiologiques le permettent.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Note :</i> le centre de référence doit assurer une prise en charge multidisciplinaire (neuroradiologue, neurochirurgien, neuroanesthésiste-réanimateur) et pouvoir réaliser rapidement bilan neuroradiologique, radiologie interventionnelle et intervention neurochirurgicale. L'accord du centre de référence doit être obtenu avant transfert par un échange téléphonique de senior à senior, sans exclure la transmission d'un dossier circonstancié. L'échange d'informations et la coopération avec les centres de rééducation sont importants pour la récupération à long terme.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Hémorragie sous-arachnoïdienne grave », conférence d'experts, texte court, 2004. Société française d'anesthésie et de réanimation (SFAR), en partenariat avec l'Association de neuroanesthésie-réanimation de langue française (ANARLF), la Société française de neurochirurgie et la Société française de neuroradiologie. Panel présidé par le Pr L. Beydon (Angers).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> conférence d'experts (et non recommandation GRADE), motivée par le faible niveau de preuve de la majorité des études disponibles. Grades A/B/D/E imprimés par le jury ; signification précise non définie dans ce texte court (voir disclosure, page 1) ; aucune occurrence de Grade C dans le corps du texte.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/hemorragie-sous-arachnoidienne-hsa-grave/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des recommandations graduées du corps du texte (diagnostic et prise en charge initiale, complications précoces, traitement de l'anévrysme, anesthésie et douleur, vasospasme, stratégie de suivi, filière de prise en charge), ainsi que les 4 tableaux de classification (WFNS, Hunt et Hess, échelle de Fisher, index bicaudé). Les listes de composition du panel d'experts et du groupe de lecture (noms et villes) ne sont pas reproduites.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des recommandations graduées du texte source, mais ne remplace pas le texte intégral (argumentaire scientifique complet, références bibliographiques) et n'est ni édité ni validé par la SFAR, l'ANARLF, la Société française de neurochirurgie ou la Société française de neuroradiologie. Conférence de 2004 : se référer également, en complément, aux recommandations et pratiques plus récentes sur la prise en charge de l'HSA anévrysmale et à un avis spécialisé (centre de référence neurovasculaire) en cas de doute.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

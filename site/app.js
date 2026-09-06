@@ -54,7 +54,8 @@ var RAW = {
   civd: JSON.parse(document.getElementById('content-civd').textContent),
   eclsa: JSON.parse(document.getElementById('content-eclsa').textContent),
   transport_intrahospitalier: JSON.parse(document.getElementById('content-transport_intrahospitalier').textContent),
-  transfusion_plasma: JSON.parse(document.getElementById('content-transfusion_plasma').textContent)
+  transfusion_plasma: JSON.parse(document.getElementById('content-transfusion_plasma').textContent),
+  sevrage_vm: JSON.parse(document.getElementById('content-sevrage_vm').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -110,7 +111,8 @@ var FICHE_HREF_MATCH = {
   civd: ['coagulations-intra-vasculaires-disseminees-civd-en-reanimation', '86-civdccons'],
   eclsa: ['indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires', '2_AFAR_Recommandations-sur-les-indications-de-lassistance-circulatoire'],
   transport_intrahospitalier: ['transport-intrahospitalier-des-patients-a-risque-vital', '2_AFAR_Transport-intrahospitalier-des-patients-a-risque-vital'],
-  transfusion_plasma: ['transfusion-de-plasma-therapeutique-produits-indications', '2_HAS_Texte-court-ransfusion-de-plasma-therapeutique']
+  transfusion_plasma: ['transfusion-de-plasma-therapeutique-produits-indications', '2_HAS_Texte-court-ransfusion-de-plasma-therapeutique'],
+  sevrage_vm: ['sevrage-de-la-ventilation-mecanique', '2_SFAR_Sevrage-de-la-ventilation-mecanique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -723,6 +725,18 @@ var DOC_META = {
     methodology: "Grades HAS/ANAES A/B/C + accord professionnel (pas de GRADE 1+/2+)",
     pages: 4,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Texte-court-ransfusion-de-plasma-therapeutique-Produits-indications.pdf"
+  },
+  sevrage_vm: {
+    key: 'sevrage_vm',
+    badge: 'PREUVE/FORCE',
+    title: "Sevrage de la ventilation mécanique",
+    short: "5 questions : quand débuter le sevrage (pré-requis généraux/respiratoires), prédiction du sevrage difficile (facteurs de risque, indice f/VT), conduite de l'épreuve de ventilation spontanée (pièce en T vs aide inspiratoire, durée, surveillance, conduite en cas d'échec), particularités selon le terrain (BPCO, cardiopathie, neurologique, chirurgical, pédiatrique), conduite à tenir en cas d'échec du sevrage (VNI, trachéotomie, domicile, limitation de soins) — avec l'organigramme complet de la procédure de sevrage.",
+    society: "SRLF, avec la SFAR, la SPLF et le GFRUP — Conférence de Consensus 2001",
+    version: "2001 (Réanimation 2001;10:697-8)",
+    validated: "Président du jury : C. Richard (Le Kremlin-Bicêtre)",
+    methodology: "Niveau de preuve a/b/c/d + niveau de recommandation 1/2/3 (Society of Critical Care Medicine Rating System 1997, pas de GRADE) — à l'exclusion du nouveau-né et du réveil d'anesthésie",
+    pages: 12,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Sevrage-de-la-ventilation-mecanique.pdf"
   }
 };
 

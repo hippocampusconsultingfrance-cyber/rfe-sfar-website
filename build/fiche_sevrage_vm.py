@@ -230,17 +230,18 @@ def _section_q1():
     story.append(Spacer(1, 2 * mm))
     story.append(reco_table([
         ("Critères généraux", "Absence de vasopresseur et d'inotrope, absence de "
-         "sédation, réponse cohérente aux ordres simples. Relèvent du bon sens clinique "
-         "mais n'ont pas fait l'objet de travaux spécifiques.", "[c, 3]"),
-        ("Critères respiratoires", "FiO2 ≤ 50 % et niveau de PEP ≤ 5 cmH2O. Le médecin "
-         "peut s'affranchir d'un ou plusieurs de ces critères (généraux ou respiratoires) "
-         "pour décider de l'épreuve de VS.", "[c, 3]"),
+         "sédation, réponse cohérente aux ordres simples <i>[3]</i>. Relèvent du bon sens "
+         "clinique mais n'ont pas fait l'objet de travaux spécifiques <i>[c, 3]</i>.", None),
+        ("Critères respiratoires", "FiO2 ≤ 50 % et niveau de PEP ≤ 5 cmH2O <i>[c, 3]</i>. "
+         "Le médecin peut s'affranchir d'un ou plusieurs de ces critères (généraux ou "
+         "respiratoires) pour décider de l'épreuve de VS <i>[3]</i>.", None),
         ("Mécanique ventilatoire", "Les paramètres et indices dérivés (pressions, "
          "résistance, compliance, commande ventilatoire) ne sont pas suffisamment "
-         "discriminants pour en recommander l'usage systématique. Le sevrage réussit dès "
-         "la première tentative chez environ deux tiers des patients sélectionnés sur les "
-         "critères ci-dessus ; le taux d'échec qui en découle est jugé acceptable au "
-         "regard des risques d'une VM prolongée inutilement.", "[c, 3]"),
+         "discriminants pour en recommander l'usage systématique <i>[c, 3]</i>. Le sevrage "
+         "réussit dès la première tentative chez environ deux tiers des patients "
+         "sélectionnés sur les critères ci-dessus <i>[b]</i> ; le taux d'échec qui en "
+         "découle est jugé acceptable au regard des risques d'une VM prolongée "
+         "inutilement <i>[3]</i>.", None),
     ], [32 * mm, PAGE_W - 2 * MARGIN - 32 * mm - 18 * mm - 20 * mm, 18 * mm]))
     return story
 
@@ -270,7 +271,7 @@ def _section_q2():
          "défavorable : facteur de risque probable <i>[c]</i>. Âges extrêmes : "
          "<b>non</b> retenus comme facteur de risque indépendant <i>[b]</i>.", None),
         ("Facteurs respiratoires", "Rapport fréquence respiratoire/volume courant (f/VT) "
-         "&gt; 105, mesuré 2 min après passage en VS sur pièce en T : détecterait "
+         "≥ 105, mesuré 2 min après passage en VS sur pièce en T : détecterait "
          "précocement les patients qui ne toléreront pas l'épreuve <i>[b, 2]</i>, mais "
          "intérêt discutable (valeur variable selon les études, mesure non standardisée, "
          "nécessite un spiromètre) — <b>non recommandé en routine</b> <i>[b, 3]</i>. "
@@ -376,7 +377,7 @@ def _section_q4():
          "bronchospasme : augmentent les chances de succès <i>[c, 3]</i> ; intérêt des "
          "corticoïdes systémiques non évalué. Critères pré-requis identiques à la "
          "population générale <i>[3]</i>. Épreuve de VS en AI ou pièce en T "
-         "<i>[a, 1]</i> ; seuil de mauvaise tolérance parfois abaissé à SpO2 &lt; 88 % "
+         "<i>[a, 1]</i> ; seuil de mauvaise tolérance parfois abaissé à SaO2 &lt; 88 % "
          "<i>[c, 3]</i> ; durée de 120 min privilégiée du fait du risque de sevrage "
          "difficile <i>[c, 3]</i>. En cas d'échec : reprise rapide de la VM en AI + PEP "
          "et bronchodilatateurs <i>[b, 2]</i>. VNI proposable en cas d'échec d'extubation "

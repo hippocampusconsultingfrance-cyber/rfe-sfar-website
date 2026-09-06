@@ -108,6 +108,8 @@ with open(os.path.join(BASE, "content_transport_intrahospitalier.json"), encodin
     content_transport_ih = f.read()
 with open(os.path.join(BASE, "content_transfusion_plasma.json"), encoding="utf-8") as f:
     content_transfusion_plasma = f.read()
+with open(os.path.join(BASE, "content_sevrage_vm.json"), encoding="utf-8") as f:
+    content_sevrage_vm = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -167,6 +169,7 @@ out = out.replace("__CONTENT_CIVD__", safe(content_civd))
 out = out.replace("__CONTENT_ECLSA__", safe(content_eclsa))
 out = out.replace("__CONTENT_TRANSPORT_INTRAHOSPITALIER__", safe(content_transport_ih))
 out = out.replace("__CONTENT_TRANSFUSION_PLASMA__", safe(content_transfusion_plasma))
+out = out.replace("__CONTENT_SEVRAGE_VM__", safe(content_sevrage_vm))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

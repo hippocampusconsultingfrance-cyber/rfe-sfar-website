@@ -57,7 +57,8 @@ var RAW = {
   transfusion_plasma: JSON.parse(document.getElementById('content-transfusion_plasma').textContent),
   sevrage_vm: JSON.parse(document.getElementById('content-sevrage_vm').textContent),
   asthme_aigu_grave: JSON.parse(document.getElementById('content-asthme_aigu_grave').textContent),
-  pancreatite: JSON.parse(document.getElementById('content-pancreatite').textContent)
+  pancreatite: JSON.parse(document.getElementById('content-pancreatite').textContent),
+  corticotherapie: JSON.parse(document.getElementById('content-corticotherapie').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -116,7 +117,8 @@ var FICHE_HREF_MATCH = {
   transfusion_plasma: ['transfusion-de-plasma-therapeutique-produits-indications', '2_HAS_Texte-court-ransfusion-de-plasma-therapeutique'],
   sevrage_vm: ['sevrage-de-la-ventilation-mecanique', '2_SFAR_Sevrage-de-la-ventilation-mecanique'],
   asthme_aigu_grave: ['prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-a-lexclusion-du-nourrisson', 'REANIMATION_Prise-en-charge-des-crises-dasthme-aigues-graves'],
-  pancreatite: ['pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques', 'wpdmdl=35411']
+  pancreatite: ['pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques', 'wpdmdl=35411'],
+  corticotherapie: ['corticotherapie-au-cours-du-choc-septique-et-du-sdra', '2_SFAR_Corticotherapie-au-cours-du-choc-septique-et-du-SDRA']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -765,6 +767,18 @@ var DOC_META = {
     methodology: "GRADE® (1+/1-/2+/2-) + avis d'experts + absence de recommandation — actualise les recommandations SFAR/CNGOF 2001",
     pages: 48,
     url: "https://sfar.org/download/pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques/?wpdmdl=35411"
+  },
+  corticotherapie: {
+    key: 'corticotherapie',
+    badge: 'PREUVE/FORCE',
+    title: "Corticothérapie : choc septique & SDRA",
+    short: "5 questions : manifestations du SDRA accessibles à la corticothérapie, conséquences surrénaliennes et vasculaires du choc septique (seuil de cortisolémie, place du test au Synacthène), bénéfices/risques attendus, indications et modalités dans le choc septique (hémisuccinate d'hydrocortisone 200-300 mg/j), indications et modalités dans le SDRA (méthylprednisolone 2 mg/kg/j à la phase fibro-proliférative). Les protocoles pratiques des Questions 4 et 5 ne portent aucune cotation dans le texte source (anomalie disclosée dans la fiche).",
+    society: "SFAR, avec la SPILF, la SPLF et le GFRUP — XXe Conférence de Consensus, labellisée ANAES",
+    version: "2000 (12 octobre 2000)",
+    validated: "Président du jury : F. Fourrier (Lille)",
+    methodology: "Niveau de preuve a/b/c/d + niveau de recommandation 1/2/3 (pas de GRADE) — niveau 3 et preuve d jamais utilisés dans le corps du texte ; protocoles pratiques des Questions 4-5 non cotés",
+    pages: 6,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Corticotherapie-au-cours-du-choc-septique-et-du-SDRA.pdf"
   }
 };
 

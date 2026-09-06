@@ -218,9 +218,10 @@ def _section_tableau1():
          "une crise grave ; enfant très jeune (&lt; 4 ans) et adolescents."),
         ("Facteurs liés aux faits récents (« syndrome de menace »)", "Augmentation de la fréquence "
          "et de la sévérité des crises, moindre sensibilité aux thérapeutiques usuelles, épisodes "
-         "intercritiques de moins en moins « asymptomatiques ». Chez l'enfant : crises déclenchées "
-         "par l'ingestion d'aliments ; troubles socio-psychologiques du patient ou de la cellule "
-         "familiale."),
+         "intercritiques de moins en moins « asymptomatiques ». Ces faits constituent un syndrome "
+         "de menace qui, reconnu à temps, permettrait d'éviter le passage à un AAG. Chez l'enfant : "
+         "crises déclenchées par l'ingestion d'aliments ; troubles socio-psychologiques du patient "
+         "ou de la cellule familiale."),
         ("Facteurs liés au caractère de la crise", "Crise ressentie par le malade comme inhabituelle "
          "par son évolution rapide et la présence de signes de gravité ; difficulté à parler, à "
          "tousser ; orthopnée ; agitation ; sueurs ; cyanose ; contraction permanente des "
@@ -308,10 +309,14 @@ def _section_q2_intro():
          "a", "1"),
         ("Aérosols doseurs + chambre d'inhalation — adulte", "Alternative intéressante à la "
          "nébulisation, sous réserve d'une utilisation adéquate du dispositif : 2 à 4 bouffées de "
-         "100 µg répétées toutes les 5-10 min si besoin.", "a", "2"),
-        ("Aérosols doseurs + chambre d'inhalation — enfant", "À proposer en première intention : "
-         "5 à 10 bouffées de 100 µg à renouveler, sous réserve d'une utilisation adéquate du "
-         "dispositif et de la coopération de l'enfant.", "a", "1"),
+         "100 µg répétées toutes les 5-10 min si besoin. La nécessité d'une aide pour tenir la "
+         "chambre chez les patients les plus graves est un obstacle éventuel à leur utilisation "
+         "(non coté).", "a", "2"),
+        ("Aérosols doseurs + chambre d'inhalation — enfant", "À proposer en première intention chez "
+         "l'enfant : 5 à 10 bouffées de 100 µg à renouveler.", "a", "1"),
+        ("Aérosols doseurs + chambre d'inhalation — enfant (conditions d'utilisation)",
+         "Une utilisation adéquate des dispositifs disponibles et la coopération de l'enfant sont "
+         "des conditions nécessaires à leur utilisation.", "c", None),
     ], [38 * mm, PAGE_W - 2 * MARGIN - 38 * mm - 15 * mm - 15 * mm, 15 * mm, 15 * mm]))
     return story
 
@@ -323,14 +328,17 @@ def _section_q2_tableau2():
         "réalisées, ne permettent pas de les recommander au cours de l'AAG (utilisation par le "
         "patient possiblement utile dans l'attente des secours médicalisés).<br/><br/>"
         "<b>Voie sous-cutanée :</b> place marginale dans la prise en charge des AAG par les équipes "
-        "médicalisées, mais pourrait être utile en médecine de ville dans l'attente des secours "
-        "<i>(3)</i>. Chez l'enfant : 10 µg/kg de terbutaline ; auto-médication par injection "
+        "médicalisées ; pourrait être utile en médecine de ville dans l'attente des secours "
+        "médicalisés, mais la possibilité pour le médecin généraliste d'utiliser des inhalations "
+        "d'aérosols-doseurs délivrées dans une chambre de mélange en limite l'intérêt <i>(3)</i>. "
+        "Chez l'enfant : 10 µg/kg de terbutaline ; auto-médication par injection "
         "sous-cutanée préconisée si le début de la crise est très rapide <i>(2-c)</i>.<br/><br/>"
         "<b>Perfusion intraveineuse :</b> place difficile à définir malgré une utilisation très "
-        "large en France, peu de données scientifiques la justifiant <i>(2)</i> — dans les cas "
+        "large en France, peu de données scientifiques justifiant cette attitude — dans les cas "
         "rapportés comme justifiant l'IV, l'inhalation n'avait été délivrée ni de façon optimale ni "
-        "à posologie adéquate. Débit continu au pousse-seringue, posologies croissantes débutant "
-        "vers 0,25-0,5 mg/h de salbutamol, sans utilité au-delà de 5 mg/h <i>(2-b)</i>. Chez "
+        "à posologie adéquate. Réalisée à débit continu à l'aide d'un pousse-seringue électrique "
+        "<i>(2)</i>. Posologies croissantes débutant vers 0,25-0,5 mg/h de salbutamol, sans "
+        "utilité au-delà de 5 mg/h <i>(2-b)</i>. Chez "
         "l'enfant : paliers de 0,2 µg/kg/min débutant à 0,5 µg/kg/min (0,1 µg/kg/min pour la "
         "terbutaline), sans utilité au-delà de 5 µg/kg/min <i>(3-c)</i>. Peu de données sur "
         "l'association IV + inhalée, mais la durée d'hospitalisation peut être écourtée par "
@@ -431,8 +439,10 @@ def _section_q3():
         ("Antibiothérapie — indication", "Antibiotiques réservés aux patients présentant une "
          "infection broncho-pulmonaire patente.", "b", "2"),
         ("Antibiothérapie — choix", "Bêta-lactamines préférentiellement utilisées hors allergie "
-         "vraie antérieurement connue ; évoquer un micro-organisme atypique (Mycoplasma "
-         "pneumoniae) chez l'enfant de plus de quatre ans.", "c", "1"),
+         "vraie antérieurement connue.", "c", "1"),
+        ("Antibiothérapie — cas particulier pédiatrique", "Évoquer la présence d'un "
+         "micro-organisme atypique (Mycoplasma pneumoniae) chez l'enfant âgé de plus de quatre ans "
+         "(non coté par le jury).", None, None),
         ("Kinésithérapie", "N'a pas démontré d'efficacité spécifique dans l'AAG.", "c", None),
         ("Mesures adjuvantes non systématiques", "Réhydratation non "
          "systématique (indiquée en cas de fièvre, sueurs abondantes, signes de déshydratation, "
@@ -549,8 +559,8 @@ def _section_sources():
         "(Bordeaux), Y. Castaing (Bordeaux), Ph. Gajdos (Garches), L. Holzapfel (Bourg-en-Bresse), "
         "F. Joye (Carcassonne), R. Robert (Poitiers). <b>Conseillers scientifiques :</b> F. Saulnier "
         "pour la partie Adulte (Lille), P. Hubert pour la partie Pédiatrie (Paris). <b>Liste des "
-        "experts</b> et <b>groupe de lecture</b> : voir texte intégral (27 experts et lecteurs "
-        "nommément cités dans la source).", S_SOURCE))
+        "experts</b> (14 noms) et <b>groupe de lecture</b> (17 noms, dont S. Leteurtre commun aux "
+        "deux listes) : voir texte intégral pour la liste complète.", S_SOURCE))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
         "<b>Document source :</b> Révision de la 3<sup>e</sup> Conférence de Consensus en "
@@ -571,7 +581,7 @@ def _section_sources():
         "(gravité immédiate et Tableau I, voie des bêta-2 mimétiques et Tableau II, autres "
         "thérapeutiques, indications d'hospitalisation, modalités de ventilation mécanique), ainsi "
         "que la conclusion du jury. Champ de la conférence : adulte et enfant, "
-        "<b>hors nouveau-né et hors nourrisson</b> (voir intro).", S_SOURCE))
+        "<b>à l'exclusion du nourrisson</b> (voir intro).", S_SOURCE))
     story.append(Spacer(1, 3 * mm))
     story.append(info_panel(P(
         "<b>Avertissement — document de 2002 (révision d'une conférence de 1988) :</b> cette fiche "
@@ -602,17 +612,18 @@ def _section_3():
     return _section_q2_tableau2()
 
 def _section_4():
-    return _section_q3() + [Spacer(1, 3 * mm)] + _section_q4()
+    return _section_q3()
 
 def _section_5():
-    return _section_q5() + [Spacer(1, 3 * mm)] + _section_conclusion() + [Spacer(1, 1 * mm)] + _section_sources()
+    return (_section_q4() + [Spacer(1, 3 * mm)] + _section_q5() + [Spacer(1, 3 * mm)] +
+            _section_conclusion() + [Spacer(1, 1 * mm)] + _section_sources())
 
 SECTIONS = [
     ("Introduction, champ, méthodologie & Q1 — Gravité (Tableau I)", _section_1),
     ("Q2 — Bêta-2 mimétiques : schéma thérapeutique", _section_2),
     ("Q2 — Bêta-2 mimétiques : Tableau II & voies", _section_3),
-    ("Q3-Q4 — Autres thérapeutiques & indications d'hospitalisation", _section_4),
-    ("Q5 — Ventilation mécanique, conclusion & sources", _section_5),
+    ("Q3 — Autres thérapeutiques à la phase initiale", _section_4),
+    ("Q4-Q5 — Hospitalisation, ventilation mécanique & sources", _section_5),
 ]
 
 def _make_doc(path=None):

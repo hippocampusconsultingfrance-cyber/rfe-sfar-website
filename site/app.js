@@ -55,7 +55,8 @@ var RAW = {
   eclsa: JSON.parse(document.getElementById('content-eclsa').textContent),
   transport_intrahospitalier: JSON.parse(document.getElementById('content-transport_intrahospitalier').textContent),
   transfusion_plasma: JSON.parse(document.getElementById('content-transfusion_plasma').textContent),
-  sevrage_vm: JSON.parse(document.getElementById('content-sevrage_vm').textContent)
+  sevrage_vm: JSON.parse(document.getElementById('content-sevrage_vm').textContent),
+  asthme_aigu_grave: JSON.parse(document.getElementById('content-asthme_aigu_grave').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -112,7 +113,8 @@ var FICHE_HREF_MATCH = {
   eclsa: ['indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires', '2_AFAR_Recommandations-sur-les-indications-de-lassistance-circulatoire'],
   transport_intrahospitalier: ['transport-intrahospitalier-des-patients-a-risque-vital', '2_AFAR_Transport-intrahospitalier-des-patients-a-risque-vital'],
   transfusion_plasma: ['transfusion-de-plasma-therapeutique-produits-indications', '2_HAS_Texte-court-ransfusion-de-plasma-therapeutique'],
-  sevrage_vm: ['sevrage-de-la-ventilation-mecanique', '2_SFAR_Sevrage-de-la-ventilation-mecanique']
+  sevrage_vm: ['sevrage-de-la-ventilation-mecanique', '2_SFAR_Sevrage-de-la-ventilation-mecanique'],
+  asthme_aigu_grave: ['prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-a-lexclusion-du-nourrisson', 'REANIMATION_Prise-en-charge-des-crises-dasthme-aigues-graves']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -737,6 +739,18 @@ var DOC_META = {
     methodology: "Niveau de preuve a/b/c/d + niveau de recommandation 1/2/3 (Society of Critical Care Medicine Rating System 1997, pas de GRADE) — à l'exclusion du nouveau-né et du réveil d'anesthésie",
     pages: 12,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Sevrage-de-la-ventilation-mecanique.pdf"
+  },
+  asthme_aigu_grave: {
+    key: 'asthme_aigu_grave',
+    badge: 'PREUVE/FORCE',
+    title: "Crises d'asthme aiguës graves",
+    short: "5 questions : prédiction de la gravité immédiate (Tableau I des critères de gravité), voie et schéma des bêta-2 mimétiques (nébulisation, aérosols-doseurs, voie SC, perfusion IV — Tableau II des molécules disponibles), place des autres thérapeutiques (oxygène, corticoïdes, anticholinergiques, adrénaline, aminophylline, sulfate de magnésium, hélium-oxygène, antibiothérapie), indications et modalités de l'hospitalisation (critères DEP adulte/enfant), modalités de la ventilation mécanique (intubation, réglages, sédation-curarisation, sevrage) — adulte et enfant, à l'exclusion du nourrisson.",
+    society: "SRLF — Révision de la 3ᵉ Conférence de Consensus de 1988",
+    version: "2002 (Réanimation 2002;11:1-9)",
+    validated: "Coordinateur : E. L'Her (Brest)",
+    methodology: "Niveau de preuve a/b/c/d + niveau de recommandation 1/2/3 (grille SRLF, pas de GRADE) — à l'exclusion du nourrisson",
+    pages: 9,
+    url: "https://sfar.org/wp-content/uploads/2015/10/REANIMATION_Prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-.pdf"
   }
 };
 

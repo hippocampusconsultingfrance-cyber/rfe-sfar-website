@@ -52,7 +52,8 @@ var RAW = {
   controle_temperature: JSON.parse(document.getElementById('content-controle_temperature').textContent),
   tih: JSON.parse(document.getElementById('content-tih').textContent),
   civd: JSON.parse(document.getElementById('content-civd').textContent),
-  eclsa: JSON.parse(document.getElementById('content-eclsa').textContent)
+  eclsa: JSON.parse(document.getElementById('content-eclsa').textContent),
+  transport_intrahospitalier: JSON.parse(document.getElementById('content-transport_intrahospitalier').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -106,7 +107,8 @@ var FICHE_HREF_MATCH = {
   controle_temperature: ['controle-cible-de-la-temperature-en-reanimation', 'rfe-controle-cible-de-la-temperature-en-reanimation'],
   tih: ['diagnostic-et-prise-en-charge-dune-thrombopenie-induite-par-lheparine', 'propositions-tih-gihp-gfht-sfar'],
   civd: ['coagulations-intra-vasculaires-disseminees-civd-en-reanimation', '86-civdccons'],
-  eclsa: ['indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires', '2_AFAR_Recommandations-sur-les-indications-de-lassistance-circulatoire']
+  eclsa: ['indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires', '2_AFAR_Recommandations-sur-les-indications-de-lassistance-circulatoire'],
+  transport_intrahospitalier: ['transport-intrahospitalier-des-patients-a-risque-vital', '2_AFAR_Transport-intrahospitalier-des-patients-a-risque-vital']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -695,6 +697,18 @@ var DOC_META = {
     methodology: "Prose continue, sans GRADE ni R1/R2 — niveau 5 (avis d'experts) global",
     pages: 5,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Recommandations-sur-les-indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires.pdf"
+  },
+  transport_intrahospitalier: {
+    key: 'transport_intrahospitalier',
+    badge: 'ACCORD',
+    title: "Transport intrahospitalier des patients à risque vital",
+    short: "5 champs, 99 propositions (toutes à accord fort, pas de grade GRADE) : épidémiologie des événements indésirables (EI/EIG/EPR), matériels/monitorage/maintenance (ventilateurs de transport, dispositifs cardiaques, spécificités pédiatriques), préparation du malade avant transport, ressources humaines et formation des soignants, organisation/architecture/traçabilité.",
+    society: "SRLF, SFAR, SFMU — Recommandations Formalisées d'Experts 2011",
+    version: "2011 (Ann Fr Anesth Reanim 2011;30:952-956)",
+    validated: "Présidents du comité d'organisation : J.-P. Quenot, C. Milesi, A. Cravoisy",
+    methodology: "Accord fort (RAND/UCLA à deux tours, pas de grade GRADE)",
+    pages: 5,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_Transport-intrahospitalier-des-patients-a-risque-vital.pdf"
   }
 };
 

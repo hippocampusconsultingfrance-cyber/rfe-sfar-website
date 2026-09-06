@@ -224,8 +224,14 @@ def _section_champ2():
          "mêmes paramètres de ventilation, y compris les modes non invasifs."),
         ("14", "Tout patient ventilé lors d'un TIH doit pouvoir être repris à tout moment, en "
          "ventilation au ballon sur sa prothèse endotrachéale ou au masque."),
-        ("15", "Les performances réelles du ventilateur de transport (basique/secours ; "
-         "intermédiaire ; haute performance) doivent être connues de l'utilisateur."),
+        ("15", "Les performances réelles du ventilateur de transport doivent être connues de "
+         "l'utilisateur, selon trois catégories : <b>basique/secours</b> (mode VC, PEP, "
+         "monitorage réduit) ; <b>intermédiaire</b> (mode VAC, PEP, réglage du débit ou de "
+         "l'I/E, spirométrie expiratoire, réglage FiO2 100 %/mélange air-oxygène) ; <b>haute "
+         "performance</b> (modes volumétriques/barométriques dont VS-AI-PEP, large plage de "
+         "réglage de la FiO2, réglage du débit d'insufflation, triggers performants, "
+         "spirométrie expiratoire, au mieux compensation de la compliance du circuit, mode "
+         "VNI)."),
         ("16", "La performance, le monitorage et les alarmes du ventilateur doivent être adaptés "
          "à la pathologie : patient très hypoxémique (ex. SDRA) → haute performance ; contrôle "
          "strict de la PaCO2 ou modes assistés → intermédiaire/haute performance ; patient en "

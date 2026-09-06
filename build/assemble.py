@@ -116,6 +116,8 @@ with open(os.path.join(BASE, "content_pancreatite.json"), encoding="utf-8") as f
     content_pancreatite = f.read()
 with open(os.path.join(BASE, "content_corticotherapie.json"), encoding="utf-8") as f:
     content_corticotherapie = f.read()
+with open(os.path.join(BASE, "content_antibiotherapie_probabiliste.json"), encoding="utf-8") as f:
+    content_antibiotherapie_probabiliste = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -179,6 +181,7 @@ out = out.replace("__CONTENT_SEVRAGE_VM__", safe(content_sevrage_vm))
 out = out.replace("__CONTENT_ASTHME_AIGU_GRAVE__", safe(content_asthme_aigu_grave))
 out = out.replace("__CONTENT_PANCREATITE__", safe(content_pancreatite))
 out = out.replace("__CONTENT_CORTICOTHERAPIE__", safe(content_corticotherapie))
+out = out.replace("__CONTENT_ANTIBIOTHERAPIE_PROBABILISTE__", safe(content_antibiotherapie_probabiliste))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

@@ -58,7 +58,8 @@ var RAW = {
   sevrage_vm: JSON.parse(document.getElementById('content-sevrage_vm').textContent),
   asthme_aigu_grave: JSON.parse(document.getElementById('content-asthme_aigu_grave').textContent),
   pancreatite: JSON.parse(document.getElementById('content-pancreatite').textContent),
-  corticotherapie: JSON.parse(document.getElementById('content-corticotherapie').textContent)
+  corticotherapie: JSON.parse(document.getElementById('content-corticotherapie').textContent),
+  antibiotherapie_probabiliste: JSON.parse(document.getElementById('content-antibiotherapie_probabiliste').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -118,7 +119,8 @@ var FICHE_HREF_MATCH = {
   sevrage_vm: ['sevrage-de-la-ventilation-mecanique', '2_SFAR_Sevrage-de-la-ventilation-mecanique'],
   asthme_aigu_grave: ['prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-a-lexclusion-du-nourrisson', 'REANIMATION_Prise-en-charge-des-crises-dasthme-aigues-graves'],
   pancreatite: ['pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques', 'wpdmdl=35411'],
-  corticotherapie: ['corticotherapie-au-cours-du-choc-septique-et-du-sdra', '2_SFAR_Corticotherapie-au-cours-du-choc-septique-et-du-SDRA']
+  corticotherapie: ['corticotherapie-au-cours-du-choc-septique-et-du-sdra', '2_SFAR_Corticotherapie-au-cours-du-choc-septique-et-du-SDRA'],
+  antibiotherapie_probabiliste: ['antibiotherapie-probabiliste-des-etats-septiques-graves', '2_AFAR_Antibiotherapie-probabiliste-des-etats-septiques-graves']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -779,6 +781,18 @@ var DOC_META = {
     methodology: "Niveau de preuve a/b/c/d + niveau de recommandation 1/2/3 (pas de GRADE) — niveau 3 et preuve d jamais utilisés dans le corps du texte ; protocoles pratiques des Questions 4-5 non cotés",
     pages: 6,
     url: "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Corticotherapie-au-cours-du-choc-septique-et-du-SDRA.pdf"
+  },
+  antibiotherapie_probabiliste: {
+    key: 'antibiotherapie_probabiliste',
+    badge: 'PROPOSITIONS',
+    title: "Antibiothérapie probabiliste des états septiques graves",
+    short: "12 sites infectieux (4.1-4.12) avec propositions d'antibiothérapie probabiliste par situation clinique : méningites communautaires/nosocomiales, pneumopathies communautaires/PAVM, infections urinaires, infections intra-abdominales (péritonites, pancréatites, angiocholites), infections cutanées/tissus mous (DHBN-FN), endocardites, infection sur cathéter, sepsis sans porte d'entrée. Plus généralités immunodéprimé/pédiatrie, réévaluation impérative à J2-J3 et J10, et tableau des posologies de première injection (24 antibiotiques). Aucune proposition individuelle n'est cotée par un niveau de preuve (disclosure dans la fiche).",
+    society: "SFAR, avec la Société de réanimation de langue française, la Société de pathologie infectieuse de langue française, la Société de microbiologie, la Médecine militaire, la SFMU et la Société française de pédiatrie",
+    version: "2004 (Conférence d'experts, texte court)",
+    validated: "Coordonnateur : B. Veber (Rouen)",
+    methodology: "Conférence d'experts — tableau général des niveaux de preuve I à V, non rattaché explicitement à une proposition individuelle du corps du texte",
+    pages: 7,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Antibiotherapie-probabiliste-des-etats-septiques-graves.pdf"
   }
 };
 

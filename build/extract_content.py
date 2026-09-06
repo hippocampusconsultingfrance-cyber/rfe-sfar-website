@@ -1103,6 +1103,29 @@ def extract_corticotherapie():
     return {"doc": "corticotherapie", "sections": blocks}
 
 
+def extract_antibiotherapie_probabiliste():
+    import style
+    import fiche_antibiotherapie_probabiliste as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "antibiotherapie_probabiliste", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -1649,3 +1672,12 @@ if __name__ == "__main__":
         json.dump(corticotherapie, f, ensure_ascii=False, indent=1)
     print("corticotherapie sections:", len(corticotherapie["sections"]),
           "total blocks:", sum(len(s["items"]) for s in corticotherapie["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie"):
+            del sys.modules[mn]
+    antibiotherapie_probabiliste = extract_antibiotherapie_probabiliste()
+    with open(os.path.join(BUILD_DIR, "content_antibiotherapie_probabiliste.json"), "w") as f:
+        json.dump(antibiotherapie_probabiliste, f, ensure_ascii=False, indent=1)
+    print("antibiotherapie_probabiliste sections:", len(antibiotherapie_probabiliste["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in antibiotherapie_probabiliste["sections"]))

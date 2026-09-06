@@ -1,0 +1,733 @@
+
+
+===== PAGE 1 =====
+
+RÉFÉRENTIELS CONFÉRENCE D’EXPERTS – TEXTE COURT 2004
+Antibiothérapie probabiliste des états septiques
+graves
+Société française d’anesthésie et de réanimation 1
+74, rue Raynouard, 75016 Paris, France
+Disponible sur internet le 11 septembre 2004
+EXPERTS
+Benoît Veber (Rouen) Coordonnateur, Claude Martin
+(Marseille), Philippe Montravers (Amiens), Alain Lepape
+(Lyon), Rémy Gauzit (Bondy), Jean-Claude Granry (Angers),
+Laurent Dube (Angers), Jean-Louis Pourriat (Paris), Jean-
+Pierre Bedos (Versailles), Jean-Pierre Sollet (Argenteuil),
+Michel Wolf (Paris), François Caron (Rouen), Olivier Lor-
+thalary (Bobigny), Violaine Noel (Auxerre), Jean-Luc Mai-
+nardi (Paris), Jean-Marie Saïssy (Saint-Mandé), Gilles Potel
+(Nantes), Emmanuel Grimpel (Paris).
+La méthodologie utilisée est celle des conférences d’ex-
+perts associant une recherche bibliographique puis un travail
+de synthèse, réalisée par un groupe d’experts, sur un thème
+ou une question précise. Ce travail est ensuite soumis pour
+validation à l’ensemble des experts lors de séances pléniè-
+res. Ce travail de synthèse a été réalisé sur une période de
+deux ans, de 2001 à 2003.
+Les niveaux de preuve sur lesquels se sont appuyés les
+experts sont présentés dans le tableau suivant :
+Tableau 1
+Niveaux de preuve en médecine factuelle
+Niveau I
+Études aléatoires avec un faible risque de faux positifs (α) et
+de faux négatifs () (puissance élevée : ( = 5 à 10 %)
+Niveau II
+Risque α élevé, ou faible puissance
+Niveau III
+Études non aléatoires. Sujets « contrôlés » contemporains
+Niveau IV
+Études non aléatoires. Sujets « contrôlés » non contempo-
+rains
+Niveau V
+Études de cas. Avis d’experts.
+1. INTRODUCTION
+L’antibiothérapie dite « probabiliste » correspond à une
+prescription d’antibiotique(s) réalisée avant que ne soient
+connues la nature et/ou la sensibilité du ou des microorga-
+nismes responsables de l’infection. Elle doit alors correspon-
+dre au traitement admis pour être régulièrement efficace
+dans la situation en cause. Il ne s’agit pas d’une antibiothéra-
+pie « à l’aveugle » mais au contraire d’une prescription
+raisonnée prenant en considération tous les éléments dispo-
+nibles pour effectuer le meilleur choix possible.
+L’hypothèse microbiologique est facilitée par les données
+épidémiologiques pour les infections communautaires, trai-
+tées à l’hôpital du fait de leur gravité. À l’opposé, la grande
+diversité des pathogènes potentiellement responsables des
+infections nosocomiales et leur grande variabilité de sensibi-
+lité aux antibiotiques, imposent une documentation la plus
+exhaustive possible de l’agent causal, avant tout traitement
+d’une infection survenant à l’hôpital. Ainsi, la connaissance
+de l’épidémiologie de la résistance des bactéries aux antibio-
+tiques et son évolution dans le temps en fonction de la
+progression ou de l’apparition des mécanismes de résis-
+tance, est une étape indispensable pour établir des proposi-
+tions d’antibiothérapie probabilistes des sepsis sévères.
+L’examen microscopique à l’état frais et après coloration
+de routine (Gram, May-Grünwald-Giemsa, Ziehl,...) permet
+de caractériser la morphologie des bactéries, de diagnosti-
+quer une infection dans un grand nombre de circonstances
+et donne ainsi rapidement au clinicien des premiers résultats
+importants pour la prise en charge diagnostique du patient.
+Cependant, cet examen direct, dont les résultats sont im-
+portants pour le choix de l’antibiothérapie initiale, doit
+toujours être confronté secondairement aux résultats des
+cultures.
+La prescription d’une antibiothérapie probabiliste répond
+aux règles de bonnes pratiques de toute antibiothérapie. La
+prise en compte notamment des paramètres pharmacociné-
+tiques et pharmacodynamiques des différentes classes d’anti-
+biotiques prescrites est indispensable pour permettre
+d’obtenir un traitement optimisé. Ainsi l’efficacité temps-
+dépendante des bêtalactamines plaide pour leurs administra-
+tions répétées, pouvant dans certains cas aboutir à justiﬁer
+une perfusion continue. À l’opposé, les aminosides, dont
+URL : www.sfar.org (Sfar)
+1 En collaboration avec la Société de réanimation de langue française,
+Société de pathologie infectieuse de langue française, Société de microbio-
+logie, Médecine militaire, Société de médecine d’urgence, Société française
+de pédiatrie.
+Annales Françaises d’Anesthésie et de Réanimation 23 (2004) 1020–1026
+0750-7658/$ - see front matter © 2004 Publié par Elsevier SAS.
+doi:10.1016/S0750-7658(04)00339-9
+
+
+===== PAGE 2 =====
+
+l’efficacité est concentration-dépendante, justiﬁent plutôt
+d’une modalité d’administration permettant l’obtention d’un
+pic élevé, autorisant un schéma d’administration privilégiant
+une pleine dose unique quotidienne, dans la majorité des
+situations.
+L’adéquation de l’antibiothérapie probabiliste initiale vis-
+à-vis du ou des germes responsables de l’infection a démon-
+tré son impact sur l’amélioration du pronostic vital des
+patients en sepsis grave, notamment en cas de bactériémies,
+de péritonites et de pneumopathies. Dans cette dernière
+pathologie, la précocité du traitement antibiotique a démon-
+tré un impact favorable sur le pronostic.
+Ainsi, une fois la décision de traitement prise en fonction
+de la gravité éventuelle et du type d’infection suspectée, il est
+nécessaire d’effectuer une synthèse des différents éléments
+décisionnels constitués par le pari microbiologique en fonc-
+tion du site infecté, par le terrain et par le caractère noso-
+comial ou communautaire de l’infection. La connaissance de
+l’écologie bactérienne de l’unité où l’on travaille, de la ﬂore
+colonisante du patient et des données fournies par l’examen
+direct des prélèvements bactériologiques s’intègrent dans
+cette évaluation. Leur synthèse va permettre la prescription
+raisonnée de l’antibiothérapie probabiliste.
+2. SPÉCIFICITÉ CHEZ L’IMMUNODÉPRIMÉ
+La prise en charge des infections chez l’immunodéprimé a
+été individualisée, en raison de leur fréquence chez ces
+patients, de leur lourde mortalité en cas de retard thérapeu-
+tique, de la difficulté d’obtenir un diagnostic microbiologique
+et des données pharmacocinétiques particulières concer-
+nant l’antibiothérapie, notamment chez les neutropéniques.
+Les indications à une antibiothérapie urgente au cours
+des différents types de déﬁcits immunitaires, concernent
+essentiellement les sepsis sévères survenant chez le sujet
+neutropénique ou splénectomisé. Dans ces deux situations,
+le pronostic vital peut être mis immédiatement en jeu en cas
+de retard à la mise en route d’une antibiothérapie probabi-
+liste lors d’un épisode hyperthermique d’étiologie bacté-
+rienne.
+Au cours des autres types de déﬁcits immunitaires et
+notamment des déﬁcits de l’immunité cellulaire, les agents
+infectieux sont multiples et responsables de tableaux clini-
+ques variés. Les causes de ﬁèvre chez ces patients ne sont
+pas toujours d’origine infectieuse.
+3. SPÉCIFICITÉ PÉDIATRIQUE
+L’évolution d’un processus infectieux sévère est souvent
+plus rapide que chez l’adulte, avec le risque d’apparition
+souvent précoce d’une insuffisance circulatoire. L’adminis-
+tration urgente d’une antibiothérapie probabiliste est dans
+ce contexte essentiel. Cette prescription doit tenir compte
+de la variation des paramètres pharmacocinétiques en fonc-
+tion de l’âge. Avant six mois, le volume de distribution est
+augmenté et la demi-vie allongée. De 6 à 12 mois, ces valeurs
+s’abaissent, puis de cinq à six ans, les caractéristiques sont
+proches de celles de l’adulte jeune. Les posologies, rappor-
+tées au poids sont proportionnellement plus élevées que
+chez l’adulte. Cependant chez le grand enfant et l’obèse, les
+posologies utilisées chez l’adulte ne doivent pas être dépas-
+sées. Une association d’antibiotiques peut être justiﬁée dans
+les sepsis sévères. L’adjonction d’un aminoside est, dans ce
+contexte, le choix le plus fréquent. Néanmoins, la sensibilité
+de l’enfant à l’ototoxicité et la néphrotoxicité induites par
+ces antibiotiques, doit rendre cette prescription prudente et
+réﬂéchie. Le risque toxique sur le cartilage de conjugaison,
+provoqué par les ﬂuoroquinolones, les contre-indique pen-
+dant la croissance.
+4. QUELLE ANTIBIOTHÉRAPIE PROBABILISTE ?
+4.1. Lors des méningites communautaires
+Les signes de gravité d’une méningite bactérienne impo-
+sant l’hospitalisation en réanimation sont la présence d’un
+état de choc (Purpura fulminans), de signes de localisation ou
+de troubles graves de la conscience (Score de Glasgow < 8).
+En cas de P. fulminans un traitement par céfotaxime ou
+ceftriaxone est instauré le plus précocement possible dès la
+prise en charge, avant même la ponction lombaire. En cas de
+méningite avec signes de localisation le traitement antibioti-
+que, associant céphalosporine de 3e génération (C3G) (céfo-
+taxime ou ceftriaxone) et vancomycine, est débuté avant la
+TDM cérébrale qui précède la ponction lombaire. En cas de
+méningite comateuse la ponction lombaire est réalisée avant
+l’antibiothérapie. L’examen direct du liquide céphalorachi-
+dien doit être pris en compte pour le choix de l’antibiothé-
+rapie probabiliste.
+Proposition d’antibiothérapie probabiliste
+• Pupura fulminans = C3G (céfotaxime ou céftriaxone) i.v.
+immédiat
+• Méningite avec signes neurologiques de localisation :
+C C3G + vancomycine ;
+C puis TDM cérébral et PL.
+• Importance de l’examen direct du LCR
+C Cg + (pneumo) ⇒C3G + vancomycine (40 à
+60 mg/kg/jour) ;
+C Cg – (méningo) ⇒C3G ou amoxicilline ;
+C Bg + (listéria) ⇒amoxicilline (200mg/kg/jour) + genta-
+micine (3 à 5 mg/kg/jour) ;
+C Bg – (Haemophilus. Inﬂuenzae) ⇒C3G (céfotaxime
+200 à 300mg/kg/jour).
+• Si examen direct négatif, l’antibiothérapie est fonction de
+la cellularité et et de la biochimie du LCR :
+C liquide trouble (PNN), glycorachie basse ⇒C3G +
+vancomycine ;
+C LCR clair lymphocytaire, glycorachie basse ⇒amoxi-
+cilline + gentamicine + antibiothérapie antitubercu-
+leuse ;
+C LCR lymphocytaire, glycorachie normale ⇒aciclovir.
+1021
+Sfar / Annales Françaises d’Anesthésie et de Réanimation 23 (2004) 1020–1026
+
+
+===== PAGE 3 =====
+
+4.2. Lors des méningites nosocomiales et abcès
+cérébraux postopératoires
+Les infections méningées iatrogéniques ou traumatiques
+sont des pathologies graves dont la fréquence est en cons-
+tante augmentation. Elles sont en général consécutives à une
+intervention neurochirurgicale, à un traumatisme touchant
+le système nerveux central, à la mise en place d’une dériva-
+tion du liquide céphalorachidien et plus exceptionnellement
+à une anesthésie péridurale ou une ponction lombaire. Le
+diagnostic clinique et biologique est souvent difficile en
+raison de la faible spéciﬁcité des signes évocateurs. La docu-
+mentation bactériologique par culture du LCR est indispen-
+sable dans ce contexte nosocomial. Du point de vue micro-
+biologique,
+les
+staphylocoques
+(dont
+Staphylococcus
+epidermidis) et les bacilles à Gram négatif (dont les entéro-
+bactéries et Pseudomonas aeruginosa) sont le plus souvent
+rencontrés dans les méningites iatrogènes.
+Le pneumocoque est en première ligne des méningites
+post-traumatiques.
+Proposition d’antibiothérapie probabiliste
+• Méningites postopératoires
+C L’examen bactériologique du LCR doit être systémati-
+que avant toute antibiothérapie ;
+C Céfotaxime + Fosfomycine en première intention. Mais
+aussi en fonction de la bactérie suspectée : céftazidime,
+imipénème, ﬂuoroquinolones ou vancomycine.
+• Méningites post-traumatiques : amoxicilline.
+4.3. Lors de pneumopathies communautaires
+La conférence de consensus sur les pneumopathies com-
+munautaires permet de recommander le schéma thérapeu-
+tique suivant :
+• Association d’antibiotiques administrées par voie intra-
+veineuse :
+C amoxicilline–acide clavulanique (2 g/8 heures) ou céfo-
+taxime (2 g/8 heures) ou céftriaxone (2 g/jour) +
+érythromycine (1 g/8 heures) ou oﬂoxacine (200 × 2)
+ou lévoﬂoxacine (500 × 2) ;
+• En cas d’allergie prouvée à la famille des pénicillines et aux
+C3G : glycopeptide + oﬂoxacine ;
+• Risque de P. aeruginosa (AtbTT fréquente, DDB, cortico-
+thérapie au long court) : bêtalactamine antipseudomonas
++ ciproﬂoxacine (400 mg/8 heures).
+4.4. Lors de pneumopathies nosocomiales
+Une antibiothérapie précoce adéquate diminue la morta-
+lité des pneumonies acquises sous ventilation mécanique. Le
+début du traitement antibiotique probabiliste doit se faire
+rapidement, des prélèvements bactériologiques ﬁables ayant
+été réalisés pour adaptation antibiotique ultérieure indispen-
+sable. Les schémas antibiotiques doivent intégrer l’écologie
+microbienne locale, le proﬁl de sensibilité des principales
+bactéries nosocomiales d’un service de réanimation, le type
+de recrutement de patients propres à chaque service de
+réanimation, la notion d’épidémie à une bactérie particulière
+avec un proﬁl de sensibilité spéciﬁque et la notion de colo-
+nisation ou d’infection antérieure du patient à des bactéries
+multirésistantes (BMR) ou non. La connaissance de la durée
+d’hospitalisation antérieure, de la durée de ventilation méca-
+nique avant la pneumonie nosocomiale, des antibiothérapies
+antérieures avant la réanimation doit être pris en compte.
+Devant une pneumonie nosocomiale tardive sévère, l’an-
+tibiothérapie probabiliste doit être à « large spectre » pour
+ne pas faire « d’impasses microbiologiques », tout en tenant
+compte de la présence ou non de facteurs de risque de BMR
+pour orienter le choix des antibiotiques.
+Ainsi, deux situations peuvent être schématisées :
+• pneumopathie précoce acquise sous ventilation mécani-
+que < 7 jours de ventilation, sans antibiothérapie, ni
+hospitalisation dans un service à risque : le traitement
+repose alors sur une bêtalactamine sans activité anti-P.
+aeruginosa en monothérapie ;
+• pneumopathie tardive acquise sous ventilation mécani-
+que ≥7 jours de ventilation mécanique ou pneumopathie
+précoce mais avec antibiothérapie ou hospitalisation an-
+térieure dans un service à risque : Le traitement com-
+porte un bêtalactamine à activité anti-P. aeruginosa associé
+à un aminoside ou à la ciproﬂoxacine selon les risques
+d’effets secondaires. La vancomycine ne sera associée que
+s’il existe des facteurs de risque d’isolement de SDMR.
+Les résultats de la culture avec antibiogrammes de prélè-
+vements ﬁables permettront une « désescalade thérapeu-
+tique » secondaire indispensable.
+Proposition d’antibiothérapie pour les pneumo-
+pathies nosocomiales acquises sous ventilation arti-
+ﬁcielle (PAV)
+• PAV précoce < 7 jours, sans antibiothérapie préalable :
+céfotaxime ou céftriaxone ou amoxicilline–acide clavula-
+nique
+• PAV tardive > 7 jours, ou PAV précoce mais avec antibio-
+thérapie préalable ou hospitalisation antérieure dans un
+service à risque :
+C bêtalactamine anti-P. aeruginosa + amikacine ou cipro-
+ﬂoxacine ;
+C en association avec la vancomycine si facteurs de risque
+de SDMR.
+C Prise en compte de legionella si facteurs de risque et/ou
+antigènes urinaires positifs ;
+• Retour à l’antibiothérapie la plus simple efficace, dès que
+possible. Cette stratégie nécessite des :
+C des prélèvements ﬁables et réalisés avant tout traite-
+ment ;
+C la réalisation d’un antibiogramme quand la culture est
+positive.
+1022
+Sfar / Annales Françaises d’Anesthésie et de Réanimation 23 (2004) 1020–1026
+
+
+===== PAGE 4 =====
+
+4.5. Lors des infections urinaires communautaires
+et nosocomiales
+Les infections urinaires (IU) parenchymateuses (pyélo-
+néphrites et prostates) peuvent être responsables d’un syn-
+drome septique grave, dans lequel les signes urinaires sont
+très rarement au premier plan. Le diagnostic repose sur
+l’ECBU, les hémocultures (15 à 20 % sont positives) et
+l’imagerie (échographie et tomodensitométrie). Les entéro-
+bactéries (Escherichia coli +++) sont de très loin les bactéries
+le plus souvent isolées dans les urines. Les cocci à Gram-
+positif sont retrouvés essentiellement après 50 ans et dans
+les IU nosocomiales. Le caractère nosocomial et/ou les
+traitements antibiotiques antérieurs augmentent le risque
+de survenue d’une bactérie résistante notamment : Pseudo-
+monas sp, Enterobacter sp, Serratia sp, Citrobacter sp, cocci à
+Gram négatif et Candida sp.
+Le traitement des IU avec atteinte parenchymateuse né-
+cessite une bonne pénétration tissulaire et une élimination
+urinaire sous forme active. Au regard de l’évolution de la
+résistance d’E. coli et de l’arsenal thérapeutique, le choix de
+l’antibiothérapie des pyélonéphrites communautaires re-
+pose sur les ﬂuoroquinolones (oﬂoxacine ou ciproﬂoxacine)
+et sur les C3G (céfotaxime ou ceftriaxone). Une bithérapie
+est nécessaire dans les formes graves avec retentissement
+hémodynamique. Pendant la grossesse, les ﬂuoroquinolones
+sont contre-indiquées et l’association amoxicilline–gentami-
+cine au netilmicine peut être une alternative, surtout si un
+entérocoque est suspecté (importance de l’examen direct
+de l’ECBU).
+En cas d’infection nosocomiale, et en particulier dans les
+suites d’une intervention urologique, le choix d’une antibio-
+thérapie doit être discuté au cas par cas en fonction de
+l’existence d’une éventuelle colonisation, de l’écologie du
+service et du résultat de l’examen direct de l’ECBU.
+Dans le cadre des IU chez l’homme, une localisation
+prostatique doit toujours être recherchée. Le traitement
+repose sur les molécules à forte diffusion prostatique (ﬂuo-
+roquinolones ou cotrimoxazole).
+Proposition d’antibiothérapie
+• IU communautaires
+C Fluoroquinolones ou C3G (céfotaxime ou ceftriaxone)
+C Bithérapie dans les formes graves avec hypotension
+– C3G + ﬂuoroquinolones ou aminoside (nétilmicine
+ou gentamicine)
+– Fluoroquinolones + aminoside en cas d’allergie aux
+bêtalactamines
+– Pendant la grossesse : les ﬂuoroquinolones sont
+contre-indiquées ; amoxicilline–acide clavulanique +
+aminoside (surtout si entérocoque)
+• IU nosocomiales
+C Discussion au cas par cas en fonction de :
+– la colonisation du patient, de l’écologie du service et
+de l’examen direct de l’ECBU ;
+– chez l’homme, des antibiotiques à forte diffusion
+prostatique doivent être proposés, en cas d’infection
+du tissu prostatique : ﬂuoroquinolones ou cotri-
+moxazole.
+4.6. Lors des infections intra-abdominales
+communautaires et nosocomiales (péritonites,
+angiocholites, angiocholites post-CPRE, infection
+du liquide d’ascite, pancréatite)
+Différents schémas d’antibiothérapie sont possibles en
+fonction du caractère communautaire ou nosocomiale de
+l’infection. Le traitement médical sera toujours associé au
+traitement chirurgical quand il est réalisable :
+• péritonites communautaires :
+C amoxicilline–acide clavulanique (2 g × 3/jour) + amino-
+side (gentamicine ou nétilmicine 5 mg/kg) ;
+C ticar–clavu (5 g × 3/jour) + aminoside ;
+C céfotaxime ou ceftriaxone + aminoside ;
+C entérocoque : rôle pathogène reconnu. Pas de consen-
+sus pour le traitement.
+• péritonites nosocomiales et postopératoires :
+C pipéracilline–tazobactam (4,5 g × 4/jour) + amikacine
+(20 mg/kg × 1/jour) ;
+C imipénème (1 g × 3/jour) + amikacine (20 mg/kg) ;
+C ± vancomycine (15 mg/kg) si SAMR ou entérocoque
+résistant à l’amoxicilline ;
+C ± ﬂuconazole (800 mg/jour) ;
+• péritonites primaires du cirrhotique :
+C amoxicilline–acide clavulanique (1,2 g/6 heures) ou cé-
+fotaxime (2 g/8 heures) ou céftriaxone (2 g/jour).
+4.7. Lors de pancréatites
+La stratégie de prise en charge a été proposée par le
+conférence de consensus de 2001.
+• Il n’y a pas d’indication à proposer une antibioprophylaxie
+(cf. consensus).
+• L’antibiothérapie est débutée après ponctions sous TDM
+ou prélèvements peropératoire, réalisés devant la surve-
+nue d’un état septique.
+• La faible diffusion des antibiotiques dans la nécrose pan-
+créatique impose de tenir compte de données pharmaco-
+cinétiques, quand elles sont disponibles, pour guider le
+choix de l’antibiothérapie.
+• En l’absence d’antibiothérapie préalable, le choix se porte
+sur l’imipénème ou les ﬂuoroquinolones ou l’association
+céfotaxime et métronidazole.
+• En cas d’antibiothérapie préalable, d’hospitalisation pro-
+longée, de manœuvres endoscopiques ou de nécrosecto-
+mie antérieure, le choix se porte sur l’association imipé-
+nème, vancomycine et ﬂuconazole.
+• L’antibiothérapie sera adaptée secondairement à l’anti-
+biogramme des bactéries retrouvées dans les prélève-
+ments peropératoires ou par ponction percutanée.
+1023
+Sfar / Annales Françaises d’Anesthésie et de Réanimation 23 (2004) 1020–1026
+
+
+===== PAGE 5 =====
+
+4.8. Lors des angiocholites aiguës
+Différents schémas d’antibiothérapie probabiliste sont
+possibles en fonction du caractère communautaire ou noso-
+comial de l’infection.
+• Angiocholite aiguë communautaire :
+C amoxicilline–acide clavulanique + gentamicine ou nétil-
+micine ;
+C ticarcilline–acide clavulanique ;
+C pipéracilline + métronidazole ;
+C céfoxitime ;
+C céfotaxime ou céftriaxone + métronidazole ;
+C si signes de gravité association de gentamicine ou nétil-
+micine.
+• Angiocholite nosocomiale ou post CPRE :
+Cette situation représente un facteur de risque identiﬁé
+d’infection à entérocoque :
+C Pipéracilline–tazobactam + amikacine ;
+C Imipénème + amikacine ;
+C Ceftazidime + métronidazole + amikacine ;
+4.9. Lors des infections cutanées et des tissus mous,
+gangrène et cellulite
+La conférence de consensus française de janvier 2000 sur
+l’érysipèle et les fasciites nécrosantes permet de guider la
+stratégie de prise en charge de ces infections. Elle a proposé
+une classiﬁcation des infections graves des parties molles.
+Les formes nécrosantes (dermohypodermites bactériennes
+nécrosantes ou DHBN et les fasciites nécrosantes ou FN)
+différent essentiellement par la profondeur de l’atteinte
+alors qu’elles ont en commun de compromettre le pronostic
+fonctionnel et vital. Le groupe des DHBN – FN sont de
+véritables urgences médicochirurgicales. Dans 40 à 80 % des
+cas, toutes localisations confondues, c’est une ﬂore mixte
+qui est retrouvée : anaérobies, entérobactéries, streptoco-
+ques, entérocoques et Staphylococcus aureus. Streptococcus
+pyogenes est retrouvé dans près de la moitié des prélève-
+ments et dans 50 % des hémocultures prélevées chez des
+patients en choc septique. Le traitement antibiotique n’est
+qu’un adjuvant du traitement chirurgical qui repose sur des
+excisions larges.
+Le choix de l’antibiothérapie probabiliste (dont la diffu-
+sion tissulaire est très médiocre dans ces conditions) repose
+sur la localisation, la classiﬁcation clinicobiologique et sur les
+données de l’examen direct :
+• atteinte des membres et de la région cervicofaciale :
+amoxicilline–acide clavulanique + gentamicine ou nétilmi-
+cine ;
+• gangrène périnéale communautaire : céfotaxime–cef-
+triaxone + métronidazole ou amoxicilline–acide clavula-
+nique, associé avec de la gentamicine ou de la nétilmicine ;
+• gangrène postopératoire : pipéracilline–tazobactam ou
+imipénème associé à de l’amikacine.
+L’oxygénothérapie hyperbare n’a pas montré, de façon
+méthodologiquement satisfaisante, son efficacité. Le retard
+au diagnostic et un attentisme chirurgical sous traitement
+antibiotique explique une partie des évolutions défavorables.
+Les DHBN – FN restent avant tout des urgences chirurgica-
+les.
+Synthèse de la stratégie de pris en charge
+• L’antibiothérapie est un adjuvant au traitement chirurgi-
+cal qui est urgent
+• Antibiothérapie :
+C membres et région cervicofaciale : amoxicilline–acide
+clavulanique (2 g × 3/jour) + gentamicine ou nétilmicine
+(5 mg/kg/jour) ;
+C gangrène périnéale communautaire : C3G + métroni-
+dazole ou amoxicilline–acide clavulanique + gentami-
+cine ou netilmicine ;
+C gangrène postopératoire : pipéracilline–tazobactam
+(16 g/jour) ou imipénème (1 g × 3/jour) + amikacine
+(20 mg/kg/jour)
+4.10. Lors des endocardites
+Le choix d’une antibiothérapie probabiliste pertinent est
+un élément essentiel de la prise en charge des endocardites
+infectieuses (EI) et des infections sur prothèse vasculaire
+(IPV). Les situations imposant une antibiothérapie en ex-
+trême urgence correspondent aux rares formes d’EI sub-
+aiguës avec sepsis grave ou insuffisance cardiaque, aux EI
+aiguës et aux cas d’IPV avec menace de rupture ou sepsis
+grave. Si les EI sur valve native sont majoritairement acquises
+en ville, les EI sur valves prothétiques et les IPV sont fré-
+quemment dues à des germes hospitaliers, le risque étant
+d’autant plus élevé que l’infection se révèle précocement
+après l’intervention. Le schéma antibiotique optimal devant
+les EI aiguës doit être à spectre très large englobant les
+germes délabrant les plus fréquemment rencontrés. Dans
+les IPV et quelle que soit la localisation de la prothèse, il faut
+prendre en compte les staphylocoques résistants à la méthi-
+cilline et les bacilles à Gram négatif aérobies nosocomiaux.
+Pour les prothèses de localisation intra-abdominale, le spec-
+tre doit être élargi aux germes anaérobies intestinaux. La
+documentation de l’infection implique une réévaluation de
+ces schémas, dès que possible.
+Propositions d’antibiothérapie probabiliste de-
+vant une endocardite
+• Valve native :
+C suspicion de staphylocoque communautaire : cloxacil-
+line (2 g/4 heures) + gentamicine (1,5 mg/kg/12 heures)
+ou nétilmicine (3 mg/kg/12 heures) ;
+C sans élément d’orientation : amoxicilline–acide clavula-
+nique (2 g/4 heures) + gentamicine (1,5 mg/kg/12 heu-
+res) ou nétilmicine (3 mg/kg/12 heures) ;
+C si
+allergie
+vrai
+aux
+pénicillines
+:
+vancomycine
+(15 mg/kg/12 heures) + gentamicine (1,5 mg/kg/12 heu-
+res) ou nétilmicine (3 mg/kg/12 heures).
+1024
+Sfar / Annales Françaises d’Anesthésie et de Réanimation 23 (2004) 1020–1026
+
+
+===== PAGE 6 =====
+
+• Valve prothétique quelque soit l’ancienneté de la chirur-
+gie :
+C cas général : vancomycine (15 mg/kg/12 heures) +
+rifampicine
+600
+mg/12
+heures
++
+gentamicine
+(1,5 mg/kg/12 heures) ou nétilmicine (3 mg/kg/12 heu-
+res) ;
+C si échec ou contexte particulier : vancomycine
+(15 mg/kg/12 heures) + ceftazidime 2 g/8 heures +
+gentamicine (1,5 mg/kg/12 heures) ou nétilmicine
+(3 mg/kg/12 heures)
+4.11. Lors d’infection sur cathéter
+Il s’agit quasiment toujours d’une infection nosocomiale
+exposant à un risque élevée d’infection par une bactérie
+multirésistante. La stratégie thérapeutique doit comporter
+les étapes suivantes :
+• l’ablation du cathéter est l’étape la plus importante du
+traitement. Elle permet une culture quantitative du cathé-
+ter et la réalisation d’hémocultures après l’ablation de
+celui-ci ;
+• l’antibiothérapie probabiliste est débutée devant :
+C un état septique grave et/ou une immunodépression ;
+C la présence d’une prothèses vasculaires ou articulaires
+ou d’un pace-maker ;
+• l’antibiothérapie doit être antistapyloccocique et anti
+BGN ;
+• un sepsis sur cathéter périphérique impose la discussion
+d’une ligature-excision de la veine en cause notamment
+s’ils existent des signes locaux importants, une thrombo-
+phlébite ou sepsis sévère associé à des hémocultures
+toujours positives sous traitement adapté.
+Les schémas suivants peuvent être proposés
+• vancomycine (15 mg/kg × 2) + céfépime (2 g × 2) +
+gentamicine ;
+• vancomycine (15 mg/kg × 2) + ceftazidime + amikacine ;
+• vancomycine + imipénème + amikacine ;
+• si facteurs de risque d’infection à levures : discussion de
+l’amphotéricine B ;
+• adaptation à l’antibiogramme est impérative lors du re-
+tour de la culture du cathéter et des hémocultures.
+4.12. Lors d’un sepsis sans porte d’entrée suspectée
+Le choix de l’antibiothérapie probabiliste tient compte du
+caractère communautaire ou nosocomial de la situation
+justiﬁant le traitement :
+• infection communautaire : C3G (céfotaxime ou céf-
+triaxone) + gentamicine ou nétilmicine + métronidazole ;
+• infection nosocomiale (y compris les patients en institu-
+tion ou hospitalisés dans les 30 jours précédents) :
+C imipénème ou ceftazidime ou céfépime + amikacine +
+vancomycine ± métronidazole (inutile si imipénème).
+5. RÉÉVALUATION IMPÉRATIVE
+DE L’ANTIBIOTHÉRAPIE INITIALE
+PROBABILISTE
+L’objectif est de limiter l’utilisation des antibiotiques aux
+seules situations qui la justiﬁent et donc de faire un choix
+raisonné de l’antibiothérapie, permettant d’obtenir une effi-
+cacité optimale, tout en induisant un impact sur l’écologie
+hospitalière et sur la ﬂore barrière des patients le plus faible
+possible. Ainsi, la nécessaire discussion du bien-fondé d’une
+association et le retour lorsqu’il est possible, à une molécule
+plus simple et/ou de spectre plus étroit, s’intègre dans les
+recommandations pour le bon usage des antibiotiques à
+l’hôpital. Il est sûrement plus délétère de laisser de façon
+prolongée une antibiothérapie empirique que de débuter de
+façon raisonnée et documentée une antibiothérapie proba-
+biliste même à spectre large, puis de la simpliﬁer secondai-
+rement, après l’avoir réévaluer. La nécessaire maîtrise de
+l’accroissement des résistances bactériennes impose cette
+stratégie de réévaluation du schéma antibiotique, aﬁn
+d’adapter au mieux le traitement en terme de spectre, à la
+bactérie responsable de l’infection.
+Cette réévaluation doit intervenir entre le deuxième et le
+troisième jour, date à laquelle l’identiﬁcation des bactéries
+responsables et leur proﬁl de sensibilité est disponible le plus
+souvent, à condition d’avoir effectué initialement les prélè-
+vements bactériologiques adéquats. Il faut parfois savoir
+décider d’un arrêt de l’antibiothérapie probabiliste quand
+l’ensemble des données microbiologiques est négatif et
+orienter la recherche diagnostique vers une étiologie non
+infectieuse. Une deuxième réévaluation doit être effectuer
+vers le 10e jour pour apprécier l’efficacité du traitement
+entrepris et pour juger de la nécessité éventuelle de le
+poursuivre. Dans cette alternative, une réévaluation régu-
+lière est justiﬁée.
+De plus, le coût du traitement, même s’il ne représente
+pas un critère prépondérant, doit être intégré dans la dis-
+cussion, de façon à orienter le choix vers un moindre coût, à
+efficacité équivalente.
+1025
+Sfar / Annales Françaises d’Anesthésie et de Réanimation 23 (2004) 1020–1026
+
+
+===== PAGE 7 =====
+
+Principaux antibiotiques prescrits lors d’une antibiothérapie probabiliste
+(posologies de la première injection et mode d’administration)
+Familles
+Antibiotiques (DCI)
+Posologie de la première injection
+Mode d’administration
+Bêtalactamines
+Amoxicilline
+2 g
+ivl
+amoxicilline + acide clavulanique
+2 g
+ivl
+Oxacilline
+1 g
+ivl
+Ticarcilline
+5 g
+ivl
+Pipéracilline
+4 g
+ivl
+Pipéracilline + tazobactam
+4 g
+ivl
+C3G
+Céfotaxime
+2 g
+ivl
+Céftriaxone
+2 g
+ivl
+Ceftazidime
+2 g
+ivl
+Céfépime
+2 g
+ivl
+Carbapenem
+Imipénème
+1 g
+ivl
+Aminosides
+Gentamicine
+5 mg/kg
+perf. 30 minutes
+Nétilmicine
+5 mg/kg
+perf. 30 minutes
+Amikacine
+20 mg/kg
+perf. 30 minutes
+Tobramycine
+5mg/kg
+perf. 30 minutes
+Glycopeptides
+Vancomycine
+15 mg/kg
+perf. 1 heure
+Divers anti-staph.
+Rifampicine
+10 mg/kg
+perf.–p.o.
+Fosfomycine
+4 g
+perf.
+Fluoroquinolones
+Oﬂoxacine
+400 mg
+ivl– p.o.
+Ciproﬂoxacine
+400 mg ou 800 mg a
+ivl ou p.o.
+Lévoﬂoxacine
+500 mg
+ivl
+Macrolides
+Érythromycine
+1 g
+ivl
+Spiramycine
+3 MU
+ivl
+Métronidazole
+500 mg
+Perfusion de 30 minutes
+Posologie proposée uniquement chez l’adulte, dans la majorité des situations de sepsis grave.
+a Si suspicion de P. aeruginosa
+1026
+Sfar / Annales Françaises d’Anesthésie et de Réanimation 23 (2004) 1020–1026

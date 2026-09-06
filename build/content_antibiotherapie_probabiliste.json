@@ -1,0 +1,1513 @@
+{
+ "doc": "antibiotherapie_probabiliste",
+ "sections": [
+  {
+   "title": "Introduction, méningites, pneumopathies, urinaires & intra-abdominales",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> stratégies d'antibiothérapie <b>probabiliste</b> (prescription avant documentation microbiologique) des états septiques graves, par site infectieux. Référentiel SFAR, Conférence d'experts, texte court 2004 (travail réalisé de 2001 à 2003), coordonnateur B. Veber (Rouen), en collaboration avec la Société de réanimation de langue française, la Société de pathologie infectieuse de langue française, la Société de microbiologie, la Médecine militaire, la Société française de médecine d'urgence et la Société française de pédiatrie.<br/><br/><b>Méthodologie et disclosure :</b> le texte présente un tableau général des « niveaux de preuve en médecine factuelle » (I à V, méthodologie des conférences d'experts — reproduit ci-dessous). <b>Vérifié par lecture exhaustive du corps du texte : aucune des propositions d'antibiothérapie (sections 4.1 à 4.12) ni aucun des paragraphes de contexte ne porte de renvoi explicite à l'un de ces niveaux.</b> Ce n'est donc pas un document coté item par item (à la différence, par exemple, de la conférence de consensus « Corticothérapie » de la même année) : les propositions sont reproduites ci-après telles qu'imprimées, sans cotation associée — aucun niveau n'est inventé pour combler cette absence.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Niveaux de preuve en médecine factuelle (cadre méthodologique général)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Définition",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Niveau I",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Études aléatoires avec un faible risque de faux positifs (α) et de faux négatifs (β) (puissance élevée : β = 5 à 10 %)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Niveau II",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque α élevé, ou faible puissance",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Niveau III",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Études non aléatoires. Sujets « contrôlés » contemporains",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Niveau IV",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Études non aléatoires. Sujets « contrôlés » non contemporains",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Niveau V",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Études de cas. Avis d'experts",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "1. Introduction",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'antibiothérapie « probabiliste » est une prescription réalisée avant que ne soient connues la nature et/ou la sensibilité du ou des micro-organismes responsables — ce n'est pas une antibiothérapie « à l'aveugle » mais une prescription raisonnée prenant en compte tous les éléments disponibles. L'hypothèse microbiologique est facilitée par les données épidémiologiques pour les infections communautaires ; pour les infections nosocomiales, la grande diversité des pathogènes et leur variabilité de sensibilité imposent une documentation la plus exhaustive possible de l'agent causal avant tout traitement. L'examen microscopique direct (Gram, May-Grünwald-Giemsa, Ziehl…) donne rapidement des résultats importants pour la prise en charge diagnostique, mais doit toujours être confronté secondairement aux résultats des cultures.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "La prescription répond aux règles de bonnes pratiques de toute antibiothérapie : prise en compte des paramètres pharmacocinétiques/pharmacodynamiques des classes prescrites (efficacité temps-dépendante des bêtalactamines → administrations répétées voire perfusion continue ; efficacité concentration-dépendante des aminosides → dose unique quotidienne dans la majorité des situations). L'adéquation de l'antibiothérapie probabiliste initiale vis-à-vis du ou des germes responsables a démontré son impact sur le pronostic vital en sepsis grave (bactériémies, péritonites, pneumopathies — la précocité du traitement y a un impact favorable démontré). La décision finale résulte de la synthèse du pari microbiologique (site infecté, terrain, caractère nosocomial ou communautaire), de l'écologie bactérienne locale, de la flore colonisante du patient et des données de l'examen direct.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "2. Spécificité chez l'immunodéprimé",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "La prise en charge des infections chez l'immunodéprimé est individualisée en raison de leur fréquence, de leur lourde mortalité en cas de retard thérapeutique, de la difficulté d'obtenir un diagnostic microbiologique et des données pharmacocinétiques particulières (notamment chez les neutropéniques). L'indication d'une antibiothérapie urgente concerne essentiellement les sepsis sévères du sujet neutropénique ou splénectomisé : dans ces deux situations, le pronostic vital peut être mis immédiatement en jeu en cas de retard à la mise en route d'une antibiothérapie probabiliste lors d'un épisode hyperthermique d'étiologie bactérienne. Au cours des autres déficits immunitaires (notamment de l'immunité cellulaire), les agents infectieux sont multiples, les tableaux cliniques variés, et les causes de fièvre ne sont pas toujours d'origine infectieuse.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "3. Spécificité pédiatrique",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "L'évolution d'un processus infectieux sévère est souvent plus rapide que chez l'adulte, avec un risque précoce d'insuffisance circulatoire : l'administration urgente d'une antibiothérapie probabiliste est essentielle. La prescription tient compte de la variation des paramètres pharmacocinétiques selon l'âge (avant 6 mois : volume de distribution augmenté, demi-vie allongée ; de 6 à 12 mois ces valeurs s'abaissent ; de 5 à 6 ans, caractéristiques proches de l'adulte jeune). Les posologies rapportées au poids sont proportionnellement plus élevées que chez l'adulte, mais chez le grand enfant/l'obèse elles ne doivent pas dépasser celles de l'adulte. Une association d'antibiotiques peut être justifiée dans les sepsis sévères, l'adjonction d'un aminoside étant le choix le plus fréquent — prescription prudente compte tenu de la sensibilité de l'enfant à l'oto/néphrotoxicité de ces molécules. Les fluoroquinolones sont contre-indiquées pendant la croissance (risque toxique sur le cartilage de conjugaison).",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "4. Quelle antibiothérapie probabiliste ? — 4.1 Méningites communautaires",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Signes de gravité imposant l'hospitalisation en réanimation : état de choc (purpura fulminans), signes de localisation, troubles graves de la conscience (Glasgow &lt; 8). En cas de purpura fulminans, le traitement (céfotaxime ou ceftriaxone) est instauré le plus précocement possible, avant même la ponction lombaire (PL). En cas de signes de localisation, l'antibiothérapie est débutée avant la TDM cérébrale qui précède la PL. En cas de méningite comateuse, la PL est réalisée avant l'antibiothérapie. L'examen direct du LCR doit être pris en compte pour le choix de l'antibiothérapie probabiliste.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Purpura fulminans",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "C3G (céfotaxime ou ceftriaxone) IV immédiat.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Signes neurologiques de localisation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "C3G + vancomycine, puis TDM cérébrale et PL.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Examen direct du LCR positif — Cg + (pneumocoque)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "C3G + vancomycine (40 à 60 mg/kg/jour).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Examen direct du LCR positif — Cg – (méningocoque)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "C3G ou amoxicilline.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Examen direct du LCR positif — Bg + (listéria)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline (200 mg/kg/jour) + gentamicine (3 à 5 mg/kg/jour).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Examen direct du LCR positif — Bg – (Haemophilus influenzae)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "C3G (céfotaxime 200 à 300 mg/kg/jour).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Examen direct négatif — liquide trouble (PNN), glycorachie basse",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "C3G + vancomycine.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Examen direct négatif — LCR clair lymphocytaire, glycorachie basse",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline + gentamicine + antibiothérapie antituberculeuse.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Examen direct négatif — LCR lymphocytaire, glycorachie normale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Aciclovir.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.2 Méningites nosocomiales et abcès cérébraux postopératoires",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Infections méningées iatrogéniques ou traumatiques, pathologies graves de fréquence croissante, en général consécutives à une intervention neurochirurgicale, un traumatisme du système nerveux central, la mise en place d'une dérivation du LCR et plus exceptionnellement une anesthésie péridurale ou une PL. Diagnostic souvent difficile (faible spécificité des signes) ; la documentation bactériologique par culture du LCR est indispensable. Germes les plus fréquents dans les méningites iatrogènes : staphylocoques (dont S. epidermidis) et bacilles à Gram négatif (dont entérobactéries et P. aeruginosa). Le pneumocoque est en première ligne des méningites post-traumatiques.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Méningites postopératoires",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Examen bactériologique du LCR systématique avant toute antibiothérapie. Céfotaxime + fosfomycine en première intention ; selon la bactérie suspectée : ceftazidime, imipénème, fluoroquinolones ou vancomycine.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Méningites post-traumatiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.3 Pneumopathies communautaires",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "La conférence de consensus sur les pneumopathies communautaires permet de recommander le schéma thérapeutique suivant : association d'antibiotiques par voie intraveineuse.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Schéma standard",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline–acide clavulanique (2 g/8 h) ou céfotaxime (2 g/8 h) ou ceftriaxone (2 g/jour) + érythromycine (1 g/8 h) ou ofloxacine (200 mg × 2) ou lévofloxacine (500 mg × 2).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Allergie prouvée aux pénicillines et aux C3G",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Glycopeptide + ofloxacine.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque de P. aeruginosa (antibiothérapie fréquente, DDB, corticothérapie au long cours)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Bêtalactamine antipseudomonas + ciprofloxacine (400 mg/8 h).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.4 Pneumopathies nosocomiales (PAVM)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Une antibiothérapie précoce adéquate diminue la mortalité des pneumonies acquises sous ventilation mécanique. Le traitement probabiliste doit débuter rapidement, après des prélèvements bactériologiques fiables pour adaptation ultérieure indispensable. Les schémas doivent intégrer l'écologie microbienne locale, le profil de sensibilité des bactéries nosocomiales du service, le type de recrutement, une épidémie éventuelle et la colonisation/infection antérieure à des bactéries multirésistantes (BMR), ainsi que la durée d'hospitalisation et de ventilation mécanique antérieures et les antibiothérapies antérieures. Devant une pneumonie nosocomiale tardive sévère, l'antibiothérapie doit être à large spectre pour ne pas faire d'impasse microbiologique, en tenant compte des facteurs de risque de BMR. La désescalade thérapeutique secondaire, guidée par l'antibiogramme des prélèvements fiables, est indispensable.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "PAVM précoce (&lt; 7 jours de ventilation), sans antibiothérapie ni hospitalisation antérieure dans un service à risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Bêtalactamine sans activité anti-P. aeruginosa en monothérapie : céfotaxime ou ceftriaxone ou amoxicilline–acide clavulanique.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "PAVM tardive (≥ 7 jours), ou précoce avec antibiothérapie préalable ou hospitalisation antérieure dans un service à risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Bêtalactamine à activité anti-P. aeruginosa + amikacine ou ciprofloxacine ; associer la vancomycine s'il existe des facteurs de risque de SDMR ; prendre en compte legionella si facteurs de risque et/ou antigènes urinaires positifs. Retour à l'antibiothérapie la plus simple efficace dès que possible, sur prélèvements fiables réalisés avant tout traitement et antibiogramme dès que la culture est positive.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.5 Infections urinaires communautaires et nosocomiales",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Les infections urinaires (IU) parenchymateuses (pyélonéphrites, prostatites) peuvent être responsables d'un syndrome septique grave où les signes urinaires sont très rarement au premier plan. Diagnostic : ECBU, hémocultures (15 à 20 % positives), imagerie (échographie, TDM). Les entérobactéries (E. coli +++) sont de très loin les bactéries les plus souvent isolées ; les cocci à Gram positif sont retrouvés surtout après 50 ans et dans les IU nosocomiales. Le caractère nosocomial et/ou des antibiothérapies antérieures augmentent le risque de bactérie résistante (Pseudomonas sp, Enterobacter sp, Serratia sp, Citrobacter sp, cocci à Gram négatif, Candida sp).",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IU communautaires",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fluoroquinolones (ofloxacine ou ciprofloxacine) ou C3G (céfotaxime ou ceftriaxone). Bithérapie dans les formes graves avec hypotension : C3G + fluoroquinolones ou aminoside (nétilmicine ou gentamicine) ; ou fluoroquinolones + aminoside en cas d'allergie aux bêtalactamines. Pendant la grossesse, les fluoroquinolones sont contre-indiquées : amoxicilline–acide clavulanique + aminoside (surtout si entérocoque suspecté).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IU nosocomiales",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Discussion au cas par cas selon la colonisation du patient, l'écologie du service et l'examen direct de l'ECBU. Chez l'homme, en cas d'infection prostatique, privilégier les molécules à forte diffusion prostatique : fluoroquinolones ou cotrimoxazole.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.6 Infections intra-abdominales communautaires et nosocomiales",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Péritonites, angiocholites, angiocholites post-CPRE, infection du liquide d'ascite, pancréatite. Différents schémas selon le caractère communautaire ou nosocomial ; le traitement médical est toujours associé au traitement chirurgical quand il est réalisable.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Péritonites communautaires",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline–acide clavulanique (2 g × 3/jour) + aminoside (gentamicine ou nétilmicine 5 mg/kg) ; ou ticarcilline–acide clavulanique (5 g × 3/jour) + aminoside ; ou céfotaxime/ceftriaxone + aminoside. Entérocoque : rôle pathogène reconnu, pas de consensus pour le traitement.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Péritonites nosocomiales et postopératoires",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pipéracilline–tazobactam (4,5 g × 4/jour) + amikacine (20 mg/kg × 1/jour) ; ou imipénème (1 g × 3/jour) + amikacine (20 mg/kg) ; ± vancomycine (15 mg/kg) si SAMR ou entérocoque résistant à l'amoxicilline ; ± fluconazole (800 mg/jour).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Péritonites primaires du cirrhotique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline–acide clavulanique (1,2 g/6 h) ou céfotaxime (2 g/8 h) ou ceftriaxone (2 g/jour).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.7 Pancréatites",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Stratégie proposée par la conférence de consensus de 2001. Pas d'indication à une antibioprophylaxie (cf. consensus 2001). L'antibiothérapie est débutée après ponctions sous TDM ou prélèvements peropératoires, devant la survenue d'un état septique. La faible diffusion des antibiotiques dans la nécrose pancréatique impose de tenir compte des données pharmacocinétiques disponibles pour guider le choix.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sans antibiothérapie préalable",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Imipénème, ou fluoroquinolones, ou association céfotaxime + métronidazole.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antibiothérapie préalable, hospitalisation prolongée, manœuvres endoscopiques ou nécrosectomie antérieure",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Association imipénème + vancomycine + fluconazole.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Antibiothérapie adaptée secondairement à l'antibiogramme des bactéries retrouvées dans les prélèvements peropératoires ou par ponction percutanée.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Angiocholites, cutané, endocardites, cathéter, sepsis & posologies",
+   "items": [
+    {
+     "t": "section",
+     "text": "4.8 Angiocholites aiguës",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Angiocholite aiguë communautaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline–acide clavulanique + gentamicine ou nétilmicine ; ou ticarcilline–acide clavulanique ; ou pipéracilline + métronidazole ; ou céfoxitine ; ou céfotaxime/ceftriaxone + métronidazole. Si signes de gravité : associer gentamicine ou nétilmicine.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Angiocholite nosocomiale ou post-CPRE (facteur de risque identifié d'infection à entérocoque)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pipéracilline–tazobactam + amikacine ; ou imipénème + amikacine ; ou ceftazidime + métronidazole + amikacine.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.9 Infections cutanées et des tissus mous — gangrène et cellulite",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "La conférence de consensus française de janvier 2000 sur l'érysipèle et les fasciites nécrosantes guide la stratégie. Les formes nécrosantes (dermohypodermites bactériennes nécrosantes/DHBN et fasciites nécrosantes/FN) diffèrent par la profondeur de l'atteinte, mais compromettent toutes deux le pronostic fonctionnel et vital — véritables urgences médicochirurgicales. Dans 40 à 80 % des cas, toutes localisations confondues, une flore mixte est retrouvée (anaérobies, entérobactéries, streptocoques, entérocoques, S. aureus) ; Streptococcus pyogenes est retrouvé dans près de la moitié des prélèvements et 50 % des hémocultures des patients en choc septique. Le traitement antibiotique n'est qu'un adjuvant du traitement chirurgical, qui repose sur des excisions larges et reste la priorité absolue. L'oxygénothérapie hyperbare n'a pas montré d'efficacité de façon méthodologiquement satisfaisante ; le retard diagnostique et l'attentisme chirurgical sous couvert antibiotique expliquent une partie des évolutions défavorables.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Atteinte des membres et de la région cervicofaciale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline–acide clavulanique (2 g × 3/jour) + gentamicine ou nétilmicine (5 mg/kg/jour).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Gangrène périnéale communautaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Céfotaxime/ceftriaxone + métronidazole, ou amoxicilline–acide clavulanique, associés à gentamicine ou nétilmicine.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Gangrène postopératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pipéracilline–tazobactam (16 g/jour) ou imipénème (1 g × 3/jour) + amikacine (20 mg/kg/jour).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.10 Endocardites",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Élément essentiel de la prise en charge des endocardites infectieuses (EI) et des infections sur prothèse vasculaire (IPV). Extrême urgence : rares formes d'EI subaiguës avec sepsis grave ou insuffisance cardiaque, EI aiguës, IPV avec menace de rupture ou sepsis grave. Les EI sur valve native sont majoritairement acquises en ville ; les EI sur valves prothétiques et les IPV sont fréquemment dues à des germes hospitaliers, le risque étant d'autant plus élevé que l'infection se révèle précocement après l'intervention. Pour les prothèses de localisation intra-abdominale, le spectre doit être élargi aux germes anaérobies intestinaux. Toute documentation de l'infection implique une réévaluation de ces schémas dès que possible.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valve native — suspicion de staphylocoque communautaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cloxacilline (2 g/4 h) + gentamicine (1,5 mg/kg/12 h) ou nétilmicine (3 mg/kg/12 h).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valve native — sans élément d'orientation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline–acide clavulanique (2 g/4 h) + gentamicine (1,5 mg/kg/12 h) ou nétilmicine (3 mg/kg/12 h).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valve native — allergie vraie aux pénicillines",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vancomycine (15 mg/kg/12 h) + gentamicine (1,5 mg/kg/12 h) ou nétilmicine (3 mg/kg/12 h).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valve prothétique, quelle que soit l'ancienneté de la chirurgie — cas général",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vancomycine (15 mg/kg/12 h) + rifampicine (600 mg/12 h) + gentamicine (1,5 mg/kg/12 h) ou nétilmicine (3 mg/kg/12 h).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valve prothétique — si échec ou contexte particulier",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vancomycine (15 mg/kg/12 h) + ceftazidime (2 g/8 h) + gentamicine (1,5 mg/kg/12 h) ou nétilmicine (3 mg/kg/12 h).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.11 Infection sur cathéter",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Il s'agit quasiment toujours d'une infection nosocomiale exposant à un risque élevé d'infection par une bactérie multirésistante. Stratégie thérapeutique : l'ablation du cathéter est l'étape la plus importante du traitement — elle permet une culture quantitative du cathéter et des hémocultures après l'ablation. L'antibiothérapie probabiliste est débutée devant un état septique grave et/ou une immunodépression, ou la présence d'une prothèse vasculaire/articulaire ou d'un pace-maker ; elle doit être antistaphylococcique et anti-BGN. Un sepsis sur cathéter périphérique impose de discuter une ligature-excision de la veine en cause, notamment en présence de signes locaux importants, d'une thrombophlébite ou d'un sepsis sévère associé à des hémocultures toujours positives sous traitement adapté. L'adaptation à l'antibiogramme est impérative dès le retour de la culture du cathéter et des hémocultures.",
+     "style": "body"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Schémas proposés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vancomycine (15 mg/kg × 2) + céfépime (2 g × 2) + gentamicine ; ou vancomycine (15 mg/kg × 2) + ceftazidime + amikacine ; ou vancomycine + imipénème + amikacine.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Facteurs de risque d'infection à levures",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Discussion de l'amphotéricine B.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.12 Sepsis sans porte d'entrée suspectée",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation clinique",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiothérapie probabiliste proposée",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infection communautaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "C3G (céfotaxime ou ceftriaxone) + gentamicine ou nétilmicine + métronidazole.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infection nosocomiale (y compris patients en institution ou hospitalisés dans les 30 jours précédents)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Imipénème ou ceftazidime ou céfépime + amikacine + vancomycine ± métronidazole (inutile si imipénème).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "5. Réévaluation impérative de l'antibiothérapie initiale probabiliste",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'objectif est de limiter l'utilisation des antibiotiques aux seules situations qui la justifient et de faire un choix raisonné permettant une efficacité optimale tout en induisant l'impact le plus faible possible sur l'écologie hospitalière et la flore barrière des patients. La discussion du bien-fondé d'une association et le retour, lorsque c'est possible, à une molécule plus simple et/ou de spectre plus étroit s'intègrent dans les recommandations pour le bon usage des antibiotiques à l'hôpital. Il est sûrement plus délétère de laisser de façon prolongée une antibiothérapie empirique que de débuter de façon raisonnée et documentée une antibiothérapie probabiliste même à spectre large, puis de la simplifier secondairement après réévaluation. La maîtrise de l'accroissement des résistances bactériennes impose cette stratégie de réévaluation, afin d'adapter au mieux le traitement en termes de spectre à la bactérie responsable.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "Cette réévaluation doit intervenir entre le 2<sup>e</sup> et le 3<sup>e</sup> jour, date à laquelle l'identification des bactéries responsables et leur profil de sensibilité sont le plus souvent disponibles, à condition d'avoir effectué initialement les prélèvements bactériologiques adéquats. Il faut parfois savoir décider d'un arrêt de l'antibiothérapie probabiliste quand l'ensemble des données microbiologiques est négatif, et orienter la recherche diagnostique vers une étiologie non infectieuse. Une deuxième réévaluation doit être effectuée vers le 10<sup>e</sup> jour pour apprécier l'efficacité du traitement entrepris et juger de la nécessité éventuelle de le poursuivre — une réévaluation régulière est alors justifiée. Le coût du traitement, sans être un critère prépondérant, doit être intégré dans la discussion, à efficacité équivalente.",
+     "style": "body"
+    },
+    {
+     "t": "section",
+     "text": "Principaux antibiotiques prescrits — posologie de la première injection",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Famille",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Antibiotique (DCI)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Posologie 1ère injection",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Voie",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bêtalactamines",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amoxicilline + acide clavulanique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oxacilline",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ticarcilline",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pipéracilline",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pipéracilline + tazobactam",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "C3G",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Céfotaxime",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ceftriaxone",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ceftazidime",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Céfépime",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Carbapénème",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Imipénème",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aminosides",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Gentamicine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Perf. 30 min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Nétilmicine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Perf. 30 min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Amikacine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "20 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Perf. 30 min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tobramycine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Perf. 30 min",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Glycopeptides",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vancomycine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "15 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Perf. 1 h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Divers anti-staph.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Rifampicine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "10 mg/kg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Perf. – p.o.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fosfomycine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Perf.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fluoroquinolones",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ofloxacine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "400 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL – p.o.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ciprofloxacine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "400 mg ou 800 mg *",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL ou p.o.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lévofloxacine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "500 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Macrolides",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Érythromycine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 g",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Spiramycine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3 MU",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Imidazolés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Métronidazole",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "500 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Perf. 30 min",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Posologies proposées uniquement chez l'adulte, dans la majorité des situations de sepsis grave. * Ciprofloxacine 800 mg en cas de suspicion de P. aeruginosa.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> SFAR — Référentiels, Conférence d'experts, texte court 2004 « Antibiothérapie probabiliste des états septiques graves », coordonnateur B. Veber (Rouen), experts C. Martin, P. Montravers, A. Lepape, R. Gauzit, J.-C. Granry, L. Dube, J.-L. Pourriat, J.-P. Bedos, J.-P. Sollet, M. Wolf, F. Caron, O. Lortholary, V. Noel, J.-L. Mainardi, J.-M. Saïssy, G. Potel, E. Grimpel. Travail réalisé sur deux ans (2001–2003), en collaboration avec la Société de réanimation de langue française, la Société de pathologie infectieuse de langue française, la Société de microbiologie, la Médecine militaire, la Société française de médecine d'urgence et la Société française de pédiatrie. Publié in Annales Françaises d'Anesthésie et de Réanimation 23 (2004) 1020-1026.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> conférence d'experts (recherche bibliographique + synthèse par un groupe d'experts, validée en séances plénières). Le tableau des niveaux de preuve (I à V) définit le cadre méthodologique général mais n'est explicitement rattaché à aucune proposition individuelle du corps du texte (voir disclosure page 1).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/antibiotherapie-probabiliste-des-etats-septiques-graves/",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des sections et propositions de la conférence d'experts 2004, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques) et n'est ni édité ni validé par la SFAR. Conférence de 2004 : l'écologie bactérienne, les résistances et les recommandations d'antibiothérapie évoluent — se référer en complément aux données locales d'écologie/résistance actualisées, aux référentiels ultérieurs (dont la RFE « Antibioprophylaxie en chirurgie et médecine interventionnelle » 2018/2023 déjà disponible sur ce site pour la prophylaxie chirurgicale) et à un avis spécialisé (infectiologie/réanimation) en cas de doute.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

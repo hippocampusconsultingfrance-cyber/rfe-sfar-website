@@ -51,7 +51,8 @@ var RAW = {
   antibioprophylaxie: JSON.parse(document.getElementById('content-antibioprophylaxie').textContent),
   controle_temperature: JSON.parse(document.getElementById('content-controle_temperature').textContent),
   tih: JSON.parse(document.getElementById('content-tih').textContent),
-  civd: JSON.parse(document.getElementById('content-civd').textContent)
+  civd: JSON.parse(document.getElementById('content-civd').textContent),
+  eclsa: JSON.parse(document.getElementById('content-eclsa').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -104,7 +105,8 @@ var FICHE_HREF_MATCH = {
   antibioprophylaxie: ['antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/', 'wpdmdl=68362'],
   controle_temperature: ['controle-cible-de-la-temperature-en-reanimation', 'rfe-controle-cible-de-la-temperature-en-reanimation'],
   tih: ['diagnostic-et-prise-en-charge-dune-thrombopenie-induite-par-lheparine', 'propositions-tih-gihp-gfht-sfar'],
-  civd: ['coagulations-intra-vasculaires-disseminees-civd-en-reanimation', '86-civdccons']
+  civd: ['coagulations-intra-vasculaires-disseminees-civd-en-reanimation', '86-civdccons'],
+  eclsa: ['indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires', '2_AFAR_Recommandations-sur-les-indications-de-lassistance-circulatoire']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -681,6 +683,18 @@ var DOC_META = {
     methodology: "Preuve (a-d) + Force (1-3), deux axes indépendants, non GRADE",
     pages: 6,
     url: "https://sfar.org/wp-content/uploads/2015/10/86-civdccons.pdf"
+  },
+  eclsa: {
+    key: 'eclsa',
+    badge: 'NIVEAU 5',
+    title: "Assistance circulatoire — AC réfractaire",
+    short: "Indications et contre-indications de l'assistance circulatoire (ECLS/ECMO) dans l'arrêt cardiaque réfractaire, intra- et extrahospitalier : définition et changement de paradigme, déterminants no-flow/low-flow, signes remettant en cause une durée de no-flow estimée (hypothermie, signes de vie, troubles du rythme), seuil ETCO2, algorithme décisionnel complet (Fig. 1), modalités pratiques (équipe, abord vasculaire), spécificités pédiatriques et de l'AC hypothermique, limites et lacunes de connaissances explicitement reconnues par les auteurs.",
+    society: "Conseil français de réanimation cardiopulmonaire, SFAR, SFC, SFCTCV, SFMU, SF Pédiatrie, GFRUP, SF Perfusion, SRLF — RFE 2009",
+    version: "2009 (Ann Fr Anesth Reanim 2009;28:182-186)",
+    validated: "Coordonnateur : Bruno Riou — sous l'égide de la DGS/DHOS",
+    methodology: "Prose continue, sans GRADE ni R1/R2 — niveau 5 (avis d'experts) global",
+    pages: 5,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Recommandations-sur-les-indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires.pdf"
   }
 };
 

@@ -1,0 +1,777 @@
+{
+ "doc": "transfusion_plasma",
+ "sections": [
+  {
+   "title": "Actualisation 2012 — produits, indications, pédiatrie & antidote AVK",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> produits, caractéristiques et indications de la transfusion de plasma thérapeutique homologue et autologue, chez l'adulte, le nouveau-né et l'enfant. Actualisation des recommandations de 2002 par l'ANSM et la HAS (juin 2012), suite à l'abrogation de l'arrêté du 3 décembre 1991 : ces recommandations constituent depuis le 13 juillet 2011 l'unique référence officielle pour la prescription du plasma en France.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie — grades HAS/ANAES (A/B/C) + « accord professionnel », à la différence du GRADE (1+/2+) utilisé ailleurs dans ce corpus :</b> Grade A = preuve scientifique établie ; Grade B = présomption scientifique ; Grade C = faible niveau de preuve ; <b>« accord professionnel »</b> = absence de preuve, avis du groupe de travail après consultation de groupes de lecture. <b>Vérifié exhaustivement : 33 énoncés tagués dans le document — 6 Grade B, 11 Grade C, 16 accord professionnel, AUCUN Grade A.</b> Plusieurs énoncés cliniquement importants ne portent aucun tag explicite dans la source : reproduits avec « — » dans la colonne Niveau plutôt que de leur attribuer un grade non présent dans le texte source.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "En bref — indications et non-indications (synthèse de la source)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Indiqué :</b> hémorragie modérée/peu évolutive/contrôlée guidée par les tests de laboratoire (ratio Quick patient/témoin &gt; 1,5) ; choc hémorragique et transfusion massive (ratio PFC:CGR 1:2 à 1:1) ; neurochirurgie sans transfusion massive (TP &lt; 50 % en traumatisé crânien grave, &lt; 60 % pour pose de capteur de PIC) ; chirurgie cardiaque avec saignement microvasculaire persistant et déficit en facteurs (TP ≤ 40 % ou TCA &gt; 1,8/témoin) ; CIVD obstétricale non contrôlée par le traitement étiologique ; CIVD avec effondrement des facteurs (TP &lt; 35-40 %) et hémorragie active/potentielle ; micro-angiopathie thrombotique (PTT, SHU grave) ; nouveau-né/enfant : indications similaires à l'adulte, et grand prématuré &lt; 29 SA en détresse vitale si facteurs &lt; 20 % même sans syndrome hémorragique ; surdosage grave en AVK, seulement en l'absence de CCP disponible (ou de CCP sans héparine si antécédent de TIH).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Non indiqué :</b> prophylaxie du saignement (altération mineure/modérée de l'hémostase) ; soluté de remplissage (brûlé compris) ; chirurgie cardiaque sans saignement ; insuffisance hépatocellulaire chronique ou insuffisance hépatique aiguë sévère sans saignement, dans le seul but de corriger l'hémostase ; poussées aiguës d'œdème angioneurotique héréditaire ; hémorragie sous anticoagulants oraux directs (aucune donnée clinique) ; chez l'enfant : SHU typique post-diarrhéique (STEC+), infection néonatale sans CIVD, hypovolémie sans trouble de l'hémostase, prévention des hémorragies intraventriculaires du prématuré sans coagulopathie, nouveau-né sain avant chirurgie.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Les 4 plasmas thérapeutiques homologues disponibles",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Aucun argument ni aucune étude ne démontre la supériorité d'une préparation par rapport à une autre en termes d'efficacité (<b>Grade B</b>) ni de sécurité transfusionnelle (aucune étude comparative disponible).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Plasma",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Préparation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Volume/unité",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conservation",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "PFC-SD",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Viro-atténué par solvant-détergent (TnBP + Triton X100), mélange de plasmas d'aphérèse de 100 donneurs de même groupe ABO",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "200 mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≤ -25 °C, 1 an après préparation",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "PFC-IA",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Plasma unitaire déleucocyté traité par amotosalen + UVA, congelé dans les 8h suivant le prélèvement",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "200-300 mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≤ -25 °C, 1 an après prélèvement",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "PFC-Se",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sécurisé par quarantaine (min. 60 jours), congelé dans les 24h suivant le prélèvement, sans traitement physico-chimique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "200-850 mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "≤ -25 °C, 1 an après prélèvement",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "PLYO",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Lyophilisé à partir de PFC-IA, 10 donneurs max (A/B/AB), usage militaire principalement (OPEX)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Reconstitué avec 200 mL d'eau PPI → 210 mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+2 à +25 °C à l'abri de la lumière, 2 ans après lyophilisation",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Décongélation au bain-marie +37 °C ± 2 (ou méthode approuvée ANSM) : ≤ 30 min pour un volume &lt; 400 mL, ≤ 40 min pour 400-600 mL, ≤ 50 min pour ≥ 600 mL. Après décongélation, vérification visuelle systématique de chaque unité (élimination des poches défectueuses ou d'aspect suspect) ; transfusion au plus tard <b>6 heures</b> après décongélation/reconstitution — la recongélation est interdite. Norme française facteur VIII : ≥ 0,7 UI/mL (PFC-Se), ≥ 0,5 UI/mL (PFC-IA, PFC-SD, PLYO) ; PFC-IA : ≥ 2 g/L de fibrinogène après décongélation.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Transformations</b> — « préparation pédiatrique » : unités pédiatriques d'au moins 50 mL préparées avant congélation à partir d'un PFC homologue. « Sang reconstitué à usage pédiatrique » : mélange d'un CGR et d'un PFC homologue décongelé (volume adapté à l'hématocrite visé, ou albumine à la place du PFC), produit périmé à 6h. « Mélange de plasmas sécurisés » : jusqu'à 12 unités homologues de même groupe ABO et même type de sécurisation, mélangées après décongélation.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Plasma autologue</b> (destiné au même sujet) : utilisable sans sécurisation virale, déleucocytation non systématique. Volume minimal 120 mL (unité adulte) ou 50 mL (unité enfant) pour le PFC autologue issu de sang total. Conservation congelée jusqu'à péremption des CGR prélevés chez le même patient (42 jours, extensible à 1 an sur protocole), ou 72h entre +2 et +6 °C ; utilisation recommandée en moins de 6h après décongélation.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Compatibilité ABO :</b> règle générale = plasma isogroupe. En cas d'indisponibilité (urgence vitale), le plasma AB est utilisable quel que soit le groupe du receveur, le plasma A ou B pour un receveur O ; le plasma O n'est compatible qu'avec un receveur O (mention obligatoire « Réservé exclusivement à une transfusion isogroupe ABO »).",
+     "style": "body_sm"
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Contre-indication ABSOLUE</b> (tous types de plasma) : présence d'un anticorps anti-IgA chez un sujet déficitaire en IgA (risque de réaction anaphylactique). <b>Contre-indication spécifique au PFC-IA</b> : antécédent de réponse allergique à l'amotosalen ou aux psoralènes (le texte source l'exprime lui-même comme une contre-indication, non une simple précaution). Les autres mesures listées par type de plasma (changement de lot/don après une 1<sup>re</sup> réaction allergique pour le PFC-SD/PFC-Se, précaution de photothérapie néonatale pour le PFC-IA) restent, elles, des <b>précautions d'emploi</b>.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>Effets indésirables :</b> le plasma est le PSL le moins souvent impliqué dans les déclarations d'hémovigilance. Deux complications potentiellement graves (2006-2010) : <b>TRALI</b> (détresse respiratoire aiguë post-transfusionnelle, lié aux anticorps anti-leucocytaires acquis pendant la grossesse — prévention : seuls hommes, femmes nullipares, et femmes avec enfant à recherche anti-HLA négative sont admis comme donneurs de plasma) et <b>réactions allergiques</b> (rares mais toute réaction grave impose des explorations allergologiques immédiates — histamine, tryptase — et à distance, 4-6 semaines).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tests biologiques :</b> le temps de Quick est le test essentiel de détection des coagulopathies acquises. L'INR n'est utilisable que sous AVK. Le ratio temps de Quick patient/témoin (seuil &gt; 1,5) est la meilleure expression du résultat hors AVK, notamment en hémorragie massive. Biologie délocalisée (TP délocalisé, thromboélastogramme) : corrélation acceptable, utile pour le suivi du fibrinogène et la mise en évidence d'une hyperfibrinolyse, mais réservée à des équipes entraînées.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Indications — Chirurgie, traumatologie et obstétrique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ne pas utiliser le plasma thérapeutique comme soluté de remplissage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Administration prophylactique avant la survenue du saignement, chez un patient à facteurs normaux ou modérément altérés : non indiquée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie modérée/peu évolutive/contrôlée : administration guidée en priorité par les tests de laboratoire, réalisée seulement si ratio Quick patient/témoin &gt; 1,5 (TP ≈ 40 %).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Volume initial de plasma à prescrire : 10 à 15 mL/kg ; pas d'argument pour transfuser plus précocement ou plus massivement dans cette indication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Choc hémorragique/transfusion massive (&gt; 5 CGR en 3h) : transfuser le plasma en association aux CGR, ratio PFC:CGR entre 1:2 et 1:1.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "La transfusion de plasma doit débuter au plus vite, idéalement en même temps que les concentrés de globules rouges.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Transfusion plaquettaire précoce, généralement dès la 2<sup>e</sup> prescription transfusionnelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mise en place de protocoles de transfusion massive dans les centres prenant en charge des hémorragies massives (réduction des délais : coursiers, décongélation sur appel SAMU).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surveiller l'évolution du fibrinogène, objectif 1,5-2 g/L au cours de la prise en charge transfusionnelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Obstétrique : plasma recommandé dans la coagulopathie obstétricale si le traitement étiologique ne contrôle pas rapidement l'hémorragie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Obstétrique : fibrinogène mesuré précocement pour prédire la gravité de l'hémorragie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Obstétrique : décider de la stratégie transfusionnelle pour maintenir le fibrinogène ≥ 2 g/L ; monitorage répété au moins toutes les 2-3h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neurochirurgie, sans hémorragie massive : plasma indiqué si TP &lt; 50 % (surveillance d'un traumatisé crânien grave) ou &lt; 60 % (pose d'un capteur de pression intracrânienne).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie cardiaque : indication seulement si saignement microvasculaire persistant ET déficit en facteurs (TP ≤ 40 % ou TCA &gt; 1,8/témoin, temps de thrombine normal, ou facteurs ≤ 40 %).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie cardiaque, en l'absence de saignement : pas d'indication au plasma (prescription prophylactique non justifiée, aucun bénéfice, risques transfusionnels accrus).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chaque centre de chirurgie cardiaque doit établir son propre algorithme décisionnel (réduit la consommation de PSL, les complications post-opératoires et la durée de séjour).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie cardiaque : posologie initiale 15 mL/kg, répétée selon réévaluation clinico-biologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rupture d'anévrysme de l'aorte abdominale : prise en charge intensive et précoce avec ratio PFC:CGR augmenté jusqu'à 1:1 en peropératoire, associée à une amélioration de la survie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Insuffisance hépatocellulaire chronique, sans saignement : transfusion de PFC non recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Insuffisance hépatique aiguë sévère, sujet ne saignant pas et non exposé à un geste vulnérant : transfusion systématique/préventive non recommandée dans le seul but de corriger l'hémostase (aucune preuve de bénéfice, perturbe la valeur pronostique pour la décision de transplantation). Exception : peut être envisagée, parmi d'autres traitements hémostatiques et selon les anomalies prédominantes de la coagulation, avant la pose d'un capteur de pression intracrânienne et après décision de transplantation hépatique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Brûlures : plasma comme soluté de remplissage, non justifié.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Indications en médecine",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CIVD avec effondrement des facteurs (TP &lt; 35-40 %), associée à une hémorragie active ou potentielle (acte invasif) : transfusion de 10 à 15 mL/kg.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Déficit en un facteur pour lequel une préparation purifiée existe mais n'est pas rapidement disponible : apport de plasma (10-15 mL/kg) licite en situation d'urgence hémorragique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Micro-angiopathie thrombotique (PTT, SHU grave) : effet thérapeutique reconnu à 40-60 mL/kg (1 à 1,5 masse plasmatique), préférentiellement par échanges plasmatiques quotidiens jusqu'à disparition des défaillances d'organe et plaquettes &gt; 150 G/L pendant ≥ 48h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitements immunomodulateurs associés : peuvent diminuer la durée du traitement chez les patients en réponse sub-optimale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Plasmathérapie au long cours : peut être nécessaire dans les PTT héréditaires récurrents.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "SHU atypique : les échanges plasmatiques constituent le traitement de 1<sup>re</sup> ligne (ne repose pas sur des essais thérapeutiques).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Échanges plasmatiques aux colloïdes, patient sans risque hémorragique : maintenir le fibrinogène ≥ 1 g/L (plasma en fin de séance, 10-20 mL/kg). Risque hémorragique lié à la pathologie : plasma plus précoce et à plus forte dose (30 mL/kg).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Avant une intervention chirurgicale à fort risque hémorragique à court terme : utiliser du PFC (et non un colloïde) lors des échanges plasmatiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Œdème angioneurotique héréditaire : le plasma n'est pas le traitement des poussées aiguës (C1-INH IV ou icatibant SC en 1<sup>re</sup> ligne) ; envisageable seulement en l'absence de disponibilité immédiate des traitements spécifiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Néonatologie et pédiatrie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Utilisation similaire à l'adulte (CIVD, hémorragie massive, insuffisance hépatique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CIVD avec syndrome hémorragique grave : transfusion à 10-20 mL/kg, parallèlement au traitement de la cause.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Circulation extra-corporelle (CEC) : utiliser du sang reconstitué avec du plasma thérapeutique pour l'amorçage des circuits.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Grand prématuré &lt; 29 SA en détresse vitale : transfusion fréquemment utilisée si facteurs de coagulation &lt; 20 %, même en l'absence de syndrome hémorragique clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Syndrome hémorragique sévère dans l'attente de l'effet de la vitamine K (maladie hémorragique du nouveau-né) : recours au PFC possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Non indiqué chez l'enfant/nouveau-né : SHU typique post-diarrhéique (STEC+) sans critère de gravité ; infection néonatale sans CIVD (adjuvant à l'antibiothérapie) ; hypovolémie sans syndrome hémorragique ni trouble de l'hémostase ; prévention des hémorragies intraventriculaires du prématuré sans coagulopathie ; nouveau-né sain avant chirurgie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Posologie en néonatologie : 10-20 mL/kg sur 1 à 3h IV au perfuseur électrique (débit constant) — le plasma apporte ≈ 170 mmol/L de sodium, à prendre en compte dans l'équilibre hydroélectrolytique. Prophylaxie systématique de la maladie hémorragique du nouveau-né par vitamine K (2 mg à terme / 1 mg/kg si prématuré, renouvelé J2-J7 ; 2 mg/semaine PO si allaitement exclusif jusqu'au sevrage).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Antidote au surdosage en AVK",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Encadré par les recommandations HAS de 2008 (toujours valides) : en cas d'hémorragie grave sous AVK, la <b>vitamine K</b> et les <b>concentrés de complexe prothrombinique (CCP)</b> sont les moyens les plus appropriés. La place du PFC est exceptionnelle, limitée à deux situations rares :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Absence de disponibilité de CCP pour antagoniser les AVK en cas d'hémorragie grave.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Absence de disponibilité de CCP ne contenant pas d'héparine, chez un patient aux antécédents de thrombopénie induite par l'héparine (TIH).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Hémorragie grave ou potentiellement grave</i> = au moins un critère : hémorragie extériorisée non contrôlable ; instabilité hémodynamique (PAS &lt; 90 mmHg ou chute de 40 mmHg, PAM &lt; 65 mmHg, tout signe de choc) ; geste hémostatique urgent nécessaire (chirurgie, radiologie interventionnelle, endoscopie) ; nécessité de transfusion de CGR ; localisation menaçant le pronostic vital ou fonctionnel.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Plasma autologue — indications",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aucune étude ne définit les indications du plasma autologue. Si aucune perte volémique importante n'est attendue (recours au plasma non envisagé) : le prélèvement pour transfusion autologue peut se faire par érythrocytaphérèse (ne fournit pas de plasma autologue).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lorsque le plasma autologue est disponible, le choix entre son emploi et les cristalloïdes/colloïdes doit être pesé au cas par cas (risques relatifs comparables) : l'emploi systématique comme produit de remplissage ne peut être recommandé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des indications gradées et des messages-clés du texte source, mais ne remplace pas le texte intégral et n'est ni éditée ni validée par l'ANSM ou la HAS. En cas de doute, se référer au texte intégral et/ou à un avis spécialisé transfusionnel.",
+     "style": "source"
+    }
+   ]
+  }
+ ]
+}

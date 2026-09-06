@@ -53,7 +53,8 @@ var RAW = {
   tih: JSON.parse(document.getElementById('content-tih').textContent),
   civd: JSON.parse(document.getElementById('content-civd').textContent),
   eclsa: JSON.parse(document.getElementById('content-eclsa').textContent),
-  transport_intrahospitalier: JSON.parse(document.getElementById('content-transport_intrahospitalier').textContent)
+  transport_intrahospitalier: JSON.parse(document.getElementById('content-transport_intrahospitalier').textContent),
+  transfusion_plasma: JSON.parse(document.getElementById('content-transfusion_plasma').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -108,7 +109,8 @@ var FICHE_HREF_MATCH = {
   tih: ['diagnostic-et-prise-en-charge-dune-thrombopenie-induite-par-lheparine', 'propositions-tih-gihp-gfht-sfar'],
   civd: ['coagulations-intra-vasculaires-disseminees-civd-en-reanimation', '86-civdccons'],
   eclsa: ['indications-de-lassistance-circulatoire-dans-le-traitement-des-arrets-cardiaques-refractaires', '2_AFAR_Recommandations-sur-les-indications-de-lassistance-circulatoire'],
-  transport_intrahospitalier: ['transport-intrahospitalier-des-patients-a-risque-vital', '2_AFAR_Transport-intrahospitalier-des-patients-a-risque-vital']
+  transport_intrahospitalier: ['transport-intrahospitalier-des-patients-a-risque-vital', '2_AFAR_Transport-intrahospitalier-des-patients-a-risque-vital'],
+  transfusion_plasma: ['transfusion-de-plasma-therapeutique-produits-indications', '2_HAS_Texte-court-ransfusion-de-plasma-therapeutique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -709,6 +711,18 @@ var DOC_META = {
     methodology: "Accord fort (RAND/UCLA à deux tours, pas de grade GRADE)",
     pages: 5,
     url: "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_Transport-intrahospitalier-des-patients-a-risque-vital.pdf"
+  },
+  transfusion_plasma: {
+    key: 'transfusion_plasma',
+    badge: 'GRADE A/B/C',
+    title: "Transfusion de plasma thérapeutique",
+    short: "Produits, caractéristiques et indications de la transfusion de plasma thérapeutique homologue (PFC-SD, PFC-IA, PFC-Se, PLYO) et autologue : compatibilité ABO, effets indésirables (TRALI, allergie), contre-indications ; indications gradées en chirurgie/traumatologie/obstétrique, en médecine (CIVD, micro-angiopathies thrombotiques, échanges plasmatiques, œdème angioneurotique héréditaire), en néonatologie/pédiatrie, et comme antidote exceptionnel au surdosage en AVK.",
+    society: "ANSM & HAS — Actualisation 2012",
+    version: "2012 (juin 2012)",
+    validated: "ANSM / HAS, en concertation avec les sociétés savantes concernées",
+    methodology: "Grades HAS/ANAES A/B/C + accord professionnel (pas de GRADE 1+/2+)",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Texte-court-ransfusion-de-plasma-therapeutique-Produits-indications.pdf"
   }
 };
 

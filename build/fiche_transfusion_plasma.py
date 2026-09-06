@@ -17,8 +17,14 @@ Grade B = presomption scientifique, Grade C = faible niveau de preuve ;
 "accord professionnel" = absence de preuve, avis du groupe de travail).
 VERIFIE PAR GREP EXHAUSTIF (grep -no 'grade [ABC]|accord professionnel' sur le
 texte source, insensible a une coquille OCR "arade B" pour "grade B" a la
-ligne 860) : 30 enonces portent un tag explicite - 5x Grade B, 12x Grade C,
-13x accord professionnel. AUCUN Grade A trouve nulle part dans le document
+ligne 860) : un grep ligne-a-ligne naif ne trouve que 30 occurrences, mais 3
+tags supplementaires enjambent un saut de ligne dans le texte extrait (1
+Grade B pres de "immunomodulateurs", lignes 870-871 ; 2 accord professionnel
+lignes 667-668 et 826-827) et ont ete retrouves par lecture manuelle. Total
+reel retranscrit dans les tableaux de cette fiche : 33 enonces gradees -
+6x Grade B, 11x Grade C, 16x accord professionnel (+ 7 enonces sans tag
+explicite, retranscrits "—", voir plus bas). AUCUN Grade A trouve nulle part
+dans le document
 (disclosure : le corpus ne comporte que des preuves de niveau B/C ou un
 consensus d'experts, jamais de preuve de niveau A, pour la transfusion de
 plasma). Plusieurs enonces cliniquement importants (ex. definition du risque
@@ -150,8 +156,8 @@ def _section_intro():
         "du GRADE (1+/2+) utilisé ailleurs dans ce corpus :</b> Grade A = preuve scientifique "
         "établie ; Grade B = présomption scientifique ; Grade C = faible niveau de preuve ; "
         "<b>« accord professionnel »</b> = absence de preuve, avis du groupe de travail après "
-        "consultation de groupes de lecture. <b>Vérifié exhaustivement (grep) : 30 énoncés tagués "
-        "dans le document — 5 Grade B, 12 Grade C, 13 accord professionnel, AUCUN Grade A.</b> "
+        "consultation de groupes de lecture. <b>Vérifié exhaustivement : 33 énoncés tagués "
+        "dans le document — 6 Grade B, 11 Grade C, 16 accord professionnel, AUCUN Grade A.</b> "
         "Plusieurs énoncés cliniquement importants ne portent aucun tag explicite dans la source : "
         "reproduits avec « — » dans la colonne Niveau plutôt que de leur attribuer un grade non "
         "présent dans le texte source.", S_BODY_SM), bg=BG_PANEL, border=TEAL))
@@ -203,26 +209,39 @@ def _section_types_plasma():
              "≤ -25 °C, 1 an après préparation"],
             ["PFC-IA", "Plasma unitaire déleucocyté traité par amotosalen + UVA, congelé dans "
              "les 8h suivant le prélèvement", "200-300 mL", "≤ -25 °C, 1 an après prélèvement"],
-            ["PFC-Se", "Sécurisé par quarantaine (min. 60 jours), sans traitement "
-             "physico-chimique", "200-850 mL", "≤ -25 °C, 1 an après prélèvement"],
+            ["PFC-Se", "Sécurisé par quarantaine (min. 60 jours), congelé dans les 24h suivant "
+             "le prélèvement, sans traitement physico-chimique", "200-850 mL",
+             "≤ -25 °C, 1 an après prélèvement"],
             ["PLYO", "Lyophilisé à partir de PFC-IA, 10 donneurs max (A/B/AB), usage militaire "
              "principalement (OPEX)", "Reconstitué avec 200 mL d'eau PPI → 210 mL",
              "+2 à +25 °C à l'abri de la lumière, 2 ans après lyophilisation"],
         ],
         [cw * 0.12, cw * 0.48, cw * 0.20, cw * 0.20]))
     story.append(Spacer(1, 1.5 * mm))
-    story.append(P("Tous doivent être décongelés/reconstitués selon des règles strictes "
-                    "(bain-marie +37 °C ± 2, ou méthode approuvée ANSM) et transfusés au plus "
-                    "tard <b>6 heures</b> après décongélation/reconstitution — la recongélation "
-                    "est interdite. Norme française facteur VIII : ≥ 0,7 UI/mL (PFC-Se), "
-                    "≥ 0,5 UI/mL (PFC-IA, PFC-SD, PLYO) ; PFC-IA : ≥ 2 g/L de fibrinogène après "
-                    "décongélation.", S_NOTE))
+    story.append(P("Décongélation au bain-marie +37 °C ± 2 (ou méthode approuvée ANSM) : "
+                    "≤ 30 min pour un volume &lt; 400 mL, ≤ 40 min pour 400-600 mL, ≤ 50 min "
+                    "pour ≥ 600 mL. Après décongélation, vérification visuelle systématique de "
+                    "chaque unité (élimination des poches défectueuses ou d'aspect suspect) ; "
+                    "transfusion au plus tard <b>6 heures</b> après décongélation/reconstitution "
+                    "— la recongélation est interdite. Norme française facteur VIII : "
+                    "≥ 0,7 UI/mL (PFC-Se), ≥ 0,5 UI/mL (PFC-IA, PFC-SD, PLYO) ; PFC-IA : "
+                    "≥ 2 g/L de fibrinogène après décongélation.", S_NOTE))
+    story.append(Spacer(1, 2 * mm))
+    story.append(P("<b>Transformations</b> — « préparation pédiatrique » : unités pédiatriques "
+                    "d'au moins 50 mL préparées avant congélation à partir d'un PFC homologue. "
+                    "« Sang reconstitué à usage pédiatrique » : mélange d'un CGR et d'un PFC "
+                    "homologue décongelé (volume adapté à l'hématocrite visé, ou albumine à la "
+                    "place du PFC), produit périmé à 6h. « Mélange de plasmas sécurisés » : "
+                    "jusqu'à 12 unités homologues de même groupe ABO et même type de "
+                    "sécurisation, mélangées après décongélation.", S_BODY_SM))
     story.append(Spacer(1, 2 * mm))
     story.append(P("<b>Plasma autologue</b> (destiné au même sujet) : utilisable sans "
-                    "sécurisation virale. Conservation congelée jusqu'à péremption des CGR "
-                    "prélevés chez le même patient (42 jours, extensible à 1 an sur protocole), "
-                    "ou 72h entre +2 et +6 °C ; utilisation recommandée en moins de 6h après "
-                    "décongélation.", S_BODY_SM))
+                    "sécurisation virale, déleucocytation non systématique. Volume minimal "
+                    "120 mL (unité adulte) ou 50 mL (unité enfant) pour le PFC autologue issu de "
+                    "sang total. Conservation congelée jusqu'à péremption des CGR prélevés chez "
+                    "le même patient (42 jours, extensible à 1 an sur protocole), ou 72h entre "
+                    "+2 et +6 °C ; utilisation recommandée en moins de 6h après décongélation.",
+                    S_BODY_SM))
     story.append(Spacer(1, 2 * mm))
     story.append(P("<b>Compatibilité ABO :</b> règle générale = plasma isogroupe. En cas "
                     "d'indisponibilité (urgence vitale), le plasma AB est utilisable quel que "
@@ -231,11 +250,14 @@ def _section_types_plasma():
                     "exclusivement à une transfusion isogroupe ABO »).", S_BODY_SM))
     story.append(Spacer(1, 2 * mm))
     story.append(info_panel(P(
-        "<b>Seule contre-indication ABSOLUE</b> (tous types de plasma) : présence d'un anticorps "
-        "anti-IgA chez un sujet déficitaire en IgA (risque de réaction anaphylactique). Les "
-        "autres mesures listées par type de plasma (allergie à l'amotosalen pour le PFC-IA, "
-        "changement de lot/don après réaction allergique pour le PFC-SD/PFC-Se) sont des "
-        "<b>précautions d'emploi</b>, non des contre-indications.", S_BODY_SM), bg=RED_LIGHT, border=RED))
+        "<b>Contre-indication ABSOLUE</b> (tous types de plasma) : présence d'un anticorps "
+        "anti-IgA chez un sujet déficitaire en IgA (risque de réaction anaphylactique). "
+        "<b>Contre-indication spécifique au PFC-IA</b> : antécédent de réponse allergique à "
+        "l'amotosalen ou aux psoralènes (le texte source l'exprime lui-même comme une "
+        "contre-indication, non une simple précaution). Les autres mesures listées par type de "
+        "plasma (changement de lot/don après une 1<sup>re</sup> réaction allergique pour le "
+        "PFC-SD/PFC-Se, précaution de photothérapie néonatale pour le PFC-IA) restent, elles, "
+        "des <b>précautions d'emploi</b>.", S_BODY_SM), bg=RED_LIGHT, border=RED))
     story.append(Spacer(1, 2 * mm))
     story.append(P("<b>Effets indésirables :</b> le plasma est le PSL le moins souvent impliqué "
                     "dans les déclarations d'hémovigilance. Deux complications potentiellement "
@@ -308,7 +330,10 @@ def _section_chirurgie():
         ("Insuffisance hépatique aiguë sévère, sujet ne saignant pas et non exposé à un geste "
          "vulnérant : transfusion systématique/préventive non recommandée dans le seul but de "
          "corriger l'hémostase (aucune preuve de bénéfice, perturbe la valeur pronostique pour "
-         "la décision de transplantation).", "AP"),
+         "la décision de transplantation). Exception : peut être envisagée, parmi d'autres "
+         "traitements hémostatiques et selon les anomalies prédominantes de la coagulation, "
+         "avant la pose d'un capteur de pression intracrânienne et après décision de "
+         "transplantation hépatique.", "AP"),
         ("Brûlures : plasma comme soluté de remplissage, non justifié.", "AP"),
     ]))
     return story

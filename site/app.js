@@ -49,7 +49,8 @@ var RAW = {
   mal_epileptique: JSON.parse(document.getElementById('content-mal_epileptique').textContent),
   allergie_prevention: JSON.parse(document.getElementById('content-allergie_prevention').textContent),
   antibioprophylaxie: JSON.parse(document.getElementById('content-antibioprophylaxie').textContent),
-  controle_temperature: JSON.parse(document.getElementById('content-controle_temperature').textContent)
+  controle_temperature: JSON.parse(document.getElementById('content-controle_temperature').textContent),
+  tih: JSON.parse(document.getElementById('content-tih').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -100,7 +101,8 @@ var FICHE_HREF_MATCH = {
   mal_epileptique: ['prise-en-charge-en-situation-durgence-et-en-reanimation-des-etats-de-mal-epileptiques', '3_REANIMATION_Prise-en-charge'],
   allergie_prevention: ['prevention-du-risque-allergique-peranesthesique-2', '2_AFAR_Prevention-du-risque-allergique-peranesthesique'],
   antibioprophylaxie: ['antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/', 'wpdmdl=68362'],
-  controle_temperature: ['controle-cible-de-la-temperature-en-reanimation', 'rfe-controle-cible-de-la-temperature-en-reanimation']
+  controle_temperature: ['controle-cible-de-la-temperature-en-reanimation', 'rfe-controle-cible-de-la-temperature-en-reanimation'],
+  tih: ['diagnostic-et-prise-en-charge-dune-thrombopenie-induite-par-lheparine', 'propositions-tih-gihp-gfht-sfar']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -653,6 +655,18 @@ var DOC_META = {
     methodology: "GRADE",
     pages: 6,
     url: "https://sfar.org/wp-content/uploads/2019/10/rfe-controle-cible-de-la-temperature-en-reanimation.pdf"
+  },
+  tih: {
+    key: 'tih',
+    badge: 'ACCORD',
+    title: "Thrombopénie induite par l'héparine (TIH)",
+    short: "12 questions, 40 propositions (toutes à accord fort, pas de grade GRADE) : stades et niveaux de risque, surveillance de la numération plaquettaire, circonstances évocatrices et score des 4T, diagnostic biologique (anticorps anti-FP4, tests fonctionnels), prise en charge initiale, choix et posologie des anticoagulants de substitution (danaparoïde, argatroban, bivalirudine, fondaparinux, AOD, AVK), chirurgie hors cardiaque et chirurgie cardiaque avec/sans CEC, médecine/obstétrique/pédiatrie, prévention d'une récidive.",
+    society: "GIHP & GFHT, en collaboration avec la SFAR — Propositions 2019",
+    version: "2019 (actualise la conférence d'experts SFAR de 2002)",
+    validated: "Vote du groupe GIHP/GFHT (n=32 participants)",
+    methodology: "Accord fort (méthode GIHP/GFHT, pas de grade GRADE)",
+    pages: 9,
+    url: "https://sfar.org/download/propositions-tih-gihp-gfht-sfar/?wpdmdl=24461"
   }
 };
 

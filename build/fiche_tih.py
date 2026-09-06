@@ -458,6 +458,56 @@ def _section_q7_choix():
     ], col_widths=[REF_W, PAGE_W - 2 * MARGIN - REF_W - ACCORD_W, ACCORD_W]))
     return story
 
+def _section_q7_danaparoide():
+    story = []
+    story.append(Spacer(1, 2 * mm))
+    story.append(P("<b>A. Le danaparoïde sodique</b> (Orgaran®) — héparinoïde d'extraction "
+                    "(héparane sulfate, dermatane sulfate, chondroïtine sulfate), activité "
+                    "anticoagulante principalement anti-Xa avec une faible activité anti-IIa. "
+                    "AMM : traitement prophylactique et curatif des événements "
+                    "thromboemboliques chez les patients atteints de TIH ou ayant un antécédent "
+                    "documenté de TIH.", S_BODY_SM))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P("<i>Disclosure — demi-vie anti-Xa : la source donne deux valeurs "
+                    "différentes selon l'endroit du texte : « environ 25 h » dans "
+                    "l'argumentaire de la Question 7, contre « ≈ 24h » dans le Tableau V "
+                    "(délais d'arrêt pré-procéduraux, Question 9). Les deux valeurs sont "
+                    "reproduites telles quelles, sans harmonisation silencieuse. Demi-vie "
+                    "anti-IIa : 7h dans les deux cas (allongée en insuffisance rénale, où "
+                    "l'argatroban est préférable).</i>", S_NOTE))
+    story.append(Spacer(1, 2 * mm))
+    cw = PAGE_W - 2 * MARGIN
+    story.append(simple_table(
+        ["Contexte", "Posologie", "Surveillance"],
+        [
+            ["IV curative (adulte)", "Bolus IV selon le poids : 1250 U (≤ 55 kg), 2500 U "
+             "(55-90 kg), 3750 U (&gt; 90 kg) ; puis perfusion 400 U/h × 4h, 300 U/h × 4h, "
+             "puis 150-200 U/h", "Activité anti-Xa quotidienne (1er dosage 4h après le "
+             "début), cible 0,5-0,8 U/mL (gamme danaparoïde)"],
+            ["SC curative (si IV impossible)", "1500 U SC ×2/j (≤ 55 kg), 2000 U SC ×2/j "
+             "(55-90 kg), 1750 U SC ×3/j (&gt; 90 kg)", "idem"],
+            ["Préventive (antécédent de TIH)", "750 U SC ×2/j (≤ 90 kg), 1250 U SC ×2/j "
+             "(&gt; 90 kg)", "—"],
+            ["Pédiatrie (thrombose constituée)", "Bolus IV 30 U/kg puis entretien "
+             "1,2-2,0 U/kg/h", "idem adulte"],
+            ["Hémodialyse intermittente", "Bolus 3750 U (2500 U si &lt; 55 kg) avant les 2 "
+             "premières séances, puis 3000 U (2000 U si &lt; 55 kg)", "—"],
+        ],
+        [cw * 0.22, cw * 0.53, cw * 0.25]))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P("Réactivité croisée in vitro avec les anticorps de TIH dans 3 à 10 % des "
+                    "cas (conséquences cliniques rares) : un traitement peut être débuté sans "
+                    "recherche préalable de réactivité croisée, mais surveiller la NP "
+                    "quotidiennement jusqu'à normalisation puis 2 fois/semaine pendant 2 "
+                    "semaines. Surdosage : arrêt transitoire de la perfusion + monitorage de "
+                    "l'activité anti-Xa ; en cas d'hémorragie grave, la <b>protamine n'est pas "
+                    "recommandée</b> par le RCP (neutralisation partielle seulement) ; "
+                    "plasmaphérèse envisageable si saignement incontrôlable. Relais AVK "
+                    "initié après 5-7 jours de traitement et NP &gt; 150 G/L ; danaparoïde "
+                    "arrêté quand l'INR est en zone thérapeutique (2-3) 2 jours de suite, "
+                    "après ≥ 72h de traitement par AVK.", S_BODY_SM))
+    return story
+
 def _section_q7_argatroban():
     story = []
     story.append(Spacer(1, 2 * mm))
@@ -542,7 +592,16 @@ def _section_q7_relais_bivalirudine():
              "l'argatroban.", "—"],
         ],
         [cw * 0.22, cw * 0.50, cw * 0.28]))
-    story.append(Spacer(1, 3 * mm))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P("<i>Disclosure — imprécision de formulation entre le texte et sa propre "
+                    "figure : le corps du texte introduit cette figure en disant que "
+                    "l'argatroban « ne doit être arrêté que lorsque l'INR est au moins égal "
+                    "à 4 » (soit ≥ 4), alors que la Figure 3 elle-même trace la limite à "
+                    "« INR ≤ 4 → maintien » / « INR &gt; 4 → arrêt » (soit &gt; 4 strictement). "
+                    "Le tableau ci-dessus reproduit fidèlement les seuils tels que dessinés "
+                    "dans la figure, sans les réharmoniser avec la phrase d'introduction.</i>",
+                    S_NOTE))
+    story.append(Spacer(1, 2 * mm))
 
     story.append(P("<b>C. La bivalirudine</b> — inhibiteur direct de la thrombine, demi-vie "
                     "courte (~25 min si fonction rénale normale), élimination enzymatique "
@@ -557,7 +616,11 @@ def _section_q7_relais_bivalirudine():
                     "biologique spécifique requis, n'allonge ni le TCA ni l'INR (facilite le "
                     "relais AVK), coût inférieur au danaparoïde/argatroban. <b>Contre-indiqué en "
                     "cas d'insuffisance rénale sévère</b> (élimination exclusivement rénale) et "
-                    "à éviter si instabilité clinique.", S_BODY_SM))
+                    "à éviter si instabilité clinique. <b>Posologie curative</b> proposée par "
+                    "les recommandations britanniques 2012, selon le poids : <b>5 mg</b> si "
+                    "&lt; 50 kg, <b>7,5 mg</b> si 50-100 kg, <b>10 mg</b> si &gt; 100 kg "
+                    "(1 injection SC/j ; à adapter à l'âge et à la fonction rénale).",
+                    S_BODY_SM))
     return story
 
 def _section_q7_aod_avk():
@@ -760,8 +823,22 @@ def _section_q10_bivalirudine():
                     "(bolus 30 µg/kg 10 min avant l'héparine puis perfusion 4 µg/kg/min arrêtée "
                     "5 min avant l'arrêt de CEC — effet immédiat et bref, non altéré par "
                     "l'insuffisance rénale/hépatique, mais expérience limitée dans la TIH). "
-                    "L'iloprost reste une option en urgence (ASH) mais expose à l'hypotension "
-                    "sévère.", S_BODY_SM))
+                    "L'<b>iloprost</b> (Ilomédine®, analogue de la prostacycline, demi-vie "
+                    "15-30 min) reste une option en urgence (ASH) : perfusion "
+                    "<b>6 à 12 ng/kg/min</b>, arrêtée <b>20 minutes avant la protamine</b> — "
+                    "expose à des épisodes d'hypotension artérielle sévère.", S_BODY_SM))
+    story.append(Spacer(1, 2 * mm))
+    story.append(P("<b>Inhibiteur de la thrombine injectable — l'argatroban en CEC</b> : "
+                    "option secondaire, expérience limitée, complications hémorragiques et/ou "
+                    "thrombotiques rapportées (caillots dans le réservoir de cardiotomie ou le "
+                    "péricarde) ; non retenu par l'ACCP 2012 (qui privilégiait la bivalirudine) "
+                    "et reste peu ou non recommandé dans ce contexte. Schéma rapporté : bolus "
+                    "<b>100 µg/kg</b> puis perfusion IV continue <b>5 µg/kg/min</b>, avec un "
+                    "ACT &gt; 400 sec pour démarrer la CEC puis un contrôle toutes les 15 min "
+                    "(maintien entre 500 et 600 sec) — des ACT très allongés compliquant "
+                    "l'ajustement du débit ont été observés. La <b>bivalirudine</b> est "
+                    "l'option à recommander prioritairement pour une chirurgie cardiaque en "
+                    "contexte de TIH aiguë (cf. Tableau III ci-dessous).", S_BODY_SM))
     return story
 
 def _section_q11():
@@ -877,25 +954,20 @@ def _section_q12_sources():
 def _section_A():
     return _section_intro()
 
-def _section_BCDEFG():
+def _section_BCDEFGHI():
     return (_section_q2q3() + [Spacer(1, 3 * mm)] + _section_score4t()
             + [Spacer(1, 3 * mm)] + _section_q4q5() + [Spacer(1, 3 * mm)] + _section_algo_diag()
-            + [Spacer(1, 3 * mm)] + _section_q7_choix() + [Spacer(1, 3 * mm)] + _section_q7_argatroban()
+            + [Spacer(1, 3 * mm)] + _section_q7_choix() + [Spacer(1, 3 * mm)] + _section_q7_danaparoide()
+            + [Spacer(1, 3 * mm)] + _section_q7_argatroban()
             + [Spacer(1, 3 * mm)] + _section_q7_relais_bivalirudine()
             + [Spacer(1, 3 * mm)] + _section_q7_aod_avk()
-            + [Spacer(1, 3 * mm)] + _section_q8() + [Spacer(1, 3 * mm)] + _section_q9())
-
-def _section_H():
-    return _section_q10() + [Spacer(1, 3 * mm)] + _section_q10_bivalirudine()
-
-def _section_I():
-    return _section_q11() + [Spacer(1, 3 * mm)] + _section_q12_sources()
+            + [Spacer(1, 3 * mm)] + _section_q8() + [Spacer(1, 3 * mm)] + _section_q9()
+            + [Spacer(1, 3 * mm)] + _section_q10() + [Spacer(1, 3 * mm)] + _section_q10_bivalirudine()
+            + [Spacer(1, 3 * mm)] + _section_q11() + [Spacer(1, 3 * mm)] + _section_q12_sources())
 
 SECTIONS = [
     ("Introduction, méthodologie & Q1 — Stades et niveaux de risque", _section_A),
-    ("Q2-9 — Diagnostic, biologie, anticoagulants de substitution & chirurgie", _section_BCDEFG),
-    ("Q10 — Chirurgie cardiaque avec/sans CEC", _section_H),
-    ("Q11-12 — Médecine/obstétrique/pédiatrie, prévention & sources", _section_I),
+    ("Q2-12 — Diagnostic, traitement, chirurgie, prévention & sources", _section_BCDEFGHI),
 ]
 
 def _make_doc(path=None):

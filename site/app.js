@@ -50,7 +50,8 @@ var RAW = {
   allergie_prevention: JSON.parse(document.getElementById('content-allergie_prevention').textContent),
   antibioprophylaxie: JSON.parse(document.getElementById('content-antibioprophylaxie').textContent),
   controle_temperature: JSON.parse(document.getElementById('content-controle_temperature').textContent),
-  tih: JSON.parse(document.getElementById('content-tih').textContent)
+  tih: JSON.parse(document.getElementById('content-tih').textContent),
+  civd: JSON.parse(document.getElementById('content-civd').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -102,7 +103,8 @@ var FICHE_HREF_MATCH = {
   allergie_prevention: ['prevention-du-risque-allergique-peranesthesique-2', '2_AFAR_Prevention-du-risque-allergique-peranesthesique'],
   antibioprophylaxie: ['antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle/', 'wpdmdl=68362'],
   controle_temperature: ['controle-cible-de-la-temperature-en-reanimation', 'rfe-controle-cible-de-la-temperature-en-reanimation'],
-  tih: ['diagnostic-et-prise-en-charge-dune-thrombopenie-induite-par-lheparine', 'propositions-tih-gihp-gfht-sfar']
+  tih: ['diagnostic-et-prise-en-charge-dune-thrombopenie-induite-par-lheparine', 'propositions-tih-gihp-gfht-sfar'],
+  civd: ['coagulations-intra-vasculaires-disseminees-civd-en-reanimation', '86-civdccons']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -667,6 +669,18 @@ var DOC_META = {
     methodology: "Accord fort (méthode GIHP/GFHT, pas de grade GRADE)",
     pages: 9,
     url: "https://sfar.org/download/propositions-tih-gihp-gfht-sfar/?wpdmdl=24461"
+  },
+  civd: {
+    key: 'civd',
+    badge: 'PREUVE/FORCE',
+    title: "CIVD en réanimation",
+    short: "Coagulation intravasculaire disséminée (hors cancers et hémopathies malignes) : définition et terminologie retenue (biologique/clinique/compliquée), situations à risque (mécanismes physiopathologiques), diagnostic clinique et biologique (critères de consommation majeurs/mineurs), moyens thérapeutiques substitutifs et spécifiques, stratégie selon la situation clinique (organigramme SASC) — 22 énoncés cotés sur deux axes indépendants (niveau de preuve a-d, force de recommandation 1-3, pas toujours les deux).",
+    society: "SRLF, avec la SFAR, la Société Française d'Hématologie (GEHT) et le GFRUP — Conférence de Consensus 2002",
+    version: "2002 (XXIIe Conférence de Consensus)",
+    validated: "Faculté de Médecine de Lille, 10 octobre 2002 — Président du jury : P.E. Bollaert",
+    methodology: "Preuve (a-d) + Force (1-3), deux axes indépendants, non GRADE",
+    pages: 6,
+    url: "https://sfar.org/wp-content/uploads/2015/10/86-civdccons.pdf"
   }
 };
 

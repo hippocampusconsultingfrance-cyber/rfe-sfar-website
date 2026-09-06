@@ -100,6 +100,8 @@ with open(os.path.join(BASE, "content_controle_temperature.json"), encoding="utf
     content_controle_temperature = f.read()
 with open(os.path.join(BASE, "content_tih.json"), encoding="utf-8") as f:
     content_tih = f.read()
+with open(os.path.join(BASE, "content_civd.json"), encoding="utf-8") as f:
+    content_civd = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -155,6 +157,7 @@ out = out.replace("__CONTENT_ALLERGIE_PREVENTION__", safe(content_allergie_preve
 out = out.replace("__CONTENT_ANTIBIOPROPHYLAXIE__", safe(content_antibioprophylaxie))
 out = out.replace("__CONTENT_CONTROLE_TEMPERATURE__", safe(content_controle_temperature))
 out = out.replace("__CONTENT_TIH__", safe(content_tih))
+out = out.replace("__CONTENT_CIVD__", safe(content_civd))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

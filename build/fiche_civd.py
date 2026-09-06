@@ -347,6 +347,16 @@ def _section_q3():
             ["Concentration en fibrinogène (g/L)", "—", "≤ 1"],
         ], [(PAGE_W-2*MARGIN)*0.46, (PAGE_W-2*MARGIN)*0.27, (PAGE_W-2*MARGIN)*0.27]),
     ]))
+    story.append(Spacer(1, 1.5*mm))
+    story.append(P(
+        "<b>Incohérence interne à la source (disclosure) :</b> l'organigramme de stratégie "
+        "(Question 5, page suivante) restitue ces mêmes critères avec des bornes strictement "
+        "inégalitaires partout (« plaquettes &lt; 50 G/L » ; « 50 G/L &lt; plaquettes &lt; 100 "
+        "G/L » ; « 50 % &lt; TP &lt; 65 % » ; « fibrinogène &lt; 1 g/L »), alors que ce tableau "
+        "imprime des bornes partiellement inclusives (≤ 50 ; 50 &lt; – ≤ 100 ; 50 ≤ – &lt; 65 ; "
+        "≤ 1). Les deux versions sont reproduites verbatim, chacune à l'endroit où elle apparaît "
+        "dans la source, sans qu'aucune ne soit corrigée ou harmonisée avec l'autre.",
+        S_NOTE))
     story.append(Spacer(1, 2*mm))
     story.append(P(
         "<b>Diagnostic clinique :</b> retenu en présence de signes hémorragiques ou "
@@ -448,8 +458,9 @@ def _section_q5():
     story.append(reco_table([
         ("CIVD compliquée d'hémorragie grave", "L'objectif thérapeutique est de limiter le "
          "saignement : transfusion de concentrés plaquettaires et de PFC jusqu'à arrêt du "
-         "saignement. En cas de procédure invasive, ces produits doivent être transfusés "
-         "immédiatement avant sa réalisation.", "c", "2"),
+         "saignement.", "c", "2"),
+        ("Procédure invasive", "En cas de procédure invasive, ces produits (concentrés "
+         "plaquettaires et PFC) doivent être transfusés immédiatement avant sa réalisation.", "c", "2"),
         ("Purpura fulminans / CIVD obstétricale", "La stratégie thérapeutique immédiate repose "
          "sur la symptomatologie clinique.", "c", "3"),
         ("Toute étiologie", "Aucun traitement spécifique de la CIVD n'existe, quelle que soit "

@@ -56,7 +56,8 @@ var RAW = {
   transport_intrahospitalier: JSON.parse(document.getElementById('content-transport_intrahospitalier').textContent),
   transfusion_plasma: JSON.parse(document.getElementById('content-transfusion_plasma').textContent),
   sevrage_vm: JSON.parse(document.getElementById('content-sevrage_vm').textContent),
-  asthme_aigu_grave: JSON.parse(document.getElementById('content-asthme_aigu_grave').textContent)
+  asthme_aigu_grave: JSON.parse(document.getElementById('content-asthme_aigu_grave').textContent),
+  pancreatite: JSON.parse(document.getElementById('content-pancreatite').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -114,7 +115,8 @@ var FICHE_HREF_MATCH = {
   transport_intrahospitalier: ['transport-intrahospitalier-des-patients-a-risque-vital', '2_AFAR_Transport-intrahospitalier-des-patients-a-risque-vital'],
   transfusion_plasma: ['transfusion-de-plasma-therapeutique-produits-indications', '2_HAS_Texte-court-ransfusion-de-plasma-therapeutique'],
   sevrage_vm: ['sevrage-de-la-ventilation-mecanique', '2_SFAR_Sevrage-de-la-ventilation-mecanique'],
-  asthme_aigu_grave: ['prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-a-lexclusion-du-nourrisson', 'REANIMATION_Prise-en-charge-des-crises-dasthme-aigues-graves']
+  asthme_aigu_grave: ['prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-a-lexclusion-du-nourrisson', 'REANIMATION_Prise-en-charge-des-crises-dasthme-aigues-graves'],
+  pancreatite: ['pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques', 'wpdmdl=35411']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -751,6 +753,18 @@ var DOC_META = {
     methodology: "Niveau de preuve a/b/c/d + niveau de recommandation 1/2/3 (grille SRLF, pas de GRADE) — à l'exclusion du nourrisson",
     pages: 9,
     url: "https://sfar.org/wp-content/uploads/2015/10/REANIMATION_Prise-en-charge-des-crises-dasthme-aigues-graves-de-ladulte-et-de-lenfant-.pdf"
+  },
+  pancreatite: {
+    key: 'pancreatite',
+    badge: 'GRADE',
+    title: "Pancréatite aigüe grave en soins critiques",
+    short: "14 questions PICO réparties en 3 champs : évaluation et admission en soins critiques (critères de gravité, examens des 72 premières heures, surveillance de la pression intra-abdominale — Tableau 1 du score de Marshall modifié, Figure 1 de l'algorithme diagnostique, Annexe 1 des scores de risque BISAP/SIRS/APACHE/Ranson/Balthazar/CTSI) ; prise en charge à la phase initiale (hémodynamique, respiratoire, nutrition entérale/parentérale, CPRE, thérapeutiques non conventionnelles, antalgie) ; prise en charge des complications évolutives (antibioprophylaxie, diagnostic et drainage de la nécrose infectée, antibiothérapie curative, complications vasculaires, thrombose veineuse splanchnique). 24 recommandations + 4 questions sans recommandation possible.",
+    society: "SFAR, en collaboration avec la SNFGE, la SFR, la SFNCM et la SFED",
+    version: "2021 (validé CA SFAR 30/06/2021)",
+    validated: "Coordonnateur d'experts : S. Jaber (Montpellier)",
+    methodology: "GRADE® (1+/1-/2+/2-) + avis d'experts + absence de recommandation — actualise les recommandations SFAR/CNGOF 2001",
+    pages: 48,
+    url: "https://sfar.org/download/pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques/?wpdmdl=35411"
   }
 };
 

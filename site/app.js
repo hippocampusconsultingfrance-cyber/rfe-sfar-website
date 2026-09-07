@@ -60,7 +60,8 @@ var RAW = {
   pancreatite: JSON.parse(document.getElementById('content-pancreatite').textContent),
   corticotherapie: JSON.parse(document.getElementById('content-corticotherapie').textContent),
   antibiotherapie_probabiliste: JSON.parse(document.getElementById('content-antibiotherapie_probabiliste').textContent),
-  hsa: JSON.parse(document.getElementById('content-hsa').textContent)
+  hsa: JSON.parse(document.getElementById('content-hsa').textContent),
+  sepsis_hemodynamique: JSON.parse(document.getElementById('content-sepsis_hemodynamique').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -122,7 +123,8 @@ var FICHE_HREF_MATCH = {
   pancreatite: ['pancreatite-aigue-grave-du-patient-adulte-en-soins-critiques', 'wpdmdl=35411'],
   corticotherapie: ['corticotherapie-au-cours-du-choc-septique-et-du-sdra', '2_SFAR_Corticotherapie-au-cours-du-choc-septique-et-du-SDRA'],
   antibiotherapie_probabiliste: ['antibiotherapie-probabiliste-des-etats-septiques-graves', '2_AFAR_Antibiotherapie-probabiliste-des-etats-septiques-graves'],
-  hsa: ['hemorragie-sous-arachnoidienne-hsa-grave', '2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne']
+  hsa: ['hemorragie-sous-arachnoidienne-hsa-grave', '2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne'],
+  sepsis_hemodynamique: ['prise-en-charge-hemodynamique-du-sepsis-grave-nouveau-ne-exclu', '2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -807,6 +809,18 @@ var DOC_META = {
     methodology: "Conférence d'experts (grades A/B/D/E, pas de GRADE) — signification des lettres non définie dans le texte court",
     pages: 12,
     url: "https://sfar.org/wp-content/uploads/2015/10/2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne.pdf"
+  },
+  sepsis_hemodynamique: {
+    key: 'sepsis_hemodynamique',
+    badge: 'Grades B/C/D/E',
+    title: "Prise en charge hémodynamique du sepsis grave",
+    short: "Volet circulatoire/hémodynamique exclusivement du sepsis grave et du choc septique (nouveau-né exclu) : cibles thérapeutiques, modalités de l'expansion volémique et de la transfusion, place des inotropes/vasoactifs, traitements complémentaires (corticothérapie), et algorithme de stratégie thérapeutique en 3 étapes avec repères temporels (60-90 min, 6h). 33 recommandations graduées B/C/D/E (aucun Grade A dans le texte), signification des lettres non définie dans ce texte court (disclosure dans la fiche).",
+    society: "SFAR / SRLF",
+    version: "2006 (Conférence de consensus commune, texte court)",
+    validated: "Publication : Ann Fr Anesth Réanim 2006;25 — Réanimation 2006;15",
+    methodology: "Conférence de consensus (grades B/C/D/E, pas de GRADE) — signification des lettres non définie dans le texte court",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave.pdf"
   }
 };
 

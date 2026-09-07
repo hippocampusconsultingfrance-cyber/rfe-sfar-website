@@ -43,6 +43,29 @@ Particularites pediatriques du texte source (sous-sections 1.1/2.5/3.3/4.1 + val
 italique du Tableau 1 et de la Figure 1) toutes reproduites et signalees explicitement
 (mention "(Pédiatrie)") plutot que fondues silencieusement dans les recommandations
 adulte.
+
+ANOMALIES SOURCE DISCLOSEES (trouvees par un audit independant en sous-agent, blind au
+premier jet de cette fiche, puis chacune verifiee ici par rendu de la page source a
+600dpi - jamais silencieusement corrigees) :
+  - Tableau 1 : la source imprime litteralement "> 176 mmol/l" (creatininemie) et
+    "> 78 mmol/l" (bilirubine) - confirme a 600dpi, pas un artefact d'extraction. Ces
+    valeurs sont cliniquement impossibles en mmol/l et correspondent aux seuils standards
+    en µmol/l des criteres de sepsis grave (ACCP/SCCM) - reproduites en µmol/l comme tres
+    probable coquille de la source, avec disclosure explicite en note de bas de tableau
+    (call-out †) plutot qu'une correction silencieuse.
+  - Tableau 1 : les valeurs enfant du critere respiratoire (SpO2 > 92%) et du temps de
+    recoloration capillaire (> 5 sec) ne portent AUCUN repere "(E)" explicite dans la
+    source (confirme a 600dpi) - contrairement a toutes les autres lignes du tableau.
+    Reproduites a leur place sans "(E)" invente, avec disclosure (call-out *).
+  - Q4.1 (ACTH) : la source imprime un blanc typographique entre "cortisolemie" et
+    "9 µg/dl" - confirme a 600dpi, aucun symbole n'est imprime a cet endroit (pas un
+    artefact d'extraction). Le "<" reproduit ici est la definition usuelle de la
+    non-reponse au test au Synacthene, avec disclosure explicite (call-out ‡) plutot
+    qu'une insertion silencieuse.
+  - Q1 : la phrase de contexte non gradee "Toutes les proprietes cardiaques, a
+    l'exception du debit sanguin coronaire, sont potentiellement modifiees par le
+    sepsis" (precede 1.4 dans la source) est reproduite en note - omise dans un premier
+    jet, ajoutee apres l'audit independant pour la couverture a 100%.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -125,15 +148,15 @@ def definitions_table():
         "Glycémie &gt; 7,7 mmol/l<br/>"
         "Leucocytes &gt; 12 000/mm³ ou &lt; 4 000/mm³ ou &gt; 10 % de formes immatures<br/>"
         "Altération des fonctions supérieures<br/>"
-        "Temps de recoloration capillaire &gt; 2 sec (A), &gt; 5 sec (E)<br/>"
+        "Temps de recoloration capillaire &gt; 2 sec (A), &gt; 5 sec<sup>*</sup><br/>"
         "Lactatémie &gt; 2 mmol/l", S_CELL)
     sepsis_grave = P(
         "Sepsis + [ lactates &gt; 4 mmol/l <b>ou</b> hypotension artérielle avant remplissage "
         "<b>ou</b> dysfonction d'organe (une seule suffit) ] :<br/>"
-        "— respiratoire (PaO2/FiO2 &lt; 300 (A), FiO2 &gt; 0,5 pour SpO2 &gt; 92 % (E))<br/>"
-        "— rénale (créatininémie &gt; 176 µmol/l (A), &gt; 2× normale ou oligurie (E))<br/>"
+        "— respiratoire (PaO2/FiO2 &lt; 300 (A), FiO2 &gt; 0,5 pour SpO2 &gt; 92 %<sup>*</sup>)<br/>"
+        "— rénale (créatininémie &gt; 176 µmol/l<sup>†</sup> (A), &gt; 2× normale ou oligurie (E))<br/>"
         "— coagulation (INR &gt; 1,5 (A), &gt; 2 (E))<br/>"
-        "— hépatique (TP &gt; 60 s, bilirubine &gt; 78 µmol/l (A+E), transaminases &gt; 2× normale)<br/>"
+        "— hépatique (TP &gt; 60 s, bilirubine &gt; 78 µmol/l<sup>†</sup> (A+E), transaminases &gt; 2× normale)<br/>"
         "— thrombocytopénie (&lt; 100 000/mm³ (A), 80 000/mm³ (E))<br/>"
         "— fonctions supérieures (GCS &lt; 13 (A), &lt; 11 (E))", S_CELL)
     data = [
@@ -220,6 +243,21 @@ def _section_table1_q1():
     story.append(Spacer(1, 1.5 * mm))
     story.append(P("(A) = adulte, (E) = enfant. Valeurs propres à la pédiatrie reproduites telles "
                     "qu'imprimées par la source (en italique dans le texte original).", S_NOTE))
+    story.append(Spacer(1, 1 * mm))
+    story.append(P(
+        "<sup>*</sup> Anomalie source disclosée : contrairement aux autres lignes de ce tableau, ces "
+        "deux valeurs \"enfant\" (recoloration capillaire &gt; 5 sec ; SpO2 &gt; 92 %) ne portent "
+        "explicitement aucun repère « (E) » dans le texte source (vérifié par rendu à 600 dpi) — "
+        "reproduites ici à la même place que la valeur adulte correspondante, sans ajouter le repère "
+        "« (E) » que la source elle-même n'imprime pas.<br/>"
+        "<sup>†</sup> Anomalie source disclosée : le texte source imprime littéralement "
+        "« &gt; 176 mmol/l » et « &gt; 78 mmol/l » pour la créatininémie et la bilirubine (vérifié par "
+        "rendu à 600 dpi — ce n'est pas un artefact d'extraction de texte, l'unité est bien "
+        "« mmol/l » sur la page imprimée). Ces valeurs sont cliniquement impossibles en mmol/l "
+        "(176 mmol/l ou 78 mmol/l de créatininémie/bilirubinémie seraient incompatibles avec la vie) "
+        "et correspondent aux seuils standards en <b>µmol/l</b> des critères de sepsis grave "
+        "(ACCP/SCCM) — reproduites ici en µmol/l comme très probable coquille d'origine de la source, "
+        "plutôt que reproduites littéralement avec une valeur trompeuse.", S_NOTE))
     story.append(Spacer(1, 3 * mm))
 
     story.append(section_bar("Question 1 — Quelles sont les cibles thérapeutiques ?"))
@@ -244,6 +282,11 @@ def _section_table1_q1():
                    "antibiothérapie très précoce est recommandée (mortalité pédiatrique plus faible "
                    "que chez l'adulte ; le Purpura fulminans mérite d'être individualisé).", "D"),
     ], RECO_COLS))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "Contexte (non gradé, précède 1.4 dans le texte source) : toutes les propriétés cardiaques, "
+        "à l'exception du débit sanguin coronaire, sont potentiellement modifiées par le sepsis.",
+        S_NOTE))
     return story
 
 
@@ -356,7 +399,7 @@ def _section_q4():
     story.append(reco_table([
         ("4.1", "La corticothérapie est recommandée précocement au cours du choc septique chez "
                 "les patients non répondeurs à l'injection de 250 µg d'ACTH (augmentation de la "
-                "cortisolémie &lt; 9 µg/dl).", "B"),
+                "cortisolémie &lt; 9 µg/dl<sup>‡</sup>).", "B"),
         ("4.2", "Hémisuccinate d'hydrocortisone 200 à 300 mg/j, pendant au moins cinq jours, suivi "
                 "d'une décroissance progressive.", "E"),
         ("4.3", "La protéine C activée recombinante d'origine humaine ne doit pas être utilisée "
@@ -369,6 +412,13 @@ def _section_q4():
         ("4.7 P", "<i>(Pédiatrie)</i> Dose d'hydrocortisone recommandée : 1 mg/kg toutes les six "
                    "heures.", "E"),
     ], RECO_COLS))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "<sup>‡</sup> Anomalie source disclosée (4.1) : le texte source imprime un blanc typographique "
+        "entre « cortisolémie » et « 9 µg/dl » (vérifié par rendu à 600 dpi — aucun symbole n'est "
+        "imprimé, ce n'est pas un artefact d'extraction de texte). Le seuil « &lt; 9 µg/dl » reproduit "
+        "ici correspond à la définition usuelle de la non-réponse au test au Synacthène (delta "
+        "cortisol insuffisant), mais ce symbole n'est pas visible dans le document source.", S_NOTE))
     return story
 
 

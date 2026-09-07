@@ -67,6 +67,27 @@ ICONE : icon_shield (bouclier/securite), theme naturel pour un texte centre sur 
 securisation des procedures a risque - deja utilise par fiche_transport_intrahospitalier.py
 pour un theme apparente (autre document, aucun conflit).
 
+AUDIT INDEPENDANT (agent en aveugle, texte source seul) - constats reconcilies :
+- Fixe : le sevrage difficile (Champ 5.4) utilise "AI +/- PEP" (avec ou sans PEP) dans la
+  source, pas "AI + PEP" - corrige apres l'audit (2 occurrences).
+- Verifie visuellement sur le PDF source a 220dpi (pages e46/e47/e48/e50) et confirme
+  EXACT tel quel dans ce script, malgre des artefacts d'extraction texte qui auraient pu
+  suggerer une erreur : tete du lit "(> 30 degres)", PEP externe "(<= 5 cmH2O)", dobutamine
+  "(<= 5 microg/kg/min)", dilution catecholamines pediatriques "dose (microg/min)" - CE
+  DERNIER POINT est notable : l'extraction texte brute affichait "(mg/min)" pour la
+  dilution pediatrique (confusion d'unite qui aurait ete cliniquement dangereuse si
+  reproduite telle quelle), mais le rendu visuel du PDF confirme sans ambiguite "microg/min".
+- Non corrige (curiosite source, sans impact sur le contenu) : Champ 5.1 (avant intubation)
+  et Champ 5.6 (VNI) portent chacun un tag "(accord fort)" de bandeau PUIS un re-tag
+  individuel redondant "(accord fort)" sur un item du meme bloc - lu ici comme une simple
+  emphase redondante de l'auteur (le meme motif apparait deux fois dans le document), pas
+  comme une rupture de portee ; le dernier item de 5.6 (arret de la VNI, sans tag propre)
+  est donc conserve sous "Fort" (couverture du bandeau de section), non reclasse en "?".
+- Disclosure : Champ 7 (EER) renvoie aux recommandations du CLIN sur le risque infectieux
+  des catheters veineux centraux, alors meme que le titre du document annonce "risque
+  infectieux exclu" - reference telle quelle (renvoi a un referentiel connexe), non
+  retiree ni reinterpretee.
+
 _count_pages() : implementation copiee a l'identique de fiche_aap_programmee.py - les
 passes de comptage ecrivent vers un tempfile.mktemp() jetable, jamais vers OUT (bug de
 corruption du header_band de la page 1 deja documente si l'on reutilise OUT pour le
@@ -517,9 +538,9 @@ def _section_champ5():
          "la ou les causes et leur éventuelle réversibilité.", "Fort"),
         ("5.4 Sevrage VM", "Chez le patient difficile ou potentiellement difficile à sevrer, la "
          "sécurisation du sevrage doit comprendre : la réalisation d'une épreuve de sevrage en "
-         "AI + PEP sur 120 minutes maximum ; la réalisation d'un gaz du sang artériel au cours "
+         "AI ± PEP sur 120 minutes maximum ; la réalisation d'un gaz du sang artériel au cours "
          "ou en fin d'épreuve ; le recours à une stratégie de sevrage progressif privilégiant "
-         "l'AI + PEP dégressive.", "Faible"),
+         "l'AI ± PEP dégressive.", "Faible"),
         ("5.4 Sevrage VM", "La VNI peut être utilisée comme technique de sevrage permettant "
          "l'extubation précoce chez les patients BPCO hypercapniques.", "Fort"),
         ("5.4 Sevrage VM", "Il peut être utile de mettre en place des protocoles de sevrage.",

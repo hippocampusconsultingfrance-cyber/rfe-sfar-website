@@ -61,7 +61,8 @@ var RAW = {
   corticotherapie: JSON.parse(document.getElementById('content-corticotherapie').textContent),
   antibiotherapie_probabiliste: JSON.parse(document.getElementById('content-antibiotherapie_probabiliste').textContent),
   hsa: JSON.parse(document.getElementById('content-hsa').textContent),
-  sepsis_hemodynamique: JSON.parse(document.getElementById('content-sepsis_hemodynamique').textContent)
+  sepsis_hemodynamique: JSON.parse(document.getElementById('content-sepsis_hemodynamique').textContent),
+  securisation_proc: JSON.parse(document.getElementById('content-securisation_proc').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -124,7 +125,8 @@ var FICHE_HREF_MATCH = {
   corticotherapie: ['corticotherapie-au-cours-du-choc-septique-et-du-sdra', '2_SFAR_Corticotherapie-au-cours-du-choc-septique-et-du-SDRA'],
   antibiotherapie_probabiliste: ['antibiotherapie-probabiliste-des-etats-septiques-graves', '2_AFAR_Antibiotherapie-probabiliste-des-etats-septiques-graves'],
   hsa: ['hemorragie-sous-arachnoidienne-hsa-grave', '2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne'],
-  sepsis_hemodynamique: ['prise-en-charge-hemodynamique-du-sepsis-grave-nouveau-ne-exclu', '2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave']
+  sepsis_hemodynamique: ['prise-en-charge-hemodynamique-du-sepsis-grave-nouveau-ne-exclu', '2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave'],
+  securisation_proc: ['securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu', '2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -821,6 +823,18 @@ var DOC_META = {
     methodology: "Conférence de consensus (grades B/C/D/E, pas de GRADE) — signification des lettres non définie dans le texte court",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2015/10/2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave.pdf"
+  },
+  securisation_proc: {
+    key: 'securisation_proc',
+    badge: 'ACCORD',
+    title: "Sécurisation des procédures à risques en réanimation",
+    short: "Pratiques de sécurité (« safety practices ») en réanimation, risque infectieux explicitement exclu : taxonomie EI/EPR et indicateurs, épidémiologie, organisation structurelle et managériale (protocoles, culture sécurité), sécurisation du matériel/dispositifs médicaux, ventilation mécanique (intubation, trachéotomie, sevrage, extubation, VNI), procédures circulatoires (vasoactifs, cathéters artériels/veineux centraux/artériels pulmonaires), épuration extra-rénale, spécificités pédiatriques — plus une zone d'indécision explicite de 3 propositions (ni accord ni désaccord), disclosée comme catégorie distincte.",
+    society: "SRLF / SFAR",
+    version: "2008 (Ann Fr Anesth Reanim 2008;27:e43-e51)",
+    validated: "Groupes d'experts de la SRLF et de la SFAR",
+    methodology: "Accord fort/faible (méthode RAND/UCLA, pas de GRADE) + zone d'indécision explicite",
+    pages: 9,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation.pdf"
   }
 };
 

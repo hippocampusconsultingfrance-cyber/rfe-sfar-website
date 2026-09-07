@@ -1,0 +1,922 @@
+Se´curisation des proce´dures a` risques en re´animation
+Se´curisation des proce´dures a` risques en re´animation :
+risque infectieux exclu
+Experts recommendations on safety practices for ICU patients
+C. Gervais a,*, L. Donetti b, F. Bonnet c, C. Ichai d, F. Jacobs e
+et les Groupes d’experts de la SRLF et de la SFAR1
+a Unite´ de re´animation me´dicale, secteur re´animation, DAR, hoˆpital Caremeau, place du Pr Debre´, 30029 Nıˆmes cedex 9, France
+b Service de re´animation, hoˆpital de Montfermeil, 10, rue du Ge´ne´ral-Leclerc, 93370 Montfermeil cedex, France
+c Service d’anesthe´sie-re´animation, hoˆpital Tenon, 4, rue de la Chine, 75 Paris 20, France
+d Service de re´animation me´dicochirurgicale, hoˆpital Saint-Roch, CHU de Nice, 06000 Nice, France
+e Service de re´animation me´dicale, hoˆpital Antoine-Be´cle`re, 157, rue de la Porte-de-Trivaux, 92140 Clamart cedex, France
+Disponible sur Internet le 31 octobre 2008
+Ces recommandations sont le re´sultat du travail d’un groupe
+d’experts re´unis par la SRLF et la Sfar. Chaque expert a re´dige´
+dans le champ qui lui a e´te´ conﬁe´ un argumentaire et une se´rie
+de propositions qui ont e´te´ soumis a` l’ensemble du groupe. Le
+but n’est pas d’obtenir obligatoirement un avis consensuel mais
+de de´gager de manie`re explicite les points d’accord, base des
+recommandations et les points de de´saccord ou d’inde´cision,
+base e´ventuelle de travaux ulte´rieurs.
+La cotation des recommandations par chacun des experts est
+formalise´e selon la me´thode SRLF-SFAR de´rive´e de la Rand-
+Ucla approppriateness method (RAM) a` l’aide d’une e´chelle
+continue gradue´e de 1 a` 9 (1 signiﬁe un de´saccord total et 9 un
+accord total). Les cotations interme´diaires permettent de de´ﬁnir
+trois zones en fonction de la place de la me´diane :
+ la zone (1–3) correspond a` la zone de de´saccord ;
+ la zone (4–6) correspond a` la zone d’inde´cision ;
+ la zone (7–9) correspond a` la zone d’accord.
+L’accord, le de´saccord ou l’inde´cision seront dits forts si
+l’intervalle de la me´diane s’inscrit a` l’inte´rieur des zones sus-
+de´crites, dans le cas contraire l’accord, le de´saccord ou
+l’inde´cision seront dits faibles.
+Les recommandations propose´es dans les sept premiers
+champs d’application concernent aussi bien l’adulte que
+l’enfant. Les recommandations spe´ciﬁquement pe´diatriques
+ont e´te´ regroupe´es dans le champ 8.
+1. Champ 1. Se´curisation des soins et indicateurs en
+re´animation : taxonomie ge´ne´rale
+1.1. Se´curisation des proce´dures a` risques, e´ve`nements
+inde´sirables
+Les e´ve´nements inde´sirables (EI) sont des situations qui
+s’e´cartent de proce´dures ou de re´sultats habituellement
+escompte´s dans une situation habituelle et qui sont ou seraient
+potentiellement source de dommage. Cette de´ﬁnition inclut les
+erreurs humaines me´dicales et parame´dicales (proce´dures) et
+les EI patients (re´sultats) (accord faible).
+L’erreur humaine est un e´cart par rapport a` un objectif qui
+n’a pas e´te´ re´alise´ lors d’une se´quence programme´ d’activite´
+mentale ou physique (accord faible).
+Les e´ve`nements porteurs de risque (EPR) de´ﬁnis par le
+de´cret sur l’accre´ditation des me´decins dans les spe´cialite´s a`
+risque sont des EI (a` l’exclusion des EI graves) (accord faible).
+Un e´ve´nement inde´sirable patient est une complication
+directement lie´e aux soins et non a` la pathologie sous-jacente du
+patient (accord fort).
+http://france.elsevier.com/direct/ANNFAR/
+Disponible en ligne sur www.sciencedirect.com
+Annales Franc¸aises d’Anesthe´sie et de Re´animation 27 (2008) e43–e51
+* Auteur correspondant.
+Adresse e-mail : claude.gervais@chu-nimes.fr (C. Gervais).
+1 Comite´ d’organisation. L. Donetti (Montfermeil), F. Bonnet (Tenon),
+F. Jacobs(Clamart), C. Ichai (Nice). Coordinateur d’experts : C. Gervais (Nıˆmes).
+Groupe d’experts. Adultes : I. Auriant (Dieppe), J.-Y. Auroy (Paris),
+L. Beydon (Angers), A. Durocher (Paris), S. Fouge`re (Paris), C. Gervais (Nıˆmes),
+C. Girault (Rouen), B. Guidet (Paris), S. Jaber (Montpellier), D. Journois (Paris),
+J.-Y. Lefrant (Nıˆmes), C. Mac Aree (Paris), J. Marty (Cre´teil), X. Monnet
+(Biceˆtre), F. Saulnier (Lille), F. Shortgen (Cre´teil), L. Souﬁr (Paris),
+J.-L. Teboul (Biceˆtre). Pe´diatrie : D. Devictor (Biceˆtre), D. Floret (Lyon).
+Commission des re´fe´rentiels SRLF. Commission des re´fe´rentiels Sfar.
+0750-7658/$ – see front matter # 2008 Elsevier Masson SAS. Tous droits re´serve´s.
+doi:10.1016/j.annfar.2008.09.005
+Un e´ve´nement inde´sirable grave patient est une complica-
+tion directement lie´e aux soins entraıˆnant un risque vital, une
+prolongation de se´jour, la ne´cessite´ de gestes invasifs, des
+se´quelles invalidantes (accord fort).
+Un EI ou un EPR doit eˆtre conside´re´ comme ine´vitable
+lorsque les soins ont e´te´ de´livre´s conforme´ment a` l’e´tat de l’art
+(accord fort).
+Un EI ou un EPR doit eˆtre conside´re´ comme e´vitable ou
+possiblement e´vitable lorsqu’on a mis en e´vidence (accord
+fort) :
+ une ou plusieurs erreurs me´dicales associe´es ou non a` un ou
+plusieurs de´fauts syste`me (touchant la structure, l’organisa-
+tion et ou le management) ;
+ un ou plusieurs de´fauts syste`me sans erreur me´dicale.
+En dehors des situations caricaturales, seule une analyse ﬁne
+pourra re´aliser la distinction entre EI e´vitables et ceux qui ne le
+sont pas, en raison de l’importance des comorbidite´s associe´es
+comme facteurs de risques (accord faible).
+Les proce´dures a` risques pour le patient en re´animation sont
+principalement des proce´dures invasives (accord faible).
+La se´curisation des proce´dures a` risques est une de´marche
+qui permet d’identiﬁer et de traiter les diffe´rentes sources de
+risques aﬁn de re´duire au minimum le risque pour les patients
+(accord fort).
+Les proce´dures de se´curisation (safety practices des auteurs
+anglo-saxons)
+sont
+des
+proce´dures
+de
+soins
+et/ou
+des
+proce´dures structurelles/organisationnelles qui pre´viennent,
+diminuent
+la
+fre´quence
+de
+survenue
+ou
+atte´nuent
+les
+conse´quences des erreurs et des EI (accord fort).
+1.2. Indicateurs (accord fort)
+La mise en place d’un indicateur ne´cessite au pre´alable
+d’avoir de´ﬁni l’objectif de se´curisation des soins surveille´ par
+cet indicateur.
+Un indicateur doit eˆtre analyse´ syste´matiquement et de fac¸on
+re´gulie`re.
+En cas de variation d’un indicateur susceptible d’eˆtre le
+te´moin d’un EPR, une analyse syste´mique doit eˆtre re´alise´e aﬁn
+d’identiﬁer les causes racines de l’EPR.
+Un indicateur doit eˆtre acceptable, valide, pertinent, ﬁable et
+compre´hensible.
+Les indicateurs concernant la se´curisation d’une proce´dure
+de soins doivent eˆtre en nombre limite´.
+2. Champ 2. E´ pide´miologie
+Il faut standardiser les de´ﬁnitions concernant les erreurs
+me´dicales, les e´ve´nements EI et leur e´vitabilite´ (accord
+fort).
+Les erreurs me´dicales et les EI patients doivent eˆtre classe´s
+en fonction de leur gravite´ (accord fort).
+La standardisation de la me´thode de recueil des erreurs
+me´dicales et des e´ve`nements inde´sirables patients est ne´ces-
+saire (accord fort).
+Quelle que soit la me´thode, il est recommande´ que ce recueil
+soit non punitif, conﬁdentiel et inde´pendant (accord faible).
+Le recueil re´gulier par la de´claration volontaire, bien que
+source de biais, permet de de´velopper une culture se´curite´
+(accord fort).
+Il est recommande´ de privile´gier l’analyse des erreurs
+me´dicales et les EI patients e´vitables (accord faible).
+Il est important de pouvoir identiﬁer inde´pendamment les
+erreurs des EI patients (accord faible).
+Il est important d’e´tudier les facteurs permettant la de´tection
+et la re´cupe´ration de ces erreurs (accord fort).
+3. Champ 3. Proce´dures de se´curisation structurelles et
+manage´riales
+3.1. Structures
+Le service de re´animation doit comporter (accord fort) :
+ des chambres individuelles ;
+ des lits d’USC situe´s a proximite´ des lits de re´animations.
+Le service de re´animation doit pouvoir disposer de re´sultats
+biologiques ﬁables, obtenus rapidement et dont la trac¸abilite´ est
+assure´e (pneumatique, biologie de´localise´e) (accord fort).
+Il existe une proce´dure chariot d’urgence (accord fort).
+Informatisation de l’unite´ de soins (accord fort).
+L’identitovigilance est assure´e.
+L’informatisation du dossier me´dical et de la prescription
+doit eˆtre de´veloppe´e.
+La dispensation me´dicamenteuse est personalise´e.
+Les re´sultats des examens biologiques et d’imagerie
+me´dicale sont disponibles dans le service.
+Il existe une proce´dure partage´e avec le plateau me´dico-
+technique pour la transmission des re´sultats urgents (par
+exemple : hyperkalie´mie).
+3.2. Activite´ (accord fort)
+Il existe une relation entre le volume d’actes re´alise´s et la
+performance en termes de se´curite´ patient.
+Lorsqu’une
+technique
+me´dicale
+n’est
+pas
+disponible
+localement
+celle-ci
+doit
+faire
+l’objet
+d’une
+convention
+formalise´e avec un service prestataire.
+3.3. Organisation du travail
+Le responsable me´dicale du service et/ou du poˆle doit eˆtre
+implique´ dans la gestion du recrutement du personnel soignant
+(accord fort).
+Les compe´tences me´dicales et parame´dicales doivent eˆtre
+identiques en re´animation et en USC (accord faible).
+3.3.1. Organisation du travail me´dical (accord fort)
+Si le me´decin de garde ne fait pas partie de l’e´quipe me´dicale
+du service un me´decin de cette e´quipe doit pouvoir eˆtre consulte´
+pendant la garde.
+C. Gervais et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 27 (2008) e43–e51
+e44
+Il existe une proce´dure d’appel du me´decin re´animateur (bip,
+tel. . .).
+Il existe un programme de formation dans le service
+concernant les internes et les me´decins de l’e´quipe.
+3.3.2. Organisation du travail des soignants (accord fort)
+Il existe un cadre de sante´ de proximite´ dont l’activite´ est
+de´die´e a` la re´animation.
+Les
+nouvelles IDE
+doivent be´ne´ﬁcier d’une
+pe´riode
+d’inte´gration d’un mois.
+Cette pe´riode doit faire l’objet d’une trac¸abilite´ (livret
+d’inte´gration).
+La pre´sence d’un inﬁrmier tuteur est souhaitable durant cette
+pe´riode d’inte´gration.
+Une attention particulie`re doit eˆtre porte´e sur les e´quipes de
+nuit qui doivent be´ne´ﬁcier soit de formations spe´ciﬁques, soit
+de pe´riodes de rotation de jour.
+Les transmissions entre e´quipes me´dicales et/ou soignantes
+doivent eˆtre formalise´es.
+Il est ne´cessaire d’identiﬁer, selon la dimension du service,
+un ou plusieurs agents responsables de la logistique (mate´riel,
+chariot d’urgence et de de´placement exte´rieur).
+Il est souhaitable que le service dispose d’outils permettant
+l’e´valuation ponctuelle de la charge de travail.
+3.3.3. Protocoles (accord fort)
+L’organisation protocolise´e est souhaitable. Les protocoles
+concernant les proce´dures de soins :
+ doivent eˆtre produits localement ou faire l’objet d’une
+appropriation locale s’il s’agit de protocoles exte´rieurs ;
+ doivent faire l’objet de fre´quents rappels (afﬁches, aide
+me´moire de poche, informatique, staff).
+Les proce´dures et/ou situations cliniques a` risque doivent
+pe´riodiquement faire l’objet de proce´dures de formation (prise
+en charge de l’arreˆt cardiorespiratoire, de l’intubation difﬁcile,
+tamponnade).
+Ces situations doivent faire l’objet, a posteriori, de re´unions
+de de´brieﬁng de l’ensemble de l’e´quipe me´dicale et para-
+me´dicale.
+D’une manie`re ge´ne´rale, le service doit disposer de check-
+lists pour les proce´dures a` risques reconnues et identiﬁe´es
+localement,
+a
+fortiori,
+lorsqu’elles
+ont
+fait
+l’objet
+de
+recommandations par les socie´te´s savantes (SFAR/SRLF).
+Le service doit disposer d’une proce´dure e´crite de re´gulation
+d’admission des patients.
+Le service doit disposer d’une proce´dure e´crite de sortie des
+patients qui comporte impe´rativement une ﬁche de liaison IDE
+et une synthe`se me´dicale aﬁn d’assurer la continuite´ des soins.
+3.4. De´marche qualite´ et culture se´curite´ (accord fort)
+Le service de re´animation doit organiser pe´riodiquement des
+re´unions de morbi-mortalite´.
+Il est souhaitable que celles-ci soient organise´es conforme´-
+ment aux recommandations des socie´te´s savantes (Sfar/SRLF).
+Le service dispose d’une me´thode de recueil des EI.
+Chaque service de´termine, a priori, quels EI il va surveiller a`
+partir de quels indicateurs et avec quel objectif ?
+Certaines proce´dures a` risque doivent faire l’objet d’une
+re´ﬂexion be´ne´ﬁce/risque dont la trac¸abilite´ est assure´e dans le
+dossier patient.
+Les audits de soins peuvent eˆtre inte´gre´s dans l’e´valuation
+des pratiques professionnelles (EPP) pour le personnel me´dical.
+Ils sont re´alise´s au mieux a` partir des documents e´labore´s par
+les socie´te´s savantes (SFAR/SRLF).
+Le service doit disposer d’indicateurs d’alerte d’e´puisement
+professionnel (demandes de changement, absente´isme).
+Il existe une proce´dure d’aide pour les agents en difﬁculte´s
+(raisons personnelles ou professionnelles).
+Il existe une formalisation et une trac¸abilite´ dans le dossier
+du patient
+des
+de´cisions
+de
+limitations
+et d’arreˆt des
+the´rapeutiques actives et de toute de´cision e´thique.
+3.5. Tableau de bord et indicateurs
+Le service de re´animation tient un registre des refus
+d’admission indiquant les motifs (accord fort).
+Le
+service
+de
+re´animation
+dispose
+d’indicateurs
+de
+proce´dures et de re´sultats spe´ciﬁques concernant la se´curite´
+des patients (accord fort).
+Le service de re´animation dispose d’indicateurs de re´sultats
+permettant une comparaison interne ou externe (accord
+faible).
+4. Champ 4. Proce´dures de se´curisation du mate´riel
+4.1. Introduction et principes ge´ne´raux
+Les dispositifs me´dicaux (DM) induisent une se´rie de
+risques de leur conception a` leur mise au rebut, notamment le
+risque d’erreurs humaines qui doivent eˆtre maıˆtrise´es (accord
+fort).
+D’une manie`re ge´ne´rale, les principaux e´le´ments de
+se´curisation doivent reposer sur la formation des utilisateurs,
+l’entretien et la ve´riﬁcation des DM et l’application rigoureuse
+des re`gles de mate´riovigilance (accord fort).
+Une collaboration entre services cliniques et services
+biome´dicaux est ne´cessaire (accord fort).
+Les diffe´rents acteurs intervenant dans la gestion des
+DM doivent eˆtre : un re´fe´rent biome´dical inge´nieur par
+service (ou poˆle) et/ou par type de mate´riel, un re´fe´rent
+me´dical par service ou poˆle, enﬁn un re´fe´rent parame´dical et/
+ou un technicien de´localise´ par service ou poˆle (accord
+faible).
+Il est recommande´
+de mettre en place une gestion
+informatise´e du parc des DM (accord fort).
+Le suivi informatise´ d’un DM doit notamment prendre en
+compte la date de re´ception, le nume´ro de se´rie, le lieu de
+stockage, l’agenda de maintenance et de mise a` niveau, la
+notiﬁcation des pannes (type fre´quence et dure´e d’immobi-
+lisation) enﬁn la fre´quence des de´fauts utilisateurs (accord
+fort).
+C. Gervais et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 27 (2008) e43–e51
+e45
+4.2. Au moment de la de´cision d’implantation du DM
+(accord fort)
+Le cahier des charges de´ﬁnissant pre´cise´ment le besoin
+qualitatif et quantitatif doit eˆtre e´tabli en collaboration entre
+services cliniques et services biome´dicaux.
+Il faut prendre en compte des e´le´ments tels que : dure´e de
+garantie, contrat de maintenance, proximite´ et disponibilite´ du
+service apre`s vente.
+Les certiﬁcats de conformite´ aux textes re´glementaires
+applicables a` la classe du dispositif doivent eˆtre exige´s.
+Avant implantation, il est recommande´ d’effectuer un essai
+sur site en conditions re´elles avec un panel repre´sentatif
+d’utilisateurs pour identiﬁer les situations locales spe´ciﬁques a`
+risque.
+En cas de preˆt de mate´riel, une ﬁche de mise a` disposition
+doit eˆtre valide´e et signe´e par la Socie´te´, les services cliniques
+et biome´dicaux.
+4.3. Mise en service du DM (accord fort)
+Il faut programmer et effectuer la formation des services
+cliniques et biome´dicaux avant la re´ception du DM.
+La formation des utilisateurs doit faire l’objet d’une
+trac¸abilite´.
+A` la livraison, il faut ve´riﬁer que l’e´quipement correspond a`
+l’inte´gralite´ de la commande (accessoires et consommables
+e´ventuels).
+Le DM doit eˆtre inscrit a` l’inventaire du service.
+Si le DM est partage´ par diffe´rents secteurs, il est
+recommande´ de de´terminer son pe´rime`tre fonctionnel (par
+exemple e´tablissement d’une convention d’utilisation).
+4.4. Utilisation courante du DM (accord fort)
+L’e´tablissement de check-lists adapte´es localement et a`
+chaque type de mate´riel est recommande´ pour ve´riﬁer un bon
+fonctionnement du DM avant chaque utilisation.
+Ces check-lists doivent faire l’objet d’une trac¸abilite´
+permettant d’identiﬁer au minimum l’ope´rateur, la date, le
+type de dysfonctionnement et pre´ciser la liste des fonctionna-
+lite´s non ope´rationnelles « bloquantes ».
+Si
+des
+check-lists
+de
+controˆle
+sont
+pre´vues
+par
+le
+constructeur et inte´gre´es au logiciel du mate´riel, il faut les
+respecter et les comple´ter e´ventuellement par les check-lists
+locales.
+Il faut re´diger une ﬁche d’alerte incidente pour tout
+dysfonctionnement, panne ou arreˆt intempestif, information
+e´cran fausse.
+Les maintenances pre´ventives et curatives doivent eˆtre
+organise´es par le service biome´dical et faire l’objet de
+proce´dures e´crites et d’une trac¸abilite´.
+Une proce´dure en cas de panne, adapte´e a` chaque type de
+mate´riel doit eˆtre pre´vue par le service biome´dical et comporter
+au minimum, la disponibilite´ du mate´riel de supple´ance et
+l’identiﬁcation des intervenants a` contacter 24 h sur 24 et 7 j
+sur 7.
+Il est recommande´ d’organiser des formations re´gulie`rement
+pour les utilisateurs en cas de renouvellement des personnels,
+en cas de fre´quence anormale du nombre de de´fauts utilisateurs
+ou lors de mise a` niveau des mate´riels.
+Il faut e´viter de laisser le parc atteindre l’obsolescence en
+anticipant le remplacement du DM quand ne´cessaire (anne´e de
+mise en service, nombre d’heures d’utilisation, concept de´passe´
+et disparition des consommables).
+Lors de la re´forme du DM, il faut retirer e´galement les
+consommables pour e´viter toute confusion avec d’autres DM de
+meˆme cate´gorie.
+5. Proce´dures de se´curisation au cours de la ventilation
+me´canique.
+5.1. Intubation
+Chaque unite´ de re´animation doit disposer d’un chariot
+d’intubation dont la composition ve´riﬁe´e quotidiennement est
+conforme aux recommandations de la confe´rence d’experts sur
+intubation difﬁcile (accord fort).
+Avant toute intubation en re´animation, il est recommander
+de (accord fort) :
+ scoper le patient et ve´riﬁer la pre´sence du mate´riel ne´cessaire
+dans la chambre (accord fort) ;
+ s’assurer du bon fonctionnement de l’aspiration et de la
+source d’oxyge`ne qui doit permettre de de´livrer un haut de´bit
+relie´ au ballon et au masque facial) ;
+ ve´riﬁer le bon fonctionnement du respirateur auquel le patient
+sera branche´ imme´diatement apre`s l’intubation ;
+ de pre´oxyge´ner tous les patients avec une FIO2 a` 1.
+S’il n’y a pas de contre-indications, un remplissage
+vasculaire est souhaitable (accord faible).
+Deux ope´rateurs (deux me´decins ou un me´decin et une
+inﬁrmie`re) doivent eˆtre pre´sents syste´matiquement au moment
+de l’intubation (accord faible).
+Si l’indication d’une se´dation continue a e´te´ pose´e celle-ci
+doit eˆtre pre´pare´e avant et administre´e imme´diatement apre`s
+l’intubation (accord faible).
+Il est pre´fe´rable d’utiliser une lame me´tallique pour la
+laryngoscopie (accord faible).
+Il faut assurer une trac¸abilite´ dans le dossier me´dicale de
+toutes les intubations (en particulier difﬁciles) (accord faible).
+En dehors des contre-indications, il faut utiliser l’induction a`
+se´quence rapide (ISR) (accord faible).
+Le controˆle de la bonne position de la sonde d’intubation a`
+l’aide d’un capnographe (EtCO2) doit eˆtre privile´gie´ si le
+service en est dote´ (accord faible).
+Les parame`tres de la ventilation me´canique doivent eˆtre
+re´adapte´s a` distance de l’intubation (accord faible).
+5.2. Trache´otomie
+La trache´otomie doit eˆtre re´alise´e sous anesthe´sie ge´ne´rale
+avec curarisation approprie´e (accord faible).
+C. Gervais et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 27 (2008) e43–e51
+e46
+Si la technique percutane´e a e´te´ choisie, un ﬁbroscope
+bronchique doit eˆtre utilise´ (accord fort).
+Lorsque l’indication d’une trache´otomie percutane´e a e´te´
+pose´e, il faut s’assurer qu’un chirurgien (ORL si possible)
+puisse en cas d’e´chec re´aliser en urgence une trache´otomie
+chirurgicale (accord faible).
+L’he´mostase doit eˆtre ve´riﬁe´e (TP > 50 % et TCA < 1,5 le
+te´moin, plaquettes > 50 000/mm3 et l’he´parinothe´rapie stan-
+dard curative interrompue de manie`re momentane´e, respect
+d’un de´lai en cas d’HBPM (accord faible).
+Un plateau d’intubation doit eˆtre preˆt en cas de difﬁculte´s
+ainsi qu’une boıˆte chirurgicale si la technique percutane´e a e´te´
+choisie (accord fort).
+Le syste`me d’aspiration murale avec canule d’aspiration
+ste´rile doit eˆtre ve´riﬁe´ (accord fort).
+5.3. Pe´riode de ventilation me´canique invasive
+La pre´vention de l’autoextubation et de ses conse´quences
+e´ventuelles ne´cessite (accord faible) :
+ la pre´sence dans le service de re´animation d’un set complet
+d’intubation (selon les pratiques du service) dont la
+ve´riﬁcation et sa trac¸abilite´ dans un carnet de bord date´
+signe´ est assure´e quotidiennement ;
+ la pre´sence d’un protocole d’e´valuation de la se´dation et de la
+sevrabilite´ ;
+ le repe´rage de la position des sondes apre`s controˆle
+radiographique (nume´ro de´ﬁnissant la longueur de la sonde)
+retranscrit lors des transmissions inﬁrmie`res ;
+ la surveillance de l’e´tat cutane´ des patients (apparition
+d’escarres du nez de la bouche ou des oreilles) et l’adaptation
+e´ventuelle des syste`mes d’attaches.
+La pre´vention des EI en dehors de l’autoextubation
+(pneumopathies nosocomiales notamment) ne´cessite (accord
+faible).
+ la sure´le´vation de la teˆte du lit (> 308) ;
+ des soins de bouche une fois par e´quipe selon le protocole du
+service ;
+ une proce´dure d’aspiration propre (sonde a` usage unique, port
+de gants) ;
+ le controˆle radiographique de la sonde gastrique.
+L’optimisation de la ventilation me´canique en termes de
+se´curite´ patient ne´cessite (accord fort).
+ la ve´riﬁcation de l’inte´grite´ des tuyaux et circuits ainsi que de
+la pre´sence d’eau dans les humidiﬁcateurs (une fois par
+e´quipe) ;
+ la surveillance de la pression du ballonnet une fois par e´quipe,
+retranscrite sur la feuille de surveillance ;
+ la pre´sence en permanence d’un syste`me d’aspiration
+fonctionnel ;
+ la
+prescription
+e´crite
+au
+de´marrage
+de
+la
+VM
+des
+conditions de ventilation comprenant les alarmes et refaite
+a` chaque changement de re´glage du respirateur ou de ses
+constantes.
+5.4. Sevrage de la ventilation me´canique invasive
+Le processus de sevrage doit eˆtre envisage´ aussitoˆt que
+possible dans la prise en charge d’une IRA (accord fort).
+Il est recommande´ (accord fort) :
+ d’e´valuer quotidiennement la sevrabilite´ sur des crite`res
+simples
+de
+stabilite´
+respiratoire,
+he´modynamique
+et
+neurologique ;
+ de re´aliser une e´preuve de sevrage en VS de`s que ces crite`res
+sont remplis car ce sont les deux e´tapes essentielles a`
+l’identiﬁcation des patients susceptibles d’eˆtre sevre´s.
+Les crite`res pre´dictifs de l’issue du sevrage ne doivent pas
+eˆtre attendus et/ou obtenus pour re´aliser l’e´preuve de sevrage
+(accord fort).
+La tole´rance clinique d’une e´preuve de sevrage doit eˆtre
+conside´re´e comme le meilleur test pour juger a priori des
+capacite´s de de´ventilation d’un patient (accord fort).
+L’e´preuve de sevrage doit eˆtre re´alise´e sur pie`ce en T (VS/T)
+ou en aide inspiratoire (AI) d’un niveau minimal de 7 cmH2O
+avec ou sans PEP externe ( 5 cmH2O) pour une dure´e
+minimale de 30 min (accord fort).
+Le succe`s de l’e´preuve de sevrage doit faire proce´der a`
+l’extubation dans les suites imme´diates apre`s avoir e´limine´ des
+facteurs d’e´chec d’extubation (accord fort).
+L’e´chec de l’e´preuve de sevrage doit faire imposer d’en
+rechercher la ou les causes et leur e´ventuelle re´versibilite´
+(accord fort).
+Chez le patient difﬁcile ou potentiellement difﬁcile a` sevrer,
+la se´curisation du sevrage doit comprendre (accord faible) :
+ la re´alisation d’une e´preuve de sevrage en AI  PEP sur
+120 min maximum ;
+ la re´alisation d’un gaz du sang arte´riel au cours ou en ﬁn
+d’e´preuve de sevrage ;
+ le recours a` une strate´gie de sevrage progressif privile´giant
+l’AI  PEP de´gressive.
+La VNI peut eˆtre utilise´ comme technique de sevrage
+permettant l’extubation pre´coce chez les patients BPCO
+hypercapniques (accord fort).
+Il peut eˆtre utile de mettre en place des protocoles de sevrage
+(accord faible).
+Il peut eˆtre utile d’utiliser des logiciels informatise´s (accord
+faible).
+5.5. Extubation
+Avant d’envisager une extubation, il faut e´valuer la capacite´
+du patient a` tousser et a` e´vacuer ses se´cre´tions (accord fort).
+Il n’y a pas lieu de re´aliser syste´matiquement un test de
+fuite lors de l’extubation des patients de re´animation (accord
+faible).
+C. Gervais et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 27 (2008) e43–e51
+e47
+Le test de fuite est recommande´ chez les patients a` risque
+(accord fort).
+Chez les patients a` tre`s haut risque, chez qui la re´alisation
+d’une trache´otomie peut eˆtre difﬁcile, il faut discuter la
+pertinence d’une extubation re´alise´e au bloc ope´ratoire en
+pre´sence d’un chirurgien ORL (accord faible).
+5.6. Ventilation non invasive (VNI) (accord fort)
+La VNI doit repre´senter la strate´gie ventilatoire se´curitaire
+pour la prise en charge de l’IRA hypercapnique des patients
+BPCO et l’OAP cardioge´nique.
+Dans la prise en charge de l’IRA hypoxe´mique (sur cœur et
+poumons ante´rieurement sains), l’analyse du rapport be´ne´ﬁces/
+risques doit prendre en compte le risque accru de mortalite´ en
+cas d’e´chec de la VNI.
+L’application de la VNI a` l’IRA hypoxe´mique doit dans tous
+les cas eˆtre mene´e dans un milieu se´curise´ de re´animation pour
+ne pas retarder le moment de l’intubation.
+Quel que soit le type d’IRA (hypercapnique ou hypo-
+xe´mique), les patients les plus graves sous VNI doivent eˆtre pris
+en charge et surveille´s en re´animation.
+La maıˆtrise de la VNI doit repre´senter un objectif de
+formation the´orique et pratique des personnels me´dicaux et
+parame´dicaux au sein des services de re´animation.
+La pratique de la VNI implique une bonne connaissance des
+indications, des contre-indications et des facteurs pre´dictifs
+d’e´chec de la technique.
+L’e´laboration de protocoles de soins, propre au service, est
+recommande´e pour favoriser l’implantation de la technique et
+ses re´sultats.
+Le mate´riel de VNI disponible (masques, ventilateurs,
+humidiﬁcateurs) doit eˆtre adapte´ a` la pathologie et a` la gravite´
+des patients pris en charge.
+La se´curisation de la VNI passe par l’optimisation de ses
+modalite´s pratiques qui incluent :
+ le choix d’un masque facial en premie`re intention ;
+ l’humidiﬁcation des gaz inspire´s en privile´giant l’HC en cas
+d’hypercapnie grave ou d’intole´rance ;
+ le retrait du raccord annele´ en cas d’IRA hypercapnique ;
+ le choix d’un ventilateur de re´animation chez les patients les
+plus a` risque d’e´chec ;
+ le choix d’un mode a` double niveau de pression en premie`re
+intention en dehors de l’OAP cardioge´nique ;
+ l’augmentation graduelle du niveau d’assistance ventilatoire
+jusqu’au re´glage optimal ;
+ le re´glage du trigger inspiratoire, de la pente de pressurisa-
+tion, du niveau d’AI et du cyclage inspiration/expiration
+quand ces parame`tres sont disponibles ;
+ enﬁn un re´glage adapte´ des alarmes du ventilateur et de la
+ventilation d’apne´e.
+L’application continue de la VNI doit eˆtre privile´gie´e
+initialement jusqu’a` une ame´lioration clinique et gazome´trique
+franche avant d’envisager un mode se´quentiel (alternance
+VNI/VS).
+Les risques d’e´chec de la VNI doivent imposer une
+surveillance initiale rapproche´e au cours des premie`res heures
+pour juger de la re´ponse a` la technique.
+La surveillance de la VNI doit eˆtre avant tout clinique mais
+doit s’aider des gaz du sang, des parame`tres et des courbes du
+ventilateur pour optimiser les re´glages et la tole´rance de la
+technique (accord fort).
+En l’absence d’e´chec, l’arreˆt de la VNI suppose au pre´alable
+une e´valuation clinique et gazome´trique de l’autonomie
+ventilatoire du patient en VS sur une pe´riode de six a` 12 h.
+6. Se´curisation des « proce´dures circulatoires » :
+me´dicaments vasoactifs et abords vasculaires
+6.1. Utilisation des me´dicaments vasoactifs (accord fort)
+Le rangement des drogues vasoactives doit tenir compte du
+risque de confusion entre diffe´rentes ampoules. De meˆme,
+l’e´tiquetage des seringues doit eˆtre sufﬁsamment explicite et
+clair pour e´viter toute confusion.
+Les me´dicaments vasoactifs doivent eˆtre administre´s par
+voie intraveineuse et de fac¸on continue graˆce a` une seringue
+pour perfusion continue.
+La voie d’administration veineuse :
+ centrale doit toujours eˆtre privile´gie´e ;
+ veineuse pe´riphe´rique : possible pour la dopamine et pour la
+dobutamine a` faible dose ( 5 mg/kg/min) ;
+ dans une situation d’urgence, en attente de l’insertion d’un
+cathe´ter veineux central, l’administration d’une drogue
+vasoactive
+peut
+eˆtre
+de´bute´e
+sur
+une
+voie
+veineuse
+pe´riphe´rique.
+L’utilisation de pompes de perfusion munies de logiciels
+permettant le relais automatique des seringues contenant une
+drogue vasoactive doit eˆtre privile´gie´e.
+Le raccord de la voie de perfusion des amines vasoactives a`
+la voie de perfusion principales doit se faire par l’interme´diaire
+d’une tubulure de petit calibre et le plus pre`s possible du
+patient.
+Les syste`mes utilise´s pour le relais des seringues destine´es a`
+l’administration de drogues vasoactives doivent eˆtre munis
+d’une pre´-alarme sonore pour la validation de la proce´dure
+automatique du relais.
+Le relais des seringues doit faire l’objet d’une proce´dure de
+soins standardise´e dans le service de re´animation.
+La dilution des drogues vasoactives doit faire l’objet d’une
+proce´dure de soins standardise´e dans le service de re´anima-
+tion.
+6.2. Pose, surveillance et retrait des cathe´ters arte´riels et
+veineux centraux
+Il
+faut
+utiliser
+du
+mate´riel
+entie`rement
+transparent
+permettant d’identiﬁer clairement les bulles pre´sentes dans
+le circuit de cathe´te´risme central arte´riel ou veineux (accord
+fort).
+C. Gervais et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 27 (2008) e43–e51
+e48
+Les connections de la ligne de perfusion d’un cathe´ter
+central arte´riel ou veineux doivent utiliser un syste`me a` vis (de
+type Luer-Lock) (accord fort).
+Les robinets de la ligne de perfusion d’un cathe´ter central
+arte´riel ou veineux doivent eˆtre clairement identiﬁe´s aﬁn
+d’e´viter le risque d’injections accidentelles sur cette ligne
+(accord fort).
+Apre`s l’ablation d’un cathe´ter central arte´riel ou veineux, il
+faut ve´riﬁer qu’il a e´te´ retire´ dans son ensemble (accord fort).
+6.2.1. Cathe´ter arte´riel (accord fort)
+Un cathe´ter arte´riel ne doit pas eˆtre pose´ sur une arte`re
+terminale (arte`re hume´rale).
+Les sites d’insertion possible d’un cathe´ter arte´riel sont les
+arte`res radiales, fe´morales et pe´dieuses.
+La recherche d’une circulation collate´rale palmaire par le
+test d’Allen est un pre´alable a` la pose d’un cathe´ter arte´riel par
+voie radiale. Ce test peut eˆtre remplace´ par le signal de
+ple´thysmographie aux niveaux des premiers et derniers doigts
+de la main concerne´e.
+Un cathe´ter arte´riel ne doit pas eˆtre inse´re´ dans des prothe`ses
+vasculaires. Une fois le cathe´ter arte´riel en place, il faut
+rechercher re´gulie`rement une ische´mie du membre d’aval. En
+cas de signe d’ische´mie, le cathe´ter doit eˆtre retire´ et la
+vascularisation d’aval doit eˆtre explore´e et re´gulie`rement
+surveille´e. Il faut privile´gier les cathe´ters de petite longueur (3 a`
+5 cm) pour le cathe´te´risme des arte`res radiales.
+Il faut utiliser un syste`me de purge du cathe´ter arte´riel
+assurant un de´bit continu, au minimum, de 2 ml/h incluant la
+possibilite´ d’une purge manuelle.
+Il n’y a pas d’argument pour pratiquer une anticoagulation
+syste´matique de la ligne arte´rielle.
+Apre`s l’ablation du cathe´ter arte´riel, il faut comprimer le
+point de ponction pendant quelques minutes jusqu’a` l’arreˆt de
+tout saignement.
+6.2.2. Cathe´ter veineux central
+Le cathe´te´risme veineux central doit eˆtre effectue´ par ou
+avec l’aide d’un ope´rateur expe´rimente´ (accord fort).
+La voie sous-clavie`re doit eˆtre e´vite´e en cas d’anomalie de
+l’he´mostase, en cas d’hypoxe´mie se´ve`re (PaO2/FiO2 < 200) et
+en cas d’anomalie anatomique (accord fort).
+En cas d’anomalie importante de l’he´mostase, la voie
+fe´morale doit eˆtre pre´fe´re´e pour le cathe´te´risme veineux central
+(accord fort).
+Lorsque la deuxie`me tentative de ponction veineuse a
+e´choue´, il est conseille´ de changer de site, d’ope´rateur ou de
+technique (repe´rage ultrasonographique) (accord faible).
+Le repe´rage ultrasonographique peut ame´liorer le taux de
+succe`s du cathe´te´risme veineux, surtout pour la voie jugulaire
+interne, sans augmenter le temps de cathe´te´risme (accord fort).
+Un controˆle de la radiographie du thorax doit eˆtre effectue´
+apre`s la pose d’un cathe´ter veineux sous-clavier aﬁn de
+rechercher l’absence de pneumothorax et de controˆler la bonne
+position du cathe´ter (accord fort).
+Aﬁn d’e´viter toute e´rosion endovasculaire et effraction intra-
+pe´ricardique, l’extre´mite´ des cathe´ters veineux inse´re´s dans le
+territoire cave supe´rieur doit eˆtre situe´e au niveau de la care`ne.
+En cas de mauvaise position, le cathe´ter doit eˆtre retire´ de
+quelques centime`tres (accord fort).
+6.3. Pose, surveillance et retrait des cathe´ters arte´riels
+pulmonaires
+La se´curisation de la proce´dure de pose d’un cathe´ter
+veineux central s’applique a` la pose du de´silet pre´alable a`
+l’insertion du cathe´ter arte´riel pulmonaire (accord fort).
+L’utilisation du cathe´ter arte´riel pulmonaire est contre-
+indique´e par la pre´sence d’une sonde d’entraıˆnement intra-
+cardiaque (accord faible).
+Lors de l’introduction du cathe´ter dans les cavite´s cardiaques,
+une surveillance permanente du rythme doit eˆtre effectue´e aﬁn
+de rechercher les troubles du rythme cardiaque (accord fort).
+Un controˆle de la radiographie de thorax doit eˆtre effectue´
+apre`s l’insertion du cathe´ter arte´riel pulmonaire aﬁn de ve´riﬁer
+sa position (accord fort).
+Le de´gonﬂement du ballonnet doit eˆtre syste´matiquement
+ve´riﬁe´ apre`s que ce dernier a e´te´ utilise´ (accord fort).
+Le mate´riel et les me´dicaments ne´cessaires au traitement
+d’un trouble du rythme et d’un trouble conductif doivent eˆtre
+disponibles rapidement lors de la pose d’un cathe´ter arte´riel
+pulmonaire (accord fort).
+Le cathe´ter arte´riel pulmonaire doit eˆtre maintenu en place le
+moins longtemps possible. Une dure´e maximale de trois jours
+est conseille´e (accord fort).
+La calibration du ze´ro de re´fe´rence doit se faire au niveau de
+l’oreillette droite et sa recalibration doit s’effectuer re´gulie`-
+rement et en cas de doute, des mesures de pression afﬁche´es
+(accord fort).
+La mesure de SvO2 ne´cessite une calibration re´gulie`re par
+co-oxyme´trie (accord fort).
+Le controˆle radiographique quotidien de la position de la
+sonde n’est pas ne´cessaire. En cas de toute anomalie
+d’obtention du trace´, la radiographie de thorax de controˆle
+s’impose (accord faible).
+A` l’ablation du cathe´ter arte´riel pulmonaire, il faut ve´riﬁer
+son inte´grite´ (accord fort).
+7. Se´curisation des proce´dures d’e´puration extra-re´nale
+La prescription d’une se´ance d’e´puration extra-re´nale (EER)
+intermittente ou continue doit comporter au minimum (accord
+fort) :
+ la dure´e ;
+ le type de membrane ;
+ le de´bit de la pompe a` sang ;
+ le type et la posologie de l’anticoagulation du circuit
+extracorporel ;
+ la perte hydrique horaire ou totale ;
+ le de´bit de dialysat ;
+ la composition du dialysat en sodium, potassium, calcium,
+solute´ tampon et glucose ;
+ enﬁn la tempe´rature du dialysat.
+C. Gervais et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 27 (2008) e43–e51
+e49
+La structure de la membrane utilise´e pour la re´alisation d’une
+EER doit eˆtre en cellulose modiﬁe´e ou synthe´tique (accord fort).
+Au cours de l’EER (intermittente ou continue) la ﬁltration a`
+travers la membrane doit eˆtre ge´re´e par un controˆle automatise´
+(accord fort).
+Au cours de l’he´moﬁltration, la fraction de ﬁltration doit eˆtre
+surveille´e en continu et la ﬁltration eˆtre interrompue lors des
+situations a` risque de chute du de´bit sanguin (nursing) (accord
+faible).
+Avant toute mise en route d’une EER et en particulier pour
+l’he´moﬁltration, il est ne´cessaire de (accord fort) :
+ s’assurer de l’absence de coudure du catheter ;
+ de respecter les proce´dures de gestion des cathe´ters veineux
+centraux ;
+ de s’assurer de son bon positionnement dans le vaisseau
+(cliche´ thoracique) ;
+ de s’assurer de sa position adapte´e au de´bit souhaite´.
+La pose et l’entretien des cathe´ters doivent eˆtre conformes
+aux recommandations du CLIN concernant la pre´vention du
+risque infectieux au cours de la mise en place des cathe´ters
+veineux centraux (accord fort).
+La surveillance d’une se´ance d’EER chez un patient de
+re´animation doit comporter au minimum (accord fort) :
+ le monitorage en continu de l’e´lectrocardiogramme et de la
+fre´quence cardiaque ;
+ la mesure rapproche´e de la pression arte´rielle ;
+ le recueil du ratio de ﬁltration (pour les techniques
+convectives), de la pression de retour veineux et de la
+pression transmembranaire sur le circuit extracorporel ;
+ une mesure de la tempe´rature du patient pluriquotidienne
+pour les techniques d’EER continue ;
+ un bilan hydrique des entre´es et des sorties en ﬁn de se´ance et
+chaque jour pour l’EER continue ;
+ un ionogramme sanguin en ﬁn de se´ance et toute les12 heures
+pour l’EER continue ;
+ une e´valuation quotidienne et apre`s chaque modiﬁcation de
+posologie de l’activite´ syste´mique du traitement anticoagu-
+lant au cours de l’EER continue ;
+ la mesure quotidienne de la gazome´trie arte´rielle ainsi qu’a`
+chaque changement du de´bit de restitution en bicarbonates au
+cours de l’hemoﬁltration continue.
+Dans le cas particulier d’un traitement antithrombotique au
+citrate, il faut doser toutes les quatre heures en e´tat stable le
+calcium ionise´ (accord faible).
+La se´curisation de l’EER continue et intermittente ne´cessite
+en sus de la surveillance clinique de´ja` de´crite la mise en place
+d’une proce´dure e´crite, facilement disponible (accord fort).
+Cette proce´dure doit comporter en sus de la surveillance de´ja`
+de´crite la description (accord fort) :
+ des
+techniques
+de
+montage
+et
+de
+purge
+du
+circuit
+extracorporel ;
+ des techniques de branchement et de de´branchement ;
+ des parame`tres de surveillance du circuit extracorporel ;
+ du choix de la composition des solutions pour dialyse et
+he´moﬁltration
+et
+de
+leur
+remplacement
+en
+cours
+de
+traitement.
+Une proce´dure de de´sinfection interne des ge´ne´rateurs entre
+les se´ances d’he´modialyse doit eˆtre mise en place (accord fort).
+Les responsables d’un service de re´animation dans lequel
+sont re´alise´s des se´ances d’he´modialyse par un ge´ne´rateur
+fabriquant un dialysat a` partir de l’eau de distribution publique
+doivent faire partie des acteurs implique´s dans le processus de
+gestion de la qualite´ de l’eau (accord fort).
+Un service de re´animation dans lequel sont re´alise´s des
+se´ances d’he´modialyse par un ge´ne´rateur fabriquant un dialysat
+a` partir de l’eau de distribution publique doit disposer d’une
+proce´dure d’alerte en cas de non-conformite´ chimique ou
+microbiologique de l’eau pour he´modialyse (accord fort).
+La recherche d’un re´sidu de solution de´sinfectante dans le
+dialysat doit eˆtre syste´matique avant tout branchement d’une
+se´ance d’he´modialyse re´alise´e par un ge´ne´rateur fabriquant un
+dialysat a` partir de l’eau de distribution publique (accord fort).
+8. Spe´ciﬁcite´s pe´diatriques
+Tout service de re´animation pe´diatrique devrait disposer d’un
+tableau de dilution des cate´cholamines pre´cisant la correspon-
+dance entre le de´bit (ml/h) et la dose (mg/min) (accord fort).
+Le mate´riel de monitorage doit eˆtre dote´ d’alarmes adapte´es
+a` l’aˆge de l’enfant (accord fort).
+Lorsqu’une voie fe´morale a e´te´ mise en place dans un
+contexte d’urgence, son maintien doit eˆtre reconside´re´ au bout
+de 48 h (accord fort).
+Les lignes de perfusion arte´rielle doivent toujours eˆtre
+raccorde´es a` une teˆte de pression (accord fort).
+Un mate´riel spe´ciﬁque (pompes, tubulure et sondes), adapte´
+et clairement identiﬁe´ doit eˆtre utilise´ pour e´viter le risque de
+confusion entre les perfusions (arte´rielles ou veineuses) et
+l’alimentation (accord fort).
+Une boıˆte d’intubation pe´diatrique doit comporter des lames
+droites et des lames courbes de toutes les tailles existantes
+(accord fort).
+L’usage de l’aspiration en syste`me clos doit eˆtre strictement
+limite´ aux situations ou` le de´recrutement a des conse´quences
+signiﬁcatives et persistantes sur l’oxyge´nation (accord fort).
+Tout poˆle de re´animation pe´diatrique doit eˆtre e´quipe´ de
+masques de ventilation manuelle adapte´s a` la taille de l’enfant
+(accord fort).
+Tout service de re´animation pe´diatrique doit pouvoir re´aliser
+des e´purations extra-re´nales (accord faible).
+Les
+techniques
+d’EER
+(cathe´ters,
+moniteur,
+volume
+extracorporel, de´bit) doivent eˆtre adapte´es a` la taille de
+l’enfant (accord fort).
+La dialyse pe´ritone´ale est une me´thode d’EER qui reste
+utilisable en re´animation pe´diatrique (accord fort).
+Le maintien de l’expertise du personnel pe´diatrique en
+technique
+d’EER
+fait
+partie
+d’une
+formation
+continue
+spe´ciﬁque (accord fort).
+C. Gervais et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 27 (2008) e43–e51
+e50
+Les trois propositions suivantes ont e´te´ score´es par les
+experts dans la zone d’inde´cision :
+ l’administration de corticoı¨des par voie IV au moins six
+heures avant l’extubation peut eˆtre propose´e ;
+ si une extubation est pre´vue, il peut eˆtre propose´ d’utiliser un
+guide e´changeur pour faciliter la re´intubation e´ventuelle ;
+ lorsqu’il est re´alise´e une de´ple´tion chez un patient a` risque, il
+est ne´cessaire de mettre en place un monitorage de la
+pre´charge ventriculaire adapte´ aux conditions du patient.
+C. Gervais et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 27 (2008) e43–e51
+e51

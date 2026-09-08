@@ -8,7 +8,12 @@ clinicians can rely on short, sourced, visually-clear summary sheets instead of
 reading full guideline PDFs (often 50-150+ pages).
 
 - Published website (single-page app, published via the Artifact tool):
-  `https://claude.ai/code/artifact/69853cb5-182e-461b-8642-ff69c37ddd16`
+  `https://claude.ai/code/artifact/63029698-e65d-4ebf-ab9a-9b93d29f2b26`
+  (republished 2026-09-08 — the previous URL, 69853cb5-182e-461b-8642-ff69c37ddd16,
+  stopped resolving; this one also declares the `db` capability the site's
+  report/admin-decision feature needs — see `rules` in the publish call: only
+  `admin_check` and `decisions` writes are admin-gated, `reports` stays default
+  so any viewer can submit an error report).
 - Delivered PDFs also live in `/Users/macbook/Downloads/claude/RFE_SFAR_2026/`
   on the user's machine (this repo's `output/` folder is the git-tracked copy).
 - **59 of 160 SFAR library items are built as of 2026-09-08.** Track progress via

@@ -11,7 +11,7 @@ reading full guideline PDFs (often 50-150+ pages).
   `https://claude.ai/code/artifact/69853cb5-182e-461b-8642-ff69c37ddd16`
 - Delivered PDFs also live in `/Users/macbook/Downloads/claude/RFE_SFAR_2026/`
   on the user's machine (this repo's `output/` folder is the git-tracked copy).
-- **42 of 160 SFAR library items are built as of 2026-09-05.** Track progress via
+- **59 of 160 SFAR library items are built as of 2026-09-08.** Track progress via
   `site/app.js`'s `FICHE_HREF_MATCH` object keys (one entry per built fiche) vs.
   `build/library_final.json` (the full 160-item index).
 

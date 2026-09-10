@@ -62,7 +62,8 @@ var RAW = {
   antibiotherapie_probabiliste: JSON.parse(document.getElementById('content-antibiotherapie_probabiliste').textContent),
   hsa: JSON.parse(document.getElementById('content-hsa').textContent),
   sepsis_hemodynamique: JSON.parse(document.getElementById('content-sepsis_hemodynamique').textContent),
-  securisation_proc: JSON.parse(document.getElementById('content-securisation_proc').textContent)
+  securisation_proc: JSON.parse(document.getElementById('content-securisation_proc').textContent),
+  mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -126,7 +127,8 @@ var FICHE_HREF_MATCH = {
   antibiotherapie_probabiliste: ['antibiotherapie-probabiliste-des-etats-septiques-graves', '2_AFAR_Antibiotherapie-probabiliste-des-etats-septiques-graves'],
   hsa: ['hemorragie-sous-arachnoidienne-hsa-grave', '2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne'],
   sepsis_hemodynamique: ['prise-en-charge-hemodynamique-du-sepsis-grave-nouveau-ne-exclu', '2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave'],
-  securisation_proc: ['securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu', '2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation']
+  securisation_proc: ['securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu', '2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation'],
+  mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -835,6 +837,18 @@ var DOC_META = {
     methodology: "Accord fort/faible (méthode RAND/UCLA, pas de GRADE) + zone d'indécision explicite",
     pages: 9,
     url: "https://sfar.org/wp-content/uploads/2015/10/2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation.pdf"
+  },
+  mort_encephalique: {
+    key: 'mort_encephalique',
+    badge: 'RAND/UCLA 1-9',
+    title: "Mort encéphalique & prélèvement d'organes",
+    short: "Prise en charge des sujets en état de mort encéphalique (ME) dans l'optique d'un prélèvement d'organes et de tissus : diagnostic clinique et paraclinique de la ME (EEG, angiographie, Doppler transcrânien), réanimation du donneur potentiel (hémodynamique, diabète insipide, cibles thérapeutiques, hémostase, infection, pédiatrie), critères d'évaluation et contre-indications par organe (cœur, poumon, foie, rein, pancréas, intestin, tissus), organisation du prélèvement (coordination hospitalière, PMO, donneurs à cœur arrêté/Maastricht). Cotation RAND/UCLA (médiane 1-9, 3 zones désaccord/indécision/accord) imprimée après la quasi-totalité des énoncés du texte source, y compris certains rappels de contexte non soumis au vote — disclosure de cette ambiguïté source dans la fiche.",
+    society: "SFAR / SRLF / Agence de la biomédecine",
+    version: "2005 (Ann Fr Anesth Réanim 2005;24:836-843)",
+    validated: "Conférence d'experts Sfar/SRLF/Agence de la biomédecine",
+    methodology: "Cotation RAND/UCLA (médiane 1-9, pas de GRADE) — zones désaccord (1-3) / indécision (4-6) / accord (7-9)",
+    pages: 8,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique-dans-loptique-dun-prelevement-dorganes.pdf"
   }
 };
 

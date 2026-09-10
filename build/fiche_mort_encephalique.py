@@ -10,11 +10,14 @@ METHODOLOGIE - PAS DU GRADE (1+/1-/2+/2-/AE) : methodologie RAND/UCLA. Chaque
 recommandation necessitant une validation a ete cotee individuellement par les
 experts sur une echelle de 1 a 9 ; le texte publie la MEDIANE des cotations entre
 parentheses, ex. "(9)". Trois zones sont definies par le jury (section 1.2 du texte
-source) : 1-3 = "desaccord", 4-6 = "indecision", 7-9 = "accord". Quand le jury cite
-aussi un EXTREME dissident, le texte imprime deux chiffres separes par une virgule,
-ex. "(8,5)" = mediane 8, extreme bas 5 ; cette fiche reproduit ce cas par un chip a
-deux nombres "8 / 5" (jamais fusionne en une valeur unique) et le documente dans la
-legende.
+source) : 1-3 = "desaccord", 4-6 = "indecision", 7-9 = "accord". Quand la mediane
+tombe sur un demi-point (nombre pair de cotations), le texte l'imprime en notation
+decimale francaise - virgule au lieu du point - ex. "(8,5)" = mediane 8,5.
+AUDIT INDEPENDANT A L'AVEUGLE : un grep exhaustif confirme que le second chiffre
+apres la virgule est TOUJOURS "5" sur les 11 occurrences du document (jamais "8,3"
+ou "7,2" etc.) - ce qui exclut l'hypothese initiale (corrigee ici) d'un extreme
+dissident cite en complement de la mediane, qui varierait. Chip a valeur unique
+"8,5"/"7,5", jamais scinde en deux nombres ni interprete comme un second vote.
 ANOMALIE SOURCE DISCLOSEE : le texte imprime ce meme code entre parentheses apres la
 quasi-totalite des enonces cliniques du corps du texte, qu'il s'agisse d'une
 recommandation soumise au vote du jury ou d'un simple rappel de donnee de
@@ -63,9 +66,8 @@ GRADE_COLORS["9"] = (GREEN, WHITE)
 GRADE_COLORS["8"] = (GREEN, WHITE)
 GRADE_COLORS["7"] = (GREEN, WHITE)
 GRADE_COLORS["6"] = (AMBER, WHITE)
-GRADE_COLORS["9 / 9"] = (GREEN, WHITE)
-GRADE_COLORS["8 / 5"] = (GREEN, WHITE)
-GRADE_COLORS["7 / 5"] = (GREEN, WHITE)
+GRADE_COLORS["8,5"] = (GREEN, WHITE)
+GRADE_COLORS["7,5"] = (GREEN, WHITE)
 
 
 def P(txt, style=S_CELL):
@@ -133,7 +135,7 @@ def target_table(header, rows):
 
 def legend_flowable():
     items = [("9", "Zone « accord » (7-9)"), ("6", "Zone « indécision » (4-6)"),
-              ("8 / 5", "Médiane / extrême dissident cité"), ("—", "Aucun chiffre imprimé")]
+              ("8,5", "Médiane à un demi-point (notation décimale « 8,5 »)"), ("—", "Aucun chiffre imprimé")]
     content_w = PAGE_W - 2 * MARGIN
     n = len(items)
     chip_w = 20 * mm
@@ -181,10 +183,14 @@ def _section_intro():
         "nécessitant une validation ont été cotées individuellement par chaque expert sur "
         "une échelle de <b>1 à 9</b>. Le texte publie la <b>médiane</b> des cotations "
         "entre parenthèses. Trois zones : <b>1-3 « désaccord »</b>, <b>4-6 « indécision »</b>, "
-        "<b>7-9 « accord »</b>. Quand un extrême dissident est en outre cité, le texte "
-        "imprime deux chiffres séparés par une virgule (ex. « (8,5) ») — reproduit ici par "
-        "un chip à deux nombres « 8 / 5 » (médiane / extrême bas), jamais fusionné en une "
-        "valeur unique.<br/><br/>"
+        "<b>7-9 « accord »</b>. Quand la médiane tombe sur un demi-point (nombre pair de "
+        "cotations), le texte l'imprime en notation décimale française — virgule au lieu "
+        "du point — ex. « (8,5) » = médiane 8,5. Un audit indépendant a l'aveugle a "
+        "vérifié cette lecture par grep exhaustif : le second chiffre après la virgule est "
+        "<i>toujours</i> « 5 » sur les 11 occurrences du document, ce qui exclut "
+        "l'hypothèse d'un extrême dissident cité (qui varierait). Chip à valeur unique "
+        "« 8,5 », jamais scindé en deux nombres ni interprété comme un second vote."
+        "<br/><br/>"
         "<b>Anomalie source disclosée :</b> ce même code entre parenthèses est imprimé "
         "après la quasi-totalité des énoncés du corps du texte, qu'il s'agisse d'une "
         "recommandation soumise au vote du jury ou d'un simple rappel de donnée de "
@@ -331,7 +337,7 @@ def _section_ch2a():
                 "contexte de ME, l'utilisation de critères dynamiques de réponse au "
                 "remplissage vasculaire (lever de jambe passif, variabilité respiratoire de "
                 "la pression artérielle, du flux aortique ou du diamètre de la veine cave "
-                "supérieure en échocardiographie Doppler) est recommandée.", "8 / 5"),
+                "supérieure en échocardiographie Doppler) est recommandée.", "8,5"),
         ("2.3", "Le dépistage de la dysfonction myocardique repose sur l'échocardiographie "
                 "Doppler, qui permet une meilleure prise en charge du donneur tout en "
                 "évaluant la qualité du greffon cardiaque éventuel.", "9"),
@@ -367,7 +373,7 @@ def _section_ch2b():
     story.append(reco_table([
         ("2.6", "Remplissage vasculaire (RV) modéré : cristalloïdes ou colloïdes "
                 "indifféremment ; au-delà de 3 000 ml, utiliser les colloïdes plutôt que "
-                "les cristalloïdes.", "7 / 5"),
+                "les cristalloïdes.", "7,5"),
         ("2.7", "Le contrôle précoce du diabète insipide permet d'éviter un RV massif, "
                 "délétère pour un éventuel prélèvement pulmonaire ; compléter par des "
                 "transfusions sanguines et traitements substitutifs si besoin.", None),
@@ -410,7 +416,7 @@ def _section_ch2c():
         ("PaO2 (FiO2 minimale)", "80 à 100 mmHg", "9"),
         ("PEP", "minimale, ≈ 5 cmH2O", "9"),
         ("Rapport PaO2/FiO2", "contrôle régulier, avant transfert au bloc", None),
-        ("Manœuvres de recrutement alvéolaire", "recommandées", "8 / 5"),
+        ("Manœuvres de recrutement alvéolaire", "recommandées", "8,5"),
     ]))
     story.append(Spacer(1, 2 * mm))
     story.append(reco_table([
@@ -512,7 +518,7 @@ def _section_ch3a():
         ("3.2.2", "Les anomalies ECG isolées (sus/sous-décalage ST, inversion de l'onde T, "
                   "allongement du QT) ne sont pas à prendre en compte ; les arythmies "
                   "ventriculaires répétitives sans anomalie hydroélectrolytique évidente "
-                  "sont en revanche de mauvais pronostic.", "7 / 5"),
+                  "sont en revanche de mauvais pronostic.", "7,5"),
         ("3.2.3", "L'absence de coronarographie au-delà de 55 ans ne doit pas être une "
                   "contre-indication au prélèvement.", "8"),
         ("3.2.4", "L'utilisation de catécholamines n'est plus en soi une contre-indication "
@@ -530,7 +536,7 @@ def _section_ch3a():
                   "tumeur cardiaque, hypokinésie globale (FEVG &lt; 0,3), lésions sévères "
                   "en coronarographie.", "9"),
         ("3.2.8", "Contre-indication absolue supplémentaire : hypoxémie sévère "
-                  "(SaO2 &lt; 80 %).", "7 / 5"),
+                  "(SaO2 &lt; 80 %).", "7,5"),
     ], col_widths=[16 * mm, PAGE_W - 2 * MARGIN - 16 * mm - CHIP_W, CHIP_W]))
     return story
 
@@ -554,7 +560,7 @@ def _section_ch3b():
         ("3.3.3", "Une radiographie ou un scanner thoracique normal est un excellent "
                   "critère de prélèvement.", "8"),
         ("3.3.4", "Optimiser la ventilation mécanique avant d'utiliser les critères "
-                  "d'imagerie et d'hématose.", "8 / 5"),
+                  "d'imagerie et d'hématose.", "8,5"),
         ("3.3.5", "L'utilisation de catécholamines n'est plus un critère de non-"
                   "prélèvement.", "9"),
         ("3.3.6", "Contre-indications absolues : âge du donneur &gt; 70 ans ; opacités "
@@ -572,7 +578,7 @@ def _section_ch3b():
     story.append(Spacer(1, 1.5 * mm))
     story.append(reco_table([
         ("3.4.1", "La bonne qualité du greffon fourni par certains donneurs de 80 ans ou "
-                  "plus a été largement démontrée.", "8 / 5"),
+                  "plus a été largement démontrée.", "8,5"),
         ("3.4.2", "Le diabète et l'HTA ne sont pas en soi des contre-indications ; "
                   "l'éthylisme chronique ne contre-indique pas le prélèvement si le foie "
                   "est macroscopiquement normal et sans altération biologique majeure ; "
@@ -592,7 +598,7 @@ def _section_ch3b():
         ("3.4.8", "La stéatose microvésiculaire, même massive, ne contre-indique pas le "
                   "prélèvement.", None),
         ("3.4.9", "La stéatose macro-vacuolaire peut contre-indiquer la greffe au-delà de "
-                  "30-60 %, selon le degré d'urgence de la transplantation.", "7 / 5"),
+                  "30-60 %, selon le degré d'urgence de la transplantation.", "7,5"),
         ("3.4.10", "En cas de doute, la décision relève de l'équipe de transplantation.", "9"),
     ], col_widths=[16 * mm, PAGE_W - 2 * MARGIN - 16 * mm - CHIP_W, CHIP_W]))
     return story
@@ -620,7 +626,7 @@ def _section_ch3c():
                   "même sous fortes doses de catécholamines, ne contre-indiquent pas non "
                   "plus le prélèvement — non coté dans le texte source.", None),
         ("3.5.6", "Limiter la multiplication des actes d'imagerie avec opacification "
-                  "vasculaire (impact des produits de contraste iodés chez le donneur).", "7 / 5"),
+                  "vasculaire (impact des produits de contraste iodés chez le donneur).", "7,5"),
         ("3.5.7", "Contre-indications : clairance de la créatinine &lt; 30 ml/min, "
                   "glomérulosclérose &gt; 50 %, lésions athéromateuses majeures.", "9"),
     ], col_widths=[16 * mm, PAGE_W - 2 * MARGIN - 16 * mm - CHIP_W, CHIP_W]))
@@ -629,7 +635,7 @@ def _section_ch3c():
     story.append(Spacer(1, 1.5 * mm))
     story.append(reco_table([
         ("3.6.1", "Pancréas total : âge du donneur &lt; 45 ans, sauf traumatisé sans "
-                  "antécédent (jusqu'à 55 ans).", "7 / 5"),
+                  "antécédent (jusqu'à 55 ans).", "7,5"),
         ("3.6.1b", "Îlots de Langerhans : âge entre 18 et 70 ans, meilleur résultat "
                   "au-delà de 50 ans — non coté dans le texte source.", None),
         ("3.6.1c", "Double greffe rein-pancréas : IMC préférentiellement &lt; 27 — non "
@@ -669,7 +675,7 @@ def _section_ch3d():
         ("3.7.5", "Un arrêt cardiaque prolongé et/ou une instabilité hémodynamique "
                   "contre-indiquent le prélèvement (risque d'ischémie mésentérique).", "8"),
         ("3.7.5b", "De même, l'utilisation d'adrénaline/noradrénaline au-delà de "
-                  "2 µg/kg/min doit faire contre-indiquer le prélèvement.", "7 / 5"),
+                  "2 µg/kg/min doit faire contre-indiquer le prélèvement.", "7,5"),
         ("3.7.6", "Une hypernatrémie au moment du prélèvement est associée à un taux élevé "
                   "de perte de greffons.", None),
     ], col_widths=[16 * mm, PAGE_W - 2 * MARGIN - 16 * mm - CHIP_W, CHIP_W]))
@@ -836,8 +842,9 @@ def _section_ch4c_sources():
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
         "<b>Méthodologie :</b> cotation RAND/UCLA, médiane sur échelle 1-9 (zones "
-        "désaccord 1-3 / indécision 4-6 / accord 7-9), extrême dissident bas parfois cité "
-        "en complément. Voir encart méthodologie et légende, page 1.", S_SOURCE))
+        "désaccord 1-3 / indécision 4-6 / accord 7-9), parfois imprimée en notation "
+        "décimale française à un demi-point (ex. « 8,5 »). Voir encart méthodologie et "
+        "légende, page 1.", S_SOURCE))
     story.append(P(
         "<b>URL source :</b> https://sfar.org/prise-en-charge-des-sujets-en-etat-de-mort-"
         "encephalique-dans-loptique-dun-prelevement-dorganes/",

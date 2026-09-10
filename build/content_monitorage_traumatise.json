@@ -273,6 +273,22 @@
        },
        {
         "t": "p",
+        "html": "En intrahospitalier, la mesure invasive de la pression artérielle permet d'obtenir une mesure fiable et continue même en cas d'hypotension sévère ou de mobilisation du patient — élément indispensable dans la prise en charge des états de choc post-traumatiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "PA invasive",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
         "html": "La mise en place précoce, dès la phase préhospitalière, d'un cathéter artériel peut être envisagée dans la mesure où la pose est réalisée sur un seul site artériel et dans un délai maximal de 10 minutes (bénéfice/risque à évaluer au cas par cas ; abord fémoral privilégié).",
         "style": "cell"
        },
@@ -470,6 +486,54 @@
       [
        {
         "t": "p",
+        "html": "SpO2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les critères décisionnels amenant à la réalisation d'une intubation trachéale prennent en compte les valeurs de SpO2, notamment chez le patient traumatisé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "SpO2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de difficultés d'intubation, l'utilisation de la SpO2 semble limiter la survenue et la durée des épisodes d'hypoxémie sévère.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "SpO2 — pronostic",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La SpO2 semble être un facteur pronostique de gravité en traumatologie, permettant d'intégrer ce paramètre dans le triage des patients.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
         "html": "SpO2 — seuil",
         "style": "cell_b"
        },
@@ -539,12 +603,44 @@
        },
        {
         "t": "p",
+        "html": "Sa mise en place dès les manœuvres de préoxygénation est souhaitable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Capnographie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
         "html": "La capnographie permet d'optimiser rapidement et de façon non invasive la ventilation en préhospitalier.",
         "style": "cell"
        },
        {
         "t": "chip",
         "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Capnographie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La visualisation du capnogramme est un élément de sécurité indispensable pour la surveillance du patient ventilé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
        }
       ],
       [
@@ -895,12 +991,44 @@
        },
        {
         "t": "p",
-        "html": "La surveillance du rythme cardiaque fœtal (RCF), réalisée préférentiellement de façon continue, est l'élément clé de la surveillance de la vitalité fœtale après un traumatisme chez la femme enceinte ; elle est faisable et souhaitable en préhospitalier.",
+        "html": "La surveillance du rythme cardiaque fœtal (RCF), réalisée préférentiellement de façon continue, est l'élément clé de la surveillance de la vitalité fœtale après un traumatisme chez la femme enceinte.",
         "style": "cell"
        },
        {
         "t": "chip",
         "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RCF — femme enceinte",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La surveillance du RCF en préhospitalier est faisable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RCF — femme enceinte",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La surveillance du RCF en préhospitalier est souhaitable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
        }
       ],
       [
@@ -917,6 +1045,22 @@
        {
         "t": "chip",
         "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ventilation — enfant",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La connaissance du mode ventilatoire, des pressions de crête, et de la spirométrie expirée est souhaitable chez l'enfant traumatisé grave.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
        }
       ],
       [
@@ -1115,6 +1259,22 @@
         "t": "chip",
         "label": "D"
        }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Catastrophe — échographie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'échographie pourrait avoir un intérêt comme outil de tri au PMA, afin d'évacuer ces patients en priorité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
       ]
      ]
     },
@@ -1155,7 +1315,7 @@
     },
     {
      "t": "p",
-     "html": "<b>Couverture :</b> 46 recommandations individuelles reproduites sur les 8 questions du texte court, sur 79 lettres de grade imprimées au total dans le document (le reste étant des faits de contexte/justification non promus en ligne de tableau — disclosure faite dans le corps de la fiche, voir docstring du script source).",
+     "html": "<b>Couverture :</b> 55 recommandations individuelles reproduites sur les 8 questions du texte court, sur 75 lettres de grade imprimées au total dans le document (le reste étant des faits de contexte/justification non promus en ligne de tableau — disclosure faite dans le corps de la fiche, voir docstring du script source).",
      "style": "source"
     },
     {

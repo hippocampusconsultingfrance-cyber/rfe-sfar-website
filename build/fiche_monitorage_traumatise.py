@@ -36,12 +36,25 @@ restent en texte libre (paragraphes "note") plutot que d'etre promues en ligne d
 disclosure faite ici plutot que de fabriquer une distinction que le texte source lui-meme
 n'imprime pas typographiquement.
 
-COMPTAGE : 79 lettres de grade au total dans le texte source (grep exhaustif : 34xD, 30xE,
-7xB, 4xA, 4xC). Cette fiche retient 46 recommandations actionnables individuelles (sur les
-8 questions), le reste des occurrences graduees etant des faits de contexte/justification
-non promus en ligne de tableau (voir disclosure ci-dessus) - les deux chiffres (79 codes
-imprimes vs 46 recommandations retenues) sont disclosed sans etre reconcilies
-artificiellement.
+COMPTAGE : 75 lettres de grade au total dans le texte source (grep exhaustif, insensible a
+la casse pour capturer l'unique occurrence en minuscules "(grade C)" de la section
+temperature : 33xD, 29xE, 6xB, 4xC, 3xA). Cette fiche retient 55 recommandations
+actionnables individuelles (sur les 8 questions), le reste des occurrences graduees etant
+des faits de contexte/justification non promus en ligne de tableau (voir disclosure
+ci-dessus) - les deux chiffres (75 codes imprimes vs 55 recommandations retenues) sont
+disclosed sans etre reconcilies artificiellement.
+
+AUDIT INDEPENDANT A L'AVEUGLE - CORRECTIONS APPLIQUEES : un premier brouillon comptait par
+erreur 79 codes (au lieu de 75, la variante minuscule "(grade C)" n'avait pas ete comptee)
+et ne retenait que 45 recommandations. L'audit a identifie (1) une ligne a grade composite
+(Q7, RCF chez la femme enceinte, qui fusionnait un enonce Grade C avec un enonce Grade D/E
+distinct sous un seul chip "C" - viole directement la regle CLAUDE.md sur les grades
+composites) desormais scindee en 3 lignes distinctes ; (2) 8 recommandations actionnables
+identifiables dans le texte source mais absentes du brouillon initial (Q2a : fiabilite de
+la PA invasive intrahospitaliere meme en cas d'hypotension severe, Grade A ; Q3 : 3 enonces
+SpO2 additionnels et 2 enonces capnographie additionnels ; Q7 : parametres ventilatoires
+pediatriques souhaitables ; Q8 : interet de l'echographie pour le triage au PMA) - toutes
+desormais ajoutees comme lignes distinctes plutot que fondues dans les lignes existantes.
 
 PERIMETRE : les 8 questions du texte court sont couvertes integralement (justification du
 monitorage ; monitorage cardiovasculaire et thermique ; monitorage respiratoire ;
@@ -191,6 +204,7 @@ def _section_q2a():
         ("ECG", "La réalisation d'un ECG est recommandée en cas de traumatisme grave (peut être différée jusqu'à l'arrivée au centre hospitalier selon le contexte).", "E"),
         ("PA non invasive", "La mesure de la pression artérielle nécessite l'utilisation d'un brassard de taille adaptée au bras du patient et son positionnement correct sur le trajet artériel.", "D"),
         ("PA non invasive", "La méthode oscillométrique n'est pas fiable en cas d'hypotension, de frissons, d'arythmie ou de mobilisation du patient.", "D"),
+        ("PA invasive", "En intrahospitalier, la mesure invasive de la pression artérielle permet d'obtenir une mesure fiable et continue même en cas d'hypotension sévère ou de mobilisation du patient — élément indispensable dans la prise en charge des états de choc post-traumatiques.", "A"),
         ("PA invasive", "La mise en place précoce, dès la phase préhospitalière, d'un cathéter artériel peut être envisagée dans la mesure où la pose est réalisée sur un seul site artériel et dans un délai maximal de 10 minutes (bénéfice/risque à évaluer au cas par cas ; abord fémoral privilégié).", "D"),
         ("PA invasive", "Un apprentissage préalable et un entraînement régulier de toute l'équipe sont indispensables pour que la pose d'un cathéter artériel puisse être réalisée en préhospitalier.", "E"),
         ("Échographie FAST", "L'échographie selon la technique FAST (Focused Abdominal Sonography for Trauma) permet d'améliorer le triage des patients en cas de victimes multiples.", "D"),
@@ -226,11 +240,16 @@ def _section_q3():
     story = [section_bar("Question 3 — Monitorage respiratoire")]
     rows = [
         ("SpO2", "L'oxymètre de pouls est un outil indispensable en préhospitalier ; il permet une détection plus précoce et plus fiable de l'hypoxémie que l'évaluation clinique.", "D"),
+        ("SpO2", "Les critères décisionnels amenant à la réalisation d'une intubation trachéale prennent en compte les valeurs de SpO2, notamment chez le patient traumatisé.", "E"),
+        ("SpO2", "En cas de difficultés d'intubation, l'utilisation de la SpO2 semble limiter la survenue et la durée des épisodes d'hypoxémie sévère.", "E"),
+        ("SpO2 — pronostic", "La SpO2 semble être un facteur pronostique de gravité en traumatologie, permettant d'intégrer ce paramètre dans le triage des patients.", "E"),
         ("SpO2 — seuil", "Un seuil de SpO2 au moins égal à 94 % doit être ciblé pour détecter toutes les SaO2 &lt; 90 %.", "E"),
         ("Ballonnet IOT", "Le monitorage de la pression du ballonnet de la sonde d'intubation est nécessaire pour limiter les complications trachéales liées à l'intubation.", "B"),
         ("Ventilation mécanique", "Les alarmes du respirateur à régler et à surveiller sont les alarmes de pression inspiratoire maximale et minimale, ainsi que celles de spirométrie.", "E"),
         ("Capnographie", "Le monitorage de la capnographie est fortement recommandé en préhospitalier lors de la réalisation de l'intubation trachéale ; c'est la méthode de référence pour détecter l'intubation œsophagienne.", "D"),
+        ("Capnographie", "Sa mise en place dès les manœuvres de préoxygénation est souhaitable.", "E"),
         ("Capnographie", "La capnographie permet d'optimiser rapidement et de façon non invasive la ventilation en préhospitalier.", "B"),
+        ("Capnographie", "La visualisation du capnogramme est un élément de sécurité indispensable pour la surveillance du patient ventilé.", "E"),
         ("Capnographie", "Pour les patients qui justifient d'un contrôle strict de la PaCO2 (notamment en cas de souffrance neurologique), le monitorage de la capnographie doit être complété par une mesure des gaz du sang dès que possible.", "D"),
         ("Capnographie", "L'évolution de la PETCO2 permet de guider les manœuvres de réanimation en cas d'arrêt cardiaque.", "D"),
     ]
@@ -299,8 +318,11 @@ def _section_q6():
 def _section_q7():
     story = [section_bar("Question 7 — Femme enceinte et enfant traumatisés graves")]
     rows = [
-        ("RCF — femme enceinte", "La surveillance du rythme cardiaque fœtal (RCF), réalisée préférentiellement de façon continue, est l'élément clé de la surveillance de la vitalité fœtale après un traumatisme chez la femme enceinte ; elle est faisable et souhaitable en préhospitalier.", "C"),
+        ("RCF — femme enceinte", "La surveillance du rythme cardiaque fœtal (RCF), réalisée préférentiellement de façon continue, est l'élément clé de la surveillance de la vitalité fœtale après un traumatisme chez la femme enceinte.", "C"),
+        ("RCF — femme enceinte", "La surveillance du RCF en préhospitalier est faisable.", "D"),
+        ("RCF — femme enceinte", "La surveillance du RCF en préhospitalier est souhaitable.", "E"),
         ("Monitorage — enfant", "La mesure de la fréquence cardiaque, de la pression artérielle non invasive, de l'oxymétrie pulsée et de la capnographie est recommandée pour tous les enfants traumatisés graves, avec un matériel adapté à leur gabarit.", "A"),
+        ("Ventilation — enfant", "La connaissance du mode ventilatoire, des pressions de crête, et de la spirométrie expirée est souhaitable chez l'enfant traumatisé grave.", "E"),
         ("Ballonnet IOT — enfant", "La surveillance de la pression du ballonnet de la sonde d'intubation est utile pour la prévention des lésions trachéales ischémiques chez l'enfant.", "D"),
         ("Autres paramètres — enfant", "Il est recommandé de mesurer la température corporelle, la concentration en hémoglobine, la glycémie et l'intensité de la douleur sur une échelle adaptée à l'enfant.", "D"),
     ]
@@ -329,6 +351,7 @@ def _section_q8():
         ("Catastrophe — PA", "Le monitorage de la pression artérielle en situation de catastrophe sera, en cas de traumatisme grave, préférentiellement réalisé à l'aide d'un brassard automatique.", "E"),
         ("Catastrophe — IOT", "La position endotrachéale de la sonde d'intubation peut être vérifiée, en complément de l'auscultation, par l'utilisation d'indicateurs colorimétriques et/ou par un test à la seringue.", "D"),
         ("Catastrophe — échographie", "L'échographie permet d'identifier rapidement un épanchement pleural ou péritonéal au poste médical avancé (PMA).", "D"),
+        ("Catastrophe — échographie", "L'échographie pourrait avoir un intérêt comme outil de tri au PMA, afin d'évacuer ces patients en priorité.", "E"),
     ]
     story.append(theme_table(rows))
     story.append(P(
@@ -372,8 +395,8 @@ def _section_sources():
         "I à V, force de recommandation A à E imprimée après chaque énoncé (voir légende et "
         "Tableaux I/II, page 1).", S_SOURCE))
     story.append(P(
-        "<b>Couverture :</b> 46 recommandations individuelles reproduites sur les 8 questions "
-        "du texte court, sur 79 lettres de grade imprimées au total dans le document (le "
+        "<b>Couverture :</b> 55 recommandations individuelles reproduites sur les 8 questions "
+        "du texte court, sur 75 lettres de grade imprimées au total dans le document (le "
         "reste étant des faits de contexte/justification non promus en ligne de tableau — "
         "disclosure faite dans le corps de la fiche, voir docstring du script source).",
         S_SOURCE))

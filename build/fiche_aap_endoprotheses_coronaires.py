@@ -19,8 +19,10 @@ cross-reference vers les 2 fiches 2018 est incluse dans le panneau d'introductio
 
 METHODOLOGIE : PAS de systeme GRADE, pas de vote/pourcentage d'accord formalise (a
 la difference des propositions GIHP/GFHT 2018). Le document est explicitement un
-« avis d'un groupe d'experts » (9 propositions listees a puces, "PROPOSITIONS DU
-GROUPE D'EXPERTS, 31 MARS 2006"), sans tag de force individuel imprime a cote de
+« avis d'un groupe d'experts » (10 propositions listees a puces, "PROPOSITIONS DU
+GROUPE D'EXPERTS, 31 MARS 2006" - les 2 dernieres, registre et carte de liaison,
+condensees en une seule ligne thematique ici puisqu'elles partagent un theme "suivi/
+tracabilite" commun, sans perte de contenu), sans tag de force individuel imprime a cote de
 chaque proposition. La source elle-meme souligne a plusieurs reprises l'absence de
 preuve de haut niveau ("Cette proposition ne repose sur aucune etude prospective",
 "reposent sur des avis d'experts, en l'absence d'etude de haut niveau de preuve") -
@@ -38,7 +40,8 @@ paraphrase : matrice 2 lignes (risque de thrombose du stent : Majeur/Modere) x
 3 colonnes (risque hemorragique de l'intervention : Majeur/Intermediaire/Mineur),
 plus les 2 encadres de definition des criteres et la note de bas de tableau.
 
-COUVERTURE : 9/9 propositions du corps du texte + Tableau 1 integral + reference a
+COUVERTURE : 10/10 propositions du corps du texte (condensees en 9 lignes thematiques,
+voir note methodologie ci-dessus) + Tableau 1 integral + reference a
 la carte de liaison AAP. Comite de redaction, adresses institutionnelles et les 13
 references bibliographiques ne sont pas retranscrits (sans contenu clinique
 actionnable).
@@ -174,7 +177,9 @@ def _section_propositions():
          "aiguë serait le même quelle que soit la nature de l'EC. L'arrêt des AAP est un "
          "facteur de risque majeur de thrombose pour tous les stents, en particulier de "
          "thrombose tardive pour les EC pharmacoactives — ce qui justifie a priori un "
-         "traitement AAP prolongé."),
+         "traitement AAP prolongé. <i>La fréquence réelle de thrombose d'EC pharmacoactive en "
+         "contexte périopératoire reste inconnue à ce jour : seuls des cas cliniques isolés "
+         "sont rapportés dans la littérature.</i>"),
         ("Choix du stent avant chirurgie prévue", "La pose d'une EC doit toujours être discutée "
          "en amont ; si une chirurgie est envisagée dans les 6 à 12 mois, la pose d'une EC nue "
          "est préférable. Avant l'implantation d'une EC pharmacoactive, la possible réalisation "
@@ -194,14 +199,22 @@ def _section_propositions():
         ("EC pharmacoactive, bithérapie non interruptible", "Si l'intervention doit survenir "
          "pendant une période où la bithérapie ne peut pas être arrêtée totalement (risque "
          "thrombotique élevé) : poursuite de l'aspirine hautement souhaitable, fenêtre courte "
-         "de 5 jours d'arrêt du clopidogrel envisageable (voir Tableau 1). Reprise "
-         "postopératoire la plus précoce possible ; dose de charge de clopidogrel ≥ 300 mg "
-         "évoquée par certains experts."),
+         "de 5 jours d'arrêt du clopidogrel envisageable (voir Tableau 1) — <i>proposition ne "
+         "reposant sur aucune étude prospective, mais sur un compromis entre la durée de vie des "
+         "plaquettes (10 jours), le risque hémorragique de la poursuite et le risque "
+         "thrombotique de l'interruption.</i> Reprise postopératoire la plus précoce possible ; "
+         "dose de charge de clopidogrel ≥ 300 mg évoquée par certains experts."),
         ("EC pharmacoactive, quel que soit le délai", "Il est préférable d'opérer sous aspirine "
          "(voir Tableau 1). Prudence et discussion collégiale particulièrement recommandées si "
          "l'hémostase chirurgicale est difficile (grands décollements, aorte, prostate, "
          "neurochirurgie, ORL, segment postérieur de l'œil). Hors chirurgie cardiaque, aucune "
-         "donnée de la littérature sur le risque hémorragique périopératoire sous clopidogrel."),
+         "donnée de la littérature sur le risque hémorragique périopératoire sous clopidogrel ; "
+         "les données sous ticlopidine (risque hémorragique équivalent) sont très peu "
+         "nombreuses, même si un accroissement du risque hémorragique par rapport à l'aspirine "
+         "a été rapporté. <b>EC nue au-delà de la 6<sup>e</sup> semaine :</b> aucune "
+         "recommandation forte ne pourra être formulée avant les résultats de l'étude "
+         "STRATAGEM (qui peut inclure les patients porteurs d'EC nues au-delà du 30<sup>e</sup> "
+         "jour)."),
         ("Si aucun AAP ne peut être maintenu", "Risque hémorragique de la chirurgie considéré "
          "comme majeur ou impossibilité de surseoir à l'intervention : l'arrêt complet du "
          "traitement (bithérapie) doit être discuté au cas par cas (risque thrombotique "
@@ -223,6 +236,11 @@ def _section_tableau_sources():
     story.append(Spacer(1, 3 * mm))
     story.append(section_bar("Tableau 1 — Matrice de décision périopératoire", color=TEAL_DARK))
     story.append(Spacer(1, 2 * mm))
+    story.append(P(
+        "<b>Endoprothèse coronaire (EC) pharmacoactive.</b> Risque de thrombose du stent : "
+        "<i>à évaluer avec le cardiologue.</i> Risque hémorragique de l'intervention : "
+        "<i>à évaluer avec le responsable du geste invasif ou le chirurgien.</i>", S_NOTE))
+    story.append(Spacer(1, 1.5 * mm))
     story.append(KeepTogether([risk_matrix_table(), Spacer(1, 1.5 * mm),
         P("Risque hémorragique — Majeur : intervention ne pouvant être réalisée sous AAP. "
           "Modéré : intervention réalisable sous aspirine seule. Mineur : intervention "
@@ -254,10 +272,12 @@ def _section_tableau_sources():
                     "2006, sans système GRADE ni vote/pourcentage d'accord formalisé (voir "
                     "disclosure méthodologique en page 1).", S_SOURCE))
     story.append(Spacer(1, 1.5 * mm))
-    story.append(P("<b>Couverture :</b> cette fiche reprend l'intégralité des 9 propositions du "
-                    "corps du texte et le Tableau 1 (matrice de décision), reproduit "
-                    "intégralement à partir du rendu visuel de la page source (pas de texte "
-                    "extractible). Comité de rédaction, adresses institutionnelles et les 13 "
+    story.append(P("<b>Couverture :</b> cette fiche reprend l'intégralité des 10 propositions du "
+                    "corps du texte (les 2 dernières, registre et carte de liaison, condensées en "
+                    "une seule ligne thématique « suivi/traçabilité », sans perte de contenu) et "
+                    "le Tableau 1 (matrice de décision), reproduit intégralement à partir du "
+                    "rendu visuel de la page source (pas de texte extractible). Comité de "
+                    "rédaction, adresses institutionnelles et les 13 "
                     "références bibliographiques ne sont pas retranscrits (sans contenu clinique "
                     "actionnable).", S_SOURCE))
     story.append(Spacer(1, 3 * mm))
@@ -292,7 +312,7 @@ def _build_upto(section_fns):
     story = []
     for i, fn in enumerate(section_fns):
         if i > 0:
-            story.append(PageBreak())
+            story.append(Spacer(1, 4 * mm))
         story.extend(fn())
     return story
 

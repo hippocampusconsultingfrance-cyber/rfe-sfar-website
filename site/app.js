@@ -68,7 +68,8 @@ var RAW = {
   infarctus_myocarde: JSON.parse(document.getElementById('content-infarctus_myocarde').textContent),
   avc_precoce: JSON.parse(document.getElementById('content-avc_precoce').textContent),
   traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent),
-  examens_preinterventionnels: JSON.parse(document.getElementById('content-examens_preinterventionnels').textContent)
+  examens_preinterventionnels: JSON.parse(document.getElementById('content-examens_preinterventionnels').textContent),
+  aap_endoprotheses_coronaires: JSON.parse(document.getElementById('content-aap_endoprotheses_coronaires').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -138,7 +139,8 @@ var FICHE_HREF_MATCH = {
   infarctus_myocarde: ['linfarctus-du-myocarde', '2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde'],
   avc_precoce: ['accident-vasculaire-cerebral-prise-en-charge-precoce', '2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce'],
   traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce'],
-  examens_preinterventionnels: ['examens-preinterventionnels-systematiques', 'AFAR_Examens-preinterventionnels-systematiques']
+  examens_preinterventionnels: ['examens-preinterventionnels-systematiques', 'AFAR_Examens-preinterventionnels-systematiques'],
+  aap_endoprotheses_coronaires: ['gestion-du-traitement-anti-plaquettaire-oral-chez-les-patients-porteurs-dendoprotheses-coronaires', '2_AFAR_Gestion-du-traitement-anti-plaquettaire-']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -919,6 +921,18 @@ var DOC_META = {
     methodology: "GRADE 1+/1-/2+/2- — 38 recommandations taguées (14× 1+, 14× 1-, 9× 2+, 1× 2-), dont 13 signes résolus depuis le sens de la phrase (disclosure en page 1 de la fiche)",
     pages: 12,
     url: "https://sfar.org/wp-content/uploads/2015/10/AFAR_Examens-preinterventionnels-systematiques.pdf"
+  },
+  aap_endoprotheses_coronaires: {
+    key: 'aap_endoprotheses_coronaires',
+    badge: 'Avis d\'experts',
+    title: "AAP oral & endoprothèses coronaires",
+    short: "Gestion périopératoire du traitement antiplaquettaire oral (aspirine, clopidogrel) chez les patients porteurs d'une endoprothèse coronaire (stent, nu ou pharmacoactif) devant subir un acte invasif. Matrice de décision (Tableau 1) croisant risque de thrombose du stent et risque hémorragique de l'intervention. Document historique de 2006, antérieur et complémentaire aux propositions GIHP/GFHT/SFAR 2018 (AAP procédure programmée / non programmée) déjà couvertes dans ce corpus.",
+    society: "SFAR",
+    version: "2006 (Information professionnelle)",
+    validated: "Propositions du groupe d'experts, 31 mars 2006",
+    methodology: "Avis d'un groupe d'experts, sans système GRADE ni vote/pourcentage d'accord formalisé (voir disclosure méthodologique en page 1 de la fiche)",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-du-traitement-anti-plaquettaire-.pdf"
   }
 };
 

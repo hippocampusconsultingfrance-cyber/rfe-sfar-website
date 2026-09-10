@@ -146,8 +146,8 @@ def _section_intro_r1_r2():
     story.append(Spacer(1, 2 * mm))
     story.append(reco_table([
         ("R1", "ECG de repos — quel que soit l'âge : ne pas prescrire un nouvel ECG si un tracé "
-         "de moins de 12 mois est disponible sans modification clinique ; ne pas prescrire un ECG "
-         "pour une intervention mineure.", "1-"),
+         "de moins de 12 mois est disponible sans modification clinique.", "1-"),
+        ("R1", "Ne pas prescrire un ECG de repos pour une intervention mineure.", "1-"),
         ("R1", "ECG de repos — avant 65 ans : ne pas prescrire un ECG 12 dérivations avant une "
          "intervention à risque intermédiaire/élevé (sauf artérielle) en l'absence de signes "
          "d'appel, FDR ou pathologie cardiovasculaire.", "1-"),
@@ -202,6 +202,18 @@ def _section_r3_r4_r5():
         ("R3", "Chez l'adulte non interrogeable : prescrire probablement un TP, un TCA et une "
          "numération plaquettaire (pathologies constitutionnelles ou acquises).", "2+"),
     ]))
+    story.append(Spacer(1, 2 * mm))
+    story.append(info_panel(P(
+        "<b>Précisions non graduées (source) :</b> un bilan d'hémostase doit être réalisé en cas "
+        "d'hépatopathie, de malabsorption/malnutrition, de maladie hématologique ou de toute "
+        "pathologie pouvant entraîner des troubles de l'hémostase, ou de prise d'anticoagulants — "
+        "même sans symptôme hémorragique ; il doit être demandé suffisamment à l'avance pour "
+        "permettre tout examen complémentaire nécessaire. <b>Aucun examen de laboratoire ne "
+        "permet d'évaluer le risque de saignement</b> chez les patients sous antiagrégants "
+        "plaquettaires. En cas d'anamnèse évocatrice avec bilan standard normal, le patient doit "
+        "être adressé à une consultation spécialisée : des TCA/TP/plaquettes normaux n'excluent "
+        "pas une pathologie de l'hémostase exposant à un risque hémorragique péri-interventionnel."
+    )))
     story.append(Spacer(1, 3 * mm))
 
     story.append(section_bar("4 — Hémogramme", color=TEAL_DARK))
@@ -258,10 +270,12 @@ def _section_r6_r7():
          "évocateur, y compris avant une ALR périmédullaire.", "1-"),
         ("R7", "Réévaluer la normalité de la grossesse de façon répétée, notamment à l'arrivée "
          "en salle de naissance par l'équipe obstétricale, et transmettre à l'anesthésiste.", "1+"),
-        ("R7", "En présence de situations à risque hémorragique dépistées avant la naissance "
-         "(ATCD HPP, HELLP, hématome rétroplacentaire, MFIU, anomalie d'insertion placentaire, "
-         "grossesse gémellaire, utérus cicatriciel, chorioamniotite, trouble d'hémostase connu), "
-         "disposer d'une RAI de moins de 3 jours.", "1+"),
+        ("R7", "Ne pas prescrire systématiquement une RAI à l'entrée en salle de travail si "
+         "contrôle de moins d'1 mois disponible et grossesse normale. En présence de situations "
+         "à risque hémorragique dépistées avant la naissance (ATCD HPP, HELLP, hématome "
+         "rétroplacentaire, MFIU, anomalie d'insertion placentaire, grossesse gémellaire, utérus "
+         "cicatriciel, chorioamniotite, trouble d'hémostase connu), disposer d'une RAI de moins "
+         "de 3 jours.", "1+"),
         ("R7", "Dans le cadre d'une césarienne programmée, disposer d'une RAI de moins de "
          "3 jours.", "1+"),
     ]))

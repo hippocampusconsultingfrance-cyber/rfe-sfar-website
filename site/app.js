@@ -67,7 +67,8 @@ var RAW = {
   monitorage_traumatise: JSON.parse(document.getElementById('content-monitorage_traumatise').textContent),
   infarctus_myocarde: JSON.parse(document.getElementById('content-infarctus_myocarde').textContent),
   avc_precoce: JSON.parse(document.getElementById('content-avc_precoce').textContent),
-  traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent)
+  traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent),
+  examens_preinterventionnels: JSON.parse(document.getElementById('content-examens_preinterventionnels').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -136,7 +137,8 @@ var FICHE_HREF_MATCH = {
   monitorage_traumatise: ['monitorage-du-patient-traumatise-grave-en-prehospitalier', '2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier'],
   infarctus_myocarde: ['linfarctus-du-myocarde', '2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde'],
   avc_precoce: ['accident-vasculaire-cerebral-prise-en-charge-precoce', '2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce'],
-  traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce']
+  traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce'],
+  examens_preinterventionnels: ['examens-preinterventionnels-systematiques', 'AFAR_Examens-preinterventionnels-systematiques']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -905,6 +907,18 @@ var DOC_META = {
     methodology: "GRADE 1+/1-/2+/2- + avis d'experts (AE) — accord FORT sur 100% des recommandations",
     pages: 23,
     url: "https://sfar.org/wp-content/uploads/2017/09/RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce.pdf"
+  },
+  examens_preinterventionnels: {
+    key: 'examens_preinterventionnels',
+    badge: 'GRADE 1/2',
+    title: "Examens préinterventionnels systématiques",
+    short: "Prescription des examens complémentaires préinterventionnels systématiques (ECG, échocardiographie, radio thorax, gaz du sang, EFR, hémostase, hémogramme, immunohématologie, biochimie, femme enceinte en prépartum, test de grossesse, dépistage infectieux/ECBU) en dehors de signes d'appel anamnestiques ou cliniques. Stratification selon le type de chirurgie (risque cardiaque ACC/AHA) et la classe ASA. Actualisation SFAR 2012 des recommandations Anaes de 1998, 9 recommandations, 38 tags GRADE.",
+    society: "SFAR (actualisation des recommandations Anaes 1998)",
+    version: "2012 (RFE)",
+    validated: "Validé par 14 sociétés savantes (AFC, AFU, CNGOF, EFS, SCGP, SFC, SFCD, GEHT, SF2H, SOFOP, SFORL, SFR-FRI, SFSCMF, SPLF)",
+    methodology: "GRADE 1+/1-/2+/2- — 38 recommandations taguées (14× 1+, 14× 1-, 9× 2+, 1× 2-), dont 13 signes résolus depuis le sens de la phrase (disclosure en page 1 de la fiche)",
+    pages: 12,
+    url: "https://sfar.org/wp-content/uploads/2015/10/AFAR_Examens-preinterventionnels-systematiques.pdf"
   }
 };
 

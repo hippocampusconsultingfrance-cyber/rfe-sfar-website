@@ -1,0 +1,1134 @@
+{
+ "doc": "examens_preinterventionnels",
+ "sections": [
+  {
+   "title": "Examens cardiologiques & respiratoires",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prescription des examens complémentaires <b>préinterventionnels systématiques</b> — réalisés en routine, en dehors de signes d'appel anamnestiques ou cliniques, avant une intervention chirurgicale ou une procédure non chirurgicale sous anesthésie. <b>Exclut</b> les examens spécifiques à l'acte ou à la pathologie du patient (ex. EFR avant résection pulmonaire), la chirurgie cardiaque/de résection pulmonaire/intracrânienne, la médecine préventive, et les nouveau-nés (0-28 jours). Actualisation SFAR 2012 des recommandations Anaes de 1998, validée par 14 sociétés savantes. Stratification selon le <b>type de chirurgie</b> (risque cardiaque ACC/AHA : faible &lt;1 %, intermédiaire 1-5 %, élevé &gt;5 % — Annexe A) et la <b>classe ASA</b> du patient.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie GRADE</b> (même schéma que le reste du corpus) : Grade 1+/1- (forte, « il faut faire/ne pas faire ») ; Grade 2+/2- (faible, « il est possible de faire/ne pas faire »). <b>Vérifié par grep exhaustif : 38 recommandations tagués (14× 1+, 14× 1-, 9× 2+, 1× 2-).</b> <b>Disclosure :</b> la source omet le signe +/- sur 13 de ces 38 tags (elle écrit juste « GRADE 1 » ou « GRADE 2 ») ; le signe est ici résolu à partir du sens univoque de chaque phrase (« il est recommandé de <b>ne pas</b> prescrire... » = négatif), jamais le niveau (1 vs 2, toujours explicite) — cohérent avec les tags « GRADE 1– » explicitement signés ailleurs dans ce même document pour des recommandations négatives strictement analogues.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "1 — Examens cardiologiques (ECG, échographie)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "ECG de repos — quel que soit l'âge : ne pas prescrire un nouvel ECG si un tracé de moins de 12 mois est disponible sans modification clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire un ECG de repos pour une intervention mineure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "ECG de repos — avant 65 ans : ne pas prescrire un ECG 12 dérivations avant une intervention à risque intermédiaire/élevé (sauf artérielle) en l'absence de signes d'appel, FDR ou pathologie cardiovasculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "ECG de repos — après 65 ans : il faut probablement prescrire un ECG 12 dérivations avant toute intervention à risque élevé/intermédiaire, même sans signe clinique, FDR ni pathologie cardiovasculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Échocardiographie transthoracique : ne pas prescrire de façon systématique une échocardiographie de repos préinterventionnelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Limiter les indications d'échocardiographie préinterventionnelle aux sous-groupes bénéficiaires : patients symptomatiques (dyspnée, insuffisance cardiaque inconnue/aggravée, souffle systolique non connu, suspicion d'HTAP).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "2 — Examens respiratoires (radio thorax, gaz du sang, EFR)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire de manière systématique une radiographie de thorax préinterventionnelle en chirurgie non cardiothoracique, quel que soit l'âge, sauf pathologie cardiopulmonaire évolutive/aiguë.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire de manière systématique des gaz du sang artériels préinterventionnels en chirurgie non cardiothoracique, quel que soit l'âge, sauf pathologie pulmonaire évolutive/aiguë.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire de manière systématique des EFR préinterventionnelles en chirurgie non cardiothoracique, quel que soit l'âge, sauf pathologie pulmonaire évolutive/aiguë.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Hémostase, hémogramme & immunohématologie",
+   "items": [
+    {
+     "t": "section",
+     "text": "3 — Examens d'hémostase (TP, TCA, plaquettes)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer le risque hémorragique d'après l'anamnèse personnelle/familiale de diathèse hémorragique et l'examen physique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser probablement un questionnaire standardisé de recherche de manifestations hémorragiques pour l'anamnèse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire de façon systématique un bilan d'hémostase si l'anamnèse/examen clinique ne fait pas suspecter un trouble — quel que soit le grade ASA, le type d'intervention et l'âge (hors enfants n'ayant pas acquis la marche).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire de façon systématique un bilan d'hémostase si l'anamnèse/examen clinique ne fait pas suspecter un trouble — quel que soit le type d'anesthésie (générale, neuraxiale, blocs périphériques/combinées), y compris en obstétrique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Demander un avis spécialisé en cas d'anamnèse de diathèse hémorragique évocatrice d'un trouble de l'hémostase.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Chez l'enfant n'ayant pas acquis la marche : prescrire probablement un TCA et une numération plaquettaire (dépistage de pathologies constitutionnelles, ex. hémophilie).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Chez l'adulte non interrogeable : prescrire probablement un TP, un TCA et une numération plaquettaire (pathologies constitutionnelles ou acquises).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Précisions non graduées (source) :</b> un bilan d'hémostase doit être réalisé en cas d'hépatopathie, de malabsorption/malnutrition, de maladie hématologique ou de toute pathologie pouvant entraîner des troubles de l'hémostase, ou de prise d'anticoagulants — même sans symptôme hémorragique ; il doit être demandé suffisamment à l'avance pour permettre tout examen complémentaire nécessaire. <b>Aucun examen de laboratoire ne permet d'évaluer le risque de saignement</b> chez les patients sous antiagrégants plaquettaires. En cas d'anamnèse évocatrice avec bilan standard normal, le patient doit être adressé à une consultation spécialisée : des TCA/TP/plaquettes normaux n'excluent pas une pathologie de l'hémostase exposant à un risque hémorragique péri-interventionnel.",
+      "style": "cell"
+     }
+    },
+    {
+     "t": "section",
+     "text": "4 — Hémogramme",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Intervention à risque mineur, quel que soit l'âge : ne pas prescrire un hémogramme avant l'acte.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Intervention à risque intermédiaire ou élevé, quel que soit l'âge : prescrire un hémogramme avant l'acte (caractère pronostique, stratégie transfusionnelle).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "5 — Examens immunohématologiques (groupe sanguin, RAI)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque de transfusion/saignement nul à faible : ne pas prescrire de groupage sanguin ni de RAI.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Risque de transfusion intermédiaire/élevé ou de saignement important : prescrire un groupage sanguin et une RAI.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Disposer des examens IH et de leurs résultats avant l'intervention en cas de risque de saignement important (check-list « sécurité au bloc opératoire »).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Disposer des examens IH et de leurs résultats avant l'intervention en cas de risque de transfusion intermédiaire/élevé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "S'assurer probablement que les examens IH soient disponibles avec leurs résultats lors de la visite préanesthésique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Prolonger la durée de validité de la RAI négative de 3 à 21 jours si l'absence de circonstances immunisantes (transfusion, grossesse, greffe) a été vérifiée dans les 6 mois précédents.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Biochimie & femme enceinte",
+   "items": [
+    {
+     "t": "section",
+     "text": "6 — Examens biochimiques",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire d'examen biochimique sanguin préinterventionnel systématique, en dehors de signes d'appel, en chirurgie mineure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer probablement la fonction rénale (débit de filtration glomérulaire) préopératoire chez les patients à risque devant bénéficier d'une chirurgie intermédiaire ou majeure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire d'examen biochimique urinaire systématique, quel que soit l'âge, quel que soit le type de chirurgie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "7 — Femme enceinte en prépartum",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire un bilan systématique d'hémostase (TQ, TCA, fibrinogène, plaquettes) dans le cadre d'une grossesse normale sans élément anamnestique/clinique évocateur, y compris avant une ALR périmédullaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Réévaluer la normalité de la grossesse de façon répétée, notamment à l'arrivée en salle de naissance par l'équipe obstétricale, et transmettre à l'anesthésiste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas prescrire systématiquement une RAI à l'entrée en salle de travail si contrôle de moins d'1 mois disponible et grossesse normale. En présence de situations à risque hémorragique dépistées avant la naissance (ATCD HPP, HELLP, hématome rétroplacentaire, MFIU, anomalie d'insertion placentaire, grossesse gémellaire, utérus cicatriciel, chorioamniotite, trouble d'hémostase connu), disposer d'une RAI de moins de 3 jours.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Dans le cadre d'une césarienne programmée, disposer d'une RAI de moins de 3 jours.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Grossesse, dépistage infectieux & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "8 — Test de grossesse",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Poser la question à toute femme en âge de procréer sur sa méthode de contraception et une possibilité de grossesse, avant tout acte nécessitant une anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Si possibilité de grossesse à l'interrogatoire : prescrire un dosage plasmatique des bHCG après consentement de la patiente.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Si bHCG plasmatiques positifs : reporter l'intervention chaque fois que possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "9 — Dépistage infectieux (ECBU)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie urologique (plaie opératoire en contact avec l'urine, y compris endoscopique) : réaliser systématiquement un ECBU préopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Hors chirurgie urologique, patients avec facteur de risque d'infection urinaire et chirurgie à risque fort (prolapsus/incontinence gynécologique, orthopédie prothétique) : réaliser probablement un ECBU préopératoire systématique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Patients sans facteur de risque d'IU, chirurgie à risque fort : réaliser probablement une bandelette urinaire (BU), complétée par un ECBU si positive (nitrites/leucocyte-estérase).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie à risque faible de complication liée à l'IU, patients sans facteur de risque : ne pas pratiquer probablement d'analyse d'urine (BU ou ECBU).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 1 — Indication de l'analyse d'urine dans le cadre du bilan préopératoire</b>",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque élevé IU/CU (symptomatologie IU, diabète, âge physio-avancé, institution, cathétérisme prolongé)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Risque bas IU/CU (absence de FDR)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie des voies urinaires",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "ECBU systématique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "ECBU systématique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Orthopédie prothétique / gynécologie prolapsus-incontinence",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "ECBU systématique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "BU puis ECBU si positive",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autres chirurgies (orthopédie sans matériel, gynécologie hors prolapsus/incontinence)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "BU puis ECBU si positive",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Rien",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Synthèse & Annexe A — Stratification du risque",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 2 — Prescription des examens complémentaires selon le risque patient/intervention</b>",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Intervention à risque faible",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Intervention à risque intermédiaire ou élevé",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Patient ASA I ou II",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'examens complémentaires systématiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Prescription en fonction du risque opératoire",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Patient ASA III ou IV",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'examens complémentaires systématiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Prescription en fonction de la pathologie du patient et du risque opératoire",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Annexe A — Stratification du risque cardiaque pour la chirurgie non cardiaque (ACC/AHA)</b>",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Stratification du risque (décès + infarctus du myocarde)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Exemples d'intervention",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Élevé (&gt; 5 %)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie aortique ou autre chirurgie vasculaire majeure, chirurgie vasculaire périphérique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intermédiaire (1-5 %)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie intrapéritonéale ou intrathoracique, endartériectomie carotidienne, chirurgie de la tête et du cou, chirurgie orthopédique majeure, chirurgie de prostate",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Faible (&lt; 1 %)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Procédures endoscopiques, chirurgie superficielle, chirurgie de la cataracte, chirurgie mammaire, chirurgie ambulatoire",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Examens préinterventionnels systématiques » — Recommandations formalisées d'experts, SFAR, 2012 (Ann Fr Anesth Reanim 2012;31:752-763). Auteurs : S. Molliex, S. Pierre, C. Bléry, E. Marret, H. Beloeil. Actualisation des recommandations Anaes de 1998, à partir d'une analyse systématique de la littérature 2001-2011 par 30 experts. Validé par l'AFC, l'AFU, le CNGOF, l'EFS, la SCGP, la SFC, la SFCD, le GEHT, la SF2H, la SOFOP, la SFORL, la SFR-FRI, la SFSCMF et la SPLF.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE — 38 recommandations tagués (14× 1+, 14× 1-, 9× 2+, 1× 2-), 13 d'entre elles avec un signe +/- résolu à partir du sens univoque de la phrase (voir disclosure méthodologique en page 1).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des 9 recommandations (examens cardiologiques, respiratoires, hémostase, hémogramme, immunohématologiques, biochimiques, femme enceinte en prépartum, test de grossesse, dépistage infectieux), le tableau 1 (indications ECBU/BU), le tableau 2 (synthèse ASA × risque chirurgical) et l'annexe A (stratification du risque cardiaque ACC/AHA). Comité d'organisation, groupe de travail et références bibliographiques ne sont pas retranscrits (sans contenu clinique).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2012 :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des recommandations du texte source, mais ne remplace pas le texte intégral (argumentaire complet) et n'est ni éditée ni validée par la SFAR. La prescription des examens complémentaires préinterventionnels ne se substitue en aucun cas à l'interrogatoire et à l'examen clinique du patient.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

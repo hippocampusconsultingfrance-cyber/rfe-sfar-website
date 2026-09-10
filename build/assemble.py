@@ -138,6 +138,8 @@ with open(os.path.join(BASE, "content_examens_preinterventionnels.json"), encodi
     content_examens_preinterventionnels = f.read()
 with open(os.path.join(BASE, "content_aap_endoprotheses_coronaires.json"), encoding="utf-8") as f:
     content_aap_endoprotheses_coronaires = f.read()
+with open(os.path.join(BASE, "content_recommandations_avk.json"), encoding="utf-8") as f:
+    content_recommandations_avk = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -212,6 +214,7 @@ out = out.replace("__CONTENT_AVC_PRECOCE__", safe(content_avc_precoce))
 out = out.replace("__CONTENT_TRAUMATISME_CRANIEN_GRAVE_PRECOCE__", safe(content_traumatisme_cranien_grave_precoce))
 out = out.replace("__CONTENT_EXAMENS_PREINTERVENTIONNELS__", safe(content_examens_preinterventionnels))
 out = out.replace("__CONTENT_AAP_ENDOPROTHESES_CORONAIRES__", safe(content_aap_endoprotheses_coronaires))
+out = out.replace("__CONTENT_RECOMMANDATIONS_AVK__", safe(content_recommandations_avk))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

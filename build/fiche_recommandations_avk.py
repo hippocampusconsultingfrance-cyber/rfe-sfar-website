@@ -45,7 +45,7 @@ PERIMETRE - integralite des chapitres 2 (surdosage asymptomatique, dont le Table
 integral), 3 (hemorragies spontanees/traumatiques, classification de gravite,
 medicaments, conduite a tenir, reintroduction), 4 (chirurgie/acte invasif : 4.1 a 4.5,
 dont l'Annexe 2 - schema de relais preoperatoire), et l'Annexe 1 (tableau du risque
-hemorragique des actes de rhumatologie, 22 lignes, integral). Comite d'organisation,
+hemorragique des actes de rhumatologie, 23 lignes, integral). Comite d'organisation,
 groupe de travail, groupe de lecture (~85 noms) et "Fiche descriptive" (pages 19-21,
 sans contenu clinique nouveau) ne sont pas retranscrits.
 
@@ -179,7 +179,8 @@ def _section_intro_surdosage():
         ["INR mesuré", "INR cible 2,5 (fenêtre 2-3)", "INR cible ≥ 3 (fenêtre 2,5-3,5 ou 3-4,5)"],
         [
             ["INR < 4", "Pas de saut de prise. Pas d'apport de vitamine K.",
-             "(cellule non renseignée dans la source pour cette combinaison)"],
+             "Sans objet — la source marque cette combinaison d'un hachurage diagonal (« INR "
+             "mesuré < 4 » n'est, par définition, pas un surdosage relatif à une INR cible ≥ 3)."],
             ["4 ≤ INR < 6", "Saut d'une prise. Pas d'apport de vitamine K.",
              "Pas de saut de prise. Pas d'apport de vitamine K."],
             ["6 ≤ INR < 10", "Arrêt du traitement par AVK. 1 à 2 mg de vitamine K par voie orale "
@@ -365,9 +366,9 @@ def _section_relais_indication():
     story.append(Spacer(1, 2 * mm))
     story.append(info_panel(P(
         "<b>Relais préopératoire :</b> mesurer l'INR 7 à 10 jours avant l'intervention. Si en "
-        "zone thérapeutique : arrêter l'AVK 4-5 jours avant (fluindione/warfarine) ou 24h avant "
-        "(acénocoumarol), débuter l'héparine à dose curative 48h (fluindione/warfarine) ou 24h "
-        "(acénocoumarol) après la dernière prise. Si hors zone thérapeutique : avis de l'équipe "
+        "zone thérapeutique : arrêter l'AVK 4-5 jours avant l'intervention (tous AVK), débuter "
+        "l'héparine à dose curative 48h après la dernière prise de fluindione/warfarine, ou 24h "
+        "après la dernière prise d'acénocoumarol. Si hors zone thérapeutique : avis de l'équipe "
         "médico-chirurgicale. Hospitaliser au plus tard la veille si le relais n'est pas géré en "
         "ville. INR la veille de l'intervention ; si INR &gt; 1,5 : 5 mg de vitamine K per os "
         "(contrôle le matin de l'intervention). Interventions programmées de préférence le matin. "
@@ -431,6 +432,11 @@ def _section_relais_indication():
          "postopératoire par HBPM/HNF à dose curative). <i>Clause symétrique de son équivalent "
          "« haut risque » ci-dessus, mais sans « (grade X) » imprimé sur cette clause dans la "
          "source (voir disclosure méthodologique en page 1).</i>", "AP"),
+        ("Dans tous les cas (MTEV) : prévention postopératoire précoce de la MTEV réalisée "
+         "jusqu'à ce que l'INR soit en zone thérapeutique (ou la reprise des héparines à dose "
+         "curative). En l'absence de données périopératoires, le fondaparinux à dose curative ne "
+         "peut être recommandé. Privilégier l'HBPM à dose curative en 2 injections/jour ; l'HBPM "
+         "en une injection/jour peut être discutée au cas par cas.", "AP"),
     ]))
     return story
 
@@ -526,7 +532,7 @@ def _section_urgent_annexes_sources():
     story.append(Spacer(1, 1.5 * mm))
     story.append(P("<b>Couverture :</b> cette fiche reprend l'intégralité des chapitres 2 "
                     "(surdosage, Tableau 1), 3 (hémorragies), 4 (chirurgie/acte invasif, dont "
-                    "Annexe 2) et l'Annexe 1 (risque hémorragique en rhumatologie, 22 lignes). "
+                    "Annexe 2) et l'Annexe 1 (risque hémorragique en rhumatologie, 23 lignes). "
                     "Comité d'organisation, groupe de travail, groupe de lecture (~85 noms) et "
                     "« Fiche descriptive » ne sont pas retranscrits (sans contenu clinique "
                     "nouveau).", S_SOURCE))

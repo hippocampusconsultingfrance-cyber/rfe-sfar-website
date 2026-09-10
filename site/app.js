@@ -69,7 +69,8 @@ var RAW = {
   avc_precoce: JSON.parse(document.getElementById('content-avc_precoce').textContent),
   traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent),
   examens_preinterventionnels: JSON.parse(document.getElementById('content-examens_preinterventionnels').textContent),
-  aap_endoprotheses_coronaires: JSON.parse(document.getElementById('content-aap_endoprotheses_coronaires').textContent)
+  aap_endoprotheses_coronaires: JSON.parse(document.getElementById('content-aap_endoprotheses_coronaires').textContent),
+  recommandations_avk: JSON.parse(document.getElementById('content-recommandations_avk').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -140,7 +141,8 @@ var FICHE_HREF_MATCH = {
   avc_precoce: ['accident-vasculaire-cerebral-prise-en-charge-precoce', '2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce'],
   traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce'],
   examens_preinterventionnels: ['examens-preinterventionnels-systematiques', 'AFAR_Examens-preinterventionnels-systematiques'],
-  aap_endoprotheses_coronaires: ['gestion-du-traitement-anti-plaquettaire-oral-chez-les-patients-porteurs-dendoprotheses-coronaires', '2_AFAR_Gestion-du-traitement-anti-plaquettaire-']
+  aap_endoprotheses_coronaires: ['gestion-du-traitement-anti-plaquettaire-oral-chez-les-patients-porteurs-dendoprotheses-coronaires', '2_AFAR_Gestion-du-traitement-anti-plaquettaire-'],
+  recommandations_avk: ['prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier', '2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -933,6 +935,18 @@ var DOC_META = {
     methodology: "Avis d'un groupe d'experts, sans système GRADE ni vote/pourcentage d'accord formalisé (voir disclosure méthodologique en page 1 de la fiche)",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-du-traitement-anti-plaquettaire-.pdf"
+  },
+  recommandations_avk: {
+    key: 'recommandations_avk',
+    badge: 'HAS A/B/C',
+    title: "Surdosages, hémorragies & AVK",
+    short: "Prise en charge des surdosages en antivitamines K (AVK), des situations à risque hémorragique et des accidents hémorragiques, en ville et en milieu hospitalier. Tableau 1 (mesures correctrices selon l'INR), classification de gravité des hémorragies, médicaments antagonisants (CCP/vitamine K), conduite en cas de traumatisme, réintroduction des AVK, gestion périopératoire (relais héparinique selon l'indication : PVM, ACFA, MTEV), acte urgent à risque hémorragique, et Annexe 1 (risque hémorragique en rhumatologie, 23 actes).",
+    society: "HAS / GEHT (Groupe d'étude sur l'hémostase et la thrombose)",
+    version: "2008 (recommandations professionnelles)",
+    validated: "Validé par le Collège de la HAS en avril 2008",
+    methodology: "Grades HAS A/B/C + « accord professionnel » (AP) — 28 recommandations taguées explicitement (5× A, 2× B, 21× C), vérifiées par grep exhaustif ; 2 divergences source-internes disclosées (disclosure en page 1 de la fiche)",
+    pages: 21,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K.pdf"
   }
 };
 

@@ -65,7 +65,8 @@ var RAW = {
   securisation_proc: JSON.parse(document.getElementById('content-securisation_proc').textContent),
   mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent),
   monitorage_traumatise: JSON.parse(document.getElementById('content-monitorage_traumatise').textContent),
-  infarctus_myocarde: JSON.parse(document.getElementById('content-infarctus_myocarde').textContent)
+  infarctus_myocarde: JSON.parse(document.getElementById('content-infarctus_myocarde').textContent),
+  avc_precoce: JSON.parse(document.getElementById('content-avc_precoce').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -132,7 +133,8 @@ var FICHE_HREF_MATCH = {
   securisation_proc: ['securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu', '2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation'],
   mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique'],
   monitorage_traumatise: ['monitorage-du-patient-traumatise-grave-en-prehospitalier', '2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier'],
-  infarctus_myocarde: ['linfarctus-du-myocarde', '2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde']
+  infarctus_myocarde: ['linfarctus-du-myocarde', '2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde'],
+  avc_precoce: ['accident-vasculaire-cerebral-prise-en-charge-precoce', '2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -877,6 +879,18 @@ var DOC_META = {
     methodology: "Grades HAS A/B/C (études thérapeutiques, pas de GRADE 1+/2+) — en l'absence de précision, consensus du jury",
     pages: 24,
     url: "https://sfar.org/wp-content/uploads/2015/10/2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde.pdf"
+  },
+  avc_precoce: {
+    key: 'avc_precoce',
+    badge: 'GRADE A-C + AP',
+    title: "AVC — prise en charge précoce",
+    short: "Accident vasculaire cérébral : prise en charge précoce — alerte, phase préhospitalière, phase hospitalière initiale, indications de la thrombolyse. Grand public et formation professionnelle, échelles FAST/NIHSS, régulation SAMU-Centre 15, filière neuro-vasculaire (UNV), imagerie (IRM privilégiée), thrombolyse IV/IA/combinée, algorithme de la filière de prise en charge, et contre-indications de l'altéplase (RCP/AMM ACTILYSE®).",
+    society: "HAS / Société française neuro-vasculaire",
+    version: "2009 (recommandations de bonne pratique)",
+    validated: "Validé par le Collège de la HAS en mai 2009",
+    methodology: "Grades HAS A/B/C + « accord professionnel » (pas de GRADE 1+/2+)",
+    pages: 21,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce.pdf"
   }
 };
 

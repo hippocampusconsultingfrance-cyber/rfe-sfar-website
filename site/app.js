@@ -71,7 +71,8 @@ var RAW = {
   examens_preinterventionnels: JSON.parse(document.getElementById('content-examens_preinterventionnels').textContent),
   aap_endoprotheses_coronaires: JSON.parse(document.getElementById('content-aap_endoprotheses_coronaires').textContent),
   recommandations_avk: JSON.parse(document.getElementById('content-recommandations_avk').textContent),
-  douleur_postoperatoire: JSON.parse(document.getElementById('content-douleur_postoperatoire').textContent)
+  douleur_postoperatoire: JSON.parse(document.getElementById('content-douleur_postoperatoire').textContent),
+  voies_aeriennes_adulte: JSON.parse(document.getElementById('content-voies_aeriennes_adulte').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -144,7 +145,8 @@ var FICHE_HREF_MATCH = {
   examens_preinterventionnels: ['examens-preinterventionnels-systematiques', 'AFAR_Examens-preinterventionnels-systematiques'],
   aap_endoprotheses_coronaires: ['gestion-du-traitement-anti-plaquettaire-oral-chez-les-patients-porteurs-dendoprotheses-coronaires', '2_AFAR_Gestion-du-traitement-anti-plaquettaire-'],
   recommandations_avk: ['prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier', '2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K'],
-  douleur_postoperatoire: ['prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant-2', '2a_AFAR_Prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant']
+  douleur_postoperatoire: ['prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant-2', '2a_AFAR_Prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant'],
+  voies_aeriennes_adulte: ['prise-en-charge-des-voies-aeriennes-en-anesthesie-adulte-a-lexception-de-lintubation-difficile', '1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -961,6 +963,18 @@ var DOC_META = {
     methodology: "Méthode GRADE — force codée dans le verbe de chaque phrase (« il est recommandé » = Fort, « il est probablement recommandé » = Faible), sans tag imprimé par recommandation : résolution textuelle disclosée (voir méthodologie en page 1 de la fiche)",
     pages: 7,
     url: "https://sfar.org/wp-content/uploads/2015/09/2a_AFAR_Prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant.pdf"
+  },
+  voies_aeriennes_adulte: {
+    key: 'voies_aeriennes_adulte',
+    badge: 'Grade A-E',
+    title: "Voies aériennes en anesthésie adulte",
+    short: "Prise en charge standard (non difficile) des voies aériennes en anesthésie adulte : critères prédictifs d'intubation/ventilation au masque difficiles, matériel et maintenance, pré-oxygénation (méthodes, monitorage FETO2), agents d'induction (curare, sans curare, sévoflurane, masque laryngé), positionnement et techniques d'intubation standard, mandrins, contrôle de la position du tube, lésions liées à l'intubation et prévention de l'inhalation bronchique. Exclut l'intubation difficile elle-même (voir fiche dédiée), la pédiatrie et l'urgence extrahospitalière.",
+    society: "Sfar / Anaes",
+    version: "2002 (conférence de consensus, texte court publié 2003)",
+    validated: "Label de qualité Anaes",
+    methodology: "Grades Anaes A à E (échelle de niveau de preuve, distincte du schéma HAS A/B/C et du schéma GRADE 1+/2+ utilisés ailleurs dans ce corpus) — 53 citations « (Grade X) » explicites (2× A, 1× B, 10× C, 14× D, 26× E), vérifiées par grep exhaustif sur le texte aplati",
+    pages: 5,
+    url: "https://sfar.org/wp-content/uploads/2016/12/1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile.pdf"
   }
 };
 

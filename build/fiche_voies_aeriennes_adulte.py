@@ -17,8 +17,11 @@ utilise ailleurs dans ce corpus, ni le schema GRADE 1+/2+) : A = 2 etudes ou plu
 niveau I ; B = une etude de niveau I ; C = etude(s) de niveau II ; D = une etude ou plus
 de niveau III ; E = etude(s) de niveau IV ou V. VERIFIE PAR grep exhaustif sur le texte
 aplati : 53 citations "(Grade X)" explicites - 2x A, 1x B, 10x C, 14x D, 26x E. Chaque
-recommandation de cette fiche porte le grade explicitement imprime par la source, un
-pour un (aucune fusion de deux citations sous un chip unique). Extension locale non
+recommandation de cette fiche porte le grade explicitement imprime par la source ;
+jamais deux citations de GRADE DIFFERENT fusionnees sous un chip unique (regle 4
+CLAUDE.md) - 2 lignes regroupent chacune deux citations consecutives de MEME grade
+(Q3 : FETO2 ; Q6 : dysphonie/suspicion de lesion), sans perte ni ambiguite puisque le
+grade est identique des deux cotes. Extension locale non
 invasive du dictionnaire GRADE_COLORS partage (les lettres A/B/C sont deja utilisees
 ailleurs dans ce corpus pour le schema HAS accord-professionnel - collision de LIBELLE
 uniquement, pas de collision de SENS puisque chaque fiche definit son propre mapping
@@ -124,7 +127,12 @@ def _section_intro_q1_q2():
          "Mallampati &gt; 2, distance thyromentale &lt; 65 mm, ouverture de bouche &lt; 35 mm — "
          "complétables par la proéminence des incisives supérieures, la mobilité mandibulaire "
          "(sub-luxation nulle/impossible) et cervicale (80-100° ou &lt; 80°).", "D"),
-        ("Ventilation au masque difficile (VMD) : 5 critères prédictifs retenus — âge &gt; "
+        ("Les critères paracliniques n'ont pas démontré leur intérêt dans le dépistage d'une "
+         "ID.", "—"),
+        ("Ventilation au masque difficile (VMD) : en l'absence de définition consensuelle, la "
+         "source retient celle de la conférence d'experts Sfar 1996 — ventilation inefficace "
+         "si SpO2 ≤ 90 % en ventilant en O2 pur un sujet aux poumons non pathologiques. 5 "
+         "critères prédictifs retenus — âge &gt; "
          "55 ans, IMC &gt; 26 kg/m², édentation, ronflements, barbe — à rechercher en "
          "consultation d'anesthésie avec les anomalies morphologiques faciales. En leur "
          "absence, une ventilation au masque facile est hautement probable.", "D"),
@@ -137,7 +145,8 @@ def _section_intro_q1_q2():
     story.append(Spacer(1, 2 * mm))
     story.append(P(
         "Plateau standard d'intubation : sonde(s) à usage unique, laryngoscope, lames courbes "
-        "(plusieurs tailles) et droite, masque facial avec filtre antibactérien, canule(s) de "
+        "(plusieurs tailles) et droite, masque facial de taille adaptée avec filtre "
+        "antibactérien, canule(s) de "
         "Guedel, mandrin(s), pince de Magill, manomètre de contrôle des pressions, "
         "stéthoscope, sparadrap, gels lubrifiants.", S_BODY_SM))
     story.append(Spacer(1, 2 * mm))
@@ -236,6 +245,9 @@ def _section_q4():
     story.append(P("<b>Induction au sévoflurane & alternatives à l'intubation</b>", S_BODY_SM))
     story.append(Spacer(1, 1.5 * mm))
     story.append(reco_table([
+        ("Sévoflurane utilisé seul pour l'intubation : la concentration expirée prévenant les "
+         "mouvements/toux au gonflage du ballonnet chez 95 % des patients (MACi95) est de "
+         "l'ordre de 8 %, diminuée de 40 à 60 % en présence d'un morphinique.", "—"),
         ("La concentration télé-expiratoire de sévoflurane n'est pas un estimateur fiable de la "
          "concentration cérébrale à l'induction (délai d'équilibration) : la maintenir un délai "
          "suffisant avant l'intubation (&gt; 6 min sous sévoflurane seul, réductible de 40 % "
@@ -246,8 +258,7 @@ def _section_q4():
          "de morphinique améliore le taux de succès et diminue d'1/3 la concentration cible de "
          "propofol en AIVOC.", "D"),
         ("Le sévoflurane est le seul halogéné recommandé pour l'insertion du masque laryngé "
-         "(faible solubilité, absence d'effet irritant). MAC95 ≈ 4 % ; l'association d'un "
-         "morphinique améliore les conditions d'insertion par rapport au sévoflurane seul.", "E"),
+         "(faible solubilité, absence d'effet irritant). MAC95 ≈ 4 %.", "E"),
         ("L'association sévoflurane + morphinique améliore les conditions d'insertion du masque "
          "laryngé par rapport au sévoflurane seul.", "D"),
         ("Traitement symptomatique de la réaction adrénergique à l'intubation : efficacité de la "
@@ -293,6 +304,13 @@ def _section_q5_q6_sources():
 
     story.append(section_bar("6 — Lésions liées à l'intubation & prévention de l'inhalation", color=NAVY))
     story.append(Spacer(1, 2 * mm))
+    story.append(P(
+        "<i>L'absence d'études prospectives, randomisées, multicentriques consacrées aux "
+        "lésions liées à la prise en charge des voies aériennes supérieures ne permet pas de "
+        "préciser exactement la prévalence, les facteurs de risque et l'apport des diverses "
+        "attitudes préventives proposées pour réduire l'incidence de ces lésions.</i>",
+        S_BODY_SM))
+    story.append(Spacer(1, 2 * mm))
     story.append(P("<b>Lésions liées à l'intubation oro/nasotrachéale</b>", S_BODY_SM))
     story.append(Spacer(1, 1.5 * mm))
     story.append(reco_table([
@@ -311,6 +329,10 @@ def _section_q5_q6_sources():
     ]))
     story.append(Spacer(1, 2 * mm))
     story.append(P("<b>Lésions liées au masque laryngé</b>", S_BODY_SM))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "Distinguer symptômes sans substratum et lésions anatomiques : les symptômes à type de "
+        "maux de gorge sont fréquents, mais les lésions directes sont rares.", S_BODY_SM))
     story.append(Spacer(1, 1.5 * mm))
     story.append(reco_table([
         ("S'assurer d'une anesthésie profonde et ne pas multiplier les essais.", "D"),

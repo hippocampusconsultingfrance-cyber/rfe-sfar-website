@@ -66,7 +66,8 @@ var RAW = {
   mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent),
   monitorage_traumatise: JSON.parse(document.getElementById('content-monitorage_traumatise').textContent),
   infarctus_myocarde: JSON.parse(document.getElementById('content-infarctus_myocarde').textContent),
-  avc_precoce: JSON.parse(document.getElementById('content-avc_precoce').textContent)
+  avc_precoce: JSON.parse(document.getElementById('content-avc_precoce').textContent),
+  traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -134,7 +135,8 @@ var FICHE_HREF_MATCH = {
   mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique'],
   monitorage_traumatise: ['monitorage-du-patient-traumatise-grave-en-prehospitalier', '2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier'],
   infarctus_myocarde: ['linfarctus-du-myocarde', '2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde'],
-  avc_precoce: ['accident-vasculaire-cerebral-prise-en-charge-precoce', '2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce']
+  avc_precoce: ['accident-vasculaire-cerebral-prise-en-charge-precoce', '2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce'],
+  traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -891,6 +893,18 @@ var DOC_META = {
     methodology: "Grades HAS A/B/C + « accord professionnel » (pas de GRADE 1+/2+)",
     pages: 21,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce.pdf"
+  },
+  traumatisme_cranien_grave_precoce: {
+    key: 'traumatisme_cranien_grave_precoce',
+    badge: 'GRADE 1/2 + AE',
+    title: "Traumatisme crânien grave — phase précoce",
+    short: "Prise en charge des traumatisés crâniens graves à la phase précoce (24 premières heures) : gravité initiale (Glasgow moteur, TDM), prise en charge préhospitalière, imagerie, indications neurochirurgicales, sédation-analgésie, monitorage cérébral (PIC/PPC/PtiO2/Doppler transcrânien), HTIC médicale, polytraumatisé avec TC grave, épilepsie post-traumatique, homéostasie biologique (glycémie), particularités de l'enfant. 32 recommandations, actualisation 2016 des RFE de 1998.",
+    society: "SFAR / Anarlf / SFMU / SFNC / GFRUP / Adarpef",
+    version: "2016 (RFE actualisation)",
+    validated: "Validé par le Conseil d'administration de la Sfar le 21/09/2016",
+    methodology: "GRADE 1+/1-/2+/2- + avis d'experts (AE) — accord FORT sur 100% des recommandations",
+    pages: 23,
+    url: "https://sfar.org/wp-content/uploads/2017/09/RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce.pdf"
   }
 };
 

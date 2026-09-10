@@ -64,7 +64,8 @@ var RAW = {
   sepsis_hemodynamique: JSON.parse(document.getElementById('content-sepsis_hemodynamique').textContent),
   securisation_proc: JSON.parse(document.getElementById('content-securisation_proc').textContent),
   mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent),
-  monitorage_traumatise: JSON.parse(document.getElementById('content-monitorage_traumatise').textContent)
+  monitorage_traumatise: JSON.parse(document.getElementById('content-monitorage_traumatise').textContent),
+  infarctus_myocarde: JSON.parse(document.getElementById('content-infarctus_myocarde').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -130,7 +131,8 @@ var FICHE_HREF_MATCH = {
   sepsis_hemodynamique: ['prise-en-charge-hemodynamique-du-sepsis-grave-nouveau-ne-exclu', '2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave'],
   securisation_proc: ['securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu', '2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation'],
   mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique'],
-  monitorage_traumatise: ['monitorage-du-patient-traumatise-grave-en-prehospitalier', '2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier']
+  monitorage_traumatise: ['monitorage-du-patient-traumatise-grave-en-prehospitalier', '2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier'],
+  infarctus_myocarde: ['linfarctus-du-myocarde', '2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -863,6 +865,18 @@ var DOC_META = {
     methodology: "Conférence d'experts (pas de GRADE) — niveaux de preuve I-V, force de recommandation A à E",
     pages: 15,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier.pdf"
+  },
+  infarctus_myocarde: {
+    key: 'infarctus_myocarde',
+    badge: 'GRADE A-C',
+    title: "Infarctus du myocarde à la phase aiguë hors cardiologie",
+    short: "Prise en charge de l'infarctus du myocarde à la phase aiguë en dehors des services de cardiologie, sur les 5 questions du texte court : critères décisionnels de désobstruction coronaire, stratégies de reperfusion (angioplastie/fibrinolyse, délais porte à porte cardio) et traitements adjuvants du SCA ST+, filières de prise en charge (SAMU-Centre 15), situations particulières (sujet âgé, diabétique, service non cardiologique, périopératoire), complications initiales (bradycardies, tachycardies, arrêt circulatoire, choc cardiogénique, transferts interhospitaliers).",
+    society: "HAS / Samu de France / SFMU / Société française de cardiologie",
+    version: "2006 (conférence de consensus, texte court publié 2007)",
+    validated: "Conférence de consensus HAS/Samu de France/SFMU/Société française de cardiologie",
+    methodology: "Grades HAS A/B/C (études thérapeutiques, pas de GRADE 1+/2+) — en l'absence de précision, consensus du jury",
+    pages: 24,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde.pdf"
   }
 };
 

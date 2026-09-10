@@ -63,7 +63,8 @@ var RAW = {
   hsa: JSON.parse(document.getElementById('content-hsa').textContent),
   sepsis_hemodynamique: JSON.parse(document.getElementById('content-sepsis_hemodynamique').textContent),
   securisation_proc: JSON.parse(document.getElementById('content-securisation_proc').textContent),
-  mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent)
+  mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent),
+  monitorage_traumatise: JSON.parse(document.getElementById('content-monitorage_traumatise').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -128,7 +129,8 @@ var FICHE_HREF_MATCH = {
   hsa: ['hemorragie-sous-arachnoidienne-hsa-grave', '2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne'],
   sepsis_hemodynamique: ['prise-en-charge-hemodynamique-du-sepsis-grave-nouveau-ne-exclu', '2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave'],
   securisation_proc: ['securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu', '2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation'],
-  mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique']
+  mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique'],
+  monitorage_traumatise: ['monitorage-du-patient-traumatise-grave-en-prehospitalier', '2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -849,6 +851,18 @@ var DOC_META = {
     methodology: "Cotation RAND/UCLA (médiane 1-9, pas de GRADE) — zones désaccord (1-3) / indécision (4-6) / accord (7-9)",
     pages: 8,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique-dans-loptique-dun-prelevement-dorganes.pdf"
+  },
+  monitorage_traumatise: {
+    key: 'monitorage_traumatise',
+    badge: 'FORCE A-E',
+    title: "Monitorage du traumatisé grave en préhospitalier",
+    short: "Monitorage du patient traumatisé grave en médecine d'urgence préhospitalière, sur les 8 questions du texte court : justification du monitorage, cardiovasculaire (ECG, PA non invasive/invasive, échographie FAST) et thermique, respiratoire (SpO2, capnographie, ballonnet de sonde d'intubation), neurologique (ACSOS, PaCO2 cible, Doppler transcrânien), biologique (hémoglobine, gaz du sang), transferts secondaires, femme enceinte (rythme cardiaque fœtal) et enfant traumatisés, monitorage en milieu difficile (montagne, mer, catastrophe, NRBC).",
+    society: "SFAR / Samu de France / SFMU / SRLF",
+    version: "2006 (conférence d'experts, texte court)",
+    validated: "Conférence d'experts SFAR/Samu de France/SFMU/SRLF",
+    methodology: "Conférence d'experts (pas de GRADE) — niveaux de preuve I-V, force de recommandation A à E",
+    pages: 15,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier.pdf"
   }
 };
 

@@ -126,6 +126,8 @@ with open(os.path.join(BASE, "content_securisation_proc.json"), encoding="utf-8"
     content_securisation_proc = f.read()
 with open(os.path.join(BASE, "content_mort_encephalique.json"), encoding="utf-8") as f:
     content_mort_encephalique = f.read()
+with open(os.path.join(BASE, "content_monitorage_traumatise.json"), encoding="utf-8") as f:
+    content_monitorage_traumatise = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -194,6 +196,7 @@ out = out.replace("__CONTENT_HSA__", safe(content_hsa))
 out = out.replace("__CONTENT_SEPSIS_HEMODYNAMIQUE__", safe(content_sepsis_hemodynamique))
 out = out.replace("__CONTENT_SECURISATION_PROC__", safe(content_securisation_proc))
 out = out.replace("__CONTENT_MORT_ENCEPHALIQUE__", safe(content_mort_encephalique))
+out = out.replace("__CONTENT_MONITORAGE_TRAUMATISE__", safe(content_monitorage_traumatise))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

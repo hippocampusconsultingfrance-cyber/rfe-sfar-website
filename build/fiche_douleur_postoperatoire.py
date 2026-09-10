@@ -185,7 +185,12 @@ def _section_intro_pec():
          "débuter avec la reprise de l'alimentation orale).", "Fort"),
         ("Il n'y a pas de place pour la titration morphinique par voie orale en postopératoire "
          "immédiat — la titration IV est préférable.", "Fort"),
+        ("Les morphiniques oraux sont un traitement de secours efficace en association avec "
+         "l'analgésie multimodale. L'oxycodone per os peut être une alternative à la morphine "
+         "en postopératoire de chirurgie douloureuse (hors AMM).", "—"),
         ("Ne pas utiliser le dextropropoxyphène dans l'analgésie postopératoire.", "Fort"),
+        ("La codéine est probablement efficace après chirurgie à douleur faible ou modérée ; "
+         "efficacité et tolérance imprévisibles (variations génétiques).", "—"),
         ("Utiliser le tramadol, seul ou associé aux antalgiques non morphiniques, en cas de "
          "chirurgie à douleur modérée (non contre-indiqué avec la morphine).", "Fort"),
     ]))
@@ -260,10 +265,13 @@ def _section_morphiniques_suite_anm():
         ("Néfopam probablement recommandé après chirurgie à douleur modérée à sévère en "
          "association avec les morphiniques — utiliser probablement avec prudence chez le "
          "patient coronarien (risque de tachycardie).", "Faible"),
-        ("Chez l'enfant : corriger déshydratation/hypovolémie avant AINS ; kétoprofène IV "
-         "probablement utilisable dès 1 an (hors AMM) ; diclofénac probablement préférable à "
-         "l'acide niflumique par voie rectale ; pas de recommandation pour les coxibs chez "
-         "l'enfant (données insuffisantes).", "Faible"),
+        ("Chez l'enfant : en dehors du syndrome de Fernand-Widal, on peut administrer des AINS "
+         "aux enfants asthmatiques. Corriger les états de déshydratation/hypovolémie avant "
+         "l'administration d'AINS.", "Fort"),
+        ("Kétoprofène IV probablement utilisable dès 1 an chez l'enfant (hors AMM) ; diclofénac "
+         "probablement préférable à l'acide niflumique par voie rectale.", "Faible"),
+        ("Pas de recommandation possible concernant l'utilisation des coxibs chez l'enfant "
+         "(données insuffisantes).", "—"),
         ("Ne pas prescrire d'AINS pour l'analgésie postamygdalectomie (risque hémorragique, "
          "reprise chirurgicale).", "Fort"),
         ("Chez l'enfant : ne pas administrer le paracétamol par voie IV dès que la voie orale est "
@@ -291,9 +299,10 @@ def _section_antihyperalgesiques_chronicisation():
          "fin de l'anesthésie ; administrer le premier bolus après l'induction (éviter les effets "
          "psychodysleptiques).", "Fort"),
         ("Ne pas utiliser l'association morphine-kétamine dans l'ACP postopératoire.", "Fort"),
-        ("Ne pas utiliser le magnésium IV (ne limite pas la douleur ni la consommation de "
-         "morphine) ni la clonidine (effets indésirables hémodynamiques trop marqués) en "
-         "prévention de l'hyperalgésie.", "—"),
+        ("Ne pas utiliser le magnésium IV en prévention de l'hyperalgésie (ne limite pas les "
+         "douleurs ni la consommation de morphine postopératoires).", "Fort"),
+        ("Utilisation de la clonidine en prévention des hyperalgésies postopératoires : ne peut "
+         "être recommandée (effets indésirables hémodynamiques trop marqués).", "—"),
         ("Gabapentine en prémédication probablement recommandée (épargne morphinique, réduction "
          "des scores de douleur).", "Faible"),
         ("Lidocaïne IV probablement recommandée pour l'analgésie après chirurgie abdominale en "
@@ -309,13 +318,15 @@ def _section_antihyperalgesiques_chronicisation():
         "variabilité méthodologique).", S_BODY_SM))
     story.append(Spacer(1, 2 * mm))
     story.append(reco_table([
-        ("Prendre en compte la possibilité d'une chronicisation ; rechercher probablement en "
-         "préopératoire les facteurs de risque (intensité de la douleur préopératoire, type de "
-         "chirurgie, technique opératoire).", "Fort"),
+        ("Prendre en compte la possibilité d'une chronicisation de la douleur postchirurgicale.",
+         "Fort"),
+        ("Rechercher en préopératoire les facteurs de risque de chronicisation (intensité de la "
+         "douleur préopératoire, type de chirurgie, technique opératoire).", "Faible"),
         ("Une forte DPO (surtout neuropathique) est prédictive d'un risque élevé de DCPC : "
          "diagnostiquer et prendre en charge rapidement une douleur neuropathique "
-         "postopératoire ; utiliser probablement le questionnaire DN4 comme outil de dépistage.",
-         "Fort"),
+         "postopératoire.", "Fort"),
+        ("Utiliser le questionnaire DN4 comme outil de dépistage de la douleur neuropathique "
+         "postopératoire.", "Faible"),
         ("Chirurgie très ou modérément douloureuse : utiliser de faibles doses de kétamine "
          "peropératoire pour prévenir la DCPC.", "Fort"),
         ("Infiltration d'anesthésiques locaux du site chirurgical : limite probablement la DCPC "
@@ -407,7 +418,11 @@ def _section_alr():
         ("Bloc paravertébral (injection unique ou cathéter) pour diminuer les scores de douleur "
          "et l'incidence des NVPO après chirurgie thoracique (alternative utile à la péridurale).",
          "Fort"),
-        ("Bloc paravertébral probablement recommandé après chirurgie majeure du sein.", "Faible"),
+        ("Bloc paravertébral probablement recommandé après chirurgie majeure du sein. "
+         "<i>Divergence source-interne : la même source qualifie ailleurs (§ infiltrations "
+         "continues) ce même bloc de « recommandé en priorité » (sans « probablement ») pour la "
+         "même indication — les deux formulations sont retranscrites sans résolution "
+         "silencieuse.</i>", "Faible"),
         ("Le bloc interpleural ne peut être recommandé (bénéfice limité ne contrebalançant pas "
          "le risque de résorption systémique des anesthésiques locaux).", "—"),
     ]))
@@ -416,13 +431,15 @@ def _section_alr():
     story.append(Spacer(1, 1.5 * mm))
     story.append(reco_table([
         ("Cathéter nerveux périphérique recommandé dès lors que la douleur prévisible modérée à "
-         "sévère dure &gt; 24h ; mode continu + ACP périnerveuse probablement recommandé pour "
-         "l'administration d'anesthésiques locaux.", "Fort"),
+         "sévère dure &gt; 24h.", "Fort"),
+        ("Mode continu + ACP périnerveuse probablement recommandé pour l'administration "
+         "d'anesthésiques locaux.", "Faible"),
         ("Le risque de syndrome des loges n'est pas une contre-indication au bloc (sous "
          "surveillance adaptée) ; ne pas poser de cathéter en cas d'immobilisation plâtrée "
          "postopératoire.", "Fort"),
-        ("Épaule : bloc interscalénique recommandé ; si contre-indiqué, bloc suprascapulaire et "
-         "infiltrations intra-articulaires probablement recommandés.", "Fort"),
+        ("Épaule : bloc interscalénique recommandé.", "Fort"),
+        ("Épaule, si bloc interscalénique contre-indiqué : bloc suprascapulaire et "
+         "infiltrations intra-articulaires probablement recommandés.", "Faible"),
         ("Bras et coude : blocs supraclaviculaire ou infraclaviculaire probablement recommandés.",
          "Faible"),
         ("Avant-bras, poignet, main : blocs axillaire ou au canal huméral probablement "
@@ -434,8 +451,10 @@ def _section_alr():
         ("Hanche : bloc fémoral probablement recommandé.", "Faible"),
         ("Diaphyse fémorale, chirurgie ou traumatisme (adulte et enfant) : bloc fémoral "
          "recommandé.", "Fort"),
-        ("Chirurgie invasive du genou (ex. prothèse totale) : cathéter fémoral recommandé ; bloc "
-         "sciatique en injection unique probablement recommandé en complément.", "Fort"),
+        ("Chirurgie invasive du genou (ex. prothèse totale) : cathéter fémoral recommandé.",
+         "Fort"),
+        ("Chirurgie invasive du genou : bloc sciatique en injection unique probablement "
+         "recommandé en complément du bloc fémoral.", "Faible"),
         ("Chirurgie ligamentaire du genou : bloc fémoral (cathéter ou injection unique) "
          "probablement recommandé.", "Faible"),
         ("Arthroscopie mineure du genou : administration intra-articulaire d'anesthésique local "

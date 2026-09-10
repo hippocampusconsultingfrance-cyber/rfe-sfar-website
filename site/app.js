@@ -70,7 +70,8 @@ var RAW = {
   traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent),
   examens_preinterventionnels: JSON.parse(document.getElementById('content-examens_preinterventionnels').textContent),
   aap_endoprotheses_coronaires: JSON.parse(document.getElementById('content-aap_endoprotheses_coronaires').textContent),
-  recommandations_avk: JSON.parse(document.getElementById('content-recommandations_avk').textContent)
+  recommandations_avk: JSON.parse(document.getElementById('content-recommandations_avk').textContent),
+  douleur_postoperatoire: JSON.parse(document.getElementById('content-douleur_postoperatoire').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -142,7 +143,8 @@ var FICHE_HREF_MATCH = {
   traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce'],
   examens_preinterventionnels: ['examens-preinterventionnels-systematiques', 'AFAR_Examens-preinterventionnels-systematiques'],
   aap_endoprotheses_coronaires: ['gestion-du-traitement-anti-plaquettaire-oral-chez-les-patients-porteurs-dendoprotheses-coronaires', '2_AFAR_Gestion-du-traitement-anti-plaquettaire-'],
-  recommandations_avk: ['prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier', '2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K']
+  recommandations_avk: ['prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier', '2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K'],
+  douleur_postoperatoire: ['prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant-2', '2a_AFAR_Prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -947,6 +949,18 @@ var DOC_META = {
     methodology: "Grades HAS A/B/C + « accord professionnel » (AP) — 28 recommandations taguées explicitement (5× A, 2× B, 21× C), vérifiées par grep exhaustif ; 2 divergences source-internes disclosées (disclosure en page 1 de la fiche)",
     pages: 21,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K.pdf"
+  },
+  douleur_postoperatoire: {
+    key: 'douleur_postoperatoire',
+    badge: 'GRADE Fort/Faible',
+    title: "Douleur postopératoire — adulte & enfant",
+    short: "Prise en charge de la douleur postopératoire (DPO) chez l'adulte et l'enfant : organisation et évaluation de la qualité, utilisation des morphiniques (titration IV, ACP, spécificités âgées/enfant), antalgiques non morphiniques, agents antihyperalgésiques (kétamine, gabapentine), prévention de la chronicisation (DCPC), infiltration du site opératoire, place de l'ALR (blocs du tronc, blocs périphériques par indication chirurgicale, analgésie périmédullaire), et organisation de l'analgésie en chirurgie ambulatoire. 124 recommandations consensuelles, 8 thèmes.",
+    society: "Sfar (comité douleur-ALR et comité des référentiels)",
+    version: "2008 (RFE, actualisation de la conférence de consensus de 1997)",
+    validated: "22 experts, 4 tours de cotation",
+    methodology: "Méthode GRADE — force codée dans le verbe de chaque phrase (« il est recommandé » = Fort, « il est probablement recommandé » = Faible), sans tag imprimé par recommandation : résolution textuelle disclosée (voir méthodologie en page 1 de la fiche)",
+    pages: 7,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2a_AFAR_Prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant.pdf"
   }
 };
 

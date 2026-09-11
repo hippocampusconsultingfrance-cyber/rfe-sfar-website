@@ -16,7 +16,7 @@ reading full guideline PDFs (often 50-150+ pages).
   immediately, so the next session doesn't lose time on it too.)
 - Delivered PDFs also live in `/Users/macbook/Downloads/claude/RFE_SFAR_2026/`
   on the user's machine (this repo's `output/` folder is the git-tracked copy).
-- **68 of 160 SFAR library items are built as of 2026-09-10.** Track progress via
+- **69 of 160 SFAR library items are built as of 2026-09-11.** Track progress via
   `site/app.js`'s `FICHE_HREF_MATCH` object keys (one entry per built fiche) vs.
   `build/library_final.json` (the full 160-item index).
 

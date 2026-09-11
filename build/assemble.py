@@ -128,6 +128,8 @@ with open(os.path.join(BASE, "content_mort_encephalique.json"), encoding="utf-8"
     content_mort_encephalique = f.read()
 with open(os.path.join(BASE, "content_voies_aeriennes_adulte.json"), encoding="utf-8") as f:
     content_voies_aeriennes_adulte = f.read()
+with open(os.path.join(BASE, "content_urgences_transfusionnelles_obstetricales.json"), encoding="utf-8") as f:
+    content_urgences_transfusionnelles_obstetricales = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -197,6 +199,7 @@ out = out.replace("__CONTENT_SEPSIS_HEMODYNAMIQUE__", safe(content_sepsis_hemody
 out = out.replace("__CONTENT_SECURISATION_PROC__", safe(content_securisation_proc))
 out = out.replace("__CONTENT_MORT_ENCEPHALIQUE__", safe(content_mort_encephalique))
 out = out.replace("__CONTENT_VOIES_AERIENNES_ADULTE__", safe(content_voies_aeriennes_adulte))
+out = out.replace("__CONTENT_URGENCES_TRANSFUSIONNELLES_OBSTETRICALES__", safe(content_urgences_transfusionnelles_obstetricales))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

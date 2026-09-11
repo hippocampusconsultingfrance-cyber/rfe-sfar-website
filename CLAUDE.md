@@ -16,9 +16,23 @@ reading full guideline PDFs (often 50-150+ pages).
   so any viewer can submit an error report).
 - Delivered PDFs also live in `/Users/macbook/Downloads/claude/RFE_SFAR_2026/`
   on the user's machine (this repo's `output/` folder is the git-tracked copy).
-- **60 of 160 SFAR library items are git-tracked (this repo's `site/app.js`
+- **61 of 160 SFAR library items are git-tracked (this repo's `site/app.js`
   `FICHE_HREF_MATCH`) as of 2026-09-11.** Track progress via that object's keys vs.
-  `build/library_final.json` (the full 160-item index).
+  `build/library_final.json` (the full 160-item index). Fiche 61
+  (`urgences_transfusionnelles_obstetricales` — EFS table ronde 2000-2001, "Le
+  traitement des urgences transfusionnelles obstétricales"; library index
+  itself mislabels this item "Hémorragies du post-partum immédiat" / "2014",
+  a divergence disclosed inside the fiche, not resolved) has its full 4-file
+  site integration done (build/extract_content.py, build/assemble.py,
+  site/template.html, site/app.js — assembled site/rfe_garde.html contains
+  `id="content-urgences_transfusionnelles_obstetricales"`) and its PDF is in
+  `output/`, but per an explicit instruction this run, it was **NOT published**
+  to the live Artifact URL below — step 11 (publish safety gate) was
+  deliberately skipped, pending the human decision on the KNOWN DRIFT issue
+  below. `site/rfe_garde.html` in this git repo is therefore currently AHEAD
+  of the live Artifact by this one fiche in addition to already being behind
+  it by the 9 KNOWN DRIFT fiches — do not publish either direction without
+  reconciling both facts first.
 - **⚠ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11, unresolved,
   needs a human/session decision, do NOT silently fix by blindly publishing over it):**
   the live Artifact's `FICHE_HREF_MATCH` currently has **69** keys — **9 more than this

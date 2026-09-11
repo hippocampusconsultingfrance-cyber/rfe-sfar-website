@@ -64,7 +64,8 @@ var RAW = {
   sepsis_hemodynamique: JSON.parse(document.getElementById('content-sepsis_hemodynamique').textContent),
   securisation_proc: JSON.parse(document.getElementById('content-securisation_proc').textContent),
   mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent),
-  voies_aeriennes_adulte: JSON.parse(document.getElementById('content-voies_aeriennes_adulte').textContent)
+  voies_aeriennes_adulte: JSON.parse(document.getElementById('content-voies_aeriennes_adulte').textContent),
+  urgences_transfusionnelles_obstetricales: JSON.parse(document.getElementById('content-urgences_transfusionnelles_obstetricales').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -130,7 +131,8 @@ var FICHE_HREF_MATCH = {
   sepsis_hemodynamique: ['prise-en-charge-hemodynamique-du-sepsis-grave-nouveau-ne-exclu', '2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave'],
   securisation_proc: ['securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu', '2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation'],
   mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique'],
-  voies_aeriennes_adulte: ['prise-en-charge-des-voies-aeriennes-en-anesthesie-adulte-a-lexception-de-lintubation-difficile', '1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile']
+  voies_aeriennes_adulte: ['prise-en-charge-des-voies-aeriennes-en-anesthesie-adulte-a-lexception-de-lintubation-difficile', '1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile'],
+  urgences_transfusionnelles_obstetricales: ['urgences-transfusionnelles-obstetricales', 'Traitement-des-urgences-transfusionnelles-obstetricales']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -863,6 +865,18 @@ var DOC_META = {
     methodology: "Échelle ANAES A-E (niveaux de preuve I à V) — pas de GRADE",
     pages: 5,
     url: "https://sfar.org/wp-content/uploads/2016/12/1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile.pdf"
+  },
+  urgences_transfusionnelles_obstetricales: {
+    key: 'urgences_transfusionnelles_obstetricales',
+    badge: 'Sans grading',
+    title: "Urgences transfusionnelles obstétricales",
+    short: "Organisation de la réponse transfusionnelle à l'hémorragie du péripartum : définition de 3 niveaux d'urgence (UVI, UV, transfusion urgente), règles de surveillance immuno-hématologique de la grossesse (typage érythrocytaire, RAI), propositions d'organisation entre établissement de santé et site transfusionnel, évaluation et suivi. Inclut le Tableau I (procédure d'urgence vitale) et la liste des items d'une procédure générale. Conclusions d'une table ronde EFS (2000-2001, en prose continue, sans système de gradation) — dont le titre et la date affichés par l'index du site (« Hémorragies du post-partum immédiat », 2014) divergent des métadonnées propres du document ; divergence disclosée dans la fiche.",
+    society: "EFS — pour avis SFAR / Collège des Obstétriciens / SFTS",
+    version: "Table ronde du 26/09/2000, texte daté 21/12/01-07/06/01 (mis en ligne sfar.org 2015)",
+    validated: "Conclusions de table ronde multidisciplinaire EFS",
+    methodology: "Aucun système de gradation imprimé par la source (ni GRADE, ni RAND/UCLA, ni ANAES) — prose continue",
+    pages: 6,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Traitement-des-urgences-transfusionnelles-obstetricales.pdf"
   }
 };
 

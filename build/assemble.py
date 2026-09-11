@@ -144,6 +144,8 @@ with open(os.path.join(BASE, "content_douleur_postoperatoire.json"), encoding="u
     content_douleur_postoperatoire = f.read()
 with open(os.path.join(BASE, "content_voies_aeriennes_adulte.json"), encoding="utf-8") as f:
     content_voies_aeriennes_adulte = f.read()
+with open(os.path.join(BASE, "content_tih_2002.json"), encoding="utf-8") as f:
+    content_tih_2002 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -221,6 +223,7 @@ out = out.replace("__CONTENT_AAP_ENDOPROTHESES_CORONAIRES__", safe(content_aap_e
 out = out.replace("__CONTENT_RECOMMANDATIONS_AVK__", safe(content_recommandations_avk))
 out = out.replace("__CONTENT_DOULEUR_POSTOPERATOIRE__", safe(content_douleur_postoperatoire))
 out = out.replace("__CONTENT_VOIES_AERIENNES_ADULTE__", safe(content_voies_aeriennes_adulte))
+out = out.replace("__CONTENT_TIH_2002__", safe(content_tih_2002))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

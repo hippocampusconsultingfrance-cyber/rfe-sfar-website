@@ -72,7 +72,8 @@ var RAW = {
   aap_endoprotheses_coronaires: JSON.parse(document.getElementById('content-aap_endoprotheses_coronaires').textContent),
   recommandations_avk: JSON.parse(document.getElementById('content-recommandations_avk').textContent),
   douleur_postoperatoire: JSON.parse(document.getElementById('content-douleur_postoperatoire').textContent),
-  voies_aeriennes_adulte: JSON.parse(document.getElementById('content-voies_aeriennes_adulte').textContent)
+  voies_aeriennes_adulte: JSON.parse(document.getElementById('content-voies_aeriennes_adulte').textContent),
+  tih_2002: JSON.parse(document.getElementById('content-tih_2002').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -146,7 +147,8 @@ var FICHE_HREF_MATCH = {
   aap_endoprotheses_coronaires: ['gestion-du-traitement-anti-plaquettaire-oral-chez-les-patients-porteurs-dendoprotheses-coronaires', '2_AFAR_Gestion-du-traitement-anti-plaquettaire-'],
   recommandations_avk: ['prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier', '2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K'],
   douleur_postoperatoire: ['prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant-2', '2a_AFAR_Prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant'],
-  voies_aeriennes_adulte: ['prise-en-charge-des-voies-aeriennes-en-anesthesie-adulte-a-lexception-de-lintubation-difficile', '1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile']
+  voies_aeriennes_adulte: ['prise-en-charge-des-voies-aeriennes-en-anesthesie-adulte-a-lexception-de-lintubation-difficile', '1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile'],
+  tih_2002: ['/thrombopenie-induite-par-lheparine/', '2_AFAR_Thrombopenie-induite-par-lheparine']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -975,6 +977,18 @@ var DOC_META = {
     methodology: "Grades Anaes A à E (échelle de niveau de preuve, distincte du schéma HAS A/B/C et du schéma GRADE 1+/2+ utilisés ailleurs dans ce corpus) — 53 citations « (Grade X) » explicites (2× A, 1× B, 10× C, 14× D, 26× E), vérifiées par grep exhaustif sur le texte aplati",
     pages: 5,
     url: "https://sfar.org/wp-content/uploads/2016/12/1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile.pdf"
+  },
+  tih_2002: {
+    key: 'tih_2002',
+    badge: 'HISTORIQUE',
+    title: "Thrombopénie induite par l'héparine (2002)",
+    short: "Document historique — voir en priorité la fiche « Thrombopénie induite par l'héparine (TIH) » (GIHP/GFHT 2019, ci-dessus) pour une décision thérapeutique actuelle. Conférence d'experts sans grade formel : définitions (type I/II), physiopathologie, circonstances évocatrices et seuils diagnostiques, diagnostic biologique (Elisa, tests d'activation plaquettaire) et démarche pratique, diagnostic différentiel, prévention et surveillance systématique, traitements de substitution (danaparoïde, lépirudine, désirudine — posologies complètes), contre-indications, Tableau 1 (principes généraux de prise en charge), stratégies par contexte clinique dont le détail des protocoles de chirurgie cardiaque avec/sans CEC. ⚠ La lépirudine (Refludan®) n'est plus commercialisée depuis 2012.",
+    society: "SFAR — Conférence d'experts 2002",
+    version: "2002 (texte court, Ann Fr Anesth Reanim 2003;22:150-159)",
+    validated: "Conférence d'experts (comité d'organisation Y. Blanloeil)",
+    methodology: "Sans système de grade formel (la source l'indique explicitement) — propositions présentées par thème",
+    pages: 10,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Thrombopenie-induite-par-lheparine.pdf"
   }
 };
 

@@ -29,6 +29,25 @@ prescription. Rien n'est invente ni ajoute au contenu clinique lui-meme : l'aver
 porte uniquement sur la disponibilite actuelle des molecules, pas sur une reinterpretation
 des recommandations.
 
+RELATION AVEC LE DOCUMENT GIHP/GFHT 2019 DEJA PRESENT DANS CE CORPUS (fiche_tih.py,
+cle site "tih") : le corpus contient DEJA une fiche batie sur les "Propositions du
+GIHP et du GFHT pour le diagnostic et la prise en charge d'une TIH" (2019, 40
+propositions, argatroban/bivalirudine/AOD inclus) - c'est le document ACTUEL de
+reference sur ce sujet, verifie distinct au niveau de library_final.json (3 entrees
+separees : les 2 URLs du document 2019 - deja couvertes par fiche_tih.py - et 1
+URL propre a CE document de 2002, jamais couverte avant cette fiche). Les 2 documents
+portent sur le meme sujet clinique general (diagnostic/PEC de la TIH) mais ce
+document de 2002 est plus ancien et therapeutiquement depasse (voir avertissement
+ci-dessus). Il est conserve ici comme document HISTORIQUE distinct plutot que fusionne
+- a la difference de fiche_aap_endoprotheses_coronaires.py (2006, egalement historique
+et cite en cross-reference vers ses successeurs 2018) - avec : (a) la cle site
+"tih_2002" (distincte de "tih") pour eviter toute confusion, (b) un renvoi explicite
+vers fiche_tih.py comme reference ACTUELLE des la premiere page de cette fiche, (c) un
+badge "Historique" dans DOC_META. Interet documentaire preserve : criteres cliniques/
+biologiques de 2002 largement toujours valides (diagnostic, 4T non encore formalise a
+l'epoque mais seuils/delais concordants), et protocoles de chirurgie cardiaque CEC
+detailles absents sous cette forme narrative du document 2019.
+
 STRUCTURE SOURCE : 12 questions numerotees (Q1 a Q12) + 1 tableau explicite ("Tableau 1
 - Principes generaux de prise en charge"). Reprises ici en 9 sections thematiques
 (regroupements sans perte de contenu, indiques dans chaque section) :
@@ -124,34 +143,53 @@ def drug_table():
             "phase aiguë</b>, proposable en prévention chez un patient aux antécédents de TIH.",
             S_DC)],
         [dc("Posologie phase aiguë TIH", S_DCB),
-         dc("SC prophylactique : 750 U ×3/j (≤90 kg) ou 1250 U ×3/j (>90 kg). IV curatif : "
-            "charge 1250-3750 U selon poids, puis 400 U/h (4h), 300 U/h (4h), puis "
-            "150-200 U/h ajusté à l'activité anti-Xa (cible curative 0,5-0,8 U/ml). "
-            "Pédiatrie : bolus 30 U/kg puis 1,2-2,0 U/kg/h.", S_DC),
-         dc("Bolus IV 0,4 mg/kg puis perfusion continue 0,15 mg/kg/h ; réduire de moitié le "
-            "bolus si insuffisance rénale et ajuster selon tests biologiques (TCA, avec "
-            "réserves — écarine ou antithrombine chromogénique proposés en alternative).",
+         dc("SC prophylactique, phase aiguë : 750 U ×3/j (≤90 kg) ou 1250 U ×3/j (>90 kg) ; "
+            "<i>à distance de la TIH</i> : 750 U ×2/j (≤90 kg) ou 1250 U ×2/j (>90 kg). "
+            "IV curatif — charge selon poids : <b>1250 U (≤55 kg), 2500 U (55-90 kg), "
+            "3750 U (>90 kg)</b>, puis entretien 400 U/h (4h), 300 U/h (4h), puis 150-200 U/h "
+            "ajusté à l'activité anti-Xa (cible curative 0,5-0,8 U/ml). SC curatif — entretien "
+            "selon poids : 1500 U ×2/j (≤55 kg), 2000 U ×2/j (55-90 kg), 1750 U ×3/j (>90 kg). "
+            "Pédiatrie (thrombose constituée) : bolus 30 U/kg puis entretien 1,2-2,0 U/kg/h.",
+            S_DC),
+         dc("Bolus IV 0,4 mg/kg puis perfusion continue 0,15 mg/kg/h. En cas d'insuffisance "
+            "rénale : adapter bolus et débit selon la clairance de la créatinine et les tests "
+            "biologiques (<i>certaines équipes préconisent de diminuer systématiquement de "
+            "moitié le bolus initial</i>). Grande variabilité intra/interindividuelle : le "
+            "débit de perfusion doit souvent être réduit dès les premières heures.",
             S_DC),
          dc("15 mg SC × 2/j fixe. Précautions si risque hémorragique accru.", S_DC)],
         [dc("Surveillance", S_DCB),
-         dc("Numération plaquettaire quotidienne jusqu'à normalisation puis ≥ 2×/semaine "
-            "2 premières semaines. Activité anti-Xa si besoin (cible 0,5-0,8 U/ml).", S_DC),
+         dc("Numération plaquettaire quotidienne jusqu'à normalisation ; au moins 2×/semaine "
+            "pendant les 2 premières semaines de traitement. Activité anti-Xa si besoin (cible "
+            "0,5-0,8 U/ml).", S_DC),
          dc("TCA (limites reconnues par les experts) ; centres spécialisés recommandés compte "
             "tenu de la difficulté du suivi biologique.", S_DC),
          dc("TCA en cas d'insuffisance rénale (ratio <2 au pic, 1-3 h post-injection).", S_DC)],
+        [dc("Échec / surdosage", S_DCB),
+         dc("Si la numération ne remonte pas — a fortiori si thrombopénie et/ou thrombose "
+            "persiste sous danaparoïde — <b>évoquer une réactivité croisée et envisager la "
+            "lépirudine.</b> Surdosage : arrêter le danaparoïde ; la protamine neutralise "
+            "partiellement son activité mais n'est pas recommandée par le RCP ; en cas "
+            "d'hémorragie grave, transfusion de plasma frais/plaquettes, plasmaphérèse si "
+            "hémorragie incontrôlable.", S_DC),
+         dc("Pas d'antagoniste ; en cas d'hémorragie menaçante, hémofiltration/hémodialyse à "
+            "haut flux (membrane ≤50 000 daltons) peuvent être utiles selon le RCP. Risque "
+            "hémorragique majoré par : insuffisance rénale, traitement thrombolytique associé, "
+            "chirurgie ou cathétérisme récents.", S_DC),
+         dc("Non étudiée en TIH à la phase aiguë (voir ligne Voie/indication). Pas "
+            "d'antagoniste connu.", S_DC)],
         [dc("Particularités", S_DCB),
          dc("Réactivité croisée in vitro 5-10 %, conséquences cliniques rares. Élimination "
             "rénale : adapter selon activité anti-Xa. Prudence avec aspirine (risque "
-            "hémorragique). Pas d'antagoniste. Relais AVK possible après 5-7 j de traitement "
-            "et plaquettes >100 G/L. <b>Ne passe pas la barrière placentaire</b> : recommandé "
-            "chez la femme enceinte.", S_DC),
-         dc("Pas d'antagoniste ; en cas d'hémorragie menaçante, hémofiltration/hémodialyse à "
-            "haut flux (membrane ≤50 000 daltons) peuvent être utiles selon le RCP. "
-            "<b>Contre-indiquée chez la femme enceinte.</b> Relais AVK débuté seulement après "
+            "hémorragique). Relais AVK possible après 5-7 j de traitement et plaquettes "
+            ">100 G/L ; <b>n'arrêter le danaparoïde que lorsque l'INR est en zone thérapeutique "
+            "2 j de suite et après un minimum de 72 h d'AVK.</b> <b>Ne passe pas la barrière "
+            "placentaire</b> : recommandé chez la femme enceinte. AMM couvre aussi les "
+            "patients aux antécédents documentés de TIH.", S_DC),
+         dc("<b>Contre-indiquée chez la femme enceinte.</b> Relais AVK débuté seulement après "
             "réduction progressive de la lépirudine (TCA ≈1,5×témoin), arrêt à INR = 2.",
             S_DC),
-         dc("Pas d'étude comparative directe danaparoïde–lépirudine (efficacité ni "
-            "tolérance) ; aucun antagoniste pour aucune des deux molécules.", S_DC)],
+         dc("", S_DC)],
     ]
     t = Table(data, colWidths=[c0, c1, c2, c3], repeatRows=1)
     style_cmds = [
@@ -223,8 +261,8 @@ def tableau1():
 TOTAL_PAGES = {"n": 2}
 
 def on_page(canvas, doc, page_title):
-    header_band(canvas, doc, "SFAR — 2002 — CONFÉRENCE D'EXPERTS, TEXTE COURT",
-                "Thrombopénie induite par l'héparine",
+    header_band(canvas, doc, "SFAR — 2002 — CONFÉRENCE D'EXPERTS, TEXTE COURT — HISTORIQUE",
+                "Thrombopénie induite par l'héparine (2002)",
                 page_title, icon_fn=lambda c, x, y: icon_drop(c, x, y, 13 * mm), color=NAVY)
     footer_band(canvas, doc, SOURCE_TXT, f"Page {doc.page} / {TOTAL_PAGES['n']}")
 
@@ -240,6 +278,17 @@ def _section_intro():
         "immune, précoce, régressant malgré la poursuite de l'héparine — n'est PAS une TIH) de "
         "la thrombopénie de type II, potentiellement grave et d'origine immune, qui seule est "
         "désignée « TIH » dans ce document.", S_BODY), bg=BG_PANEL, border=NAVY))
+    story.append(Spacer(1, 3 * mm))
+    story.append(info_panel(P(
+        "<b>📖 Document historique — une fiche plus récente existe dans cette bibliothèque :</b> "
+        "les <b>« Propositions du GIHP et du GFHT pour le diagnostic et la prise en charge d'une "
+        "TIH » (2019)</b> sont le document de référence ACTUEL sur ce sujet (40 propositions, "
+        "score des 4T, argatroban, bivalirudine, anticoagulants oraux directs). Consultez-les en "
+        "priorité pour une décision thérapeutique. Cette fiche de 2002, plus ancienne, est "
+        "conservée séparément pour sa valeur documentaire (critères diagnostiques cliniques et "
+        "biologiques largement toujours pertinents, protocoles détaillés de chirurgie cardiaque "
+        "sous CEC) — voir l'avertissement sur l'obsolescence thérapeutique ci-dessous.",
+        S_BODY_SM), bg=AMBER_LIGHT, border=AMBER))
     story.append(Spacer(1, 3 * mm))
     story.append(info_panel(P(
         "<b>Méthodologie :</b> conférence d'experts (2002), <b>sans système de grade formel.</b> "
@@ -346,9 +395,10 @@ def _section_diagnostic_bio():
         ("Tests d'activation plaquettaire", "Tests fonctionnels (agrégation plaquettaire — AP, "
          "ou sérotonine radiomarquée — SRA) montrant la présence d'anticorps IgG "
          "héparine-dépendants activant les plaquettes. AP : spécificité jusqu'à 80 %, "
-         "sensibilité jusqu'à 91 % avec plaquettes de plusieurs témoins ; test long et délicat. "
-         "SRA : sensibilité supérieure à l'AP, spécificité ≈100 %, réactif radiomarqué "
-         "disponible dans quelques laboratoires seulement."),
+         "sensibilité jusqu'à 91 % avec plaquettes de plusieurs témoins (les plaquettes témoins "
+         "lavées améliorent les performances) ; test long et délicat. SRA : sensibilité "
+         "supérieure à l'AP mais n'atteignant pas 100 %, meilleure spécificité (≈100 %), réactif "
+         "radiomarqué disponible dans quelques laboratoires seulement."),
         ("Démarche pratique", "Le diagnostic repose sur un faisceau d'arguments : chronologiques "
          "(numération/héparine), séméiologiques (accidents thromboemboliques), biologiques "
          "(anticorps héparine-dépendants), après recherche rigoureuse d'une autre cause. La "
@@ -406,7 +456,9 @@ def _section_diff_prevention():
          "cathéter, cathéter/circuit pré-enduit d'héparine). Numération plaquettaire avant le "
          "début du traitement, puis à partir du 5<sup>e</sup> jour, au moins 2 fois par semaine "
          "pendant au moins le premier mois. Chez le patient chirurgical, les numérations "
-         "péri-opératoires immédiates servent de référence. Chez un patient déjà exposé à "
+         "péri-opératoires immédiates servent de référence, permettant de détecter l'absence de "
+         "ré-ascension des plaquettes ou leur diminution de 40 % après leur ré-ascension. Chez "
+         "un patient déjà exposé à "
          "l'héparine dans les 3 mois précédents : surveillance dès les premières heures après "
          "réintroduction. Rechercher une TIH quelle que soit l'évolution plaquettaire chez tout "
          "patient présentant une thrombose ou une aggravation d'une thrombose préexistante sous "
@@ -426,6 +478,10 @@ def _section_traitements():
         S_BODY_SM), bg=RED_LIGHT, border=RED))
     story.append(Spacer(1, 2 * mm))
     story.append(drug_table())
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P("Aucune étude comparative directe entre danaparoïde sodique et lépirudine "
+                    "(efficacité ni tolérance) ; aucun antagoniste pharmacologique pour ces deux "
+                    "médicaments.", S_NOTE))
     return story
 
 def _section_ci_tableau1():
@@ -545,7 +601,7 @@ def _section_cardiaque():
     story.append(Spacer(1, 2 * mm))
     story.append(theme_table([
         ("Choix de 1<sup>re</sup> intention", "Deux possibilités : HNF associée à un antiplaquettaire "
-         "puissant, ou lépirudine seule. Choix basé sur la disponibilité des médicaments et des "
+         "puissant, ou lépirudine. Choix basé sur la disponibilité des médicaments et des "
          "moyens de surveillance biologique, l'expérience de l'équipe médico-chirurgicale et les "
          "morbidités associées du patient (insuffisance rénale, risque d'hypotension artérielle "
          "prolongée...)."),
@@ -644,8 +700,11 @@ def _section_cardiaque():
         "intégral et n'est ni éditée ni validée par la SFAR. <b>Document ancien</b> : la "
         "lépirudine (Refludan®) n'est plus commercialisée depuis 2012 (voir avertissement en "
         "page 1) — vérifier le protocole local actualisé et les molécules effectivement "
-        "disponibles (argatroban, fondaparinux, etc.) avant toute décision thérapeutique. En "
-        "cas de doute, solliciter un avis spécialisé (hémostase, hématologie).",
+        "disponibles (argatroban, fondaparinux, etc.) avant toute décision thérapeutique. "
+        "<b>Pour une décision thérapeutique, se référer en priorité aux « Propositions du GIHP "
+        "et du GFHT pour le diagnostic et la prise en charge d'une TIH » (2019)</b>, document de "
+        "référence actuel également disponible dans cette bibliothèque. En cas de doute, "
+        "solliciter un avis spécialisé (hémostase, hématologie).",
         S_BODY_SM), bg=GREY_LIGHT, border=GREY))
     return story
 

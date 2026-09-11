@@ -133,6 +133,13 @@ the pipeline continue.
   scope-limiting (already done for a few: sepsis, anaphylaxie — see their
   fiche scripts' docstrings for the scope-limiting pattern if you pick up a
   similarly huge document).
+- **Prioritize recommendations published less than 10 years ago** (check
+  `exact_date` in `build/library_final.json` against today's date) over
+  older ones, even when an older document is still marked `"en vigueur"` —
+  an older-but-technically-current document should only be picked once the
+  under-10-years backlog is exhausted, or when it's the only source for a
+  topic not otherwise covered. Standing instruction from the project owner
+  (2026-09-11).
 - If you hit usage/rate limits mid-fiche, stop gracefully after committing
   whatever is safely finished — do not leave the repo in a broken
   (non-building) state. The next scheduled run will continue.

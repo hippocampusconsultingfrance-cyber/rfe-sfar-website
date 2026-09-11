@@ -16,9 +16,38 @@ reading full guideline PDFs (often 50-150+ pages).
   so any viewer can submit an error report).
 - Delivered PDFs also live in `/Users/macbook/Downloads/claude/RFE_SFAR_2026/`
   on the user's machine (this repo's `output/` folder is the git-tracked copy).
-- **59 of 160 SFAR library items are built as of 2026-09-08.** Track progress via
-  `site/app.js`'s `FICHE_HREF_MATCH` object keys (one entry per built fiche) vs.
+- **60 of 160 SFAR library items are git-tracked (this repo's `site/app.js`
+  `FICHE_HREF_MATCH`) as of 2026-09-11.** Track progress via that object's keys vs.
   `build/library_final.json` (the full 160-item index).
+- **⚠ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11, unresolved,
+  needs a human/session decision, do NOT silently fix by blindly publishing over it):**
+  the live Artifact's `FICHE_HREF_MATCH` currently has **69** keys — **9 more than this
+  git repo**, even after this session's addition. The 9 keys present live but absent
+  from this repo (no fiche_*.py, no content_*.json, no git history at all) are:
+  `aap_endoprotheses_coronaires`, `avc_precoce`, `douleur_postoperatoire`,
+  `examens_preinterventionnels`, `infarctus_myocarde`, `monitorage_traumatise`,
+  `recommandations_avk`, `tih_2002`, `traumatisme_cranien_grave_precoce`. This means an
+  untracked session (not represented in `git log` on any branch checked) built and
+  published up to 9 fiches directly to the Artifact without ever committing/pushing the
+  underlying `fiche_*.py`/`content_*.json`/source files to this repo — the exact kind of
+  loss this repo's step-13 "commit after every fiche" rule exists to prevent, except this
+  time the *site* has the content and *git* is the one missing it (inverse of the
+  earlier `/tmp` scratchpad incidents). **Before publishing anything to the Artifact
+  URL above, always diff the live `FICHE_HREF_MATCH` against this repo's as part of the
+  publish safety gate (step 11) — not just a grep for your own new marker** — a
+  same-named different-content collision (see fiche 60, `voies_aeriennes_adulte`, this
+  session: an untracked session had already built and published the SAME source document
+  under the SAME key, independently arriving at the same 53-item/A-E grade tally) is
+  exactly as real a risk as the marker-already-present case the existing step 11 already
+  checks for. **This session did NOT publish** (the safety gate caught the
+  `voies_aeriennes_adulte` collision) and did NOT attempt to reconstruct the other 8
+  missing fiches (out of scope for one run) — a dedicated reconciliation session should
+  either (a) pull each of the 9 live-only `content_*.json` blocks back into this repo
+  (read the Artifact, extract each `id="content-<key>"` `<script>` block, reverse it into
+  a committed file — no `fiche_*.py`/source PDF will exist for these unless also
+  recovered), or (b) decide git is the source of truth going forward and accept the next
+  publish will drop those 9 fiches from the live site (a real content-loss decision — get
+  explicit sign-off first, do not decide this unilaterally).
 
 ## Standing quality bar — do not compromise on these
 

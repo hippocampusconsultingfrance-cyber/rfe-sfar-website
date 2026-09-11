@@ -63,7 +63,8 @@ var RAW = {
   hsa: JSON.parse(document.getElementById('content-hsa').textContent),
   sepsis_hemodynamique: JSON.parse(document.getElementById('content-sepsis_hemodynamique').textContent),
   securisation_proc: JSON.parse(document.getElementById('content-securisation_proc').textContent),
-  mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent)
+  mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent),
+  voies_aeriennes_adulte: JSON.parse(document.getElementById('content-voies_aeriennes_adulte').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -128,7 +129,8 @@ var FICHE_HREF_MATCH = {
   hsa: ['hemorragie-sous-arachnoidienne-hsa-grave', '2a_SFAR_texte-court_Hemorragies-sous-arachnoidienne'],
   sepsis_hemodynamique: ['prise-en-charge-hemodynamique-du-sepsis-grave-nouveau-ne-exclu', '2a_TEXTE-COURT_Prise-en-charge-hemodynamique-du-sepsis-grave'],
   securisation_proc: ['securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu', '2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation'],
-  mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique']
+  mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique'],
+  voies_aeriennes_adulte: ['prise-en-charge-des-voies-aeriennes-en-anesthesie-adulte-a-lexception-de-lintubation-difficile', '1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -849,6 +851,18 @@ var DOC_META = {
     methodology: "Cotation RAND/UCLA (médiane 1-9, pas de GRADE) — zones désaccord (1-3) / indécision (4-6) / accord (7-9)",
     pages: 8,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique-dans-loptique-dun-prelevement-dorganes.pdf"
+  },
+  voies_aeriennes_adulte: {
+    key: 'voies_aeriennes_adulte',
+    badge: 'ANAES A-E',
+    title: "Voies aériennes en anesthésie adulte",
+    short: "Prise en charge des voies aériennes en anesthésie adulte, à l'exception de l'intubation difficile (exclusions explicites : médecine extrahospitalière, urgence médicale hospitalière, anesthésie pédiatrique, ventilation à poumons séparés). Critères prédictifs d'intubation et de ventilation au masque difficiles, matériel et alternatives à la sonde d'intubation, pré-oxygénation, agents d'induction (IV, halogénés, morphiniques, curares) et monitorage, positionnement et techniques d'intubation, contrôle du tube et du ballonnet, lésions liées à l'intubation et prévention de l'inhalation bronchique. 53 recommandations gradées A à E (échelle ANAES définie par la source, comptage après consolidation des coupures de ligne PDF).",
+    society: "SFAR",
+    version: "2002 (Ann Fr Anesth Réanim 2003;22:745-749)",
+    validated: "Conférence de Consensus SFAR — Recommandations du Jury",
+    methodology: "Échelle ANAES A-E (niveaux de preuve I à V) — pas de GRADE",
+    pages: 5,
+    url: "https://sfar.org/wp-content/uploads/2016/12/1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile.pdf"
   }
 };
 

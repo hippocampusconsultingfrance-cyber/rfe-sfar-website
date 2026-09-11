@@ -113,6 +113,16 @@ reading full guideline PDFs (often 50-150+ pages).
     index vanished once during a long idle gap). Never let uncommitted work
     sit for long.
 
+## Standing rule: fix failures before moving on
+
+If any step of the pipeline fails or produces a wrong/inconsistent result
+(build error, a QA/audit finding, a broken page, a rejected publish, a
+grading inconsistency, etc.), **stop and fix that failure before starting
+or continuing any other work** — never skip past a known failure to move on
+to the next fiche or the next step, and never leave a known-bad state
+committed. Only once the failure is actually resolved (and re-verified) does
+the pipeline continue.
+
 ## If you're a scheduled/cloud routine run with no memory of prior sessions
 
 - Start by reading `build/library_final.json` and diffing its 160 titles

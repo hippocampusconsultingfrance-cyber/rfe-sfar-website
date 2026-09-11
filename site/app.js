@@ -1149,7 +1149,7 @@ function sidebarHtml(route, tocItems){
   return '' +
     '<aside class="sidebar" id="sidebar">' +
       '<div class="sidebar__brand">' +
-        '<div class="sidebar__mark">Medical Guidelines <small>SFAR</small></div>' +
+        '<div class="sidebar__mark">Medical Guidelines</div>' +
         '<div class="sidebar__sub">Synthèses fiables des recommandations cliniques, au service de la pratique quotidienne.</div>' +
       '</div>' +
       '<div class="nav-group">' + navLinkHtml(route) + '</div>' +
@@ -1385,9 +1385,9 @@ function renderHome(){
   }).join('');
   return '' +
     '<div class="hero">' +
-      '<div class="hero__eyebrow">Prototype — SFAR</div>' +
+      '<div class="hero__eyebrow">Prototype — Synthèses cliniques</div>' +
       '<h1>Les recommandations, enfin lisibles.</h1>' +
-      '<p>Synthèses fidèles des RFE et recommandations des sociétés savantes en anesthésie-réanimation — grades conservés, sources tracées, pensées pour être lues en quelques minutes au moment de la décision clinique.</p>' +
+      '<p>Synthèses fidèles des RFE et recommandations des sociétés savantes médicales — grades conservés, sources tracées, pensées pour être lues en quelques minutes au moment de la décision clinique, par tout professionnel médical ou paramédical.</p>' +
     '</div>' +
     '<div class="doc-grid">' + cards + '</div>' +
     '<div class="info-strip">Vous avez repéré une erreur ou une imprécision&nbsp;? Utilisez le bouton « Signaler une erreur » en bas de chaque page — votre signalement est examiné avant toute correction.</div>';

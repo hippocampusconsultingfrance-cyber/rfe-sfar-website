@@ -25,12 +25,11 @@ reading full guideline PDFs (often 50-150+ pages).
   a divergence disclosed inside the fiche, not resolved) has its full 4-file
   site integration done. `site/rfe_garde.html` (assembled) now contains
   **70** `id="content-*"` fiche markers (61 git-native + 9 recovered from the
-  live Artifact, see KNOWN DRIFT below) + 1 library marker = 71 total. None of
-  this has been **published** to the live Artifact URL below yet — publish
-  requires a separate explicit go-ahead (see KNOWN DRIFT "Temps 2").
-- **⚠ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11).
-  Temps 1 (recovery) DONE this session; Temps 2 (publish) still needs explicit
-  human go-ahead — do NOT silently publish.**
+  live Artifact, see KNOWN DRIFT below) + 1 library marker = 71 total. This
+  was **published** to the live Artifact URL below on 2026-09-11 (Temps 2,
+  Version 13) — git and the live site are now reconciled, no known drift.
+- **✅ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11,
+  RESOLVED 2026-09-11). Temps 1 (recovery) and Temps 2 (publish) both DONE.**
   Originally: the live Artifact's `FICHE_HREF_MATCH` had **69** keys vs. this
   repo's 61 (60 at the time) — 9 keys present live with zero git history:
   `aap_endoprotheses_coronaires`, `avc_precoce`, `douleur_postoperatoire`,
@@ -70,14 +69,15 @@ reading full guideline PDFs (often 50-150+ pages).
   reaching the same 53-item/A-E grade tally) — this repo's own build was kept,
   the live one was NOT pulled in for that key (unlike the 9 above), since
   ours already went through this repo's full audit discipline.
-  **Temps 2 — publish, NOT done, needs explicit sign-off**: `site/rfe_garde.html`
-  in git is now a superset of the live Artifact's fiche content (70 fiches vs.
-  69), so a publish should be safe to move forward with — but per explicit
-  instruction, do not publish without the human confirming this reconciliation
-  first. Before that publish, still follow step 11 in full: re-read the live
-  Artifact (it may have changed again since 2026-09-11), diff its
-  `FICHE_HREF_MATCH` against this repo's, and only publish once confirmed the
-  live site has nothing this repo would drop.
+  **Temps 2 — publish, DONE 2026-09-11**: per explicit user go-ahead ("fais le
+  nécessaire"), re-read the live Artifact per step 11 (confirmed no live-only
+  key would be dropped — this repo's `site/rfe_garde.html` was a strict
+  superset, 70 fiches vs. the live 69), then published `site/rfe_garde.html`
+  to the Artifact URL above (now Version 13). Live and git are reconciled: the
+  9 previously live-only fiches are now git-native (as recovered
+  `content_<key>.json`, still pending a real source-PDF rebuild per the note
+  above) and the `voies_aeriennes_adulte` collision was resolved in git's
+  favor as already decided. No outstanding drift as of this publish.
 
 ## Standing quality bar — do not compromise on these
 

@@ -23,45 +23,61 @@ reading full guideline PDFs (often 50-150+ pages).
   traitement des urgences transfusionnelles obstétricales"; library index
   itself mislabels this item "Hémorragies du post-partum immédiat" / "2014",
   a divergence disclosed inside the fiche, not resolved) has its full 4-file
-  site integration done (build/extract_content.py, build/assemble.py,
-  site/template.html, site/app.js — assembled site/rfe_garde.html contains
-  `id="content-urgences_transfusionnelles_obstetricales"`) and its PDF is in
-  `output/`, but per an explicit instruction this run, it was **NOT published**
-  to the live Artifact URL below — step 11 (publish safety gate) was
-  deliberately skipped, pending the human decision on the KNOWN DRIFT issue
-  below. `site/rfe_garde.html` in this git repo is therefore currently AHEAD
-  of the live Artifact by this one fiche in addition to already being behind
-  it by the 9 KNOWN DRIFT fiches — do not publish either direction without
-  reconciling both facts first.
-- **⚠ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11, unresolved,
-  needs a human/session decision, do NOT silently fix by blindly publishing over it):**
-  the live Artifact's `FICHE_HREF_MATCH` currently has **69** keys — **9 more than this
-  git repo**, even after this session's addition. The 9 keys present live but absent
-  from this repo (no fiche_*.py, no content_*.json, no git history at all) are:
+  site integration done. `site/rfe_garde.html` (assembled) now contains
+  **70** `id="content-*"` fiche markers (61 git-native + 9 recovered from the
+  live Artifact, see KNOWN DRIFT below) + 1 library marker = 71 total. None of
+  this has been **published** to the live Artifact URL below yet — publish
+  requires a separate explicit go-ahead (see KNOWN DRIFT "Temps 2").
+- **⚠ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11).
+  Temps 1 (recovery) DONE this session; Temps 2 (publish) still needs explicit
+  human go-ahead — do NOT silently publish.**
+  Originally: the live Artifact's `FICHE_HREF_MATCH` had **69** keys vs. this
+  repo's 61 (60 at the time) — 9 keys present live with zero git history:
   `aap_endoprotheses_coronaires`, `avc_precoce`, `douleur_postoperatoire`,
   `examens_preinterventionnels`, `infarctus_myocarde`, `monitorage_traumatise`,
-  `recommandations_avk`, `tih_2002`, `traumatisme_cranien_grave_precoce`. This means an
-  untracked session (not represented in `git log` on any branch checked) built and
-  published up to 9 fiches directly to the Artifact without ever committing/pushing the
-  underlying `fiche_*.py`/`content_*.json`/source files to this repo — the exact kind of
-  loss this repo's step-13 "commit after every fiche" rule exists to prevent, except this
-  time the *site* has the content and *git* is the one missing it (inverse of the
-  earlier `/tmp` scratchpad incidents). **Before publishing anything to the Artifact
-  URL above, always diff the live `FICHE_HREF_MATCH` against this repo's as part of the
-  publish safety gate (step 11) — not just a grep for your own new marker** — a
-  same-named different-content collision (see fiche 60, `voies_aeriennes_adulte`, this
-  session: an untracked session had already built and published the SAME source document
-  under the SAME key, independently arriving at the same 53-item/A-E grade tally) is
-  exactly as real a risk as the marker-already-present case the existing step 11 already
-  checks for. **This session did NOT publish** (the safety gate caught the
-  `voies_aeriennes_adulte` collision) and did NOT attempt to reconstruct the other 8
-  missing fiches (out of scope for one run) — a dedicated reconciliation session should
-  either (a) pull each of the 9 live-only `content_*.json` blocks back into this repo
-  (read the Artifact, extract each `id="content-<key>"` `<script>` block, reverse it into
-  a committed file — no `fiche_*.py`/source PDF will exist for these unless also
-  recovered), or (b) decide git is the source of truth going forward and accept the next
-  publish will drop those 9 fiches from the live site (a real content-loss decision — get
-  explicit sign-off first, do not decide this unilaterally).
+  `recommandations_avk`, `tih_2002`, `traumatisme_cranien_grave_precoce`. Root
+  cause: an untracked session (not in `git log` on any branch checked) built
+  and published these directly to the Artifact without ever committing the
+  underlying `fiche_*.py`/`content_*.json`/source files to this repo (inverse
+  of the earlier `/tmp` scratchpad incidents — this time the *site* had the
+  content and *git* was missing it).
+  **Temps 1 — recovery, done 2026-09-11**: read the live Artifact
+  (`action: "read"`), brace-scanned its inline `app.js` for the 9 keys'
+  `RAW`/`FICHE_HREF_MATCH`/`DOC_META` entries and their `id="content-<key>"`
+  `<script>` JSON blocks, cross-checked each key's href/pdf-url needles
+  against `build/library_final.json` (exactly 1 match each, confirmed), wrote
+  them as `build/content_<key>.json`, and merged the JS entries into
+  `site/app.js` (brace-depth-aware insertion — a naive text-search insertion
+  first corrupted `DOC_META` by inserting into the wrong `};`, caught by
+  `node --check` + manual inspection before commit, redone correctly) and new
+  placeholder tags into `site/template.html` + read/replace calls into
+  `build/assemble.py`. Re-assembled `site/rfe_garde.html`; verified
+  functionally in headless Chromium (Playwright) — no JS errors, `RAW`/
+  `FICHE_HREF_MATCH`/`DOC_META` each have exactly 70 keys, and all 9 recovered
+  fiches (plus `voies_aeriennes_adulte` and `urgences_transfusionnelles_obstetricales`
+  for good measure) navigate and render their `<h1>` correctly.
+  **No `fiche_*.py`/source PDF exists for these 9** — only the rendered JSON
+  content was recoverable from the live HTML. Treat each of the 9 as a normal
+  backlog item (full pipeline: download source, build, audit, etc.) for a
+  future session, at which point its git-native `content_<key>.json` replaces
+  the recovered one — the recovered version is an interim measure, not a
+  substitute for this repo's normal triple-read/audit discipline (it was
+  built by a session that bypassed that discipline; nothing about it has been
+  re-audited against the source PDF).
+  Also unresolved: the `voies_aeriennes_adulte` same-key content collision
+  found while building fiche 60 (an untracked session had already built and
+  published the SAME source document under the SAME key, independently
+  reaching the same 53-item/A-E grade tally) — this repo's own build was kept,
+  the live one was NOT pulled in for that key (unlike the 9 above), since
+  ours already went through this repo's full audit discipline.
+  **Temps 2 — publish, NOT done, needs explicit sign-off**: `site/rfe_garde.html`
+  in git is now a superset of the live Artifact's fiche content (70 fiches vs.
+  69), so a publish should be safe to move forward with — but per explicit
+  instruction, do not publish without the human confirming this reconciliation
+  first. Before that publish, still follow step 11 in full: re-read the live
+  Artifact (it may have changed again since 2026-09-11), diff its
+  `FICHE_HREF_MATCH` against this repo's, and only publish once confirmed the
+  live site has nothing this repo would drop.
 
 ## Standing quality bar — do not compromise on these
 

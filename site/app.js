@@ -65,7 +65,16 @@ var RAW = {
   securisation_proc: JSON.parse(document.getElementById('content-securisation_proc').textContent),
   mort_encephalique: JSON.parse(document.getElementById('content-mort_encephalique').textContent),
   voies_aeriennes_adulte: JSON.parse(document.getElementById('content-voies_aeriennes_adulte').textContent),
-  urgences_transfusionnelles_obstetricales: JSON.parse(document.getElementById('content-urgences_transfusionnelles_obstetricales').textContent)
+  urgences_transfusionnelles_obstetricales: JSON.parse(document.getElementById('content-urgences_transfusionnelles_obstetricales').textContent),
+  aap_endoprotheses_coronaires: JSON.parse(document.getElementById('content-aap_endoprotheses_coronaires').textContent),
+  avc_precoce: JSON.parse(document.getElementById('content-avc_precoce').textContent),
+  douleur_postoperatoire: JSON.parse(document.getElementById('content-douleur_postoperatoire').textContent),
+  examens_preinterventionnels: JSON.parse(document.getElementById('content-examens_preinterventionnels').textContent),
+  infarctus_myocarde: JSON.parse(document.getElementById('content-infarctus_myocarde').textContent),
+  monitorage_traumatise: JSON.parse(document.getElementById('content-monitorage_traumatise').textContent),
+  recommandations_avk: JSON.parse(document.getElementById('content-recommandations_avk').textContent),
+  tih_2002: JSON.parse(document.getElementById('content-tih_2002').textContent),
+  traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -132,7 +141,16 @@ var FICHE_HREF_MATCH = {
   securisation_proc: ['securisation-des-procedures-a-risques-en-reanimation-risque-infectieux-exclu', '2a_AFAR_Texte_court_Securisation-des-procedures-a-risques-en-reanimation'],
   mort_encephalique: ['mort-encephalique-dans-loptique-dun-prelevement-dorganes', '2_AFAR_Prise-en-charge-des-sujets-en-etat-de-mort-encephalique'],
   voies_aeriennes_adulte: ['prise-en-charge-des-voies-aeriennes-en-anesthesie-adulte-a-lexception-de-lintubation-difficile', '1-2a_SFAR_Texte-court-Controle-des-voies-aeriennes-en-anesthesie-en-dehors-de-l-intubation-difficile'],
-  urgences_transfusionnelles_obstetricales: ['urgences-transfusionnelles-obstetricales', 'Traitement-des-urgences-transfusionnelles-obstetricales']
+  urgences_transfusionnelles_obstetricales: ['urgences-transfusionnelles-obstetricales', 'Traitement-des-urgences-transfusionnelles-obstetricales'],
+  aap_endoprotheses_coronaires: ['gestion-du-traitement-anti-plaquettaire-oral-chez-les-patients-porteurs-dendoprotheses-coronaires', '2_AFAR_Gestion-du-traitement-anti-plaquettaire-'],
+  avc_precoce: ['accident-vasculaire-cerebral-prise-en-charge-precoce', '2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce'],
+  douleur_postoperatoire: ['prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant-2', '2a_AFAR_Prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant'],
+  examens_preinterventionnels: ['examens-preinterventionnels-systematiques', 'AFAR_Examens-preinterventionnels-systematiques'],
+  infarctus_myocarde: ['linfarctus-du-myocarde', '2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde'],
+  monitorage_traumatise: ['monitorage-du-patient-traumatise-grave-en-prehospitalier', '2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier'],
+  recommandations_avk: ['prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier', '2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K'],
+  tih_2002: ['/thrombopenie-induite-par-lheparine/', '2_AFAR_Thrombopenie-induite-par-lheparine'],
+  traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -877,6 +895,114 @@ var DOC_META = {
     methodology: "Aucun système de gradation imprimé par la source (ni GRADE, ni RAND/UCLA, ni ANAES) — prose continue",
     pages: 6,
     url: "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Traitement-des-urgences-transfusionnelles-obstetricales.pdf"
+  },
+  aap_endoprotheses_coronaires: {
+    key: 'aap_endoprotheses_coronaires',
+    badge: 'Avis d\'experts',
+    title: "AAP oral & endoprothèses coronaires",
+    short: "Gestion périopératoire du traitement antiplaquettaire oral (aspirine, clopidogrel) chez les patients porteurs d'une endoprothèse coronaire (stent, nu ou pharmacoactif) devant subir un acte invasif. Matrice de décision (Tableau 1) croisant risque de thrombose du stent et risque hémorragique de l'intervention. Document historique de 2006, antérieur et complémentaire aux propositions GIHP/GFHT/SFAR 2018 (AAP procédure programmée / non programmée) déjà couvertes dans ce corpus.",
+    society: "SFAR",
+    version: "2006 (Information professionnelle)",
+    validated: "Propositions du groupe d'experts, 31 mars 2006",
+    methodology: "Avis d'un groupe d'experts, sans système GRADE ni vote/pourcentage d'accord formalisé (voir disclosure méthodologique en page 1 de la fiche)",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-du-traitement-anti-plaquettaire-.pdf"
+  },
+  avc_precoce: {
+    key: 'avc_precoce',
+    badge: 'GRADE A-C + AP',
+    title: "AVC — prise en charge précoce",
+    short: "Accident vasculaire cérébral : prise en charge précoce — alerte, phase préhospitalière, phase hospitalière initiale, indications de la thrombolyse. Grand public et formation professionnelle, échelles FAST/NIHSS, régulation SAMU-Centre 15, filière neuro-vasculaire (UNV), imagerie (IRM privilégiée), thrombolyse IV/IA/combinée, algorithme de la filière de prise en charge, et contre-indications de l'altéplase (RCP/AMM ACTILYSE®).",
+    society: "HAS / Société française neuro-vasculaire",
+    version: "2009 (recommandations de bonne pratique)",
+    validated: "Validé par le Collège de la HAS en mai 2009",
+    methodology: "Grades HAS A/B/C + « accord professionnel » (pas de GRADE 1+/2+)",
+    pages: 21,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Accident-vasculaire-cerebral-prise-en-charge-precoce.pdf"
+  },
+  douleur_postoperatoire: {
+    key: 'douleur_postoperatoire',
+    badge: 'GRADE Fort/Faible',
+    title: "Douleur postopératoire — adulte & enfant",
+    short: "Prise en charge de la douleur postopératoire (DPO) chez l'adulte et l'enfant : organisation et évaluation de la qualité, utilisation des morphiniques (titration IV, ACP, spécificités âgées/enfant), antalgiques non morphiniques, agents antihyperalgésiques (kétamine, gabapentine), prévention de la chronicisation (DCPC), infiltration du site opératoire, place de l'ALR (blocs du tronc, blocs périphériques par indication chirurgicale, analgésie périmédullaire), et organisation de l'analgésie en chirurgie ambulatoire. 124 recommandations consensuelles, 8 thèmes.",
+    society: "Sfar (comité douleur-ALR et comité des référentiels)",
+    version: "2008 (RFE, actualisation de la conférence de consensus de 1997)",
+    validated: "22 experts, 4 tours de cotation",
+    methodology: "Méthode GRADE — force codée dans le verbe de chaque phrase (« il est recommandé » = Fort, « il est probablement recommandé » = Faible), sans tag imprimé par recommandation : résolution textuelle disclosée (voir méthodologie en page 1 de la fiche)",
+    pages: 7,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2a_AFAR_Prise-en-charge-de-la-douleur-postoperatoire-chez-ladulte-et-lenfant.pdf"
+  },
+  examens_preinterventionnels: {
+    key: 'examens_preinterventionnels',
+    badge: 'GRADE 1/2',
+    title: "Examens préinterventionnels systématiques",
+    short: "Prescription des examens complémentaires préinterventionnels systématiques (ECG, échocardiographie, radio thorax, gaz du sang, EFR, hémostase, hémogramme, immunohématologie, biochimie, femme enceinte en prépartum, test de grossesse, dépistage infectieux/ECBU) en dehors de signes d'appel anamnestiques ou cliniques. Stratification selon le type de chirurgie (risque cardiaque ACC/AHA) et la classe ASA. Actualisation SFAR 2012 des recommandations Anaes de 1998, 9 recommandations, 38 tags GRADE.",
+    society: "SFAR (actualisation des recommandations Anaes 1998)",
+    version: "2012 (RFE)",
+    validated: "Validé par 14 sociétés savantes (AFC, AFU, CNGOF, EFS, SCGP, SFC, SFCD, GEHT, SF2H, SOFOP, SFORL, SFR-FRI, SFSCMF, SPLF)",
+    methodology: "GRADE 1+/1-/2+/2- — 38 recommandations taguées (14× 1+, 14× 1-, 9× 2+, 1× 2-), dont 13 signes résolus depuis le sens de la phrase (disclosure en page 1 de la fiche)",
+    pages: 12,
+    url: "https://sfar.org/wp-content/uploads/2015/10/AFAR_Examens-preinterventionnels-systematiques.pdf"
+  },
+  infarctus_myocarde: {
+    key: 'infarctus_myocarde',
+    badge: 'GRADE A-C',
+    title: "Infarctus du myocarde à la phase aiguë hors cardiologie",
+    short: "Prise en charge de l'infarctus du myocarde à la phase aiguë en dehors des services de cardiologie, sur les 5 questions du texte court : critères décisionnels de désobstruction coronaire, stratégies de reperfusion (angioplastie/fibrinolyse, délais porte à porte cardio) et traitements adjuvants du SCA ST+, filières de prise en charge (SAMU-Centre 15), situations particulières (sujet âgé, diabétique, service non cardiologique, périopératoire), complications initiales (bradycardies, tachycardies, arrêt circulatoire, choc cardiogénique, transferts interhospitaliers).",
+    society: "HAS / Samu de France / SFMU / Société française de cardiologie",
+    version: "2006 (conférence de consensus, texte court publié 2007)",
+    validated: "Conférence de consensus HAS/Samu de France/SFMU/Société française de cardiologie",
+    methodology: "Grades HAS A/B/C (études thérapeutiques, pas de GRADE 1+/2+) — en l'absence de précision, consensus du jury",
+    pages: 24,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2a_HAS_TEXTE-COURT_Prise-en-charge-de-linfarctus-du-myocarde.pdf"
+  },
+  monitorage_traumatise: {
+    key: 'monitorage_traumatise',
+    badge: 'FORCE A-E',
+    title: "Monitorage du traumatisé grave en préhospitalier",
+    short: "Monitorage du patient traumatisé grave en médecine d'urgence préhospitalière, sur les 8 questions du texte court : justification du monitorage, cardiovasculaire (ECG, PA non invasive/invasive, échographie FAST) et thermique, respiratoire (SpO2, capnographie, ballonnet de sonde d'intubation), neurologique (ACSOS, PaCO2 cible, Doppler transcrânien), biologique (hémoglobine, gaz du sang), transferts secondaires, femme enceinte (rythme cardiaque fœtal) et enfant traumatisés, monitorage en milieu difficile (montagne, mer, catastrophe, NRBC).",
+    society: "SFAR / Samu de France / SFMU / SRLF",
+    version: "2006 (conférence d'experts, texte court)",
+    validated: "Conférence d'experts SFAR/Samu de France/SFMU/SRLF",
+    methodology: "Conférence d'experts (pas de GRADE) — niveaux de preuve I-V, force de recommandation A à E",
+    pages: 15,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier.pdf"
+  },
+  recommandations_avk: {
+    key: 'recommandations_avk',
+    badge: 'HAS A/B/C',
+    title: "Surdosages, hémorragies & AVK",
+    short: "Prise en charge des surdosages en antivitamines K (AVK), des situations à risque hémorragique et des accidents hémorragiques, en ville et en milieu hospitalier. Tableau 1 (mesures correctrices selon l'INR), classification de gravité des hémorragies, médicaments antagonisants (CCP/vitamine K), conduite en cas de traumatisme, réintroduction des AVK, gestion périopératoire (relais héparinique selon l'indication : PVM, ACFA, MTEV), acte urgent à risque hémorragique, et Annexe 1 (risque hémorragique en rhumatologie, 23 actes).",
+    society: "HAS / GEHT (Groupe d'étude sur l'hémostase et la thrombose)",
+    version: "2008 (recommandations professionnelles)",
+    validated: "Validé par le Collège de la HAS en avril 2008",
+    methodology: "Grades HAS A/B/C + « accord professionnel » (AP) — 28 recommandations taguées explicitement (5× A, 2× B, 21× C), vérifiées par grep exhaustif ; 2 divergences source-internes disclosées (disclosure en page 1 de la fiche)",
+    pages: 21,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K.pdf"
+  },
+  tih_2002: {
+    key: 'tih_2002',
+    badge: 'HISTORIQUE',
+    title: "Thrombopénie induite par l'héparine (2002)",
+    short: "Document historique — voir en priorité la fiche « Thrombopénie induite par l'héparine (TIH) » (GIHP/GFHT 2019, ci-dessus) pour une décision thérapeutique actuelle. Conférence d'experts sans grade formel : définitions (type I/II), physiopathologie, circonstances évocatrices et seuils diagnostiques, diagnostic biologique (Elisa, tests d'activation plaquettaire) et démarche pratique, diagnostic différentiel, prévention et surveillance systématique, traitements de substitution (danaparoïde, lépirudine, désirudine — posologies complètes), contre-indications, Tableau 1 (principes généraux de prise en charge), stratégies par contexte clinique dont le détail des protocoles de chirurgie cardiaque avec/sans CEC. ⚠ La lépirudine (Refludan®) n'est plus commercialisée depuis 2012.",
+    society: "SFAR — Conférence d'experts 2002",
+    version: "2002 (texte court, Ann Fr Anesth Reanim 2003;22:150-159)",
+    validated: "Conférence d'experts (comité d'organisation Y. Blanloeil)",
+    methodology: "Sans système de grade formel (la source l'indique explicitement) — propositions présentées par thème",
+    pages: 10,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Thrombopenie-induite-par-lheparine.pdf"
+  },
+  traumatisme_cranien_grave_precoce: {
+    key: 'traumatisme_cranien_grave_precoce',
+    badge: 'GRADE 1/2 + AE',
+    title: "Traumatisme crânien grave — phase précoce",
+    short: "Prise en charge des traumatisés crâniens graves à la phase précoce (24 premières heures) : gravité initiale (Glasgow moteur, TDM), prise en charge préhospitalière, imagerie, indications neurochirurgicales, sédation-analgésie, monitorage cérébral (PIC/PPC/PtiO2/Doppler transcrânien), HTIC médicale, polytraumatisé avec TC grave, épilepsie post-traumatique, homéostasie biologique (glycémie), particularités de l'enfant. 32 recommandations, actualisation 2016 des RFE de 1998.",
+    society: "SFAR / Anarlf / SFMU / SFNC / GFRUP / Adarpef",
+    version: "2016 (RFE actualisation)",
+    validated: "Validé par le Conseil d'administration de la Sfar le 21/09/2016",
+    methodology: "GRADE 1+/1-/2+/2- + avis d'experts (AE) — accord FORT sur 100% des recommandations",
+    pages: 23,
+    url: "https://sfar.org/wp-content/uploads/2017/09/RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce.pdf"
   }
 };
 

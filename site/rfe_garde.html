@@ -98670,6 +98670,996 @@ td.align-c, th.align-c{ text-align:center; }
   }
  ]
 }</script>
+<script id="content-sujet_age_esf" type="application/json">{
+ "doc": "sujet_age_esf",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie & légende",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge périopératoire du patient âgé, en prenant pour <b>modèle</b> une des interventions les plus fréquentes chez le sujet âgé — la <b>fracture de l'extrémité supérieure du fémur (FESF)</b> — pour rédiger des recommandations concrètes et gradées. Plus de 65 000 FESF/an en France (jusqu'à 150 000/an projetés en 2050) ; mortalité 3,9 % à l'hospitalisation, 24 % à 6 mois. 3 profils de personnes âgées distingués par les experts, à âge identique : les « vigoureux/robustes » (vieillissement réussi, peu de comorbidités), les « fragiles » (réserves diminuées, haut risque en cas d'évènement intercurrent) et les « dépendants-polypathologiques » (l'essentiel de la population dite gériatrique). RFE commune SFAR, SOFCOT (orthogériatrie), SFGG et SFPC, 8 questions, <b>26 recommandations</b>.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie GRADE® — deux axes indépendants, imprimés côte à côte :</b> (1) la <b>force</b> — qualité des preuves classée haute/modérée/basse/très basse, aboutissant à un énoncé toujours binaire positif/négatif et fort/faible : <b>1+/1-</b> (« il faut faire / ne pas faire ») ou <b>2+/2-</b> (« il faut probablement faire / ne pas faire ») ; ou un <b>avis d'experts</b> quand aucune méta-analyse ne permettait d'appliquer GRADE en totalité (revue systématique puis vote, validé si ≥ 70 % d'accord). (2) l'<b>accord</b> du vote d'experts (méthode Delphi/GRADE Grid) : « accord fort » par défaut (≥ 70 %) ; <b>seuls 2 items sur 26 portent la mention « accord faible »</b> (R1.4 et R5.1), signalée par un texte entre parenthèses plutôt que par un second chip inventé.<br/><br/><b>Disclosure — bug d'extraction PDF corrigé :</b> le texte brut extrait du PDF source affiche « GRADE 2<i>S</i> » pour 3 recommandations (R5.1, R6.1, R8.1) — artefact de police du PDF qui substitue la lettre « S » au tiret « − ». Vérifié par rendu visuel à 200 dpi : le texte réellement imprimé est bien « GRADE 2− »/« GRADE 1− », corrigé ici en conséquence, jamais laissé tel quel.<br/><br/><b>Disclosure — incohérence interne au document source</b> (vérifiée par rendu visuel, non une erreur d'extraction) : R3.3 et R3.4 sont formulées négativement (« il ne faut probablement pas… ») mais imprimées « GRADE 2+ », alors que la Méthodologie du document définit elle-même 2+ = « il faut probablement faire » et 2- = « il faut probablement ne pas faire ». Le tag imprimé fait foi (chippé « 2+ » tel quel) ; l'incohérence n'est pas corrigée silencieusement.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q1-Q2 — Évaluation préopératoire & programme spécifique",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 1 — Prise en charge préopératoire des patients",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Risque cardiovasculaire, fonctions cognitives, fonction rénale</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut réaliser un score de Lee classique pour évaluer le risque cardiovasculaire. Sa VPN reste &gt; 98 % quel que soit l'âge pour les patients peu à risque (RCRI = 1, 63 % des patients de plus de 85 ans dans une étude danoise de 257 342 patients) — pas d'examen complémentaire inutile chez eux ; sa VPP pour prédire une complication cardiaque postopératoire augmente avec l'âge (jusqu'à 6,5 % si &gt; 85 ans et RCRI &gt; 1).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour un score de Lee de classe I, l'ECG est suffisant. Pour une classe &gt; I, chirurgie à risque majeur et capacité à l'effort difficilement évaluable par l'interrogatoire : il faut probablement affiner le risque postopératoire par le dosage de biomarqueurs et/ou un test cardiopulmonaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer le risque de confusion ou de troubles cognitifs postopératoires en repérant en préopératoire une plainte cognitive, des troubles de l'humeur et/ou une maladie neurodégénérative (interrogatoire ciblé ; le 6-CIT, rapide [3 min], a une bonne sensibilité/spécificité comparé au MMSE [15 min]).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer probablement la fonction rénale en préopératoire selon 2 situations : situation stable et chirurgie programmée (RFE 2012 examens préinterventionnels) ; insuffisance rénale aiguë (RFE 2015 IRA périopératoire). Interrompre les antihypertenseurs au long cours 48-72 h autour de la chirurgie pour éviter une hypovolémie source d'IRA iatrogène. <i>(accord faible)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 2 — Programme spécifique & chirurgie ambulatoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prise en charge multidisciplinaire spécialisée périopératoire associant urgentistes, anesthésistes-réanimateurs, chirurgiens, gériatres, pharmaciens et soignants, afin d'améliorer le devenir postopératoire des patients âgés opérés en chirurgie orthopédique — 46/58 (79 %) des études d'évaluation orthogériatrique rapportent un bénéfice ; plusieurs recommandations internationales (NICE, AAOS, AAGBI, New Zealand Guidelines, SIGN, Clinical Excellence Commission australienne) convergent vers ce modèle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier la chirurgie ambulatoire chez le patient âgé quel que soit son âge — semble ne pas augmenter, voire diminuer, les complications postopératoires (dysfonction cognitive, morbidité cardiorespiratoire), à condition d'optimiser la période peropératoire (hémodynamique, respiratoire, thermorégulation) ; surveillance postopératoire du globe vésical et de la douleur particulièrement importante.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q3 — Traitements confusiogènes & anxiété",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 3 — Traitements confusiogènes & anxiété préopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Gestion des traitements pouvant engendrer une confusion postopératoire</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Identifier les médicaments à risque de confusion postopératoire (benzodiazépines à demi-vie longue, antidépresseurs tricycliques et IMAO B, antihistaminiques, neuroleptiques, morphiniques — mépéridine et tramadol notamment) et alléger les traitements anticholinergiques et sédatifs, si possible via une conciliation médicamenteuse. Ne pas prescrire <i>de novo</i> un de ces produits devant un trouble dysthymique/psycho-comportemental ; préférer alors une benzodiazépine à demi-vie courte ou un IRS/IRS-NA. Ne pas sevrer brutalement un traitement chronique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Évaluation et prise en charge de l'anxiété préopératoire</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser probablement une échelle objective et validée — Amsterdam Preoperative Anxiety and Information Scale (APAIS, 6 items) ou Hospital Anxiety and Depression Scale (HADS) — pour mesurer l'anxiété préopératoire : l'hétéro-évaluation par le soignant est peu efficiente (chirurgiens et anesthésistes surestiment notablement l'anxiété du patient).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour l'anxiolyse, il ne faut probablement pas utiliser d'agent médicamenteux — nombreuses approches non pharmacologiques efficaces (information/éducation, hypnose, écoute musicale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsqu'une prémédication pharmacologique est envisagée, il ne faut probablement pas administrer d'hydroxyzine (ANSM : risques anticholinergiques — confusion, tachycardie, hypotension, rétention urinaire), de gabapentine ni de prégabaline (données insuffisantes pour conclure).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si une prémédication médicamenteuse est requise, il faut probablement privilégier une benzodiazépine ou apparenté à demi-vie courte — l'âge &gt; 60 ans et/ou une prémédication majorent le risque de complications respiratoires postopératoires ; poursuivre un traitement chronique par benzodiazépine pour éviter un syndrome de sevrage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q4-Q5 — Délai d'intervention & monitorage",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 4 — Délai d'intervention de la FESF",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser la chirurgie d'une FESF dans les <b>48 heures</b> suivant l'admission du patient afin de réduire la mortalité postopératoire — une méta-analyse de 35 études (191 873 patients) montre qu'une chirurgie précoce réduit la mortalité (OR 0,74 [0,67 ; 0,81]) ; retarder la chirurgie reste prudent pour les patients ayant des situations pathologiques instables.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>TABLEAU I</b> — Délai d'intervention des FESF (proportion de patients opérés dans les 24 h, par étude)",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Référence",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Proportion opérée dans les 24 h",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Siegmeth et al., 2005",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "74 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Smektala et al., 2005",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "64 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "MacKenzie et al., 2006",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Beringer et al., 1996",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "57 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bottle et al., 2006",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "56 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Boddaert et al., 2014",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&gt; 50 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Charalambous et al., 2003",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "44 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Parker et al., 1992",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "34 %",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 5 — Monitorage",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Hémodynamique, pression artérielle, oxygénation cérébrale</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas réaliser de monitorage systématique du débit cardiaque pour diriger le remplissage vasculaire peropératoire chez les patients âgés présentant une FESF — une méta-analyse Cochrane récente conclut à l'absence de preuve d'amélioration du devenir avec ces stratégies d'optimisation. Chez les patients à risque accru de complications de par leurs comorbidités, il reste recommandé de titrer le remplissage en se guidant sur le volume d'éjection systolique (RFE SFAR 2013). <i>(accord faible)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Maintenir probablement la pression artérielle moyenne peropératoire au-dessus d'un seuil correspondant à <b>70 % de la PAM de référence</b> mesurée avant l'intervention, d'autant plus que le patient présente des facteurs de risque de complications postopératoires — plus de 50 définitions de l'hypotension existent dans la littérature, sans seuil commun établi ; le seuil de PAM est préféré à la PAS (moins sujette aux distorsions de mesure).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traiter probablement sans délai toute hypotension peropératoire chez le sujet âgé afin de limiter le risque de complications rénales ou myocardiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas utiliser en routine, chez le sujet âgé, un monitorage de l'oxygénation cérébrale (spectroscopie proche infrarouge, rSO<sub>2</sub>) pour des chirurgies ne présentant pas de risque neurologique spécifique — littérature de (très) faible qualité, essentiellement observationnelle, méthodologies hétérogènes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Température centrale</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Monitorer la température centrale de tout sujet âgé opéré afin de détecter et prévenir les conséquences de l'hypothermie — vasoconstriction et frissons moins efficaces avec le vieillissement, seuil vasoconstricteur abaissé d'environ 1 °C entre 60-80 ans vs 30-50 ans ; les recommandations générales sur l'hypothermie périopératoire de l'adulte s'appliquent tout particulièrement au sujet âgé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q6-Q7 — Techniques anesthésiques & confusion postopératoire",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 6 — Techniques et agents anesthésiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas privilégier une technique d'anesthésie (AG vs ALR) pour diminuer la mortalité après chirurgie de la FESF — aucune étude prospective randomisée ne permet de trancher ; études rétrospectives contradictoires ; la mortalité postopératoire est probablement multifactorielle, l'anesthésie jouant un rôle à court terme mais pas à moyen/long terme.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lors d'une anesthésie générale, effectuer une titration avec des agents anesthésiques de courte durée d'action, à des doses adaptées à la pharmacologie du patient âgé et à un monitorage de la profondeur de l'anesthésie — pharmacocinétique/pharmacodynamique des hypnotiques et morphiniques modifiées par le vieillissement (pas les curares) ; induction progressive par titration (propofol ~1 mg/kg lentement, ou AIVOC modèle de Schnider) ; seul l'étomidate prévient avec certitude l'hypotension à l'induction ; rémifentanil particulièrement utile (clairance réduite, sensibilité aux morphiniques augmentée) ; sugammadex peut éviter l'anticholinergique après rocuronium ; protoxyde d'azote souvent mal toléré, à éviter.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réduire, ou titrer, les doses d'anesthésiques locaux lors d'une rachianesthésie pour réduire les hypotensions peropératoires — pharmacocinétique et pharmacodynamique des anesthésiques locaux modifiées par le vieillissement ; une rachianesthésie titrée (cathéter) réduit les épisodes hypotensifs versus une injection unique ; monitorer la profondeur de la sédation associée pour éviter une sédation trop profonde.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 7 — Décompensations cognitives postopératoires",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Syndrome confusionnel postopératoire :</b> trouble aigu de la vigilance, fréquent (incidence 26-52 % après prothèse totale de hanche), associé à une surmortalité, un risque de déclin cognitif/fonctionnel, un allongement de séjour et des coûts accrus. Facteurs prédisposants majeurs : altération des fonctions cognitives, déficience visuelle/auditive, déshydratation. Diagnostic : DSM-V ou Confusion Assessment Method (CAM) ; intensité évaluée par la Memorial Delirium Assessment Scale (MDAS).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre probablement en place un programme de prévention non médicamenteuse de la confusion postopératoire, favorisant la ré-afférentation sensorielle, l'orientation temporo-spatiale, le rythme veille-sommeil, et contrôlant hydratation, douleur et iatrogénie — le programme non pharmacologique « Elder Life Program » (ELP) diminue l'incidence (15,5 % vs 9,9 %) et la durée du syndrome confusionnel en médecine ; une consultation gériatrique dans les 48 h préop ou 24 h postop réduit l'incidence (50 % vs 32 %) et l'intensité des épisodes chez les patients de plus de 65 ans.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de confusion, identifier probablement les facteurs favorisants, rechercher et traiter une cause directe pour en limiter l'intensité et la durée — traitement associant prise en charge de la cause directe, mesures de prévention, et usage minimum de psychotropes sédatifs (uniquement en cas de trouble du comportement mettant en danger le patient et/ou son entourage).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer probablement une benzodiazépine à demi-vie courte ou un neuroleptique de dernière génération en cas d'anxiété majeure ou de trouble du comportement, pour limiter le danger induit pour le patient et/ou son entourage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "N'utiliser la contention physique qu'en dernier recours et pour une durée la plus courte possible, réévaluée à court terme.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Q8 — Analgésie postopératoire & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 8 — Analgésie postopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Les recommandations SFAR 2016 sur la douleur postopératoire (déjà couvertes dans ce corpus) s'appliquent au sujet âgé ; ne sont repris ici que quelques points complémentaires propres au patient âgé avec FESF. Morphine : reste l'agent de choix, à condition d'un protocole personnalisé tenant compte de la fonction rénale (risque d'événement indésirable sévère avec une stratégie « aveugle », 1511 patients, White et al.), au mieux via une PCA si le patient comprend son fonctionnement. Néfopam déconseillé chez le sujet âgé (effets anticholinergiques, ANSM). Paracétamol : dose maximale 3 g/j si poids &lt; 50 kg, 2 g/j si poids ≤ 33 kg (ANSM).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas infiltrer en intra-articulaire et/ou en sous-cutané avec des anesthésiques locaux en cas de chirurgie après fracture du col fémoral et/ou d'arthroplastie de hanche — analgésie obtenue inconstante, dépendante de la technique ; une méta-analyse (756 patients d'arthroplastie de hanche) ne montre pas d'effet analgésique en période postopératoire immédiate en cas de stratégie multimodale associée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser probablement un bloc fémoral ou iliofascial pour assurer l'analgésie en cas de FESF — une revue Cochrane (17 études, 888 patients) montre une diminution des scores de douleur et de la consommation d'antalgiques de secours, sans complication majeure ni surrisque d'événement indésirable ; le bénéfice est plus net lors de la mobilisation de la hanche qu'au repos, et le taux de confusion postopératoire est atténué chez les patients à risque moyen (pas chez les patients à risque élevé).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Recommandation sur l'anesthésie du sujet âgé : l'exemple de fracture de l'extrémité supérieure du fémur » — RFE commune Société française d'anesthésie et de réanimation (SFAR), Société française de chirurgie orthopédique (SOFCOT/orthogériatrie), Société française de gériatrie et gérontologie (SFGG), Société française de pharmacie clinique (SFPC). Coordonnateur : Frédéric Aubrun. Anesth Reanim. 2019;5:122-138, doi 10.1016/j.anrea.2018.12.002. Texte validé par le Conseil d'administration de la SFAR le 29/06/2017.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE® — force (1+/1-/2+/2- ou avis d'experts) et accord du vote Delphi/GRADE Grid (fort ≥ 70 % par défaut ; faible pour 2 items sur 26, disclosés en texte) imprimés côte à côte sur chaque tag — voir disclosure méthodologique en page 1 (bug d'extraction PDF corrigé par vérification visuelle ; incohérence source-interne sur R3.3/R3.4 signalée, non résolue silencieusement).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des 26 recommandations (R1.1-R8.2) réparties sur les 8 questions du texte (évaluation préopératoire, programme spécifique et chirurgie ambulatoire, gestion des traitements confusiogènes et de l'anxiété, délai d'intervention avec le Tableau I, monitorage, techniques et agents anesthésiques, décompensations cognitives postopératoires, analgésie postopératoire). Comité d'organisation, groupe de lecture et les 178 références bibliographiques (pages 13-17 de la source) ne sont pas retranscrits (sans contenu clinique actionnable au-delà de ce que l'argumentaire cite déjà).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2017/2019 :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des 26 recommandations du texte source, mais ne remplace pas le texte intégral (argumentaire complet, 178 références bibliographiques) et n'est ni éditée ni validée par la SFAR, la SOFCOT, la SFGG ou la SFPC. Les recommandations elles-mêmes portent spécifiquement sur la fracture de l'extrémité supérieure du fémur (FESF), modèle choisi par les experts pour illustrer la prise en charge périopératoire du sujet âgé en général — se référer en complément aux recommandations SFAR sur la douleur postopératoire (2016), les examens préinterventionnels (2012) et l'insuffisance rénale aiguë périopératoire (2015), déjà couvertes dans ce corpus, et à un avis gériatrique/anesthésique spécialisé en cas de doute.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}</script>
 <script id="content-library" type="application/json">[
  {
   "year": "2026",
@@ -101506,7 +102496,8 @@ var RAW = {
   monitorage_traumatise: JSON.parse(document.getElementById('content-monitorage_traumatise').textContent),
   recommandations_avk: JSON.parse(document.getElementById('content-recommandations_avk').textContent),
   tih_2002: JSON.parse(document.getElementById('content-tih_2002').textContent),
-  traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent)
+  traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent),
+  sujet_age_esf: JSON.parse(document.getElementById('content-sujet_age_esf').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -101582,7 +102573,8 @@ var FICHE_HREF_MATCH = {
   monitorage_traumatise: ['monitorage-du-patient-traumatise-grave-en-prehospitalier', '2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier'],
   recommandations_avk: ['prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier', '2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K'],
   tih_2002: ['/thrombopenie-induite-par-lheparine/', '2_AFAR_Thrombopenie-induite-par-lheparine'],
-  traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce']
+  traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce'],
+  sujet_age_esf: ['anesthesie-du-sujet-age-lexemple-de-fracture-de-lextremite-superieure-du-femur', 'rfe-anesthesie-du-sujet-age']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -102435,6 +103427,18 @@ var DOC_META = {
     methodology: "GRADE 1+/1-/2+/2- + avis d'experts (AE) — accord FORT sur 100% des recommandations",
     pages: 23,
     url: "https://sfar.org/wp-content/uploads/2017/09/RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce.pdf"
+  },
+  sujet_age_esf: {
+    key: 'sujet_age_esf',
+    badge: 'GRADE 1/2 + AE',
+    title: "Anesthésie du sujet âgé — exemple de la FESF",
+    short: "Prise en charge périopératoire du sujet âgé, prenant pour modèle la fracture de l'extrémité supérieure du fémur (FESF) : évaluation préopératoire (cardiovasculaire, cognitive, rénale), programme spécifique orthogériatrique et chirurgie ambulatoire, gestion des traitements confusiogènes et de l'anxiété préopératoire, délai d'intervention (48h), monitorage (hémodynamique, PAM, température), techniques et agents anesthésiques, prévention et traitement de la confusion postopératoire, analgésie postopératoire (bloc fémoral/iliofascial). 26 recommandations, 8 questions.",
+    society: "SFAR / SOFCOT / SFGG / SFPC — RFE 2017",
+    version: "2017 (publiée 2019, Anesth Reanim. 2019;5:122-138)",
+    validated: "Validé par le Conseil d'administration de la SFAR le 29/06/2017",
+    methodology: "GRADE 1+/1-/2+/2- + avis d'experts (AE), avec accord Delphi/GRADE Grid fort/faible imprimé séparément",
+    pages: 17,
+    url: "https://sfar.org/wp-content/uploads/2019/10/rfe-anesthesie-du-sujet-age.pdf"
   }
 };
 

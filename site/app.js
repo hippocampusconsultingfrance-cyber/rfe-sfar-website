@@ -74,7 +74,8 @@ var RAW = {
   monitorage_traumatise: JSON.parse(document.getElementById('content-monitorage_traumatise').textContent),
   recommandations_avk: JSON.parse(document.getElementById('content-recommandations_avk').textContent),
   tih_2002: JSON.parse(document.getElementById('content-tih_2002').textContent),
-  traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent)
+  traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent),
+  sujet_age_esf: JSON.parse(document.getElementById('content-sujet_age_esf').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -150,7 +151,8 @@ var FICHE_HREF_MATCH = {
   monitorage_traumatise: ['monitorage-du-patient-traumatise-grave-en-prehospitalier', '2_SFAR_texte-court_Monitorage-du-patient-traumatise-grave-en-prehospitalier'],
   recommandations_avk: ['prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier', '2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K'],
   tih_2002: ['/thrombopenie-induite-par-lheparine/', '2_AFAR_Thrombopenie-induite-par-lheparine'],
-  traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce']
+  traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce'],
+  sujet_age_esf: ['anesthesie-du-sujet-age-lexemple-de-fracture-de-lextremite-superieure-du-femur', 'rfe-anesthesie-du-sujet-age']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1003,6 +1005,18 @@ var DOC_META = {
     methodology: "GRADE 1+/1-/2+/2- + avis d'experts (AE) — accord FORT sur 100% des recommandations",
     pages: 23,
     url: "https://sfar.org/wp-content/uploads/2017/09/RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce.pdf"
+  },
+  sujet_age_esf: {
+    key: 'sujet_age_esf',
+    badge: 'GRADE 1/2 + AE',
+    title: "Anesthésie du sujet âgé — exemple de la FESF",
+    short: "Prise en charge périopératoire du sujet âgé, prenant pour modèle la fracture de l'extrémité supérieure du fémur (FESF) : évaluation préopératoire (cardiovasculaire, cognitive, rénale), programme spécifique orthogériatrique et chirurgie ambulatoire, gestion des traitements confusiogènes et de l'anxiété préopératoire, délai d'intervention (48h), monitorage (hémodynamique, PAM, température), techniques et agents anesthésiques, prévention et traitement de la confusion postopératoire, analgésie postopératoire (bloc fémoral/iliofascial). 26 recommandations, 8 questions.",
+    society: "SFAR / SOFCOT / SFGG / SFPC — RFE 2017",
+    version: "2017 (publiée 2019, Anesth Reanim. 2019;5:122-138)",
+    validated: "Validé par le Conseil d'administration de la SFAR le 29/06/2017",
+    methodology: "GRADE 1+/1-/2+/2- + avis d'experts (AE), avec accord Delphi/GRADE Grid fort/faible imprimé séparément",
+    pages: 17,
+    url: "https://sfar.org/wp-content/uploads/2019/10/rfe-anesthesie-du-sujet-age.pdf"
   }
 };
 

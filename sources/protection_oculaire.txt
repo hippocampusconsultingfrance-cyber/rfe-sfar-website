@@ -1,0 +1,1300 @@
+
+
+===== PAGE 1 =====
+
+Protection oculaire en anesthésie et
+réanimation§
+Hawa Keita 1, Jean-Michel Devys 2, Jacques Ripart 3, Marie Frost 4, Isabelle Cochereau 2, Frédérique Boutin 5,
+Claude Guérin 6, Dominique Fletcher 7, Vincent Compère 8, Société française d'anesthésie et de réanimation
+(Sfar), Société française d'ophtalmologie (SFO), Société de réanimation de langue française (SRLF)
+1. AP–HP, CHU Louis-Mourier, pôle TCAUR, service d'anesthésie, 178, rue des
+Renouillers, 92701 Colombes cedex, France
+2. Fondation ophtalmologique Adolphe-de-Rothschild, service d'anesthésie, 25, rue
+Manin, 75019 Paris, France
+3. Groupe hospitalier universitaire Carémeau, division anesthésie–réanimation–
+douleur–urgence, place du Pr-Debré, 30029 Nîmes, France
+4. CHU Hôpital Nord, service d'anesthésie–réanimation, boulevard de la Chantourne,
+38700 Grenoble, France
+5. CHU de Bordeaux, hôpital Pellegrin, service d'anesthésie–réanimation, place
+Amélie-Raba-Léon, 33000 Bordeaux, France
+6. Hôpital de la Croix-Rousse, service de réanimation, 103, grande rue de la Croix-
+Rousse, 69317 Lyon, France
+7. Hôpital Raymond-Poincaré, service d'anesthésie–réanimation, 104, boulevard
+Raymond-Poincaré, 92380 Garches, France
+8. CHU Charles-Nicolle, service d'anesthésie-réanimation, 1, rue de Germont, 76031
+Rouen cedex, France
+Correspondance :
+Hawa Keita, AP–HP, CHU Louis-Mourier, pôle TCAUR, service d'anesthésie, 178, rue
+des Renouillers, 92701 Colombes cedex, France.
+hawa.keita@aphp.fr
+Eye protection in anaesthesia and intensive care
+Coordonnateur d'experts Sfar
+Hawa Keita-Meyer.
+Comité d'organisation
+Dominique Fletcher, Vincent Compère.
+Sociétés associées
+Sfar
+Bassam Al Nasser (anesthésiste-réanimateur, Beauvais).
+Catherine Bigotto (infirmière anesthésiste, CHU de Bordeaux).
+Cécile Bordenave (cadre supérieur de santé, CHU de Bordeaux).
+Frédérique Boutin (anesthésiste–réanimateur, CHU de Bordeaux).
+Jean-Michel Devys (anesthésiste–réanimateur, Paris).
+Marie Frost (anesthésiste–réanimateur, Grenoble).
+Marc Gentili (anesthésiste–réanimateur, Saint-Grégoire).
+Sophie Hamada (anesthésiste–réanimateur, Paris).
+ANREA-135
+§ Texte validé par le conseil d'administration de la Société française d'anesthésie et de
+réanimation le 14/03/2016.
+Disponible sur internet le :
+Pour citer cet article : Keita H, et al. Protection oculaire en anesthésie et réanimation. Anesth Reanim. (2016), http://dx.doi.org/
+10.1016/j.anrea.2016.05.002
+tome xx > n8x > xx 2016
+http://dx.doi.org/10.1016/j.anrea.2016.05.002
+© 2016 Société française d'anesthésie et de réanimation (Sfar). Publié par Elsevier Masson SAS. Tous droits réservés.
+1
+Recommandations formalisées d'experts
+Anesth Reanim. 2016; //: ///
+en ligne sur / on line on
+www.em-consulte.com/revue/anrea
+www.sciencedirect.com
+
+
+===== PAGE 2 =====
+
+Serge Molliex (anesthésiste–réanimateur, Saint-Étienne).
+Habiba Moussa (cadre supérieur de santé, Strasbourg).
+Jacques Ripart (anesthésiste–réanimateur, Nîmes).
+SFO
+Isabelle Cochereau, Paris.
+SRLF
+Claude Guérin (réanimateur, Lyon).
+Groupes de travail
+Prévention des lésions cornéennes en anesthésie
+Bassam Al Nasser (Beauvais).
+Frédérique Boutin (Bordeaux).
+Marc Gentili (Saint-Grégoire).
+Hawa Keita-Meyer (Colombes).
+Habiba Moussa (Strasbourg).
+Prévention des lésions cornéennes en réanimation
+Catherine Bigotto (Bordeaux).
+Cécile Bordenave (Bordeaux).
+Jean-Michel Devys (Paris).
+Claude Guérin (Lyon).
+Isabelle Cochereau (Paris).
+Prévention des lésions rétiniennes par occlusion de
+l'artère centrale de la rétine (OACR) et des
+neuropathies ischémiques optiques aiguës (NOAI)
+Marie Frost (Grenoble).
+Sophie Hamada (Bicêtre).
+Jacques Ripart (Nîmes).
+Serge Molliex (Saint-Étienne).
+Groupe de lecture
+Comité des référentiels cliniques : D. Fletcher, L. Velly, J. Amour,
+S. Ausset, G. Chanques, V. Compère, F. Espitalier, M. Garnier, E.
+Gayat, P. Cuvillon, JM Malinovski, B. Rozec, B. Tavernier.
+Conseil d'administration de la Sfar : C. Ecoffey, F. Bonnet, X.
+Capdevila, H. Bouaziz, P. Albaladejo, L. Delaunay, M.-L. Cittanova
+Pansard, B. Al Nasser, C.-M. Arnaud, M. Beaussier, M.P. Chariot, J.
+M. Constantin, M. Gentili, A. Delbos, J.-M. Dumeix, J.P. Estebe, O.
+Langeron, L. Mercadal, J. Ripart, M. Samama, J.C. Sleth, B.
+Tavernier, E. Viel, P. Zetlaoui.
+Introduction
+Toute perte de conscience prolongée, liée à une sédation dans le
+contexte d'une anesthésie ou de la réanimation, peut entraîner
+des complications oculaires qui peuvent passer inaperçues
+puisque le patient ne peut pas manifester sa baisse de vision
+ou sa douleur.
+La malocclusion palpébrale entraîne des pathologies de surface
+(kératopathies, ulcères) qui sont les plus fréquentes. Le plus
+souvent mineures et rapidement régressives grâce à l'occlusion
+palpébrale réflexe ou maintenue, elles se compliquent parfois de
+surinfection ou de perforation cornéenne. Se manifestant par un
+œil rouge, elles peuvent être détectées par les équipes
+soignantes.
+Les accidents d'origine vasculaire se manifestent uniquement
+par une baisse de vision indolore. Une compression du globe
+oculaire peut entraîner une occlusion de l'artère centrale de la
+rétine dont la seule manifestation est une baisse de vision. Le
+plus souvent unilatérale, elle peut ne pas être détectée immé-
+diatement par le patient s'il est sédaté ou parce que l'autre œil
+compense quand il se réveille. Par opposition, les neuropathies
+optiques ischémiques sont fréquemment bilatérales.
+Toutes ces lésions oculaires peuvent entraîner une baisse de
+vision définitive parfois bilatérale et sévère. Chez le patient
+conscient, douleur, rougeur oculaire et baisse de vision permet-
+tent de les détecter. Chez le patient inconscient, ce sont les
+équipes soignantes qui doivent les détecter.
+Méthodologie
+La méthode de travail utilisée pour l'élaboration des recomman-
+dations est la méthode GRADE®. Cette méthode permet, après
+une analyse quantitative de la littérature de déterminer séparé-
+ment la qualité des preuves, c'est-à-dire une estimation de la
+confiance que l'on peut avoir dans l'analyse de l'effet de l'inter-
+vention quantitative et d'autre part, un niveau de recommanda-
+tion. La qualité des preuves est répartie en quatre catégories :
+ haute : les recherches futures ne changeront très probable-
+ment pas la confiance dans l'estimation de l'effet ;
+ modérée : les recherches futures changeront probablement la
+confiance dans l'estimation de l'effet et pourraient modifier
+l'estimation de l'effet lui-même ;
+ basse : les recherches futures auront très probablement un
+impact sur la confiance dans l'estimation de l'effet et modi-
+fieront probablement l'estimation de l'effet lui-même ;
+ très basse : l'estimation de l'effet est très incertaine.
+L'analyse de la qualité des preuves est réalisée pour chaque
+étude puis un niveau global de preuve est défini pour une
+question et un critère donné.
+La formulation finale des recommandations sera toujours
+binaire soit positive soit négative et soit forte soit faible :
+ forte : il faut faire ou ne pas faire (GRADE 1+ ou 1) ;
+ faible : il faut probablement faire ou ne pas faire (GRADE 2+ ou
+2).
+La force de la recommandation est déterminée en fonction de
+facteurs clés, validée par les experts après un vote, en utilisant la
+méthode Delphi et GRADE Grid :
+ estimation de l'effet ;
+ le niveau global de preuve : plus il est élevé, plus probable-
+ment la recommandation sera forte ;
+ la balance entre effets désirables et indésirables : plus celle-ci
+estfavorable,plusprobablementlarecommandationseraforte ;
+ les valeurs et les préférences : en cas d'incertitudes ou de
+grande variabilité, plus probablement la recommandation sera
+faible ; ces valeurs et préférences doivent être obtenues au
+H. Keita, J-M Devys, J. Ripart, M. Frost, I. Cochereau, F. Boutin, et al.
+tome xx > n8x > xx 2016
+Pour citer cet article : Keita H, et al. Protection oculaire en anesthésie et réanimation. Anesth Reanim. (2016), http://dx.doi.org/
+10.1016/j.anrea.2016.05.002
+2
+Recommandations formalisées d'experts
+
+
+===== PAGE 3 =====
+
+mieux directement auprès des personnes concernées (patient,
+médecin, décisionnaire) ;
+ coûts : plus les coûts ou l'utilisation des ressources sont élevés,
+plus probablement la recommandation sera faible ;
+ pour faire une recommandation, au moins 50 % des partici-
+pants ont une opinion et moins de 20 % préfère la proposition
+contraire ;
+ pour faire une recommandation forte, au moins 70 % des
+participants sont d'accord.
+Le niveau de la littérature sur la protection oculaire est globa-
+lement d'un faible niveau méthodologique. Les experts ont été
+confrontés à trois situations :
+ pour certaines questions, l'existence de plusieurs études et/ou
+de méta-analyses de qualité méthodologique correcte, la
+méthode GRADE® s'appliquait en totalité et a permis d'émet-
+tre des recommandations ;
+ si les experts ne disposaient pas d'une méta-analyse permet-
+tant de répondre à la question, une analyse qualitative en
+suivant la méthode GRADE® était possible et une revue sys-
+tématique était réalisée ;
+ enfin dans certains domaines, l'absence d'études récentes n'a
+pas permis d'émettre de recommandations.
+Après synthèse du travail des experts et application de la
+méthode GRADE, 10 recommandations ont été formalisées
+par le comité d'organisation. Parmi les recommandations,
+1 est forte (Grade 1+), 2 sont faibles (Grade 2) et, pour
+9 recommandations, la méthode GRADE® ne pouvait pas
+s'appliquer et celles-ci correspondent à un avis d'experts. Un
+avis d'expert n'était validé que dans le cas d'un accord fort avec
+plus de 70 % d'accord des experts.
+La totalité des recommandations a été soumise à un groupe de
+relecture pour une cotation type Delphi. Après un tour de cota-
+tion et divers amendements, un accord fort a été obtenu pour la
+totalité des recommandations.
+Prévention des lésions cornéennes en
+anesthésie
+R1.1 Pour prévenir les lésions cornéennes lors
+d'une anesthésie générale, une occlusion pal-
+pébrale systématique par bandes adhésives
+seules est recommandée.
+(GRADE 1+) Accord FORT
+Argumentaire : une revue de la littérature incluant 7 études
+randomisées contrôlées [1–7] et 1 série historique [8], compare
+différentes méthodes de prévention des lésions cornéennes au
+cours de l'anesthésie générale (AG) [9]. Cette revue rapporte que
+l'occlusion palpébrale avec des bandes adhésives seules est
+supérieure ou équivalente aux autres méthodes (pommades,
+lubrifiants à base de solution aqueuse type méthylcellulose ou de
+gel visqueux, lunettes de protection, insertion de lentilles de
+contact hydrophile, suture palpébrale, pansements à base
+d'hydrogel type « Geliperm » ou pansements bio-occlusifs type
+« Tegaderm ou Opsite ») [1,3,5–7], et est associée à moins
+d'effets indésirables [6,7]. Comparée à l'occlusion avec bandes
+adhésives, la simple fermeture manuelle de l'œil s'accompagne
+d'une incidence plus élevée de lésions cornéennes (10 % de
+lésions cornéennes observées sur une série de 300 « yeux »,
+dont 90 % dans le groupe fermeture manuelle vers 6,6 % dans
+le groupe occlusion avec bandes adhésives) [4].
+R1.2 En dehors d'une induction séquence rapide,
+l'occlusion palpébrale est recommandée dès la
+perte du réflexe ciliaire et avant l'intubation
+trachéale afin de réduire le risque de lésions
+traumatiques de la cornée.
+(Avis d'experts)
+Argumentaire : dans une revue de la littérature, il est suggéré
+que les lésions cornéennes peuvent survenir suite à un
+traumatisme direct de l'œil non protégé par des objets divers des
+soignants comme les montres, les badges, les stéthoscopes ou
+encore le laryngoscope lors de l'intubation [9].
+R1.3 Il est recommandé d'obtenir l'occlusion
+complète de l'œil en apposant jointivement la
+paupière supérieure et inférieure et de vérifier
+régulièrement l'efficacité de cette occlusion.
+(Avis d'experts)
+Argumentaire : dans une étude de cohorte avant/après, une
+obligation de formation sur la nécessité d'occlure correctement
+les paupières et de vérifier son efficacité a permis de diviser
+l'incidence des lésions de cornée par trois [10].
+R1.4 Pour les chirurgies à risque (chirurgie de la
+tête et du cou, procédure en position ventrale ou
+latérale), il est probablement recommandé
+d'utiliser des lubrifiants à base de solution
+aqueuse sans conservateur et en unidose, type
+méthylcellulose ou gel visqueux en association
+à l'occlusion palpébrale avec bandes adhésives.
+L'alternative est l'utilisation de pansements bio-
+occlusifs transparents sans lubrifiant.
+(Avis d'experts)
+Protection oculaire en anesthésie et réanimation
+tome xx > n8x > xx 2016
+Pour citer cet article : Keita H, et al. Protection oculaire en anesthésie et réanimation. Anesth Reanim. (2016), http://dx.doi.org/
+10.1016/j.anrea.2016.05.002
+3
+Recommandations formalisées d'experts
+
+
+===== PAGE 4 =====
+
+R1.5 Pour les chirurgies à risque, il est recom-
+mandé de ne pas utiliser les pommades grasses.
+(Avis d'experts)
+Argumentaire : les interventions en position ventrale ou latérale,
+les chirurgies céphaliques ou cervicales sont des facteurs de
+risque des lésions cornéennes. La durée d'anesthésie n'est pas un
+facteur de risque indépendant [11]. L'utilisation de
+méthylcellulose comme lubrifiant produit moins d'effets
+indésirables que les pommades à base de paraffine [2,3,6,7].
+R1.6 La mise en place au sein des structures d'un
+programme de formation et d'un protocole de
+prévention est probablement recommandée
+pour réduire l'incidence des lésions cornéennes
+sous anesthésie générale.
+(GRADE 2+) Accord FORT
+Argumentaire : la mise en place au sein des structures d'un
+programme de formation avec un protocole de prévention
+permet de réduire l'incidence des lésions cornéennes [10].
+Prévention des lésions cornéennes en
+réanimation
+R2.1 Chez les patients à risque (patients intubé–
+ventilés, sédatés ou à faible niveau de consci-
+ence), il faut probablement dépister par un test
+à la fluoroscéine les lésions cornéennes.
+(Avis d'experts)
+Argumentaire : la protection de la cornée dépend de son
+hydratation. Cette dernière est fonction de la fermeture
+palpébrale, du clignement des paupières et de la qualité du film
+aqueux présent sur la cornée. Ces 3 composantes protectrices
+sont régulièrement dégradées chez les patients de réanimation.
+Ainsi, en réanimation, des lésions cornéennes d'exposition sont
+retrouvées dans 8,6 % à 60 % en fonction des études [12–16].
+Plusieurs études de cohortes semblent indiquer que le pic
+d'incidence des lésions de cornée se situe dans la première
+semaine après l'admission en réanimation et que les patients les
+plus à risque de les développer sont les patients intubés–ventilés,
+sédatés ou à faible niveau de conscience, et ayant une
+malocclusion palpébrale [17,18].
+Toutes les études ayant pour objet l'incidence et la gravité des
+lésions de cornées en réanimation utilisent un ophtalmoscope
+produisant une lumière bleu-cobalt associée à l'application d'une
+goutte de fluoroscéine. En effet, la majorité des lésions de cornée
+sont des atteintes punctiformes, invisibles à l'œil nu. Ces lésions
+toutefois peuvent évoluer vers un ulcère de cornée, avec
+séquelles visuelles. La sensibilité du dépistage des kératopathies
+par des réanimateurs formés est décrite comme proche de celle
+obtenue par des ophtalmologistes [19].
+R2.2 Chez les patients de réanimation intubés–
+ventilés, il faut probablement utiliser du gel
+aqueux ou des chambres humides plutôt que des
+larmes artificielles.
+(GRADE 2+) Accord FORT
+Argumentaire : une méta-analyse incluant 7 études prospectives
+randomisées a cherché à évaluer l'efficacité comparée des
+chambres humides, des gels aqueux et des larmes artificielles
+chez les patients de réanimation [20]. Les études comparaient
+l'incidence des lésions cornéennes dépistées par examen
+à l'ophtalmoscope, en fonction des traitements, entre patients
+(n = 343) ou entre œil (n = 701). L'utilisation de chambre humide
+permettait une réduction de l'incidence des lésions par rapport
+à la simple lubrification de l'œil (RR : 0,27 ; 95 % IC : 0,11–0,67 ;
+p = 0,005) mais avec une hétérogénéité statistiquement
+significative (p = 0,001, I2 = 73 %). L'analyse en sous-groupe a
+montré une réduction du risque avec l'utilisation de chambre
+humide par rapport aux larmes artificielles (RR : 0,13 ; 95 % IC :
+0,05–0,35 ; p < 0,0001). En revanche, la chambre humide n'était
+pas supérieure à l'application de gel (RR : 0,81 ; 95 % : 0,51–1,29 ;
+p = 0,36). Il n'existe pas de données suffisantes évaluant l'occlusion
+palpébrale, associée ou pas à une lubrification de la cornée.
+Prévention des lésions rétiniennes par
+occlusion de l'artère centrale de la rétine
+(OACR) et des neuropathies ischémiques
+optiques aiguës (NOAI)
+R3.1 Pour prévenir la compression directe du
+globe oculaire et les OACR dans la chirurgie du
+rachis en décubitus ventral, et d'autant plus que
+la durée de la chirurgie est longue, il est pro-
+bablement recommandé d'utiliser des têtières
+adaptées garantissant l'absence de compression
+directe du globe (tête en position neutre, têtière
+à prise osseuse directe type Mayfield ou coussin
+H. Keita, J-M Devys, J. Ripart, M. Frost, I. Cochereau, F. Boutin, et al.
+tome xx > n8x > xx 2016
+Pour citer cet article : Keita H, et al. Protection oculaire en anesthésie et réanimation. Anesth Reanim. (2016), http://dx.doi.org/
+10.1016/j.anrea.2016.05.002
+4
+Recommandations formalisées d'experts
+
+
+===== PAGE 5 =====
+
+spécialement découpé permettant de contrôler
+les globes oculaires sans contact et sans mani-
+puler le patient).
+(Avis d'experts)
+R3.2 Il est probablement recommandé de
+contrôler l'absence de toute compression
+extrinsèque de la sphère oculaire au cours de
+l'intervention.
+(Avis d'experts)
+Argumentaire : les principales circonstances de compressions
+oculaires posturales sont les interventions en position ventrale ou
+latérale. Ces compressions sont le plus souvent consécutives
+à une mobilisation de la tête pendant l'intervention, plus
+rarement à une mauvaise position initiale. Il est recommandé
+d'être vigilant sur le positionnement de la tête tout au long de
+l'intervention [21,22]. Dans le registre des pertes de visions
+peropératoires, Lee et al. [21,22]. ont observé des différences
+significatives entre OACR (n = 10) et NOIA (n = 83) qui plaident en
+faveur d'une compression directe. Toutes les OACR étaient
+unilatérales, aucune n'avait eu de cadre de Mayfield et 7 cas sur
+10 (70 %) avaient les stigmates extérieurs d'un traumatisme
+externe du globe. La compression directe du globe oculaire est
+prévenue par l'utilisation de têtières adaptées ou de coques
+rigides mais en vérifiant leur fixation sur les reliefs osseux, et en
+contrôlant itérativement l'installation. En cas de déplacement, les
+coques elles-mêmes peuvent provoquer une compression directe
+du globe [22]. Les têtières « en fer à cheval » peuvent
+également contribuer en cas de déplacement à une compression
+oculaire et à une OACR [1]. Les coussins spécifiques munis d'un
+miroir restent à évaluer. L'utilisation de têtières à prise osseuse
+directe, assurant l'absence de contact oculaire, est également
+recommandée [21,23]. L'ensemble des intervenants doit s'assurer
+qu'il n'y a pas de compression mécanique.
+R3.3 Dans la chirurgie de longue durée en
+décubitus ventral, il est probablement recom-
+mandé de préférer un léger proclive à une
+position de Trendelenburg pour limiter la pres-
+sion intraoculaire.
+(Avis d'experts)
+Argumentaire : le décubitus ventral majore probablement le
+risque de compression en augmentant la pression intraoculaire.
+Cette augmentation de pression est d'autant plus marquée que le
+décubitus ventral est associé à une position de Trendelenburg
+[24–28]. Le risque est augmenté si la position est prolongée et
+accentuée. L'inclinaison proclive de 108 permet de réduire ce
+risque [26,28]. Selon les données actuelles de la littérature, il n'a
+pas été possible de mettre en évidence d'autres facteurs de
+risque de lésions rétiniennes par OACR.
+R3.4 En chirurgie du rachis hémorragique de
+longue durée, pour prévenir les NOIA, il est
+probablement recommandé de limiter l'hypo-
+tension artérielle, l'anémie sévère et l'hypovo-
+lémie, d'autant plus que le patient est à risque
+(obèse, sexe masculin, hypertendu et facteur de
+risque vasculaire).
+(Avis d'experts)
+Argumentaire : le nerf optique est plus sensible que le cerveau
+à des épisodes d'hypotension, d'anémie ou d'hypovolémie. Il est
+démontré chez l'animal dans diverses combinaisons
+expérimentales d'hypotension artérielle, d'anémie euvolémique,
+ou d'hypovolémie, que le nerf optique ne dispose pas d'une
+autorégulation qui lui permettrait d'adapter son débit sanguin
+pour maintenir le transport d'oxygène avec une efficacité proche
+de l'autorégulation du débit sanguin cérébral [29]. Sur des
+volontaires sains, 2/10 des volontaires n'avaient pas une
+autorégulation suffisante pour adapter le débit sanguin de la tête
+du nerf optique à des variations de pression de perfusion
+(variation de pression intraoculaire) [30]. La chirurgie la plus
+fréquemment pourvoyeuse de cette complication est la chirurgie
+lourde du rachis. Elle combine fréquemment des éléments
+habituellement retrouvés qui sont un contexte hémorragique, une
+hypotension artérielle prolongée, une transfusion massive, un
+remplissage cristalloïde excessif/ou un faible pourcentage de
+colloïde dans les solutés de remplissage (générateur d'œdème
+tissulaire et donc d'élévation de la pression tissulaire dans le nerf
+optique), une anémie [23,31–36]. L'ensemble contribue à une
+ischémie/hypoxie du nerf optique. Dans le registre des pertes de
+visions de l'American Society of Anesthesiology, les patients sont
+fréquemment en bonne santé (ASA 1), mais au moins un facteur
+de risque vasculaire est présent dans 82 % des cas (HTA, diabète,
+coronaropathie, maladie cérébrovasculaire, dyslipidémie et/ou
+obésité). Une atteinte microvasculaire infraclinique pourrait ainsi
+expliquer l'importante variation de susceptibilité interindividuelle,
+ce qui rend compte du caractère aléatoire et apparemment
+imprévisible de cette pathologie. Les facteurs de risques
+indépendants clairement confirmés dans le cadre de la chirurgie
+du rachis sont : le sexe masculin, l'obésité, l'utilisation d'un cadre
+Protection oculaire en anesthésie et réanimation
+tome xx > n8x > xx 2016
+Pour citer cet article : Keita H, et al. Protection oculaire en anesthésie et réanimation. Anesth Reanim. (2016), http://dx.doi.org/
+10.1016/j.anrea.2016.05.002
+5
+Recommandations formalisées d'experts
+
+
+===== PAGE 6 =====
+
+de Wilson (compression abdominale), une longue durée
+d'intervention et un faible pourcentage de colloïde dans les
+solutés de remplissage [37]. Le dépistage des patients à risque
+serait souhaitable s'il permettait de cibler précisément les individus
+à risque. Mais les facteurs de risque confirmés liés au patient sont
+limités à l'obésité et au sexe masculin. L'hypertension artérielle, le
+tabagisme, l'athérome n'ont été qu'évoqués. Ces complications
+peuvent survenir sans facteur de risque apparent pour des
+chirurgies beaucoup plus banales [38–40].
+Déclaration de liens d'intérêts : les auteurs déclarent ne pas avoir de
+liens d'intérêts.
+Références
+[1]
+Batra YK, Bali IM. Corneal abrasions during
+general anesthesia. Anesth Analg 1977;56:
+363–5.
+[2]
+Boggild-Madsen NB,
+Bundgarrd-Nielsen P,
+Hammer U, et al. Comparison of eye protec-
+tion with methylcellulose an paraffin oint-
+ments
+during
+general
+anaesthesia.
+Can
+Anaesth 1981;28:575–8.
+[3]
+Ganidagli S, Cengi M, Becerik C, Oguz H, Kilic
+A. Eye protection during general anaesthesia:
+comparison of four different methods. Eur J
+Anæsthesiol 2004;21:665–7.
+[4]
+Grover VK, Kumar KV, Sharma S, Sethi N,
+Grewal SP.
+Comparison of methods of eye
+protection under general anæsthesia. Can J
+Anæsth 1998;45:575–7.
+[5]
+Orlin SE, Kurata FK, Krupin T, Schneider M,
+Glendrange RR. Ocular lubricants and corneal
+injury
+during
+anesthesia.
+Anesth
+Analg
+1989;69:384–5.
+[6]
+Schmidt P, Boggild-Madsen NB. Protection of
+the eyes with ophthalmic ointments during
+general anæsthesia. Acta Ophthalmol 1981;59:
+422–7.
+[7]
+Siffring PA, Poulton TJ. Prevention of ophthal-
+mic complications during general anesthesia.
+Anesthesiology 1987;66:569–70.
+[8]
+Lavery HJ,
+Samadi DB,
+Gainsburg DM.
+Preventing ocular injuries during robotic
+prostatectomy: a simple technique (abstract
+of poster presentation at the 25th annual
+congress of The European Association of
+Urology
+in
+Barcelona).
+Eur
+Urol
+Suppl
+2010;9:257.
+[9]
+Grixti A, Sadri M, Watts MT. Corneal protec-
+tion during general anesthesia for nonocular
+surgery. Ocular Surf 2013;11:109–18.
+[10] Martin DP, Weingarten TN, Gunn PW, Lee K,
+Mahr MA, Schroeder DR, et al. Performance
+improvement system and postoperative cor-
+neal injuries: incidence and risk factors.
+Anesthesiology 2009;111:320–6.
+[11] Yu HD, Chou AH, Yang MW, Chang CJ. An
+analysis of perioperative eye injuries after
+nonocular surgery. Acta Anæsthesiol Taiwan
+2010;48:122–9.
+[12] Germano EM, Mello MJ, Sena DF, Correia JB,
+Amorim MM.
+Incidence and risk factors of
+corneal epithelial defects in mechanically
+ventilated children. Crit Care Med 2009;
+37:1097–100.
+[13] Hernandez EV, Mannis MJ. Superficial kerato-
+pathy in intensive care unit patients. Am J
+Ophthalmol 1997;124:212–6.
+[14] Imanaka H, Tænaka N, Nakamura J, Aoyama
+K, Hosotani H. Ocular surface disorders in the
+critically ill. Anesth Analg 1997;85:343–6.
+[15] Jammal H, Khader Y, Shihadeh W, Ababneh
+L, Aljizawi G, Al Qasem A. Exposure kerato-
+pathy in sedated and ventilated patients. J Crit
+Care 2012;27:537–41.
+[16] Mercieca F,
+Suresh P,
+Morton A,
+Tullo A.
+Ocular surface disease in intensive care unit
+patients. Eye 1999;13:231–6.
+[17] Kuruvilla S, Peter J, David S, Premkumar PS,
+Ramakrishna K, Thomas L, et al. Incidence
+and risk factor evaluation of exposure kerato-
+pathy in critically ill patients: a cohort study. J
+Crit Care 2015;30:400–4.
+[18] Werli-Alvarenga A, Ercole FF, Botoni FA, Oli-
+veira JA, ChiancaTC. Corneal injuries:incidence
+and risk factors in the intensive care unit. Rev
+Lat Am Enfermagem 2011;19:1088–95.
+[19] McHugh J, Alexander P, Kalhoro A, Ionides A.
+Screening for ocular surface disease in the
+intensive care unit. Eye 2008;22:1465–8.
+[20] Zhou Y, Liu J, Cui Y, Zhju H, Lu Z. Moisture
+chamber versus lubrication for corneal protec-
+tion in critically ill patients: a meta-analysis.
+Cornea 2014;33:1179–85.
+[21] American Society of Anaesthesiologists Task
+Force on Perioperative Visual Loss. Practice
+advisory for perioperative visual loss asso-
+ciated with spine surgery: an updated report
+by the American Society of Anesthesiologists
+Task Force on perioperative visual loss.
+Anesthesiology 2012;116:274–85.
+[22] RothS, TungA, KsiazekS. Visuallossinaprone-
+positioned spine surgery patient with the head
+on a foam headrest and goggles covering the
+eyes: an old complication with a new mechan-
+ism. Anesth Analg 2007;104:1185–7.
+[23] Lee LA,
+Roth S,
+Posner KL,
+Cheney FW,
+Caplan RA, Newman NJ, et al. The American
+Society of Anesthesiologists postoperative
+visual loss registry: analysis of 93 spine sur-
+gery cases with postoperative visual loss.
+Anesthesiology 2006;105:652–9.
+[24] Agah M, Ghasemi M, Roodneshin F, Radpay
+B,
+Moradian S.
+Prone position in percuta-
+neous nephrolithotomy and postoperative
+visual loss. Urol J 2011;8:191–6.
+[25] Awad H, Santili S, Ohr M, et al. The effects of
+steep Trendelenburg positioning on intraocu-
+lar pressure during robotic radical prostatect-
+omy. Anesth Analg 2009;109:473–8.
+[26] Carey TW, Shaw KA, Weber ML, DeVine JG.
+Effect of the degree of reverse Trendelenburg
+position on intraocular pressure during prone
+spine surgery: a randomized controlled trial.
+Spine J 2014;14:2118–26.
+[27] Hunt K,
+Bajekal R,
+Calder I,
+Meacher R,
+Eliahoo J, Acheson JF. Changes in intraocular
+pressure in anesthetized prone patients. J
+Neurosurg Anesthesiol 2004;16:287–90.
+[28] Ozcan MS, Prætel C, Bhatti MT, Gravenstein
+N, Mahla ME, Seubert CN. The effect of body
+inclination during prone positioning on intrao-
+cular pressure in awake volunteers: a com-
+parison of two operating tables. Anesth Analg
+2004;99:1152–8.
+[29] Lee LA,
+Deem S,
+Glenny RW.
+Effects of
+anemia and hypotension on porcine optic
+nerve blood
+flow and oxygen delivery.
+Anesthesiology 2008;108:864–72.
+[30] Pillunat LE, Anderson DR, Knighton RW, Joos
+KM, Feuer WJ. Autoregulation of human optic
+nerve
+head
+circulation
+in
+response
+to
+increased intraocular pressure. Exp Eye Res
+1997;64:737–44.
+[31] Baig MN, Lubow M, Iimmosoete P, Bergese
+SD, Hamdy EA, Mendel E. Vision loss after
+spine surgery: review of the literature and
+recommendations. Neurosurg Focus 2007;
+23:15.
+[32] Farag E, Abd-Elsayed AA, Dalton JE, Nada
+E,
+Parker BM.
+Postoperative vision loss
+after
+spine
+surgery:
+a
+single-institution
+case–control comparison. Ochsner J 2014;
+14:179–83.
+[33] Kara-Junior N, Espindola RF, Valverde Filho J,
+Rosa CP, Ottoboni A, Silva ED. Ocular risk
+management in patients undergoing general
+anesthesia: an analysis of 39,431 surgeries.
+Clinics 2015;70:541–53.
+[34] Myers MA, Hamilton SR, Bogosian AJ, Smith
+CH, Wagner TA. Visual loss as a complication
+H. Keita, J-M Devys, J. Ripart, M. Frost, I. Cochereau, F. Boutin, et al.
+tome xx > n8x > xx 2016
+Pour citer cet article : Keita H, et al. Protection oculaire en anesthésie et réanimation. Anesth Reanim. (2016), http://dx.doi.org/
+10.1016/j.anrea.2016.05.002
+6
+Recommandations formalisées d'experts
+
+
+===== PAGE 7 =====
+
+of spine surgery. A review of 37 cases. Spine
+1997;22:1325–9.
+[35] Patil CG, Lad EM, Lad SP, Ho C, Boakye M.
+Visual loss after spine surgery: a population-
+based study. Spine (Phila) 2008;33:1491–6.
+[36] Van Dellen JR, Venkata HK. Perspective on
+postoperative visual loss following lumbar
+spine surgery: a review of risk factors by diag-
+nosis. World Neurosurg 2015;84:2010–21.
+[37] The Postoperative Visual Loss Study Group.
+Risk factors associated with ischemic optic
+neuropathy
+after
+spinal
+fusion
+surgery.
+Anesthesiology 2012;116:15–24.
+[38] Geis AB, Höfert A, Silvanus MT, Bornfeld N,
+Peters J. Bilateral blindness due to ischemic
+optic nerve neuropathy after abdominal sur-
+gery. Case Rep 2015;5:57–60.
+[39] Janarek G,
+Colechá JR.
+Visual loss after
+hip and shoulder arthroplasty, two case
+reports. Rev Esp Anestesiol Reanim 2015;
+62:285–8.
+[40] Weber ED, Colyer MH, Lesser RL, Subrama-
+nian PS. Posterior ischemic optic neuropathy
+after minimally invasive prostatectomy. J
+Neuroophthalmol 2007;27:285–7.
+ANNEXE 1
+Tableau synthèse – Prévention des lésions cornéennes en anesthésie
+Critère principal = diagnostic des lésions cornéennes par test à la fluorescéine
+Critères secondaires = hyperhémie conjonctivale, douleur, photophobie
+Études
+(références)
+Type d'étude
+Thème
+Objectif principal/
+Hypothèse
+Études
+(n)
+Patients (n)
+Niveau de
+preuve
+Justification du
+réajustement du
+ndp.
+Incidence de l'événement et résultat de
+la comparaison
+n (%) vs n (%), p =
+Batra
+et al. [1]
+Randomisée
+contrôlée
+Lésion cornéenne
+identifiée par test
+à la fluorescéine
+Évaluer l'incidence
+des lésions
+cornéennes sous
+AG/Réduction de
+l'incidence par la
+protection oculaire
+avec bandes
+adhésives ou gaze
+de vaseline ?
+1
+-100 patients sans
+occlusion
+-100 patients avec
+protection oculaire dont
+75 avec occlusion par
+bandes adhésives et
+25 avec gaze de
+vaseline
+II
+Pas de calcul
+d'effectif
+Lésion cornéenne identifiée par la
+fluorescéine chez 44 % des patients sans
+protection oculaire contre 0 % en cas de
+protection oculaire (occlusion avec
+bandes adhésives ou gaze de vaseline).
+Pas de calcul de p.
+Grover
+et al. [4]
+Randomisée
+contrôlée
+Lésion cornéenne
+Identifiée par test
+à la fluorescéine
+Comparer l'efficacité
+des bandes
+adhésives et des
+pommades pour la
+protection oculaire
+sous AG
+1
+150 patients (soit
+300 yeux) répartis en
+3 groupes de
+50 chacun : groupe T
+(témoin = pas de
+protection) ; groupe
+(B = bandes adhésives ;
+groupe P = pommade)
+II
+Pas de calcul
+d'effectif
+L'incidence globale de la lésion
+cornéenne a été de 10 % (30/300 yeux).
+Cette complication est survenue dans
+90 % des cas dans le groupe T, 6,6 %
+dans le groupe B et 3,3 % dans le
+groupe P. Pas de calcul de p.
+La position du patient modifie également
+l'incidence. En décubitus dorsal
+l'incidence de la lésion cornéenne est de
+9,7 % vs 19,2 % en décubitus latéral
+droit et 3,8 % en décubitus latéral
+gauche. L'œil atteint était à chaque fois
+l'œil déclive en position latérale. Pas de
+calcul de p.
+Ganidagli
+et al. [3]
+Randomisée
+contrôlée
+simple aveugle
+Lésion cornéenne
+identifiée par test
+à la fluorescéine
+Hyperémie
+conjonctivale
+Comparer l'efficacité
+de 4 moyens de
+protection oculaire
+sous AG pour
+prévenir la lésion
+cornéenne
+1
+200 patients répartis en
+4 groupes de
+50 patients : groupe 1
+(bandes adhésives
+hypoallergénique) ;
+groupe 2 (pommade
+à base de paraffine) ;
+groupe 3 (gel
+visqueux) ; groupe 4
+(larmes artificielles avec
+méthylcellulose)
+II
+Pas de calcul
+d'effectif
+L'incidence globale de la lésion
+cornéenne à H12 a été de 9 % (18/200)
+sans différence significative entre les
+4 groupes :
+- Groupe 1 = 10 %
+- Groupe 2 = 8 %
+- Groupe 3 = 12 %
+- Groupe 4 = 6 %
+Pas de différence pour la taille de la
+lésion et l'intensité de la coloration à la
+fluoroscéine entre les 4 groupes.
+Le nombre de patients avec une
+hyperémie conjonctivale à H12 (16 %) et
+à h24 (12 %) était significativement plus
+important dans le groupe 3 par rapport
+aux autres groupes (p < 0,05).
+Plus de patients avaient une vision
+trouble en SSPI dans le groupe 4 (42 %)
+par rapport aux autres groupes (p < 0,05).
+Une photophobie était significativement
+plus fréquente dans le groupe 2 (26 %)
+par rapport aux autres groupes (p < 0,01).
+Protection oculaire en anesthésie et réanimation
+tome xx > n8x > xx 2016
+Pour citer cet article : Keita H, et al. Protection oculaire en anesthésie et réanimation. Anesth Reanim. (2016), http://dx.doi.org/
+10.1016/j.anrea.2016.05.002
+7
+Recommandations formalisées d'experts
+
+
+===== PAGE 8 =====
+
+Annexe 1 (Suite).
+Études
+(références)
+Type d'étude
+Thème
+Objectif principal/
+Hypothèse
+Études
+(n)
+Patients (n)
+Niveau de
+preuve
+Justification du
+réajustement du
+ndp.
+Incidence de l'événement et résultat de
+la comparaison
+n (%) vs n (%), p =
+Schmidt
+et al. [6]
+Randomisée
+Contrôlée
+Double
+aveugle
+Lésion cornéenne
+identifiée par test
+à la fluorescéine/
+rose bengal
+Atteintes
+conjonctivales
+Comparer l'efficacité
+d'un lubrifiant
+à base de
+méthylcellulose
+4 % à une
+pommade à base
+de paraffine pour la
+protection oculaire
+sous AG pour des
+chirurgies < 90 min
+1
+47 patients randomisés
+pour recevoir dans un
+œil un lubrifiant à base
+de méthylcellulose 4 %
+(groupe A) et de la
+pommade à base de
+paraffine dans l'autre
+œil (groupe B).
+III
+Pas de calcul
+d'effectif
+Pas d'analyse
+statistique
+L'incidence de la lésion cornéenne a été
+2,1 % (n = 1) pour l'ensemble de la
+population (n = 47), avec un seul cas
+dans le groupe B.
+Globalement, 66 % (n = 31) des patients
+ont eu des plaintes subjectives. La plainte
+la plus fréquente étant une sensation de
+paupières collées l'une contre l'autre
+(42,5 %, n = 20). Cette plainte était
+présente dans 75 % des cas chez des
+patients du groupe A.
+Des signes conjonctivaux objectifs
+(rougeur, œdème. . . ) étaient
+globalement présents dans 55,3 % des
+cas (26/47). Le signe le plus fréquent
+était le conjonctival « staining », soit
+69 % (n = 18). Il est survenu dans 55,5 %
+des cas dans le groupe B versus 28 %
+dans le groupe A.
+Orlin SE
+et al. [5]
+observationnelle
+Lésion cornéenne
+identifiée par test
+à la fluorescéine/
+rose bengal
+Comparaison
+efficacité fermeture
+bande adhésive
+seule versus bande
+adhésive plus
+vaseline
+1
+76 patients (152 yeux)
+chaque patient est son
+propre témoin
+III
+Pas de calcul
+d'effectif
+Pas d'analyse
+statistique
+1 patient avec une lésion conjonctivale
+mineure dans l'œil ne recevant pas de
+vaseline
+pas d'autre lésion observée
+Boggild-
+Madsen
+et al. [2]
+Cohorte chaque
+patient est
+son témoin
+Atteinte
+conjonctivale
+(hyperhémie,
+œdème)
+Vision trouble
+Comparer
+pommade à base
+de méthylcellulose
+(M) et de paraffine
+(P) pour la
+protection oculaire
+sous AG lorsque de
+l'halothane est
+utilisée ou pas pour
+des durées 
+90 min
+1
+120 patients :
+- 108 patients reçoivent
+la pommade à base de
+M dans un œil et celle
+à base de P dans
+l'autre
+- 5 patients reçoivent la
+pommade à base de M
+dans les 2 yeux
+- 7 patients reçoivent la
+pommade à base de P
+dans les 2 yeux
+III
+Pas de calcul
+d'effectif
+Pas d'analyse
+statistique
+Lors d'une AG avec halothane, l'utilisation
+de pommade à base de M montre par
+rapport au recours à la P :
+- une incidence inférieure d'œdème
+conjonctival (5,5 % vs 52 %,
+respectivement pour M et P)
+- une incidence moindre d'hyperhémie
+conjonctivale (3,7 % vs 22 %,
+respectivement pour M et P)
+- et moins de vision trouble en
+postopératoire (1,8 % vs 11 %,
+respectivement pour M et P).
+Pas de calcul de p.
+Siffring
+et al. [7]
+Randomisée
+Lésion cornéenne
+Identifiée par test
+à la fluorescéine et
+lampe UV
+Vision trouble
+Comparer l'efficacité
+de 4 moyens de
+protection oculaire
+sous AG pour
+prévenir la lésion
+cornéenne lors de
+chirurgies de 30 à
+180 min
+1
+127 patients répartis en
+4 groupes : groupe A
+(larmes artificielles
++ bandes adhésives) ;
+groupe B (pommade
+lubrifiante + bandes
+adhésives) ; groupe C
+(pommade de
+méthylcellulose
++ bandes adhésives) ;
+groupe D (bandes
+adhésives seules)
+II
+Pas de calcul
+d'effectif
+Absence de lésion cornéenne dans les
+4 groupes.
+Vision trouble présente chez
+respectivement 75 %, 55 % des patients
+du groupe A et B contre 1 patient dans le
+groupe C et 0 dans le groupe D.
+Pas de calcul de p.
+Lavery
+et al. [8]
+Étude
+prospective
+comparative
+sur 2 périodes
+Lésion cornéenne
+Identifiée par test
+à la fluorescéine
+Évaluer l'efficacité
+d'une occlusion par
+pansement bio-
+occlusif transparent
+pour réduire
+l'incidence des
+lésions cornéennes
+sous AG
+1
+2 périodes :
+- Période 1,
+n = 214 patients avec
+protection oculaire par
+larmes artificielles
++ bandes adhésives
+Période 2,
+n = 814 patients avec
+protection oculaire par
+pansement bio-occlusif
+transparent
+III
+Pas de calcul
+d'effectif
+Incidence de la lésion cornéenne
+significativement plus faible en période
+2 avec pansement bio-occlusif
+transparent : 0 (0 %) vs 5 (2,3 %),
+respectivement pour la période 2 et 1,
+p < 0,001.
+Durée moyenne de chirurgie de 117 min
+vs 116 min (p = NS) respectivement pour
+la période 1 et 2.
+Yu et al.
+[11]
+Étude
+rétrospective
+2006–2008
+Complications
+oculaires
+Analyser
+rétrospectivement
+les complications
+1
+Recueil rétrospectif
+à partir d'une base de
+données sur les
+IV
+Complication oculaire chez 17 patients
+soit 0,023 % dont 10 lésions cornéennes.
+FDR des complications oculaires : patients
+H. Keita, J-M Devys, J. Ripart, M. Frost, I. Cochereau, F. Boutin, et al.
+tome xx > n8x > xx 2016
+Pour citer cet article : Keita H, et al. Protection oculaire en anesthésie et réanimation. Anesth Reanim. (2016), http://dx.doi.org/
+10.1016/j.anrea.2016.05.002
+8
+Recommandations formalisées d'experts
+
+
+===== PAGE 9 =====
+
+Annexe 1 (Suite).
+Études
+(références)
+Type d'étude
+Thème
+Objectif principal/
+Hypothèse
+Études
+(n)
+Patients (n)
+Niveau de
+preuve
+Justification du
+réajustement du
+ndp.
+Incidence de l'événement et résultat de
+la comparaison
+n (%) vs n (%), p =
+oculaires survenues
+dans une cohorte
+de patients opérés
+sous AG, ainsi que
+les facteurs de
+risque (FDR)
+complications de
+l'anesthésie entre
+2006 et 2008.
+75 120 cas inclus.
+opérés en position ventrale (OR = 10,8 ;
+95 % d'intervalle de confiance (IC) 2,4–
+48,8) ; ou latérale (OR = 7,1 ; IC 95 %
+1,2–43,2) ; ou ayant subi une chirurgie
+céphalique ou cervicale (OR = 9,3 ; IC
+95 % 2,3–38,0), avec hypotension
+peropératoire (OR = 8,7 ; IC 95 % 2,4–
+31,8), ou une anémie préopératoire
+(OR = 5,3 ; IC 95 % 1,8–15,4). La durée
+d'anesthésie n'est pas un facteur de
+risque indépendant (OR par heure = 0,9 ;
+IC 95 % 0,8–1,7).
+Martin
+et al. [10]
+Étude
+prospective
+comparative
+sur 2 périodes
+Lésion cornéenne
+identifiée par test
+à la fluorescéine/
+rose bengal
+Évaluer l'incidence
+des lésions
+cornéennes sous
+AG/Identifier les
+facteurs de risque
+(FDR)
+1
+2 périodes :
+- Période 1 (6 mois),
+identification de la
+survenue de toutes
+lésions cornéennes et
+notification par e-mail
+aux anesthésistes
+impliqués dans la prise
+en charge du patient.
+- Période 2 (10 mois),
+programme de
+sensibilisation et de
+formation des équipes
+d'anesthésie sur les
+facteurs pouvant
+contribuer aux lésions
+cornéennes et sur les
+moyens de prévention.
+En plus, étude cas-
+contrôle pour identifier
+les FDR de lésions
+cornéennes : 117 cas vs
+234 contrôles.
+III
+Incidence des lésions cornéennes
+significativement plus faible après mise
+en place du programme éducatif : 1,51/
+1000 vs 0,79/1000 (p = 0,008).
+FDR indépendants identifiés : durées
+d'anesthésie plus longues (OR = 1,2 ;
+IC95 % 1,1–1,3 par 30 min) ; Classes ASA
+plus élevés (OR 0,5 ; IC95 % 0,3–0,3 pour
+ASA 3–4 vs 1–2) ; Prise en charge par une
+élève IADE (OR 2,6 ; IC95 % 1,3–5,0)
+ANNEXE 2
+Tableau synthèse – Prévention des lésions cornéennes en réanimation
+Évaluation de la qualité
+Patients (n)
+Effet
+Qualité
+Études (n)
+Type étude
+Plan
+d'expérience
+Hétérogénéité
+Données
+indirectes
+Imprécision
+Biais de
+publication
+Intervention
+Contrôle
+RR
+(95 % CI)
+WMD
+Lésions cornéennes sous anesthésie générale : prévention par occlusion palpébrale par bandes adhésives seules
+Batra
+et al. [1]
+Grover
+et al. [4]
+Randomisées
+contrôlées
+Risque de
+biais
+important
+Forte
+Non
+Forte
+Non
+125
+150
+Réduction
+de 50 %
+réduction
+–
+Faible
+Lésions cornéennes sous anesthésie générale : prévention par un programme de formation et un protocole
+Martin
+et al. [10]
+Prospective
+comparative
+sur
+2 périodes
+Risque de
+biais
+important
+Forte
+Non
+Forte
+Non
+113162
+84 796
+Réduction
+de 53 %
+–
+Très faible
+Lésions cornéennes en réanimation : prévention chez les patients à risque chambre humide versus lubrification ou gouttes
+7
+Méta-analyse
+Zhou et al. [20]
+Forte
+Non
+Non
+Non
+351
+347
+RR = 0,27
+–
+Modéré
+Protection oculaire en anesthésie et réanimation
+tome xx > n8x > xx 2016
+Pour citer cet article : Keita H, et al. Protection oculaire en anesthésie et réanimation. Anesth Reanim. (2016), http://dx.doi.org/
+10.1016/j.anrea.2016.05.002
+9
+Recommandations formalisées d'experts

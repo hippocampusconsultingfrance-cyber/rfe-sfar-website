@@ -1,0 +1,379 @@
+{
+ "doc": "protection_oculaire",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie & légende",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prévention des complications oculaires liées à une perte de conscience prolongée (anesthésie ou réanimation) — toujours susceptibles de passer inaperçues puisque le patient ne peut pas manifester sa baisse de vision ou sa douleur. <b>Lésions de surface</b> (kératopathies, ulcères, liées à la malocclusion palpébrale) : les plus fréquentes, le plus souvent mineures et régressives, détectables par un œil rouge. <b>Accidents vasculaires</b> (occlusion de l'artère centrale de la rétine [OACR] par compression du globe, neuropathies optiques ischémiques aiguës [NOIA]) : se manifestent uniquement par une baisse de vision indolore, potentiellement définitive et bilatérale — l'OACR est le plus souvent unilatérale, les NOIA fréquemment bilatérales. RFE commune SFAR, Société française d'ophtalmologie (SFO), SRLF, <b>12 recommandations</b> sur 3 chapitres.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie GRADE® :</b> force 1+/2+ (« il faut/probablement faire ») ou <b>avis d'experts</b> quand aucune méta-analyse ne permettait d'appliquer GRADE en totalité (revue systématique puis vote, validé si ≥ 70 % d'accord). L'« Accord FORT » du vote de relecture Delphi n'est imprimé explicitement, individuellement, qu'à côté des 3 recommandations gradées GRADE (R1.1, R1.6, R2.2) — jamais réimprimé à côté des 9 avis d'experts individuels. Le paragraphe de synthèse méthodologique affirme néanmoins qu'« un accord fort a été obtenu pour la totalité des recommandations » après le tour de cotation — lu ici comme s'appliquant aux 12 recommandations, sans réinventer un tag individuel pour les 9 restantes.<br/><br/><b>Disclosure — incohérence interne au document source</b> (vérifiée par recomptage exhaustif, non devinée) : le paragraphe de méthodologie affirme un total de <b>« 10 recommandations »</b>, mais sa propre répartition annoncée dans la même phrase (1 forte + 2 faibles + 9 avis d'experts) totalise <b>12</b> — et un recomptage programmatique du corps du texte confirme exactement <b>12 recommandations numérotées</b> (R1.1 à R3.4 : 1× GRADE 1+, 2× GRADE 2+, 9× avis d'experts). Les deux chiffres imprimés par la source (« 10 » d'ouverture vs « 12 » par addition et par comptage du corps du texte) sont disclosés tels quels ; aucun n'est deviné « juste ».",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapitres 1-2 — Lésions cornéennes",
+   "items": [
+    {
+     "t": "section",
+     "text": "Chapitre 1 — Prévention des lésions cornéennes en anesthésie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour prévenir les lésions cornéennes lors d'une anesthésie générale, une <b>occlusion palpébrale systématique par bandes adhésives seules</b> est recommandée — supérieure ou équivalente aux autres méthodes (pommades, lubrifiants aqueux type méthylcellulose ou gel visqueux, lunettes de protection, lentilles hydrophiles, suture palpébrale, pansements hydrogel ou bio-occlusifs), avec moins d'effets indésirables. La simple fermeture manuelle de l'œil s'accompagne d'une incidence plus élevée de lésions cornéennes (10 % sur 300 « yeux », dont 90 % dans le groupe fermeture manuelle contre 6,6 % dans le groupe bandes adhésives).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors d'une induction en séquence rapide, l'occlusion palpébrale est recommandée dès la perte du réflexe ciliaire et avant l'intubation trachéale, afin de réduire le risque de lésions traumatiques de la cornée par un traumatisme direct (montres, badges, stéthoscopes, laryngoscope).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'obtenir l'occlusion complète de l'œil en apposant jointivement la paupière supérieure et inférieure et de vérifier régulièrement l'efficacité de cette occlusion — une formation obligatoire sur ce point a permis de diviser par 3 l'incidence des lésions de cornée dans une étude de cohorte avant/après.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les chirurgies à risque (tête et cou, procédure en position ventrale ou latérale), il est probablement recommandé d'utiliser des lubrifiants aqueux sans conservateur et en unidose (méthylcellulose ou gel visqueux) en association à l'occlusion par bandes adhésives — alternative : pansements bio-occlusifs transparents sans lubrifiant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les chirurgies à risque, il est recommandé de <b>ne pas utiliser les pommades grasses</b> — la méthylcellulose produit moins d'effets indésirables que les pommades à base de paraffine. Les positions ventrale/latérale et les chirurgies céphaliques/cervicales sont des facteurs de risque ; la durée d'anesthésie n'en est pas un, indépendamment.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La mise en place, au sein des structures, d'un programme de formation et d'un protocole de prévention est probablement recommandée pour réduire l'incidence des lésions cornéennes sous anesthésie générale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Chapitre 2 — Prévention des lésions cornéennes en réanimation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients à risque (intubés-ventilés, sédatés ou à faible niveau de conscience), il faut probablement dépister les lésions cornéennes par un <b>test à la fluorescéine</b> (ophtalmoscope à lumière bleu-cobalt) — la majorité des lésions sont punctiformes, invisibles à l'œil nu, mais peuvent évoluer vers un ulcère de cornée avec séquelles visuelles. Incidence en réanimation : 8,6 % à 60 % selon les études, pic dans la première semaine d'admission. La sensibilité du dépistage par des réanimateurs formés est proche de celle des ophtalmologistes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients de réanimation intubés-ventilés, il faut probablement utiliser du <b>gel aqueux ou des chambres humides</b> plutôt que des larmes artificielles — une méta-analyse de 7 études prospectives randomisées (n = 343 à 701 selon l'unité d'analyse) montre une réduction du risque de lésions avec la chambre humide par rapport aux larmes artificielles (RR 0,13 ; IC95 % 0,05-0,35), mais la chambre humide n'est pas supérieure au gel (RR 0,81 ; IC95 % 0,51-1,29). Données insuffisantes sur l'occlusion palpébrale, associée ou non à une lubrification.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapitre 3 — Lésions rétiniennes & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Chapitre 3 — Prévention des lésions rétiniennes (OACR & NOIA)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour prévenir la compression directe du globe oculaire et les OACR en chirurgie du rachis en décubitus ventral (d'autant plus que la durée est longue), il est probablement recommandé d'utiliser des <b>têtières adaptées</b> garantissant l'absence de compression directe du globe (tête en position neutre, têtière à prise osseuse directe type Mayfield, ou coussin spécialement découpé permettant de contrôler les globes sans contact ni manipulation du patient).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de <b>contrôler l'absence de toute compression extrinsèque</b> de la sphère oculaire tout au long de l'intervention. Dans le registre ASA des pertes de vision peropératoires, toutes les OACR (n = 10) étaient unilatérales, aucune n'avait eu de cadre de Mayfield et 70 % présentaient les stigmates d'un traumatisme externe du globe — les têtières « en fer à cheval » peuvent, en cas de déplacement, contribuer à une compression oculaire et une OACR.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans la chirurgie de longue durée en décubitus ventral, il est probablement recommandé de préférer un léger proclive à une position de Trendelenburg, pour limiter la pression intraoculaire — le décubitus ventral majore le risque de compression en augmentant la PIO, d'autant plus marqué si associé à un Trendelenburg ; une inclinaison proclive de 10° réduit ce risque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En chirurgie du rachis hémorragique de longue durée, pour prévenir les NOIA, il est probablement recommandé de <b>limiter l'hypotension artérielle, l'anémie sévère et l'hypovolémie</b>, d'autant plus que le patient est à risque (obésité, sexe masculin, HTA, facteur de risque vasculaire) — le nerf optique ne dispose pas d'une autorégulation aussi efficace que le cerveau ; dans le registre ASA, au moins un facteur de risque vasculaire était présent dans 82 % des cas malgré des patients souvent ASA 1. Facteurs de risque indépendants confirmés en chirurgie du rachis : sexe masculin, obésité, cadre de Wilson (compression abdominale), durée d'intervention longue, faible pourcentage de colloïde dans le remplissage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Protection oculaire en anesthésie et réanimation » — RFE commune Société française d'anesthésie et de réanimation (SFAR), Société française d'ophtalmologie (SFO), Société de réanimation de langue française (SRLF). Coordonnatrice d'experts : Hawa Keita-Meyer. H. Keita, J-M Devys, J. Ripart, M. Frost, I. Cochereau, F. Boutin, C. Guérin, D. Fletcher, V. Compère. Anesth Reanim. 2016 (ANREA-135), doi 10.1016/j.anrea.2016.05.002. Texte validé par le Conseil d'administration de la SFAR le 14/03/2016.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE® (1+/2+ ou avis d'experts) ; « Accord FORT » du vote Delphi imprimé individuellement pour les 3 items gradés GRADE, affirmé globalement pour l'ensemble des 12 recommandations par le paragraphe de synthèse — voir disclosure méthodologique en page 1 sur l'incohérence \"10\" vs \"12\" recommandations.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des 12 recommandations (R1.1-R3.4) réparties sur les 3 chapitres (prévention des lésions cornéennes en anesthésie, en réanimation, prévention des lésions rétiniennes par OACR/NOIA), avec leurs argumentaires. Comité d'organisation, groupe de lecture, les 40 références bibliographiques et les Annexes 1-2 (tableaux de synthèse des preuves GRADE étude par étude — plan d'expérience, hétérogénéité, biais, RR/WMD) ne sont pas retranscrits : purement méthodologiques/bibliographiques, sans recommandation clinique propre au-delà de ce que chaque argumentaire résume déjà.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2016 :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des 12 recommandations du texte source, mais ne remplace pas le texte intégral (argumentaire complet, 40 références bibliographiques, Annexes 1-2) et n'est ni éditée ni validée par la SFAR, la SFO ou la SRLF. En cas de doute, se référer au texte intégral et/ou à un avis ophtalmologique spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

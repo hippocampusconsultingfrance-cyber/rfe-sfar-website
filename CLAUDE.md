@@ -16,7 +16,7 @@ reading full guideline PDFs (often 50-150+ pages).
   so any viewer can submit an error report).
 - Delivered PDFs also live in `/Users/macbook/Downloads/claude/RFE_SFAR_2026/`
   on the user's machine (this repo's `output/` folder is the git-tracked copy).
-- **63 of 160 SFAR library items are git-tracked (this repo's `site/app.js`
+- **64 of 160 SFAR library items are git-tracked (this repo's `site/app.js`
   `FICHE_HREF_MATCH`) as of 2026-09-12.** Track progress via that object's keys vs.
   `build/library_final.json` (the full 160-item index). Fiche 61
   (`urgences_transfusionnelles_obstetricales` — EFS table ronde 2000-2001, "Le
@@ -28,17 +28,25 @@ reading full guideline PDFs (often 50-150+ pages).
   recommandations, 6-page PDF; two disclosed corrections in the build script —
   a PDF font-extraction artifact turning "−" into "S" in 3 grade tags, and a
   genuine source-internal inconsistency on R3.3/R3.4's sign — both verified by
-  200dpi visual render before building, not guessed), and fiche 63
+  200dpi visual render before building, not guessed), fiche 63
   (`bris_dentaires` — "Bris dentaires périanesthésiques : texte court",
   SFAR/Adarpef/SFSCMF RFE 2012, 31 propositions + 5 pediatric addenda, 5-page
   PDF; no GRADE system at all — a single global "accord fort" statement covers
   all 31 propositions, so every row is chipped uniformly "Fort" rather than
-  inventing a fort/faible split the source itself never states) all have their
+  inventing a fort/faible split the source itself never states), and fiche 64
+  (`protection_oculaire` — "Protection oculaire en anesthésie et réanimation",
+  SFAR/SFO/SRLF RFE 2016, 12 recommandations R1.1-R3.4, 3-page PDF; GRADE
+  1+/2+ + avis d'experts; two disclosed source-internal points — the source's
+  own headline says "10 recommandations" but a direct recount of the numbered
+  items gives 12 (both figures stated, neither declared "correct"), and only
+  3 of the 12 items print an individual "Accord FORT" — the other 9 are
+  covered only by one blanket accord-fort statement, so the fiche shows the
+  individual tag only where the source itself prints one) all have their
   full 4-file site integration done and are **published**. `site/rfe_garde.html`
-  (assembled) now contains **72** `id="content-*"` fiche markers (63
+  (assembled) now contains **73** `id="content-*"` fiche markers (64
   git-native + 9 recovered from the live Artifact, see KNOWN DRIFT below) + 1
-  library marker = 73 total. Published to the live Artifact URL below on
-  2026-09-12 (fiche 63, Version 15) — git and the live site are reconciled,
+  library marker = 74 total. Published to the live Artifact URL below on
+  2026-09-12 (fiche 64, Version 16) — git and the live site are reconciled,
   no known drift.
 - **✅ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11,
   RESOLVED 2026-09-11). Temps 1 (recovery) and Temps 2 (publish) both DONE.**

@@ -76,7 +76,8 @@ var RAW = {
   tih_2002: JSON.parse(document.getElementById('content-tih_2002').textContent),
   traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent),
   sujet_age_esf: JSON.parse(document.getElementById('content-sujet_age_esf').textContent),
-  bris_dentaires: JSON.parse(document.getElementById('content-bris_dentaires').textContent)
+  bris_dentaires: JSON.parse(document.getElementById('content-bris_dentaires').textContent),
+  protection_oculaire: JSON.parse(document.getElementById('content-protection_oculaire').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -154,7 +155,8 @@ var FICHE_HREF_MATCH = {
   tih_2002: ['/thrombopenie-induite-par-lheparine/', '2_AFAR_Thrombopenie-induite-par-lheparine'],
   traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce'],
   sujet_age_esf: ['anesthesie-du-sujet-age-lexemple-de-fracture-de-lextremite-superieure-du-femur', 'rfe-anesthesie-du-sujet-age'],
-  bris_dentaires: ['bris-dentaires-perianesthesiques', 'Bris-dentaires-perianesthesiques']
+  bris_dentaires: ['bris-dentaires-perianesthesiques', 'Bris-dentaires-perianesthesiques'],
+  protection_oculaire: ['protection-oculaire-en-anesthesie-et-reanimation', 'Protection-oculaire-en-Anesthesie-et-Reanimation']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1031,6 +1033,18 @@ var DOC_META = {
     methodology: "Pas de GRADE — accord fort global (vote du groupe de travail), sans distinction individuelle entre propositions",
     pages: 4,
     url: "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_COURT_Bris-dentaires-perianesthesiques-copie.pdf"
+  },
+  protection_oculaire: {
+    key: 'protection_oculaire',
+    badge: 'GRADE 1/2 + AE',
+    title: "Protection oculaire en anesthésie et réanimation",
+    short: "Prévention des complications oculaires liées à une perte de conscience prolongée : lésions cornéennes en anesthésie (occlusion palpébrale par bandes adhésives, lubrifiants pour les chirurgies à risque, formation des équipes) et en réanimation (dépistage à la fluorescéine, gel aqueux/chambres humides), et prévention des lésions rétiniennes par occlusion de l'artère centrale de la rétine et neuropathies optiques ischémiques aiguës (têtières adaptées, contrôle de la compression oculaire, position, hémodynamique en chirurgie du rachis). 12 recommandations, 3 chapitres.",
+    society: "SFAR / SFO / SRLF — RFE 2016",
+    version: "2016 (Anesth Reanim. 2016, ANREA-135)",
+    validated: "Validé par le Conseil d'administration de la SFAR le 14/03/2016",
+    methodology: "GRADE 1+/2+ + avis d'experts — disclosure d'une incohérence source-interne sur le décompte total des recommandations (« 10 » annoncé vs 12 recomptées)",
+    pages: 9,
+    url: "https://sfar.org/wp-content/uploads/2016/03/Protection-oculaire-en-Anesthesie-et-Reanimation-1.pdf"
   }
 };
 

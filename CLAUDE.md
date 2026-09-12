@@ -8,12 +8,88 @@ clinicians can rely on short, sourced, visually-clear summary sheets instead of
 reading full guideline PDFs (often 50-150+ pages).
 
 - Published website (single-page app, published via the Artifact tool):
-  `https://claude.ai/code/artifact/69853cb5-182e-461b-8642-ff69c37ddd16`
+  `https://claude.ai/code/artifact/63029698-e65d-4ebf-ab9a-9b93d29f2b26`
+  (republished 2026-09-08 — the previous URL, 69853cb5-182e-461b-8642-ff69c37ddd16,
+  stopped resolving; this one also declares the `db` capability the site's
+  report/admin-decision feature needs — see `rules` in the publish call: only
+  `admin_check` and `decisions` writes are admin-gated, `reports` stays default
+  so any viewer can submit an error report).
 - Delivered PDFs also live in `/Users/macbook/Downloads/claude/RFE_SFAR_2026/`
   on the user's machine (this repo's `output/` folder is the git-tracked copy).
-- **42 of 160 SFAR library items are built as of 2026-09-05.** Track progress via
-  `site/app.js`'s `FICHE_HREF_MATCH` object keys (one entry per built fiche) vs.
-  `build/library_final.json` (the full 160-item index).
+- **63 of 160 SFAR library items are git-tracked (this repo's `site/app.js`
+  `FICHE_HREF_MATCH`) as of 2026-09-12.** Track progress via that object's keys vs.
+  `build/library_final.json` (the full 160-item index). Fiche 61
+  (`urgences_transfusionnelles_obstetricales` — EFS table ronde 2000-2001, "Le
+  traitement des urgences transfusionnelles obstétricales"; library index
+  itself mislabels this item "Hémorragies du post-partum immédiat" / "2014",
+  a divergence disclosed inside the fiche, not resolved), fiche 62
+  (`sujet_age_esf` — "Anesthésie du sujet âgé : l'exemple de fracture de
+  l'extrémité supérieure du fémur", SFAR/SOFCOT/SFGG/SFPC RFE 2017, 26
+  recommandations, 6-page PDF; two disclosed corrections in the build script —
+  a PDF font-extraction artifact turning "−" into "S" in 3 grade tags, and a
+  genuine source-internal inconsistency on R3.3/R3.4's sign — both verified by
+  200dpi visual render before building, not guessed), and fiche 63
+  (`bris_dentaires` — "Bris dentaires périanesthésiques : texte court",
+  SFAR/Adarpef/SFSCMF RFE 2012, 31 propositions + 5 pediatric addenda, 5-page
+  PDF; no GRADE system at all — a single global "accord fort" statement covers
+  all 31 propositions, so every row is chipped uniformly "Fort" rather than
+  inventing a fort/faible split the source itself never states) all have their
+  full 4-file site integration done and are **published**. `site/rfe_garde.html`
+  (assembled) now contains **72** `id="content-*"` fiche markers (63
+  git-native + 9 recovered from the live Artifact, see KNOWN DRIFT below) + 1
+  library marker = 73 total. Published to the live Artifact URL below on
+  2026-09-12 (fiche 63, Version 15) — git and the live site are reconciled,
+  no known drift.
+- **✅ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11,
+  RESOLVED 2026-09-11). Temps 1 (recovery) and Temps 2 (publish) both DONE.**
+  Originally: the live Artifact's `FICHE_HREF_MATCH` had **69** keys vs. this
+  repo's 61 (60 at the time) — 9 keys present live with zero git history:
+  `aap_endoprotheses_coronaires`, `avc_precoce`, `douleur_postoperatoire`,
+  `examens_preinterventionnels`, `infarctus_myocarde`, `monitorage_traumatise`,
+  `recommandations_avk`, `tih_2002`, `traumatisme_cranien_grave_precoce`. Root
+  cause: an untracked session (not in `git log` on any branch checked) built
+  and published these directly to the Artifact without ever committing the
+  underlying `fiche_*.py`/`content_*.json`/source files to this repo (inverse
+  of the earlier `/tmp` scratchpad incidents — this time the *site* had the
+  content and *git* was missing it).
+  **Temps 1 — recovery, done 2026-09-11**: read the live Artifact
+  (`action: "read"`), brace-scanned its inline `app.js` for the 9 keys'
+  `RAW`/`FICHE_HREF_MATCH`/`DOC_META` entries and their `id="content-<key>"`
+  `<script>` JSON blocks, cross-checked each key's href/pdf-url needles
+  against `build/library_final.json` (exactly 1 match each, confirmed), wrote
+  them as `build/content_<key>.json`, and merged the JS entries into
+  `site/app.js` (brace-depth-aware insertion — a naive text-search insertion
+  first corrupted `DOC_META` by inserting into the wrong `};`, caught by
+  `node --check` + manual inspection before commit, redone correctly) and new
+  placeholder tags into `site/template.html` + read/replace calls into
+  `build/assemble.py`. Re-assembled `site/rfe_garde.html`; verified
+  functionally in headless Chromium (Playwright) — no JS errors, `RAW`/
+  `FICHE_HREF_MATCH`/`DOC_META` each have exactly 70 keys, and all 9 recovered
+  fiches (plus `voies_aeriennes_adulte` and `urgences_transfusionnelles_obstetricales`
+  for good measure) navigate and render their `<h1>` correctly.
+  **No `fiche_*.py`/source PDF exists for these 9** — only the rendered JSON
+  content was recoverable from the live HTML. Treat each of the 9 as a normal
+  backlog item (full pipeline: download source, build, audit, etc.) for a
+  future session, at which point its git-native `content_<key>.json` replaces
+  the recovered one — the recovered version is an interim measure, not a
+  substitute for this repo's normal triple-read/audit discipline (it was
+  built by a session that bypassed that discipline; nothing about it has been
+  re-audited against the source PDF).
+  Also unresolved: the `voies_aeriennes_adulte` same-key content collision
+  found while building fiche 60 (an untracked session had already built and
+  published the SAME source document under the SAME key, independently
+  reaching the same 53-item/A-E grade tally) — this repo's own build was kept,
+  the live one was NOT pulled in for that key (unlike the 9 above), since
+  ours already went through this repo's full audit discipline.
+  **Temps 2 — publish, DONE 2026-09-11**: per explicit user go-ahead ("fais le
+  nécessaire"), re-read the live Artifact per step 11 (confirmed no live-only
+  key would be dropped — this repo's `site/rfe_garde.html` was a strict
+  superset, 70 fiches vs. the live 69), then published `site/rfe_garde.html`
+  to the Artifact URL above (now Version 13). Live and git are reconciled: the
+  9 previously live-only fiches are now git-native (as recovered
+  `content_<key>.json`, still pending a real source-PDF rebuild per the note
+  above) and the `voies_aeriennes_adulte` collision was resolved in git's
+  favor as already decided. No outstanding drift as of this publish.
 
 ## Standing quality bar — do not compromise on these
 

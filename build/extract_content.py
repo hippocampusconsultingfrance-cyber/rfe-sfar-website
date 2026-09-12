@@ -1197,6 +1197,124 @@ def extract_securisation_proc():
     return {"doc": "securisation_proc", "sections": blocks}
 
 
+def extract_mort_encephalique():
+    import style
+    import fiche_mort_encephalique as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    # SECTIONS here is (title, fn, new_page_bool) - a 3-tuple, unlike most other
+    # fiches' 2-tuples, because this fiche uses the chapter-boundary-only
+    # pagebreak pattern from CLAUDE.md's build pipeline step 7 - unpack accordingly.
+    for title, fn, _new_page in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "mort_encephalique", "sections": blocks}
+
+
+def extract_voies_aeriennes_adulte():
+    import style
+    import fiche_voies_aeriennes_adulte as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "voies_aeriennes_adulte", "sections": blocks}
+
+
+def extract_urgences_transfusionnelles_obstetricales():
+    import style
+    import fiche_urgences_transfusionnelles_obstetricales as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "urgences_transfusionnelles_obstetricales", "sections": blocks}
+
+
+def extract_sujet_age_esf():
+    import style
+    import fiche_sujet_age_esf as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "sujet_age_esf", "sections": blocks}
+
+
+def extract_bris_dentaires():
+    import style
+    import fiche_bris_dentaires as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "bris_dentaires", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -1779,3 +1897,48 @@ if __name__ == "__main__":
         json.dump(securisation_proc, f, ensure_ascii=False, indent=1)
     print("securisation_proc sections:", len(securisation_proc["sections"]),
           "total blocks:", sum(len(s["items"]) for s in securisation_proc["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc"):
+            del sys.modules[mn]
+    mort_encephalique = extract_mort_encephalique()
+    with open(os.path.join(BUILD_DIR, "content_mort_encephalique.json"), "w") as f:
+        json.dump(mort_encephalique, f, ensure_ascii=False, indent=1)
+    print("mort_encephalique sections:", len(mort_encephalique["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in mort_encephalique["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc", "fiche_mort_encephalique"):
+            del sys.modules[mn]
+    voies_aeriennes_adulte = extract_voies_aeriennes_adulte()
+    with open(os.path.join(BUILD_DIR, "content_voies_aeriennes_adulte.json"), "w") as f:
+        json.dump(voies_aeriennes_adulte, f, ensure_ascii=False, indent=1)
+    print("voies_aeriennes_adulte sections:", len(voies_aeriennes_adulte["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in voies_aeriennes_adulte["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc", "fiche_mort_encephalique", "fiche_voies_aeriennes_adulte"):
+            del sys.modules[mn]
+    urgences_transfusionnelles_obstetricales = extract_urgences_transfusionnelles_obstetricales()
+    with open(os.path.join(BUILD_DIR, "content_urgences_transfusionnelles_obstetricales.json"), "w") as f:
+        json.dump(urgences_transfusionnelles_obstetricales, f, ensure_ascii=False, indent=1)
+    print("urgences_transfusionnelles_obstetricales sections:", len(urgences_transfusionnelles_obstetricales["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in urgences_transfusionnelles_obstetricales["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc", "fiche_mort_encephalique", "fiche_voies_aeriennes_adulte", "fiche_urgences_transfusionnelles_obstetricales"):
+            del sys.modules[mn]
+    sujet_age_esf = extract_sujet_age_esf()
+    with open(os.path.join(BUILD_DIR, "content_sujet_age_esf.json"), "w") as f:
+        json.dump(sujet_age_esf, f, ensure_ascii=False, indent=1)
+    print("sujet_age_esf sections:", len(sujet_age_esf["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in sujet_age_esf["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc", "fiche_mort_encephalique", "fiche_voies_aeriennes_adulte", "fiche_urgences_transfusionnelles_obstetricales", "fiche_sujet_age_esf"):
+            del sys.modules[mn]
+    bris_dentaires = extract_bris_dentaires()
+    with open(os.path.join(BUILD_DIR, "content_bris_dentaires.json"), "w") as f:
+        json.dump(bris_dentaires, f, ensure_ascii=False, indent=1)
+    print("bris_dentaires sections:", len(bris_dentaires["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in bris_dentaires["sections"]))

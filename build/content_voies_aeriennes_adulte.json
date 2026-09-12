@@ -1,0 +1,1245 @@
+{
+ "doc": "voies_aeriennes_adulte",
+ "sections": [
+  {
+   "title": "Introduction & critères prédictifs (Question 1)",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge des voies aériennes en anesthésie adulte (intubation standard, alternatives à la sonde d'intubation). <b>Exclusions explicites de cette conférence</b> (disclosées telles quelles, jamais omises) : la prise en charge des voies aériennes réalisée en <b>médecine extrahospitalière</b>, en <b>urgence médicale hospitalière</b>, en <b>anesthésie pédiatrique</b>, lors d'une <b>ventilation à poumons séparés</b>, et bien sûr <b>l'intubation difficile elle-même</b> (couverte par une fiche séparée de ce corpus). Conférence organisée conformément aux règles méthodologiques de l'Anaes (label qualité attribué), conclusions et recommandations rédigées par le jury en toute indépendance.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie — disclosure :</b> échelle de grades <b>A à E</b>, explicitement définie par la source elle-même (légende ci-dessous) — à la différence de l'échelle GRADE 1+/2+ utilisée par les documents SFAR/SRLF plus récents de ce corpus. <b>53 recommandations gradées</b> recensées dans le texte (comptage après consolidation des retours à la ligne issus de la mise en page à 2 colonnes, un grep naïf ligne-par-ligne n'en trouvant que 49) : 2× Grade A, 1× Grade B, 10× Grade C, 14× Grade D, 26× Grade E. Quelques phrases informatives du texte ne portent aucun grade explicite (ex. intérêt des critères paracliniques d'ID, composition du plateau standard, effet de l'esmolol sur la tachycardie/HTA péri-intubation, données sur le tube laryngé) — reproduites ici comme texte de contexte, sans grade inventé.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades (échelle ANAES, définie par la source)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "p",
+        "html": "≥ 2 études de niveau de preuve I",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "p",
+        "html": "1 étude de niveau de preuve I",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "p",
+        "html": "étude(s) de niveau de preuve II",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       },
+       {
+        "t": "p",
+        "html": "≥ 1 étude de niveau de preuve III",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       },
+       {
+        "t": "p",
+        "html": "étude(s) de niveau de preuve IV ou V",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 1 — Critères prédictifs d'intubation et de ventilation au masque difficiles",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Définitions (conférence d'experts Sfar 1996, reprises ici) :</b> une intubation est dite difficile (ID) lorsqu'elle nécessite plus de 10 min et/ou plus de 2 laryngoscopies, en position modifiée de Jackson, avec ou sans manœuvre laryngée. Une ventilation au masque est dite inefficace lorsqu'on n'obtient pas une SpO<sub>2</sub> &gt; 90 % en ventilant en O<sub>2</sub> pur un sujet aux poumons non pathologiques (pas de définition consensuelle de la VMD à ce jour). <i>Les critères paracliniques n'ont pas démontré leur intérêt dans le dépistage d'une ID (non gradé).</i>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La recherche de critères anatomiques, pathologiques et anamnestiques est recommandée pour prédire une ID : l'association de plusieurs items améliore la prédictibilité par rapport à un critère isolé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Trois critères anatomiques sont recherchés en priorité : classe de Mallampati &gt; 2, distance thyromentale &lt; 65 mm, ouverture de bouche &lt; 35 mm — complétés en consultation d'anesthésie par la proéminence des incisives supérieures, la mobilité mandibulaire (sub-luxation) et la mobilité cervicale (flexion/extension 80–100° ou &lt; 80°).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cinq critères prédictifs de ventilation au masque difficile (VMD) sont recherchés en consultation d'anesthésie : âge &gt; 55 ans, IMC &gt; 26 kg/m², édentation, ronflements, barbe (+ anomalies morphologiques faciales). En leur absence, une ventilation au masque facile est hautement probable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La détection combinée des facteurs d'ID et de VMD est recommandée, leur association identifiant les situations les plus critiques en termes de morbidité liée à l'anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Matériel & pré-oxygénation (Questions 2-3)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 2 — Matériel, alternatives à la sonde d'intubation, maintenance",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>Non gradé — plateau standard d'intubation :</i> sonde(s) à usage unique, laryngoscope, plusieurs tailles de lames courbes, lame droite, masque facial adapté avec filtre antibactérien, canule(s) de Guedel, mandrin(s), pince de Magill, manomètre de contrôle des pressions, stéthoscope, sparadrap, gels lubrifiants. <i>Non gradé — maintenance/hygiène :</i> stérilisation conforme aux textes réglementaires (circulaires DGS/DH n° 645 du 29/12/2000 et n° DGS/5C/DHOS/E2/2001/138 du 14/03/2001), traçabilité de la procédure et des dispositifs (décret du 5/12/2001) ; tout matériel réutilisable vérifié avant chaque utilisation selon une procédure standardisée ; chaque utilisateur responsable du respect de ces bonnes pratiques.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Choisir la plus petite taille de sonde d'intubation compatible avec une ventilation efficace sans fuite, en respectant les limites de pression du ballonnet (cf. Question 5). Tailles habituelles : 6,5–7–7,5 mm chez la femme, 7–7,5–8 mm chez l'homme.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Masque facial, masque laryngé et tube laryngé sont des alternatives à l'intubation trachéale, en l'absence de risque de régurgitation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 3 — Pré-oxygénation et contrôle de la perméabilité des voies aériennes",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Physiopathologie (contexte, non gradé) :</b> la pré-oxygénation vise à réduire le risque d'hypoxémie pendant l'induction en augmentant les réserves en O<sub>2</sub> de l'organisme. Le temps d'apnée est d'autant plus court que la CRF est faible, la PAO<sub>2</sub> basse et la consommation d'O<sub>2</sub> élevée ; en O<sub>2</sub> pur, la dénitrogénation permet de doubler le temps d'apnée (6 min). Grossesse, obésité, âge avancé, BPCO peuvent modifier la durée nécessaire et/ou altérer les réserves obtenues.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La ventilation spontanée pendant 3 minutes à FiO<sub>2</sub> = 1 est la méthode de référence de pré-oxygénation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "D'autres méthodes ont été proposées pour raccourcir la pré-oxygénation (4 manœuvres consécutives de capacité vitale ; 8 respirations profondes en 1 min), mais restent difficiles à réaliser en pratique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Quelle que soit la méthode utilisée, le matériel doit être adapté et étanche, en particulier au niveau du masque facial.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La pré-oxygénation est impérative en cas de risque de désaturation avant la sécurisation des voies aériennes : séquence d'induction rapide, critères de VMD ou d'ID, diminution de la CRF…",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors de ces situations, une oxygénation préalable est recommandée pour se prémunir d'un risque d'hypoxie en cas de VMD ou d'ID non prévues.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le monitorage de la fraction télé-expiratoire d'O<sub>2</sub> (FETO<sub>2</sub>) est recommandé pendant la pré-oxygénation — la SpO<sub>2</sub> seule ne permet pas d'en apprécier correctement l'efficacité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est important de poursuivre la pré-oxygénation au-delà de l'obtention d'une FETO<sub>2</sub> &gt; 90 % (témoin d'une dénitrogénation optimale, mais pas des réserves tissulaires en O<sub>2</sub>).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'identifier en consultation d'anesthésie les facteurs de risque de désaturation/VMD/ID et de déterminer une stratégie d'oxygénation adaptée, avec des techniques alternatives en cas d'échec.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Des manœuvres simples (extension de la tête, sub-luxation antérieure de la mandibule, canule de Guedel) permettent d'améliorer la perméabilité des voies aériennes supérieures, modifiée par les agents anesthésiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La ventilation au masque doit s'effectuer à des pressions d'insufflation &lt; 25 cmH<sub>2</sub>O (risque d'insufflation gastrique) ; il est recommandé de contrôler ces pressions pendant la ventilation au masque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Question 4 — Agents d'induction et monitorage",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 4 — Agents d'induction (IV, halogénés, morphiniques, curares) et monitorage",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Intubation avec curare :</b>",
+     "style": "q4h"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'utilisation d'un curare améliore les conditions de l'intubation trachéale, sous réserve d'une dose suffisante (≥ 2 DA<sub>95</sub>) et du respect du délai d'installation de l'effet maximal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ce délai d'installation est estimé au mieux par le monitorage de la curarisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En présence d'un curare, les conditions d'intubation sont toujours bonnes ; la réaction somatique et neurovégétative à l'intubation, marquée en l'absence de morphinique, peut être diminuée par un morphinique à dose modérée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En administration en bolus, la séquence des 3 agents (hypnotique / morphinique / curare) doit être synchronisée pour que leurs pics d'action coïncident au moment de la stimulation de l'intubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'association thiopental–succinylcholine reste le protocole de référence de l'induction en séquence rapide.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si un morphinique est utilisé lors d'une induction en séquence rapide, le choix d'un agent à délai et durée d'action courts paraît raisonnable (aucune donnée validée sur l'indication elle-même du morphinique dans ce contexte).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Anesthésie intraveineuse pour intubation sans curare / alternatives à l'intubation :</b>",
+     "style": "q4h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'intubation sans curare peut être proposée lorsque la curarisation n'est pas nécessaire pour la chirurgie ; les conditions d'intubation dépendent alors de l'association hypnotique–morphinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'utilisation d'un hypnotique seul (sans curare ni morphinique) n'est pas recommandée : elle nécessite des doses très élevées et offre des conditions d'intubation médiocres.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'association d'un morphinique rapproche les conditions d'intubation de celles obtenues avec succinylcholine, et diminue par exemple de moitié les doses de propofol nécessaires pour contrôler la réaction motrice à l'intubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La concentration télé-expiratoire de sévoflurane n'est pas un estimateur fiable de la concentration cérébrale à l'induction (délai d'équilibration) ; elle doit être maintenue un délai suffisant avant de tenter l'intubation (&gt; 6 min sous sévoflurane seul, réductible de 40 % par midazolam et/ou fentanyl).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La curarisation n'est pas nécessaire pour l'insertion du masque laryngé (technique la plus utilisée en alternative à l'intubation).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le propofol est l'hypnotique IV de choix pour l'insertion du masque laryngé (dépression plus marquée des réflexes pharyngolaryngés que le thiopental) ; l'ajout d'une faible dose de morphinique améliore significativement le taux de succès et diminue d'1/3 la concentration cible de propofol en AIVOC.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le sévoflurane est le seul agent halogéné recommandé pour l'insertion du masque laryngé (faible solubilité, absence d'effet irritant sur les VAS) ; MAC<sub>95</sub> de l'ordre de 4 %.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'association d'un morphinique améliore les conditions d'insertion du masque laryngé par rapport au sévoflurane seul.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'efficacité de la lidocaïne IV pour limiter la réaction adrénergique à l'intubation est controversée. <i>(L'esmolol 100 mg — non gradé — limite significativement la tachycardie, moins nettement l'hypertension.)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Question 5 — Positionnement et techniques d'intubation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 5 — Positionnement, techniques d'intubation, contrôle du tube et du ballonnet",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'utilisation systématique et en première intention d'un coussin sous la nuque (flexion du cou) n'est pas justifiée, sauf chez les patients obèses ou présentant une limitation de la mobilité du rachis cervical.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'intubation endotrachéale sous laryngoscopie directe par voie orale est la méthode de référence en anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La manœuvre de Sellick (pression cricoïdienne) peut gêner l'exposition glottique en laryngoscopie directe.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La manœuvre « BURP » (déplacement postérieur puis céphalique du cartilage thyroïde) permet de diminuer l'incidence des laryngoscopies difficiles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le mandrin long est plus efficace que le mandrin court comme aide à l'intubation en cas de difficulté d'exposition (Cormack II–III) ; ces mandrins restent des « petits moyens » d'aide à l'intubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La mesure de la PETCO<sub>2</sub> est la méthode de référence pour contrôler l'absence d'intubation œsophagienne ; les capnogrammes doivent être visualisés et stables sur au moins 6 cycles ventilatoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'auscultation pulmonaire axillaire est le meilleur moyen de déceler une intubation sélective ; à renouveler après chaque changement de position du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si le ballonnet est gonflé à l'air chez un patient ventilé en O<sub>2</sub>/N<sub>2</sub>O, le monitorage de la pression du ballonnet (dégonflages itératifs si besoin) ou un système d'évacuation automatique du gaz en surpression est recommandé (lésions trachéales au-delà de 30 cmH<sub>2</sub>O).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une pression de gonflage de 20 mmHg (≈ 27 cmH<sub>2</sub>O) assure une bonne protection des voies aériennes tout en restant sous la pression de perfusion de la muqueuse trachéale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q5.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'utilisation du masque laryngé (LMA) repose sur une analyse bénéfice-risque individuelle ; contre-indiquée en cas d'estomac plein, de risque de pression ventilatoire élevée, d'absence d'accès aux voies aériennes, d'antécédents de reflux gastro-œsophagien, et en chirurgie thoracique ou abdominale haute. <i>(Tube laryngé — non gradé : trop peu d'études pour en proposer l'usage clinique.)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Question 6 — Lésions liées à l'intubation & prévention de l'inhalation",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 6 — Lésions liées à l'intubation, prévention de l'inhalation bronchique",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>Contexte (non gradé) :</i> l'absence d'études prospectives, randomisées, multicentriques consacrées à ces lésions ne permet pas de préciser exactement leur prévalence, leurs facteurs de risque ni l'apport des diverses attitudes préventives proposées.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Lésions liées à l'intubation oro/nasotrachéale :</b>",
+     "style": "q6h"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Recherche systématique en consultation d'anesthésie d'une fragilité/d'un mauvais état dentaire, avec utilisation d'une protection dentaire dans les cas à risque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Choisir la sonde d'intubation de la plus petite taille possible (compte tenu des contraintes de ventilation) ; en intubation nasotrachéale, rétraction muqueuse par un vasoconstricteur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Limiter l'hyperextension du cou pour éviter les lésions trachéales.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le dépistage des complications est clinique (douleur cervicale latéralisée, douleur thoracique à irradiation postérieure, dysphagie/odynophagie douloureuses, douleur à la palpation, crépitation cervicale, fièvre) : cette suspicion doit faire discuter l'arrêt de l'alimentation orale, une antibiothérapie, et un avis spécialisé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une dysphonie intense, persistant au-delà de 48 h, ou associée à une otalgie/odynophagie, doit conduire à une consultation ORL spécialisée à la recherche de lésions laryngées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Lésions liées au masque laryngé</b> <i>(symptômes sans substratum fréquents — maux de gorge — mais lésions anatomiques directes rares, non gradé) :</i>",
+     "style": "q6h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "S'assurer d'une anesthésie profonde et ne pas multiplier les essais d'insertion.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Choisir une taille de masque laryngé appropriée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la méthode d'insertion « coussinet semi-gonflé » — qui majore cependant le risque de mauvais positionnement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Limiter la pression dans le ballonnet du masque laryngé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Prévention de l'inhalation bronchique :</b>",
+     "style": "q6h3"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le jeûne (abstention de liquide clair 2 h, de solides 6 h avant la chirurgie) reste l'attitude classique de prévention de l'inhalation bronchique, quel que soit le mode d'accès aux voies aériennes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans les situations prédisposant à l'inhalation, l'induction en séquence rapide associée à une pression cricoïdienne et à des préparations neutralisant l'acidité gastrique est recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q6.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La protection des voies aériennes par le masque laryngé, supposée moins efficace que par la sonde endotrachéale, contre-indique son utilisation dans les situations à risque d'inhalation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "E"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Comité d'organisation, jury, experts & sources",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Comité d'organisation :</b> P. Ravussin (Président, Sion), A.-M. Cros (Bordeaux), M. Gentili (Saint-Grégoire), O. Langeron (Paris), C. Martin (Marseille), S. Molliex (Saint-Étienne), P. Monnier (Lausanne). <b>Jury :</b> S. Molliex (Président), J.-C. Berset, V. Billard, É. Bunouf, S. Delort-Laval, B. Frering, M. Freysz, O. Laccourreyre, D. Lugrin, J.-P. Mustaki, C. Penon, F. Sztark, O. Tueux. <b>Experts :</b> F. Adnet, B. Bally, D. Boisson-Bertrand, J.-L. Bourgain, N. Bruder, M. Chollet-Rivies, B. Debaene, P. Diemunsch, C. Ecoffey, J.-P. Estebe, D. Francon, J. Lacau Saint-Guily, G. Mion, D. Pean.",
+     "style": "body_sm"
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> document de 2002 (recommandations imprimées en 2003) — les pratiques et le matériel de prise en charge des voies aériennes ont évolué depuis (vidéolaryngoscopie, algorithmes d'oxygénation apnéique, dispositifs supra-glottiques de 2<sup>e</sup> génération…), disclosé explicitement plutôt que silencieusement mis à jour ; se référer aux recommandations SFAR ultérieures pour l'intubation difficile et pour la prise en charge des voies aériennes de l'enfant.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

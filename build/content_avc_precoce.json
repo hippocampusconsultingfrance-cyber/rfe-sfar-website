@@ -1,0 +1,1114 @@
+{
+ "doc": "avc_precoce",
+ "sections": [
+  {
+   "title": "Introduction, alerte, phase préhospitalière & hospitalière initiale",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge précoce de l'accident vasculaire cérébral (AVC) — alerte, phase préhospitalière, phase hospitalière initiale, indications de la thrombolyse. Recommandations HAS, mai 2009, à la demande conjointe de la Société française neuro-vasculaire et de la DHOS. Concerne l'AIT, l'infarctus cérébral (IC) et l'hémorragie cérébrale (HC) ; <b>exclut l'hémorragie sous-arachnoïdienne</b> (hors champ). En France : 100 000 à 145 000 AVC/an, 15-20 % de décès à 1 mois, 75 % de survivants avec séquelles ; 1ère cause de handicap acquis de l'adulte, 2ème cause de démence, 3ème cause de mortalité ; 25 % des patients ont moins de 65 ans.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie — grades HAS A/B/C + « accord professionnel »</b> (même schéma que d'autres fiches HAS de ce corpus, à la différence du GRADE 1+/2+) : Grade A = preuve scientifique établie (niveau 1) ; Grade B = présomption scientifique (niveau 2) ; Grade C = faible niveau de preuve (niveaux 3-4) ; <b>« accord professionnel »</b> = en l'absence d'études, avis du groupe de travail après consultation du groupe de lecture — c'est le cas de la <b>grande majorité</b> des recommandations de ce texte. <b>Vérifié exhaustivement par grep (texte aplati, insensible aux tags coupés par un retour à la ligne) contre le texte source : 50 énoncés cliniques tagués — 1× grade A, 2× grade B, 4× grade C, 43× accord professionnel (chip « AP ») — retranscrits un pour un contre le texte source, sans regroupement de plusieurs tags sous un chip unique. Quelques énoncés cliniquement pertinents mais explicitement <b>sans</b> tag dans la source (ex. le scanner cérébral à défaut d'IRM) sont retranscrits avec « — » plutôt qu'un tag inventé.</b>",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "2 — L'alerte",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "La prise en charge rapide des patients ayant un AVC nécessite que les symptômes soient connus par la population générale et les professionnels, et que les filières préhospitalière et hospitalière soient efficaces.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les symptômes de l'AVC doivent être connus par la population générale et plus particulièrement par les patients à risque/ATCD vasculaires, ainsi que leur entourage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Il convient de sensibiliser les professionnels pour des filières préhospitalière et hospitalière initiale efficaces.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les campagnes d'information grand public doivent être encouragées et répétées (effet temporaire) ; ne pas se limiter aux patients à risque vasculaire, concerner toute la population y compris les jeunes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Information du grand public : reconnaissance des symptômes — message <b>FAST</b> (Face Arm Speech Time, dérivé de l'échelle de Cincinnati) recommandé comme vecteur efficace.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Urgence : la prise en charge et les traitements sont urgents (admission en UNV et thrombolyse éventuelle), d'autant plus efficaces que précoces ; même régressifs, les symptômes imposent d'appeler le SAMU-Centre 15.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Nécessité de laisser le patient allongé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Le médecin traitant doit informer les patients à risque (ATCD vasculaires, HTA, diabète, artériopathie des MI) et leur entourage des signes de l'AVC ; préconiser l'appel immédiat au 15 avant tout appel à son cabinet ; expliquer l'importance de noter l'heure des premiers symptômes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "En cas d'appel direct au médecin traitant : transférer l'appel au SAMU-Centre 15 et, au mieux, rester en ligne pour une <b>conférence à 3</b> (appelant, médecin traitant, régulateur).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Formation continue renforcée pour les permanenciers/standardistes des Centre 15, utilisant les 5 signes d'alerte de l'ASA*.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Programmes de formation renforcés pour les acteurs du premier secours (pompiers, ambulanciers, secouristes), utilisant le message FAST.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Développer la formation continue auprès de tous les professionnels de la filière d'urgence (généralistes, spécialistes, IDE, aides-soignants, kinés, orthophonistes...).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Messages clés aux professionnels : tout déficit neurologique brutal, transitoire ou prolongé = urgence absolue ; noter l'heure exacte de survenue ; connaître l'efficacité de la prise en charge en UNV et les traitements spécifiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "L'AIT est une urgence et justifie une prise en charge neuro-vasculaire immédiate pour confirmer le diagnostic, préciser l'étiologie et instaurer le traitement en urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>* Les 5 signes d'alerte ASA : faiblesse/engourdissement brutal uni ou bilatéral de la face/bras/jambe ; baisse/perte de vision uni ou bilatérale ; difficulté de langage ou de compréhension ; mal de tête sévère, soudain et inhabituel sans cause apparente ; perte d'équilibre/instabilité de la marche/chutes inexpliquées, en particulier associées à l'un des signes précédents.</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "3 — Phase préhospitalière",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Utiliser un nombre limité d'échelles standardisées : échelle <b>FAST</b> (ou équivalent français) pour les paramédicaux/premiers secours (formation requise).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Tout médecin urgentiste doit savoir utiliser l'échelle <b>NIHSS</b> (National Institute of Health Stroke Scale) et évaluer la sévérité de l'AVC.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "La gestion de l'appel initial pour suspicion d'AVC doit être faite par les centres de régulation médicale des SAMU-Centre 15.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Des questionnaires ciblés et standardisés doivent être utilisés pour l'évaluation téléphonique des patients suspects d'AVC et pour aider à la décision du régulateur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Tout acte de régulation pour suspicion d'AVC/AIT comprend l'appel au médecin de l'UNV la plus proche ; l'orientation est décidée de concert entre régulateur et médecin UNV.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "L'envoi d'une équipe médicale (Smur) ne doit pas retarder la prise en charge ; nécessaire en cas de troubles de la vigilance, détresse respiratoire ou instabilité hémodynamique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les centres de régulation doivent choisir le moyen de transport le plus rapide. (Aucune recommandation possible sur l'imagerie embarquée — à évaluer.)",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Remplir une fiche standardisée : antécédents, traitements en cours, heure de début des symptômes, éléments de gravité clinique (NIHSS).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "En cas de transport médicalisé, effectuer les prélèvements sanguins pour le bilan biologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autoriser la réalisation d'une glycémie capillaire en préhospitalier par tous les acteurs de la chaîne d'urgence ; corriger l'hypoglycémie (pas de preuve pour débuter l'insuline en préhospitalier en cas d'hyperglycémie).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Réaliser un électrocardiogramme en cas de médicalisation du transport.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Privilégier le transport en décubitus dorsal, sauf signes d'HTIC, troubles de la vigilance, nausées/vomissements.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mesurer la pression artérielle ; pas d'argument pour traiter une HTA sauf indication extraneurologique associée (ex. décompensation cardiaque).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Oxygénothérapie non systématique, sauf si SpO<sub>2</sub> &lt; 95 %.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4 — Phase hospitalière initiale",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "La filière intrahospitalière neuro-vasculaire doit être organisée au préalable, coordonnée (urgentistes, neurologues, radiologues, réanimateurs, biologistes) et formalisée par procédures écrites ; elle doit privilégier la rapidité d'accès à l'expertise neuro-vasculaire et à l'imagerie cérébrale en organisant au mieux les aspects structurels et fonctionnels, avec évaluation régulière de la performance de l'organisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les patients adressés à un établissement avec UNV doivent être pris en charge dès leur arrivée par un médecin de la filière neuro-vasculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fiche standardisée (antécédents, traitements, heure de début, NIHSS) remplie dès l'admission si non faite en préhospitalier.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ECG et bilan biologique (hémostase, hémogramme, glycémie capillaire) réalisés en urgence si non faits en préhospitalier.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Monitoring de la pression artérielle, du rythme cardiaque, de la SpO<sub>2</sub> et surveillance de la température.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les établissements sans UNV doivent structurer une filière de prise en charge des patients suspects d'AVC en coordination avec une UNV.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Accès prioritaire 24h/24 et 7j/7 à l'imagerie cérébrale, avec protocoles formalisés et contractualisés avec le service de radiologie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "L'IRM est l'examen le plus performant (ischémie récente précoce + hémorragie intracrânienne) ; à privilégier. Si accessible en urgence en 1ère intention : protocole court — séquences diffusion, FLAIR, écho de gradient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "À défaut d'IRM en urgence : scanner cérébral (montre inconstamment l'ischémie récente, visualise l'hémorragie intracrânienne). <i>(non tagué dans la source)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Exploration des artères intracrâniennes par ARM cérébrale, angioscanner ou Doppler transcrânien.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Exploration des artères cervicales précoce devant tout AIC (urgente si AIT, infarctus mineur, accident fluctuant/évolutif) : écho-Doppler, ARM des vaisseaux cervico-encéphaliques avec gadolinium, ou angioscanner des troncs supra-aortiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Tout patient ayant un AVC doit être proposé à une UNV. <i>(non tagué dans la source)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hospitalisation en réanimation : décision au cas par cas, partagée par l'ensemble des professionnels (réanimateurs, neurologues), en respectant les souhaits du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les décisions de limitation et d'arrêt de traitement doivent être prises de façon collégiale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les réanimateurs sont aussi impliqués dans la prise en charge des patients en mort cérébrale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Avis neurochirurgical (après avis neuro-vasculaire) pour infarctus sylvien malin, infarctus/hématome cérébelleux compliqué d'HTIC, ou certains hématomes cérébraux hémisphériques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Algorithme & thrombolyse",
+   "items": [
+    {
+     "t": "section",
+     "text": "Annexe 1 — Algorithme de prise en charge précoce d'un AVC",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>Suspicion d'AVC ou d'AIT</b> — appel du patient, de son entourage, ou d'un médecin généraliste. Si appel direct au généraliste : <b>conférence à 3</b> (appelant, médecin traitant, régulateur) → <b>Appel du 15</b> (SAMU-Centre 15).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "↓",
+     "style": "arrow_avc"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>Recherche des signes de gravité clinique</b> : troubles de la vigilance, détresse respiratoire, instabilité hémodynamique. <b>Oui</b> → envoi d'une équipe médicale (Smur), transport médicalisé (TM). <b>Non</b> → transport par le moyen le plus rapide.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "↓",
+     "style": "arrow_avc"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>Appel du médecin de l'UNV la plus proche</b> — <b>Suspicion d'AVC/AIT confirmée ?</b> <b>Non</b> → urgences de proximité ou orientation adaptée. <b>Oui</b>, ou en cas de doute avec UNV éloignée (recours à la télémédecine, TM), <b>évaluation médicale</b> → choix de l'effecteur approprié.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "↓",
+     "style": "arrow_avc"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>Établissement destinataire</b> (l'un des 3 types, selon le tableau clinique et l'organisation locale) : établissement disposant d'une UNV • établissement disposant d'une UNV + neurochirurgie (NC) + neuroradiologie interventionnelle (NRI) • établissement ayant structuré une filière de prise en charge des patients suspects d'AVC en coordination avec une UNV. <b>Transport vers l'établissement choisi par le moyen le plus rapide.</b>",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "↓",
+     "style": "arrow_avc"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>À l'arrivée :</b> préparation de l'admission dans la filière organisée (urgentistes, neurologues, radiologues, biologistes, réanimateurs), recherche des contre-indications à la thrombolyse, puis <b>bilan clinique, biologique, imagerie, évaluation pronostique, traitement.</b>",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Algorithme de l'annexe 1 (source), restructuré en séquence de boîtes (voir disclosure méthodologique en tête de fiche). NC : neurochirurgie ; NRI : neuroradiologie interventionnelle ; TM : télémédecine ; UNV : unité neuro-vasculaire.</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "5 — La thrombolyse des infarctus cérébraux",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "<b>5.1 Thrombolyse intraveineuse (IV)</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "La thrombolyse IV par rt-PA des infarctus cérébraux est recommandée jusqu'à 4 h 30 (hors AMM, cf. annexe 2).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Elle doit être effectuée le plus tôt possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Peut être envisagée après 80 ans jusqu'à 3 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "En dessous de 18 ans : indications discutées au cas par cas avec un neurologue d'UNV.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Une glycémie initiale &gt; 11 mmol/l doit conduire à réévaluer l'indication de la thrombolyse, du fait du risque hémorragique accru.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les données actuelles ne permettent pas de recommander la sonothrombolyse. <i>(non gradé)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dans les établissements avec UNV : thrombolyse IV prescrite par un neurologue (AMM) et/ou un médecin titulaire du DIU de pathologie neuro-vasculaire (hors AMM) ; patient surveillé au sein de l'UNV.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dans les établissements sans UNV : indication portée par téléconsultation du médecin neuro-vasculaire de l'UNV où le patient sera transféré après thrombolyse (hors AMM).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>5.2 Thrombolyse intra-artérielle, combinée et revascularisation mécanique</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Décisions de thrombolyse intra-artérielle (IA) au cas par cas, après concertation entre neurologues vasculaires et neuroradiologues, jusqu'à 6 h pour les occlusions de l'artère cérébrale moyenne, voire au-delà pour les occlusions du tronc basilaire (gravité extrême) (hors AMM).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "La thrombolyse IA doit être réalisée dans un établissement disposant d'un centre de neuroradiologie interventionnelle autorisé (SIOS) et d'une UNV.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "La thrombolyse combinée (IV puis IA) et la revascularisation mécanique (thrombectomie ou ultrasons par voie endovasculaire) <b>ne sont pas recommandées</b> et doivent être évaluées. <i>(non gradé)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Annexe 2 & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Annexe 2 — Contre-indications de l'altéplase (RCP/AMM ACTILYSE®)",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<i>Extrait littéral du résumé des caractéristiques du produit (RCP), cité tel quel par la source (guillemets d'origine).</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "« Hypersensibilité à la substance active ou à l'un des excipients. Comme tous les agents thrombolytiques, ACTILYSE® est contre-indiqué dans tous les cas associés à un risque hémorragique élevé :",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Contre-indications générales (tout agent thrombolytique)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Trouble hémorragique significatif actuel ou au cours des 6 derniers mois",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Diathèse hémorragique connue",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement concomitant par des anticoagulants oraux (ex. warfarine)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie sévère ou potentiellement dangereuse, manifeste ou récente",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antécédents ou suspicion d'hémorragie intracrânienne",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Suspicion d'hémorragie sous-arachnoïdienne ou ATCD d'hémorragie sous-arachnoïdienne liée à un anévrisme",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antécédents de lésion sévère du SNC (néoplasie, anévrisme, intervention chirurgicale intracérébrale ou intrarachidienne)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Massage cardiaque externe traumatique récent (&lt; 10 jours), accouchement, ponction récente d'un vaisseau non accessible à la compression (ex. veine sous-clavière/jugulaire)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hypertension artérielle sévère non contrôlée",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Endocardite bactérienne, péricardite",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pancréatite aiguë",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ulcères gastro-intestinaux documentés au cours des 3 derniers mois, varices œsophagiennes, anévrisme artériel, malformations artérielles ou veineuses",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Néoplasie majorant le risque hémorragique",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hépatopathie sévère (insuffisance hépatique, cirrhose, hypertension portale/varices œsophagiennes, hépatite évolutive)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intervention chirurgicale ou traumatismes importants au cours des 3 derniers mois",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Contre-indications complémentaires — AVC ischémique à la phase aiguë :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Contre-indications spécifiques à l'AVC ischémique",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Symptômes apparus plus de 3 heures avant l'initiation du traitement, ou heure d'apparition inconnue",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Déficit neurologique mineur ou symptômes s'améliorant rapidement avant l'initiation du traitement",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AVC jugé sévère cliniquement (ex. NIHSS &gt; 25) et/ou par imagerie",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Crise convulsive au début de l'AVC",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Signes d'hémorragie intracrânienne (HIC) au scanner",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Symptômes suggérant une hémorragie sous-arachnoïdienne, même en l'absence d'anomalie au scanner",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Administration d'héparine au cours des 48 heures précédentes avec un TCA dépassant la limite supérieure de la normale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Patient diabétique présentant des antécédents d'AVC",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antécédent d'AVC au cours des 3 derniers mois",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Plaquettes inférieures à 100 000/mm³",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "PA systolique &gt; 185 mmHg ou PA diastolique &gt; 110 mmHg, ou traitement IV nécessaire pour réduire la PA à ces valeurs seuils",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Glycémie inférieure à 50 ou supérieure à 400 mg/dl",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Utilisation chez l'enfant, l'adolescent et le patient âgé : « ACTILYSE® n'est pas indiqué pour le traitement de l'AVC à la phase aiguë chez les patients de moins de 18 ans ou de plus de 80 ans » (la plupart des patients inclus dans les essais contrôlés randomisés étaient âgés de 18 à 80 ans).</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Accident vasculaire cérébral : prise en charge précoce (alerte, phase préhospitalière, phase hospitalière initiale, indications de la thrombolyse) » — Recommandations de bonne pratique, Haute Autorité de Santé (HAS), mai 2009. Demandeurs : Société française neuro-vasculaire et Direction de l'hospitalisation et de l'organisation des soins. Promoteur : HAS, service des bonnes pratiques professionnelles. Présidente du groupe de travail : Dr France Woimant (neurologie, Paris). Validé par le Collège de la HAS en mai 2009.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> grades HAS A/B/C (niveaux de preuve 1 à 4) + « accord professionnel » en l'absence d'études, méthode « Recommandations pour la pratique clinique » (RPC) — groupe de travail multidisciplinaire + groupe de lecture. 50 énoncés cliniques tagués dans les sections retranscrites (1× A, 2× B, 4× C, 43× accord professionnel), un pour un contre le texte source — voir disclosure méthodologique en page 1.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des chapitres cliniques du texte — introduction (champ, objectifs, populations, gradation), l'alerte, la phase préhospitalière, la phase hospitalière initiale (dont l'algorithme de l'annexe 1, restructuré en séquence de boîtes), la thrombolyse (IV, IA/combinée/mécanique), et l'annexe 2 (contre-indications de l'altéplase, extrait littéral du RCP/AMM). Les sections méthodologiques sans contenu clinique nouveau (méthode RPC, composition des groupes de travail/lecture — env. 85 noms, fiche descriptive) ne sont pas retranscrites.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2009 :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des recommandations cliniques du texte source, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques) et n'est ni éditée ni validée par la HAS. <b>Les indications de la thrombolyse et les techniques de revascularisation mécanique ont évolué depuis 2009</b> (fenêtre thérapeutique élargie, thrombectomie mécanique désormais recommandée dans certaines indications) : se référer en complément aux recommandations plus récentes et à un avis neuro-vasculaire spécialisé en cas de doute.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -150,6 +150,8 @@ with open(os.path.join(BASE, "content_traumatisme_cranien_grave_precoce.json"), 
     content_traumatisme_cranien_grave_precoce = f.read()
 with open(os.path.join(BASE, "content_sujet_age_esf.json"), encoding="utf-8") as f:
     content_sujet_age_esf = f.read()
+with open(os.path.join(BASE, "content_bris_dentaires.json"), encoding="utf-8") as f:
+    content_bris_dentaires = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -230,6 +232,7 @@ out = out.replace("__CONTENT_RECOMMANDATIONS_AVK__", safe(content_recommandation
 out = out.replace("__CONTENT_TIH_2002__", safe(content_tih_2002))
 out = out.replace("__CONTENT_TRAUMATISME_CRANIEN_GRAVE_PRECOCE__", safe(content_traumatisme_cranien_grave_precoce))
 out = out.replace("__CONTENT_SUJET_AGE_ESF__", safe(content_sujet_age_esf))
+out = out.replace("__CONTENT_BRIS_DENTAIRES__", safe(content_bris_dentaires))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

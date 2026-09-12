@@ -75,7 +75,8 @@ var RAW = {
   recommandations_avk: JSON.parse(document.getElementById('content-recommandations_avk').textContent),
   tih_2002: JSON.parse(document.getElementById('content-tih_2002').textContent),
   traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent),
-  sujet_age_esf: JSON.parse(document.getElementById('content-sujet_age_esf').textContent)
+  sujet_age_esf: JSON.parse(document.getElementById('content-sujet_age_esf').textContent),
+  bris_dentaires: JSON.parse(document.getElementById('content-bris_dentaires').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -152,7 +153,8 @@ var FICHE_HREF_MATCH = {
   recommandations_avk: ['prise-en-charge-des-surdosages-en-antivitamines-k-des-situations-a-risque-hemorragique-et-des-accidents-hemorragiques-chez-les-patients-traites-par-antivitamines-k-en-ville-et-en-milieu-hospitalier', '2_HAS_Prise-en-charge-des-surdosages-en-antivitamines-K'],
   tih_2002: ['/thrombopenie-induite-par-lheparine/', '2_AFAR_Thrombopenie-induite-par-lheparine'],
   traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce'],
-  sujet_age_esf: ['anesthesie-du-sujet-age-lexemple-de-fracture-de-lextremite-superieure-du-femur', 'rfe-anesthesie-du-sujet-age']
+  sujet_age_esf: ['anesthesie-du-sujet-age-lexemple-de-fracture-de-lextremite-superieure-du-femur', 'rfe-anesthesie-du-sujet-age'],
+  bris_dentaires: ['bris-dentaires-perianesthesiques', 'Bris-dentaires-perianesthesiques']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1017,6 +1019,18 @@ var DOC_META = {
     methodology: "GRADE 1+/1-/2+/2- + avis d'experts (AE), avec accord Delphi/GRADE Grid fort/faible imprimé séparément",
     pages: 17,
     url: "https://sfar.org/wp-content/uploads/2019/10/rfe-anesthesie-du-sujet-age.pdf"
+  },
+  bris_dentaires: {
+    key: 'bris_dentaires',
+    badge: 'Accord fort',
+    title: "Bris dentaires périanesthésiques",
+    short: "Prévention et conduite à tenir devant un bris dentaire périanesthésique : facteurs prédictifs (consultation préanesthésique, traçabilité, information du patient), prévention au bloc opératoire (choix du protocole, matériel de contrôle des voies aériennes, protection dentaire sur mesure, surveillance péri- et postopératoire), et conduite à tenir devant un bris dentaire constaté (prise en charge immédiate, traçabilité, déclaration, information du patient). 31 propositions, dont 5 addenda pédiatriques.",
+    society: "SFAR / Adarpef / SFSCMF — RFE 2012",
+    version: "2012 (Ann Fr Anesth Reanim 2012;31:272-275)",
+    validated: "Validé par les comités des référentiels cliniques et le CA de la SFAR",
+    methodology: "Pas de GRADE — accord fort global (vote du groupe de travail), sans distinction individuelle entre propositions",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_COURT_Bris-dentaires-perianesthesiques-copie.pdf"
   }
 };
 

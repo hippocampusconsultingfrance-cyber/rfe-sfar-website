@@ -16,24 +16,29 @@ reading full guideline PDFs (often 50-150+ pages).
   so any viewer can submit an error report).
 - Delivered PDFs also live in `/Users/macbook/Downloads/claude/RFE_SFAR_2026/`
   on the user's machine (this repo's `output/` folder is the git-tracked copy).
-- **62 of 160 SFAR library items are git-tracked (this repo's `site/app.js`
-  `FICHE_HREF_MATCH`) as of 2026-09-11.** Track progress via that object's keys vs.
+- **63 of 160 SFAR library items are git-tracked (this repo's `site/app.js`
+  `FICHE_HREF_MATCH`) as of 2026-09-12.** Track progress via that object's keys vs.
   `build/library_final.json` (the full 160-item index). Fiche 61
   (`urgences_transfusionnelles_obstetricales` — EFS table ronde 2000-2001, "Le
   traitement des urgences transfusionnelles obstétricales"; library index
   itself mislabels this item "Hémorragies du post-partum immédiat" / "2014",
-  a divergence disclosed inside the fiche, not resolved) and fiche 62
+  a divergence disclosed inside the fiche, not resolved), fiche 62
   (`sujet_age_esf` — "Anesthésie du sujet âgé : l'exemple de fracture de
   l'extrémité supérieure du fémur", SFAR/SOFCOT/SFGG/SFPC RFE 2017, 26
   recommandations, 6-page PDF; two disclosed corrections in the build script —
   a PDF font-extraction artifact turning "−" into "S" in 3 grade tags, and a
   genuine source-internal inconsistency on R3.3/R3.4's sign — both verified by
-  200dpi visual render before building, not guessed) both have their full
-  4-file site integration done and are **published**. `site/rfe_garde.html`
-  (assembled) now contains **71** `id="content-*"` fiche markers (62
+  200dpi visual render before building, not guessed), and fiche 63
+  (`bris_dentaires` — "Bris dentaires périanesthésiques : texte court",
+  SFAR/Adarpef/SFSCMF RFE 2012, 31 propositions + 5 pediatric addenda, 5-page
+  PDF; no GRADE system at all — a single global "accord fort" statement covers
+  all 31 propositions, so every row is chipped uniformly "Fort" rather than
+  inventing a fort/faible split the source itself never states) all have their
+  full 4-file site integration done and are **published**. `site/rfe_garde.html`
+  (assembled) now contains **72** `id="content-*"` fiche markers (63
   git-native + 9 recovered from the live Artifact, see KNOWN DRIFT below) + 1
-  library marker = 72 total. Published to the live Artifact URL below on
-  2026-09-11 (fiche 62, Version 14) — git and the live site are reconciled,
+  library marker = 73 total. Published to the live Artifact URL below on
+  2026-09-12 (fiche 63, Version 15) — git and the live site are reconciled,
   no known drift.
 - **✅ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11,
   RESOLVED 2026-09-11). Temps 1 (recovery) and Temps 2 (publish) both DONE.**

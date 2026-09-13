@@ -76,7 +76,9 @@ var RAW = {
   tih_2002: JSON.parse(document.getElementById('content-tih_2002').textContent),
   traumatisme_cranien_grave_precoce: JSON.parse(document.getElementById('content-traumatisme_cranien_grave_precoce').textContent),
   sujet_age_esf: JSON.parse(document.getElementById('content-sujet_age_esf').textContent),
-  bris_dentaires: JSON.parse(document.getElementById('content-bris_dentaires').textContent)
+  bris_dentaires: JSON.parse(document.getElementById('content-bris_dentaires').textContent),
+  douleur_reactualisation_2016: JSON.parse(document.getElementById('content-douleur_reactualisation_2016').textContent),
+  protection_oculaire: JSON.parse(document.getElementById('content-protection_oculaire').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -154,7 +156,9 @@ var FICHE_HREF_MATCH = {
   tih_2002: ['/thrombopenie-induite-par-lheparine/', '2_AFAR_Thrombopenie-induite-par-lheparine'],
   traumatisme_cranien_grave_precoce: ['prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce', 'RFE-ANREA-Prise-en-charge-des-traumatises-craniens-graves-a-la-phase-precoce'],
   sujet_age_esf: ['anesthesie-du-sujet-age-lexemple-de-fracture-de-lextremite-superieure-du-femur', 'rfe-anesthesie-du-sujet-age'],
-  bris_dentaires: ['bris-dentaires-perianesthesiques', 'Bris-dentaires-perianesthesiques']
+  bris_dentaires: ['bris-dentaires-perianesthesiques', 'Bris-dentaires-perianesthesiques'],
+  douleur_reactualisation_2016: ['reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire', 'RFE-ANREA-Reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire'],
+  protection_oculaire: ['protection-oculaire-en-anesthesie-et-reanimation', 'Protection-oculaire-en-Anesthesie-et-Reanimation']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1031,6 +1035,30 @@ var DOC_META = {
     methodology: "Pas de GRADE — accord fort global (vote du groupe de travail), sans distinction individuelle entre propositions",
     pages: 4,
     url: "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_COURT_Bris-dentaires-perianesthesiques-copie.pdf"
+  },
+  douleur_reactualisation_2016: {
+    key: 'douleur_reactualisation_2016',
+    badge: '17 recos',
+    title: "Douleur postopératoire — réactualisation 2016",
+    short: "Réactualisation 2016 de la RFE SFAR sur la douleur postopératoire : complète (ne remplace pas) la RFE 2008 sur des questions non traitées ou des recommandations modifiées. Évaluation de la DPO (échelles enfant/patient non communicant, dépistage DCPC/DN4), thérapeutiques médicamenteuses systémique/orale (AINS, oxycodone, lidocaïne IV, dexaméthasone, kétamine, gabapentinoïdes), et anesthésie locale/locorégionale postopératoire (cathéters périnerveux/péridural/infiltration). 17 recommandations formalisées.",
+    society: "SFAR — RFE 2016",
+    version: "2016 (Anesth Reanim. 2016;2:421-430)",
+    validated: "Texte validé par le conseil d'administration de la Sfar le 17/06/2016",
+    methodology: "GRADE® (1+/1-/2+/2- ou avis d'experts) + vote Delphi/GRADE Grid (accord fort/faible)",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2016/09/RFE-ANREA-Reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire.pdf"
+  },
+  protection_oculaire: {
+    key: 'protection_oculaire',
+    badge: 'GRADE 1/2 + AE',
+    title: "Protection oculaire en anesthésie et réanimation",
+    short: "Prévention des complications oculaires liées à une perte de conscience prolongée : lésions cornéennes en anesthésie (occlusion palpébrale par bandes adhésives, lubrifiants pour les chirurgies à risque, formation des équipes) et en réanimation (dépistage à la fluorescéine, gel aqueux/chambres humides), et prévention des lésions rétiniennes par occlusion de l'artère centrale de la rétine et neuropathies optiques ischémiques aiguës (têtières adaptées, contrôle de la compression oculaire, position, hémodynamique en chirurgie du rachis). 12 recommandations, 3 chapitres.",
+    society: "SFAR / SFO / SRLF — RFE 2016",
+    version: "2016 (Anesth Reanim. 2016, ANREA-135)",
+    validated: "Validé par le Conseil d'administration de la SFAR le 14/03/2016",
+    methodology: "GRADE 1+/2+ + avis d'experts — disclosure d'une incohérence source-interne sur le décompte total des recommandations (« 10 » annoncé vs 12 recomptées)",
+    pages: 9,
+    url: "https://sfar.org/wp-content/uploads/2016/03/Protection-oculaire-en-Anesthesie-et-Reanimation-1.pdf"
   }
 };
 

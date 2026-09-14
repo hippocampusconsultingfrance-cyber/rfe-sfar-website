@@ -84,7 +84,8 @@ var RAW = {
   candidoses_aspergilloses: JSON.parse(document.getElementById('content-candidoses_aspergilloses').textContent),
   catheters_veineux_centraux: JSON.parse(document.getElementById('content-catheters_veineux_centraux').textContent),
   sauv: JSON.parse(document.getElementById('content-sauv').textContent),
-  relations_anesth_chir: JSON.parse(document.getElementById('content-relations_anesth_chir').textContent)
+  relations_anesth_chir: JSON.parse(document.getElementById('content-relations_anesth_chir').textContent),
+  erreurs_medicamenteuses: JSON.parse(document.getElementById('content-erreurs_medicamenteuses').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -170,7 +171,8 @@ var FICHE_HREF_MATCH = {
   candidoses_aspergilloses: ['candidoses-et-aspergilloses-invasives-de-ladulte', 'Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte'],
   catheters_veineux_centraux: ['infections-liees-aux-catheters-veineux-centraux-en-reanimation-3', '1-s2.0-S1624069303000513-main'],
   sauv: ['salle-d-accueil-des-urgences-vitales'],
-  relations_anesth_chir: ['196-reco-anesth-chir-autres-2001']
+  relations_anesth_chir: ['196-reco-anesth-chir-autres-2001'],
+  erreurs_medicamenteuses: ['preverreurmedic_recos']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1143,6 +1145,18 @@ var DOC_META = {
     methodology: "Texte déontologique/juridique — articles du code de déontologie et du code de la santé publique, aucun système de cotation scientifique",
     pages: 20,
     url: "https://sfar.org/wp-content/uploads/2014/04/196-reco-anesth-chir-autres-2001.pdf"
+  },
+  erreurs_medicamenteuses: {
+    key: 'erreurs_medicamenteuses',
+    badge: 'Sans cotation',
+    title: "Prévention des erreurs médicamenteuses en anesthésie",
+    short: "Recommandations SFAR (novembre 2006) : état des lieux épidémiologique (1 erreur sur 900 à 130 anesthésies), modélisation par arbre des pannes des mécanismes d'erreur (reconstitution et administration), prévention des erreurs de reconstitution (spécialité, dilution, étiquetage), prévention des erreurs d'administration (voie, seringues) avec le tableau complet des codes couleurs/trames internationaux par classe pharmacologique (curarisants en rouge, opioïdes en bleu, anesthésiques locaux en gris...). Texte narratif appuyé sur 20 références bibliographiques, aucun système de cotation GRADE.",
+    society: "SFAR — Comité Analyse et Maîtrise du Risque",
+    version: "Novembre 2006",
+    validated: "Comité Analyse et Maîtrise du Risque de la SFAR",
+    methodology: "Texte narratif appuyé sur bibliographie (20 références), aucun système de cotation GRADE ni niveau de preuve individuel",
+    pages: 7,
+    url: "https://sfar.org/wp-content/uploads/2014/04/preverreurmedic_recos.pdf"
   }
 };
 

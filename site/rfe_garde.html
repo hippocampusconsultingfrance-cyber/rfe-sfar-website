@@ -106038,6 +106038,612 @@ td.align-c, th.align-c{ text-align:center; }
   }
  ]
 }</script>
+<script id="content-erreurs_medicamenteuses" type="application/json">{
+ "doc": "erreurs_medicamenteuses",
+ "sections": [
+  {
+   "title": "Méthodologie, état des lieux, origine (Figure 1) & recommandations générales",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> recommandations de la SFAR (novembre 2006) sur la prévention des erreurs médicamenteuses en anesthésie — rédigées par un groupe d'experts, amendées et validées par le Comité Analyse et Maîtrise du Risque de la SFAR.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie :</b> texte narratif appuyé sur une bibliographie de 20 références (citées entre crochets, ex. [1], [16-19]) — <b>aucun système de cotation GRADE ni niveau de preuve individuel</b> par recommandation. Le texte source précise lui-même qu'il existe très peu de travaux ayant prouvé de manière irréfutable l'efficacité des mesures de prévention évoquées : les recommandations reposent sur un consensus d'experts, restitué ici en panneaux et tableaux thématiques, jamais en chip de grade inventé.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "État des lieux",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Les erreurs médicamenteuses sont fréquentes, à toutes les étapes du processus thérapeutique : l'erreur survient de 1 fois sur 100 à 1 fois sur 10 à chaque étape du circuit du médicament (prescription ; dispensation, reconstitution, administration). Environ 1 % de ces erreurs entraînent un événement indésirable grave (EIG) évitable. Aux États-Unis, elles représentent la 4<sup>e</sup> cause d'EIG déclarés et sont responsables d'environ 7 000 décès annuels évitables. En France, elles provoquent un EIG toutes les 2 000 journées d'hospitalisation, soit environ 70 000 EIG par an (estimation sur la base de 140 millions de journées d'hospitalisation/an).",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>En anesthésie</b>, les rares études publiées montrent qu'une erreur médicamenteuse survient de 1 fois sur 900 à 1 fois sur 130 anesthésies. En estimant 5 médicaments administrés en moyenne par anesthésie, la fréquence par administration serait de l'ordre de 1 fois sur 10 000 à 1 fois sur 1 000 — chiffre vraisemblablement sous-estimé (déclarations volontaires, méthode peu adaptée) : la fréquence observée pourrait être jusqu'à 400 fois supérieure à celle déclarée.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "Répartition des erreurs relevées en anesthésie, par ordre de fréquence décroissante : seringues et ampoules (50 %) ; dispositifs médicaux d'administration (26 %) ; voie d'administration (14 %). Pour les erreurs de seringues/ampoules : 62 % de confusion de spécialité, 11 % d'erreur de concentration. Lors d'une confusion de spécialités, l'erreur survient dans 55 % des cas à l'administration (erreur de seringue) et dans 45 % pendant la reconstitution (erreur de spécialité, erreur d'étiquetage).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "Il n'existe que très peu de travaux ayant prouvé de manière irréfutable l'efficacité des mesures de prévention évoquées dans la littérature (étiquetage des seringues/perfusions, rangement des plateaux d'anesthésie, médicaments prêts à l'emploi). L'élaboration de ces recommandations par la SFAR est néanmoins justifiée par : la fréquence élevée des erreurs, leur gravité potentielle, leur caractère évitable et leur faible acceptabilité ; l'influence connue de l'environnement de travail sur la probabilité d'erreurs humaines dans les domaines industriels à risque ; la publication de recommandations/normes dans d'autres pays (Australie, Canada, États-Unis, Nouvelle-Zélande, Royaume-Uni).",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Origine des erreurs médicamenteuses — Figure 1",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Modélisation par la méthode de l'arbre des pannes (Ph. Garnerin, 2006), à partir des combinaisons d'erreurs élémentaires pouvant survenir aux étapes menant à l'administration du médicament. Deux catégories : erreurs de reconstitution (spécialité, dilution, étiquetage) et erreurs d'administration (seringue, voie d'administration, volume/débit, moment, patient). Arbre reproduit ci-dessous en tableau (nœud, porte logique ET/OU, composantes) depuis un rendu visuel de la Figure 1 — aucune couche texte fiable dans le PDF source pour ce schéma.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Nœud de l'arbre",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Décomposition",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Erreur médicamenteuse <i>(erreur résultante)</i>",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "= Erreur de reconstitution <b>OU</b> Erreur d'administration",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Erreur de reconstitution <i>(erreur intermédiaire)</i>",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "= Erreur de spécialité <b>OU</b> Erreur de dilution <b>OU</b> Erreur d'étiquetage",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&nbsp;&nbsp;- Erreur de spécialité <i>(erreur intermédiaire)</i>",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "= Erreur de sélection (spécialité) <b>ET</b> Erreur de contrôle (spécialité) <i>(erreurs élémentaires)</i>",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&nbsp;&nbsp;- Erreur de dilution",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "<i>Erreur non détaillée</i>",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&nbsp;&nbsp;- Erreur d'étiquetage",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "<i>Erreur non détaillée</i>",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Erreur d'administration <i>(erreur intermédiaire)</i>",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "= Erreur de seringue <b>OU</b> Erreur de voie d'administration <b>OU</b> Erreur de volume ou de débit <b>OU</b> Erreur de moment <b>OU</b> Erreur de patient",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&nbsp;&nbsp;- Erreur de seringue <i>(erreur intermédiaire)</i>",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "= Erreur de sélection (seringue) <b>ET</b> Erreur de contrôle (seringue) <i>(erreurs élémentaires)</i>",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&nbsp;&nbsp;- Erreur de voie d'administration <i>(erreur intermédiaire)</i>",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "= Erreur de sélection (voie) <b>ET</b> Erreur de contrôle (voie) <i>(erreurs élémentaires)</i>",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&nbsp;&nbsp;- Erreur de volume ou de débit",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "<i>Erreur non détaillée</i>",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&nbsp;&nbsp;- Erreur de moment",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "<i>Erreur non détaillée</i>",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&nbsp;&nbsp;- Erreur de patient",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "<i>Erreur non détaillée</i>",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Légende des symboles source :</b> rectangle arrondi = erreur résultante ; rectangle = erreur intermédiaire ; losange = erreur non détaillée ; cercle = erreur élémentaire.",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "Le modèle met en évidence que les erreurs de spécialité, de seringue et de voie d'administration résultent toutes de la combinaison d'une erreur de <b>sélection</b> et d'une erreur de <b>contrôle</b>. La prévention de ces erreurs implique donc la combinaison de <b>mesures actives</b> de contrôle et de <b>mesures passives</b> destinées à en renforcer l'efficacité et à réduire les possibilités d'interversion.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Recommandations — Généralités",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Une structure de soins réalisant des anesthésies doit mener une réflexion pérenne sur les moyens à mettre en œuvre pour prévenir les erreurs médicamenteuses, aboutissant à des mesures de prévention spécifiques, communes à toute la structure et formalisées par écrit. Les actions mises en place doivent être réévaluées régulièrement. Les événements médicamenteux indésirables évitables, avérés ou potentiels, doivent pouvoir être déclarés — notamment à la commission du médicament et des dispositifs médicaux stériles — et faire l'objet d'une analyse détaillée, de préférence interdisciplinaire. L'ensemble de la démarche conduite par la structure doit être documenté, et les preuves de son existence apportées.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>Périmètre :</b> les mesures détaillées ci-dessous concernent l'ensemble des erreurs de reconstitution, ainsi que 2 erreurs d'administration (voie d'administration, seringues). Sont explicitement <b>exclues</b> de ce document : la prévention des erreurs de moment et des erreurs de volume/débit (relevant essentiellement des dispositifs médicaux d'administration — choix, paramétrage, maintenance, formation) ; la prévention des erreurs de patient (objet d'une recommandation spécifique séparée, non détaillée ici).",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Prévention des erreurs de reconstitution",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "D'une manière générale, des dispositions destinées à limiter les perturbations lors des tâches de préparation des médicaments devraient être prises.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Erreurs de spécialité :</b> contrôle actif des informations notées sur le conditionnement, par lecture attentive (nécessité à rappeler périodiquement), complété par des mesures passives :",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "&bull; choix des médicaments d'anesthésie restreint au strict nécessaire, en concertation avec le pharmacien de l'établissement ;<br/>&bull; stock disponible de chaque spécialité restreint au minimum ;<br/>&bull; système de rangement clair et commun (armoires, chariots d'urgence, table d'anesthésie, plateaux) ;<br/>&bull; médicaments et concentrations disponibles limités aux seuls régulièrement utilisés ;<br/>&bull; identification, signalement et, si possible, élimination systématiques des similitudes de forme/couleur/dénomination entre spécialités présentes ;<br/>&bull; information des utilisateurs de tout changement affectant les médicaments mis à disposition ;<br/>&bull; prise en compte, dans la réflexion générale, du retour des médicaments non utilisés vers leur lieu de rangement initial (source d'erreur).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Erreurs de dilution :</b> protocoles de préparation des médicaments, faciles à mettre en œuvre, si possible communs à la structure d'anesthésie et aux autres structures de soins aigus de l'institution — précisant les modalités de reconstitution, la concentration (mg/ml, µg/ml, UI/ml), le volume à préparer et celui de la seringue utilisée. En accord avec le pharmacien : associations médicamenteuses utilisables et durée de conservation des préparations précisées. Le recours à des médicaments prêts à l'emploi (industrie pharmaceutique ou pharmacie de l'institution) devrait être encouragé.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Erreurs d'étiquetage :</b> chaque médicament doit être reconstitué et étiqueté au cours d'une seule séquence de gestes, par la même personne, sans interruption ni changement de lieu.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Prévention des erreurs d'administration, Tableau 1 & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Prévention des erreurs d'administration",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Erreurs de voie d'administration :</b> contrôle actif du point d'insertion de la voie (nécessité à rappeler périodiquement), complété par des mesures passives : voies d'administration identifiées par étiquettes mentionnant explicitement leur nature, apposées à proximité du patient et de tous les points d'entrée ; présence de robinets sur les cathéters/tubulures d'ALR à éviter ; recours à des systèmes physiques de limitation des erreurs (détrompeurs à connectique différente selon la voie, cathéters de couleur/forme différentes, ex. hélicoïdal) à considérer.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>Erreurs de seringues</b> (administration directe ou continue) : contrôle actif par lecture attentive des informations de l'étiquette (rappel périodique), complété par des mesures passives :",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "&bull; seringues systématiquement étiquetées, étiquette lisible sans masquer les graduations ;<br/>&bull; interdiction d'utiliser une seringue sans nom de spécialité ou sans concentration ;<br/>&bull; système uniforme d'étiquetage au sein de la structure, comprenant des étiquettes autocollantes pré-imprimées (DCI du médicament) et un emplacement libre réservé à la concentration (unité pré-imprimée) ;<br/>&bull; système d'étiquetage appuyé sur les codes internationaux de couleurs et de trames par classe pharmacologique (tableau ci-dessous) ;<br/>&bull; combinaison variable de majuscules/minuscules à considérer comme moyen supplémentaire (ex. DOBUTamine, DOPAmine, ATROpine, aPROTInine) ;<br/>&bull; sauf médicaments de l'urgence, pas de préparation à l'avance si l'utilisation pendant l'anesthésie n'est pas certaine ;<br/>&bull; sauf nécessité absolue, pas de plusieurs concentrations du même médicament simultanément disponibles sur un même plateau ;<br/>&bull; seringues préparées rangées dans les plateaux selon un plan prédéfini, commun à toute la structure ;<br/>&bull; plateaux d'anesthésie protégés, portant la date et l'heure de préparation et l'identification du préparateur.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 1 — Identification des seringues des médicaments de l'anesthésie : codes internationaux de couleurs et de trames</b> (reproduit verbatim)",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe pharmacologique",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Exemples",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Couleur Pantone® et trame",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anti-émétiques",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Métoclopramide, ondansétron",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Saumon 156",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hypnotiques",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Thiopental, étomidate, kétamine, propofol",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Jaune",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Benzodiazépines",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Diazépam, midazolam",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Orange 151",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antagoniste des benzodiazépines",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Flumazénil",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Orange 151 + bandes blanches diagonales",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Curarisants",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Succinylcholine, atracurium, cisatracurium, vécuronium, rocuronium",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Rouge fluorescent 805 ou rouge vif",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antagonistes des curarisants",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Néostigmine",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Rouge fluorescent 805/rouge vif + bandes blanches diagonales",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Opioïdes",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Morphine, fentanyl, sufentanil, rémifentanil, alfentanil",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Bleu 297",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antagonistes des opioïdes",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Naloxone",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Bleu 297 + bandes blanches diagonales",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neuroleptiques",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Dropéridol",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Saumon 156",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sympathomimétiques",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Adrénaline, noradrénaline, éphédrine, phényléphrine",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Violet 256",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anti-hypertenseurs",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Nicardipine, nitroglycérine, phentolamine",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Violet 256 + bandes blanches diagonales",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anesthésiques locaux",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Lidocaïne, bupivacaïne, ropivacaïne, lévobupivacaïne, mépivacaïne",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Gris 401",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anticholinergiques",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Atropine",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Vert 367",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autres",
+        "style": "body_sm"
+       },
+       {
+        "t": "p",
+        "html": "Ocytocine, héparine, protamine, antibiotiques",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Blanc (protamine : blanc + bandes noires diagonales)",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Nb : les agents antagonistes sont identifiés à l'aide d'étiquettes dont la trame est hachurée.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prévention des erreurs médicamenteuses en anesthésie » — Recommandations de la SFAR, novembre 2006. Rédigé par G. Aulagner, P. Dewachter, P. Diemunsch, Ph. Garnerin, M. Latourte, Q. Levrat, A. Mignon, V. Piriou ; amendé et validé par le Comité Analyse et Maîtrise du Risque de la SFAR.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> novembre 2006.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> texte narratif appuyé sur 20 références bibliographiques, sans système de cotation GRADE — voir disclosure méthodologique en page 1.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2014/04/preverreurmedic_recos.pdf",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité du texte (état des lieux, Figure 1 — arbre des pannes complet, recommandations générales, prévention des erreurs de reconstitution et d'administration, Tableau 1 — codes couleurs/trames) et la bibliographie complète ci-dessous.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Bibliographie (20 références) :</b> 1. Dean B et al., Qual Saf Health Care 2002;11:340-4. 2. Van den Bemt PM et al., Drug Saf 2002;25:135-43. 3. Dean BS et al., Am J Health Syst Pharm 1995;52:2543-9. 4. Taxis K et al., Pharm World Sci 1999;21:25-31. 5. Cina JL et al., Jt Comm J Qual Patient Saf 2006;32:73-80. 6. Bates DW et al., J Gen Intern Med 1995;10:99-205. 7. JCAHO, Sentinel event statistics, 31 déc. 2005. 8. Phillips D et al., Lancet 1998;351:643-4. 9. Michel P et al., Études et résultats, DREES 2005. 10. Fasting S, Gisvold SE, Can J Anaesth 2000;47:1060-7. 11. Webster CS et al., Anaesth Intensive Care 2001;29:494-500. 12. Flynn EA et al., Am J Health Syst Pharm 2002;59:436-46. 13. Abeysekera A et al., Anaesthesia 2005;60:220-7. 14. Jensen LS et al., Anaesthesia 2004;59:493-504. 15. Gertman DI, Blackman HS, Human reliability and safety analysis data handbook, 1994. 16. CAN/CSA-Z264.3, 1998. 17. ASTM D4774, 1994. 18. AS/NZS 4375, 1996. 19. Royal College of Anaesthetists — AAGBI, Syringe labelling in critical care areas, juin 2004. 20. CEI/IEC 1025, Analyse par arbre des pannes, 1990.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2006 :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des recommandations du texte source (dont la Figure 1, transcrite depuis un rendu visuel du PDF faute de couche texte fiable, et le Tableau 1 des codes couleurs), mais ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR. Les pratiques d'étiquetage et de prévention des erreurs médicamenteuses ayant pu évoluer depuis 2006 (recommandations plus récentes, nouveaux dispositifs), se référer à un avis spécialisé et aux recommandations actualisées avant toute décision.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}</script>
 <script id="content-library" type="application/json">[
  {
   "year": "2026",
@@ -108884,7 +109490,8 @@ var RAW = {
   candidoses_aspergilloses: JSON.parse(document.getElementById('content-candidoses_aspergilloses').textContent),
   catheters_veineux_centraux: JSON.parse(document.getElementById('content-catheters_veineux_centraux').textContent),
   sauv: JSON.parse(document.getElementById('content-sauv').textContent),
-  relations_anesth_chir: JSON.parse(document.getElementById('content-relations_anesth_chir').textContent)
+  relations_anesth_chir: JSON.parse(document.getElementById('content-relations_anesth_chir').textContent),
+  erreurs_medicamenteuses: JSON.parse(document.getElementById('content-erreurs_medicamenteuses').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -108970,7 +109577,8 @@ var FICHE_HREF_MATCH = {
   candidoses_aspergilloses: ['candidoses-et-aspergilloses-invasives-de-ladulte', 'Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte'],
   catheters_veineux_centraux: ['infections-liees-aux-catheters-veineux-centraux-en-reanimation-3', '1-s2.0-S1624069303000513-main'],
   sauv: ['salle-d-accueil-des-urgences-vitales'],
-  relations_anesth_chir: ['196-reco-anesth-chir-autres-2001']
+  relations_anesth_chir: ['196-reco-anesth-chir-autres-2001'],
+  erreurs_medicamenteuses: ['preverreurmedic_recos']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -109943,6 +110551,18 @@ var DOC_META = {
     methodology: "Texte déontologique/juridique — articles du code de déontologie et du code de la santé publique, aucun système de cotation scientifique",
     pages: 20,
     url: "https://sfar.org/wp-content/uploads/2014/04/196-reco-anesth-chir-autres-2001.pdf"
+  },
+  erreurs_medicamenteuses: {
+    key: 'erreurs_medicamenteuses',
+    badge: 'Sans cotation',
+    title: "Prévention des erreurs médicamenteuses en anesthésie",
+    short: "Recommandations SFAR (novembre 2006) : état des lieux épidémiologique (1 erreur sur 900 à 130 anesthésies), modélisation par arbre des pannes des mécanismes d'erreur (reconstitution et administration), prévention des erreurs de reconstitution (spécialité, dilution, étiquetage), prévention des erreurs d'administration (voie, seringues) avec le tableau complet des codes couleurs/trames internationaux par classe pharmacologique (curarisants en rouge, opioïdes en bleu, anesthésiques locaux en gris...). Texte narratif appuyé sur 20 références bibliographiques, aucun système de cotation GRADE.",
+    society: "SFAR — Comité Analyse et Maîtrise du Risque",
+    version: "Novembre 2006",
+    validated: "Comité Analyse et Maîtrise du Risque de la SFAR",
+    methodology: "Texte narratif appuyé sur bibliographie (20 références), aucun système de cotation GRADE ni niveau de preuve individuel",
+    pages: 7,
+    url: "https://sfar.org/wp-content/uploads/2014/04/preverreurmedic_recos.pdf"
   }
 };
 

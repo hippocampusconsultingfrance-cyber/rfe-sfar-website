@@ -1361,6 +1361,29 @@ def extract_amygdalectomie_enfant():
     return {"doc": "amygdalectomie_enfant", "sections": blocks}
 
 
+def extract_erreurs_medicamenteuses():
+    import style
+    import fiche_erreurs_medicamenteuses as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "erreurs_medicamenteuses", "sections": blocks}
+
+
 def extract_relations_anesth_chir():
     import style
     import fiche_relations_anesth_chir as m
@@ -2166,3 +2189,12 @@ if __name__ == "__main__":
         json.dump(relations_anesth_chir, f, ensure_ascii=False, indent=1)
     print("relations_anesth_chir sections:", len(relations_anesth_chir["sections"]),
           "total blocks:", sum(len(s["items"]) for s in relations_anesth_chir["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    erreurs_medicamenteuses = extract_erreurs_medicamenteuses()
+    with open(os.path.join(BUILD_DIR, "content_erreurs_medicamenteuses.json"), "w") as f:
+        json.dump(erreurs_medicamenteuses, f, ensure_ascii=False, indent=1)
+    print("erreurs_medicamenteuses sections:", len(erreurs_medicamenteuses["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in erreurs_medicamenteuses["sections"]))

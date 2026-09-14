@@ -168,6 +168,8 @@ with open(os.path.join(BASE, "content_sauv.json"), encoding="utf-8") as f:
     content_sauv = f.read()
 with open(os.path.join(BASE, "content_relations_anesth_chir.json"), encoding="utf-8") as f:
     content_relations_anesth_chir = f.read()
+with open(os.path.join(BASE, "content_erreurs_medicamenteuses.json"), encoding="utf-8") as f:
+    content_erreurs_medicamenteuses = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -257,6 +259,7 @@ out = out.replace("__CONTENT_CANDIDOSES_ASPERGILLOSES__", safe(content_candidose
 out = out.replace("__CONTENT_CATHETERS_VEINEUX_CENTRAUX__", safe(content_catheters_veineux_centraux))
 out = out.replace("__CONTENT_SAUV__", safe(content_sauv))
 out = out.replace("__CONTENT_RELATIONS_ANESTH_CHIR__", safe(content_relations_anesth_chir))
+out = out.replace("__CONTENT_ERREURS_MEDICAMENTEUSES__", safe(content_erreurs_medicamenteuses))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

@@ -32,7 +32,31 @@ anesthesistes, chirurgie ambulatoire, transfusions sanguines),
 sages-femmes/gynecologues-obstetriciens/anesthesistes-reanimateurs (analgesie
 peridurale obstetricale), infirmier(e)s anesthesistes diplome(e)s d'Etat
 (IADE - competences, responsabilites exclusives du medecin), et les
-remerciements (liste complete du groupe de travail 2001). Rien n'est omis.
+remerciements (liste complete du groupe de travail 2001, avec titres de
+fonction et le remerciement particulier a Lienhart/Fagniez).
+
+CORRECTIONS POST-AUDIT : un audit independant (subagent aveugle au
+brouillon) a trouve que le premier jet, malgre son propre docstring
+affirmant "rien n'est omis", omettait en realite : la quasi-totalite du
+contenu propre de la Preface 2001 (decrets 95-1000/98-899/98-900,
+motivation demographique/juridique) - ajoutee ; le point IVG/sterilisation
+contraceptive (loi n 2001-586) en 1.1, et la phrase sur les condamnations
+pour manque de cooperation - ajoutes ; l'article 42 (renvoi dans la
+citation de l'art. 36) - ajoute ; le point evaluation des pratiques
+professionnelles en 2.1 - ajoute ; le detail dossier medical en 1.2,
+protocoles therapeutiques en 4.6, info patient en 4.9, materiel/
+medicaments des sages-femmes et dossier medical commun en 5, plage
+D.712-40 a 51 en 4.1 - ajoutes ; la clause "cardiologue, pneumologue" et
+la phrase "intervenir sans delai" en 6 (IADE) - ajoutees ; Mme Rolande
+GRENTE (Ordre des sages-femmes), absente de la premiere liste de
+remerciements, et le paragraphe de remerciement particulier a Lienhart/
+Fagniez - ajoutes, avec restauration des titres de fonction exacts de
+chaque personne citee. DISCLOSURE non resolue (regle CLAUDE.md point 5) :
+la source cite le meme texte legislatif du 4 juillet 2001 sous deux
+numeros differents - "loi n 2001-586" (1.1, clause de conscience
+sterilisation) et "loi n 2001-588" (1.2, consentement d'une mineure a
+l'IVG) - reproduits tels quels, la divergence signalee explicitement dans
+le corps du texte (1.2) plutot que tranchee.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -78,7 +102,7 @@ def bullets(items, style=S_BODY_SM):
     html = "&bull; " + "<br/>&bull; ".join(items)
     return P(html, style)
 
-TOTAL_PAGES = {"n": 5}
+TOTAL_PAGES = {"n": 6}
 
 def on_page(canvas, doc, page_title):
     header_band(canvas, doc, "CONSEIL NATIONAL DE L'ORDRE DES MÉDECINS — ÉDITION 2001",
@@ -108,7 +132,23 @@ def _section_intro():
         "thématiques, jamais en chip de grade inventé.", S_BODY_SM),
         bg=AMBER_LIGHT, border=AMBER))
     story.append(Spacer(1, 3 * mm))
-    story.append(section_bar("Préambule (1994) & principes déontologiques"))
+    story.append(section_bar("Préface (2001) & préambule (1994)"))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "<b>Préface (Pr Bernard Hoerni, 17 octobre 2001) :</b> depuis 1994, de "
+        "nouvelles questions sont apparues (dont l'information du patient) et de "
+        "nombreux textes réglementaires ont été publiés — le nouveau code de "
+        "déontologie médicale (<b>décret n° 95-1000</b> du 6 septembre 1995), le "
+        "décret n° 94-1050 du 5 décembre 1994 sur la pratique de l'anesthésie, les "
+        "<b>décrets n° 98-899 et 98-900</b> du 9 octobre 1998 sur les activités "
+        "d'obstétrique, de néonatologie ou de réanimation néonatale. Les praticiens, "
+        "de plus en plus préoccupés par les risques judiciaires, sollicitent l'aide de "
+        "leur Ordre et de leurs organisations professionnelles ; les initiatives des "
+        "professionnels (référentiels) et des pouvoirs publics (accréditation) en "
+        "matière d'assurance qualité se sont multipliées ; le déclin annoncé de la "
+        "démographie médicale dans certaines spécialités chirurgicales, et surtout "
+        "chez les anesthésistes-réanimateurs, rend impérieux un relèvement du numerus "
+        "clausus. D'où l'actualisation de ces recommandations.", S_BODY_SM))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
         "L'anesthésiste-réanimateur, initialement partenaire du chirurgien, est devenu "
@@ -118,6 +158,8 @@ def _section_intro():
         "collabore, d'où un consensus incontournable, seule garantie pour le patient. "
         "Ce texte rappelle les responsabilités des uns et des autres, dans un esprit de "
         "respect mutuel et de confraternité.", S_BODY_SM))
+    story.append(Spacer(1, 2.5 * mm))
+    story.append(section_bar("1 — Les principes déontologiques"))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P("<b>1.1 — Généralités :</b> les règles du code de déontologie "
                     "s'appliquent entre confrères de disciplines différentes mais "
@@ -147,9 +189,15 @@ def _section_intro():
         "l'anesthésiste informe l'opérateur de toute contre-indication anesthésique ou "
         "difficulté suspectée. L'opérateur doit tenir compte de l'avis de l'anesthésiste "
         "et ne peut lui imposer d'agir contre sa conscience (clause de conscience pour "
-        "l'IVG, art. 18). En cas de désaccord, une conciliation doit être recherchée "
-        "(confrères, hiérarchie médicale, CME/conférence médicale, instances "
-        "ordinales) — le patient ne doit jamais être témoin ou otage du différend.",
+        "l'IVG, art. 18 — de même, selon la loi n° 2001-586 du 4 juillet 2001 relative à "
+        "l'IVG et à la contraception, un médecin n'est jamais tenu de pratiquer une "
+        "stérilisation à visée contraceptive, mais doit en informer l'intéressée dès la "
+        "première consultation). En cas de désaccord, une conciliation doit être "
+        "recherchée (confrères, hiérarchie médicale, CME/conférence médicale, instances "
+        "ordinales) — le patient ne doit jamais être témoin ou otage du différend. Des "
+        "condamnations ont été prononcées contre des chirurgiens et des anesthésistes-"
+        "réanimateurs non pas en raison de fautes techniques propres à chaque "
+        "discipline, mais pour un manque de coopération préjudiciable au patient.",
         S_BODY_SM))
     return story
 
@@ -163,8 +211,10 @@ def _section_information():
           "loyale, claire et appropriée) ; <b>art. 36</b> (consentement recherché dans "
           "tous les cas, respect du refus après information des conséquences, "
           "information des proches si le patient ne peut exprimer sa volonté sauf "
-          "urgence) ; <b>art. 64</b> (médecins collaborant à un traitement, information "
-          "mutuelle, chacun veillant à l'information du malade). L'ANAES recommande que "
+          "urgence — les obligations envers un mineur ou un majeur protégé sont "
+          "définies à l'<b>art. 42</b>) ; <b>art. 64</b> (médecins collaborant à un "
+          "traitement, information mutuelle, chacun veillant à l'information du "
+          "malade). L'ANAES recommande que "
           "chaque médecin informe des éléments relevant de sa discipline, sans supposer "
           "que d'autres l'ont déjà fait.", S_BODY),
     ]))
@@ -185,13 +235,20 @@ def _section_information():
         "inévitable entre les deux informations, à gérer avec tact (chacun donne une "
         "idée du risque global, sans esquiver les questions ni les « renvoyer » sur le "
         "confrère). Le dossier médical doit conserver une trace écrite de l'information "
-        "donnée ; si le médecin informant n'est pas celui qui interviendra, il en "
-        "informe le patient et transmet les renseignements nécessaires.", S_BODY_SM))
+        "donnée, et permettre à tout médecin devant apporter ses soins au patient de "
+        "comprendre la nature de l'intervention chirurgicale, de la technique "
+        "anesthésique et de l'éventuelle réanimation envisagées ; si le médecin "
+        "informant n'est pas celui qui interviendra, il en informe le patient et "
+        "transmet les renseignements nécessaires.", S_BODY_SM))
     story.append(Spacer(1, 1.2 * mm))
     story.append(P(
         "Cas particulier : une mineure peut consentir seule à une IVG et aux actes liés "
-        "(loi du 4 juillet 2001) — l'anesthésiste doit s'assurer que ce consentement a "
-        "bien été obtenu.", S_NOTE))
+        "(loi n° 2001-588 du 4 juillet 2001) — l'anesthésiste doit s'assurer que ce "
+        "consentement a bien été obtenu. <i>Disclosure : la source cite ce même texte "
+        "législatif du 4 juillet 2001 sous deux numéros différents à deux endroits "
+        "(« n° 2001-586 » en 1.1 à propos de la clause de conscience pour la "
+        "stérilisation contraceptive, « n° 2001-588 » ici) — incohérence interne "
+        "reproduite telle quelle, non tranchée par cette fiche.</i>", S_NOTE))
     return story
 
 def _section_intro_information():
@@ -212,7 +269,10 @@ def _section_organisation_structures():
           "recommandé que anesthésistes-réanimateurs, chirurgiens et autres "
           "professionnels rédigent et cosignent des chartes de fonctionnement, prenant "
           "en compte les recommandations de bonne pratique des sociétés savantes "
-          "validées par l'ANAES.", S_BODY),
+          "validées par l'ANAES. Le développement de l'évaluation des pratiques "
+          "professionnelles, qui a reçu une consécration législative et "
+          "réglementaire pour les médecins libéraux, participe de la même évolution.",
+          S_BODY),
     ]))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
@@ -262,7 +322,8 @@ def _section_organisation_structures_information():
 # ---------------------------------------------------------------------------
 MISE_EN_OEUVRE_ROWS = [
     ("4.1 — Consultation pré-anesthésique",
-     "Obligatoire (décret n° 94-1050) pour toute anesthésie générale ou locorégionale ; "
+     "Obligatoire (décret n° 94-1050, codifié aux articles D.712-40 à D.712-51 du code "
+     "de la santé publique) pour toute anesthésie générale ou locorégionale ; "
      "réalisée à distance de l'intervention pour un consentement libre et éclairé. "
      "L'opérateur rappelle son intérêt et sa nécessité au patient. Intégrée dans une "
      "procédure commune d'évaluation préopératoire. Locaux, moyens et secrétariat "
@@ -314,9 +375,12 @@ MISE_EN_OEUVRE_ROWS = [
      "qui répond des suites opératoires ; le règlement interne précise les procédures "
      "en cas d'événement inopiné/complication tardive. Règles de fonctionnement "
      "formalisées après concertation plutôt que des accords tacites, pour limiter les "
-     "erreurs de transmission. En urgence, la déontologie exclut qu'un médecin se "
-     "retranche derrière sa spécialité pour s'exonérer de sa mission d'assistance en "
-     "cas de complication post-opératoire."),
+     "erreurs de transmission. Selon les façons de travailler de l'équipe, les "
+     "protocoles thérapeutiques préciseront des modalités strictes ou une politique "
+     "plus générale de prescription, dans le but de préserver un plus large espace de "
+     "liberté ; les prescriptions devront être consignées par écrit. En urgence, la "
+     "déontologie exclut qu'un médecin se retranche derrière sa spécialité pour "
+     "s'exonérer de sa mission d'assistance en cas de complication post-opératoire."),
     ("4.7 — Anesthésie/sédation par des spécialistes non anesthésistes-réanimateurs",
      "Une anesthésie générale ou locorégionale ne peut être mise en œuvre sans "
      "anesthésiste-réanimateur (déontologie et code de la santé publique, art. D.712-40 "
@@ -342,7 +406,9 @@ MISE_EN_OEUVRE_ROWS = [
      "Responsabilité au chirurgien, à l'anesthésiste, ou aux deux. Préopératoire : le "
      "chirurgien détient l'essentiel de l'information (technique, difficultés "
      "prévisibles, risque hémorragique) à porter au dossier ; l'anesthésiste évalue "
-     "les besoins et organise les moyens. Peropératoire : information mutuelle, le "
+     "les besoins et organise les moyens. Chacun tient le patient informé de "
+     "l'éventualité ou de la nécessité de la transfusion. Peropératoire : information "
+     "mutuelle, le "
      "chirurgien vérifie sa transmission ; l'anesthésiste commande qualitativement/"
      "quantitativement les produits et réalise la transfusion. Post-opératoire : "
      "responsabilité selon l'organisation (anesthésiste si soins intensifs sous sa "
@@ -371,7 +437,10 @@ def _section_sages_femmes():
                     "réanimateurs"),
         Spacer(1, 1.5 * mm),
         P("Les sages-femmes, profession médicale à part entière (Ordre et code de "
-          "déontologie propres), doivent appeler le gynécologue-obstétricien de garde "
+          "déontologie propres), sont régies par des textes législatifs et "
+          "réglementaires déterminant leurs règles d'exercice professionnel et fixant "
+          "le matériel qu'elles peuvent employer et les médicaments qu'elles peuvent "
+          "prescrire. Elles doivent appeler le gynécologue-obstétricien de garde "
           "en cas d'accouchement dystocique ou de suites de couches pathologiques, et "
           "un médecin anesthésiste-réanimateur pour tout acte autorisé susceptible de "
           "nécessiter une anesthésie autre que locale. Pour les autres actes, la "
@@ -407,7 +476,10 @@ def _section_sages_femmes():
         "disponibles pendant tout le séjour en salle de naissance, avec délais "
         "compatibles avec la sécurité. Toute sage-femme qui s'estime ne pas être en "
         "mesure d'assurer une technique en sécurité peut légitimement refuser sa prise "
-        "en charge. Des réunions de concertation régulières (chartes, protocoles, "
+        "en charge. De façon générale, la tenue d'un dossier médical rempli par les "
+        "différents intervenants et comprenant l'ensemble des données intéressant le "
+        "déroulement de l'accouchement permet d'améliorer la prise en charge de la "
+        "parturiente. Des réunions de concertation régulières (chartes, protocoles, "
         "information sur les nouveaux produits) sont recommandées.", S_BODY_SM))
     return story
 
@@ -444,7 +516,9 @@ def _section_iade():
         "en soins intensifs/réanimation chirurgicale (toujours sous responsabilité "
         "médicale). Le décret n° 94-1050 (art. D.712-49) impose la présence "
         "permanente d'au moins un IDE formé (si possible IADE) en SSPI, et au moins "
-        "deux agents dont un IDE formé si la SSPI a ≥ 6 postes occupés. Les IADE "
+        "deux agents dont un IDE formé si la SSPI a ≥ 6 postes occupés — ce personnel "
+        "paramédical est placé sous la responsabilité médicale d'un médecin "
+        "anesthésiste-réanimateur qui doit pouvoir intervenir sans délai. Les IADE "
         "peuvent participer aux transports inter/intra-hospitaliers et pratiquer des "
         "gestes sur prescription du médecin de l'équipe ; le SMUR étant un service "
         "médicalisé, l'IADE ne peut l'assurer seul.", S_BODY_SM))
@@ -453,7 +527,8 @@ def _section_iade():
                     "anesthésiste-réanimateur :", S_BODY_SM))
     story.append(Spacer(1, 1 * mm))
     story.append(bullets([
-        "la consultation pré-anesthésique ;",
+        "la consultation pré-anesthésique, même si l'anesthésiste peut s'entourer "
+        "d'autres avis spécialisés (cardiologue, pneumologue…) ;",
         "la prescription de l'anesthésie (type, agents, modalités de surveillance) ;",
         "le geste technique d'ALR (bloc tronculaire/plexique, rachianesthésie, "
         "péridurale/caudale, anesthésie locale IV) ;",
@@ -501,21 +576,30 @@ def _section_sources():
                     "sages-femmes/gynécologues-obstétriciens, IADE).", S_SOURCE))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
-        "<b>Remerciements (groupe de travail 2001) :</b> Pr J.-Y. Artigou (Société "
-        "française de cardiologie), N. Atéchian et F. Bicheron (Ordre des sages-"
-        "femmes), Dr J.-M. Canard et Pr J. Escourrou (Société française d'endoscopie "
-        "digestive), Dr G.-M. Cousin et Pr J.-R. Giraud (Syndicat national des "
-        "gynécologues et obstétriciens français), Dr J.-M. Dumeix (Syndicat national "
-        "des anesthésiologistes-réanimateurs français), Pr P.-L. Fagniez (chirurgie "
-        "digestive, Conseil national des Universités), Dr J. Garric et Dr R. Torrielli "
-        "(Syndicat national des praticiens hospitaliers anesthésistes-réanimateurs "
-        "français), Pr B. Glorion, Dr D. Grunwald, Pr J. Langlois et Dr F.-X. Léandri "
-        "(Conseil national de l'Ordre des médecins), Pr P. Legmann (Société française "
-        "de radiologie), Dr M. Lévy (Syndicat national des anesthésiologistes-"
-        "réanimateurs français), Pr A. Lienhart (Président SFAR), Dr M. Malafosse "
-        "(Association française de chirurgie), Dr J. Meurette (Union des chirurgiens "
-        "français), Dr M. Palot (SFAR), et le Syndicat national des médecins "
-        "anesthésistes-réanimateurs des hôpitaux non universitaires.", S_SOURCE))
+        "<b>Remerciements (groupe de travail 2001) :</b> Pr J.-Y. Artigou, Secrétaire "
+        "de la Société française de cardiologie ; Mme N. Atéchian, Présidente du "
+        "Conseil national de l'Ordre des sages-femmes ; Mme F. Bicheron, Conseil "
+        "national de l'Ordre des sages-femmes ; Dr J.-M. Canard, Secrétaire général de "
+        "la Société française d'endoscopie digestive ; Dr G.-M. Cousin, Secrétaire "
+        "général du Syndicat national des gynécologues et obstétriciens français ; "
+        "Dr J.-M. Dumeix, Président du Syndicat national des anesthésiologistes-"
+        "réanimateurs français ; Pr J. Escourrou, Société française d'endoscopie "
+        "digestive ; Pr P.-L. Fagniez, Président de la section de chirurgie digestive "
+        "au Conseil national des Universités ; Dr J. Garric, ex-Président du Syndicat "
+        "national des praticiens hospitaliers anesthésistes-réanimateurs ; "
+        "Pr J.-R. Giraud, Président du Syndicat national des gynécologues et "
+        "obstétriciens français ; Pr B. Glorion, Mme R. Grente, Dr D. Grunwald, "
+        "Pr J. Langlois et Dr F.-X. Léandri (Conseil national de l'Ordre des "
+        "médecins) ; Pr P. Legmann, Société française de radiologie ; Dr M. Lévy, "
+        "Secrétaire général du Syndicat national des anesthésiologistes-réanimateurs "
+        "français ; Pr A. Lienhart, Président de la SFAR ; Dr M. Malafosse, Président "
+        "de l'Association française de chirurgie ; Dr J. Meurette, Président de "
+        "l'Union des chirurgiens français ; Dr M. Palot, SFAR ; Dr R. Torrielli, "
+        "Syndicat national des praticiens hospitaliers anesthésistes-réanimateurs "
+        "français ; et en collaboration avec le Syndicat national des médecins "
+        "anesthésistes-réanimateurs des hôpitaux non universitaires. Remerciement "
+        "particulier aux Pr A. Lienhart et Pr P.-L. Fagniez pour la constance de leur "
+        "collaboration et la pertinence de leurs réflexions.", S_SOURCE))
     story.append(Spacer(1, 3 * mm))
     story.append(info_panel(P(
         "<b>Avertissement — document de 2001 :</b> ce document est une fiche de "

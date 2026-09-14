@@ -78,7 +78,8 @@ var RAW = {
   sujet_age_esf: JSON.parse(document.getElementById('content-sujet_age_esf').textContent),
   bris_dentaires: JSON.parse(document.getElementById('content-bris_dentaires').textContent),
   douleur_reactualisation_2016: JSON.parse(document.getElementById('content-douleur_reactualisation_2016').textContent),
-  protection_oculaire: JSON.parse(document.getElementById('content-protection_oculaire').textContent)
+  protection_oculaire: JSON.parse(document.getElementById('content-protection_oculaire').textContent),
+  ponction_lombaire: JSON.parse(document.getElementById('content-ponction_lombaire').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -158,7 +159,8 @@ var FICHE_HREF_MATCH = {
   sujet_age_esf: ['anesthesie-du-sujet-age-lexemple-de-fracture-de-lextremite-superieure-du-femur', 'rfe-anesthesie-du-sujet-age'],
   bris_dentaires: ['bris-dentaires-perianesthesiques', 'Bris-dentaires-perianesthesiques'],
   douleur_reactualisation_2016: ['reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire', 'RFE-ANREA-Reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire'],
-  protection_oculaire: ['protection-oculaire-en-anesthesie-et-reanimation', 'Protection-oculaire-en-Anesthesie-et-Reanimation']
+  protection_oculaire: ['protection-oculaire-en-anesthesie-et-reanimation', 'Protection-oculaire-en-Anesthesie-et-Reanimation'],
+  ponction_lombaire: ['ponction_lombaire', 'fm_ponction_lombaire']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1059,6 +1061,18 @@ var DOC_META = {
     methodology: "GRADE 1+/2+ + avis d'experts — disclosure d'une incohérence source-interne sur le décompte total des recommandations (« 10 » annoncé vs 12 recomptées)",
     pages: 9,
     url: "https://sfar.org/wp-content/uploads/2016/03/Protection-oculaire-en-Anesthesie-et-Reanimation-1.pdf"
+  },
+  ponction_lombaire: {
+    key: 'ponction_lombaire',
+    badge: 'Fiche mémo',
+    title: "Ponction lombaire — prévention et prise en charge des effets indésirables",
+    short: "Fiche mémo HAS : indications et contre-indications formelles (hypertension intracrânienne, infections au point de ponction, thrombopénie < 50 G/L, troubles de l'hémostase) de la ponction lombaire, modalités de réalisation (aiguille atraumatique ≤22G avec introducteur, asepsie, formation), effets indésirables — syndrome post-PL (céphalée orthostatique, signes d'alerte de complication grave), hématomes, infections — traitement par blood-patch, et spécificités pédiatriques (choix de l'aiguille, angle, analgésie). Pas de système GRADE : synthèse de la littérature sans cotation d'accord.",
+    society: "HAS — Fiche mémo 2019",
+    version: "Juin 2019",
+    validated: "Haute Autorité de Santé",
+    methodology: "Fiche mémo — synthèse de la littérature, sans système GRADE ni cotation d'accord",
+    pages: 7,
+    url: "https://www.has-sante.fr/upload/docs/application/pdf/2019-07/fm_ponction_lombaire.pdf"
   }
 };
 

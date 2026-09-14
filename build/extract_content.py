@@ -1315,6 +1315,29 @@ def extract_douleur_reactualisation_2016():
     return {"doc": "douleur_reactualisation_2016", "sections": blocks}
 
 
+def extract_ponction_lombaire():
+    import style
+    import fiche_ponction_lombaire as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "ponction_lombaire", "sections": blocks}
+
+
 def extract_bris_dentaires():
     import style
     import fiche_bris_dentaires as m
@@ -1974,3 +1997,12 @@ if __name__ == "__main__":
         json.dump(douleur_reactualisation_2016, f, ensure_ascii=False, indent=1)
     print("douleur_reactualisation_2016 sections:", len(douleur_reactualisation_2016["sections"]),
           "total blocks:", sum(len(s["items"]) for s in douleur_reactualisation_2016["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    ponction_lombaire = extract_ponction_lombaire()
+    with open(os.path.join(BUILD_DIR, "content_ponction_lombaire.json"), "w") as f:
+        json.dump(ponction_lombaire, f, ensure_ascii=False, indent=1)
+    print("ponction_lombaire sections:", len(ponction_lombaire["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in ponction_lombaire["sections"]))

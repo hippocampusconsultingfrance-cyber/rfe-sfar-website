@@ -1361,6 +1361,29 @@ def extract_amygdalectomie_enfant():
     return {"doc": "amygdalectomie_enfant", "sections": blocks}
 
 
+def extract_sauv():
+    import style
+    import fiche_sauv as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "sauv", "sections": blocks}
+
+
 def extract_catheters_veineux_centraux():
     import style
     import fiche_catheters_veineux_centraux as m
@@ -2102,3 +2125,12 @@ if __name__ == "__main__":
         json.dump(catheters_veineux_centraux, f, ensure_ascii=False, indent=1)
     print("catheters_veineux_centraux sections:", len(catheters_veineux_centraux["sections"]),
           "total blocks:", sum(len(s["items"]) for s in catheters_veineux_centraux["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    sauv = extract_sauv()
+    with open(os.path.join(BUILD_DIR, "content_sauv.json"), "w") as f:
+        json.dump(sauv, f, ensure_ascii=False, indent=1)
+    print("sauv sections:", len(sauv["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in sauv["sections"]))

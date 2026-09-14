@@ -82,7 +82,8 @@ var RAW = {
   ponction_lombaire: JSON.parse(document.getElementById('content-ponction_lombaire').textContent),
   amygdalectomie_enfant: JSON.parse(document.getElementById('content-amygdalectomie_enfant').textContent),
   candidoses_aspergilloses: JSON.parse(document.getElementById('content-candidoses_aspergilloses').textContent),
-  catheters_veineux_centraux: JSON.parse(document.getElementById('content-catheters_veineux_centraux').textContent)
+  catheters_veineux_centraux: JSON.parse(document.getElementById('content-catheters_veineux_centraux').textContent),
+  sauv: JSON.parse(document.getElementById('content-sauv').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -166,7 +167,8 @@ var FICHE_HREF_MATCH = {
   ponction_lombaire: ['ponction_lombaire', 'fm_ponction_lombaire'],
   amygdalectomie_enfant: ['amygdalectomie', '2a_SFAR_TEXTE-COURT_Anesthesie-pour-amygdalectomie'],
   candidoses_aspergilloses: ['candidoses-et-aspergilloses-invasives-de-ladulte', 'Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte'],
-  catheters_veineux_centraux: ['infections-liees-aux-catheters-veineux-centraux-en-reanimation-3', '1-s2.0-S1624069303000513-main']
+  catheters_veineux_centraux: ['infections-liees-aux-catheters-veineux-centraux-en-reanimation-3', '1-s2.0-S1624069303000513-main'],
+  sauv: ['salle-d-accueil-des-urgences-vitales']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1115,6 +1117,18 @@ var DOC_META = {
     methodology: "Conférence de consensus — grille Niveau de recommandation (1-3) / Score d'évaluation des études (a-d), légende publiée par la source",
     pages: 8,
     url: "https://sfar.org/wp-content/uploads/2015/10/1-s2.0-S1624069303000513-main.pdf"
+  },
+  sauv: {
+    key: 'sauv',
+    badge: 'Sans cotation',
+    title: "Salle d'accueil des urgences vitales (SAUV)",
+    short: "Recommandations organisationnelles SFMU/Samu de France/SRLF/SFAR (2003-2004) pour la mise en place, la gestion et l'évaluation d'une SAUV (« salle de déchoquage ») : critères d'admission, architecture (localisation, accès, structure — surface ≥ 25 m², emplacements minimaux), équipement Niveau 1 (services non SAU) et Niveau 2 (SAU) détaillé par domaine (réanimation respiratoire, cardiovasculaire, médicaments, immobilisation), collaboration (Samu-Smur, anesthésie-réanimation, consultants, services d'aval), ressources humaines (effectifs minimaux, formation), procédures et évaluation. Aucun système de cotation — recommandations organisationnelles normatives.",
+    society: "SFMU / Samu de France / SRLF / SFAR — Recommandations 2003-2004",
+    version: "5 novembre 2003 (publié 2004)",
+    validated: "Sociétés savantes participantes (SFMU à l'initiative)",
+    methodology: "Texte organisationnel/réglementaire — aucun système de cotation ni niveau de preuve individuel",
+    pages: 6,
+    url: "https://sfar.org/wp-content/uploads/2016/01/Recommandations-concernant-la-mise-en-place-la-gestion-l-utilisation-et-l-evaluation-d-une-salle-d-accueil-des-urgences-vitales.pdf"
   }
 };
 

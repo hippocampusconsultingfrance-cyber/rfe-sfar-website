@@ -48,6 +48,26 @@ question 3/1.1, retranscrits en tableaux Situation/Conduite depuis un rendu
 200dpi de la page 5, logique de branchement verifiee exhaustivement ;
 chimio-prophylaxie ; strategie des aspergilloses invasives) + le colophon
 jury/comite d'organisation (page 8). Rien n'est omis.
+
+CORRECTION POST-AUDIT (branchement de l'Arbre 1, question 3/1.1.1) : un
+audit independant (subagent aveugle au brouillon) a signale une erreur sur
+la ligne "Creat < 1,5N - non-neutropenique - traitement anterieur par
+azole" d'ARBRE1_ROWS, initialement transcrite vers le bloc Cancidas/
+Ambisome. Re-verification manuelle a un zoom tres eleve (900dpi, crop cible
+sur les seules fleches OUI/NON de cette question) : l'audit avait LUI AUSSI
+mal lu ce croisement de fleches (il proposait de fusionner cette ligne avec
+la ligne "sans traitement anterieur", ce qui est egalement faux). Lecture
+definitive, confirmee par la coherence clinique de l'ensemble de l'arbre 1
+(cf. les deux flowables OUI/NON de "NEUTROPENIQUE ... nephrotoxiques ?" et
+de "NON-NEUTROPENIQUE ... azole ?" convergent en X : OUI(nephrotoxiques) va
+au bloc Cancidas/Ambisome, NON(nephrotoxiques) et OUI(azole anterieur)
+convergent tous deux vers "Fungizone IV 1 mg/kg/j" seul, et NON(azole
+anterieur) seul va vers "Fungizone OU Triflucan") : la ligne corrigee cible
+donc "Fungizone IV 1 mg/kg/j" (monotherapie, pas de Triflucan propose en
+cas d'exposition azolee anterieure - coherent avec le reste de l'arbre, qui
+retire systematiquement le Triflucan de la liste des options des qu'un
+antecedent d'exposition aux azoles existe). Toutes les 6 autres lignes des
+deux arbres, deja verifiees par l'audit, restent inchangees.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -358,7 +378,7 @@ ARBRE1_ROWS = [
     ("Créatininémie < 1,5 N — non-neutropénique — sans traitement antérieur par azolé",
      "Fungizone® IV 1 mg/kg/j OU Triflucan® IV 12 mg/kg/j"),
     ("Créatininémie < 1,5 N — non-neutropénique — traitement antérieur par azolé",
-     "Cancidas® IV (70 mg J1 puis 50 mg/j) OU Ambisome® IV 3 mg/kg/j"),
+     "Fungizone® IV 1 mg/kg/j"),
     ("Créatininémie ≥ 1,5 N — non-neutropénique — sans traitement antérieur par azolé",
      "Triflucan® IV 12 mg/kg/j"),
     ("Créatininémie ≥ 1,5 N — non-neutropénique — traitement antérieur par azolé",

@@ -160,6 +160,8 @@ with open(os.path.join(BASE, "content_ponction_lombaire.json"), encoding="utf-8"
     content_ponction_lombaire = f.read()
 with open(os.path.join(BASE, "content_amygdalectomie_enfant.json"), encoding="utf-8") as f:
     content_amygdalectomie_enfant = f.read()
+with open(os.path.join(BASE, "content_candidoses_aspergilloses.json"), encoding="utf-8") as f:
+    content_candidoses_aspergilloses = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -245,6 +247,7 @@ out = out.replace("__CONTENT_DOULEUR_REACTUALISATION_2016__", safe(content_doule
 out = out.replace("__CONTENT_PROTECTION_OCULAIRE__", safe(content_protection_oculaire))
 out = out.replace("__CONTENT_PONCTION_LOMBAIRE__", safe(content_ponction_lombaire))
 out = out.replace("__CONTENT_AMYGDALECTOMIE_ENFANT__", safe(content_amygdalectomie_enfant))
+out = out.replace("__CONTENT_CANDIDOSES_ASPERGILLOSES__", safe(content_candidoses_aspergilloses))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

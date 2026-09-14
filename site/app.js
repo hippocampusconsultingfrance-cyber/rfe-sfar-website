@@ -80,7 +80,8 @@ var RAW = {
   douleur_reactualisation_2016: JSON.parse(document.getElementById('content-douleur_reactualisation_2016').textContent),
   protection_oculaire: JSON.parse(document.getElementById('content-protection_oculaire').textContent),
   ponction_lombaire: JSON.parse(document.getElementById('content-ponction_lombaire').textContent),
-  amygdalectomie_enfant: JSON.parse(document.getElementById('content-amygdalectomie_enfant').textContent)
+  amygdalectomie_enfant: JSON.parse(document.getElementById('content-amygdalectomie_enfant').textContent),
+  candidoses_aspergilloses: JSON.parse(document.getElementById('content-candidoses_aspergilloses').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -162,7 +163,8 @@ var FICHE_HREF_MATCH = {
   douleur_reactualisation_2016: ['reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire', 'RFE-ANREA-Reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire'],
   protection_oculaire: ['protection-oculaire-en-anesthesie-et-reanimation', 'Protection-oculaire-en-Anesthesie-et-Reanimation'],
   ponction_lombaire: ['ponction_lombaire', 'fm_ponction_lombaire'],
-  amygdalectomie_enfant: ['amygdalectomie', '2a_SFAR_TEXTE-COURT_Anesthesie-pour-amygdalectomie']
+  amygdalectomie_enfant: ['amygdalectomie', '2a_SFAR_TEXTE-COURT_Anesthesie-pour-amygdalectomie'],
+  candidoses_aspergilloses: ['candidoses-et-aspergilloses-invasives-de-ladulte', 'Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1087,6 +1089,18 @@ var DOC_META = {
     methodology: "Conférence d'experts — Grade A/B/C (niveau de preuve) + Accord RAND/UCLA modifié (fort/faible) selon la proposition",
     pages: 8,
     url: "https://sfar.org/wp-content/uploads/2015/10/2a_SFAR_TEXTE-COURT_Anesthesie-pour-amygdalectomie-chez-lenfant.pdf"
+  },
+  candidoses_aspergilloses: {
+    key: 'candidoses_aspergilloses',
+    badge: 'Cotation A/B/C + 1/2/3',
+    title: "Candidoses et aspergilloses invasives de l'adulte",
+    short: "Conférence de Consensus commune SFAR/SPILF/SRLF (2004), 5 questions : diagnostic (examen direct systématique, antigénémie aspergillaire ELISA, TDM thoracique/signe du halo), moyens thérapeutiques (spectre d'activité et effets indésirables des 4 familles d'antifongiques, tableaux reproduits verbatim), stratégie des candidoses systémiques (2 arbres décisionnels selon créatininémie/neutropénie/azolé antérieur, retranscrits en tableaux Situation/Conduite), chimio-prophylaxie, et stratégie des aspergilloses invasives (voriconazole en 1ère ligne). Cotation lettre+chiffre (A1, B3, C3…) sans légende publiée dans ce document « Résumé » — disclosure méthodologique en page 1.",
+    society: "SFAR / SPILF / SRLF — Conférence de Consensus commune 2004",
+    version: "13 mai 2004",
+    validated: "Comité des Référentiels de la Sfar",
+    methodology: "Conférence de Consensus — cotation lettre+chiffre (A1/A2/B2/B3/C3…), légende non publiée dans le texte « Résumé »",
+    pages: 8,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte.pdf"
   }
 };
 

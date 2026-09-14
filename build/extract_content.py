@@ -1361,6 +1361,29 @@ def extract_amygdalectomie_enfant():
     return {"doc": "amygdalectomie_enfant", "sections": blocks}
 
 
+def extract_candidoses_aspergilloses():
+    import style
+    import fiche_candidoses_aspergilloses as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "candidoses_aspergilloses", "sections": blocks}
+
+
 def extract_bris_dentaires():
     import style
     import fiche_bris_dentaires as m
@@ -2038,3 +2061,12 @@ if __name__ == "__main__":
         json.dump(amygdalectomie_enfant, f, ensure_ascii=False, indent=1)
     print("amygdalectomie_enfant sections:", len(amygdalectomie_enfant["sections"]),
           "total blocks:", sum(len(s["items"]) for s in amygdalectomie_enfant["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    candidoses_aspergilloses = extract_candidoses_aspergilloses()
+    with open(os.path.join(BUILD_DIR, "content_candidoses_aspergilloses.json"), "w") as f:
+        json.dump(candidoses_aspergilloses, f, ensure_ascii=False, indent=1)
+    print("candidoses_aspergilloses sections:", len(candidoses_aspergilloses["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in candidoses_aspergilloses["sections"]))

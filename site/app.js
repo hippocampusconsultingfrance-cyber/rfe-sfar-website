@@ -85,7 +85,8 @@ var RAW = {
   catheters_veineux_centraux: JSON.parse(document.getElementById('content-catheters_veineux_centraux').textContent),
   sauv: JSON.parse(document.getElementById('content-sauv').textContent),
   relations_anesth_chir: JSON.parse(document.getElementById('content-relations_anesth_chir').textContent),
-  erreurs_medicamenteuses: JSON.parse(document.getElementById('content-erreurs_medicamenteuses').textContent)
+  erreurs_medicamenteuses: JSON.parse(document.getElementById('content-erreurs_medicamenteuses').textContent),
+  remplissage_perioperatoire: JSON.parse(document.getElementById('content-remplissage_perioperatoire').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -172,7 +173,8 @@ var FICHE_HREF_MATCH = {
   catheters_veineux_centraux: ['infections-liees-aux-catheters-veineux-centraux-en-reanimation-3', '1-s2.0-S1624069303000513-main'],
   sauv: ['salle-d-accueil-des-urgences-vitales'],
   relations_anesth_chir: ['196-reco-anesth-chir-autres-2001'],
-  erreurs_medicamenteuses: ['preverreurmedic_recos']
+  erreurs_medicamenteuses: ['preverreurmedic_recos'],
+  remplissage_perioperatoire: ['strategie-du-remplissage-vasculaire-perioperatoire-2', '2a_AFAR_FRANCAIS_Strategie-du-remplissage-vasculaire-perioperatoire']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1157,6 +1159,18 @@ var DOC_META = {
     methodology: "Texte narratif appuyé sur bibliographie (20 références), aucun système de cotation GRADE ni niveau de preuve individuel",
     pages: 7,
     url: "https://sfar.org/wp-content/uploads/2014/04/preverreurmedic_recos.pdf"
+  },
+  remplissage_perioperatoire: {
+    key: 'remplissage_perioperatoire',
+    badge: 'GRADE',
+    title: "Stratégie du remplissage vasculaire périopératoire",
+    short: "RFE SFAR/Adarpef (19 octobre 2012) : titration du remplissage peropératoire guidée sur le volume d'éjection systolique (VES) chez le patient chirurgical à haut risque (Figure 1 — algorithme de titration par bolus de 200±50 mL), remplissage en chirurgie mineure et en obstétrique (péridurale, rachianesthésie pour césarienne, coremplissage/vasoconstricteurs, prééclampsie), et situations particulières (allergies aux colloïdes, HEA et fonction rénale/hémostase, donneurs en mort encéphalique, patient cérébrolésé, pédiatrie règle 4-2-1). 15 recommandations, méthode GRADE.",
+    society: "SFAR / Adarpef",
+    version: "19 octobre 2012",
+    validated: "Conseil d'administration de la Sfar",
+    methodology: "Méthode GRADE — qualité des preuves en 4 catégories, force de recommandation forte (1+/1-) ou faible (2+/2-), avis d'experts (AE) en l'absence d'évaluation quantifiée",
+    pages: 9,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2a_AFAR_FRANCAIS_Strategie-du-remplissage-vasculaire-perioperatoire.pdf"
   }
 };
 

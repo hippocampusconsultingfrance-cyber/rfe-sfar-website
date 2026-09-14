@@ -81,7 +81,8 @@ var RAW = {
   protection_oculaire: JSON.parse(document.getElementById('content-protection_oculaire').textContent),
   ponction_lombaire: JSON.parse(document.getElementById('content-ponction_lombaire').textContent),
   amygdalectomie_enfant: JSON.parse(document.getElementById('content-amygdalectomie_enfant').textContent),
-  candidoses_aspergilloses: JSON.parse(document.getElementById('content-candidoses_aspergilloses').textContent)
+  candidoses_aspergilloses: JSON.parse(document.getElementById('content-candidoses_aspergilloses').textContent),
+  catheters_veineux_centraux: JSON.parse(document.getElementById('content-catheters_veineux_centraux').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -164,7 +165,8 @@ var FICHE_HREF_MATCH = {
   protection_oculaire: ['protection-oculaire-en-anesthesie-et-reanimation', 'Protection-oculaire-en-Anesthesie-et-Reanimation'],
   ponction_lombaire: ['ponction_lombaire', 'fm_ponction_lombaire'],
   amygdalectomie_enfant: ['amygdalectomie', '2a_SFAR_TEXTE-COURT_Anesthesie-pour-amygdalectomie'],
-  candidoses_aspergilloses: ['candidoses-et-aspergilloses-invasives-de-ladulte', 'Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte']
+  candidoses_aspergilloses: ['candidoses-et-aspergilloses-invasives-de-ladulte', 'Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte'],
+  catheters_veineux_centraux: ['infections-liees-aux-catheters-veineux-centraux-en-reanimation-3', '1-s2.0-S1624069303000513-main']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1101,6 +1103,18 @@ var DOC_META = {
     methodology: "Conférence de Consensus — cotation lettre+chiffre (A1/A2/B2/B3/C3…), légende non publiée dans le texte « Résumé »",
     pages: 8,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte.pdf"
+  },
+  catheters_veineux_centraux: {
+    key: 'catheters_veineux_centraux',
+    badge: 'Niveau 1-3 + Score a-d',
+    title: "Infections liées aux cathéters veineux centraux en réanimation",
+    short: "Réactualisation de la 12e conférence de consensus SRLF (2003), 5 questions : définition et diagnostic de l'ILC (hémocultures quantitatives couplées, délai différentiel de positivation, techniques « cathéter en place »), mécanismes de contamination/colonisation, facteurs de risque et morbi-mortalité, prévention (10 sous-thèmes : matériel, technique de pose, site d'accès, pansement, antiseptique, entretien de ligne, politique générale, Swan-Ganz, cathéters de dialyse), et stratégie diagnostique/thérapeutique initiale avec l'algorithme décisionnel complet (Figure 1, retranscrit en tableau Étape/Conduite). Grille méthodologique Niveau (1-3)/Score (a-d) publiée intégralement par la source.",
+    society: "SRLF — Réactualisation de la 12e Conférence de Consensus, 2003",
+    version: "Décembre 2002 / publié 2003",
+    validated: "Société de Réanimation de Langue Française",
+    methodology: "Conférence de consensus — grille Niveau de recommandation (1-3) / Score d'évaluation des études (a-d), légende publiée par la source",
+    pages: 8,
+    url: "https://sfar.org/wp-content/uploads/2015/10/1-s2.0-S1624069303000513-main.pdf"
   }
 };
 

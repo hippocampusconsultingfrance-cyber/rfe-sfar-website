@@ -83,7 +83,8 @@ var RAW = {
   amygdalectomie_enfant: JSON.parse(document.getElementById('content-amygdalectomie_enfant').textContent),
   candidoses_aspergilloses: JSON.parse(document.getElementById('content-candidoses_aspergilloses').textContent),
   catheters_veineux_centraux: JSON.parse(document.getElementById('content-catheters_veineux_centraux').textContent),
-  sauv: JSON.parse(document.getElementById('content-sauv').textContent)
+  sauv: JSON.parse(document.getElementById('content-sauv').textContent),
+  relations_anesth_chir: JSON.parse(document.getElementById('content-relations_anesth_chir').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -168,7 +169,8 @@ var FICHE_HREF_MATCH = {
   amygdalectomie_enfant: ['amygdalectomie', '2a_SFAR_TEXTE-COURT_Anesthesie-pour-amygdalectomie'],
   candidoses_aspergilloses: ['candidoses-et-aspergilloses-invasives-de-ladulte', 'Prise-en-charge-des-candidoses-et-aspergilloses-invasives-de-ladulte'],
   catheters_veineux_centraux: ['infections-liees-aux-catheters-veineux-centraux-en-reanimation-3', '1-s2.0-S1624069303000513-main'],
-  sauv: ['salle-d-accueil-des-urgences-vitales']
+  sauv: ['salle-d-accueil-des-urgences-vitales'],
+  relations_anesth_chir: ['196-reco-anesth-chir-autres-2001']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1129,6 +1131,18 @@ var DOC_META = {
     methodology: "Texte organisationnel/réglementaire — aucun système de cotation ni niveau de preuve individuel",
     pages: 6,
     url: "https://sfar.org/wp-content/uploads/2016/01/Recommandations-concernant-la-mise-en-place-la-gestion-l-utilisation-et-l-evaluation-d-une-salle-d-accueil-des-urgences-vitales.pdf"
+  },
+  relations_anesth_chir: {
+    key: 'relations_anesth_chir',
+    badge: 'Sans cotation',
+    title: "Relations anesthésistes-réanimateurs / chirurgiens",
+    short: "Recommandations du Conseil national de l'Ordre des médecins (2001, actualisation d'un texte de 1994) sur les relations entre anesthésistes-réanimateurs, chirurgiens, autres spécialistes et professionnels de santé : principes déontologiques (obligation d'information, articles 35/36/64 du code de déontologie), organisation (chartes de fonctionnement), structures publiques/privées, mise en œuvre en 9 points (consultation pré-anesthésique, programme opératoire, SSPI, soins intensifs, hospitalisation, anesthésie par des non-anesthésistes, chirurgie ambulatoire, transfusions), sages-femmes/gynécologues-obstétriciens (analgésie périmédullaire), et infirmiers anesthésistes diplômés d'État (IADE). Texte déontologique/juridique, aucun système de cotation.",
+    society: "Conseil national de l'Ordre des médecins, avec la SFAR — édition 2001",
+    version: "Décembre 2001 (texte original mai 1994)",
+    validated: "Conseil national de l'Ordre des médecins",
+    methodology: "Texte déontologique/juridique — articles du code de déontologie et du code de la santé publique, aucun système de cotation scientifique",
+    pages: 20,
+    url: "https://sfar.org/wp-content/uploads/2014/04/196-reco-anesth-chir-autres-2001.pdf"
   }
 };
 

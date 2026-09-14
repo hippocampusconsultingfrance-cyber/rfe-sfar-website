@@ -1,0 +1,368 @@
+{
+ "doc": "relations_anesth_chir",
+ "sections": [
+  {
+   "title": "Méthodologie, préambule, principes déontologiques & mise en œuvre",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> recommandations du Conseil national de l'Ordre des médecins (CNOM), avec la collaboration de la SFAR et de nombreuses sociétés savantes et syndicats, sur les relations entre anesthésistes-réanimateurs et chirurgiens, autres spécialistes ou professionnels de santé (sages-femmes, infirmiers anesthésistes). Texte de mai 1994, actualisé et réédité en décembre 2001.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie :</b> ce texte est <b>déontologique et juridique</b> — articles du code de déontologie médicale, décrets, articles du code de la santé publique, recommandations de l'ANAES. Il ne comporte <b>aucun système de cotation scientifique</b> (pas de GRADE, pas de niveau de preuve) : chaque recommandation est une règle de bonne pratique organisationnelle ou une obligation légale/déontologique, restituée ici en panneaux et tableaux thématiques, jamais en chip de grade inventé.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Préambule (1994) & principes déontologiques",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'anesthésiste-réanimateur, initialement partenaire du chirurgien, est devenu le collaborateur privilégié d'un grand nombre de spécialistes. Son statut de spécialiste à part entière reste original : son action se confond dans le temps et l'espace avec celle du chirurgien ou du spécialiste avec lequel il collabore, d'où un consensus incontournable, seule garantie pour le patient. Ce texte rappelle les responsabilités des uns et des autres, dans un esprit de respect mutuel et de confraternité.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>1.1 — Généralités :</b> les règles du code de déontologie s'appliquent entre confrères de disciplines différentes mais complémentaires — pas d'injure, d'insulte ou de calomnie, pas de pression matérielle ou morale. Nul médecin ne doit entreprendre d'actes pour lesquels il n'est pas compétent (art. 32 et 70) : recours à un tiers compétent chaque fois que nécessaire.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "Chirurgien et anesthésiste-réanimateur forment une équipe de spécialités complémentaires ; le chirurgien, habituellement premier consulté, organise la prise en charge chirurgicale. La réunion de plusieurs compétences implique une décision collective, la responsabilité restant individuelle (art. 64). L'article 64 permet à chaque médecin de refuser librement sa collaboration ou de la retirer, à condition de ne pas nuire au patient et d'en avertir ses confrères — faculté à utiliser avec précaution (la juridiction ordinale a sanctionné des manquements aux devoirs de dévouement et de continuité des soins, en particulier en situation d'urgence, sans gradation prévue par l'article 47). Un refus de collaboration suppose une information préalable argumentée sur des éléments objectifs.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "L'échange d'informations réciproques doit être le plus large possible (dialogue et écrit) : le chirurgien informe l'anesthésiste des constatations de son examen, des propositions thérapeutiques et de l'importance de l'intervention ; l'anesthésiste informe l'opérateur de toute contre-indication anesthésique ou difficulté suspectée. L'opérateur doit tenir compte de l'avis de l'anesthésiste et ne peut lui imposer d'agir contre sa conscience (clause de conscience pour l'IVG, art. 18). En cas de désaccord, une conciliation doit être recherchée (confrères, hiérarchie médicale, CME/conférence médicale, instances ordinales) — le patient ne doit jamais être témoin ou otage du différend.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "1.2 — L'obligation d'information",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Principes fixés par le code de déontologie : <b>art. 35</b> (information loyale, claire et appropriée) ; <b>art. 36</b> (consentement recherché dans tous les cas, respect du refus après information des conséquences, information des proches si le patient ne peut exprimer sa volonté sauf urgence) ; <b>art. 64</b> (médecins collaborant à un traitement, information mutuelle, chacun veillant à l'information du malade). L'ANAES recommande que chaque médecin informe des éléments relevant de sa discipline, sans supposer que d'autres l'ont déjà fait.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "Contenu de l'information selon l'ANAES : état du patient et évolution prévisible ; description des examens/soins/interventions envisagés et de leurs alternatives ; objectif, utilité, bénéfices escomptés ; conséquences et inconvénients ; complications et risques (y compris exceptionnels) ; précautions recommandées.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Répartition :</b> le chirurgien (ou tout opérateur) informe sur la maladie, l'évolution sans traitement, le motif et les modalités de l'intervention, ses avantages/conséquences/inconvénients/risques et alternatives ; l'anesthésiste-réanimateur informe sur la technique anesthésique envisagée, ses avantages/inconvénients/risques/alternatives, et sur le terrain du patient. Chevauchement inévitable entre les deux informations, à gérer avec tact (chacun donne une idée du risque global, sans esquiver les questions ni les « renvoyer » sur le confrère). Le dossier médical doit conserver une trace écrite de l'information donnée ; si le médecin informant n'est pas celui qui interviendra, il en informe le patient et transmet les renseignements nécessaires.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "Cas particulier : une mineure peut consentir seule à une IVG et aux actes liés (loi du 4 juillet 2001) — l'anesthésiste doit s'assurer que ce consentement a bien été obtenu.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "2 — Principes d'organisation",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>2.1 — Démarches qualité :</b> l'accréditation des établissements de soins (décret n° 97-311) engage à la validation de procédures écrites ; il est recommandé que anesthésistes-réanimateurs, chirurgiens et autres professionnels rédigent et cosignent des chartes de fonctionnement, prenant en compte les recommandations de bonne pratique des sociétés savantes validées par l'ANAES.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>2.2 — Charte de fonctionnement</b> des équipes anesthésiques et chirurgicales : nécessaire, portant sur 5 points — la consultation d'anesthésie, le programme opératoire, le réveil anesthésique, les soins intensifs/réanimation chirurgicale, et l'hospitalisation. Pour chaque point, la répartition des tâches et responsabilités (séparées ou solidaires selon l'organisation publique/privée) doit être explicite.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "3 — Les structures",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Structure",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Points clés",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.1 — Établissement public",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'activité s'exerce dans le cadre d'un service (éventuellement regroupé en structure fédérative en CHU, ou subdivisé en unités fonctionnelles). Affectation des anesthésistes par le chef de service, en tenant compte de leur souhait. Ils relèvent de l'autorité du chef de service d'anesthésie-réanimation, mais participent aux activités du service de chirurgie où ils travaillent, et disposent de locaux propres. Le médecin anesthésiste est responsable du fonctionnement de la SSPI. Rattachement des secteurs de soins intensifs/réanimation chirurgicale selon leur fonctionnement réel : rattaché à l'anesthésie-réanimation si ouvert à plusieurs services de chirurgie ; si rattaché à un service de chirurgie, la responsabilité thérapeutique et l'autorité médicale des anesthésistes y travaillant doivent être reconnues (désignation d'un praticien responsable par accord entre chefs de service).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3.2 — Établissement privé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Relations globalement similaires au public, mais conflits plus spécifiques liés aux intérêts individuels : fixation des honoraires (secteurs conventionnels choisis librement, tact et mesure — art. 53/54 — ; difficulté pour le devis des actes esthétiques, arrêté du 17/10/1996) ; critères de gestion (le statut de propriétaire/actionnaire majoritaire ne peut justifier la privation de moyens indispensables aux patients ni des contraintes abusives — art. 71). Prévention : respect de la déontologie, contrats soumis à l'Ordre, conférences médicales.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4 — Mise en œuvre des principes aux relations anesthésiste-chirurgien",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Point",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandations",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.1 — Consultation pré-anesthésique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Obligatoire (décret n° 94-1050) pour toute anesthésie générale ou locorégionale ; réalisée à distance de l'intervention pour un consentement libre et éclairé. L'opérateur rappelle son intérêt et sa nécessité au patient. Intégrée dans une procédure commune d'évaluation préopératoire. Locaux, moyens et secrétariat adéquats nécessaires (accord explicite public/privé). Il est préférable que l'anesthésiste consultant réalise lui-même la visite pré-anesthésique et l'anesthésie ; sinon, le patient en est informé et le médecin qui opère prend connaissance du dossier avant l'intervention — d'où l'importance d'un dossier médical de qualité, lisible. La multiplication injustifiée des intervenants dilue les responsabilités et augmente les risques de défaut de communication.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.2 — Consultation de cardiologie (ou autre spécialiste) à l'occasion d'une anesthésie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "4 principes : (1) demande précise, réponse en rapport ; le consultant informe le patient si une nouvelle discussion s'impose avant décision définitive ; (2) anesthésiste et opérateur se tiennent mutuellement informés des demandes et résultats ; (3) la décision finale de l'indication et des modalités d'anesthésie relève de l'anesthésiste-réanimateur ; (4) en cas de désaccord, chacun assume ses responsabilités dans son domaine, mais une concertation réelle doit précéder la décision.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.3 — Le programme opératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Établi par les médecins opérateurs, les anesthésistes concernés et le responsable du secteur opératoire (décret n° 94-1050, art. D.712-42), tenant compte des disponibilités de chacun — on ne peut imposer plusieurs anesthésies simultanées à un anesthésiste. Réalisé conjointement (chirurgiens, spécialistes, anesthésistes, responsables du bloc), horaires/ordre d'un commun accord, ponctualité de tous. Recommandé par écrit, signé au plus tard la veille. Gestion des urgences définie à l'avance ; conseils de blocs opératoires encouragés (publics et privés).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.4 — La surveillance post-interventionnelle",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le réveil, temps périlleux de l'anesthésie : fonctionnement de la SSPI prioritaire (moyens définis au décret n° 94-1050, art. D.712-47/49). Suivi sous surveillance conjointe chirurgien/anesthésiste ; l'anesthésiste précise par écrit nature et rythme des soins, le chirurgien consigne par écrit ses prescriptions post-opératoires immédiates (drains, plaie, aspirations) sur le même document versé au dossier. Le personnel de SSPI documente chaque acte et l'heure d'entrée/sortie. La sortie de SSPI n'est décidée que par l'anesthésiste-réanimateur (examen conscience/fonctions vitales) ; l'orientation ultérieure (hospitalisation/soins intensifs) est une décision commune.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.5 — Les soins intensifs et la réanimation chirurgicale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le patient orienté en soins intensifs/réanimation chirurgicale est sous la responsabilité médicale de l'anesthésiste-réanimateur ; certaines décisions restent au chirurgien (mobilisation, ablation sondes/drains). Techniques de réanimation et prescriptions médicamenteuses : anesthésiste-réanimateur, sur protocole écrit précisant les domaines de chacun ; prescriptions écrites, datées et signées (décret n° 93-221 sur les infirmiers), en particulier pour antibiotiques/anticoagulants et pour les examens biologiques/radiologiques (interprétation visée par le prescripteur, jamais anonyme). Entrée/sortie de ces secteurs sur accord conjoint.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.6 — L'hospitalisation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le patient retourné en hospitalisation est sous la responsabilité de l'opérateur, qui répond des suites opératoires ; le règlement interne précise les procédures en cas d'événement inopiné/complication tardive. Règles de fonctionnement formalisées après concertation plutôt que des accords tacites, pour limiter les erreurs de transmission. En urgence, la déontologie exclut qu'un médecin se retranche derrière sa spécialité pour s'exonérer de sa mission d'assistance en cas de complication post-opératoire.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.7 — Anesthésie/sédation par des spécialistes non anesthésistes-réanimateurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une anesthésie générale ou locorégionale ne peut être mise en œuvre sans anesthésiste-réanimateur (déontologie et code de la santé publique, art. D.712-40 et suivants ; art. 40 interdisant un risque injustifié). L'anesthésie locale/sédation par un chirurgien ou autre opérateur requiert formation/expérience particulières et, le cas échéant, le concours de l'anesthésiste — règlement écrit fixant les modalités (consultation pré-anesthésique, prémédication, présence obligatoire ou de recours, passage en SSPI, antalgie post-opératoire). Spécificité notée pour les cardiologues en USIC. En conclusion : soit un acte nécessite un anesthésiste, soit non — les situations intermédiaires sont à éviter.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.8 — La chirurgie ambulatoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie programmée et organisée (décret n° 92-1102, art. D.712-30 à 34), patient au centre du fonctionnement du fait de la très courte durée de séjour. Contraintes : amplitude d'ouverture ≤ 12 h ; présence minimale permanente d'un médecin qualifié plus, en sus, présence permanente d'un anesthésiste-réanimateur dans la structure. Le patient reçoit à sa sortie un bulletin signé mentionnant les intervenants et les consignes post-opératoires/anesthésiques (art. D.712-33). Règlement intérieur commun (fonctionnement médical, sortie concertée, organisation des présences) fait respecter par un médecin coordonnateur (art. D.712-34).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4.9 — Les transfusions sanguines",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Responsabilité au chirurgien, à l'anesthésiste, ou aux deux. Préopératoire : le chirurgien détient l'essentiel de l'information (technique, difficultés prévisibles, risque hémorragique) à porter au dossier ; l'anesthésiste évalue les besoins et organise les moyens. Peropératoire : information mutuelle, le chirurgien vérifie sa transmission ; l'anesthésiste commande qualitativement/quantitativement les produits et réalise la transfusion. Post-opératoire : responsabilité selon l'organisation (anesthésiste si soins intensifs sous sa responsabilité continue ; sinon chirurgien). Documents portant toujours le nom lisible du prescripteur ; motif de la transfusion tracé au dossier ; règlement intérieur recommandé sur ce point.",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Sages-femmes, IADE & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "5 — Sages-femmes, gynécologues-obstétriciens et anesthésistes-réanimateurs",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Les sages-femmes, profession médicale à part entière (Ordre et code de déontologie propres), doivent appeler le gynécologue-obstétricien de garde en cas d'accouchement dystocique ou de suites de couches pathologiques, et un médecin anesthésiste-réanimateur pour tout acte autorisé susceptible de nécessiter une anesthésie autre que locale. Pour les autres actes, la prescription d'intervention est faite par le gynécologue-obstétricien, le choix de la technique anesthésique revenant à l'anesthésiste.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "<b>Analgésie périmédullaire :</b> pour un accouchement présumé normal, la demande peut provenir de la parturiente (déjà vue en consultation pré-anesthésique) — dès accord de principe de l'équipe obstétricale, la sage-femme apprécie le moment et transmet à l'anesthésiste. Pour une cause médicale/obstétricale, la demande est faite par le gynécologue-obstétricien. La décision de réalisation et de technique appartient au médecin anesthésiste-réanimateur. Si la parturiente n'a jamais consulté dans la maternité, la demande vient du gynécologue-obstétricien et la réalisation dépend d'une consultation pré-anesthésique en urgence et des examens de laboratoire disponibles. La sage-femme s'assure de la disponibilité des praticiens de garde/astreinte (charte à préciser). L'anesthésiste, s'il le juge nécessaire, contacte le gynécologue-obstétricien.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "La sage-femme peut participer à l'entretien de l'analgésie locorégionale (hors période d'expulsion) si un anesthésiste est à tout moment disponible à proximité — réinjections par le dispositif posé par le médecin (première injection médicale obligatoire), selon prescriptions écrites et signées ou protocoles validés (modalités, temps de sécurité entre injections, posologies/débit des pompes, ablation du cathéter péridural). La surveillance de l'analgésie péridurale par la sage-femme suppose sa disponibilité et sa compétence : elle ne peut être contrainte à d'autres soins pendant cette surveillance ; tout événement particulier est consigné au dossier d'anesthésie. L'anesthésiste et le gynécologue-obstétricien restent disponibles pendant tout le séjour en salle de naissance, avec délais compatibles avec la sécurité. Toute sage-femme qui s'estime ne pas être en mesure d'assurer une technique en sécurité peut légitimement refuser sa prise en charge. Des réunions de concertation régulières (chartes, protocoles, information sur les nouveaux produits) sont recommandées.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "6 — Les infirmier(e)s anesthésistes diplômé(e)s d'État (IADE)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'anesthésie est un acte médical ne pouvant être pratiqué que par un médecin anesthésiste-réanimateur qualifié. L'IADE aide le médecin mais ne peut entreprendre seul une anesthésie, quel qu'en soit le type, en l'absence d'un médecin qualifié. Il est sous la responsabilité exclusive du médecin anesthésiste-réanimateur et/ou du chef de service — aucun autre spécialiste ne peut s'y substituer ou l'autoriser à exercer seul.",
+     "style": "body"
+    },
+    {
+     "t": "p",
+     "html": "Le médecin peut confier temporairement à l'IADE, sous sa propre responsabilité, la surveillance d'un patient anesthésié ne présentant pas de risque particulier, à condition d'être immédiatement joignable et disponible à proximité. L'IADE participe à toute ALR et pratique des réinjections dès lors que le dispositif a été posé par un médecin, sur prescription écrite. En cas de protocole écrit de soins d'urgence/actes conservatoires jusqu'à l'intervention d'un médecin, l'IADE remet un compte rendu écrit, daté et signé.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "L'anesthésiste doit pouvoir être assisté par un autre médecin et/ou un IADE si nécessaire (début/fin d'anesthésie, moments délicats, complications, actes à risque spécifique) — la présence d'un médecin anesthésiste auprès d'un IADE est toujours nécessaire. Hors bloc, les IADE interviennent en SSPI, assurent le transport intra-établissement des patients anesthésiés/réanimés, exercent en soins intensifs/réanimation chirurgicale (toujours sous responsabilité médicale). Le décret n° 94-1050 (art. D.712-49) impose la présence permanente d'au moins un IDE formé (si possible IADE) en SSPI, et au moins deux agents dont un IDE formé si la SSPI a ≥ 6 postes occupés. Les IADE peuvent participer aux transports inter/intra-hospitaliers et pratiquer des gestes sur prescription du médecin de l'équipe ; le SMUR étant un service médicalisé, l'IADE ne peut l'assurer seul.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "Responsabilités demeurant du ressort exclusif du médecin anesthésiste-réanimateur :",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "&bull; la consultation pré-anesthésique ;<br/>&bull; la prescription de l'anesthésie (type, agents, modalités de surveillance) ;<br/>&bull; le geste technique d'ALR (bloc tronculaire/plexique, rachianesthésie, péridurale/caudale, anesthésie locale IV) ;<br/>&bull; la prescription de médicaments ou transfusions rendus nécessaires en cours d'anesthésie ;<br/>&bull; la mise en œuvre de techniques invasives (voies veineuses profondes, sondes de Swan-Ganz) ;<br/>&bull; la prescription des soins et examens post-opératoires ;<br/>&bull; la décision de sortie de la salle de surveillance post-interventionnelle.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Recommandations concernant les relations entre anesthésistes-réanimateurs et chirurgiens, autres spécialistes ou professionnels de santé ». Conseil national de l'Ordre des médecins, en collaboration avec la SFAR et de nombreuses sociétés savantes/syndicats (cardiologie, endoscopie digestive, chirurgie digestive, gynécologie-obstétrique, radiologie, Ordre des sages-femmes, syndicats d'anesthésistes-réanimateurs).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> texte original mai 1994 (Pr Bernard Glorion, préambule) ; édition actualisée décembre 2001 (Pr Bernard Hoerni, préface), réunions de travail des 12 janvier, 23 février, 21 mars, 6 avril et 29 juin 2001.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> texte déontologique/juridique — articles du code de déontologie médicale, décrets et code de la santé publique, recommandations ANAES ; aucun système de cotation scientifique — voir disclosure méthodologique en page 1.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2014/04/196-reco-anesth-chir-autres-2001.pdf",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité du texte (préface, préambule, principes déontologiques, principes d'organisation, les structures, mise en œuvre en 9 points, sages-femmes/gynécologues-obstétriciens, IADE).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Remerciements (groupe de travail 2001) :</b> Pr J.-Y. Artigou (Société française de cardiologie), N. Atéchian et F. Bicheron (Ordre des sages-femmes), Dr J.-M. Canard et Pr J. Escourrou (Société française d'endoscopie digestive), Dr G.-M. Cousin et Pr J.-R. Giraud (Syndicat national des gynécologues et obstétriciens français), Dr J.-M. Dumeix (Syndicat national des anesthésiologistes-réanimateurs français), Pr P.-L. Fagniez (chirurgie digestive, Conseil national des Universités), Dr J. Garric et Dr R. Torrielli (Syndicat national des praticiens hospitaliers anesthésistes-réanimateurs français), Pr B. Glorion, Dr D. Grunwald, Pr J. Langlois et Dr F.-X. Léandri (Conseil national de l'Ordre des médecins), Pr P. Legmann (Société française de radiologie), Dr M. Lévy (Syndicat national des anesthésiologistes-réanimateurs français), Pr A. Lienhart (Président SFAR), Dr M. Malafosse (Association française de chirurgie), Dr J. Meurette (Union des chirurgiens français), Dr M. Palot (SFAR), et le Syndicat national des médecins anesthésistes-réanimateurs des hôpitaux non universitaires.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2001 :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des recommandations du texte source, mais ne remplace pas le texte intégral et n'est ni éditée ni validée par le CNOM, la SFAR ou les sociétés associées. De nombreux textes réglementaires cités (décrets de 1992 à 1998) ont pu être modifiés, abrogés ou recodifiés depuis 2001 (notamment par le code de la santé publique et le code de déontologie actuels) — se référer aux textes en vigueur et à un avis juridique/ordinal actualisé avant toute décision organisationnelle.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

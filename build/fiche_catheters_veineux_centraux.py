@@ -34,6 +34,34 @@ abreviations (page 1) + le colophon (auteur, comite d'organisation, experts,
 references). Rien n'est omis. Les particularites pediatriques disseminees
 dans le texte source (incidence, materiel, voie d'abord, ETO) sont conservees
 inline, comme dans la source.
+
+CORRECTIONS POST-AUDIT : un audit independant (subagent aveugle au brouillon,
+instruit de tracer chaque fleche de la Figure 1 individuellement apres
+l'episode de mauvaise lecture rencontre sur la fiche candidoses_aspergilloses)
+a confirme la Figure 1 exacte (aucune inversion de fleche) mais a trouve
+7 problemes reels, tous corriges : (1) la case finale de la Figure 1 omettait
+la ligne "Infection profonde ?" - ajoutee a FIG1_ROWS ; (2) deux badges
+"point non resolu" avaient ete fabriques sur des phrases que la source ne
+marque PAS ainsi (incidence des infections sur catheter de dialyse ; voie
+axillaire) - retires, ces phrases redeviennent de simples constats non
+cotes ; (3) la grille methodologique (score a-d / niveau 1-3), presentee
+comme reproduite "sans aucune interpretation", contenait 3 simplifications
+lexicales reelles (item c : "publies dans des revues avec comite de lecture"
+et "exterieurs" manquants ; item d : "publiees dans des journaux ou livres"
+manquant ; niveau 3 : "scientifiques" manquant avant "adequates") - grille
+desormais mot-a-mot fidele ; (4) le tag (2-c) en 5.5 portait a tort sur le
+groupe pansement+dates+surveillance au lieu de la seule phrase "surveillance
+quotidienne" que la source cote - recadre ; (5) 5.1 affirmait une donnee
+pediatrique heparine/bacteriemie comme certitude alors que la source dit
+"les donnees disponibles suggerent que" - conditionnel restaure ; (6)
+plusieurs omissions de contenu narratif comblees (variantes de culture
+quantitative - rincage endoluminal, sonication ; base clinique du seuil
+vortexage ; qualificatifs de la table "infection non liee au CVC" ; phrases
+sur les facteurs de risque/strategie initiale en ouverture de Q5 ; details
+de l'attitude conservatrice en 6.1.2 ; detail du contenu des programmes
+d'education en 5.8) ; (7) reference bibliographique [2] (methodologie de
+revision) et mention de la validation par le groupe de lecture SRLF /
+disponibilite en ligne, absentes du colophon - ajoutees.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -124,13 +152,14 @@ def _section_intro():
          "a — études prospectives, contrôlées, randomisées&nbsp;;&nbsp; b — études non "
          "randomisées, comparaisons simultanées ou historiques de cohortes&nbsp;;&nbsp; "
          "c — mises au point, revues générales, éditoriaux, séries substantielles de cas "
-         "publiés et révisés par des experts&nbsp;;&nbsp; d — publications d'opinion sans "
-         "comité de lecture."),
+         "publiés dans des revues avec comité de lecture et révisés par des experts "
+         "extérieurs&nbsp;;&nbsp; d — publications d'opinions publiées dans des journaux "
+         "ou livres sans comité de lecture."),
         ("Niveau de recommandation",
          "1 — justifiée par des preuves scientifiques indiscutables&nbsp;;&nbsp; "
          "2 — justifiée par des preuves scientifiques et le soutien consensuel des "
-         "experts&nbsp;;&nbsp; 3 — ne reposant pas sur des preuves adéquates mais "
-         "soutenue par les données disponibles et l'opinion des experts."),
+         "experts&nbsp;;&nbsp; 3 — ne reposant pas sur des preuves scientifiques "
+         "adéquates mais soutenue par les données disponibles et l'opinion des experts."),
     ], TCW, head=("Grille", "Définition")))
     story.append(Spacer(1, 2.5 * mm))
     story.append(theme_table([
@@ -160,11 +189,16 @@ def _section_q1():
     story.append(P(
         "<b>Techniques de culture du cathéter</b> (nécessitent son ablation) : la culture "
         "qualitative en milieu liquide ne distingue pas contamination, colonisation et "
-        "infection, et doit être abandonnée" + tag("1-b") + ". Le seuil de la technique "
+        "infection, et doit être abandonnée" + tag("1-b") +
+        ". D'autres méthodes existent : culture semi-quantitative sur milieu gélosé, ou "
+        "culture quantitative en milieu liquide après rinçage endoluminal ou après "
+        "« vortexage » ou sonication. Le seuil de la technique "
         "semi-quantitative (méthode de Maki, > 15 ufc) n'explore que la portion "
-        "extraluminale et n'a été qu'incomplètement validé en réanimation. La technique "
-        "par « vortexage » (seuil > 10³ ufc/ml) possède un meilleur rapport valeur "
-        "diagnostique/coût et devrait être préférée" + tag("2-b") + ".", S_BODY))
+        "extraluminale et n'a été qu'incomplètement validé en réanimation. Le seuil "
+        "> 10³ ufc/ml de la technique par « vortexage », déterminé à l'aide d'une "
+        "classification clinique des malades bactériémiques ou non en réanimation, "
+        "possède un meilleur rapport valeur diagnostique/coût et devrait être préférée"
+        + tag("2-b") + ".", S_BODY))
     story.append(Spacer(1, 1.8 * mm))
     story.append(P(
         "Le taux élevé d'ablations injustifiées (3/4 des cathéters retirés à tort) a fait "
@@ -196,9 +230,12 @@ def _section_q1():
          "différentiel de positivité ≥ 2 h)."),
         ("Infection NON liée au CVC",
          "CVC stérile ; OU culture du CVC positive à une souche différente de celle du "
-         "sang/d'un autre foyer, sans régression à l'ablation ; OU culture du CVC positive "
-         "à une souche identique à un foyer infectieux identifié ≥ 48 h avant l'ablation "
-         "(colonisation secondaire à distance), sans régression à l'ablation."),
+         "sang et/ou d'un autre foyer infectieux présent au moment de l'ablation du CVC, "
+         "sans régression du syndrome infectieux à l'ablation ; OU culture du CVC "
+         "positive à une souche identique à celle trouvée dans un autre foyer infectieux "
+         "identifié au moins 48 h avant l'ablation du CVC — qu'il soit ou non "
+         "responsable de bactériémie — sans régression du syndrome infectieux à "
+         "l'ablation (colonisation secondaire à partir d'un foyer à distance)."),
     ], TCW, head=("Situation", "Critères")))
     return story
 
@@ -259,7 +296,7 @@ def _section_q3():
         "de CVC en moyenne 7/1000 j-cathéter. Chez l'enfant, densité proche de 5/1000 "
         "j-cathéter (grande disparité selon les unités, plus élevée en unités de brûlés). "
         "L'épidémiologie des infections sur cathéter de dialyse en réanimation est mal "
-        "connue et justifie des études complémentaires" + nr() + ".", S_BODY_SM))
+        "connue et justifie des études complémentaires.", S_BODY_SM))
     story.append(Spacer(1, 2 * mm))
     story.append(theme_table([
         ("Liés au patient",
@@ -314,8 +351,9 @@ def _section_q4():
           ". Les cathéters imprégnés d'héparine n'ont pas fait la preuve de leur "
           "efficacité anti-infectieuse chez l'adulte" + tag("2-b") +
           " (ils diminuent le risque de thrombose" + tag("1-a") +
-          "). Chez l'enfant, les modèles imprégnés d'héparine et/ou l'héparinisation des "
-          "solutions réduisent les complications thrombotiques et les bactériémies pour "
+          "). Chez l'enfant, les données disponibles suggèrent que le recours à des "
+          "modèles imprégnés d'héparine et/ou à une héparinisation des solutions de "
+          "perfusion réduit les complications thrombotiques et les bactériémies pour "
           "les cathéters de petit diamètre (< 5 Fr) par voie fémorale" + tag("2-b") + ".",
           S_BODY_SM),
     ]))
@@ -360,7 +398,7 @@ def _section_q4():
         "envisagée" + tag("2-b") + " (tunnelisation alors recommandée" + tag("1-a") +
         "). La voie fémorale est discutée si le risque cave supérieur est élevé "
         "(tunnelisation recommandée)" + tag("2-a") +
-        ". La voie axillaire mérite une évaluation complémentaire" + nr() + ".",
+        ". La voie axillaire mérite une évaluation complémentaire.",
         S_BODY_SM))
     return story
 
@@ -373,8 +411,9 @@ def _section_q4b():
         " ; le type de pansement n'est pas décisif, mais un pansement semi-perméable "
         "transparent permet la surveillance visuelle/manuelle. L'intérêt des éponges "
         "imprégnées de chlorhexidine n'est pas tranché" + nr() +
-        ". Intervalle optimal de changement : au moins 72 h. Dates de pose et de réfection "
-        "notées ; surveillance quotidienne du site" + tag("2-c") + ".", S_BODY_SM))
+        ". Intervalle optimal de changement : au moins 72 h. Dates de pose et de "
+        "réfection notées. Le site d'insertion du cathéter doit être surveillé "
+        "quotidiennement" + tag("2-c") + ".", S_BODY_SM))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
         "<b>5.6 — Choix de l'antiseptique :</b> une méta-analyse récente suggère la "
@@ -408,8 +447,13 @@ def _section_q4b():
         "nosocomiale se prête particulièrement aux programmes d'amélioration continue de "
         "la qualité : impact démontré d'équipes formées à la prise en charge des "
         "cathéters" + tag("1-a") +
-        " et de programmes d'éducation (hygiène, directives de pose, d'utilisation et de "
-        "soins)" + tag("1-b") + ".", S_BODY_SM))
+        " et de programmes d'éducation, comportant une formation aux bonnes pratiques "
+        "d'hygiène et des directives précises sur la pose des différents accès "
+        "vasculaires (préparation du matériel, désinfection de la peau, précautions "
+        "stériles maximales, techniques détaillées d'insertion), sur leur utilisation "
+        "(désinfection systématique des mains, manipulations des rampes) et sur les "
+        "soins qui leur sont apportés (schéma de remplacement, type et fréquence de "
+        "réfection des pansements)" + tag("1-b") + ".", S_BODY_SM))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
         "<b>5.9 — Cathéter de Swan-Ganz et cathéter artériel :</b> toutes les règles "
@@ -486,9 +530,9 @@ FIG1_ROWS = [
      "Ablation du CVC + antibiothérapie < 7 j, OU maintien du CVC + antibiothérapie "
      "14-21 j."),
     ("7 — Persistance du sepsis > 3 j, ou hémocultures positives > 3 j",
-     "ETO obligatoire (adulte) ; si endocardite → antibiothérapie 4-6 semaines ; si "
-     "thrombophlébite → antibiothérapie 4-6 semaines ; si ostéomyélite → antibiothérapie "
-     "6-8 semaines."),
+     "ETO obligatoire (adulte) ; recherche d'une infection profonde ; si endocardite → "
+     "antibiothérapie 4-6 semaines ; si thrombophlébite → antibiothérapie 4-6 semaines ; "
+     "si ostéomyélite → antibiothérapie 6-8 semaines."),
 ]
 
 def _section_q5():
@@ -502,8 +546,14 @@ def _section_q5():
           "des signes locaux, des manifestations cliniques générales et des résultats "
           "microbiologiques (locaux et hémocultures — prélevées systématiquement, au "
           "minimum en périphérie, de préférence simultanément par le cathéter, devant "
-          "toute suspicion). Deux questions se posent initialement : faut-il retirer le "
-          "cathéter suspect ? faut-il prescrire une antibiothérapie ?", S_BODY),
+          "toute suspicion). Certains facteurs de risque doivent également être pris en "
+          "compte, comme la durée de maintien du cathéter et le site d'implantation ; "
+          "l'évolution des signes cliniques (persistance, aggravation) et la nature du "
+          "ou des micro-organismes en cause doivent être intégrées dans les choix "
+          "thérapeutiques. Deux questions se posent initialement : faut-il retirer le "
+          "cathéter suspect ? faut-il prescrire une antibiothérapie ? En pratique, la "
+          "stratégie initiale dépend de la présence de signes locaux d'une part et de la "
+          "sévérité du syndrome septique d'autre part.", S_BODY),
     ]))
     story.append(Spacer(1, 1.8 * mm))
     story.append(P(
@@ -521,11 +571,16 @@ def _section_q5():
         "<b>6.1.2 — En l'absence de signes locaux et généraux de gravité,</b> plusieurs "
         "attitudes sont possibles (dans ces situations à présomption faible/modérée, la "
         "probabilité de retirer à tort un cathéter stérile est très élevée, 80 % des "
-        "cas" + tag("1-b") + ") : le changement de cathéter sur guide (confirme/infirme "
+        "cas" + tag("1-b") + " — la nécessité d'implanter un nouveau cathéter sur un "
+        "autre site exposant par ailleurs à des risques de complications mécaniques non "
+        "négligeables) : le changement de cathéter sur guide (confirme/infirme "
         "en conservant l'abord vasculaire, solution temporaire en attendant 24 h les "
         "résultats microbiologiques, surtout justifiée si suspicion faible/modérée ou "
-        "germe à faible risque) ; ou une attitude conservatrice (cathéter laissé en place, "
-        "prélèvements locaux + hémocultures couplées).", S_BODY_SM))
+        "germe à faible risque) ; ou une attitude conservatrice (cathéter laissé en "
+        "place, au moins dans un premier temps) : prélèvements locaux — du site "
+        "d'insertion, du pavillon — qui, lorsqu'ils sont négatifs, permettent d'éliminer "
+        "l'infection, et/ou hémocultures couplées du sang prélevé en périphérie et par "
+        "le cathéter.", S_BODY_SM))
     story.append(Spacer(1, 1.8 * mm))
     story.append(P(
         "<b>6.2 — Antibiothérapie et conduite selon les résultats microbiologiques :</b> "
@@ -613,10 +668,14 @@ def _section_sources():
     story.append(Spacer(1, 1.5 * mm))
     story.append(P("<b>Version :</b> reçu et accepté le 11 décembre 2002, publié 2003 — "
                     "réactualisation de la 12<sup>e</sup> conférence de consensus SRLF de "
-                    "1994.", S_SOURCE))
+                    "1994. Le texte final a été validé par un groupe de lecture désigné "
+                    "par la SRLF ; les textes des experts et la bibliographie complète "
+                    "sont disponibles sur srlf.org.", S_SOURCE))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P("<b>Méthodologie :</b> grille Niveau (1-3) - Score d'évaluation (a-d), "
-                    "légende publiée intégralement par la source — voir page 1.", S_SOURCE))
+                    "légende publiée intégralement par la source — voir page 1. Analyse de "
+                    "la bibliographie et niveau des recommandations selon la méthodologie "
+                    "publiée en référence [2].", S_SOURCE))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
         "<b>URL source :</b> https://sfar.org/wp-content/uploads/2015/10/"
@@ -627,6 +686,10 @@ def _section_sources():
                     "veineux en réanimation — Douzième conférence de consensus en "
                     "réanimation et médecine d'urgence. Rean Urg 1994;3:321-30.",
                     S_SOURCE))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P("<b>Référence citée [2] :</b> Procédures de révision des "
+                    "recommandations (conférences de consensus, recommandations pour la "
+                    "pratique clinique). Réanim Urg 1998;7:357-9.", S_SOURCE))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P("<b>Couverture :</b> cette fiche reprend l'intégralité des 5 questions "
                     "(définition/diagnostic ; mécanismes ; facteurs de risque/incidence/"
@@ -663,12 +726,32 @@ def _section_intro_q1_q2_q3():
     story.extend(_section_q2_q3())
     return story
 
+def _section_q4_q5_sources():
+    # Merged onto shared pages (no forced page break): Q5+sources alone left
+    # its final page (the closing warning panel) almost empty - combined with
+    # Q4 per the <60%-full merge rule (CLAUDE.md build pipeline, step 7).
+    story = _section_q4_full()
+    story.append(Spacer(1, 3 * mm))
+    story.extend(_section_q5_sources())
+    return story
+
 SECTIONS = [
     ("Méthodologie, glossaire, Q1, Q2 & Q3", _section_intro_q1_q2_q3),
-    ("Q4 — Prévention de l'ILC", _section_q4_full),
-    ("Q5 — Stratégie diagnostique et thérapeutique, Figure 1 & sources",
-     _section_q5_sources),
+    ("Q4 & Q5 — Prévention, stratégie diagnostique/thérapeutique, Figure 1 & sources",
+     _section_q4_q5_sources),
 ]
+# NOTE on page-fill: both a 2-section merge (Q4+Q5+sources sharing pages) and
+# a full single-section merge (entire document, no forced breaks at all) were
+# tried and rebuilt to close the ~20%-full final page (the closing
+# Avertissement panel alone) - both left the page count and the final page's
+# fill UNCHANGED (6 pages either way), because the preceding pages (Q3's
+# tail, Q4's single dense page) were already close to full and had no slack
+# to absorb it. Reverted to the 2-section version for accurate per-page
+# subtitles (a full merge would show one generic title across all 6 pages).
+# Per CLAUDE.md build pipeline step 7 ("revert if it doesn't help"): a
+# ~20%-full closing disclaimer/sources page is accepted as-is, consistent
+# with the trailing whitespace already accepted on other fiches' final pages
+# in this corpus (e.g. fiche_candidoses_aspergilloses's own closing page).
 
 def _make_doc(path=None):
     return SimpleDocTemplate(path or OUT, pagesize=A4,

@@ -27,7 +27,7 @@ ET/OU, aucune couche texte fiable pour ce schema), recommandations
 (generalites, prevention des erreurs de reconstitution - specialite,
 dilution, etiquetage -, prevention des erreurs d'administration - voie
 d'administration, seringues -, Tableau 1 - codes couleurs/trames Pantone
-des 13 classes pharmacologiques, reproduit verbatim), et la bibliographie
+des 14 classes pharmacologiques, reproduit verbatim), et la bibliographie
 complete (20 references). Rien n'est omis. Le texte exclut lui-meme de son
 perimetre les erreurs de moment/volume-debit (renvoyees aux dispositifs
 medicaux d'administration) et les erreurs de patient (objet d'une
@@ -288,10 +288,11 @@ def _section_reconstitution():
     story.append(Spacer(1, 1 * mm))
     story.append(bullets([
         "choix des médicaments d'anesthésie restreint au strict nécessaire, en "
-        "concertation avec le pharmacien de l'établissement ;",
+        "concertation incluant les médecins anesthésistes et le pharmacien de "
+        "l'établissement ;",
         "stock disponible de chaque spécialité restreint au minimum ;",
-        "système de rangement clair et commun (armoires, chariots d'urgence, table "
-        "d'anesthésie, plateaux) ;",
+        "système de rangement clair, commun à l'ensemble des sites de travail "
+        "(armoires, chariots d'urgence, table d'anesthésie, plateaux) ;",
         "médicaments et concentrations disponibles limités aux seuls régulièrement "
         "utilisés ;",
         "identification, signalement et, si possible, élimination systématiques des "
@@ -315,8 +316,9 @@ def _section_reconstitution():
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
         "<b>Erreurs d'étiquetage :</b> chaque médicament doit être reconstitué et "
-        "étiqueté au cours d'une seule séquence de gestes, par la même personne, "
-        "sans interruption ni changement de lieu.", S_BODY_SM))
+        "étiqueté (cf. § Prévention des erreurs de seringues) au cours d'une seule "
+        "séquence de gestes, par la même personne, sans interruption ni changement "
+        "de lieu.", S_BODY_SM))
     return story
 
 def _section_recommandations_reconstitution():

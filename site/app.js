@@ -79,7 +79,8 @@ var RAW = {
   bris_dentaires: JSON.parse(document.getElementById('content-bris_dentaires').textContent),
   douleur_reactualisation_2016: JSON.parse(document.getElementById('content-douleur_reactualisation_2016').textContent),
   protection_oculaire: JSON.parse(document.getElementById('content-protection_oculaire').textContent),
-  ponction_lombaire: JSON.parse(document.getElementById('content-ponction_lombaire').textContent)
+  ponction_lombaire: JSON.parse(document.getElementById('content-ponction_lombaire').textContent),
+  amygdalectomie_enfant: JSON.parse(document.getElementById('content-amygdalectomie_enfant').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -100,7 +101,7 @@ var FICHE_HREF_MATCH = {
   sedation_reanimation: ['sedation-et-analgesie-en-reanimation-nouveau-ne-exclu', 'Texte_court_Sedation-et-analgesie-en-reanimation'],
   sedation_urgences: ['sedation-analgesie-structure-durgence', '2_AFAR_Sedation-analgesie-en-structure-d-urgence'],
   vni: ['ventilation-non-invasive', 'Ventilation-Non-Invasive-au-cours-del-insuffisance-respiratoire-aigue'],
-  aap_urgence: ['gestion-perioperatoire-des-patients-sous-aap-en-urgence', 'wpdmdl=34414'],
+  aap_urgence: ['gestion-perioperatoire-des-patients-sous-aap-en-urgence', 'wpdmdl=34414', 'gestion-des-agents-antiplaquettaires-en-cas-de-procedure-invasive-non-programmee', 'rfe-gestion-des-agents-antiplaquettaires'],
   curares: ['curarisation-et-decurarisation-en-anesthesie', '2_RFE-CURARE-3'],
   remplissage: ['choix-du-solute-pour-le-remplissage-vasculaire-en-situation-critique', 'wpdmdl=35406'],
   traumatisme_membre: ['prise-en-charge-des-patients-presentant-un-traumatisme-severe-de-membres', 'wpdmdl=30307'],
@@ -160,7 +161,8 @@ var FICHE_HREF_MATCH = {
   bris_dentaires: ['bris-dentaires-perianesthesiques', 'Bris-dentaires-perianesthesiques'],
   douleur_reactualisation_2016: ['reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire', 'RFE-ANREA-Reactualisation-de-la-recommandation-sur-la-douleur-postoperatoire'],
   protection_oculaire: ['protection-oculaire-en-anesthesie-et-reanimation', 'Protection-oculaire-en-Anesthesie-et-Reanimation'],
-  ponction_lombaire: ['ponction_lombaire', 'fm_ponction_lombaire']
+  ponction_lombaire: ['ponction_lombaire', 'fm_ponction_lombaire'],
+  amygdalectomie_enfant: ['amygdalectomie', '2a_SFAR_TEXTE-COURT_Anesthesie-pour-amygdalectomie']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1073,6 +1075,18 @@ var DOC_META = {
     methodology: "Fiche mémo — synthèse de la littérature, sans système GRADE ni cotation d'accord",
     pages: 7,
     url: "https://www.has-sante.fr/upload/docs/application/pdf/2019-07/fm_ponction_lombaire.pdf"
+  },
+  amygdalectomie_enfant: {
+    key: 'amygdalectomie_enfant',
+    badge: 'Grade A-C + Accord',
+    title: "Anesthésie pour amygdalectomie chez l'enfant",
+    short: "Conférence d'experts texte court, 5 questions : évaluation préopératoire (bilan hémostase, gestion d'une IVAS, retentissement du SAOS), prise en charge anesthésique (induction, apports hydroélectrolytiques règle 4-2-1, contrôle des voies aériennes par sonde à ballonnet), soins postopératoires (surveillance SSPI, reprise alimentaire, analgésie — morphine IV en 1ère ligne, AINS déconseillés), complications (hémorragie 0,5-3 %, NVPO 40-70 %), et conditions de l'ambulatoire. Deux systèmes de cotation combinés (Grade A/B/C selon la preuve + Accord RAND/UCLA fort/faible).",
+    society: "SFAR / Adarpef / Carorl — Conférence d'experts 2005",
+    version: "2005",
+    validated: "Comité des Référentiels de la Sfar",
+    methodology: "Conférence d'experts — Grade A/B/C (niveau de preuve) + Accord RAND/UCLA modifié (fort/faible) selon la proposition",
+    pages: 8,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2a_SFAR_TEXTE-COURT_Anesthesie-pour-amygdalectomie-chez-lenfant.pdf"
   }
 };
 

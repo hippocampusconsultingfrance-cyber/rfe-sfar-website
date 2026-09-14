@@ -1338,6 +1338,29 @@ def extract_ponction_lombaire():
     return {"doc": "ponction_lombaire", "sections": blocks}
 
 
+def extract_amygdalectomie_enfant():
+    import style
+    import fiche_amygdalectomie_enfant as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "amygdalectomie_enfant", "sections": blocks}
+
+
 def extract_bris_dentaires():
     import style
     import fiche_bris_dentaires as m
@@ -2006,3 +2029,12 @@ if __name__ == "__main__":
         json.dump(ponction_lombaire, f, ensure_ascii=False, indent=1)
     print("ponction_lombaire sections:", len(ponction_lombaire["sections"]),
           "total blocks:", sum(len(s["items"]) for s in ponction_lombaire["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    amygdalectomie_enfant = extract_amygdalectomie_enfant()
+    with open(os.path.join(BUILD_DIR, "content_amygdalectomie_enfant.json"), "w") as f:
+        json.dump(amygdalectomie_enfant, f, ensure_ascii=False, indent=1)
+    print("amygdalectomie_enfant sections:", len(amygdalectomie_enfant["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in amygdalectomie_enfant["sections"]))

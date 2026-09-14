@@ -27,11 +27,34 @@ reanimation respiratoire, cardiovasculaire, medicaments, immobilisation,
 divers), duree de prise en charge, collaboration (Samu-Smur, anesthesie-
 reanimation, consultants, services medicotechniques, services d'aval,
 contractualisation), ressources humaines (formation, effectifs minimaux),
-procedures et protocoles, evaluation (registre d'activite), et les 10
-references reglementaires citees. Rien n'est omis. Ces recommandations
-excluent explicitement les urgences pediatriques (POSU pediatriques) -
-disclosure reprise telle quelle depuis la source, non une omission de cette
-fiche.
+procedures et protocoles, evaluation (registre d'activite), et le groupe de
+travail complet. Ces recommandations excluent explicitement les urgences
+pediatriques (POSU pediatriques) - disclosure reprise telle quelle depuis
+la source, non une omission de cette fiche.
+
+SCOPE PARTIEL DISCLOSE : la liste des 10 references reglementaires [1]-[10]
+(decrets/circulaires 1991-2001) et les affiliations institutionnelles
+completes de chaque membre du groupe de travail (hopital/service/ville) ne
+sont PAS detaillees individuellement dans cette fiche - seules la societe
+savante de chaque membre et la reference generale sont reprises. Disclosure
+explicite dans le panneau "Sources et tracabilite" ; se referer au texte
+integral pour le detail complet.
+
+CORRECTIONS POST-AUDIT : un audit independant (subagent aveugle au
+brouillon) a trouve une erreur d'attribution factuelle en 7.1 - le
+brouillon fusionnait "les patients amenes par le Smur sont annonces par le
+Samu" et "le Smur indique toute modification clinique" en une seule phrase
+dont le "qui" se rattachait grammaticalement au Samu au lieu du Smur (la
+source distingue clairement les deux acteurs) - corrige. L'audit a aussi
+signale une distorsion en 5.1 (Reanimation respiratoire) : "capnographe CO2
+(quantitatif souhaitable)" laissait entendre que le caractere quantitatif
+etait optionnel, alors que la source ne rend "souhaitable" que l'affichage
+des courbes (le monitorage quantitatif etant la base requise) - reformule.
+Omissions mineures comblees : "si possible assujetties a la spirometrie"
+(ventilateur), "controle des" (aimant), "plusieurs" (immobilisation),
+"quantitative ou qualitative" (activite justifiant un equipement SAU), et
+la phrase sur la coordination des acteurs comme "facteur essentiel de
+qualite" (7.1).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -216,27 +239,28 @@ EQUIP_N1_ROWS = [
     ("Réanimation respiratoire",
      "Fluides médicaux + bouteille O2 de secours (PP) ; ventilateur type transport "
      "(ventilation contrôlée/assistée, PEP, monitorage volumes/pressions, alarmes "
-     "conformes) (PP) ; VNI souhaitable (PS) ; matériel d'intubation trachéale, "
+     "sonores conformes assujetties aux variations de pression, si possible assujetties "
+     "à la spirométrie) (PP) ; VNI souhaitable (PS) ; matériel d'intubation trachéale, "
      "insufflateur manuel + réservoir O2, masques adaptés ; matériel d'intubation "
      "difficile (PP) ; aspirateur électrique + sondes protégées (PP) ; aspiration "
-     "manuelle de secours (PP) ; monitorage SpO2 (courbes) + capnographe CO2 "
-     "expiratoire (quantitatif souhaitable) (PP) ; débitmètre de pointe (PP) ; drainage "
-     "thoracique (PP)."),
+     "manuelle de secours (PP) ; monitorage SpO2 (affichage des courbes souhaité) + "
+     "capnographe CO2 expiratoire quantitatif (courbes souhaitables) (PP) ; débitmètre "
+     "de pointe (PP) ; drainage thoracique (PP)."),
     ("Réanimation cardiovasculaire",
      "Électrocardioscope ; tensiomètre automatique + manuel (brassards adaptés) (PP) ; "
      "défibrillateur (PS) ; stimulation transthoracique (PS) ; ECG multipiste (PS) ; "
      "≥ 2 pousse-seringues électriques ; matériel d'accès veineux périphérique/central "
      "préconditionné ; accélérateur-réchauffeur de perfusion (PP), autotransfusion (PS), "
      "garrot pneumatique (PS) ; kit transfusionnel (PP) ; mesure de l'hémoglobine (PP) ; "
-     "aimant pour dispositifs implantés (PS)."),
+     "aimant pour contrôle des dispositifs implantés (PS)."),
     ("Médicaments",
      "Ensemble des médicaments pour défaillances respiratoires/circulatoires/"
      "neurologiques ; solutés de perfusion et de remplissage ; liste pré-établie connue "
      "de tous — analgésiques, sédatifs, antibiotiques, catécholamines, thrombolytiques, "
      "principaux antidotes."),
     ("Immobilisation",
-     "Matelas à dépression et/ou dispositif de transfert (PP) ; dispositifs "
-     "d'immobilisation du rachis et des membres."),
+     "Matelas à dépression et/ou dispositif de transfert (PP) ; plusieurs dispositifs "
+     "adaptés d'immobilisation du rachis et des membres."),
     ("Divers",
      "Brancard radiotransparent (réanimation, transport, contention) ; glycémie "
      "capillaire (PP) ; thermomètres dont un adapté à l'hypothermie (PS) ; réchauffement "
@@ -254,8 +278,9 @@ def _section_equipement():
         Spacer(1, 1.5 * mm),
         P("Deux niveaux d'équipement minimum : Niveau 1 pour les services d'urgence non "
           "SAU, Niveau 2 pour les SAU (certaines structures non SAU doivent toutefois "
-          "s'équiper selon les critères SAU, du fait d'une activité particulière et/ou "
-          "d'un isolement géographique). Recommandations par emplacement, sauf mention "
+          "s'équiper selon les critères SAU, du fait d'une activité particulière — "
+          "quantitative ou qualitative — et/ou d'un isolement géographique). "
+          "Recommandations par emplacement, sauf mention "
           "« PP » (par pièce) ou « PS » (par SAUV).", S_BODY_SM),
     ]))
     story.append(Spacer(1, 1.5 * mm))
@@ -295,11 +320,13 @@ def _section_equipement_n2():
         Spacer(1, 1.5 * mm),
         P("<b>7.1 — Relation avec le Samu-Smur :</b> l'admission directe dans un service "
           "spécialisé est chaque fois privilégiée, mais les relations Samu/SAUV sont "
-          "essentielles pour l'admission et l'orientation. Le Samu prévient la SAUV des "
-          "difficultés d'aval (absence de lits de réanimation). Les patients amenés par "
-          "le Smur sont systématiquement annoncés par le Samu, qui indique toute "
-          "modification clinique ; le médecin du Smur peut à tout moment joindre le "
-          "médecin de la SAUV via la régulation. Transmission de médecin à médecin et "
+          "essentielles pour l'admission et l'orientation — ces relations concernent au "
+          "quotidien la prise en charge des patients, la coordination des acteurs étant "
+          "un facteur essentiel de qualité. Le Samu prévient la SAUV des difficultés "
+          "d'aval (absence de lits de réanimation). Les patients amenés par le Smur sont "
+          "systématiquement annoncés par le Samu ; le Smur indique toute modification de "
+          "l'état clinique du patient, et le médecin du Smur peut à tout moment joindre "
+          "le médecin de la SAUV via la régulation. Transmission de médecin à médecin et "
           "d'infirmier à infirmier, dossier complet et vérifié ; l'équipe du Smur ne "
           "quitte le patient qu'une fois la transmission effectuée et la sécurité "
           "assurée. Les transferts interhospitaliers médicalisés depuis la SAUV se "

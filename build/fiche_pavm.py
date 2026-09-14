@@ -45,7 +45,7 @@ from style import *
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
 from reportlab.lib.units import mm
 
-OUT = "/private/tmp/claude-501/-Users-macbook-Downloads-claude/65498e3e-5ddf-47a6-b100-3ac535d1faa0/scratchpad/rfe_sfar/output/Fiche_SFAR_SRLF_PAVM_2017.pdf"
+OUT = "/home/user/rfe-sfar-website/output/Fiche_SFAR_SRLF_PAVM_2017.pdf"
 
 SOURCE_TXT = ("Source : Recommandations Formalisées d'Experts (RFE) communes SFAR-SRLF, en "
               "collaboration avec l'ADARPEF et le GFRUP « Pneumonies associées aux soins de "
@@ -203,23 +203,10 @@ def _section_prevention():
          "pneumonies associées aux soins et la morbi-mortalité.", "2+"),
     ], [15*mm, PAGE_W-2*MARGIN-15*mm-18*mm, 18*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("R1.2 : méta-analyses d'ECR — diminution significative de la mortalité "
-                    "hospitalière, de la durée de VM et de l'incidence des PAS avec la "
-                    "décontamination digestive sélective ; effet sur la mortalité observé "
-                    "uniquement pour les protocoles associant topique antiseptique entéral + "
-                    "antibiothérapie systémique, plus marqué chez les patients les plus "
-                    "graves ; efficacité démontrée dans des environnements à faible prévalence "
-                    "de BMR — à ne pas recommander si prévalence élevée, avec suivi régulier "
-                    "de l'écologie locale. R1.3 : bénéfices démontrés sur l'incidence des PAS "
-                    "et/ou la durée de VM/séjour pour chaque méthode listée, mais sans "
-                    "réduction de mortalité démontrée isolément — l'association pourrait "
-                    "apporter un bénéfice non démontré à ce jour. R1.4 : aucun impact positif "
-                    "démontré sur les PAS pour ces méthodes ; la polyvidone iodée expose à des "
-                    "effets toxiques potentiels. R1.5 : 2 méta-analyses (632 et 959 patients "
-                    "BPCO) — réduction significative de la mortalité (RR 0,36 et 0,27), de "
-                    "l'échec de sevrage et du risque de PAVM, mais limites méthodologiques "
-                    "(études non randomisées, faibles effectifs, définitions hétérogènes de "
-                    "la PAVM).", S_NOTE))
+    story.append(P("<b>Précisions :</b> R1.2, appliquer une surveillance régulière de "
+                    "l'écologie locale, à ne pas mettre en œuvre si la prévalence de BMR "
+                    "s'élève. R1.4, la polyvidone iodée expose à des effets toxiques "
+                    "potentiels.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Figure 1 (source) — Protocole de soin n°1 : prévention multimodale (avis d'experts)", color=GREY))
     story.append(Spacer(1, 2*mm))
@@ -298,19 +285,9 @@ def _section_diagnostic():
          "associée aux soins.", "2-"),
     ], [15*mm, PAGE_W-2*MARGIN-15*mm-18*mm, 18*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("R2.1 : performances du CPIS variables (Se/Sp 60-80 % vs. LBA) selon le "
-                    "comparateur et la probabilité pré-test ; peu d'utilité pronostique du "
-                    "CPIS initial. R2.2 : méta-analyse — le type de prélèvement (aspiration "
-                    "endotrachéale, brosse protégée, LBA) et de culture (quantitative ou non) "
-                    "n'a pas d'effet significatif sur le devenir du patient (mortalité J28, "
-                    "durée de VM/séjour) — choix laissé au clinicien selon les habitudes de "
-                    "service ; possible avantage des cultures quantitatives pour le diagnostic "
-                    "et des prélèvements invasifs pour raccourcir la durée de traitement "
-                    "(~2 jours de moins) ; ne doit pas retarder l'antibiothérapie urgente des "
-                    "formes graves ou en SDRA. R2.3 : procalcitonine — 8 études/589 patients, "
-                    "Se 54 %, Sp 67 %, performances insuffisantes ; sTREM-1 — 7 études/317 "
-                    "patients, Se 83 %, Sp 77 %, mais seuils très variables (5-900 pg/mL) selon "
-                    "les techniques de dosage, non standardisées.", S_NOTE))
+    story.append(P("<b>Précisions :</b> R2.2, le choix du type de prélèvement/culture est "
+                    "laissé au clinicien selon les habitudes de service ; ne doit pas retarder "
+                    "l'antibiothérapie urgente des formes graves ou en SDRA.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Figure 2 (source) — Protocole de soin n°3 : procédure diagnostique (avis d'experts)", color=GREY))
     story.append(Spacer(1, 2*mm))
@@ -373,30 +350,14 @@ def _section_traitement():
          "pneumonies associées aux soins.", "1-"),
     ], [15*mm, PAGE_W-2*MARGIN-15*mm-18*mm, 18*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("R3.2 : méta-analyse de 4 ECR (1163 patients) — aucune différence "
-                    "mono- vs. bithérapie sur la mortalité (OR 0,97), la guérison clinique "
-                    "(OR 0,88) ou les effets secondaires (OR 0,93) ; bithérapie probabiliste "
-                    "indiquée si ≥1 facteur de risque de BMR/BGN non fermentant (antibiothérapie "
-                    "&lt;90j, hospitalisation &gt;5j, EER, choc septique, SDRA) ou mortalité "
+    story.append(P("<b>Précisions :</b> R3.2, bithérapie probabiliste indiquée si ≥1 facteur "
+                    "de risque de BMR/BGN non fermentant (antibiothérapie &lt;90j, "
+                    "hospitalisation &gt;5j, EER, choc septique, SDRA) ou mortalité "
                     "prédictible &gt;25 % — à réadapter en monothérapie selon l'antibiogramme. "
-                    "R3.3 : prévalence du SARM en France &lt;3 % (vs. 15 % dans l'étude "
-                    "positive isolée) — pas d'argument pour un usage systématique ; facteurs "
-                    "incitant à couvrir le SARM : prévalence locale élevée, colonisation "
-                    "récente, lésion cutanée chronique, dialyse chronique. R3.5 : 2 "
-                    "méta-analyses (508 et 883 patients) — pas de différence de mortalité "
-                    "J28/séjour/hôpital entre traitement court (≤8j) et long (&gt;9j), plus de "
-                    "jours vivants sans antibiotiques à J28 (+4,02j) avec le traitement court ; "
-                    "tendance à plus de récidives pour les BGN non fermentants (non confirmée "
-                    "dans la 2e méta-analyse) ; patients immunodéprimés et empyème/pneumonie "
-                    "nécrosante exclus des études — ne pas étendre la recommandation à ces "
-                    "situations. R3.6 : méta-analyse (6 ECR + 5 études observationnelles) — "
-                    "bénéfice sur la mortalité (RR 0,64) et réduction de néphrotoxicité (RR "
-                    "0,33) avec la voie nébulisée ; nécessite une formation préalable des "
-                    "équipes au matériel spécifique. R3.7 : 5 ECR + 1 méta-analyse (867 "
-                    "patients) — aucun bénéfice des statines sur mortalité, durée de séjour "
-                    "ou de VM ; bonne tolérance mais absence d'effet retenue comme "
-                    "interprétable malgré un sous-groupe observationnel favorable "
-                    "(hétérogène, biais de publication).", S_NOTE))
+                    "R3.3, facteurs incitant à couvrir le SARM : prévalence locale élevée, "
+                    "colonisation récente, lésion cutanée chronique, dialyse chronique. R3.6, "
+                    "la voie nébulisée nécessite une formation préalable des équipes au "
+                    "matériel spécifique.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Tableau IV (source) — Protocole de soin n°4 : schémas thérapeutiques (avis d'experts)", color=GREY))
     story.append(Spacer(1, 2*mm))
@@ -517,8 +478,8 @@ SECTIONS = [
     ("Synthèse, sources & traçabilité", _section_synthese),
 ]
 
-def _make_doc():
-    return SimpleDocTemplate(OUT, pagesize=A4,
+def _make_doc(path=None):
+    return SimpleDocTemplate(path or OUT, pagesize=A4,
                               leftMargin=MARGIN, rightMargin=MARGIN,
                               topMargin=32*mm, bottomMargin=16*mm,
                               title="Fiche SFAR-SRLF 2017 - Pneumonies associees aux soins de reanimation",
@@ -536,10 +497,18 @@ def _build_upto(section_fns):
     return story
 
 def _count_pages(story_flowables):
-    import pypdf
-    doc = _make_doc()
+    # NOTE: pypdf/cryptography is broken in this container (pyo3 panic on
+    # import) - use PyMuPDF (fitz) instead. Also: this MUST write to a fresh
+    # tempfile, never to OUT - reusing OUT for both the throwaway measurement
+    # build and the final build was found to silently corrupt page 1's
+    # header_band in the final PDF (see CLAUDE.md build pipeline step 5).
+    import fitz, tempfile
+    tmp_path = tempfile.mktemp(suffix=".pdf")
+    doc = _make_doc(tmp_path)
     doc.build(story_flowables, onFirstPage=_silent_page, onLaterPages=_silent_page)
-    return len(pypdf.PdfReader(OUT).pages)
+    n = fitz.open(tmp_path).page_count
+    os.remove(tmp_path)
+    return n
 
 def build():
     fns = [fn for _, fn in SECTIONS]

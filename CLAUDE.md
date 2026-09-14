@@ -143,8 +143,44 @@ reading full guideline PDFs (often 50-150+ pages).
      `pancreatite`, `nutrition`, `ira`, `ih`, `epanchement_pleural`,
      `antibioprophylaxie`) are a standing backlog item — trim, rebuild,
      re-verify, re-integrate and commit each one whenever picked up, same as
-     any other backlog item. Track completion here: **NONE fixed yet** as of
-     2026-09-14 (rule just added) — update this line as each is done.
+     any other backlog item. **Audit done 2026-09-14**: a broader scan (long
+     `S_NOTE`/`S_BODY_SM` paragraphs, not just the literal word
+     "Argumentaire") found `pancreatite`/`nutrition`/`ira`/`ih`/
+     `epanchement_pleural` were already concise/compliant (their long
+     paragraphs are actionable doses/thresholds/clarifications, not
+     evidentiary rationale) — no changes needed. **All trims done and
+     page-verified 2026-09-14**: `remplissage_perioperatoire` (new fiche,
+     5→4 pages, plus a genuine pagination bug fixed — an orphaned section
+     header found and fixed with proper `KeepTogether` wrapping) and
+     `antibioprophylaxie` (3 blocks, still 4 pages). Also found and fixed
+     while rebuilding (same per-rec `R#.#:`/untagged rationale-bloat pattern,
+     not literally tagged "Argumentaire"): `pavm`, `controle_temperature`,
+     `lat_soins_critiques` (9 pages — long due to figures/checklists, not
+     primarily argumentaire bloat; 4 blocks trimmed, all cleanly, no page
+     reduction expected or needed), and `eer` (7 pages, same — 6 blocks
+     trimmed across both the R#.#-tagged and untagged patterns found by a
+     per-file broad rescan, all visually re-verified). All 6 touched fiches
+     re-extracted (`extract_content.py`) and re-assembled (`assemble.py`)
+     into `site/rfe_garde.html` in the same session — content is live in the
+     git-tracked assembled HTML, not just the PDFs.
+   - **NEW backlog item found 2026-09-14, separate from the argumentaire
+     rule**: many older `fiche_*.py` scripts cannot currently be rebuilt in
+     this container at all — `grep -l "import pypdf" build/fiche_*.py` found
+     **34 files** still using the broken pypdf/cryptography import (pyo3
+     panic in this container, see step 5's `_count_pages` note — must be
+     `fitz`+`tempfile.mktemp()` instead), and `grep -l '^OUT = "/private/tmp'
+     build/fiche_*.py` found **25 files** with a stale macOS scratchpad path
+     baked into `OUT` (from whatever machine/session originally built them)
+     that doesn't exist in this container. Fixed opportunistically while
+     touched for the argumentaire cleanup: `pavm`, `controle_temperature`,
+     `lat_soins_critiques`, `eer`. The other ~30 affected files are untouched
+     — fix each one's `OUT`/`_make_doc`/`_count_pages` (copy the pattern from
+     `fiche_aap_programmee.py` — wait, check first: `aap_programmee` itself
+     is in the stale-path list above, so copy the pattern from a definitely-
+     fixed file like `fiche_remplissage_perioperatoire.py` instead) the next
+     time any of them needs a rebuild — no need to mass-fix files nobody is
+     touching, but don't assume a script builds cleanly in this environment
+     just because its PDF is already committed.
    - Site readability (site/template.html's `.block-p{max-width:74ch}` and
      its mobile breakpoints) was checked 2026-09-14 and is already adequate;
      the actual readability problem is content density, not CSS — so this

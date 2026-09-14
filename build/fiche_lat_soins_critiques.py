@@ -50,7 +50,7 @@ from style import *
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
 from reportlab.lib.units import mm
 
-OUT = "/private/tmp/claude-501/-Users-macbook-Downloads-claude/65498e3e-5ddf-47a6-b100-3ac535d1faa0/scratchpad/rfe_sfar/output/Fiche_SFAR_LAT_Soins_Critiques_2025.pdf"
+OUT = "/home/user/rfe-sfar-website/output/Fiche_SFAR_LAT_Soins_Critiques_2025.pdf"
 
 SOURCE_TXT = ("Source : Recommandations Formalisées d'Experts (RFE) de la SFAR, en association "
               "avec la SOFMER « Décisions de limitation et d'arrêt de traitements (LAT) en soins "
@@ -208,18 +208,6 @@ def _section_champ1a():
          "des soins.", "AE"),
     ], [13*mm, PAGE_W-2*MARGIN-13*mm-20*mm, 20*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("R1.1 : une bonne collaboration interprofessionnelle médecins-infirmiers "
-                    "est associée à une moindre perception de soins inappropriés (OR=0,72 IC95 "
-                    "[0,56-0,92]). Une « bonne » ambiance éthique (mesurée par l'EDMCQ) est "
-                    "associée à une meilleure concordance entre perception d'obstination "
-                    "déraisonnable et évolution défavorable réelle à 1 an (100 % vs 85,9 %), à "
-                    "davantage de décisions de LAT formalisées, et à une moindre intention des "
-                    "professionnels de quitter leur poste. R1.2 : seuls 15 % des patients admis "
-                    "en réanimation ont désigné une personne de confiance avec document formel "
-                    "et 4 % ont rédigé des directives anticipées (étude française "
-                    "multicentrique) ; 14,4 % des admissions en réanimation sont perçues comme "
-                    "non-bénéfiques par les réanimateurs, le manque de connaissance des volontés "
-                    "du patient étant un facteur fréquemment cité.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Figure 1 (source) — Directives anticipées : aspects réglementaires et pratiques", color=GREY))
     story.append(Spacer(1, 2*mm))
@@ -278,16 +266,6 @@ def _section_champ1b():
          "d'améliorer la qualité des soins.", "2+"),
     ], [13*mm, PAGE_W-2*MARGIN-13*mm-20*mm, 20*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("R1.3 : dans une étude rétrospective multicentrique (343 patients), la "
-                    "SPCMD n'était appliquée qu'à 60 % des patients concernés (11 % pas du tout "
-                    "sédatés), la procédure collégiale manquait dans 17 % des cas, le consultant "
-                    "extérieur dans 29 % des cas, et un protocole de service formalisé n'existait "
-                    "que dans 32 % des unités. R1.4 : les IDE perçoivent quasi-systématiquement "
-                    "l'ambiance éthique de fin de vie comme moins favorable que les médecins et "
-                    "décrivent leur participation aux décisions comme insuffisante ; l'insatisfaction "
-                    "des IDE est principalement liée à des décisions de LAT jugées trop tardives, "
-                    "et la poursuite de soins perçus comme futiles est associée à un niveau de "
-                    "détresse morale élevé chez les IDE.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Figure 3 (source) — Algorithme décisionnel de LAT en soins critiques", color=GREY))
     story.append(Spacer(1, 2*mm))
@@ -406,20 +384,10 @@ def _section_champ2():
                                 "décision d'arrêt de traitements, chez les patients ventilés en "
                                 "soins critiques, pour améliorer la qualité des soins."))
     story.append(Spacer(1, 2*mm))
-    story.append(P("R2.1 : étude multicentrique française (343 patients, 57 services) — la "
-                    "SPCMD était appliquée à 60 % des patients décédés après LAT, avec objectif "
-                    "de RASS -5 atteint dans 60 % des cas et analgésie associée dans 94 % des "
-                    "cas ; un protocole formalisé n'existait que dans 32 % des services. Une "
-                    "étude sur 450 patients a montré qu'une sédation profonde (RASS -5) était "
-                    "associée à moins d'inconfort (OR=0,47 IC95 [0,28-0,78]), sans différence sur "
-                    "les scores de deuil compliqué ou de stress post-traumatique des proches, "
-                    "quel que soit le moment de l'évaluation (3, 6 ou 12 mois après le décès). "
-                    "Extubation : une seule étude "
-                    "interventionnelle disponible (étude ARREVE, 402 proches/458 patients) — pas "
-                    "de différence entre extubation terminale et sevrage progressif sur le stress "
-                    "post-traumatique, les symptômes anxio-dépressifs ou le deuil compliqué à "
-                    "12 mois ; fréquence accrue de gasps/obstruction des voies aériennes après "
-                    "extubation (non retrouvée si sédation protocolisée avec score de dyspnée).", S_NOTE))
+    story.append(P("<b>Précisions :</b> R2.1, objectif habituel de sédation profonde = RASS -5, "
+                    "avec analgésie associée. En cas d'extubation, une fréquence accrue de "
+                    "gasps/obstruction des voies aériennes est rapportée, non retrouvée si "
+                    "sédation protocolisée avec score de dyspnée.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Figure 6 (source) — Protocole de sédation profonde et continue (SPCMD)", color=GREY))
     story.append(Spacer(1, 2*mm))
@@ -551,22 +519,6 @@ def _section_champ3():
                                 "concernant l'intervention d'une équipe de médiation pour "
                                 "améliorer la qualité des soins."))
     story.append(Spacer(1, 2*mm))
-    story.append(P("R3.1 : 3 essais randomisés multicentriques français concordants — "
-                    "conférence de fin de vie structurée (126 proches/22 services) réduisant le "
-                    "stress post-traumatique, l'anxiété et la dépression à 90 j ; livret "
-                    "d'information (90 proches/3 services) réduisant le stress post-traumatique "
-                    "(40 % vs 73 %, p=0,001) ; stratégie en 3 temps — information/écoute, "
-                    "accompagnement au décès, rencontre post-décès — (34 services) réduisant le "
-                    "deuil prolongé (15 % vs 21 %, p=0,035). R3.3.1/R3.3.2 : sur 8 études "
-                    "(5 essais randomisés + 3 méta-analyses), une structure d'éthique clinique "
-                    "« proactive » est associée à une réduction de la durée de séjour, une "
-                    "réduction des ressources médicales chez les patients qui vont décéder, et "
-                    "une meilleure satisfaction des soignants/proches ; son intérêt pour la "
-                    "résolution de conflits déjà avérés reste en revanche incertain (2 études "
-                    "rétrospectives monocentriques de conciliation par une SEC sur des conflits "
-                    "majeurs déjà installés — l'une d'elles rapporte un consensus obtenu dans "
-                    "36 % des 116 cas recensés). Médiation : une seule étude disponible, données "
-                    "trop indirectes pour conclure.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Figure 7 (source) — Stratégies d'accompagnement des proches", color=GREY))
     story.append(Spacer(1, 2*mm))
@@ -716,8 +668,8 @@ SECTIONS = [
     ("Synthèse, sources & traçabilité", _section_synthese),
 ]
 
-def _make_doc():
-    return SimpleDocTemplate(OUT, pagesize=A4,
+def _make_doc(path=None):
+    return SimpleDocTemplate(path or OUT, pagesize=A4,
                               leftMargin=MARGIN, rightMargin=MARGIN,
                               topMargin=32*mm, bottomMargin=16*mm,
                               title="Fiche SFAR-SOFMER 2025 - Decisions de LAT en soins critiques",
@@ -735,10 +687,18 @@ def _build_upto(section_fns):
     return story
 
 def _count_pages(story_flowables):
-    import pypdf
-    doc = _make_doc()
+    # NOTE: pypdf/cryptography is broken in this container (pyo3 panic on
+    # import) - use PyMuPDF (fitz) instead. Also: this MUST write to a fresh
+    # tempfile, never to OUT - reusing OUT for both the throwaway measurement
+    # build and the final build was found to silently corrupt page 1's
+    # header_band in the final PDF (see CLAUDE.md build pipeline step 5).
+    import fitz, tempfile
+    tmp_path = tempfile.mktemp(suffix=".pdf")
+    doc = _make_doc(tmp_path)
     doc.build(story_flowables, onFirstPage=_silent_page, onLaterPages=_silent_page)
-    return len(pypdf.PdfReader(OUT).pages)
+    n = fitz.open(tmp_path).page_count
+    os.remove(tmp_path)
+    return n
 
 def build():
     fns = [fn for _, fn in SECTIONS]

@@ -116,6 +116,40 @@ reading full guideline PDFs (often 50-150+ pages).
    know — don't guess which one is "right."
 6. **Visually verify every rendered page**, including page 1's header
    specifically — see the pagination bug below.
+7. **Keep argumentaire/rationale prose minimal — do not transcribe the
+   source's discursive justification in extenso.** (User directive,
+   2026-09-14: "dans les fiches evite les argumentaires ca bouffe trop les
+   pages ... rend le contenu facile a lire a partir du pc ou telephone".)
+   A fiche's job is a scannable summary a clinician reads in seconds, on a
+   phone or a PC — not a condensed re-narration of the source's discussion
+   section. Concretely:
+   - The recommendation/table row text (what to do, its grade) is what must
+     be 100% complete per rule 2 — the *rationale paragraph* under it is
+     optional color, not required coverage. Default to omitting it.
+   - Where a rationale genuinely changes clinical practice (a specific
+     dose/threshold/contraindication not already in the recommendation
+     row itself), keep ONLY that — one to two sentences, not a paragraph
+     recapping the underlying studies/statistics/citations.
+   - Never build a long block literally titled "Argumentaire" per
+     recommendation (or per-number inline prose like "R4 : ...", "R5 : ...")
+     that mirrors the source's own discussion section — this is exactly the
+     pattern that bloats page count and makes on-screen reading tedious.
+     Prefer letting the table/chip carry the information; add a single
+     shared caveats paragraph only if something essential would otherwise
+     be lost.
+   - This applies going forward to every new fiche, AND retroactively: fiches
+     with heavy argumentaire blocks found by `grep -lc "Argumentaire"
+     build/fiche_*.py` (7 as of 2026-09-14: `remplissage_perioperatoire`,
+     `pancreatite`, `nutrition`, `ira`, `ih`, `epanchement_pleural`,
+     `antibioprophylaxie`) are a standing backlog item — trim, rebuild,
+     re-verify, re-integrate and commit each one whenever picked up, same as
+     any other backlog item. Track completion here: **NONE fixed yet** as of
+     2026-09-14 (rule just added) — update this line as each is done.
+   - Site readability (site/template.html's `.block-p{max-width:74ch}` and
+     its mobile breakpoints) was checked 2026-09-14 and is already adequate;
+     the actual readability problem is content density, not CSS — so this
+     rule is the fix, no template/CSS change needed unless content trimming
+     alone proves insufficient.
 
 ## Build pipeline (per fiche)
 

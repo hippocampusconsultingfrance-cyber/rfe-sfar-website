@@ -87,7 +87,8 @@ var RAW = {
   relations_anesth_chir: JSON.parse(document.getElementById('content-relations_anesth_chir').textContent),
   erreurs_medicamenteuses: JSON.parse(document.getElementById('content-erreurs_medicamenteuses').textContent),
   remplissage_perioperatoire: JSON.parse(document.getElementById('content-remplissage_perioperatoire').textContent),
-  thrombectomie: JSON.parse(document.getElementById('content-thrombectomie').textContent)
+  thrombectomie: JSON.parse(document.getElementById('content-thrombectomie').textContent),
+  insuffisance_analgesie_cesarienne: JSON.parse(document.getElementById('content-insuffisance_analgesie_cesarienne').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -176,7 +177,8 @@ var FICHE_HREF_MATCH = {
   relations_anesth_chir: ['196-reco-anesth-chir-autres-2001'],
   erreurs_medicamenteuses: ['preverreurmedic_recos'],
   remplissage_perioperatoire: ['strategie-du-remplissage-vasculaire-perioperatoire-2', '2a_AFAR_FRANCAIS_Strategie-du-remplissage-vasculaire-perioperatoire'],
-  thrombectomie: ['prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie']
+  thrombectomie: ['prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie'],
+  insuffisance_analgesie_cesarienne: ['preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1185,6 +1187,18 @@ var DOC_META = {
     methodology: "Format RPP (Recommandations pour la Pratique Professionnelle) — analyse de la littérature selon GRADE®, cotation collective GRADE Grid, 100 % accord fort après 2 tours",
     pages: 33,
     url: "https://sfar.org/download/prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie/?wpdmdl=37892"
+  },
+  insuffisance_analgesie_cesarienne: {
+    key: 'insuffisance_analgesie_cesarienne',
+    badge: 'Avis d\'experts',
+    title: "Insuffisance d'analgésie — césarienne sous APM",
+    short: "Préconisations du CARO, avec le CNGOF, la SFAR, la SFMP, le CNSF et d'autres partenaires (2021) : prévention, reconnaissance et prise en charge de l'insuffisance/l'échec d'analgésie au cours de la césarienne sous anesthésie périmédullaire — évaluation du bloc avant incision (niveaux T6/T3, doses de bupivacaïne), délai décision-naissance et communication, gestion de la douleur avant/après incision (complément IV, conversion en anesthésie générale), prévention et gestion de l'état de stress post-traumatique, aspects médico-légaux. 24 préconisations (dont 10 identifiées comme clés), aucun système GRADE ; annexe décisionnelle incluse.",
+    society: "CARO, avec CNGOF / SFAR / SFMP / CNSF / SoFraSimS / CIANE / Césarine / SFPP",
+    version: "2021",
+    validated: "Comité de pilotage CARO (D. Benhamou, H. Keita-Meyer, P. Deruelle, A. Evrard)",
+    methodology: "Aucun système GRADE, aucun processus de cotation/vote formel décrit — préconisations d'experts, 10 sur 24 identifiées comme « clés »",
+    pages: 25,
+    url: "https://sfar.org/download/preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee/?wpdmdl=32629"
   }
 };
 

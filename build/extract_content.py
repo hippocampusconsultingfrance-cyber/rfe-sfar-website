@@ -1430,6 +1430,29 @@ def extract_thrombectomie():
     return {"doc": "thrombectomie", "sections": blocks}
 
 
+def extract_insuffisance_analgesie_cesarienne():
+    import style
+    import fiche_insuffisance_analgesie_cesarienne as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "insuffisance_analgesie_cesarienne", "sections": blocks}
+
+
 def extract_relations_anesth_chir():
     import style
     import fiche_relations_anesth_chir as m
@@ -2262,3 +2285,12 @@ if __name__ == "__main__":
         json.dump(thrombectomie, f, ensure_ascii=False, indent=1)
     print("thrombectomie sections:", len(thrombectomie["sections"]),
           "total blocks:", sum(len(s["items"]) for s in thrombectomie["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    insuffisance_analgesie_cesarienne = extract_insuffisance_analgesie_cesarienne()
+    with open(os.path.join(BUILD_DIR, "content_insuffisance_analgesie_cesarienne.json"), "w") as f:
+        json.dump(insuffisance_analgesie_cesarienne, f, ensure_ascii=False, indent=1)
+    print("insuffisance_analgesie_cesarienne sections:", len(insuffisance_analgesie_cesarienne["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in insuffisance_analgesie_cesarienne["sections"]))

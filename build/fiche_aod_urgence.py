@@ -79,6 +79,41 @@ justification du seuil de 30 ng/mL) est resumee a l'essentiel actionnable
 (Tableau 1 PK, seuil de 30 ng/mL et sa justification en une phrase) ; la
 discussion detaillee des etudes RE-LY/ROCKET-AF et la sensibilite
 comparee des reactifs de laboratoire sont omises.
+
+AUDIT INDEPENDANT (2026-09-15, subagent) et corrections appliquees :
+1. Bande 200-400 ng/mL (Fig. 1 dabigatran ET Fig. 2 rivaroxaban) : le
+   brouillon initial affichait "12-24h" (copie du diagramme original) alors
+   que le corps du texte specifie explicitement un "delai minimum de
+   24 heures" pour cette bande, pour les DEUX molecules - divergence
+   diagramme/texte interne a la source, desormais disclosed dans la fiche
+   au lieu d'etre silencieusement tranchee en faveur du diagramme.
+2. Algorithme rivaroxaban guide par TCA/TQ (Fig. 4, absente du PDF) :
+   le brouillon reutilisait tel quel le tableau dabigatran (Fig. 3) en le
+   presentant comme strictement identique, y compris sa clause de dialyse
+   a Cockcroft<50. Or le texte du corps (section 3.3) donne des delais
+   reellement differents pour le rivaroxaban (12h fixes pour la bande
+   intermediaire, contre "12 a 24h selon la fonction renale" pour le
+   dabigatran) et ne mentionne JAMAIS la dialyse pour le rivaroxaban a
+   cette etape - coherent avec l'absence de dialyse envisageable pour
+   cette molecule (deja disclosed ailleurs dans la fiche), mais contredit
+   par la reutilisation aveugle du tableau dabigatran. Corrige : tableau
+   rivaroxaban distinct reconstruit avec ses propres delais et sans
+   clause de dialyse, et la propre affirmation de la source ("approche
+   identique") est elle-meme disclosed comme une simplification excessive
+   de la source par rapport a ses propres details chiffres.
+3. Ajout d'un avertissement manquant (fin de section 2.7 de la source) :
+   l'INR n'a aucune place dans la gestion des situations critiques chez un
+   patient sous AOD (outil concu pour les AVK) - le rapport M/T du temps
+   de Quick doit lui etre prefere. Point de securite actionnable, absent
+   du brouillon initial.
+4. Restauration d'une note du Tableau 1 (PK) : absence de donnees pour le
+   rivaroxaban 15 mg x2/j, les valeurs 10 mg n'etant indicatives qu'a titre
+   de repere - supprimee par erreur lors de la condensation initiale.
+5. Suppression d'une precision non sourcee ("forte liaison proteique" comme
+   justification de la non-faisabilite de la dialyse pour le rivaroxaban)
+   - la source elle-meme ne donne aucune justification a cette difference
+   avec le dabigatran ; presenter une raison non citee aurait constitue une
+   invention non disclosed.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -208,6 +243,10 @@ def _section_intro():
             ["Rivaroxaban 20 mg/j (1 prise)", "215 (5-95 perc : 22-535)", "32 (5-95 perc : "
              "6-239) à 24 h"],
         ], [55 * mm, CW_FULL - 55 * mm - 45 * mm, 45 * mm]))
+    story.append(Spacer(1, 1 * mm))
+    story.append(P(
+        "<i>Note du Tableau 1 (source) : pas de donnée pour le rivaroxaban 15 mg × 2/j "
+        "(schéma initial TVP/EP) ; les données 10 mg sont ici indicatives.</i>", S_NOTE))
     return story
 
 def _section_chirurgie_dosage():
@@ -225,10 +264,13 @@ def _section_chirurgie_dosage():
             ["30-200 ng/mL", "Si un report est possible : attendre jusqu'à 12 h puis "
              "nouveau dosage. Si non : opérer ; en cas de saignement anormal, "
              "antagoniser (CCP 25-50 UI/kg ou FEIBA 30-50 UI/kg selon disponibilité)."],
-            ["200-400 ng/mL", "Retarder au maximum l'intervention. Attendre 12-24 h puis "
-             "nouveau dosage. Si clairance de Cockcroft &lt; 50 mL/min : discuter la "
-             "dialyse (35 % du dabigatran est lié à l'albumine ; l'hémodialyse réduit "
-             "la concentration de 40-60 % en 4 h)."],
+            ["200-400 ng/mL", "Retarder au maximum l'intervention. Délai minimum de "
+             "24 h puis nouveau dosage <i>(le diagramme original de la source indique "
+             "« 12-24 h », le corps du texte précise « un délai minimum de 24 heures » "
+             "— divergence interne à la source, disclosed)</i>. Si clairance de "
+             "Cockcroft &lt; 50 mL/min : discuter la dialyse (35 % du dabigatran est "
+             "lié à l'albumine ; l'hémodialyse réduit la concentration de 40-60 % en "
+             "4 h)."],
             ["&gt; 400 ng/mL", "Surdosage — risque hémorragique majeur. Discuter la "
              "dialyse avant chirurgie (délai pour atteindre le seuil de 30 ng/mL long "
              "en cas de surdosage, à intégrer dans la décision de report)."],
@@ -244,12 +286,13 @@ def _section_chirurgie_dosage():
             ["30-200 ng/mL", "Si un report est possible : attendre jusqu'à 12 h puis "
              "nouveau dosage. Si non : opérer ; en cas de saignement anormal, "
              "antagoniser (CCP 25-50 UI/kg ou FEIBA 30-50 UI/kg selon disponibilité)."],
-            ["200-400 ng/mL", "Retarder au maximum l'intervention. Attendre 12-24 h puis "
-             "nouveau dosage."],
+            ["200-400 ng/mL", "Retarder au maximum l'intervention. Délai minimum de "
+             "24 h puis nouveau dosage <i>(même divergence diagramme/texte que pour le "
+             "dabigatran, voir Fig. 1)</i>."],
             ["&gt; 400 ng/mL", "Surdosage — risque hémorragique majeur. <b>Contrairement "
              "au dabigatran, la dialyse n'est pas envisageable</b> avec le rivaroxaban "
-             "(forte liaison protéique). Retarder au maximum l'intervention si l'état "
-             "du patient le permet."],
+             "(motif non précisé par la source). Retarder au maximum l'intervention si "
+             "l'état du patient le permet."],
         ], [30 * mm, CW_FULL - 30 * mm]))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
@@ -282,27 +325,58 @@ def _section_chirurgie_tests_usuels():
         [
             ["TCA ≤ 1,2 ET TQ ≤ 1,2 (TP ≥ 70-80 %)", "Opérer sans délai."],
             ["1,2 &lt; TCA ≤ 1,5, ou TQ &gt; 1,2 (TP &lt; 70-80 %)", "Correspond à "
-             "≈ 30-200 ng/mL. Si un report est possible : attendre jusqu'à 12 h, "
-             "obtenir un dosage spécifique + nouveau TP/TCA. Si non : opérer ; en cas "
-             "de saignement anormal, antagoniser (CCP 25-50 UI/kg ou FEIBA 30-50 UI/kg)."],
+             "≈ 30-200 ng/mL. Si un report est possible : attendre jusqu'à 12 à 24 h "
+             "selon la fonction rénale, obtenir un dosage spécifique + nouveau TP/TCA. "
+             "Si non : opérer ; en cas de saignement anormal, antagoniser (CCP "
+             "25-50 UI/kg ou FEIBA 30-50 UI/kg)."],
             ["TCA &gt; 1,5", "Correspond à &gt; 200 ng/mL (Cmax). Retarder au maximum "
-             "l'intervention. Attendre 12-24 h, obtenir un dosage spécifique + nouveau "
-             "TP/TCA. Si Cockcroft &lt; 50 mL/min : discuter la dialyse."],
+             "l'intervention. Délai minimum de 24 h, obtenir un dosage spécifique + "
+             "nouveau TP/TCA. Si Cockcroft &lt; 50 mL/min : discuter la dialyse."],
+        ], [55 * mm, CW_FULL - 55 * mm]))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "<b>Fig. 4 (rivaroxaban) — algorithme absent du PDF source, reconstruit à "
+        "partir du texte (§3.3) :</b>", S_BODY_SM))
+    story.append(Spacer(1, 1 * mm))
+    story.append(grid_table(
+        ["Ratio TCA/TQ", "Conduite à tenir"],
+        [
+            ["TCA ≤ 1,2 ET TQ ≤ 1,2 (ou activité anti-Xa ≤ 0,1 U/mL)", "Opérer sans "
+             "délai."],
+            ["1,2 &lt; TCA ≤ 1,5", "Correspond à 30-200 ng/mL. Délai d'attente "
+             "jusqu'à <b>12 h</b> (pas de qualificatif « selon la fonction rénale » "
+             "dans la source pour cette molécule, à la différence du dabigatran), "
+             "répéter le TCA, obtenir un dosage spécifique si compatible avec "
+             "l'urgence."],
+            ["TCA &gt; 1,5", "Correspond à &gt; 200 ng/mL. Délai minimum de 24 h, "
+             "obtenir un dosage spécifique dans ce délai. Retarder au maximum "
+             "l'intervention. <b>La source ne mentionne pas la dialyse pour cette "
+             "situation</b> (cohérent avec l'absence de dialyse envisageable pour le "
+             "rivaroxaban, voir Fig. 2)."],
         ], [55 * mm, CW_FULL - 55 * mm]))
     story.append(Spacer(1, 1.5 * mm))
     story.append(info_panel(P(
-        "<b>Rivaroxaban — algorithme manquant dans le PDF source, reconstruit à partir "
-        "du texte (§3.3) :</b> la source affirme explicitement une « approche "
-        "identique à celle du dabigatran » avec les <b>mêmes seuils de ratio TCA</b> "
-        "(≤ 1,2 / 1,2-1,5 / &gt; 1,5) et les mêmes délais — voir le tableau ci-dessus. "
-        "Une figure séparée est annoncée par le texte (« Fig. 4 ») mais le PDF publié "
-        "imprime à cet emplacement, par erreur de mise en page de la source elle-même, "
-        "une duplication du diagramme « hémorragie grave » (voir page suivante) — "
-        "défaut de production disclosed ici plutôt que reproduit ou deviné. Seule "
-        "différence avec le dabigatran : la mesure de l'activité anti-Xa (technique "
-        "héparine) est très sensible au rivaroxaban — une activité ≤ 0,1 U/mL exclut "
-        "sa présence, mais ce test est peu utile en urgence (retarde la décision).",
+        "<b>Défaut de production du PDF source disclosed :</b> la source affirme "
+        "d'abord (§3.3, en préambule) une « approche identique à celle du dabigatran » "
+        "pour le rivaroxaban, mais les délais qu'elle détaille ensuite pour chaque "
+        "bande de ratio TCA diffèrent en réalité légèrement de ceux du dabigatran "
+        "(12 h vs 12-24 h pour la bande intermédiaire ; aucune mention de dialyse pour "
+        "le rivaroxaban) — incohérence interne à la source elle-même, disclosed "
+        "plutôt que lissée. Par ailleurs, aucune figure numérotée correcte n'existe "
+        "pour cet algorithme dans le PDF publié : l'emplacement annoncé par le texte "
+        "(« Fig. 4 ») imprime en réalité, par erreur de mise en page de la source, une "
+        "duplication du diagramme « hémorragie grave » (voir page suivante) — le "
+        "tableau ci-dessus est donc reconstruit uniquement à partir du texte du "
+        "corps. Seule différence testologique avec le dabigatran : la mesure de "
+        "l'activité anti-Xa (technique héparine) est très sensible au rivaroxaban — "
+        "une activité ≤ 0,1 U/mL exclut sa présence, mais ce test est peu utile en "
+        "urgence (retarde la décision).",
         S_BODY_SM), bg=BG_PANEL, border=TEAL))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "<b>⚠ L'INR n'a aucune place</b> dans la gestion des situations critiques "
+        "chez un patient traité par AOD (mode d'expression conçu pour les AVK) — lui "
+        "préférer le rapport malade/témoin (M/T) du temps de Quick.", S_NOTE))
     story.append(Spacer(1, 2.5 * mm))
     story.append(section_bar("Si la chirurgie ne peut être repoussée et les seuils ne sont pas atteints"))
     story.append(Spacer(1, 1.5 * mm))
@@ -392,9 +466,9 @@ def _section_hemorragie_grave():
 
 def _section_sources():
     story = []
-    story.append(Spacer(1, 3 * mm))
+    story.append(Spacer(1, 1.5 * mm))
     story.append(section_bar("Sources et traçabilité", color=GREY))
-    story.append(Spacer(1, 2 * mm))
+    story.append(Spacer(1, 1 * mm))
     story.append(P(
         "<b>Document source :</b> « Prise en charge des complications hémorragiques "
         "graves et de la chirurgie en urgence chez les patients recevant un "
@@ -420,7 +494,7 @@ def _section_sources():
         "plus haut) est reconstruit fidèlement à partir du texte du corps. Hors champ, "
         "explicitement par la source : apixaban, edoxaban (données insuffisantes en "
         "2013).", S_SOURCE))
-    story.append(Spacer(1, 3 * mm))
+    story.append(Spacer(1, 1.5 * mm))
     story.append(info_panel(P(
         "<b>Avertissement — document de 2013, propositions non validées comme "
         "recommandation officielle :</b> cette fiche de synthèse indépendante reprend "

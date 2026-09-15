@@ -194,6 +194,52 @@ reading full guideline PDFs (often 50-150+ pages).
    `"status": "abrogé"`. Check the source's own page 1 for an obsolescence
    stamp before building (SFAR sometimes retires a document without updating
    this index — verified twice this session already, see git log).
+   **Before writing a single line of the fiche script, also check for a
+   same-topic collision by TITLE, not just by href-needle**: `grep -i
+   "<topic keyword>" site/app.js` (searching `DOC_META` titles/`short`
+   text, not just `FICHE_HREF_MATCH`) and separately `grep -i "<topic
+   keyword>" build/library_final.json` to see if a newer/older version of
+   the same guideline already occupies a site key. A library item can be
+   genuinely "unmatched" by the strict href/pdf-url needle scan (the
+   scan used to find backlog candidates) while an *entirely different*
+   `library_final.json` entry on the same clinical topic is already live
+   under a key with no needle pointing at the item you're about to build —
+   this happened 2026-09-15 (see below) and is silent: nothing errors,
+   you just build a real, accurate fiche for a document that turns out to
+   be superseded, then collide with the existing key at integration time.
+   **Incident, 2026-09-15**: built a full fiche (`fiche_preeclampsie.py`,
+   76 recommandations, triple-read + independently audited, 6 pages) for
+   "Prise en charge multidisciplinaire des formes graves de prééclampsie"
+   (SFAR/CNGOF/SFMP/SFNN, **2009**) — genuinely absent from
+   `FICHE_HREF_MATCH`. Only at the site-integration step (adding the
+   `preeclampsie` key) did `git status` reveal `content_preeclampsie.json`
+   already existed, committed in this repo's very first commit, fully
+   wired into `RAW`/`FICHE_HREF_MATCH`/`DOC_META` under that exact key —
+   for a **different, newer** `library_final.json` entry: "Prise en
+   charge de la patiente avec une pré-éclampsie sévère" (SFAR, **2020**,
+   RFE, same 7-theme scope: définitions, antihypertenseurs/algorithme,
+   magnésium, surveillance/arrêt de grossesse, anesthésie/postpartum,
+   formation/sources). This is the same untracked-session pattern as the
+   KNOWN DRIFT incident above (content live on the site with no
+   `fiche_*.py` ever committed) — just discovered pre-emptively this
+   time, before publishing, because nothing had been committed yet.
+   **Recovery**: `git restore --staged --worktree` on every file the new
+   build had touched (`build/content_preeclampsie.json`,
+   `build/extract_content.py`, `build/assemble.py`, `site/app.js`,
+   `site/template.html`, `site/rfe_garde.html`) to discard the local
+   overwrite and restore the original 2020-era content byte-for-byte;
+   `rm` + `git reset` on the newly-added, now-abandoned files
+   (`fiche_preeclampsie.py`, its `sources/*`, its `output/*.pdf`) since
+   nothing had ever been committed — full clean recovery, zero data loss,
+   because the collision was caught before any commit. **The 2009
+   document itself is not in this repo's backlog and should not be
+   rebuilt under a different key either** — the 2020 RFE supersedes it on
+   the same clinical question; there is no value in carrying both
+   vintages. If a similar collision is found only *after* a commit or
+   push has already happened, the fix is the same idea but needs
+   `git revert`/history-aware recovery instead of a plain restore — don't
+   force-overwrite a key you don't fully own the history of without
+   checking `git log -- build/content_<key>.json` first.
 2. Download: `curl -sL -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" -o sources/X.pdf "<url>"`
    — sfar.org 403s a plain curl/WebFetch; the Chrome UA works. Some links are
    redirect wrappers (`/download/...?wpdmdl=NNN`) — follow with `-L`.

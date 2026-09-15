@@ -92,7 +92,8 @@ var RAW = {
   coronarien: JSON.parse(document.getElementById('content-coronarien').textContent),
   brule_grave: JSON.parse(document.getElementById('content-brule_grave').textContent),
   tabagisme: JSON.parse(document.getElementById('content-tabagisme').textContent),
-  infections_intra_abdominales: JSON.parse(document.getElementById('content-infections_intra_abdominales').textContent)
+  infections_intra_abdominales: JSON.parse(document.getElementById('content-infections_intra_abdominales').textContent),
+  alr_perinerveuse: JSON.parse(document.getElementById('content-alr_perinerveuse').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -186,7 +187,8 @@ var FICHE_HREF_MATCH = {
   coronarien: ['prise-en-charge-du-coronarien-opere-en-chirurgie-non-cardiaque', '2_AFAR_Prise-en-charge-du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque'],
   brule_grave: ['prise-en-charge-du-brule-grave-a-la-phase-aigue-chez-ladulte-et-lenfant', 'rpp-prise-en-charge-du-brule-grave'],
   tabagisme: ['recommandations-sur-la-prise-en-charge-du-tabagisme-en-periode-perioperatoire', '2-SFAR-RFE-tabac_proposition-CRC'],
-  infections_intra_abdominales: ['prise-en-charge-des-infections-intra-abdominales', '2_AFAR_Prise-en-charge-des-infections-intra-abdominales']
+  infections_intra_abdominales: ['prise-en-charge-des-infections-intra-abdominales', '2_AFAR_Prise-en-charge-des-infections-intra-abdominales'],
+  alr_perinerveuse: ['anesthesie-loco-regionale-perinerveuse', 'rfe-anesthesie-loco-regionale-perinerveuse']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1255,6 +1257,18 @@ var DOC_META = {
     methodology: "GRADE standard (qualité des preuves 1-4, force 1+/1-/2+/2-, vote Delphi)",
     pages: 25,
     url: "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_Prise-en-charge-des-infections-intra-abdominales.pdf"
+  },
+  alr_perinerveuse: {
+    key: 'alr_perinerveuse',
+    badge: 'RFE',
+    title: "Anesthésie loco-régionale périnerveuse (ALR-PN)",
+    short: "RFE SFAR (validée 18/11/2016), mise à jour de la RPC-ALR 2003 centrée sur les données nouvelles depuis 2003 (échoguidage devenu technique de référence, adjuvants, toxicité) — ne remplace pas la RPC 2003, toujours valide pour les données anatomocliniques et les techniques de base. 12 recommandations sur 4 thèmes (médicaments, écueils liés au terrain, stratégies d'utilisation, hygiène et sécurité), toutes à Accord fort, plus 4 points d'actualisation « Relecture RPC 2003 » et 2 NB hors recommandation numérotée (dexaméthasone, ALR-PN/infiltrations). Périmètre limité aux 24 premières heures postopératoires ; plus d'indication de l'ALR par type de chirurgie.",
+    society: "SFAR",
+    version: "2016",
+    validated: "Conseil d'administration de la SFAR",
+    methodology: "GRADE standard (qualité des preuves 1-4, force 1+/1-/2+/2-, vote Delphi GRADE Grid)",
+    pages: 10,
+    url: "https://sfar.org/wp-content/uploads/2019/10/rfe-anesthesie-loco-regionale-perinerveuse.pdf"
   }
 };
 

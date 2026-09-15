@@ -94,7 +94,8 @@ var RAW = {
   tabagisme: JSON.parse(document.getElementById('content-tabagisme').textContent),
   infections_intra_abdominales: JSON.parse(document.getElementById('content-infections_intra_abdominales').textContent),
   alr_perinerveuse: JSON.parse(document.getElementById('content-alr_perinerveuse').textContent),
-  urgences_ob_extrahosp: JSON.parse(document.getElementById('content-urgences_ob_extrahosp').textContent)
+  urgences_ob_extrahosp: JSON.parse(document.getElementById('content-urgences_ob_extrahosp').textContent),
+  aod_urgence: JSON.parse(document.getElementById('content-aod_urgence').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -190,7 +191,8 @@ var FICHE_HREF_MATCH = {
   tabagisme: ['recommandations-sur-la-prise-en-charge-du-tabagisme-en-periode-perioperatoire', '2-SFAR-RFE-tabac_proposition-CRC'],
   infections_intra_abdominales: ['prise-en-charge-des-infections-intra-abdominales', '2_AFAR_Prise-en-charge-des-infections-intra-abdominales'],
   alr_perinerveuse: ['anesthesie-loco-regionale-perinerveuse', 'rfe-anesthesie-loco-regionale-perinerveuse'],
-  urgences_ob_extrahosp: ['urgences-obstetricales-extrahospitalieres', 'Urgences-Obstetricales-Extrahospitalieres']
+  urgences_ob_extrahosp: ['urgences-obstetricales-extrahospitalieres', 'Urgences-Obstetricales-Extrahospitalieres'],
+  aod_urgence: ['gestion-perioperatoire-des-aod-en-urgence']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1283,6 +1285,18 @@ var DOC_META = {
     methodology: "Méthode GRADE annoncée, cotation Delphi (2 tours), sans grade individuel 1+/2+/A/B/C",
     pages: 14,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Urgences-Obstetricales-Extrahospitalieres.pdf"
+  },
+  aod_urgence: {
+    key: 'aod_urgence',
+    badge: 'Propositions GIHP',
+    title: "AOD : chirurgie et hémorragie en urgence",
+    short: "Propositions du GIHP (2013, non une RFE/RPC — aucun système de cotation) pour la chirurgie urgente à risque hémorragique et les hémorragies graves chez un patient sous dabigatran ou rivaroxaban à dose curative : algorithmes guidés par dosage plasmatique (seuil de sécurité 30 ng/mL) ou, à défaut, par TCA/TP ; conduite en cas d'hémorragie grave (organe critique vs. autres, définition HAS 2008). ⚠ Document de 2013 antérieur aux antidotes spécifiques (idarucizumab, andexanet alfa) : ne couvre ni apixaban ni edoxaban (exclus par la source elle-même) et ne reflète pas la prise en charge actuelle de référence — repère historique des principes généraux uniquement.",
+    society: "GIHP (Groupe d'Intérêt en Hémostase Périopératoire)",
+    version: "2013",
+    validated: "Consensus du GIHP (relecture critique des membres)",
+    methodology: "Analyse de la littérature + relecture critique GIHP — aucun système de cotation (propositions, pas de recommandations)",
+    pages: 10,
+    url: "https://sfar.org/download/gestion-perioperatoire-des-aod-en-urgence/?wpdmdl=34804"
   }
 };
 

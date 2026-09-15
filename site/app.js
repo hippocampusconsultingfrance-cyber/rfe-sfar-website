@@ -90,7 +90,8 @@ var RAW = {
   thrombectomie: JSON.parse(document.getElementById('content-thrombectomie').textContent),
   insuffisance_analgesie_cesarienne: JSON.parse(document.getElementById('content-insuffisance_analgesie_cesarienne').textContent),
   coronarien: JSON.parse(document.getElementById('content-coronarien').textContent),
-  brule_grave: JSON.parse(document.getElementById('content-brule_grave').textContent)
+  brule_grave: JSON.parse(document.getElementById('content-brule_grave').textContent),
+  tabagisme: JSON.parse(document.getElementById('content-tabagisme').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -182,7 +183,8 @@ var FICHE_HREF_MATCH = {
   thrombectomie: ['prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie'],
   insuffisance_analgesie_cesarienne: ['preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee'],
   coronarien: ['prise-en-charge-du-coronarien-opere-en-chirurgie-non-cardiaque', '2_AFAR_Prise-en-charge-du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque'],
-  brule_grave: ['prise-en-charge-du-brule-grave-a-la-phase-aigue-chez-ladulte-et-lenfant', 'rpp-prise-en-charge-du-brule-grave']
+  brule_grave: ['prise-en-charge-du-brule-grave-a-la-phase-aigue-chez-ladulte-et-lenfant', 'rpp-prise-en-charge-du-brule-grave'],
+  tabagisme: ['recommandations-sur-la-prise-en-charge-du-tabagisme-en-periode-perioperatoire', '2-SFAR-RFE-tabac_proposition-CRC']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1227,6 +1229,18 @@ var DOC_META = {
     methodology: "RPP — analyse de la littérature selon GRADE, mais force de recommandation non individuellement gradée (« les experts suggèrent... ») ; cotation Delphi, accord fort/faible global — toutes les recommandations sont à accord fort",
     pages: 38,
     url: "https://sfar.org/download/rpp-prise-en-charge-du-brule-grave/?wpdmdl=24465"
+  },
+  tabagisme: {
+    key: 'tabagisme',
+    badge: 'RFE',
+    title: "Tabagisme en période périopératoire",
+    short: "RFE SFAR (2016, avec SFT/CNCT/SOFCOT/CNP Chirurgie Plastique/CNP Chirurgie Thoracique et Cardio-vasculaire), actualisant la conférence d'experts OFT/SFAR/AFC de 2005 : prise en charge comportementale et substitution nicotinique avant chirurgie programmée, arrêt préopératoire systématique du tabac quel que soit le délai avant l'intervention (avec seuils de bénéfice à 2/4/8 semaines), rôle de tous les professionnels du parcours de soins dans le conseil au sevrage, éviction du tabagisme passif chez l'enfant. Seulement 4 recommandations, toutes Grade 1+/Accord fort. Une 5e question (cigarette électronique) n'a abouti à aucune recommandation — les deux propositions soumises au vote des experts ont toutes deux échoué au seuil de consensus GRADE, disclosure intégrale dans la fiche.",
+    society: "SFAR, avec SFT / CNCT / SOFCOT / CNP Chirurgie Plastique / CNP Chirurgie Thoracique et Cardio-vasculaire",
+    version: "2016",
+    validated: "Comité des Référentiels Cliniques de la Sfar",
+    methodology: "GRADE standard (qualité des preuves 1-4, force 1+/1-/2+/2-, seuil de consensus GRADE Grid ≥50%/<20%)",
+    pages: 29,
+    url: "https://sfar.org/wp-content/uploads/2016/08/2-SFAR-RFE-tabac_proposition-CRC.pdf"
   }
 };
 

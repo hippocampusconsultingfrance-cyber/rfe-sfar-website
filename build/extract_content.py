@@ -1614,6 +1614,29 @@ def extract_brule_grave():
     return {"doc": "brule_grave", "sections": blocks}
 
 
+def extract_tabagisme():
+    import style
+    import fiche_tabagisme as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "tabagisme", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2358,3 +2381,12 @@ if __name__ == "__main__":
         json.dump(brule_grave, f, ensure_ascii=False, indent=1)
     print("brule_grave sections:", len(brule_grave["sections"]),
           "total blocks:", sum(len(s["items"]) for s in brule_grave["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    tabagisme = extract_tabagisme()
+    with open(os.path.join(BUILD_DIR, "content_tabagisme.json"), "w") as f:
+        json.dump(tabagisme, f, ensure_ascii=False, indent=1)
+    print("tabagisme sections:", len(tabagisme["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in tabagisme["sections"]))

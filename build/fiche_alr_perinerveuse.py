@@ -47,6 +47,16 @@ techniques chirurgicales).
 ARGUMENTAIRE : condense (regle de projet 2026-09-14) - seuls les seuils/
 delais directement actionnables sont conserves ; les references
 bibliographiques et la prose de justification sont omises.
+
+AUDIT INDEPENDANT (2026-09-15, subagent) : verdict initial "NEEDS FIXES
+(minor)" - les 12 recommandations numerotees (textes, grades, artefact
+"S"/"-", disclosure XX/14-vs-12) etaient toutes exactes, mais 3 des 4
+"Relectures RPC 2003" et 2 NB non numerotes (dexamethasone, ALRIV,
+ALR-PN/infiltrations, membre inferieur Question 8, technique de reference
+echoguidage) etaient omis alors que la Couverture pretendait une portee
+complete. Corrige : les 4 Relectures + 2 NB sont desormais integres en
+notes "Reperes" compactes pres des sections concernees, et la Couverture
+liste explicitement les 6 items couverts.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -181,7 +191,9 @@ def _section_all():
         "bloc sensitif/moteur, au prix d'un risque d'effets secondaires notables (balance "
         "bénéfice-risque à considérer au cas par cas — non formalisé en recommandation "
         "numérotée). L'adrénaline reste envisageable pour la réalisation de la "
-        "dose-test.", S_BODY_SM))
+        "dose-test. <b>Dexaméthasone :</b> aucune recommandation formulée — jugée "
+        "prématurée par le groupe de travail (études en cours sur dose/voie "
+        "d'administration) ; mise à jour ultérieure annoncée par la source.", S_BODY_SM))
     story.append(Spacer(1, 2.5 * mm))
     story.append(KeepTogether([
         section_bar("2 — Écueils liés au terrain (R2.1-R2.3)"),
@@ -200,6 +212,14 @@ def _section_all():
              "préférable.", "AE"),
         ], RCW),
     ]))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "<b>Repères (Relecture RPC 2003) :</b> l'anesthésie loco-régionale intraveineuse "
+        "(ALRIV) est une technique vouée à disparaître au profit du bloc périnerveux "
+        "échoguidé (les recommandations RPC 2003 sur sa réalisation restent valables tant "
+        "qu'elle est utilisée). Place respective ALR-PN/infiltrations (hanche, genou) : "
+        "aucune recommandation formulée, littérature encore contradictoire sur la période "
+        "analysée — mise à jour ultérieure annoncée par la source.", S_BODY_SM))
     return story
 
 def _section_strategies_hygiene():
@@ -227,6 +247,16 @@ def _section_strategies_hygiene():
              "douleur postopératoire immédiate.", "2+"),
         ], RCW),
     ]))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "<b>Repères — membre inférieur (Relecture RPC 2003, Question 8) :</b> hanche, "
+        "bloc du plexus lombaire postérieur : pas de recommandation comme technique "
+        "anesthésique isolée (absence d'argument bibliographique concluant). Genou : "
+        "arthroscopie réalisable sous ALR-PN seule ou bloc fémoral + sciatique (intérêt "
+        "limité si chirurgie courte) ; aucune donnée ne valide cette approche pour la "
+        "prothèse totale de genou. Cheville : bloc échoguidé, taux de succès proche de "
+        "100 %, efficacité démontrée sur la douleur des 24 premières heures et au-delà.",
+        S_BODY_SM))
     story.append(Spacer(1, 2.5 * mm))
     story.append(KeepTogether([
         section_bar("4 — Hygiène et sécurité (R5.1-R5.2)"),
@@ -245,6 +275,15 @@ def _section_strategies_hygiene():
              "apporte alors probablement une sécurité supplémentaire.", "AE"),
         ], RCW),
     ]))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "<b>Repères (Relecture RPC 2003, chapitres 4-5 & 7) :</b> l'échoguidage est "
+        "devenu la technique de référence pour la réalisation de l'ALR-PN (remplace la "
+        "neurostimulation, désormais technique complémentaire de co-localisation ou "
+        "alternative si l'échoguidage n'est pas possible). Les indications de bloc selon "
+        "le type de chirurgie et certaines approches de surface (ex. bloc huméral) issues "
+        "de la RPC 2003 sont devenues peu pertinentes du fait de l'évolution des "
+        "techniques.", S_BODY_SM))
     story.append(Spacer(1, 2.5 * mm))
     story.append(KeepTogether([
         section_bar("Relecture RPC 2003 — Complications neurologiques des blocs "
@@ -301,10 +340,13 @@ def _section_sources():
     story.append(Spacer(1, 1 * mm))
     story.append(P(
         "<b>Couverture :</b> intégralité des 12 recommandations (texte + grade, "
-        "comptage exhaustif direct — voir disclosure méthodologique en page 1) et du "
-        "point d'actualisation RPC 2003 sur les complications neurologiques. Hors "
-        "champ, explicitement par la source elle-même : indications de l'ALR par type "
-        "de chirurgie (non proposées, jugées peu pertinentes) ; douleur postopératoire "
+        "comptage exhaustif direct — voir disclosure méthodologique en page 1), des "
+        "4 « Relectures RPC 2003 » hors recommandation numérotée (ALRIV, membre "
+        "inférieur Question 8, technique de référence échoguidage, complications "
+        "neurologiques) et des 2 NB non numérotés (dexaméthasone, ALR-PN/infiltrations). "
+        "Hors champ, "
+        "explicitement par la source elle-même : indications de l'ALR par type de "
+        "chirurgie (non proposées, jugées peu pertinentes) ; douleur postopératoire "
         "prolongée au-delà des 24 premières heures (référentiel distinct) ; données "
         "anatomocliniques et techniques de base (toujours couvertes par la RPC 2003, "
         "non remplacée par ce texte).", S_SOURCE))

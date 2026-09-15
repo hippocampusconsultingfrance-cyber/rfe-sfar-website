@@ -89,7 +89,8 @@ var RAW = {
   remplissage_perioperatoire: JSON.parse(document.getElementById('content-remplissage_perioperatoire').textContent),
   thrombectomie: JSON.parse(document.getElementById('content-thrombectomie').textContent),
   insuffisance_analgesie_cesarienne: JSON.parse(document.getElementById('content-insuffisance_analgesie_cesarienne').textContent),
-  coronarien: JSON.parse(document.getElementById('content-coronarien').textContent)
+  coronarien: JSON.parse(document.getElementById('content-coronarien').textContent),
+  brule_grave: JSON.parse(document.getElementById('content-brule_grave').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -180,7 +181,8 @@ var FICHE_HREF_MATCH = {
   remplissage_perioperatoire: ['strategie-du-remplissage-vasculaire-perioperatoire-2', '2a_AFAR_FRANCAIS_Strategie-du-remplissage-vasculaire-perioperatoire'],
   thrombectomie: ['prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie'],
   insuffisance_analgesie_cesarienne: ['preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee'],
-  coronarien: ['prise-en-charge-du-coronarien-opere-en-chirurgie-non-cardiaque', '2_AFAR_Prise-en-charge-du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque']
+  coronarien: ['prise-en-charge-du-coronarien-opere-en-chirurgie-non-cardiaque', '2_AFAR_Prise-en-charge-du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque'],
+  brule_grave: ['prise-en-charge-du-brule-grave-a-la-phase-aigue-chez-ladulte-et-lenfant', 'rpp-prise-en-charge-du-brule-grave']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1213,6 +1215,18 @@ var DOC_META = {
     methodology: "GRADE (1+/1-/2+/2-) croisé avec un vote Delphi indépendant (accord fort/faible, échelle 1-9) — deux axes distincts",
     pages: 26,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque.pdf"
+  },
+  brule_grave: {
+    key: 'brule_grave',
+    badge: 'RPP',
+    title: "Brûlé grave à la phase aiguë",
+    short: "RPP conjointe SFAR/SFB/SFMU/Adarpef (2019) sur la prise en charge du brûlé grave (brûlures thermiques uniquement) dans les 48 premières heures, adulte et enfant : critères de gravité, évaluation de la surface cutanée brûlée (Lund & Browder), réanimation hémodynamique (remplissage initial, albumine), voies aériennes et inhalation de fumées (intubation, hydroxocobalamine, oxygénothérapie hyperbare), anesthésie-analgésie (kétamine), traitement local (refroidissement, pansement, antibioprophylaxie), nutrition et thromboprophylaxie. 24 recommandations, toutes à accord fort (format RPP, pas de grade 1+/2+ individuel). Les 10 annexes citées par la source (tableaux/algorithmes/formules) sont absentes du PDF téléchargé — disclosure explicite dans la fiche.",
+    society: "SFAR, avec SFB / SFMU / Adarpef",
+    version: "2019",
+    validated: "Comité des Référentiels Cliniques de la Sfar (15/05/2019), CA de la Sfar (24/05/2019)",
+    methodology: "RPP — analyse de la littérature selon GRADE, mais force de recommandation non individuellement gradée (« les experts suggèrent... ») ; cotation Delphi, accord fort/faible global — toutes les recommandations sont à accord fort",
+    pages: 38,
+    url: "https://sfar.org/download/rpp-prise-en-charge-du-brule-grave/?wpdmdl=24465"
   }
 };
 

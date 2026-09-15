@@ -206,9 +206,11 @@ def _section_champ1():
     story.append(P(
         "<b>Repères :</b> méthode de Lund et Browder = référence (la règle des 9 de "
         "Wallace surestime et n'est pas adaptée à la pédiatrie) ; méthode de la paume + "
-        "doigts du patient ≈ 1 % SCB, utile en première intention. Escarrotomie : indication "
-        "urgente seulement si compromission des voies aériennes/ventilation/circulation ; "
-        "sinon dans les 48 premières heures si hyperpression abdominale ou circulatoire.",
+        "doigts du patient ≈ 1 % SCB, utile en première intention. Escarrotomie : "
+        "<b>seule</b> indication urgente = compromission de la liberté des voies aériennes "
+        "et/ou de la ventilation ; à réaliser dans les 48 premières heures en cas "
+        "d'hypertension intra-abdominale ou d'atteinte de la fonction circulatoire "
+        "(non urgente dans ce dernier cas).",
         S_BODY_SM))
     return story
 
@@ -222,8 +224,8 @@ def _section_champ2():
     story.append(reco_table([
         ("R2.1.1", "Administrer 20 mL/kg d'une solution cristalloïde IV dans la première "
          "heure de prise en charge si SCB ≥ 20 % (adulte) ou ≥ 10 % (enfant)."),
-        ("R2.1.2", "Utiliser des solutions cristalloïdes balancées (type Ringer Lactate) "
-         "dans la prise en charge du brûlé grave."),
+        ("R2.1.2", "Utiliser des solutions cristalloïdes balancées dans la prise en charge "
+         "du brûlé grave."),
         ("R2.2", "Utiliser, au-delà de la 1<sup>re</sup> heure, une formule d'estimation du "
          "remplissage initial intégrant au minimum le poids et la SCB pour définir les "
          "apports en cristalloïdes."),
@@ -234,8 +236,10 @@ def _section_champ2():
     ], RCW))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
-        "<b>Repères :</b> cible de diurèse usuelle 0,5-1 mL/kg/h (adulte et enfant), non "
-        "formellement validée. Formules historiques citées par la source (détail non "
+        "<b>Repères :</b> le Ringer Lactate est le soluté balancé proposé en première "
+        "intention par l'argumentaire (R2.1.2). Cible de diurèse usuelle 0,5-1 mL/kg/h "
+        "(adulte et enfant), non formellement validée. Formules historiques citées par la "
+        "source (détail non "
         "reproduit ici, cf. Annexe 4 — voir limite ci-dessus) : Evans, Baxter/Parkland, "
         "Pruitt/Brooke (2-4 mL/kg/%SCB de Ringer Lactate/24h) ; pédiatrie ≈ 6 mL/kg/%SCB, "
         "souvent Parkland modifié (3-4 mL/kg/%SCB) + règle des « 4-2-1 » pour l'entretien. "
@@ -446,9 +450,14 @@ def _section_intro_champ1_4():
     story.extend(_section_champ3_4())
     return story
 
+def _section_all():
+    story = _section_intro_champ1_4()
+    story.append(Spacer(1, 2.5 * mm))
+    story.extend(_section_champ5_6_sources())
+    return story
+
 SECTIONS = [
-    ("Méthodologie & Champ 1-4 — Admission, réanimation, voies aériennes, analgésie", _section_intro_champ1_4),
-    ("Champ 5-6 — Traitement local, autres & sources", _section_champ5_6_sources),
+    ("Prise en charge du brûlé grave — méthodologie, champs 1 à 6 & sources", _section_all),
 ]
 
 def _make_doc(path=None):

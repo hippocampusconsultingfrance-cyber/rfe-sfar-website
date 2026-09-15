@@ -1637,6 +1637,29 @@ def extract_tabagisme():
     return {"doc": "tabagisme", "sections": blocks}
 
 
+def extract_infections_intra_abdominales():
+    import style
+    import fiche_infections_intra_abdominales as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "infections_intra_abdominales", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2390,3 +2413,12 @@ if __name__ == "__main__":
         json.dump(tabagisme, f, ensure_ascii=False, indent=1)
     print("tabagisme sections:", len(tabagisme["sections"]),
           "total blocks:", sum(len(s["items"]) for s in tabagisme["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    infections_intra_abdominales = extract_infections_intra_abdominales()
+    with open(os.path.join(BUILD_DIR, "content_infections_intra_abdominales.json"), "w") as f:
+        json.dump(infections_intra_abdominales, f, ensure_ascii=False, indent=1)
+    print("infections_intra_abdominales sections:", len(infections_intra_abdominales["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in infections_intra_abdominales["sections"]))

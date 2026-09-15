@@ -91,7 +91,8 @@ var RAW = {
   insuffisance_analgesie_cesarienne: JSON.parse(document.getElementById('content-insuffisance_analgesie_cesarienne').textContent),
   coronarien: JSON.parse(document.getElementById('content-coronarien').textContent),
   brule_grave: JSON.parse(document.getElementById('content-brule_grave').textContent),
-  tabagisme: JSON.parse(document.getElementById('content-tabagisme').textContent)
+  tabagisme: JSON.parse(document.getElementById('content-tabagisme').textContent),
+  infections_intra_abdominales: JSON.parse(document.getElementById('content-infections_intra_abdominales').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -184,7 +185,8 @@ var FICHE_HREF_MATCH = {
   insuffisance_analgesie_cesarienne: ['preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee'],
   coronarien: ['prise-en-charge-du-coronarien-opere-en-chirurgie-non-cardiaque', '2_AFAR_Prise-en-charge-du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque'],
   brule_grave: ['prise-en-charge-du-brule-grave-a-la-phase-aigue-chez-ladulte-et-lenfant', 'rpp-prise-en-charge-du-brule-grave'],
-  tabagisme: ['recommandations-sur-la-prise-en-charge-du-tabagisme-en-periode-perioperatoire', '2-SFAR-RFE-tabac_proposition-CRC']
+  tabagisme: ['recommandations-sur-la-prise-en-charge-du-tabagisme-en-periode-perioperatoire', '2-SFAR-RFE-tabac_proposition-CRC'],
+  infections_intra_abdominales: ['prise-en-charge-des-infections-intra-abdominales', '2_AFAR_Prise-en-charge-des-infections-intra-abdominales']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1241,6 +1243,18 @@ var DOC_META = {
     methodology: "GRADE standard (qualité des preuves 1-4, force 1+/1-/2+/2-, seuil de consensus GRADE Grid ≥50%/<20%)",
     pages: 29,
     url: "https://sfar.org/wp-content/uploads/2016/08/2-SFAR-RFE-tabac_proposition-CRC.pdf"
+  },
+  infections_intra_abdominales: {
+    key: 'infections_intra_abdominales',
+    badge: 'RFE',
+    title: "Infections intra-abdominales",
+    short: "RFE conjointe SFAR/SRLF/SPILF/AFC/SFCD (2015), actualisant la Conférence de consensus SFAR de 2000 : diagnostic et contrôle de la source infectieuse (imagerie, chirurgie vs drainage radiologique, relaparotomie), microbiologie et antibiothérapie probabiliste des péritonites communautaires, particularités pédiatriques, diagnostic et antibiothérapie des infections associées aux soins (dont critères de risque de bactérie multirésistante), avec 3 algorithmes décisionnels. 44 recommandations sur 6 thèmes (communautaire 24, pédiatrie 3, associées aux soins 17), toutes à Accord fort. Hors champ : infections primaires des cirrhoses, infections focalisées isolées (biliaires, abcès hépatiques isolés, sigmoïdites).",
+    society: "SFAR / SRLF / SPILF / AFC / SFCD",
+    version: "2015",
+    validated: "Groupe de relecture de 38 médecins (cotation Delphi, 2 tours)",
+    methodology: "GRADE standard (qualité des preuves 1-4, force 1+/1-/2+/2-, vote Delphi)",
+    pages: 25,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_Prise-en-charge-des-infections-intra-abdominales.pdf"
   }
 };
 

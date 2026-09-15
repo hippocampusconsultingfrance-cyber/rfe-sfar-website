@@ -28,13 +28,18 @@ des tags individuels, bien que le total (44) et le compte "avis d'experts"
 un decompte erronement arrondi, ou une recommandation supplementaire a ete
 comptee differemment lors de la redaction du texte de synthese).
 
-PARTICULARITES PEDIATRIQUES : la section "Recommandations pour les IIA en
-pediatrie" (texte source) est PUREMENT NARRATIVE (litterature limitee,
-extrapolation des donnees adulte, pas de specificite diagnostique chez
-l'enfant) et ne contient AUCUNE recommandation numerotee propre - les R23/
-R24 (duree d'antibiotherapie) qui suivent immediatement dans le texte
-appartiennent au theme general, pas specifiquement a la pediatrie. Ceci
-n'est pas un oubli de cette fiche mais un constat du texte source lui-meme.
+PARTICULARITES PEDIATRIQUES : CORRECTION POST-AUDIT (l'affirmation initiale de
+ce docstring etait fausse, trouvee par l'audit independant) - la section
+"Recommandations pour les infections intra-abdominales en pediatrie" du texte
+source N'EST PAS purement narrative : elle contient bien 3 recommandations
+propres, R25, R26 et R27 (dont les argumentaires citent des etudes
+specifiquement pediatriques - appendicite chez l'enfant pour R25, exposition
+de l'enfant pour R26, comparaison explicite a "l'adulte" pour R27). Comptage
+par theme reconcilie exactement les 44 recommandations sur les 6 themes du
+texte source : communautaire R1-R24 (24) + pediatrie R25-R27 (3) + associees
+aux soins R28-R44 (17) = 44. Ces 3 recommandations sont regroupees dans leur
+propre section "Particularites pediatriques" plutot que sous "associees aux
+soins" comme dans une version anterieure de cette fiche - corrige.
 
 FIGURES : 3 algorithmes (Fig. 1 prise en charge péritonite communautaire,
 Fig. 2 antibiotherapie probabiliste communautaire, Fig. 3 antibiotherapie
@@ -170,6 +175,13 @@ def _section_intro():
         Spacer(1, 1.5 * mm),
         theme_table(SEVERITY_ROWS, TCW),
     ]))
+    story.append(Spacer(1, 1.2 * mm))
+    story.append(P(
+        "<i>Correction d'unité :</i> le texte source imprime « 176,8 mmol/L » et "
+        "« 34,2 mmol/L » pour ces deux seuils — dimensionnellement incohérent avec "
+        "2 mg/dL (probable artefact d'extraction du symbole µ, absent de tout le "
+        "document source extrait) ; corrigé ici en µmol/L, seule unité physiologiquement "
+        "plausible pour ces valeurs.", S_NOTE))
     story.append(Spacer(1, 2.5 * mm))
     story.append(section_bar("Méthodologie — GRADE", color=RED))
     story.append(Spacer(1, 1.5 * mm))
@@ -290,20 +302,37 @@ def _section_communautaire_all():
     return story
 
 # ---------------------------------------------------------------------------
+def _section_pediatrie():
+    story = []
+    story.append(Spacer(1, 2.5 * mm))
+    story.append(KeepTogether([
+        section_bar("Particularités pédiatriques des IIA (R25-R27)", color=RED),
+        Spacer(1, 1.5 * mm),
+        P("Littérature limitée chez l'enfant (peu d'études, souvent observationnelles), "
+          "raisonnements majoritairement extrapolés des données adulte ; pas de "
+          "spécificité diagnostique propre à l'enfant (ni radiologique ni "
+          "biologique).", S_BODY_SM),
+        Spacer(1, 1 * mm),
+    ]))
+    story.append(reco_table([
+        ("R25", "Chez l'enfant, il faut privilégier les examens iconographiques non "
+         "irradiants.", "1+"),
+        ("R26", "Chez l'enfant, il faut probablement prendre en compte Pseudomonas "
+         "aeruginosa en cas de facteurs de gravité (défaillance viscérale, comorbidités) "
+         "ou d'échec thérapeutique.", "2+"),
+        ("R27", "Il ne faut probablement pas prolonger la durée de l'antibiothérapie "
+         "pédiatrique au-delà de ce qui est recommandé chez l'adulte.", "2-"),
+    ], RCW))
+    return story
+
 def _section_postop_diag():
     story = []
     story.append(Spacer(1, 2.5 * mm))
     story.append(KeepTogether([
-        section_bar("IIA associées aux soins — Diagnostic postopératoire (R25-R37)", color=RED),
+        section_bar("IIA associées aux soins — Diagnostic postopératoire (R28-R37)", color=RED),
         Spacer(1, 1.5 * mm),
     ]))
     story.append(reco_table([
-        ("R25", "Il faut privilégier les examens iconographiques non irradiants.", "1+"),
-        ("R26", "Il faut probablement prendre en compte Pseudomonas aeruginosa en cas de "
-         "facteurs de gravité (défaillance viscérale, comorbidités) ou d'échec "
-         "thérapeutique.", "2+"),
-        ("R27", "Il ne faut probablement pas prolonger la durée de l'antibiothérapie "
-         "pédiatrique au-delà de ce qui est recommandé chez l'adulte.", "2-"),
         ("R28", "En cas de survenue ou d'aggravation d'une dysfonction d'organe dans les "
          "jours suivant une chirurgie abdominale, il faut probablement évoquer une "
          "IIA.", "2+"),
@@ -331,12 +360,6 @@ def _section_postop_diag():
         ("R37", "Il faut probablement effectuer un examen direct du liquide péritonéal à "
          "la recherche de levures.", "2+"),
     ], RCW))
-    story.append(Spacer(1, 1.5 * mm))
-    story.append(P(
-        "<b>Note :</b> la section « particularités pédiatriques » du texte source est "
-        "purement narrative — littérature limitée, extrapolation des données adulte, "
-        "aucune spécificité diagnostique propre à l'enfant — et ne contient aucune "
-        "recommandation numérotée qui lui soit propre.", S_NOTE))
     return story
 
 def _section_postop_atb():
@@ -364,12 +387,14 @@ def _section_postop_atb():
         ("R42", "1<sup>er</sup> épisode, sans facteur de risque de BMR : pipéracilline/"
          "tazobactam + amikacine (optionnelle si non grave). ≥ 2 des 6 critères de BMR "
          "(ou 1 seul si choc septique) : carbapénème large spectre (imipénème/"
-         "méropénème/doripénème) + amikacine. <i>6 critères BMR : céphalosporine "
-         "3<sup>e</sup> gén./fluoroquinolone &lt; 3 mois ; portage BLSE ou P. aeruginosa "
-         "résistant ceftazidime &lt; 3 mois ; hospitalisation à l'étranger &lt; 12 mois ; "
-         "EHPAD médicalisé + sonde/gastrotomie ; échec d'antibiothérapie large spectre "
-         "préalable ; récidive &lt; 15 j d'infection traitée par pipéracilline-"
-         "tazobactam ≥ 3 j.</i>", "2+"),
+         "méropénème/doripénème) + amikacine (optionnelle si non grave — même règle que "
+         "pour le 1<sup>er</sup> schéma). <i>6 critères BMR : traitement antérieur par "
+         "céphalosporine de 3<sup>e</sup> gén. ou fluoroquinolone (dont monodose) &lt; 3 "
+         "mois ; portage BLSE ou P. aeruginosa résistant ceftazidime &lt; 3 mois ; "
+         "hospitalisation à l'étranger &lt; 12 mois ; EHPAD médicalisé + sonde/"
+         "gastrotomie ; échec d'un traitement par céphalosporine 3<sup>e</sup> gén., "
+         "fluoroquinolone ou pipéracilline-tazobactam à large spectre ; récidive &lt; 15 j "
+         "d'infection traitée par pipéracilline-tazobactam ≥ 3 j.</i>", "2+"),
         ("R43", "Allergie aux β-lactamines : (1) ciprofloxacine + amikacine + "
          "métronidazole + vancomycine ; ou (2) aztréonam + amikacine + vancomycine + "
          "métronidazole ; ou (3) à défaut, tigécycline + ciprofloxacine.", "AE"),
@@ -378,7 +403,9 @@ def _section_postop_atb():
     return story
 
 def _section_postop_all():
-    story = _section_postop_diag()
+    story = _section_pediatrie()
+    story.append(Spacer(1, 2.5 * mm))
+    story.extend(_section_postop_diag())
     story.extend(_section_postop_atb())
     return story
 
@@ -460,14 +487,13 @@ def _section_figures_sources():
         "2_AFAR_Prise-en-charge-des-infections-intra-abdominales.pdf", S_SOURCE))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
-        "<b>Couverture :</b> intégralité des 44 recommandations finales (texte + grade) "
-        "et des 3 figures/algorithmes (retranscrits depuis rendu visuel). Hors champ, "
-        "explicitement exclu par la source elle-même : infections primaires des "
-        "cirrhoses, infections focalisées isolées (biliaires, abcès hépatiques isolés, "
-        "sigmoïdites). La section pédiatrique du texte source est purement narrative "
-        "(aucune recommandation numérotée propre) — résumée en note plutôt que "
-        "reproduite in extenso faute de contenu recommandationnel propre à résumer. "
-        "L'argumentaire détaillé (statistiques d'études, références bibliographiques) "
+        "<b>Couverture :</b> intégralité des 44 recommandations finales sur les 6 thèmes "
+        "de la source — communautaire (24), pédiatrie (3), associées aux soins (17) — "
+        "(texte + grade) et des 3 figures/algorithmes (retranscrits depuis rendu "
+        "visuel). Hors champ, explicitement exclu par la source elle-même : infections "
+        "primaires des cirrhoses, infections focalisées isolées (biliaires, abcès "
+        "hépatiques isolés, sigmoïdites). L'argumentaire détaillé (statistiques "
+        "d'études, références bibliographiques) "
         "est volontairement condensé aux seuls seuils/schémas cliniquement actionnables "
         "— se référer au texte intégral pour le détail des preuves.", S_SOURCE))
     story.append(Spacer(1, 3 * mm))

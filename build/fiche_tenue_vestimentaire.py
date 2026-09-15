@@ -241,7 +241,11 @@ def _section_coiffants_masques_chaussures():
             ("R4.2", "Le personnel <b>ne porte pas</b> de sur-chaussures en plus des "
              "chaussures dédiées — le port de sur-chaussures n'est pas plus efficace "
              "pour réduire la contamination de l'environnement, et s'accompagne d'un "
-             "risque de contamination des mains."),
+             "risque de contamination des mains. <i>Exception :</i> port possible à "
+             "titre exceptionnel, par-dessus les chaussures dédiées, en cas de risque "
+             "élevé de projection de sang et/ou de liquides biologiques en grande "
+             "quantité — désinfection des mains obligatoire après la pose et le "
+             "retrait des sur-chaussures."),
         ], RCW),
     ]))
     return story

@@ -17,20 +17,24 @@ ces etudes"). Methodologie GRADE appliquee pour l'analyse de la
 litterature (niveau de preuve par reference), mais LA FORCE DE CHAQUE
 RECOMMANDATION N'EST PAS un grade 1+/1-/2+/2- individuel : formulation
 uniforme "les experts suggerent de faire/ne pas faire", cotation Delphi
-(echelle 1-9, GRADE grid, seuil >=70% convergent/<20% divergent). 8
-questions cliniques (PICO), 10 enonces gradés individuellement (R1, R2.1,
-R2.2, R2.1-Pediatrie, R2.2-Pediatrie, R3, R3-Pediatrie, R4, R5, R6) -
-TOUS a "Accord FORT" (verifie par grep exhaustif : aucune autre mention
-d'accord dans le texte) - meme convention de chip unique "AE" que
-fiche_brule_grave.py/fiche_bris_dentaires.py (aucun grade 1+/2+ invente).
-Le decompte officiel de la source ("8 recommandations", section
-"Synthese des resultats") correspond aux 8 QUESTIONS/groupes (R1, R2-
-adulte, R2-pediatrie, R3-adulte, R3-pediatrie, R4, R5, R6) et non aux 10
-enonces gradés individuellement listes ci-dessus (R2 et R3-adulte ont
-chacun 2 sous-enonces .1/.2) - pas une incoherence, simple difference de
-granularite de comptage, precisee ici pour eviter toute confusion.
+(echelle 1-9, GRADE grid, seuil >=70% convergent/<20% divergent). La
+source annonce explicitement (section Methodes) "six questions" (Question
+1 a Question 6) et separement "8 recommandations" (section Synthese des
+resultats) - DEUX comptages distincts, verifies chacun par grep exhaustif
+("Question [1-6] :" x6 occurrences ; groupes de recommandations x8). Le
+decompte de "8 recommandations" correspond aux 8 GROUPES (R1, R2-adulte,
+R2-pediatrie, R3-adulte, R3-pediatrie, R4, R5, R6), tandis que cette fiche
+liste les 10 enonces gradés INDIVIDUELLEMENT ci-dessous (R2-adulte ET
+R2-pediatrie comportent chacun 2 sous-enonces .1/.2 ; R3-adulte et
+R3-pediatrie n'en comportent qu'un seul chacun, malgre le nom "R3" partage
+par les deux versions adulte/pediatrie) - pas une incoherence, simple
+difference de granularite de comptage, precisee ici pour eviter toute
+confusion. TOUS les enonces sont a "Accord FORT" (verifie par grep
+exhaustif : aucune autre mention d'accord dans le texte) - meme convention
+de chip unique "AE" que fiche_brule_grave.py/fiche_bris_dentaires.py
+(aucun grade 1+/2+ invente).
 
-PORTEE : couverture complete des 10 enonces gradés (8 questions
+PORTEE : couverture complete des 10 enonces gradés (6 questions
 cliniques). L'annexe (posologies HAS 2012 de reference + tableau des
 objectifs hemodynamiques pediatriques par age) est reproduite
 integralement (regle 1). Les modalites administratives detaillees du
@@ -143,7 +147,7 @@ def _section_all():
         "GIHP, SSA) sur la place du <b>plasma lyophilisé (PLYO)</b>, par rapport au plasma "
         "frais congelé (PFC), chez l'adulte, l'enfant et le nouveau-né en choc "
         "hémorragique ou à risque de transfusion massive, en milieu civil (préhospitalier "
-        "et intra-hospitalier). 8 questions cliniques, 10 énoncés gradés, tous "
+        "et intra-hospitalier). 6 questions cliniques, 10 énoncés gradés, tous "
         "<b>Accord fort</b>.", S_BODY), bg=BG_PANEL, border=TEAL))
     story.append(Spacer(1, 3 * mm))
     story.append(section_bar("Méthodologie"))
@@ -154,12 +158,13 @@ def _section_all():
         "méthodologie GRADE, mais formulation uniforme « les experts suggèrent de "
         "faire/de ne pas faire » (pas de grade 1+/1-/2+/2- individuel). Cotation Delphi "
         "(GRADE grid, échelle 1-9) : validée si ≥ 70 % des experts convergent et "
-        "&lt; 20 % divergent. <i>Note de comptage :</i> la source annonce « 8 "
-        "recommandations » (comptées par question clinique : R1, R2-adulte, "
-        "R2-pédiatrie, R3-adulte, R3-pédiatrie, R4, R5, R6) — cette fiche liste les "
-        "10 énoncés gradés individuellement ci-dessous (R2 et R3-adulte comportent "
-        "chacun 2 sous-énoncés .1/.2), sans divergence réelle de fond, seulement de "
-        "granularité de comptage.", S_BODY_SM))
+        "&lt; 20 % divergent. <i>Note de comptage :</i> la source distingue « six "
+        "questions » cliniques (Q1 à Q6) et, séparément, « 8 recommandations » "
+        "(comptées par groupe : R1, R2-adulte, R2-pédiatrie, R3-adulte, R3-pédiatrie, "
+        "R4, R5, R6) — cette fiche liste les 10 énoncés gradés individuellement "
+        "ci-dessous (R2-adulte ET R2-pédiatrie comportent chacun 2 sous-énoncés "
+        ".1/.2 ; R3-adulte et R3-pédiatrie n'en comportent qu'un seul chacun), sans "
+        "divergence réelle de fond, seulement de granularité de comptage.", S_BODY_SM))
     story.append(Spacer(1, 1.5 * mm))
     story.append(legend_flowable())
     story.append(Spacer(1, 2.5 * mm))
@@ -345,7 +350,8 @@ def _section_circuit_annexe_sources():
         S_SOURCE))
     story.append(Spacer(1, 1 * mm))
     story.append(P(
-        "<b>Couverture :</b> intégralité des 10 énoncés gradés (8 questions cliniques) "
+        "<b>Couverture :</b> intégralité des 10 énoncés gradés (6 questions cliniques, "
+        "regroupées en 8 recommandations par la source elle-même) "
         "et de l'annexe (posologies HAS 2012, objectifs hémodynamiques pédiatriques). "
         "Le circuit réglementaire détaillé du PLYO (R6) est condensé aux points "
         "opérationnels — voir texte intégral pour la liste exhaustive des mentions "

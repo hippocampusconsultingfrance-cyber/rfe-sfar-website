@@ -95,7 +95,8 @@ var RAW = {
   infections_intra_abdominales: JSON.parse(document.getElementById('content-infections_intra_abdominales').textContent),
   alr_perinerveuse: JSON.parse(document.getElementById('content-alr_perinerveuse').textContent),
   urgences_ob_extrahosp: JSON.parse(document.getElementById('content-urgences_ob_extrahosp').textContent),
-  aod_urgence: JSON.parse(document.getElementById('content-aod_urgence').textContent)
+  aod_urgence: JSON.parse(document.getElementById('content-aod_urgence').textContent),
+  plyo_transfusion: JSON.parse(document.getElementById('content-plyo_transfusion').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -192,7 +193,8 @@ var FICHE_HREF_MATCH = {
   infections_intra_abdominales: ['prise-en-charge-des-infections-intra-abdominales', '2_AFAR_Prise-en-charge-des-infections-intra-abdominales'],
   alr_perinerveuse: ['anesthesie-loco-regionale-perinerveuse', 'rfe-anesthesie-loco-regionale-perinerveuse'],
   urgences_ob_extrahosp: ['urgences-obstetricales-extrahospitalieres', 'Urgences-Obstetricales-Extrahospitalieres'],
-  aod_urgence: ['gestion-perioperatoire-des-aod-en-urgence']
+  aod_urgence: ['gestion-perioperatoire-des-aod-en-urgence'],
+  plyo_transfusion: ['indications-de-transfusion-de-plasmas-lyophilises-plyo']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1297,6 +1299,18 @@ var DOC_META = {
     methodology: "Analyse de la littérature + relecture critique GIHP — aucun système de cotation (propositions, pas de recommandations)",
     pages: 10,
     url: "https://sfar.org/download/gestion-perioperatoire-des-aod-en-urgence/?wpdmdl=34804"
+  },
+  plyo_transfusion: {
+    key: 'plyo_transfusion',
+    badge: 'RPP',
+    title: "Transfusion de plasmas lyophilisés (PLYO)",
+    short: "RPP SFAR (avec SFMU, ADARPEF, CARO, CNCRH, CTSA, EFS, GFRUP, GIHP, SSA), 2020 : place du plasma lyophilisé (PLYO) par rapport au plasma frais congelé (PFC) chez l'adulte, l'enfant et le nouveau-né en choc hémorragique ou à risque de transfusion massive, en milieu civil. 6 questions cliniques, 10 énoncés gradés (regroupés en 8 recommandations par la source), tous Accord fort : hémorragie sans urgence vitale, transports médicalisés préhospitaliers (seuil de 20 min), transfusion intra-hospitalière (ratio plasma:CGR ≥1:2), hémorragie du péripartum, règles transfusionnelles et circuit du PLYO. Annexe : posologies HAS 2012 et objectifs hémodynamiques pédiatriques par âge.",
+    society: "SFAR / SFMU / ADARPEF / CARO / CNCRH / CTSA / EFS / GFRUP / GIHP / SSA",
+    version: "2020",
+    validated: "Comité des Référentiels Cliniques (16/06/2020) et CA de la SFAR (23/06/2020)",
+    methodology: "Analyse GRADE de la littérature, format RPP (« les experts suggèrent »), cotation Delphi GRADE grid",
+    pages: 28,
+    url: "https://sfar.org/download/indications-de-transfusion-de-plasmas-lyophilises-plyo-chez-un-patient-en-choc-hemorragique-ou-a-risque-de-transfusion-massive-en-milieu-civil-adulte-enfant-et-nouveau-ne/?wpdmdl=30312"
   }
 };
 

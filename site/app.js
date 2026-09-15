@@ -93,7 +93,8 @@ var RAW = {
   brule_grave: JSON.parse(document.getElementById('content-brule_grave').textContent),
   tabagisme: JSON.parse(document.getElementById('content-tabagisme').textContent),
   infections_intra_abdominales: JSON.parse(document.getElementById('content-infections_intra_abdominales').textContent),
-  alr_perinerveuse: JSON.parse(document.getElementById('content-alr_perinerveuse').textContent)
+  alr_perinerveuse: JSON.parse(document.getElementById('content-alr_perinerveuse').textContent),
+  urgences_ob_extrahosp: JSON.parse(document.getElementById('content-urgences_ob_extrahosp').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -188,7 +189,8 @@ var FICHE_HREF_MATCH = {
   brule_grave: ['prise-en-charge-du-brule-grave-a-la-phase-aigue-chez-ladulte-et-lenfant', 'rpp-prise-en-charge-du-brule-grave'],
   tabagisme: ['recommandations-sur-la-prise-en-charge-du-tabagisme-en-periode-perioperatoire', '2-SFAR-RFE-tabac_proposition-CRC'],
   infections_intra_abdominales: ['prise-en-charge-des-infections-intra-abdominales', '2_AFAR_Prise-en-charge-des-infections-intra-abdominales'],
-  alr_perinerveuse: ['anesthesie-loco-regionale-perinerveuse', 'rfe-anesthesie-loco-regionale-perinerveuse']
+  alr_perinerveuse: ['anesthesie-loco-regionale-perinerveuse', 'rfe-anesthesie-loco-regionale-perinerveuse'],
+  urgences_ob_extrahosp: ['urgences-obstetricales-extrahospitalieres', 'Urgences-Obstetricales-Extrahospitalieres']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1269,6 +1271,18 @@ var DOC_META = {
     methodology: "GRADE standard (qualité des preuves 1-4, force 1+/1-/2+/2-, vote Delphi GRADE Grid)",
     pages: 10,
     url: "https://sfar.org/wp-content/uploads/2019/10/rfe-anesthesie-loco-regionale-perinerveuse.pdf"
+  },
+  urgences_ob_extrahosp: {
+    key: 'urgences_ob_extrahosp',
+    badge: 'RFE',
+    title: "Urgences obstétricales extrahospitalières",
+    short: "RFE SFAR/SFMU (avec CNGOF, Collège national des sages-femmes, GFRUP), validée 2010 : prise en charge des urgences obstétricales en dehors d'une maternité — régulation Samu et accouchement inopiné (mécanique, nouveau-né), hémorragies du 2e/3e trimestre et post-partum (avec algorithme HPP), traumatismes chez la femme enceinte, HTA gravidique/prééclampsie/éclampsie (avec algorithme de titration antihypertenseur), menace d'accouchement prématuré, transferts in utero interhospitaliers. Cotation Delphi (2 tours), pas de grade individuel — Accord fort quasi systématique. 4 tableaux et 2 figures (algorithmes) retranscrits intégralement. Couverture complète de 8 des 9 chapitres ; le chapitre formation/évaluation des pratiques (organisationnel) est résumé.",
+    society: "SFAR / SFMU (avec CNGOF, Collège national des sages-femmes, GFRUP)",
+    version: "2010",
+    validated: "Comité des urgences de la SFAR",
+    methodology: "Méthode GRADE annoncée, cotation Delphi (2 tours), sans grade individuel 1+/2+/A/B/C",
+    pages: 14,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Urgences-Obstetricales-Extrahospitalieres.pdf"
   }
 };
 

@@ -186,6 +186,8 @@ with open(os.path.join(BASE, "content_infections_intra_abdominales.json"), encod
     content_infections_intra_abdominales = f.read()
 with open(os.path.join(BASE, "content_alr_perinerveuse.json"), encoding="utf-8") as f:
     content_alr_perinerveuse = f.read()
+with open(os.path.join(BASE, "content_urgences_ob_extrahosp.json"), encoding="utf-8") as f:
+    content_urgences_ob_extrahosp = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -284,6 +286,7 @@ out = out.replace("__CONTENT_BRULE_GRAVE__", safe(content_brule_grave))
 out = out.replace("__CONTENT_TABAGISME__", safe(content_tabagisme))
 out = out.replace("__CONTENT_INFECTIONS_INTRA_ABDOMINALES__", safe(content_infections_intra_abdominales))
 out = out.replace("__CONTENT_ALR_PERINERVEUSE__", safe(content_alr_perinerveuse))
+out = out.replace("__CONTENT_URGENCES_OB_EXTRAHOSP__", safe(content_urgences_ob_extrahosp))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

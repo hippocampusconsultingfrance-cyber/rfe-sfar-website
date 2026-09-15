@@ -1683,6 +1683,29 @@ def extract_alr_perinerveuse():
     return {"doc": "alr_perinerveuse", "sections": blocks}
 
 
+def extract_urgences_ob_extrahosp():
+    import style
+    import fiche_urgences_ob_extrahosp as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "urgences_ob_extrahosp", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2454,3 +2477,12 @@ if __name__ == "__main__":
         json.dump(alr_perinerveuse, f, ensure_ascii=False, indent=1)
     print("alr_perinerveuse sections:", len(alr_perinerveuse["sections"]),
           "total blocks:", sum(len(s["items"]) for s in alr_perinerveuse["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    urgences_ob_extrahosp = extract_urgences_ob_extrahosp()
+    with open(os.path.join(BUILD_DIR, "content_urgences_ob_extrahosp.json"), "w") as f:
+        json.dump(urgences_ob_extrahosp, f, ensure_ascii=False, indent=1)
+    print("urgences_ob_extrahosp sections:", len(urgences_ob_extrahosp["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in urgences_ob_extrahosp["sections"]))

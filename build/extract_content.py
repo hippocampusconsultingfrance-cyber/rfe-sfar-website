@@ -1407,6 +1407,29 @@ def extract_remplissage_perioperatoire():
     return {"doc": "remplissage_perioperatoire", "sections": blocks}
 
 
+def extract_thrombectomie():
+    import style
+    import fiche_thrombectomie as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "thrombectomie", "sections": blocks}
+
+
 def extract_relations_anesth_chir():
     import style
     import fiche_relations_anesth_chir as m
@@ -2230,3 +2253,12 @@ if __name__ == "__main__":
         json.dump(remplissage_perioperatoire, f, ensure_ascii=False, indent=1)
     print("remplissage_perioperatoire sections:", len(remplissage_perioperatoire["sections"]),
           "total blocks:", sum(len(s["items"]) for s in remplissage_perioperatoire["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    thrombectomie = extract_thrombectomie()
+    with open(os.path.join(BUILD_DIR, "content_thrombectomie.json"), "w") as f:
+        json.dump(thrombectomie, f, ensure_ascii=False, indent=1)
+    print("thrombectomie sections:", len(thrombectomie["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in thrombectomie["sections"]))

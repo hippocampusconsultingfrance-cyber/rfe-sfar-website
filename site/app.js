@@ -86,7 +86,8 @@ var RAW = {
   sauv: JSON.parse(document.getElementById('content-sauv').textContent),
   relations_anesth_chir: JSON.parse(document.getElementById('content-relations_anesth_chir').textContent),
   erreurs_medicamenteuses: JSON.parse(document.getElementById('content-erreurs_medicamenteuses').textContent),
-  remplissage_perioperatoire: JSON.parse(document.getElementById('content-remplissage_perioperatoire').textContent)
+  remplissage_perioperatoire: JSON.parse(document.getElementById('content-remplissage_perioperatoire').textContent),
+  thrombectomie: JSON.parse(document.getElementById('content-thrombectomie').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -174,7 +175,8 @@ var FICHE_HREF_MATCH = {
   sauv: ['salle-d-accueil-des-urgences-vitales'],
   relations_anesth_chir: ['196-reco-anesth-chir-autres-2001'],
   erreurs_medicamenteuses: ['preverreurmedic_recos'],
-  remplissage_perioperatoire: ['strategie-du-remplissage-vasculaire-perioperatoire-2', '2a_AFAR_FRANCAIS_Strategie-du-remplissage-vasculaire-perioperatoire']
+  remplissage_perioperatoire: ['strategie-du-remplissage-vasculaire-perioperatoire-2', '2a_AFAR_FRANCAIS_Strategie-du-remplissage-vasculaire-perioperatoire'],
+  thrombectomie: ['prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1171,6 +1173,18 @@ var DOC_META = {
     methodology: "Méthode GRADE — qualité des preuves en 4 catégories, force de recommandation forte (1+/1-) ou faible (2+/2-), avis d'experts (AE) en l'absence d'évaluation quantifiée",
     pages: 9,
     url: "https://sfar.org/wp-content/uploads/2015/09/2a_AFAR_FRANCAIS_Strategie-du-remplissage-vasculaire-perioperatoire.pdf"
+  },
+  thrombectomie: {
+    key: 'thrombectomie',
+    badge: 'Avis d\'experts',
+    title: "Thrombectomie cérébrale — prise en charge anesthésique",
+    short: "RPP SFAR/ANARLF (2022), avec la SFNR/SFNV/GFHT : prise en charge anesthésique péri-procédurale de la thrombectomie mécanique pour AVC ischémique — choix anesthésie générale/sédation/anesthésie locale selon critères cliniques, cibles per/post-procédure (PA, SpO2, etCO2, glycémie), gestion des antiagrégants/anticoagulants, extubation et orientation post-procédure (USINV). 18 préconisations, toutes avis d'experts à accord fort ; 2 questions sans recommandation faute de littérature suffisante, disclosure explicite.",
+    society: "SFAR / ANARLF, avec SFNR / SFNV / GFHT",
+    version: "2022",
+    validated: "Comité des Référentiels Cliniques de la SFAR, CA de la SFAR, bureau de l'ANARLF, CS/CA de la SFNV, CS de la SFNR",
+    methodology: "Format RPP (Recommandations pour la Pratique Professionnelle) — analyse de la littérature selon GRADE®, cotation collective GRADE Grid, 100 % accord fort après 2 tours",
+    pages: 33,
+    url: "https://sfar.org/download/prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie/?wpdmdl=37892"
   }
 };
 

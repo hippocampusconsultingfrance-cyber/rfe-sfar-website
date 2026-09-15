@@ -1,0 +1,1019 @@
+Article spe´cial
+Prise en charge des complications he´morragiques graves et de la
+chirurgie en urgence chez les patients recevant un anticoagulant oral
+anti-IIa ou anti-Xa direct. Propositions du Groupe d’inte´reˆt en
+He´mostase Pe´riope´ratoire (GIHP) - mars 2013§
+Management of major bleeding complications and emergency surgery in patients on
+long-term treatment with direct oral anticoagulants, thrombin or factor-Xa
+inhibitors. Proposals of the Working Group on Perioperative Haemostasis
+(GIHP) - March 2013
+G. Pernod a,b, P. Albaladejo b,c,*, A. Godier d, C.M. Samama d, S. Susen e, Y. Gruel f, N. Blais g,
+P. Fontana h, A. Cohen i, J.V. Llau j, N. Rosencher k, J.F. Schved l, E. de Maistre m,
+M.M. Samama n, P. Mismetti o, P. Sie´ p
+a Unite´ de me´decine vasculaire, CHU de Grenoble, BP 217, 38043 Grenoble cedex 09, France
+b UJF-Grenoble 1/CNRS TIMC-IMAG UMR 5525/Themas, 38041 Grenoble, France
+c Poˆle anesthe´sie-re´animation, CHU de Grenoble, BP 217, 38043 Grenoble cedex 09, France
+d Service d’anesthe´sie-re´animation, Hoˆtel-Dieu, AP–HP, 1, place du Parvis-Notre-Dame, 75181 Paris cedex 04, France
+e Poˆle d’he´matologie transfusion, centre de biologie pathologie, boulevard du Professeur-Jules-Leclercq, 59037 Lille cedex, France
+f Laboratoire d’he´mostase, 2 bis, boulevard Tonnelle´, 37032 Tours cedex, France
+g Laboratoire d’he´mostase-thrombose, CHUM - hoˆpital Notre-Dame, 1560 Sherbrooke Est, H2L 4M1, Montre´al, Canada
+h Laboratoire d’he´mostase spe´ciale, hoˆpital cantonal universitaire, 4, rue Gabrielle-Perret-Gentil, 1211 Gene`ve 14, Suisse
+i Service de cardiologie, hoˆpital St-Antoine, 184, rue du Faubourg-Saint-Antoine, 75571 Paris cedex 12, France
+j Department of anesthesiology and critical care, hoˆpital universitaire, Valencia, Espagne
+k De´partement d’anesthe´sie-re´animation, hoˆpital Cochin, AP–HP, 27, rue du Faubourg-Saint-Jacques, 75014 Paris, France
+l Laboratoire central d’he´matologie, hoˆpital Saint-E´loi, CHU de Montpellier, 80, avenue Augustin-Fliche, 34295 Montpellier cedex 5, France
+m CRTH et centre des coagulopathies, hoˆpital du Bocage, BP 77 908, 21079 Dijon cedex, France
+n Laboratoire d’he´matologie, groupe hospitalier Hoˆtel-Dieu Cochin, 1, place du Parvis-Notre-Dame, 75181 Paris cedex 04, France
+o Groupe de recherche sur la thrombose, unite´ de recherche clinique, innovation et pharmacologie, hoˆpital Nord, 120, avenue Albert-Raimond, 42055 Saint-
+E´tienne cedex 2, France
+p Laboratoire d’he´matologie, hoˆpital Rangueil, CHU de Toulouse, 1, avenue du Pr-Jean-Poulhe`ss, TSA 50032, 31059 Toulouse cedex, France
+Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+§ Membres du Groupe d’Inte´reˆt en He´mostase Pe´riope´ratoire (GIHP) : P. Albaladejo (anesthe´sie-re´animation, Grenoble), S. Belisle (anesthe´sie, Montre´al, Canada), N. Blais
+(he´matologie, Montre´al, Canada), F. Bonhomme (anesthe´sie-re´animation, Gene`ve, Suisse), A. Borel-Derlon (he´matologiehe´mostase, Caen), J.-Y. Borg (he´mostase, Rouen), J.-L.
+Bosson (biostatistique, Grenoble), A. Cohen (cardiologie, Paris), J.-P. Collet (cardiologie, Paris), E. de Maistre (he´matologie, Dijon), P. de Moerloose (angiologie-he´mostase,
+Gene`ve, Suisse), P. Fontana (angiologie-he´mostase, Gene`ve, Suisse), A. Godier (anesthe´sie-re´animation, Paris), Y. Gruel (he´matologie, Tours), J. Guay (anesthe´sie, Montre´al,
+Canada), J.F. Hardy (anesthe´sie, Montre´al, Canada), Y. Huet (cardiologie, Paris), B. Ickx (anesthe´sie-re´animation, Bruxelles, Belgique), B. Jude (he´matologie, Lille), S. Laporte
+(unite´ de recherche clinique, Saint-E´ tienne), D. Lasne (he´matologie, Paris), J. Llau (anesthe´sie, Valencia, Espagne), T. Lecompte (he´matologie, Gene`ve, Suisse), G. Le Gal
+(me´decine interne, Brest), D. Longrois (anesthe´sie-re´animation, Paris), E. Marret (anesthe´sie-re´animation, Paris), P. Mismetti (pharmacologie clinique, Saint-E´ tienne), S.
+Motte (pathologie vasculaire, Bruxelles, Belgique), N. Nathan (anesthe´sie-re´animation, Limoges), Y. Ozier (anesthe´sie-re´animation, Paris), G. Pernod (me´decine vasculaire,
+Grenoble), N. Rosencher (anesthe´sie-re´animation, Paris), C.M. Samama (anesthe´sie-re´animation, Paris), S. Schlumberger (anesthe´sie-re´animation, Suresnes), J.F. Schved
+(he´matologie, Montpellier), P. Sie (he´matologie, Toulouse), A. Steib (anesthe´sie-re´animation, Strasbourg), S. Susen (he´matologie transfusion, Lille), E. van Belle (cardiologie,
+Lille), P. van Der Linden (anesthe´sie-re´animation, Bruxelles, Belgique), A. Vincentelli (chirurgie cardiaque, Lille) et P. Zufferey (anesthe´sie-re´animation, Saint-E´ tienne).
+* Auteur correspondant.
+Adresse e-mail : PAlbaladejo@chu-grenoble.fr (P. Albaladejo).
+0750-7658/$ – see front matter  2013 Socie´te´ franc¸aise d’anesthe´sie et de re´animation (Sfar). Publie´ par Elsevier Masson SAS. Tous droits re´serve´s.
+http://dx.doi.org/10.1016/j.annfar.2013.04.016
+
+
+1. Introduction
+Les nouveaux anticoagulants oraux directs (NACO), ciblant
+directement la thrombine (facteur IIa) ou le facteur Xa, sont
+actuellement indique´s pour le traitement curatif de la thrombose
+veineuse profonde et de l’embolie pulmonaire (rivaroxaban,
+Xarelto1, Bayer Schering) ou pour la pre´vention des embolies
+syste´miques dans
+la
+ﬁbrillation
+atriale
+(FA)
+non
+valvulaire
+(rivaroxaban ; dabigatran, Pradaxa1, Boehringer Ingelheim).
+Compte tenu de leur facilite´ d’utilisation, il est attendu que ces
+me´dicaments soient largement utilise´s dans des indications au
+long cours. Au-dela` des complications he´morragiques potentielles
+rapporte´es dans les essais de phase III, une proportion non
+ne´gligeable, estime´e entre 10 et 20 % par an des patients traite´s,
+sera confronte´e a` la ne´cessite´ d’une prise en charge chirurgicale.
+L’encadrement des chirurgies programme´es a de´ja` fait l’objet de
+propositions du Groupe d’Inte´reˆt en He´mostase Pe´riope´ratoire
+(GIHP) [1]. Paralle`lement, une re´ﬂexion a e´te´ mene´e au sein du
+meˆme groupe concernant la prise en charge des he´morragies et des
+gestes invasifs en urgence pour des patients be´ne´ﬁciant d’un
+traitement par NACO dans un sche´ma curatif (c’est-a`-dire hors
+pre´vention en chirurgie orthope´dique majeure).
+La me´thodologie permettant l’e´laboration de ces propositions a
+repose´ sur l’analyse de la litte´rature concernant les proprie´te´s
+pharmacocine´tiques de ces me´dicaments, et leur utilisation dans
+un contexte chirurgical. Le texte a ensuite e´te´ soumis a` l’analyse
+critique des membres du GIHP jusqu’a` l’obtention d’un consensus
+formalise´.
+A` l’heure ou` sont faites ces propositions, il n’existe que tre`s peu
+de donne´es permettant de donner des recommandations. Les
+propositions faites reposent souvent sur des extrapolations de
+donne´es de la litte´rature. Ces propositions ne peuvent ainsi
+I N F O
+A R T I C L E
+Historique de l’article :
+Rec¸u le 18 mars 2013
+Accepte´ le 25 avril 2013
+Mots cle´s :
+Chirurgie
+He´morragie
+Anticoagulants oraux
+Anti-IIa
+Anti-Xa
+Urgence
+Re´version
+Keywords:
+Surgery
+Haemorrhage
+Oral anticoagulant
+Anti-IIa
+Anti-Xa
+Emergency
+Reversal
+R E´ S U M E´
+Les nouveaux anticoagulants oraux (NACO), anti-IIa ou anti-Xa directs, sont destine´s a` eˆtre largement
+utilise´s dans le traitement de la maladie thromboembolique veineuse ou dans la ﬁbrillation atriale en
+remplacement des antivitamines K (AVK). Comme tout traitement anticoagulant, notamment aux doses
+dites « curatives », ils sont associe´s a` un risque he´morragique spontane´ ou provoque´. De plus, une
+proportion non ne´gligeable de patients traite´s sera confronte´e a` la ne´cessite´ d’un geste invasif en urgence.
+Compte tenu de l’absence d’antidote spe´ciﬁque, les mesures a` prendre doivent eˆtre de´ﬁnies dans ces
+situations. Le peu de donne´es disponibles ne permet pas d’e´mettre des recommandations, mais
+seulement des propositions qui seront amene´es a` e´voluer en fonction de l’expe´rience accumule´e. Les
+propositions pre´sente´es dans cet article s’appliquent au dabigatran (Pradaxa1) et au rivaroxaban
+(Xarelto1), les donne´es relatives a` l’apixaban et a` l’edoxaban e´tant encore trop peu nombreuses. Pour la
+chirurgie urgente a` risque he´morragique, il est propose´ de doser le taux plasmatique du me´dicament. Des
+taux infe´rieurs ou e´gaux a` 30 ng/mL, a` la fois pour dabigatran et rivaroxaban, devraient permettre la
+re´alisation d’une chirurgie a` risque he´morragique e´leve´. Au-dela`, il est convenu, dans la mesure du
+possible, de reporter l’intervention en surveillant l’e´volution de la concentration du me´dicament. La
+conduite a` tenir est alors de´ﬁnie selon le NACO et sa concentration. Si le dosage du me´dicament n’est pas
+disponible imme´diatement, des propositions « de´grade´es » sur la base de tests usuels, TP et TCA, sont
+pre´sente´es. Ces tests ne permettent cependant pas d’e´valuer re´ellement ni la concentration de
+me´dicament, ni le risque he´morragique qui en de´pend. En cas d’he´morragie grave dans un organe
+critique, il est propose´ de re´duire l’effet du traitement anticoagulant par l’utilisation d’un me´dicament
+procoagulant non spe´ciﬁque en premie`re ligne [concentre´s de complexe prothrombinique active´ (FEIBA1
+30–50 U/kg) ou non active´ (CCP 50 U/kg)]. En dehors de cette situation, pour tout autre type d’he´morragie
+grave, l’administration d’un me´dicament procoagulant, potentiellement thromboge`ne chez ces patients,
+sera discute´e en fonction du taux de NACO et des possibilite´s d’he´mostase me´canique.
+ 2013 Socie´te´ franc¸aise d’anesthe´sie et de re´animation (Sfar). Publie´ par Elsevier Masson SAS. Tous droits
+re´serve´s.
+A B S T R A C T
+New direct oral anticoagulants (NOAC), inhibitors of factor IIa or Xa, are expected to be widely used for
+the treatment of venous thromboembolic disease, or in case of atrial ﬁbrillation. Such anticoagulant
+treatments are known to be associated with haemorrhagic complications. Moreover, it is likely that such
+patients on long-term treatment with NOAC will be exposed to emergency surgery or invasive
+procedures. Due to the present lack of experience in such conditions, we cannot make recommendations,
+but only propose management for optimal safety as regards the risk of bleeding in such emergency
+conditions. In this article, only dabigatran and rivaroxaban were discussed. For emergency surgery at risk
+of bleeding, we propose to dose the plasmatic concentration of drug. Levels inferior or equal to 30 ng/mL
+for both dabigatran and rivaroxaban, should enable the realization of a high bleeding risk surgery. For
+higher concentration, it was proposed to postpone surgery by monitoring the evolution of the drug
+concentration. Action is then deﬁned by the kind of NOAC and its concentration. If the dosage of the drug
+is not immediately available, proposals only based on the usual tests, PT and aPTT, also are presented.
+However, these tests do not really assess drug concentration or bleeding risk. In case of severe
+haemorrhage in a critical organ, it is proposed to reduce the effect of anticoagulant therapy using a
+nonspeciﬁc procoagulant drug (activated prothrombin concentrate, FEIBA, 30–50 U/kg, or non-activated
+4-factors prothrombin concentrates 50 U/kg). For any other type of severe haemorrhage, the
+administration of such a procoagulant drug, potentially thrombogenic in these patients, will be
+discussed regarding concentration of NACO and possibilities for mechanical haemostasis.
+ 2013 Socie´te´ franc¸aise d’anesthe´sie et de re´animation (Sfar). Published by Elsevier Masson SAS. All
+rights reserved.
+G. Pernod et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+692
+
+
+constituer un guide absolu de prescription, mais de´ﬁnissent les
+bases d’une prise en charge qui ne´cessite d’eˆtre e´value´e.
+2. Argumentaire
+2.1. Donne´es concernant les re`gles de prise en charge des patients
+traite´s par de nouveaux anticoagulants oraux pour une chirurgie
+urgente sont mal de´ﬁnies
+Au moment de la commercialisation du dabigatran et du
+rivaroxaban, les re`gles de prise en charge des patients dans le cadre
+de l’urgence ne sont pas e´tablies. Les re´sume´s des caracte´ristiques
+des produits (RCP) ne donnent aucune indication en dehors des
+pre´cautions d’usage et de la ne´cessite´ de repousser au maximum
+les gestes d’urgence.
+Il existe peu de donne´es concernant la prise en charge
+pe´riope´ratoire avec le dabigatran et le rivaroxaban, et a fortiori
+la prise en charge en urgence. Healey et al. [2] ont de´crit la prise en
+charge de patients traite´s par dabigatran dans l’essai RELY et ayant
+be´ne´ﬁcie´
+d’un geste invasif. Pendant la dure´e de cet essai,
+4591 patients ont eu au moins une chirurgie ou un geste invasif,
+dont plus de la moitie´ e´tait a` faible risque he´morragique. La
+chirurgie urgente repre´sentait 7,8 % de l’ensemble des chirurgies. Il
+n’y avait pas de diffe´rence signiﬁcative pour les saignements
+majeurs entre les groupes traite´s par dabigatran ou antivitamine K
+(AVK). En revanche, il n’y a aucune indication pre´cise des modalite´s
+de gestion des me´dicaments (de´lais, administration de me´dica-
+ments procoagulants). Concernant le rivaroxaban, il n’existe pas, a`
+ce jour, de description des patients de l’e´tude ROCKET- AF ayant
+be´ne´ﬁcie´ d’une chirurgie urgente [3].
+Les recommandations publie´es consistent en avis d’experts et
+restent d’ordre ge´ne´ral. En France, l’ANSM, conseille pour la prise
+en charge des he´morragies graves, d’interrompre la prise du
+me´dicament, de transfe´rer le patient vers un centre « spe´cialise´ », et
+de retarder au maximum la chirurgie non programme´e a` risque
+he´morragique, ce que ne permet pas toujours l’e´tat du patient. Ces
+recommandations sont donc peu utiles aux centres « spe´cialise´s »,
+en pratique les services d’accueil des urgences auxquels ces
+patients seront adresse´s.
+2.2. Le traitement par anticoagulants oraux directs a` dose curative est
+associe´ a` un risque he´morragique
+Dans l’essai EINSTEIN DVT, concernant le traitement curatif de
+la thrombose veineuse profonde (TVP), le taux d’he´morragies
+majeures avec le rivaroxaban (0,8 %) n’e´tait pas signiﬁcativement
+diffe´rent de celui observe´ dans le groupe comparateur traite´ par
+AVK, 1,2 %) [4]. Dans l’essai EINSTEIN PE, concernant le traitement
+curatif de l’embolie pulmonaire, le taux d’he´morragies majeures,
+bien que deux fois infe´rieur a` celui du groupe AVK, e´tait de 1,1 %
+[5]. Dans le traitement de la maladie thromboembolique veineuse,
+le taux d’he´morragies graves chez les patients recevant du
+dabigatran 150 mg deux fois par jour e´tait de 1,6 %, la` encore
+comparable au groupe AVK (1,9 %) [6]. Dans la FA, le taux
+d’he´morragies intracraˆniennes rapporte´ e´tait largement diminue´
+avec les NACO, mais celui des he´morragies graves globales restait
+similaire a` celui du groupe AVK [3,7].
+Des mesures spe´ciﬁques doivent donc eˆtre de´ﬁnies en cas de
+survenue de telles complications, et le risque he´morragique doit
+eˆtre pris en compte en cas de chirurgie ou d’acte invasif en urgence.
+2.3. Les nouveaux anticoagulants oraux n’ont pas d’antidote
+spe´ciﬁque valide´
+La prise en charge des he´morragies graves ou des actes
+chirurgicaux en urgence est de´licate de par l’absence actuelle
+d’antidote spe´ciﬁque. Des antagonistes du dabigatran ou des
+xabans sont en phase I et II de de´veloppement clinique [8], et ne
+devraient pas eˆtre disponibles avant au minimum deux ans.
+2.4. Be´ne´ﬁce-risque des me´dicaments procoagulants incertain
+Les me´dicaments procoagulants disponibles en France sont les
+concentre´s de complexe prothrombinique (CCP) a` quatre facteurs
+non active´s (Kanokad1, LFB, Octaplex1 Octapharma, Conﬁdex1
+CSL Behring), un CCP active´ (FEIBA1 Baxter) et le facteur VIIa
+humain recombinant (Novoseven1, NovoNordisk). Leur utilisation
+dans cette indication est hors AMM.
+En l’absence d’antidote spe´ciﬁque, on peut proposer empiri-
+quement
+de
+tenter
+de
+contrecarrer
+l’effet
+anticoagulant
+des NACO a`
+l’aide de ces me´dicaments. L’analyse de leur
+efﬁcacite´ potentielle repose sur des donne´es expe´rimentales
+animales, ou in vivo/ex vivo chez le volontaire sain, et sur
+quelques cas cliniques ponctuels. Il n’existe aucune donne´e
+expe´rimentale de neutralisation de l’effet d’un surdosage de
+NACO.
+L’effet des CCP est difﬁcile a` analyser. Lorsqu’il a e´te´ rapporte´e,
+les doses utilise´es e´taient ge´ne´ralement supe´rieures (50 U/kg) a`
+celles utilise´es pour antagoniser l’effet des AVK [9,10]. Dans ce
+cadre, nous disposons de donne´es de se´curite´ pour des doses
+permettant d’inhiber l’action des AVK. La fre´quence des complica-
+tions thrombotiques associe´es (non ne´cessairement imputables) a`
+l’administration de CCP (quatre facteurs) pour inhiber l’action des
+AVK est faible (1,8 %) [11]. La survenue de ces complications
+thrombotiques est volontiers associe´e a` l’administration de doses
+e´leve´es (> 50 U/kg) ou au traitement de patients pre´sentant une
+he´patopathie se´ve`re [12].
+L’effet de FEIBA1 est e´voque´, a` des doses de 30 a` 50 U/kg, soit
+deux fois moins que celles utilise´s dans l’he´mophilie [10]. Son
+utilisation en clinique humaine dans cette indication n’est
+rapporte´e que dans un cas [13]. Nous ne disposons pas de donne´es
+sur la se´curite´ d’utilisation du FEIBA1 dans la population cible´e,
+c’est-a`-dire
+des
+patients
+pre´sentant
+des
+facteurs
+de
+risque
+thrombotiques.
+Il semble que le rFVIIa, dans des mode`les animaux expe´ri-
+mentaux, soit peu efﬁcace pour inhiber l’effet anticoagulant des
+deux me´dicaments, dabigatran et rivaroxaban [14,15].
+Ces me´dicaments ne modiﬁent pas l’e´limination du me´dica-
+ment. L’utilisation de ces me´dicaments pro-he´mostatiques ne
+corrige pas comple`tement les anomalies biologiques de l’he´mos-
+tase induite par les NACO.
+Enﬁn, ni l’efﬁcacite´, ni la se´curite´, ni les conditions d’utilisation
+(doses, rythme, surveillance biologique) de ces me´dicaments dans
+cette indication ne sont pre´cise´ment connues. Il n’existe notam-
+ment pas de donne´es disponibles sur le risque thrombotique des
+fortes doses de CCP et de FEIBA chez ces patients. Cela explique
+qu’ils soient place´s en seconde intention dans les propositions ci-
+dessous,
+sauf
+pour
+les
+he´morragies
+de
+pronostic
+vital
+ou
+fonctionnel imme´diat.
+2.5. Tests d’he´mostase simples permettant de mesurer en urgence la
+concentration plasmatique des nouveaux anticoagulants oraux
+Ces tests, qui mesurent le taux plasmatique de ces antic-
+oagulants, exprime´e en concentration ponde´rale (ng/mL), sont
+actuellement peu de´ploye´s dans les laboratoires desservant les
+services d’accueil des urgences, mais ils peuvent eˆtre mis en place
+facilement. Ils sont adapte´s a` la mesure des concentrations dans un
+domaine de valeurs entre 500 et 50 ng/mL comprenant la
+concentration maximale moyenne (Cmax : deux a` quatre heures
+apre`s la prise orale du me´dicament) et la concentration re´siduelle
+moyenne (Cmin : juste avant la prise suivante). Ils sont moins
+G. Pernod et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+693
+
+
+pre´cis pour les concentrations faibles et leur limite de de´tection est
+ge´ne´ralement voisine de 25 ng/mL.
+Pour le dabigatran, plusieurs tests (He´moclot1, Biophen DTI1,
+Hyphen Biomed ; ECA-T1, Diagnostica Stago) sont disponibles. Ils
+pre´tendent « de´pister » les patients a` risque he´morragique en phase
+stable de traitement, sur la base d’une concentration re´siduelle
+supe´rieure a` 200 ng/mL.
+La mesure de l’activite´ anti-Xa, selon des me´thodes de´die´es
+(Biophen-DiXal, Hyphen Biomed1 ; STA Liquid anti-Xa1, Dia-
+gnostica Stago), permet d’e´valuer la concentration plasmatique de
+rivaroxaban [16].
+2.6. Il est possible d’extrapoler des essais cliniques un seuil de se´curite´
+he´mostatique correspondant a` une concentration plasmatique de
+nouveaux anticoagulants oraux qui autorise une intervention
+chirurgicale urgente
+Il n’existe aucune donne´e pre´clinique ou clinique qui ait e´tabli
+un seuil de se´curite´ he´mostatique. Cependant, celui-ci peut eˆtre
+extrapole´ des protocoles retenus dans les essais cliniques et des
+propositions des RCP.
+Le dabigatran est administre´ dans la FA, a` la dose de 150 mg ou
+110 mg, deux fois par jour. Le rivaroxaban est administre´ dans la FA
+(20 mg une fois par jour) et le traitement de la TVP et EP, a` la dose
+de 15 mg deux fois par jour, puis 20 mg une fois par jour. Pour ces
+deux NACO, les concentrations plasmatiques sont relativement
+proches, tant pour la Cmax que pour la Cmin (Tableau 1).
+En ce qui concerne le dabigatran, les donne´es disponibles sont
+issues de l’article de Healey relatif a` la chirurgie programme´e chez
+des patients de l’e´tude RELY [2]. Dans cette e´tude, les patients dont
+la clairance de la cre´atinine e´tait normale et devant be´ne´ﬁcier
+d’une chirurgie a` risque he´morragique e´taient ope´re´s entre 24 et
+72 heures apre`s la dernie`re prise, soit quatre demi-vies moyennes.
+Conside´rant la demi-vie (13–18 heures) du dabigatran dans cette
+population, on peut en de´duire que ces patients ont e´te´ ope´re´s
+alors
+que
+la
+concentration
+plasmatique
+e´tait
+probablement
+infe´rieure ou e´gale a` 30 ng/mL.
+En
+ce
+qui
+concerne
+le
+rivaroxaban,
+les
+seules
+donne´es
+disponibles sont issues de l’e´tude ROCKET- AF [3]. Dans cette
+e´tude, le rivaroxaban e´tait arreˆte´ deux jours avant toute proce´dure
+chirurgicale programme´e, soit la` encore quatre demi-vies (7–
+13 heures). Conside´rant la Cmax moyenne du rivaroxaban dans
+cette population, ces patients ont donc e´te´ ope´re´s alors que la
+concentration plasmatique du me´dicament e´tait probablement
+infe´rieure ou e´gale a` 30 ng/mL.
+Il semble donc que l’on puisse retenir ce meˆme seuil de 30 ng/
+mL, comme e´tant compatible avec une prise en charge chirurgicale
+sans majoration du risque he´morragique, notamment en urgence.
+2.7. Si l’on ne dispose pas de la mesure des taux de me´dicament, les
+tests d’he´mostase usuels (TP, TCA) peuvent eˆtre utiles
+Les tests de´die´s permettant une mesure de la concentration
+plasmatique de NACO ne sont pas disponibles 24 heures sur
+24 dans tous les centres susceptibles de prendre en charge des
+urgences. A`
+l’inverse, les tests d’he´mostase usuels (Taux de
+prothrombine,
+TP
+;
+temps
+de
+ce´phaline
+active´,
+TCA)
+sont
+disponibles a` tout moment. Les test usuels sont relativement
+peu sensibles a` l’effet des NACOs, en particulier dans les zones de
+concentrations basses et ont, en fonction du re´actif, une variabilite´
+importante aux concentrations e´leve´es. Toutefois, sous re´serve que
+le patient ne pre´sente pas un trouble de la coagulation lie´ a` une
+pathologie associe´e, un re´sultat normal de TP et TCA indique, avec
+une
+probabilite´
+sufﬁsante
+pour
+la
+majorite´
+des
+situations
+rencontre´es, que le me´dicament est pre´sent a` un taux re´siduel
+tre`s faible, proche du seuil de se´curite´ indique´ plus haut. Ils
+peuvent donc re´pondre a` l’objectif de s’assurer, pour une chirurgie
+urgente, que celle-ci peut eˆtre re´alise´e sans plus de de´lai et sans
+majoration signiﬁcative du risque he´morragique. Le TP et le TCA
+peuvent e´galement servir a` estimer le de´lai ne´cessaire pour
+atteindre le seuil de se´curite´, mais cette estimation est moins
+pre´cise que celle fonde´e sur les concentrations.
+Le temps de Quick (TQ) est peu sensible au dabigatran. Son
+allongement, traduit par l’abaissement du TP (%) qui en de´rive, est
+fonction de la concentration du me´dicament, et la sensibilite´ de la
+re´ponse de´pend du re´actif utilise´. Il ne peut ainsi eˆtre utilise´
+isole´ment, mais peut s’inte´grer dans une de´marche combinant le
+TP et le TCA. Le TCA est allonge´ sous dabigatran, mais mal corre´le´ a`
+la concentration mesure´e par un test de´die´ lorsque celle-ci est
+e´leve´e. En revanche, sa valeur pre´dictive ne´gative est inte´ressante,
+puisque un TCA normal reﬂe`te en ge´ne´ral une faible concentration.
+Son utilisation est donc propose´e par certains experts [17].
+Douxﬁls et al. [18] ont e´tudie´ l’impact de diffe´rentes concentra-
+tions de dabigatran sur le TCA mesure´ avec diffe´rents re´actifs. Pour
+des concentrations de 10 ng/mL, tous les re´actifs utilise´s (Actin
+FS1, Cephascreen1, CKPrest1, PTT-A1, Synthasil1), meˆme en
+tenant compte d’une certaine variabilite´, donnent des re´sultats
+avec un rapport malade sur te´moin (M/T) infe´rieure ou e´gal a` 1,2.
+Le TQ est de´crit comme sensible a` l’effet du rivaroxaban [19],
+avec chez les sujets traite´s un allongement du TQ, proportionnel a`
+la concentration, variable selon le re´actif utilise´ [20,21]. Ne´an-
+moins, cette variabilite´
+de re´ponse est tre`s faible pour des
+concentrations de 25 ng/mL [22], et entre 30 et 50 ng/mL, le ratio
+M/T obtenu avec le TQ reste infe´rieure ou e´gal a` 1,2 [21,22]. A`
+l’inverse, une concentration de rivaroxaban de 150 ng/mL induit
+un allongement du TQ avec un ratio M/T entre 1,2 a` 1,5, selon le
+re´actif utilise´ [20] Hillarp et al. [22] ont montre´ que le TCA e´tait
+sensible, avec une grande variabilite´
+de re´ponse pour des
+concentrations e´leve´es. Cependant, dans ce travail, pour des
+concentrations de 25 ng/mL, le ratio TCA est infe´rieure ou e´gal a`
+1,2, quel que soit le re´actif utilise´ (Actin FSL1, PTT-A1, Triniclot1,
+APTT-DG1, APTT-SP1).
+De manie`re ge´ne´rale et dans la mesure du possible, il est
+recommande´ que le laboratoire effectue les tests de coagulation
+usuels et transmette la demande de mesure spe´ciﬁque, de manie`re
+a` acque´rir l’expe´rience ne´cessaire dans l’interpre´tation des tests
+usuels. Un des facteurs critiques est la sensibilite´ de la technique
+analytique (couple re´actif-automate) et son aptitude a` de´tecter de
+Tableau 1
+Principales donne´es pharmacocine´tiques des nouveaux anticoagulants oraux (NACO).
+Cmax (ng/mL)
+Cmin (ng/mL)
+Dabigatran
+220 mg od (van Ryn TH, en 2010)
+183 (5–95 perc : 64–447)
+37 (5–95 perc : 10–96) (24 h)
+150 mg bd (Stangier Clin Pham 2008)
+254 ( 70,5)
+80,3 (18,7) (12 h)
+Rivaroxaban
+10 mg od (Mueck TH, en 2008)a
+125 (5–95 perc : 91–195)
+9 (5–95 perc : 1–38) (24 h)
+20 mg od
+215 (5–95 perc : 22–535)
+32 (5–95 perc : 6–239) (24 h)
+Perc : percentile ; cmax : concentration maximale moyenne ; cmin : concentration re´siduelle moyenne ; od : une prise par jour ; bd : deux prises par jour.
+a On ne dispose pas de donne´es pour le rivaroxaban 15 mg bid ; les donne´es 10 mg sont donc ici indicatives.
+G. Pernod et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+694
+
+
+faibles concentrations de chacun des NACOs. Une se´lection de
+re´actifs plus sensibles a` l’effet des NACOs pourrait s’ave´rer utile a` la
+gestion des situations d’urgences.
+Enﬁn, il est important de rappeler que la mesure de l’INR n’a
+aucune place dans la gestion des situations critiques chez les
+patients traite´s par les NACOs, ce mode d’expression e´tant conc¸u
+pour les patients traite´s par les AVK. Le rapport M/T des temps de
+Quick doit lui eˆtre pre´fe´re´.
+3. Propositions
+Nous aborderons successivement le proble`me de la prise en
+charge de la chirurgie urgente a` risque he´morragique devant eˆtre
+re´alise´e dans les 48 heures, puis des he´morragies graves survenant
+sous NACO (dabigatran et rivaroxaban).
+Dans tous les cas, il importe de pre´ciser l’aˆge, le poids du
+patient, le nom du me´dicament, l’indication, la dose, le nombre de
+prises par jour, l’heure de dernie`re prise, la clairance calcule´e selon
+la formule de Cockcroft et Gault.
+Les propositions diffe`rent selon que le laboratoire peut ou non
+fournir la mesure du taux du me´dicament en urgence.
+3.1. Chirurgie urgente a` risque he´morragique guide´e par la mesure du
+taux du me´dicament
+Apre`s avoir e´value´ le risque he´morragique de la chirurgie et la
+possibilite´ d’un report de celle-ci sans perte de chance pour le
+patient, le taux du me´dicament est demande´.
+3.1.1. Patient recevant du dabigatran
+Il est propose´ d’ope´rer sans de´lai les patients chez lesquels la
+concentration de dabigatran a` l’admission est infe´rieure ou e´gale a`
+30 ng/mL,
+valeur
+seuil
+compatible
+avec
+l’intervention
+sans
+majoration du risque he´morragique (Fig. 1). Cependant, compte
+tenu de la prise biquotidienne de dabigatran, et conside´rant les
+donne´es de pharmacocine´tique de population [23], il est peu
+probable qu’un patient ayant pris son traitement dans la journe´e
+ait une concentration infe´rieure ou e´gale a` 30 ng/mL. Douze heures
+apre`s la prise de 150 mg de dabigatran (dans un sche´ma
+150 mg  2/j), la concentration plasmatique de ce me´dicament
+varie entre 40 et 180 ng/mL chez 90 % des patients ayant une
+clairance de la cre´atinine supe´rieure a` 30 mL/min (valeur me´diane
+autour de 100 ng/mL) [23]. On ne dispose pas de donne´e
+pharmacocine´tique au-dela` de 12 heures, et les simulations a`
+24 et 48 heures ne peuvent eˆtre que des extrapolations de donne´es
+issues de patients et de volontaires sains [23,24]. De`s lors, les
+questions pose´es lorsqu’un de´lai chirurgical est possible sont :
+combien de temps faut-il attendre pour atteindre ce seuil ? et
+quelle est la probabilite´ que la concentration seuil de 30 ng/mL soit
+atteinte dans un de´lai acceptable, au maximum 48 heures ?
+Si la concentration est comprise entre 30 et 200 ng/mL, un de´lai
+de 12 a` 24 heures apre`s la dernie`re prise, selon la fonction re´nale,
+devrait permettre d’atteindre le seuil de 30 ng/mL. Il est donc
+propose´ de retarder l’intervention de 12 heures si l’e´tat du patient
+le permet et de re´pe´ter le dosage jusqu’a` 12 heures1 apre`s la
+premie`re mesure avant d’autoriser la chirurgie.
+Si la concentration est comprise entre 200 et 400 ng/mL et en
+l’absence d’insufﬁsance re´nale, un de´lai minimum de 24 heures est
+ne´cessaire pour atteindre la concentration seuil de se´curite´
+he´mostatique. Dans ce cas, il est propose´ d’attendre 24 heures
+et de re´pe´ter le dosage.
+Si la concentration est supe´rieure a` 200 ng/mL et la fonction
+re´nale est re´duite (clairance estime´e avec la formule de Cockcroft-
+Gault [ClCkr] < 50 mL/min), il est hautement improbable d’obtenir
+une concentration seuil acceptable en 24 heures a` 48 heures. De`s
+lors, une he´modialyse doit eˆtre discute´e avant la chirurgie. En effet,
+seulement 35 % du dabigatran circulant est lie´ a` l’albumine, et
+[(Fig._1)TD$FIG]
+Chirurgie urgente et Dabigatran (Pradaxa®)
+Votre établissement dispose d’un dosage spécifique de dabigatran
+[Dabigatran] ≤ 30 ng/ml
+30 < [Dabigatran] ≤ 200 ng/ml
+200 < [Dabigatran] ≤ 400 ng/ml
+[Dabigatran] > 400 ng/ml
+Opérer
+Possibilité de retarder 
+l’intervention
+Oui
+Non
+Attendre jusqu’à 12h*
+Puis nouveau dosage**
+Opérer
+Si saignement anormal, 
+Antagoniser***
+Retarder au maximum 
+l’intervention
+Non
+Oui
+Attendre 12 – 24h
+Puis nouveau dosage**
+Surdosage
+Risque hémorragique 
+majeur!
+Discuter la dialyse avant
+chirurgie
+*Il n’est pas possible de déterminer avec précision le délai d’obtention d’un seuil de 30 ng/ml, d’où la mention « jusqu’à 12 h »
+**Ce deuxième dosage peut permettre d'estimer le temps nécessaire à l’obtention du seuil de 30 ng/ml
+***Cette proposition s’applique essentiellement aux situations d’urgence où l’on ne peut pas attendre :  
+CCP=25-50 UI/kg ou FEIBA=30-50 UI/Kg en fonction de la disponibilité
+Pas de données disponibles sur le risque thrombotique de fortes doses de CCP ou de FEIBA, chez ces patients
+L'antagonisation par CCP ou FEIBA ne corrige pas complètement les anomalies biologiques de l’hémostase
+Le rFVIIa n’est pas envisagé en première intention
+En cas d’insuffisance rénale sévère, la demi-vie du dabigatran est nettement augmentée
+Si Cockcroft< 50 ml/mn
+Discuter la dialyse
+Fig. 1. Prise en charge d’une chirurgie en urgence chez un patient traite´ par dabigatran selon un sche´ma « curatif », sur la base de la de´termination de concentration
+plasmatique.
+1 Il n’est pas possible de de´terminer avec pre´cision le de´lai d’obtention d’un seuil
+de 30 ng/mL, d’ou` la mention « jusqu’a` 12 heures » ; a contrario, ce de´lai peut
+e´ventuellement eˆtre prolonge´ en fonction des disponibilite´s du plateau technique
+permettant le dosage.
+G. Pernod et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+695
+
+
+l’he´modialyse peut permettre une diminution de 40 a` 60 % de la
+concentration en quatre heures [25]. Dans ces cas, il est propose´ de
+retarder au maximum l’intervention chirurgicale.
+Des concentrations supe´rieures a` 400 ng/mL correspondent a`
+un surdosage et exposent a` un risque he´morragique majeur. Les
+moyens interventionnels et de re´animation pe´riope´ratoire opti-
+mise´s doivent eˆtre mis en œuvre. L’he´modialyse doit eˆtre
+syste´matiquement discute´e. Ne´anmoins, la dure´e de la dialyse
+permettant d’atteindre le seuil de 30 ng/mL est longue en cas de
+surdosage, et ce de´lai doit eˆtre pris en compte dans la prise de
+de´cision du report de l’intervention.
+3.1.2. Patient recevant du rivaroxaban
+Sur la base des donne´es de l’e´tude ROCKET AF [3], il est
+e´galement estime´, pour une prise en charge chirurgicale en
+urgence, que la concentration de 30 ng/mL est un seuil de se´curite´
+he´mostatique acceptable (Fig. 2). Il est donc propose´ d’ope´rer sans
+de´lai les patients chez lesquels la concentration de rivaroxaban a`
+l’admission est infe´rieure ou e´gale a` 30 ng/mL. Les donne´es de
+pharmacocine´tique du rivaroxaban en prise mono-quotidienne
+sont disponibles a` 24 heures [26]. De`s lors, une approche identique
+a` celle du dabigatran est propose´e.
+Pour
+des
+concentrations
+plasmatiques
+de
+rivaroxaban
+comprises entre 30 et 200 ng/mL, il est propose´ de retarder
+l’intervention si possible jusqu’a` 12 heures apre`s la premie`re
+mesure de concentration du me´dicament et de re´pe´ter le dosage.
+Pour
+des
+concentrations
+plasmatiques
+de
+rivaroxaban
+comprises entre 200 et 400 ng/mL, il est propose´ d’attendre
+24 heures et de re´pe´ter le dosage.
+Des concentrations supe´rieures a` 400 ng/mL correspondent a`
+un surdosage et exposent a` un risque he´morragique majeur. Les
+moyens interventionnels et de re´animation pe´riope´ratoire opti-
+mise´s doivent eˆtre mis en œuvre. La dialyse n’est pas envisageable
+avec ce me´dicament. La probabilite´ d’atteindre le seuil de se´curite´
+he´mostatique est faible. Il est propose´ de retarder au maximum
+l’intervention si l’e´tat du patient le permet.
+3.2. Chirurgie urgente a` risque he´morragique guide´e par les tests
+usuels d’he´mostase
+Les propositions ci-dessous, tre`s voisines pour les deux
+me´dicaments, ne peuvent s’envisager dans le cadre de l’urgence
+qu’en cas d’indisponibilite´ de dosage du me´dicament. Il s’agit bien
+d’une proposition de´grade´e. Les tests usuels ont en effet plusieurs
+limites. Ils ne permettent pas de de´terminer de fac¸on absolue la
+valeur seuil de se´curite´
+he´mostatique de NACO, ce qui est
+souhaitable pour les chirurgies a` tre`s haut risque he´morragique
+(e.g., neurochirurgie). Ils peuvent eˆtre allonge´s pour d’autres
+raisons que la pre´sence du me´dicament, ce qui expose au report
+inutile
+de
+l’intervention.
+Enﬁn,
+l’administration
+de
+certains
+me´dicaments procoagulants peut raccourcir les temps (e.g., facteur
+VIIa recombinant et temps de Quick) sans garantir un effet
+he´mostatique in vivo.
+3.2.1. Patient recevant du dabigatran
+La combinaison d’un TCA normal et d’un TP normal permet de
+conclure avec une relative ﬁabilite´ que la concentration plasma-
+tique de dabigatran est infe´rieure a` 30 ng/mL, compatible avec une
+intervention chirurgicale en urgence (Fig. 3).
+Les valeurs propose´es de rapport M/T sont infe´rieures ou e´gales
+a` 1,2 pour chacun des deux tests, a` valider par chaque laboratoire
+pour cette indication comme indique´ plus haut. Le temps de
+thrombine (TT), du fait de son extreˆme sensibilite´ au dabigatran,
+permet s’il est normal d’exclure la pre´sence du me´dicament, ce qui
+n’est probablement pas ne´cessaire pour la majorite´ des situations
+et retarde la de´cision de l’intervention. Ce test est donc peu utile
+dans la situation d’urgence.
+Si l’un ou l’autre des tests indique un ratio M/T supe´rieure a` 1,2,
+le de´lai de la chirurgie peut eˆtre estime´ comme suit sur la base du
+seul TCA :
+ un ratio TCA  1,5 mais > 1,2 correspond a` des concentrations de
+30 a` 200 ng/mL [18]. Pour ces concentrations, un de´lai allant
+[(Fig._2)TD$FIG]
+Fig. 2. Prise en charge d’une chirurgie en urgence chez un patient traite´ par rivaroxaban selon un sche´ma « curatif », sur la base de la de´termination de concentration
+plasmatique.
+G. Pernod et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+696
+
+
+jusqu’a` 12 a` 24 heures, selon la fonction re´nale, devrait permettre
+d’atteindre des concentrations proches de 30 ng/mL. Dans ces
+conditions, il est propose´ de re´pe´ter la mesure du TCA, et de
+proﬁter de ce de´lai d’attente (s’il reste compatible avec l’urgence
+chirurgicale) pour obtenir un dosage de concentration. En effet, il
+n’est pas possible, sur la base d’un ratio TCA compris entre 1,2 et
+1,5, de de´terminer avec pre´cision le de´lai d’obtention d’un ratio
+seuil infe´rieur ou e´gal a` 1,2 ;
+ un ratio TCA supe´rieur a` 1,5 correspond a` des concentrations
+supe´rieures a` 200 ng/mL, soit la Cmax. En l’absence d’insufﬁ-
+sance re´nale, un de´lai minimum de 24 heures est ne´cessaire pour
+espe´rer atteindre la concentration seuil de se´curite´ he´mosta-
+tique. La mesure de concentration doit eˆtre obtenue dans ce de´lai
+pour de´pister un e´ventuel surdosage. En cas de ClCr < 50 mL/min
+et de ratio TCA supe´rieur a` 1,5, il est hautement improbable
+d’obtenir une concentration seuil de se´curite´ he´mostatique
+acceptable en 24 heures a` 48 heures. Il est impe´ratif d’obtenir
+une mesure de concentration pour de´pister un surdosage et
+d’envisager une dialyse.
+3.3. Patient recevant du rivaroxaban
+La combinaison d’un TCA normal et d’un TQ (ou TP) normal
+permet de conclure avec une relative ﬁabilite´ que la concentration
+plasmatique de rivaroxaban est infe´rieure a` 30 ng/mL, compatible
+avec une intervention chirurgicale en urgence (Fig. 4).
+Les valeurs propose´es de rapport M/T sont infe´rieures ou e´gales
+a` 1,2 pour chacun des deux tests, mais doivent eˆtre valide´es pour
+cette indication par chaque laboratoire comme indique´ plus haut.
+La mesure de l’activite´ anti-Xa par la technique usuelle convenant
+pour les he´parines est tre`s sensible au rivaroxaban. Une activite´
+infe´rieure ou e´gale a` 0,1 U/mL garantit l’absence du me´dicament,
+ce qui n’est probablement pas ne´cessaire pour la majorite´ des
+situations et retarde la de´cision de l’intervention. Ce test est donc
+peu utile dans la situation d’urgence.
+Si les valeurs de ratio M/T sont supe´rieurs a` 1,2 avec l’un ou
+l’autre des tests, une approche identique a` celle du dabigatran est
+propose´e.
+Un ratio de TCA compris entre 1,2 et 1,5 correspond a` des
+concentrations de rivaroxaban de 30 a` 200 ng/mL [22,26] et un
+de´lai d’attente jusqu’a` 12 heures devrait permettre d’atteindre un
+taux infe´rieur a` 30 ng/mL. Il est propose´ de re´pe´ter le dosage du
+TCA, et de proﬁter de ce de´lai s’il est compatible avec l’urgence
+chirurgicale pour obtenir un dosage du me´dicament. En effet, il
+n’est pas possible, sur la base d’un ratio TCA compris entre 1,2 et
+1,5, de de´terminer avec pre´cision le de´lai d’obtention d’un seuil
+infe´rieure ou e´gal a` 1,2.
+Un ratio TCA supe´rieur a` 1,5 correspond a` des concentrations de
+rivaroxaban supe´rieures a` 200 ng/mL. Un de´lai minimum de
+24 heures est ne´cessaire pour espe´rer atteindre la valeur seuil de
+se´curite´ he´mostatique. Le dosage du me´dicament doit eˆtre obtenu
+dans ce de´lai. Dans ces cas, il est propose´ de retarder au maximum
+l’intervention chirurgicale.
+3.4. Que faire si la chirurgie ne peut eˆtre repousse´e et que les seuils de
+se´curite´ he´mostatique ne sont pas atteints ?
+Dans cette situation, il est propose´ d’ope´rer sans administration
+pre´ventive de me´dicaments procoagulants, et d’avoir recours a`
+ceux-ci (CPP 25 a` 50 U/kg, ou FEIBA 30 a` 50 U/kg ; e´ventuellement
+renouvelable une fois en cas d’e´chec) en cas de saignement
+anormal per- ou postope´ratoire. Il est conseille´, en premie`re ligne,
+de privile´gier la dose la plus faible propose´e.
+3.5. Conduite a` tenir en cas d’he´morragie grave spontane´e ou
+chirurgicale
+Les recommandations pour la pratique clinique HAS/GEHT
+2008 concernant les accidents des AVK ont de´ﬁni les he´morragies
+graves comme indique´
+sur la Fig. 5 [27]. Cette de´ﬁnition,
+[(Fig._3)TD$FIG]
+Fig. 3. Prise en charge d’une chirurgie en urgence chez un patient traite´ par dabigatran selon un sche´ma « curatif », sur la base de la de´termination TP/TCA.
+G. Pernod et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+697
+
+
+notamment pour les he´morragies potentiellement graves, met a`
+un meˆme niveau les he´morragies intrace´re´brales et les he´ma-
+tomes musculaires profonds par exemple. Cela tenait d’une part,
+a` la demi-vie longue des AVK, d’autre part, a` l’existence d’un
+antidote spe´ciﬁque bien maıˆtrise´ (CCP). Le contexte pre´sent est
+en tout point diffe´rent : les NACOs ont une demi-vie courte avec
+une grande variabilite´
+inter-individuelle, les possibilite´s de
+re´version disponibles sont mal codiﬁe´es, en particulier les
+proﬁls d’efﬁcacite´/tole´rance des me´dicaments procoagulants
+non spe´ciﬁques.
+De`s
+lors,
+nous
+proposons
+de
+distinguer
+deux
+situations
+d’he´morragies graves.
+Les he´morragies intrace´re´brales ou concernant un organe
+critique
+(oculaire
+par
+exemple)
+justiﬁent
+une
+tentative
+de
+neutralisation imme´diate de l’effet anticoagulant des NACO, par
+soit du FEIBA 30 a` 50 U/kg, soit du CPP 50 U/kg, e´ventuellement
+renouvele´ une fois a` huit heures d’intervalle (Fig. 6). Le suivi de la
+concentration du me´dicament sera utile pour la de´cision ope´ratoire
+comple´mentaire, selon les modalite´s pre´sente´es plus haut.
+Pour les autres he´morragies graves re´pondant a` la de´ﬁnition de
+l’HAS, trois situations sont a` conside´rer :
+ si la concentration du me´dicament est infe´rieure ou e´gale a`
+30 ng/mL, l’he´morragie en cause ne peut eˆtre impute´e au seul
+[(Fig._4)TD$FIG]
+Hémorragie et 
+Dabigatran (Pradaxa®) ou Rivaroxaban (Xarelto®)
+Votre établissement dispose d’un dosage spécifique 
+de dabigatran (Pradaxa®) ou rivaroxaban (Xarelto®)
+Hémorragie dans un organe critique
+(intracérébral, sous dural aigu, intra-oculaire…)
+Hémorragie grave autres
+selon la définition HAS 2008
+1)  FEIBA® 30-50 UI / kg*
+ou
+2) CCP 50 UI / kg*
+pas d’antagonisation
+[ ]** < 30 ng / ml
+Si pas de geste hémostatique
+immédiat
+et si [ ]** > 30 ng / ml
+Privilégier un geste hémostatique si réalisable
+Discuter l’antagonisation
+* 
+Fonction de la disponibilité. Pas de données disponibles sur le risque thrombotique des fortes doses de CCP ou de FEIBA, chez ces patients
+**
+[ ] signifie concentration
+*** CCP=25-50 UI/kg ou FEIBA=30-50 UI/Kg
+Le rFVIIa n’est pas envisagé en première intention
+Fig. 4. Prise en charge d’une chirurgie en urgence chez un patient traite´ par rivaroxaban selon un sche´ma « curatif », sur la base de la de´termination TP/TCA.
+[(Fig._5)TD$FIG]
+Hémorragie et 
+Dabigatran (Pradaxa®) ou Rivaroxaban (Xarelto®)
+Votre établissement dispose d’un dosage spécifique 
+de dabigatran (Pradaxa®) ou rivaroxaban (Xarelto®)
+Hémorragie dans un organe critique
+(intracérébral, sous dural aigu, intra-oculaire…)
+Hémorragie grave autres
+selon la définition HAS 2008
+1)  FEIBA® 30-50 UI / kg*
+ou
+2) CCP 50 UI / kg*
+pas d’antagonisation
+[ ]** < 30 ng / ml
+Si pas de geste hémostatique
+immédiat
+et si [ ]** > 30 ng / ml
+Privilégier un geste hémostatique si réalisable
+Discuter l’antagonisation
+* 
+Fonction de la disponibilité. Pas de données disponibles sur le risque thrombotique des fortes doses de CCP ou de FEIBA, chez ces patients
+**
+[ ] signifie concentration
+*** CCP=25-50 UI/kg ou FEIBA=30-50 UI/Kg
+Le rFVIIa n’est pas envisagé en première intention
+Fig. 5. De´ﬁnition des he´morragies graves ou potentiellement grave sous antivitamines K (AVK) [17].
+G. Pernod et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+698
+
+
+me´dicament. Cette situation ne ne´cessite pas l’administration
+d’un agent he´mostatique (CPP ou FEIBA1) ;
+ si un geste he´mostatique est praticable d’emble´e (endoscopique,
+intravasculaire), celui-ci doit eˆtre privile´gie´ quel que soit le taux
+du me´dicament ;
+ si la concentration du me´dicament est supe´rieure a` 30 ng/mL et
+qu’aucun geste he´mostatique n’est adapte´, il est propose´ de
+tenter d’inhiber l’effet anticoagulant (CPP 25 a` 50 U/kg, ou FEIBA
+30 a` 50 U/kg ; e´ventuellement renouvelable une fois), d’optimi-
+sation la re´animation et, dans le cas du dabigatran, d’envisager
+une e´puration par he´modialyse guide´e par la mesure des
+concentrations du me´dicament.
+Si le dosage de la concentration plasmatique de NACO n’est pas
+possible, le raisonnement et les mesures correctrices peuvent
+s’appuyer sur le TCA et le TP, mais avec un niveau e´leve´
+d’incertitude (Tableau 2).
+4. Conclusion
+La prise en charge chirurgicale en urgence et des he´morragies
+graves chez des patients traite´s par NACO ne´cessite des mesures
+spe´ciﬁques et doit eˆtre parfaitement codiﬁe´e. Malheureusement,
+les donne´es disponibles en 2013 sont tre`s faibles et une e´valuation
+prospective est ne´cessaire aﬁn de conforter rapidement ces
+propositions.
+De´claration d’inte´reˆts
+Le GIHP a rec¸u un soutien e´ducationnel de Bayer, Boehringer
+Ingelheim,
+Bristol-Meyer
+Squibb-Pﬁzer,
+Daiichi
+Sankyo,
+LFB
+Biome´dicaments, Novo-Nordisk, GlaxoSmithKline et CSL Behring.
+Re´fe´rences
+[1] Sie´ P, Samama CM, Godier A, Rosencher N, Steib A, Llau JV, et al. Surgery and
+invasive procedures in patients on long-term treatment with direct oral
+anticoagulants: thrombin or factor-Xa inhibitors. Recommendations of the
+Working Group on perioperative haemostasis and the French Study Group on
+thrombosis and haemostasis. Arch Cardiovasc Dis 2011;104:669–76.
+[2] Healey JS, Eikelboom J, Douketis J, Wallentin L, Oldgren J, Yang S, et al.
+Periprocedural bleeding and thromboembolic events with dabigatran com-
+pared with warfarin: results from the Randomized Evaluation of Long-Term
+Anticoagulation Therapy (RE-LY) randomized trial. Circulation 2012;126:
+343–8.
+[3] Patel MR, Mahaffey KW, Garg J, Pan G, Singer DE, Hacke W, et al. Rivaroxaban
+versus warfarin in nonvalvular atrial ﬁbrillation. N Engl J Med 2011;365:
+883–91.
+[4] EINSTEIN Investigators, Bauersachs R, Berkowitz SD, Brenner B, Buller HR,
+Decousus H, et al. Oral rivaroxaban for symptomatic venous thromboembo-
+lism. N Engl J Med 2010;363:2499–510.
+[5] The EINSTEIN–PE Investigators, Bu¨ller HR, Prins MH, Lensin AW, Decousus H,
+Jacobson BF, et al. Oral rivaroxaban for the treatment of symptomatic pulmo-
+nary embolism. N Engl J Med 2012;366:1287–97.
+[6] Schulman S, Kearon C, Kakkar AK, Mismetti P, Schellong S, Eriksson H, et al.
+Dabigatran versus warfarin in the treatment of acute venous thromboembo-
+lism. N Engl J Med 2009;361:2342–52.
+[7] Connolly SJ, Ezekowitz MD, Yusuf S, Eikelboom J, Oldgren J, Parekh A, et al.
+Dabigatran versus warfarin in patients with atrial ﬁbrillation. N Engl J Med
+2009;361:1139–51.
+[(Fig._6)TD$FIG]
+Hémorragie et 
+Dabigatran (Pradaxa®) ou Rivaroxaban (Xarelto®)
+Votre établissement ne dispose pas d’un dosage spécifique 
+de dabigatran (Pradaxa®) ou rivaroxaban (Xarelto®)
+Hémorragie dans un organe critique
+(intracérébral, sous dural aigu, intra-oculaire…)
+Hémorragie grave autres
+selon la définition HAS 2008
+1)  FEIBA® 30-50 UI / kg*
+ou
+2) CCP 50 UI / kg*
+pas d’antagonisation
+ratio TCA ≤1.2 
+et ratio TQ ≤ 1.2 (TP ≥ 70 - 80 %)
+Si pas de geste hémostatique
+immédiat
+et si ratio TCA > 1.2 (isolé)
+ou ratio TQ > 1.2 (TP < 70 - 80 %)
+Privilégier un geste hémostatique si réalisable
+Discuter l’antagonisation 
+Et obtenir un dosage spécifique
+Il s’agit d’une solution dégradée en cas d’indisponibilité immédiate de dosage spécifique
+* 
+Fonction de la disponibilité. Pas de données disponibles sur le risque thrombotique des fortes doses de CCP ou de FEIBA, chez ces patients
+** CCP=25-50 UI/kg ou FEIBA=30-50 UI/Kg
+Le rFVIIa n’est pas envisagé en première intention
+Fig. 6. Prise en charge d’une he´morragie grave chez un patient traite´ par dabigatran ou rivaroxaban selon un sche´ma « curatif », sur la base de la de´termination de la
+concentration de me´dicament.
+Tableau 2
+Prise en charge d’une he´morragie grave chez un patient traite´ par dabigatran ou
+rivaroxaban selon un sche´ma « curatif », sur la base de la de´termination TP/TCA.
+Une he´morragie grave, ou potentiellement grave, dans la cadre d’un traitement
+par AVK est de´ﬁnie par la pre´sence d’au moins un des crite`res suivants
+He´morragie exte´riorise´e non controˆlable par les moyens usuels
+Instabilite´ he´modynamique PAS < 90 mmHg ou diminution de 40 mmHg
+par rapport a` la PAS habituelle, ou PAM < 65 mmHg, ou tout signe de choc
+Ne´cessite´ d’un geste he´mostatique urgent : chirurgie, radiologie
+interventionnelle, endoscopie
+Ne´cessite´ de transfusion de culots globulaires
+Localisation menac¸ant le pronostic vital ou fonctionnel, par exemple
+He´morragie intracraˆnienne et intraspinale
+He´morragie intraoculaire et re´tro-orbitaire
+He´mothorax, he´mo- et re´trope´ritoine, he´mope´ricarde
+He´matome musculaire profond et/ou syndrome de loge
+He´morragie digestive aigue¨
+He´marthrose
+AVK : antivitamines K.
+G. Pernod et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+699
+
+
+[8] Lu G, DeGuzman FR, Hollenbach SJ, Karbarz MJ, Abe K, Lee G, et al. A speciﬁc
+antidote for reversal of anticoagulation by direct and indirect inhibitors of
+coagulation factor Xa. Nat Med 2013 [doi:10.1038/nm.3102].
+[9] Eerenberg ES, Kamphuisen PW, Sijpkens MK, Meijers JC, Buller HR, Levi M.
+Reversal of rivaroxaban and dabigatran by prothrombin complex concentrate:
+a randomized, placebo-controlled, crossover study in healthy subjects. Circu-
+lation 2011;124:1573–9.
+[10] Marlu R, Paris A, Hodaj E, Albaladejo P, Polack B, Pernod G. Reversal of
+anticoagulant effect of Dabigatran and Rivaroxaban by non-speciﬁc reversal
+agents: a randomized crossover ex-vivo study in healthy volunteers. Thromb
+Haemost 2012;108:217–24.
+[11] Dentali F, Marchesi C, Pierfranceschi MG, Crowther M, Garcia D, Hylek E, et al.
+Safety of prothrombin complex concentrates for rapid anticoagulation rever-
+sal of vitamin K antagonists. A meta-analysis. Thromb Haemost 2011;106:
+429–38.
+[12] Key NS, Negrier C. Coagulation factor concentrates: past, present, and future.
+Lancet 2007;370:439–48.
+[13] Dager W, Roberts A. Reversing dabigatran with FEIBA in a patient with a
+transeptal perforation during cardiac ablation. Crit Care Med 2011;39:867.
+[14] Godier A, Miclot A, Le Bonniec B, Durand M, Fischer AM, Emmerich J, et al.
+Evaluation of prothrombin complex concentrate and recombinant activated
+factor VII to reverse Rivaroxaban in a rabbit model. Anesthesiology 2012;116:
+1–9.
+[15] Zhou W, Schwarting S, Illanes S, Liesz A, Middelhoff M, Zorn M, et al. Hemo-
+static therapy in experimental intracerebral hemorrhage associated with the
+direct thrombin inhibitor Dabigatran. Stroke 2011;42:3594–9.
+[16] Samama MM, Contant G, Spiro TE, Perzborn E, Guinet C, Gourmelin Y, et al.
+Evaluation of the anti-factor Xa chromogenic assay for the measurement of
+rivaroxaban plasma concentrations using calibrators and controls. Thromb
+Haemost 2012;107:379–87.
+[17] Weitz JI, Quinlan DJ, Eikelboom JW. Periprocedural management and approach
+to bleeding in patients taking dabigatran. Circulation 2012;126:2428–32.
+[18] Douxﬁls J, Mullier F, Robert S, Chatelain C, Chatelain B, Dogne´ JM. Impact of
+dabigatran on a large panel of routine or speciﬁc coagulation assays. Laboratory
+recommendations for monitoring of dabigatran etexilate. Thromb Haemost
+2012;107:985–97.
+[19] Perzborn E, Straussburger J, Pohlmann J, Roehrig S, Schlemmer KH, Straub A. In
+vitro and in vivo studies of the novel antithrombotic agent BAY 59-7939 – an
+oral, direct factor Xa inhibitor. J Thromb Haemost 2005;3:514–21.
+[20] Samama MM, Martinoli JL, LeFlem L, Guinet C, Plu-Bureau G, Depasse F, et al.
+Assessment of laboratory assays to measure rivaroxaban–an oral, direct factor
+Xa inhibitor. Thromb Haemost 2010;103:815–25.
+[21] Douxﬁls J, Mullier F, Loosen C, Chatelain C, Chatelain B, Dogne´ JM. Assessment
+of the impact of rivaroxaban on coagulation assays: laboratory recommenda-
+tions for the monitoring of rivaroxaban and review of the literature. Thromb
+Res 2012;130:956–66.
+[22] Hillarp A, Baghaei F, Fagerberg Blixter I, Gustafsson KM, Stigendal L, Sten-
+Linder M, et al. Effects of the oral, direct factor Xa inhibitor rivaroxaban on
+commonly used coagulation assays. J Thromb Haemost 2011;9:133–9.
+[23] Dansirikul C, Lehr T, Liesenfeld KH, Haertter S, Staab A. A combined pharma-
+cometric analysis of dabigatran etexilate in healthy volunteers and patients
+with atrial ﬁbrillation or undergoing orthopaedic surgery. Thromb Haemost
+2012;107:775–85.
+[24] Clemens A, van Ryn J, Sennewald R, Yamamura N, Stangier J, Feuring M, et al.
+Switching from enoxaparin to dabigatran etexilate: pharmacokinetics, phar-
+macodynamics, and safety proﬁle. Eur J Clin Pharmacol 2012;68:607–16.
+[25] Stangier J, Rathgen K, Sta¨hle H, Mazur D. Inﬂuence of renal impairment on the
+pharmacokinetics and pharmacodynamics of oral dabigatran etexilate: an
+open-label, parallel-group, single-centre study. Clin Pharmacokinet 2010;49:
+259–68.
+[26] Mueck W, Lensing AW, Agnelli G, Decousus H, Prandoni P, Misselwitz F.
+Rivaroxaban: population pharmacokinetic analyses in patients treated for acute
+deep-vein thrombosis and exposure simulations in patients with atrial
+ﬁbrillation treated for stroke prevention. Clin Pharmacokinet 2011;50:675–86.
+[27] Pernod G, Godier A, Gozalo C, Tremey B, Sie´ P, French National Authority for
+Health. French clinical practice guidelines on the management of patients on
+vitamin K antagonists in at-risk situations (overdose, risk of bleeding, and
+active bleeding). Thromb Res 2010;126:167–74.
+G. Pernod et al. / Annales Franc¸aises d’Anesthe´sie et de Re´animation 32 (2013) 691–700
+700
+
+

@@ -88,7 +88,8 @@ var RAW = {
   erreurs_medicamenteuses: JSON.parse(document.getElementById('content-erreurs_medicamenteuses').textContent),
   remplissage_perioperatoire: JSON.parse(document.getElementById('content-remplissage_perioperatoire').textContent),
   thrombectomie: JSON.parse(document.getElementById('content-thrombectomie').textContent),
-  insuffisance_analgesie_cesarienne: JSON.parse(document.getElementById('content-insuffisance_analgesie_cesarienne').textContent)
+  insuffisance_analgesie_cesarienne: JSON.parse(document.getElementById('content-insuffisance_analgesie_cesarienne').textContent),
+  coronarien: JSON.parse(document.getElementById('content-coronarien').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -178,7 +179,8 @@ var FICHE_HREF_MATCH = {
   erreurs_medicamenteuses: ['preverreurmedic_recos'],
   remplissage_perioperatoire: ['strategie-du-remplissage-vasculaire-perioperatoire-2', '2a_AFAR_FRANCAIS_Strategie-du-remplissage-vasculaire-perioperatoire'],
   thrombectomie: ['prise-en-charge-anesthesique-peri-procedurale-dune-revascularisation-cerebrale-par-thrombectomie'],
-  insuffisance_analgesie_cesarienne: ['preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee']
+  insuffisance_analgesie_cesarienne: ['preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee'],
+  coronarien: ['prise-en-charge-du-coronarien-opere-en-chirurgie-non-cardiaque', '2_AFAR_Prise-en-charge-du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1199,6 +1201,18 @@ var DOC_META = {
     methodology: "Aucun système GRADE, aucun processus de cotation/vote formel décrit — préconisations d'experts, 10 sur 24 identifiées comme « clés »",
     pages: 25,
     url: "https://sfar.org/download/preconisations-insuffisance-danalgesie-au-cours-de-la-cesarienne-sous-anesthesie-perimedullaire-prevention-prise-en-charge-immediate-et-differee/?wpdmdl=32629"
+  },
+  coronarien: {
+    key: 'coronarien',
+    badge: 'RFE',
+    title: "Coronarien opéré en chirurgie non cardiaque",
+    short: "RFE conjointe SFAR/SFC (2011) sur la prise en charge du patient coronarien devant subir une chirurgie non cardiaque : quantification du risque (score de Lee, capacité à l'effort), indications des examens complémentaires (ECG, échocardiographie de stress, scintigraphie, coronarographie), revascularisation préopératoire (indications restreintes, choix stent nu/actif), gestion périopératoire des bêta-bloquants, statines, antiplaquettaires, IEC/ARA2, et algorithme décisionnel global en 4 étapes. 65 recommandations gradées GRADE (1+/1-/2+/2-) avec accord Delphi (fort/faible) distinct.",
+    society: "SFAR / SFC (Société française de cardiologie)",
+    version: "2011",
+    validated: "CA de la Sfar (17 décembre 2010), CA de la SFC (octobre 2010)",
+    methodology: "GRADE (1+/1-/2+/2-) croisé avec un vote Delphi indépendant (accord fort/faible, échelle 1-9) — deux axes distincts",
+    pages: 26,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque.pdf"
   }
 };
 

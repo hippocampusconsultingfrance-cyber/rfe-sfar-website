@@ -11,13 +11,13 @@ du-coronarien-qui-doit-etre-opere-en-chirurgie-non-cardiaque.pdf).
 METHODOLOGIE : GRADE (force 1+/1-/2+/2-) CROISE avec un vote DELPHI
 independant donnant un "accord" (fort ou faible) sur l'echelle 1-9 - CE SONT
 DEUX AXES DISTINCTS dans cette source (contrairement a d'autres fiches du
-corpus ou accord/grade sont confondus). La tres grande majorite des 64
+corpus ou accord/grade sont confondus). La tres grande majorite des 65
 recommandations formellement gradees sont Accord fort ; les Accord faible
 sont signales individuellement.
 
-COUVERTURE : 64 recommandations formellement taggees GRADE, sur les 4
+COUVERTURE : 65 recommandations formellement taggees GRADE, sur les 4
 "Questions" du texte (Q1 quantification du risque = 4 recs, Q2 examens
-complementaires = 20 recs, Q3 revascularisation et medicaments = 40 recs,
+complementaires = 20 recs, Q3 revascularisation et medicaments = 41 recs,
 Q4 strategie globale = 0 nouvelle recommandation gradee, synthese narrative
 uniquement). Les 4 tableaux du corps du texte (score de Lee, capacite a
 l'effort de Duke, indication ECG, gestion des AAP) et l'annexe 2
@@ -369,7 +369,7 @@ def _section_q3a():
     story = []
     story.append(Spacer(1, 2.5 * mm))
     story.append(KeepTogether([
-        section_bar("Question 3 — Revascularisation et médicaments (40 recommandations)"),
+        section_bar("Question 3 — Revascularisation et médicaments (41 recommandations)"),
         Spacer(1, 1.5 * mm),
         P("<b>Indications de la revascularisation myocardique préopératoire</b>", S_H2),
     ]))
@@ -402,7 +402,7 @@ def _section_q3a():
     story.append(reco_table([
         ("<b>R32</b> [sic] — Le pontage aortocoronaire est la technique de référence "
          "« avant une chirurgie cardiaque » [texte source — incohérence probable, cette "
-         "section traite de chirurgie NON cardiaque, voir disclosure] si : atteinte du "
+         "section traite de chirurgie NON cardiaque] si : atteinte du "
          "tronc commun/tritronculaire, altération de la FEVG, ou geste différable de "
          "quelques semaines. <i>(accord faible)</i>", "1+"),
         ("<b>R33</b> — L'angioplastie coronaire préopératoire n'est pas recommandée en "
@@ -580,8 +580,9 @@ def _section_q3c():
              "l'hypertension.", "1+"),
             ("<b>R64</b> — L'administration de dérivés nitrés (quelle que soit la voie) "
              "n'est pas recommandée en prévention des complications cardiaques "
-             "périopératoires ; il n'est pas non plus recommandé d'administrer un "
-             "inhibiteur calcique dans cette indication.", "1-"),
+             "périopératoires.", "1-"),
+            ("<b>R65</b> — Il n'est pas recommandé d'administrer un inhibiteur calcique "
+             "pour la prévention des complications cardiaques périopératoires.", "1-"),
         ], RCW),
     ]))
     return story
@@ -643,7 +644,7 @@ CCS_ROWS = [
      "celui-ci n'apparaît que lors d'efforts intenses, abrupts ou prolongés (ski, course "
      "modérée, déneigement possibles sans symptôme)."),
     ("Classe II", "Limitation légère : angor à la marche rapide/montée rapide d'escaliers, "
-     "en côte, après repas, au froid, à l'émotion, au réveil, ou à marche &gt; 2 blocs/"
+     "en côte, après repas, au froid, à l'émotion, au décubitus (primo décubitus), ou à marche &gt; 2 blocs/"
      "2-3 étages à vitesse habituelle. Jardinage, roller, marche 6 km/h, activité "
      "sexuelle possibles."),
     ("Classe III", "Limitation marquée : angor à 1-2 blocs de marche à plat ou 1 étage à "
@@ -721,7 +722,7 @@ def _section_q4_sources():
         "cardiaque.pdf", S_SOURCE))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
-        "<b>Couverture :</b> intégralité des 64 recommandations formellement gradées "
+        "<b>Couverture :</b> intégralité des 65 recommandations formellement gradées "
         "(Q1-Q3), des 4 tableaux du corps du texte, de l'Annexe 2 (classification CCS) et "
         "des Figures 1-2 (retranscrites depuis rendu visuel). L'Annexe 1 (fiche de "
         "liaison anesthésiste-cardiologue, un formulaire de recueil de données sans "
@@ -742,7 +743,7 @@ def _section_q4_sources():
     story.append(Spacer(1, 3 * mm))
     story.append(info_panel(P(
         "<b>Avertissement — document de 2011 :</b> cette fiche de synthèse indépendante "
-        "reprend l'intégralité des 64 recommandations gradées du texte source (dont les "
+        "reprend l'intégralité des 65 recommandations gradées du texte source (dont les "
         "Figures 1 et 2, transcrites depuis un rendu visuel du PDF faute de couche texte "
         "exploitable pour ces schémas), mais ne remplace pas le texte intégral et n'est "
         "ni éditée ni validée par la Sfar ou la SFC. Les stratégies de gestion "

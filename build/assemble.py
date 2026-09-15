@@ -176,6 +176,8 @@ with open(os.path.join(BASE, "content_thrombectomie.json"), encoding="utf-8") as
     content_thrombectomie = f.read()
 with open(os.path.join(BASE, "content_insuffisance_analgesie_cesarienne.json"), encoding="utf-8") as f:
     content_insuffisance_analgesie_cesarienne = f.read()
+with open(os.path.join(BASE, "content_coronarien.json"), encoding="utf-8") as f:
+    content_coronarien = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -269,6 +271,7 @@ out = out.replace("__CONTENT_ERREURS_MEDICAMENTEUSES__", safe(content_erreurs_me
 out = out.replace("__CONTENT_REMPLISSAGE_PERIOPERATOIRE__", safe(content_remplissage_perioperatoire))
 out = out.replace("__CONTENT_THROMBECTOMIE__", safe(content_thrombectomie))
 out = out.replace("__CONTENT_INSUFFISANCE_ANALGESIE_CESARIENNE__", safe(content_insuffisance_analgesie_cesarienne))
+out = out.replace("__CONTENT_CORONARIEN__", safe(content_coronarien))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

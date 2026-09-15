@@ -1568,6 +1568,29 @@ def extract_bris_dentaires():
     return {"doc": "bris_dentaires", "sections": blocks}
 
 
+def extract_coronarien():
+    import style
+    import fiche_coronarien as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "coronarien", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2294,3 +2317,12 @@ if __name__ == "__main__":
         json.dump(insuffisance_analgesie_cesarienne, f, ensure_ascii=False, indent=1)
     print("insuffisance_analgesie_cesarienne sections:", len(insuffisance_analgesie_cesarienne["sections"]),
           "total blocks:", sum(len(s["items"]) for s in insuffisance_analgesie_cesarienne["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    coronarien = extract_coronarien()
+    with open(os.path.join(BUILD_DIR, "content_coronarien.json"), "w") as f:
+        json.dump(coronarien, f, ensure_ascii=False, indent=1)
+    print("coronarien sections:", len(coronarien["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in coronarien["sections"]))

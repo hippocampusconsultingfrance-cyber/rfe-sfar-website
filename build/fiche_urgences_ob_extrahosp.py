@@ -28,35 +28,93 @@ source, sans reformulation qui changerait le sens clinique.
 PORTEE / CONDENSATION DISCLOSED (regle de projet 7, 2026-09-14) : les 9
 chapitres sont TOUS couverts pour leur contenu clinique actionnable (regle
 2 : 100% de couverture), mais la prose discursive/justificative est
-systematiquement condensee en items courts par theme. Deux chapitres sont
-delibetement resumes en quelques lignes plutot que detailles integralement
-car ils sont organisationnels et non des gestes d'urgence : Chapitre 1
-(information du patient - contenu deontologique/juridique, cf.
-fiche_relations_anesth_chir.py pour un traitement complet de ce type de
-contenu ailleurs dans ce corpus) et Chapitre 9 (formation, evaluation des
-pratiques professionnelles, reseaux de soins - objectifs qualite, pas de
-geste clinique). Ce choix est disclosed explicitement ici et dans le
-panneau d'introduction de la fiche, conformement a la regle 2. Les 7 autres
-chapitres (regulation/accouchement inopine, hemorragies 2e/3e trimestre,
-HPP, traumatismes, HTA/preeclampsie/eclampsie, MAP, TIU) recoivent une
+systematiquement condensee en items courts par theme. UN SEUL chapitre est
+deliberement resume en quelques lignes plutot que detaille integralement,
+car organisationnel et non un geste d'urgence : Chapitre 9 (formation,
+evaluation des pratiques professionnelles, reseaux de soins - objectifs
+qualite, pas de geste clinique). Les 8 autres chapitres (Chapitre 1 -
+recours au Samu, accouchement inopine, hemorragies 2e/3e trimestre, HPP,
+traumatismes, HTA/preeclampsie/eclampsie, MAP, TIU) recoivent une
 couverture complete de leur contenu actionnable.
 
 FIGURES/TABLEAUX RETRANSCRITS : Tableau 1 (signes evocateurs d'urgence
 gyneco-obstetricale par terme), Tableau 2 (diagnostic differentiel HRP vs
 placenta praevia), Tableau 3 (classification des traumatismes pendant la
 grossesse), Tableau 4 (choix du vecteur de transport par situation
-clinique), Fig. 1 (algorithme de prise en charge de l'HPP - retranscrit en
-etapes textuelles sequentielles, l'original etant un organigramme graphique
-sans alternative texte exploitable), Fig. 2 (algorithme de traitement de
-l'HTA gravidique - nicardipine/labetalol, retranscrit en tableau de
-titration). Aucune image/photo n'est presente dans le PDF source (verifie
-par doc.get_images()) hors le logo SFAR page 1.
+clinique), Fig. 1 (algorithme de prise en charge de l'HPP), Fig. 2
+(algorithme de titration de l'HTA gravidique, nicardipine/labetalol) - ces
+2 figures sont des organigrammes graphiques (boites/fleches) sans texte
+alternatif exploitable par une extraction PyMuPDF brute ; RETRANSCRITES ICI
+a partir d'un rendu visuel direct des pages sources a 220dpi (pages 7 et 11
+du PDF), pas de la seule extraction texte fragmentee - voir AUDIT ci-dessous
+pour l'incident qui a rendu cette re-verification necessaire. Aucune image/
+photo n'est presente dans le PDF source (verifie par doc.get_images()) hors
+le logo SFAR page 1.
 
 ARGUMENTAIRE : condense (regle de projet 2026-09-14) - seuls les seuils/
 doses/delais et criteres de decision directement actionnables sont
 conserves ; l'epidemiologie generale et la prose de justification
 bibliographique sont omises sauf quand un chiffre epidemiologique change la
 priorisation clinique (ex. HPP = 1re cause de mortalite maternelle).
+
+AUDIT INDEPENDANT (2026-09-15, subagent) et corrections appliquees :
+1. ERREUR CRITIQUE TROUVEE ET CORRIGEE - contamination croisee entre
+   documents : le brouillon initial contenait un bloc "Chapitre 1 -
+   Information du patient" (devoirs d'information, consentement, analgesie
+   peridurale/cesarienne) qui N'EXISTE NULLE PART dans cette source (verifie
+   par grep exhaustif - zero occurrence de "peridurale", "cesarienne",
+   "information du patient"). Ce contenu provient en realite du DOCUMENT
+   "Les blocs perimedullaires chez l'adulte" (2006 RPC), explore et
+   ABANDONNE plus tot dans la meme session sans jamais avoir ete construit
+   en fiche - son "Question 1 : Quelle information donner au patient..."
+   a ete confondu par erreur avec le Chapitre 1 de CE document (qui est en
+   realite "Recours au Samu centre 15 pour motif obstetrical", deja
+   correctement couvert plus loin dans le brouillon, juste mal numerote
+   "2" au lieu de "1"). Corrige : bloc fabrique supprime integralement,
+   numerotation des sections 1/2 rectifiee (1 = Samu, 2 = accouchement
+   inopine), aucune perte de contenu reel puisque le Chapitre 1 authentique
+   etait deja couvert sous un mauvais numero.
+2. Fig. 1 (algorithme HPP) et Fig. 2 (titration HTA) INITIALEMENT
+   retranscrites depuis le texte OCR fragmente seul (sans rendu visuel),
+   en violation de la regle de projet 1 pour les figures graphiques.
+   Re-verifiees par rendu direct des pages PDF sources a 220dpi : Fig. 2
+   avait une ERREUR D'INVERSION reelle (le brouillon assignait le
+   "traitement d'attaque" au seuil d'ENTREE le plus bas et le "traitement
+   d'entretien" au seuil le PLUS SEVERE - exactement l'inverse de la
+   source, qui reserve l'attaque a PAS>180/PAM>140 et l'entretien a
+   PAS<180 et PAM<140). Fig. 1 avait une simplification perdant la
+   sous-branche "operateur non forme -> transport rapide direct" et
+   inversait l'ordre reel des etapes "possibilite de RU ?" / "sulprostone ?"
+   (la source route les deux branches de la RU vers le sulprostone AVANT
+   le transport, pas la RU vers le transport directement). Les deux figures
+   ont ete entierement reecrites pour suivre fidelement l'organigramme
+   visuel.
+3. Contre-indication a l'ocytocine manquante ajoutee (placenta incomplet
+   + attente de revision uterine -> ne pas administrer d'ocytocine, sauf
+   transport long avec hemorragie objectivee).
+4. Detail manquant ajoute : perfusion d'entretien ocytocine 5-10 UI/h
+   (texte du corps, distinct du schema de la Fig. 1 "10 UI en 20 min" -
+   divergence de formulation entre texte et figure dans la source
+   elle-meme, disclosed plutot que silencieusement unifiee).
+5. Deux corrections d'unite (deja presentes dans le brouillon initial mais
+   non disclosed) desormais explicitement disclosed dans le corps de la
+   fiche, conformement a la regle 5 : sulprostone "100-500 mg/h" (source)
+   -> corrige en 100-500 µg/h (surdosage massif sinon) ; creatininemie
+   "135 mmol/L" (source, seuil de preeclampsie severe) -> corrige en
+   135 µmol/L (valeur incompatible avec la survie sinon). Meme classe
+   d'artefact d'extraction "µ"->"m" que documentee ailleurs dans ce corpus.
+6. Deux precisions mineures ajoutees : le score de Malinas B (duree
+   moyenne du travail) mentionne dans la decision transport/accouchement
+   sur place ; la traction douce sur le cordon + contre-pression sus-
+   pubienne comme facteur preventif reconnu de l'HPP (distinct de la mise
+   en garde contre une traction ferme, qui restait deja presente).
+LECON POUR LES SESSIONS FUTURES : lors de l'exploration puis de
+l'abandon d'un candidat de fiche (ici blocs_perimedullaires.py), s'assurer
+qu'aucun contenu de ce candidat abandonne ne soit reutilise par erreur dans
+un fiche batie ensuite sur un sujet different - la proximite temporelle
+dans la meme session a cause une confusion reelle ici, detectee seulement
+par l'audit independant et non par la propre relecture visuelle du
+constructeur.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -153,10 +211,10 @@ def _section_intro_regulation():
         "maternité (régulation Samu, accouchement inopiné, hémorragies, traumatismes, "
         "HTA gravidique/prééclampsie/éclampsie, menace d'accouchement prématuré, "
         "transferts in utero). <b>Portée :</b> couverture complète du contenu clinique "
-        "actionnable des 7 chapitres d'urgence ; les chapitres 1 (information du patient) "
-        "et 9 (formation/évaluation des pratiques), de nature organisationnelle et non "
-        "des gestes d'urgence, sont résumés en quelques lignes — voir texte intégral pour "
-        "leur détail complet.", S_BODY), bg=BG_PANEL, border=TEAL))
+        "actionnable de 8 des 9 chapitres ; seul le chapitre 9 (formation/évaluation "
+        "des pratiques), de nature organisationnelle et non un geste d'urgence, est "
+        "résumé en quelques lignes — voir texte intégral pour son détail complet.",
+        S_BODY), bg=BG_PANEL, border=TEAL))
     story.append(Spacer(1, 3 * mm))
     story.append(section_bar("Méthodologie"))
     story.append(Spacer(1, 1.5 * mm))
@@ -170,23 +228,7 @@ def _section_intro_regulation():
     story.append(legend_flowable())
     story.append(Spacer(1, 2.5 * mm))
     story.append(KeepTogether([
-        section_bar("1 — Information du patient (résumé)", color=GREY),
-        Spacer(1, 1.5 * mm),
-        P(
-            "Information orale privilégiée, complétée (non remplacée) par un support "
-            "écrit ; porte sur les alternatives, bénéfices/risques, possibilité d'échec "
-            "et de recours à l'AG, changements de technique, séquelles rares — "
-            "personnalisée en cas de risque particulier. Chez la femme enceinte : "
-            "caractéristiques de la douleur du travail, techniques disponibles, "
-            "bénéfices attendus, modalités pratiques, indications/contre-indications, "
-            "et information sur l'anesthésie pour césarienne (alternatives, "
-            "avantages/inconvénients, recours en cas d'échec, analgésie postopératoire). "
-            "Toute grossesse à risque particulier de césarienne doit être fortement "
-            "incitée à une analgésie péridurale précoce.", S_BODY_SM),
-    ]))
-    story.append(Spacer(1, 2.5 * mm))
-    story.append(KeepTogether([
-        section_bar("2 — Régulation Samu et décision de transport"),
+        section_bar("1 — Recours au Samu centre 15 pour motif obstétrical"),
         Spacer(1, 1.5 * mm),
         theme_table([
             ("Numéro d'appel", "Le 15 (Samu) est le seul numéro à composer pour toute "
@@ -202,9 +244,10 @@ def _section_intro_regulation():
              "bas risque → maternité choisie par la patiente ; urgence vitale maternelle "
              "→ maternité la plus proche quel que soit le terme."),
             ("Décision accoucher sur place vs. transporter", "Repose sur l'évaluation de "
-             "la rapidité de dilatation (2 touchers vaginaux à 10 min d'intervalle) ; "
-             "dilatation complète + envie irrépressible de pousser → accouchement sur "
-             "place."),
+             "la rapidité de dilatation (2 touchers vaginaux à 10 min d'intervalle — le "
+             "score de Malinas B indique la durée moyenne du travail en population "
+             "générale) ; dilatation complète + envie irrépressible de pousser → "
+             "accouchement sur place."),
             ("Transport (2<sup>e</sup>/3<sup>e</sup> trimestre)", "Décubitus latéral, "
              "ceinturée — le décubitus dorsal est proscrit. Voie veineuse périphérique "
              "systématique."),
@@ -239,7 +282,7 @@ def _section_intro_regulation():
 def _section_accouchement_inopine():
     story = []
     story.append(Spacer(1, 3 * mm))
-    story.append(section_bar("2 (suite) — Accouchement inopiné extrahospitalier : mécanique"))
+    story.append(section_bar("2 — Accouchement inopiné extrahospitalier : mécanique"))
     story.append(Spacer(1, 1.5 * mm))
     story.append(theme_table([
         ("Position / efforts expulsifs", "Favoriser les positions d'hyperflexion des "
@@ -381,32 +424,59 @@ def _section_hemorragies():
          "être bien tolérée — le retentissement clinique peut être tardif et brutal, "
          "d'où une surveillance attentive systématique après tout accouchement."),
         ("Prévention (accouchement pas encore survenu)", "Délivrance dirigée : 5 UI "
-         "d'ocytocine IVD lente (IM à défaut) dans la minute suivant la naissance. Ne "
-         "jamais tirer fermement sur le cordon pour provoquer le décollement sans "
-         "formation préalable."),
+         "d'ocytocine IVD lente (IM à défaut) dans la minute suivant la naissance. Une "
+         "traction douce sur le cordon associée au refoulement de l'utérus (contre-"
+         "pression sus-pubienne) pour constater le décollement placentaire est un "
+         "facteur préventif reconnu de l'HPP — mais il ne faut jamais tirer fermement "
+         "sur le cordon pour provoquer le décollement sans formation préalable."),
+        ("Ocytocine après délivrance (utérus vide)", "10 UI en IVD lente, renouvelées "
+         "et/ou complétées par un débit de perfusion IV de 5 à 10 UI/h, sans dépasser "
+         "40 UI au total. <i>Note : la Fig. 1 (ci-dessous) exprime ce même schéma "
+         "différemment (10 UI en 20 min ± bolus de 5 UI, maximum 40 UI) — divergence "
+         "de formulation entre le texte et la figure de la source elle-même, disclosed "
+         "ici plutôt que résolue arbitrairement.</i>"),
+        ("Contre-indication à l'ocytocine", "Si le placenta est incomplet et dans "
+         "l'attente d'une révision utérine, il ne faut <b>pas</b> recourir à "
+         "l'ocytocine — sauf en cas de transport long avec une hémorragie "
+         "objectivée."),
     ], TCW))
     story.append(Spacer(1, 1.5 * mm))
     story.append(P("<b>Fig. 1 — Algorithme de prise en charge d'une HPP extrahospitalière "
-                    "(retranscrit en étapes séquentielles) :</b>", S_BODY_SM))
+                    "(organigramme, retranscrit en étapes séquentielles à partir du "
+                    "rendu visuel de la source) :</b>", S_BODY_SM))
     story.append(Spacer(1, 1 * mm))
     story.append(theme_table([
-        ("Étape 1 — délivrance non faite", "Vacuité vésicale ; ocytocine 10 UI en "
-         "20 min (± bolus de 5 UI, maximum 40 UI) ; massage utérin continu."),
-        ("Décollement placentaire ?", "Oui → aide à l'expulsion. Non → délivrance "
-         "artificielle sous anesthésie générale avec intubation."),
-        ("Étape 2 — hémorragie persistante", "Rechercher une atonie utérine ou une "
-         "lésion de la filière génitale (examen épisiotomie/périnée/vagin) ; ocytocine "
-         "(max 40 UI) ; massage utérin continu ; méchage/compression si lésion "
-         "identifiée."),
-        ("Possibilité de révision utérine ?", "Oui → révision utérine sous anesthésie "
-         "générale avec intubation. Non → transport rapide."),
-        ("Sulprostone ?", "Si la vacuité utérine est assurée et l'hémorragie persiste : "
-         "sulprostone 100 à 500 µg/h ; arrêter les ocytociques dès son instauration ; "
-         "poursuivre le massage utérin. Si opérateur non formé pour la révision "
-         "utérine : transport."),
+        ("Déclencheur", "Hémorragie &gt; 500 mL ou saignements anormaux → la "
+         "délivrance a-t-elle eu lieu ?"),
+        ("Délivrance non faite → décollement placentaire ?", "Oui → aide à "
+         "l'expulsion, puis mesures immédiates (ligne suivante). Non → délivrance "
+         "artificielle sous anesthésie générale avec intubation si opérateur formé "
+         "(puis mesures immédiates) ; si opérateur non formé → transport rapide "
+         "directement, sans attendre les mesures immédiates."),
+        ("Mesures immédiates (délivrance faite, ou après aide à l'expulsion/"
+         "délivrance artificielle)", "Vacuité vésicale ; ocytocine 10 UI en 20 min "
+         "(± bolus de 5 UI, maximum 40 UI) ; massage utérin continu."),
+        ("Persistance de l'hémorragie ?", "Non → transport. Oui → rechercher en "
+         "parallèle une atonie utérine ET une lésion de la filière génitale (2 lignes "
+         "suivantes)."),
+        ("→ Atonie utérine", "Ocytocine (maximum 40 UI) + massage utérin continu → "
+         "possibilité de révision utérine (RU) ? Oui → révision utérine sous "
+         "anesthésie générale avec intubation, puis sulprostone. Non → sulprostone "
+         "directement. Dans les 2 cas → sulprostone (100 à 500 µg/h), puis transport "
+         "rapide."),
+        ("→ Lésion de la filière génitale", "Examen (épisiotomie, périnée, vagin) → "
+         "méchage compressif → transport rapide."),
     ], TCW))
     story.append(Spacer(1, 1.5 * mm))
     story.append(theme_table([
+        ("Correction d'unité — sulprostone", "La source imprime « 100 à 500 mg/h » "
+         "pour la posologie du sulprostone (p.657) — dose incompatible avec une "
+         "utilisation clinique (surdosage massif). Lu et corrigé ici en <b>100 à "
+         "500 µg/h</b>, posologie standard du sulprostone (Nalador), cohérente avec "
+         "un probable artefact d'extraction PDF « µ » → « m », même classe d'artefact "
+         "que documentée ailleurs dans ce corpus (cf. fiche_sujet_age_esf.py) — "
+         "disclosed plutôt que silencieusement résolu, conformément à la règle du "
+         "projet."),
         ("Gestes endo-utérins", "Délivrance artificielle et révision utérine imposent "
          "une anesthésie avec induction en séquence rapide et intubation, maintenues "
          "jusqu'à la prise en charge hospitalière spécialisée. Asepsie rigoureuse et "
@@ -536,7 +606,11 @@ def _section_trauma_hta():
          "éclampsie ou troubles neurologiques persistants, thrombopénie &lt; 100 G/L, "
          "HRP, retentissement fœtal. <b>Éclampsie :</b> crise convulsive "
          "tonicoclonique en contexte d'HTA gravidique. <b>HELLP :</b> hémolyse + "
-         "cytolyse hépatique + thrombopénie."),
+         "cytolyse hépatique + thrombopénie. <i>Correction d'unité disclosed : la "
+         "source imprime « 135 mmol/L » pour ce seuil de créatininémie (valeur "
+         "incompatible avec la survie) — lu et corrigé ici en 135 µmol/L, probable "
+         "artefact d'extraction « µ » → « m », même classe que ci-dessus (Fig. 1, "
+         "sulprostone).</i>"),
         ("Diagnostic préhospitalier", "Principalement clinique ; mesure de la PA au "
          "repos, en décubitus latéral ou en position semi-assise. L'absence d'œdème "
          "localisé ou de prise de poids brutal n'élimine pas le diagnostic."),
@@ -564,29 +638,33 @@ def _section_trauma_hta():
          "Ne pas faire descendre la PAM sous 100 mmHg ni la PAS sous 140 mmHg."),
     ], TCW))
     story.append(Spacer(1, 1.5 * mm))
-    story.append(P("<b>Fig. 2 — Traitement de l'HTA de la grossesse (titration) :</b>",
+    story.append(P("<b>Fig. 2 — Traitement de l'HTA de la grossesse (organigramme de "
+                    "titration, retranscrit à partir du rendu visuel de la source) :</b>",
                     S_BODY_SM))
     story.append(Spacer(1, 1 * mm))
     story.append(grid_table(
         ["Seuil de PA", "Conduite"],
         [
-            ["PAS &gt; 160 ou PAM &gt; 110 mmHg", "Traitement d'attaque : nicardipine "
-             "0,5-1 mg IV puis 4-7 mg en 30 min. Évaluation de l'efficacité/tolérance "
-             "après 30 min."],
-            ["PAS &gt; 180 ou PAM &gt; 140 mmHg", "Traitement d'entretien : nicardipine "
-             "1-6 mg/h IV ou labétalol 5-20 mg/h IV. Réévaluation après 30 min puis "
-             "chaque heure."],
-            ["140 &lt; PAS &lt; 160 ou 100 &lt; PAM &lt; 120 (après traitement)",
+            ["Entrée : PAS &gt; 160 ou PAM &gt; 110 mmHg", "Orienter selon la sévérité "
+             "vers l'un des 2 traitements ci-dessous, puis évaluer l'efficacité/"
+             "tolérance après 30 min (voir les 4 lignes suivantes)."],
+            ["— si en outre PAS &gt; 180 ou PAM &gt; 140 mmHg", "<b>Traitement "
+             "d'attaque :</b> nicardipine 0,5-1 mg IV puis 4-7 mg en 30 min."],
+            ["— si PAS &lt; 180 et PAM &lt; 140 mmHg", "<b>Traitement d'entretien :</b> "
+             "nicardipine 1-6 mg/h IV ou labétalol 5-20 mg/h IV."],
+            ["Après 30 min, si PAS &lt; 140 et PAM &lt; 100 mmHg", "Diminution voire "
+             "arrêt du traitement."],
+            ["Après 30 min, si 140 &lt; PAS &lt; 160 ou 100 &lt; PAM &lt; 120 mmHg",
              "Poursuite du traitement d'entretien : nicardipine 1-6 mg/h ou labétalol "
              "5-20 mg/h."],
-            ["PAS &lt; 140 et PAM &lt; 100 mmHg (après traitement)", "Diminution voire "
-             "arrêt du traitement."],
-            ["PAS &gt; 160 ou PAM &gt; 120 mmHg (après traitement)", "Association "
+            ["Après 30 min, si PAS &gt; 160 ou PAM &gt; 120 mmHg", "Association "
              "nicardipine 6 mg/h + labétalol 5-20 mg/h (ou clonidine 15-40 µg/h si "
              "contre-indication aux bêta-bloquants)."],
-            ["Effets secondaires (céphalées, palpitations…)", "Réduction de la "
-             "nicardipine et association avec labétalol 5-20 mg/h ou clonidine "
+            ["Après 30 min, si effets secondaires (céphalées, palpitations…)",
+             "Réduction de la nicardipine, associée à labétalol 5-20 mg/h ou clonidine "
              "15-40 µg/h si contre-indication aux bêta-bloquants."],
+            ["Dans tous les cas (4 lignes ci-dessus)", "Réévaluation du traitement "
+             "après 30 minutes puis chaque heure."],
         ], [55 * mm, CW_FULL - 55 * mm]))
     story.append(Spacer(1, 1.5 * mm))
     story.append(theme_table([
@@ -765,11 +843,12 @@ def _section_map_tiu_formation():
         "2_AFAR_Urgences-Obstetricales-Extrahospitalieres.pdf", S_SOURCE))
     story.append(Spacer(1, 1 * mm))
     story.append(P(
-        "<b>Couverture :</b> intégralité du contenu clinique actionnable des 9 "
-        "chapitres, condensé en tableaux Thème/Détail (chapitres 2 à 8 en couverture "
-        "complète ; chapitres 1 et 9, de nature organisationnelle/déontologique, "
-        "résumés — voir texte intégral pour leur détail complet). 4 tableaux et 2 "
-        "figures (algorithmes HPP et HTA) retranscrits intégralement.", S_SOURCE))
+        "<b>Couverture :</b> intégralité du contenu clinique actionnable de 8 des 9 "
+        "chapitres (1 à 8), condensé en tableaux Thème/Détail ; seul le chapitre 9, "
+        "de nature organisationnelle (formation/évaluation des pratiques), est "
+        "résumé — voir texte intégral pour son détail complet. 4 tableaux et 2 "
+        "figures (algorithmes HPP et HTA) retranscrits intégralement à partir d'un "
+        "rendu visuel des pages sources.", S_SOURCE))
     story.append(Spacer(1, 3 * mm))
     story.append(info_panel(P(
         "<b>Avertissement — document validé 2010 :</b> cette fiche de synthèse "

@@ -98,7 +98,8 @@ var RAW = {
   aod_urgence: JSON.parse(document.getElementById('content-aod_urgence').textContent),
   plyo_transfusion: JSON.parse(document.getElementById('content-plyo_transfusion').textContent),
   tenue_vestimentaire: JSON.parse(document.getElementById('content-tenue_vestimentaire').textContent),
-  alr_non_specialiste: JSON.parse(document.getElementById('content-alr_non_specialiste').textContent)
+  alr_non_specialiste: JSON.parse(document.getElementById('content-alr_non_specialiste').textContent),
+  echo_acces_vasculaires: JSON.parse(document.getElementById('content-echo_acces_vasculaires').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -198,7 +199,8 @@ var FICHE_HREF_MATCH = {
   aod_urgence: ['gestion-perioperatoire-des-aod-en-urgence'],
   plyo_transfusion: ['indications-de-transfusion-de-plasmas-lyophilises-plyo'],
   tenue_vestimentaire: ['tenue-vestimentaire-au-bloc-operatoire'],
-  alr_non_specialiste: ['pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation']
+  alr_non_specialiste: ['pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation'],
+  echo_acces_vasculaires: ['recommandations-sur-lutilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1339,6 +1341,18 @@ var DOC_META = {
     methodology: "Conférence d'experts, grille EBM Niveaux de preuve I-V / Grades A-E — formulation narrative, aucune numérotation Rx.y native dans la source",
     pages: 10,
     url: "https://sfar.org/wp-content/uploads/2016/01/2_AFAR_Pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation-dans-le-cadre-des-urgences.pdf"
+  },
+  echo_acces_vasculaires: {
+    key: 'echo_acces_vasculaires',
+    badge: 'GRADE',
+    title: "Échographie et accès vasculaires",
+    short: "RFE SFAR (méthode GRADE), 2015 (Anesth Réanim. 2015;1:183-189) : utilisation de l'échoguidage lors de la mise en place d'accès vasculaires veineux centraux, artériels et veineux périphériques a priori difficiles, chez l'adulte et l'enfant. 10 recommandations (R1-R10) : jugulaire interne, sous-clavière, fémorale et radiale (adulte et enfant), veine périphérique a priori difficile (adulte et enfant) — grades 1+ (fort) ou 2+ (faible) selon le site et la qualité de preuve ; aucune recommandation possible pour la sous-clavière chez l'enfant (absence d'essai randomisé). Champ exclu par la source : échoguidage de l'artère fémorale (données insuffisantes) et techniques d'écho-repérage/Doppler seul. Analyse médico-économique incluse (coût marginal, gain estimé).",
+    society: "SFAR",
+    version: "2015",
+    validated: "CA de la SFAR (12/09/2014), publié Anesth Réanim. 2015;1:183-189",
+    methodology: "Méthode GRADE® — qualité des preuves en 4 catégories (haute/modérée/basse/très basse), formulation binaire forte/faible (Grade 1+/1-/2+/2-)",
+    pages: 7,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_utilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires.pdf"
   }
 };
 

@@ -509,8 +509,9 @@ def _section_q6a():
     story.append(Spacer(1, 1 * mm))
     story.append(reco_table([
         ("§6-1", "Pour le confort et la sécurité, il faut privilégier l'association "
-         "ALR/AG préalable chez les jeunes enfants — chez les enfants plus grands, une "
-         "ALR sans AG associée est possible.", "FORT"),
+         "ALR/AG préalable chez les jeunes enfants.", "FORT"),
+        ("§6-1", "Chez les enfants plus grands, une ALR sans AG associée est possible.",
+         "OPT"),
         ("§6-1", "Il ne faut probablement pas réaliser d'anesthésie caudale chez "
          "l'enfant &gt;20 kg.", "OPT"),
         ("§6-1", "Chez l'ancien prématuré de 44-60 semaines d'âge conceptuel (chirurgie "
@@ -561,8 +562,9 @@ def _section_q6b_sources():
     story.append(Spacer(1, 1.5 * mm))
     story.append(reco_table([
         ("§6-2-3", "Chirurgie unilatérale de la hanche : bloc fémoral ou ilio-fascial "
-         "possible (le bloc du plexus lombaire postérieur est une alternative) ; en "
-         "abord bilatéral, il faut préférer la péridurale lombaire.", "FORT"),
+         "possible (le bloc du plexus lombaire postérieur est une alternative).", "OPT"),
+        ("§6-2-3", "Chirurgie bilatérale de la hanche : il faut préférer la péridurale "
+         "lombaire.", "FORT"),
         ("§6-2-3", "Chirurgie/traumatisme du fémur : il faut privilégier le bloc "
          "ilio-fascial (le bloc fémoral est une alternative).", "FORT"),
         ("§6-2-3", "Chirurgie de la cheville et/ou du pied : il faut réaliser un bloc "

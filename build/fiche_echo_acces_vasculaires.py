@@ -33,6 +33,22 @@ chaque ligne ne retient que les chiffres de reduction de risque cles et le
 niveau global de preuve - pas le detail complet RR/IC95%/etudes qui
 alourdirait la lecture sans changer la pratique clinique (le grade
 lui-meme resume deja la force de la recommandation).
+
+AUDIT INDEPENDANT (subagent, aveugle au brouillon) : les 10 grades et tous
+les pourcentages de reduction de risque verifies exacts (aucune erreur
+numerique, aucun grade errone, R7 correctement distingue). Corrections
+MEDIUM apportees suite a l'audit : R1 - le qualificatif "possible" de
+l'hemothorax (IC95% traversant 1 dans la source) avait ete perdu, et le
+compte "13 etudes/2675 patients" agregeait a tort 5 criteres dont un seul
+etaye par 1 etude/900 patients - remplace par une fourchette disclosed
+"1 a 13 etudes, 900 a 2675 patients" (meme convention que R4/R9). R2 - la
+raison de la qualite "elevee malgre..." citait a tort le "faible nombre
+d'etudes" au lieu de l'heterogeneite/imprecision reellement citees par la
+source. Resume - la phrase d'exclusion de champ melangeait 2 raisons
+distinctes (femorale : donnees bibliographiques absentes ; echo-
+reperage/Doppler : juges moins performants) - separees. R5/R9/R10 -
+raisons de qualite de preuve (imprecision/heterogeneite) ajoutees pour
+coherence avec R1/R3/R4/R6/R8 qui les mentionnaient deja.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -130,9 +146,9 @@ def _section_all():
         "(a priori difficiles), chez l'adulte et l'enfant. La ponction échoguidée réduit "
         "significativement les échecs de canulation, les ponctions artérielles accidentelles, "
         "les hématomes et — pour les voies centrales — le pneumothorax/hémothorax, par "
-        "rapport au repérage anatomique seul. <b>Champ exclu par la source</b> (données "
-        "bibliographiques insuffisantes) : l'échoguidage de l'artère fémorale (adulte et "
-        "enfant) et les techniques d'écho-repérage/Doppler seul.", S_BODY),
+        "rapport au repérage anatomique seul. <b>Champ exclu par la source</b> : l'échoguidage "
+        "de l'artère fémorale, adulte et enfant (absence de données bibliographiques), et les "
+        "techniques d'écho-repérage ou de Doppler seul, jugées moins performantes.", S_BODY),
         bg=BG_PANEL, border=TEAL))
     story.append(Spacer(1, 3 * mm))
     story.append(section_bar("Méthodologie"))
@@ -156,12 +172,15 @@ def _section_all():
         ("R1", "<b>Veine jugulaire interne :</b> il est recommandé d'utiliser une technique "
          "échoguidée plutôt que le repérage anatomique. Réduction des échecs de canulation "
          "de 86 %, des ponctions artérielles de 80 %, des hématomes de 78 %, du pneumothorax "
-         "de 90 % et de l'hémothorax de 94 % (13 études, jusqu'à 2675 patients). Qualité de "
-         "preuve <b>élevée</b>.", "1+"),
+         "de 90 % et possible réduction de l'hémothorax de 94 % (IC 95 % traversant 1) — "
+         "1 à 13 études selon le critère, 900 à 2675 patients. Qualité de preuve "
+         "<b>élevée</b>.", "1+"),
         ("R2", "<b>Veine sous-clavière :</b> il est recommandé d'utiliser une technique "
          "échoguidée. Réduction des échecs de 94 %, des ponctions artérielles de 82 %, des "
          "hématomes de 77 %, du pneumothorax de 78 % et de l'hémothorax de 95 % (3 études, "
-         "~450-500 patients). Qualité <b>élevée</b> malgré le faible nombre d'études.", "1+"),
+         "~450-500 patients). Qualité <b>élevée</b> malgré l'hétérogénéité et l'imprécision "
+         "des résultats pour certains critères (études peu nombreuses pour cette voie).",
+         "1+"),
         ("R3", "<b>Veine fémorale :</b> il est recommandé d'utiliser une technique "
          "échoguidée. Réduction des échecs de 85 %, des ponctions artérielles de 86 % "
          "(2 études, 150 patients) et possible réduction des hématomes de 50 % (1 étude, "
@@ -172,7 +191,8 @@ def _section_all():
          "(imprécision et hétérogénéité).", "2+"),
         ("R5", "<b>Veine périphérique a priori difficile :</b> il est probablement recommandé "
          "d'utiliser une technique échoguidée. Augmentation du taux de succès de 20 % "
-         "(3 études, 154 patients). Qualité <b>modérée</b>.", "2+"),
+         "(3 études, 154 patients). Qualité <b>modérée</b> (imprécision des résultats).",
+         "2+"),
     ], RCW))
     story.append(Spacer(1, 2.5 * mm))
     story.append(section_bar("Recommandations — accès vasculaires chez l'enfant"))
@@ -193,10 +213,12 @@ def _section_all():
          "1+"),
         ("R9", "<b>Artère radiale :</b> il est probablement recommandé d'utiliser une "
          "technique échoguidée. Réduction des échecs au premier essai de 33 % et des "
-         "hématomes de 80 % (1-3 études, 118-300 patients). Qualité <b>modérée</b>.", "2+"),
+         "hématomes de 80 % (1-3 études, 118-300 patients). Qualité <b>modérée</b> "
+         "(hétérogénéité des résultats).", "2+"),
         ("R10", "<b>Veine périphérique a priori difficile :</b> il est probablement "
          "recommandé d'utiliser une technique échoguidée. Augmentation probable du taux de "
-         "succès de 20 % (3 études, 134 patients). Qualité <b>basse</b>.", "2+"),
+         "succès de 20 % (3 études, 134 patients). Qualité <b>basse</b> (imprécision des "
+         "résultats).", "2+"),
     ], RCW))
     story.append(Spacer(1, 2.5 * mm))
     story.append(section_bar("Analyse médico-économique", color=GREY))

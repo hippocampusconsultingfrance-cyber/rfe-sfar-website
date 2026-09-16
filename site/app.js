@@ -102,7 +102,8 @@ var RAW = {
   echo_acces_vasculaires: JSON.parse(document.getElementById('content-echo_acces_vasculaires').textContent),
   tests_viscoelastiques: JSON.parse(document.getElementById('content-tests_viscoelastiques').textContent),
   eeg_cortical: JSON.parse(document.getElementById('content-eeg_cortical').textContent),
-  examens_pertinence_rea: JSON.parse(document.getElementById('content-examens_pertinence_rea').textContent)
+  examens_pertinence_rea: JSON.parse(document.getElementById('content-examens_pertinence_rea').textContent),
+  alr_pediatrie: JSON.parse(document.getElementById('content-alr_pediatrie').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -206,7 +207,8 @@ var FICHE_HREF_MATCH = {
   echo_acces_vasculaires: ['recommandations-sur-lutilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires'],
   tests_viscoelastiques: ['tests-viscoelastiques-2018'],
   eeg_cortical: ['monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-leeg-cortical'],
-  examens_pertinence_rea: ['pertinence-de-la-prescription-des-examens-biologiques-et-de-la-radiographie-thoracique-en-reanimation']
+  examens_pertinence_rea: ['pertinence-de-la-prescription-des-examens-biologiques-et-de-la-radiographie-thoracique-en-reanimation'],
+  alr_pediatrie: ['anesthesie-loco-regionale-en-pediatrie']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1395,6 +1397,18 @@ var DOC_META = {
     methodology: "Méthode GRADE®, méthode PICO — qualité des preuves en 4 catégories, formulation binaire forte/faible (Grade 1+/1-/2+/2-), certains items en avis d'expert",
     pages: 26,
     url: "https://sfar.org/wp-content/uploads/2017/01/2_RFE-EC-en-rea-version-15-12-16.pdf"
+  },
+  alr_pediatrie: {
+    key: 'alr_pediatrie',
+    badge: 'FORT/OPT',
+    title: "ALR en pédiatrie",
+    short: "RFE SFAR-ADARPEF 2010, actualisant la Conférence d'Experts 1997 sur l'anesthésie loco-régionale (ALR) chez l'enfant — nouveau-né, nourrisson, petit enfant surtout. Pas de grille de cotation A-E : chaque recommandation est « forte » (« il faut »/« il ne faut pas ») ou « optionnelle » (« il est possible de »/« il faut probablement »/« les experts proposent »/« il faut penser à ») selon le verbe employé par la source elle-même. 6 Questions (106 énoncés) : anesthésiques locaux et posologies, adjuvants (clonidine, morphiniques, adrénaline), méthodes de localisation et matériels (dont Tableau 1 — choix des aiguilles par technique/âge/poids), prévention et traitement des complications, choix de la technique selon le terrain et la chirurgie.",
+    society: "SFAR / ADARPEF",
+    version: "2010",
+    validated: "Conférence d'Experts SFAR-ADARPEF 1997, actualisée RFE 2010",
+    methodology: "Méthode GRADE quand pertinente, sinon accord professionnel (méthode Groupe Nominal adaptée RAND/UCLA) — force encodée directement dans le verbe de chaque recommandation (forte/optionnelle), pas de grille de lettres A-E",
+    pages: 13,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Anesthesie-loco-regionale-en-pediatrie.pdf"
   }
 };
 

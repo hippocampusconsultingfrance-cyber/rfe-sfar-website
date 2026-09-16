@@ -31,6 +31,29 @@ sont des details cliniquement reels de la courbe, pas une simplification -
 et la liste complete (non exhaustive selon la source) des situations
 cliniques du Module B question 5.
 
+AUDIT INDEPENDANT (subagent, aveugle au brouillon, avec relevé pixel
+calibre sur les graduations des axes pour la figure - plus precis que ma
+propre lecture visuelle initiale) : tout le contenu textuel (Modules A/B,
+les 4 directions cliniques de 1c/1d/1e, la nuance NVPO de Q4, les 17
+situations de Q5, la non-recommandation pediatrique de Q6, le placement
+unique de "avis d'experts") confirme exact et non inverse. La figure
+dose-reponse, elle, contenait encore des erreurs malgre ma verification a
+220dpi : (1) erreur HIGH - la legende affirmait que l'isoflurane devient
+progressivement la plus basse entre 0,7 et 2 CAM, alors que le releve
+pixel montre un plateau isoflurane (~37-41) dans cette plage et que c'est
+le SEVOFLURANE qui y est le plus bas (l'isoflurane ne redevient la plus
+basse qu'au-dela de ~2,3 CAM) - la propre table du brouillon le montrait
+deja (isoflurane 38/sevoflurane 35 a CAM 1,5) sans que le texte adjacent
+en tire la bonne conclusion ; (2) valeur isoflurane a CAM=0,5 corrigee de
+~95 a ~63-67 (l'isoflurane est deja en chute a ce point, pas encore proche
+de 100) ; (3) valeur de fin de courbe sevoflurane corrigee de ~15 a
+~26-27 (proche du desflurane, pas a mi-chemin isoflurane/desflurane) ;
+(4) valeur desflurane a CAM=1,0 affinee de ~42 a ~48 ; (5) point de
+croisement affine de ~0,7 a ~0,55-0,6 CAM. Egalement ajoute : disclosure
+(regle 5) que la phrase source elle-meme sur les NVPO (Q4) omet un "pas"
+et est grammaticalement incomplete telle qu'imprimee - coquille du
+document source, non silencieusement resolue.
+
 ARGUMENTAIRE : ce texte court de 2010 est deja tres condense nativement
 (format Question/Reponse direct, pas de section "argumentaire" separee a
 trimmer) - chaque "Reponse" EST le contenu actionnable, integralement
@@ -161,27 +184,31 @@ def _section_intro_module_a():
     story.append(Spacer(1, 1.5 * mm))
     story.append(P(
         "<i>Figure source (« Courbes doses réponse des halogénés ») — page rendue à "
-        "220dpi et transcrite visuellement (règle 1) :</i> relation entre index "
-        "bispectral (BIS) et concentration au site effet d'halogéné, en CAM (0 à 3), "
-        "pour desflurane, isoflurane et sévoflurane. Les trois courbes partent de "
-        "~100 à CAM=0. Le désflurane et le sévoflurane chutent tôt et rapidement, dès "
-        "~0,3-0,4 CAM, jusqu'à ~50 vers 0,5-0,6 CAM ; l'isoflurane reste proche de 100 "
-        "plus longtemps (jusqu'à ~0,5 CAM) puis chute brutalement, croisant les deux "
-        "autres courbes vers 0,7 CAM (~42-45 pour les trois agents). Entre 0,7 et "
-        "2 CAM, les trois courbes restent proches (BIS ~28-42) mais l'isoflurane "
-        "devient progressivement la plus basse. Au-delà de 2 CAM, l'isoflurane "
-        "décroît le plus nettement, jusqu'à un BIS ~12 au point le plus extrême de sa "
-        "courbe (~2,8 CAM) — la plage de concentration testée la plus étendue des "
-        "trois agents — tandis que le désflurane reste le plus élevé en fin de "
-        "courbe (BIS ~28-30 vers 2,5 CAM). Le sévoflurane se situe entre les deux, "
-        "sa courbe s'arrêtant vers 2,3 CAM (BIS ~15).", S_NOTE))
+        "220dpi et transcrite par relevé pixel des 3 courbes (règle 1, calibré sur les "
+        "graduations des axes) :</i> relation entre index bispectral (BIS) et "
+        "concentration au site effet d'halogéné, en CAM (0 à 3), pour desflurane, "
+        "isoflurane et sévoflurane. Les trois courbes partent de ~100 à CAM=0. Le "
+        "désflurane et le sévoflurane chutent tôt (dès ~0,3-0,4 CAM) vers ~50 dès "
+        "0,5 CAM ; l'isoflurane reste plus élevé un peu plus longtemps puis chute "
+        "brutalement, croisant les deux autres courbes vers 0,55-0,6 CAM. Entre ~1 et "
+        "2,2 CAM, l'isoflurane <b>plateau</b> autour de BIS 37-41 tandis que c'est le "
+        "<b>sévoflurane</b> qui décroît le plus et devient la courbe la plus basse "
+        "dans cette plage (et non l'isoflurane). Au-delà de 2,3 CAM, une fois la "
+        "courbe du sévoflurane terminée, l'isoflurane rechute fortement et devient la "
+        "plus basse des trois, jusqu'à un BIS ~11 à l'extrémité de sa courbe "
+        "(~2,8 CAM) — la plage de concentration testée la plus étendue des trois "
+        "agents. Le désflurane reste le plus élevé en fin de courbe (BIS ~28 vers "
+        "2,5 CAM) ; le sévoflurane termine sa courbe à un niveau proche (BIS ~26-27 "
+        "vers 2,3 CAM), pas nettement intermédiaire entre désflurane et isoflurane "
+        "comme une première lecture visuelle (non calibrée par pixel) l'avait "
+        "suggéré.", S_NOTE))
     story.append(Spacer(1, 1 * mm))
     story.append(grid_table(
         ["Concentration (CAM)", "0,5", "1,0", "1,5", "2,0", "Fin de courbe"],
         [
-            ["Désflurane", "~50", "~42", "~40", "~38", "~28-30 (CAM ≈2,5)"],
-            ["Isoflurane", "~95", "~42", "~38", "~33", "~12 (CAM ≈2,8)"],
-            ["Sévoflurane", "~50", "~40", "~35", "~28", "~15 (CAM ≈2,3)"],
+            ["Désflurane", "~53", "~48", "~42", "~35", "~28 (CAM ≈2,5)"],
+            ["Isoflurane", "~63-67", "~41", "~41", "~37", "~11 (CAM ≈2,8)"],
+            ["Sévoflurane", "~48", "~43", "~38", "~30", "~26-27 (CAM ≈2,3)"],
         ], [30 * mm, 17 * mm, 17 * mm, 17 * mm, 17 * mm, CW_FULL - 98 * mm], head_bg=GREY))
     story.append(Spacer(1, 1 * mm))
     story.append(P(
@@ -217,7 +244,11 @@ def _section_module_b():
          "conscient et non-conscient. Le monitorage par BIS® peut diminuer "
          "l'incidence des NVPO sous halogénés <b>en l'absence</b> de prévention "
          "systématique des NVPO — sans effet supplémentaire si une prévention "
-         "systématique est déjà en place. Influence sur la stabilité hémodynamique "
+         "systématique est déjà en place <i>(la phrase source correspondante omet "
+         "elle-même un « pas » et est grammaticalement incomplète telle qu'imprimée "
+         "— coquille du document source, disclosed, non silencieusement corrigée : "
+         "la lecture retenue ici est la seule cohérente avec le reste du "
+         "paragraphe)</i>. Influence sur la stabilité hémodynamique "
          "peropératoire faible et inconstante, sans corrélation démontrée avec des "
          "complications postopératoires. Le BIS® <b>ne détecte pas spécifiquement</b> "
          "les tracés épileptiformes observables à l'induction au sévoflurane. Aucune "

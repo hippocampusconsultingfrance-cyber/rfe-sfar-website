@@ -96,7 +96,8 @@ var RAW = {
   alr_perinerveuse: JSON.parse(document.getElementById('content-alr_perinerveuse').textContent),
   urgences_ob_extrahosp: JSON.parse(document.getElementById('content-urgences_ob_extrahosp').textContent),
   aod_urgence: JSON.parse(document.getElementById('content-aod_urgence').textContent),
-  plyo_transfusion: JSON.parse(document.getElementById('content-plyo_transfusion').textContent)
+  plyo_transfusion: JSON.parse(document.getElementById('content-plyo_transfusion').textContent),
+  tenue_vestimentaire: JSON.parse(document.getElementById('content-tenue_vestimentaire').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -194,7 +195,8 @@ var FICHE_HREF_MATCH = {
   alr_perinerveuse: ['anesthesie-loco-regionale-perinerveuse', 'rfe-anesthesie-loco-regionale-perinerveuse'],
   urgences_ob_extrahosp: ['urgences-obstetricales-extrahospitalieres', 'Urgences-Obstetricales-Extrahospitalieres'],
   aod_urgence: ['gestion-perioperatoire-des-aod-en-urgence'],
-  plyo_transfusion: ['indications-de-transfusion-de-plasmas-lyophilises-plyo']
+  plyo_transfusion: ['indications-de-transfusion-de-plasmas-lyophilises-plyo'],
+  tenue_vestimentaire: ['tenue-vestimentaire-au-bloc-operatoire']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1311,6 +1313,18 @@ var DOC_META = {
     methodology: "Analyse GRADE de la littérature, format RPP (« les experts suggèrent »), cotation Delphi GRADE grid",
     pages: 28,
     url: "https://sfar.org/download/indications-de-transfusion-de-plasmas-lyophilises-plyo-chez-un-patient-en-choc-hemorragique-ou-a-risque-de-transfusion-massive-en-milieu-civil-adulte-enfant-et-nouveau-ne/?wpdmdl=30312"
+  },
+  tenue_vestimentaire: {
+    key: 'tenue_vestimentaire',
+    badge: 'RPP',
+    title: "Tenue vestimentaire au bloc opératoire",
+    short: "RPP commune SFAR-SF2H (avec validation AFC/CERES), 2021 : tenue de bloc opératoire, articles coiffants, masques, chaussures et sur-chaussures. 16 énoncés individuellement gradés « Avis d'expert (Accord Fort) » (la source annonce 13 recommandations formalisées ; le compte direct des énoncés numérotés donne 16 — divergence de comptage source non réconciliable, disclosed telle quelle), organisés en 4 champs thématiques : tenue de bloc (R1.1.1-R1.5), articles coiffants (R2.1.1-R2.2), masques (R3.1-R3.2), chaussures/sur-chaussures (R4.1-R4.2). Ces RPP se substituent explicitement aux recommandations SFAR et/ou SF2H précédentes sur le même champ.",
+    society: "SFAR / SF2H (avec validation AFC / CERES)",
+    version: "2021",
+    validated: "Comité des Référentiels Cliniques de la SFAR (05/05/2021), CA de la SFAR (19/05/2021), Conseil Scientifique de la SF2H (06/05/2021) et CA de l'AFC/CERES (28/05/2021)",
+    methodology: "Format RPP, méthodologie GRADE partiellement applicable (méthode GRADE non intégralement applicable selon la source, avis d'expert pour la plupart des questions), formulation uniforme « les experts suggèrent de faire/de ne pas faire », accord fort pour 100% des recommandations",
+    pages: 21,
+    url: "https://sfar.org/download/tenue-vestimentaire-au-bloc-operatoire/?wpdmdl=35399"
   }
 };
 

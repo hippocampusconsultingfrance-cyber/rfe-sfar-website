@@ -1752,6 +1752,29 @@ def extract_plyo_transfusion():
     return {"doc": "plyo_transfusion", "sections": blocks}
 
 
+def extract_tenue_vestimentaire():
+    import style
+    import fiche_tenue_vestimentaire as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "tenue_vestimentaire", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2550,3 +2573,12 @@ if __name__ == "__main__":
         json.dump(plyo_transfusion, f, ensure_ascii=False, indent=1)
     print("plyo_transfusion sections:", len(plyo_transfusion["sections"]),
           "total blocks:", sum(len(s["items"]) for s in plyo_transfusion["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    tenue_vestimentaire = extract_tenue_vestimentaire()
+    with open(os.path.join(BUILD_DIR, "content_tenue_vestimentaire.json"), "w") as f:
+        json.dump(tenue_vestimentaire, f, ensure_ascii=False, indent=1)
+    print("tenue_vestimentaire sections:", len(tenue_vestimentaire["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in tenue_vestimentaire["sections"]))

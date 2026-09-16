@@ -55,6 +55,23 @@ Champ 3 PCT seule cite 10 references) ; seuls les seuils/chiffres
 directement actionnables sont conserves (ex. volumes de sang pour
 hemocultures, seuils PCT/troponine/BNP, delais ECBU) - pas le detail
 etude-par-etude.
+
+AUDIT INDEPENDANT (subagent, aveugle au brouillon, verification
+systematique des 42 grades un par un) : les 42 grades, les 4 items "avis
+d'expert", les 3 cas "aucune recommandation possible", l'anomalie
+R 7.2.5, la divergence de comptage disclosed (49 annonces vs 42 comptes,
+re-derivee independamment par grep et confirmee identique), et tous les
+seuils cliniques critiques verifies (RCRI R4.1 vs R5.1 non confondus,
+volumes hemocultures, fenetre de detection troponine, incidence TIH)
+confirmes exacts - aucune erreur HIGH. Une seule correction MEDIUM
+apportee : la note "Repere" du Champ 6 associait a tort la qualification
+"contexte chirurgical/traumatique" au protocole de surveillance
+plaquettaire sous HNF (2x/semaine, 21 jours) - dans la source, cette
+qualification appartient au protocole HBPM (document HAS, rythme
+different), un protocole distinct que la fiche avait involontairement
+fusionne avec celui de l'HNF. Chaque chiffre pris isolement etait exact ;
+seul le lien conditionnel entre les deux etait errone - corrige en
+separant explicitement les deux protocoles.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -284,9 +301,10 @@ def _section_champ6_7a():
     story.append(P(
         "<i>Repère :</i> la corrélation TCA/activité anti-Xa est mauvaise (discordante dans "
         "près de la moitié des cas sous HNF). La thrombopénie induite par l'héparine (TIH) "
-        "complique jusqu'à 5 % des traitements par HNF et 0,1-0,2 % des HBPM — en contexte "
-        "chirurgical/traumatique, surveillance plaquettaire systématique 2×/semaine pendant "
-        "21 jours sous HNF.", S_NOTE))
+        "complique jusqu'à 5 % des traitements par HNF et 0,1-0,2 % des HBPM. Sous HNF, "
+        "quelle que soit la dose, surveillance plaquettaire systématique 2×/semaine pendant "
+        "21 jours. Sous HBPM, se référer au document HAS : rythme différent selon le "
+        "contexte (chirurgical/traumatique ou non).", S_NOTE))
     story.append(Spacer(1, 2.5 * mm))
     story.append(section_bar("Champ 7 — Examens bactériologiques standards (1/2 : hémocultures)"))
     story.append(Spacer(1, 1.5 * mm))

@@ -97,7 +97,8 @@ var RAW = {
   urgences_ob_extrahosp: JSON.parse(document.getElementById('content-urgences_ob_extrahosp').textContent),
   aod_urgence: JSON.parse(document.getElementById('content-aod_urgence').textContent),
   plyo_transfusion: JSON.parse(document.getElementById('content-plyo_transfusion').textContent),
-  tenue_vestimentaire: JSON.parse(document.getElementById('content-tenue_vestimentaire').textContent)
+  tenue_vestimentaire: JSON.parse(document.getElementById('content-tenue_vestimentaire').textContent),
+  alr_non_specialiste: JSON.parse(document.getElementById('content-alr_non_specialiste').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -196,7 +197,8 @@ var FICHE_HREF_MATCH = {
   urgences_ob_extrahosp: ['urgences-obstetricales-extrahospitalieres', 'Urgences-Obstetricales-Extrahospitalieres'],
   aod_urgence: ['gestion-perioperatoire-des-aod-en-urgence'],
   plyo_transfusion: ['indications-de-transfusion-de-plasmas-lyophilises-plyo'],
-  tenue_vestimentaire: ['tenue-vestimentaire-au-bloc-operatoire']
+  tenue_vestimentaire: ['tenue-vestimentaire-au-bloc-operatoire'],
+  alr_non_specialiste: ['pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1325,6 +1327,18 @@ var DOC_META = {
     methodology: "Format RPP, méthodologie GRADE partiellement applicable (méthode GRADE non intégralement applicable selon la source, avis d'expert pour la plupart des questions), formulation uniforme « les experts suggèrent de faire/de ne pas faire », accord fort pour 100% des recommandations",
     pages: 21,
     url: "https://sfar.org/download/tenue-vestimentaire-au-bloc-operatoire/?wpdmdl=35399"
+  },
+  alr_non_specialiste: {
+    key: 'alr_non_specialiste',
+    badge: 'Grades A-E',
+    title: "AL/ALR par médecins non spécialisés — urgences",
+    short: "Conférence d'experts, texte court, SFAR/Samu de France/SFMU, 2002 (Ann Fr Anesth Réanim 2004;23:167-176) : pratique de l'anesthésie locale (AL) et locorégionale (ALR) par des médecins de l'urgence non spécialisés en anesthésie-réanimation (SAU, urgences préhospitalières) — exclut l'anesthésie « chirurgicale » et les ALR périmédullaires/blocs du tronc. 34 énoncés individuellement gradés (grille EBM Niveaux I-V / Grades A-E, source non numérotée Rx.y — référencement synthétique §<sous-section> disclosed) : pharmacologie/toxicité des AL (dont Tableau 4 posologies et Tableau 3 toxicité neurologique), indications/techniques (AL topique, infiltration, blocs des membres — fémoral/iliofascial, pied, main — et de la face), sédation/analgésie associées, précautions/surveillance/monitorage (Tableau 5 complications), particularités en milieu difficile et chez l'enfant, formation requise.",
+    society: "SFAR / Samu de France / SFMU",
+    version: "2002",
+    validated: "Conférence d'experts (Ann Fr Anesth Réanim 2004;23:167-176)",
+    methodology: "Conférence d'experts, grille EBM Niveaux de preuve I-V / Grades A-E — formulation narrative, aucune numérotation Rx.y native dans la source",
+    pages: 10,
+    url: "https://sfar.org/wp-content/uploads/2016/01/2_AFAR_Pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation-dans-le-cadre-des-urgences.pdf"
   }
 };
 

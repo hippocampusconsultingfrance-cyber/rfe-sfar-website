@@ -194,6 +194,8 @@ with open(os.path.join(BASE, "content_plyo_transfusion.json"), encoding="utf-8")
     content_plyo_transfusion = f.read()
 with open(os.path.join(BASE, "content_tenue_vestimentaire.json"), encoding="utf-8") as f:
     content_tenue_vestimentaire = f.read()
+with open(os.path.join(BASE, "content_alr_non_specialiste.json"), encoding="utf-8") as f:
+    content_alr_non_specialiste = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -296,6 +298,7 @@ out = out.replace("__CONTENT_URGENCES_OB_EXTRAHOSP__", safe(content_urgences_ob_
 out = out.replace("__CONTENT_AOD_URGENCE__", safe(content_aod_urgence))
 out = out.replace("__CONTENT_PLYO_TRANSFUSION__", safe(content_plyo_transfusion))
 out = out.replace("__CONTENT_TENUE_VESTIMENTAIRE__", safe(content_tenue_vestimentaire))
+out = out.replace("__CONTENT_ALR_NON_SPECIALISTE__", safe(content_alr_non_specialiste))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

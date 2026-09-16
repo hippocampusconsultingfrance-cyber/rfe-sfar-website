@@ -100,7 +100,8 @@ var RAW = {
   tenue_vestimentaire: JSON.parse(document.getElementById('content-tenue_vestimentaire').textContent),
   alr_non_specialiste: JSON.parse(document.getElementById('content-alr_non_specialiste').textContent),
   echo_acces_vasculaires: JSON.parse(document.getElementById('content-echo_acces_vasculaires').textContent),
-  tests_viscoelastiques: JSON.parse(document.getElementById('content-tests_viscoelastiques').textContent)
+  tests_viscoelastiques: JSON.parse(document.getElementById('content-tests_viscoelastiques').textContent),
+  eeg_cortical: JSON.parse(document.getElementById('content-eeg_cortical').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -202,7 +203,8 @@ var FICHE_HREF_MATCH = {
   tenue_vestimentaire: ['tenue-vestimentaire-au-bloc-operatoire'],
   alr_non_specialiste: ['pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation'],
   echo_acces_vasculaires: ['recommandations-sur-lutilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires'],
-  tests_viscoelastiques: ['tests-viscoelastiques-2018']
+  tests_viscoelastiques: ['tests-viscoelastiques-2018'],
+  eeg_cortical: ['monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-leeg-cortical']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1367,6 +1369,18 @@ var DOC_META = {
     methodology: "Revue narrative de la littérature, sans grille de cotation (ni niveaux de preuve, ni grades) — positions du GIHP formulées en prose",
     pages: 10,
     url: "https://sfar.org/download/tests-viscoelastiques-2018/?wpdmdl=34421"
+  },
+  eeg_cortical: {
+    key: 'eeg_cortical',
+    badge: 'Sans cotation',
+    title: "Monitorage EEG cortical de l'anesthésie",
+    short: "RFE SFAR, texte court, septembre 2009 (publié 2010) : monitorage de l'adéquation/profondeur de l'anesthésie par analyse de l'EEG cortical (BIS®, Entropie®). Format Question/Réponse, sans grille de cotation. Module A (contexte, non conçu comme des recommandations selon la source) : principes des index, non-interchangeabilité des moniteurs, relation non linéaire index/concentration, effets des morphiniques et facteurs confondants, courbe dose-réponse des halogénés. Module B (bénéfice clinique) : diminution des doses d'hypnotiques (10-40%) sans bénéfice clinique majeur sur le réveil, dépistage partiel de la mémorisation explicite sans l'abolir, effet sur les NVPO conditionné à l'absence de prévention systématique, ~17 situations cliniques à bénéfice potentiel, et particularités pédiatriques (BIS possible >2 ans en TIVA, aucune étude ne permettant de le recommander <2 ans).",
+    society: "SFAR",
+    version: "2010 (texte de septembre 2009)",
+    validated: "Recommandations Formalisées d'Experts, SFAR",
+    methodology: "Format Question/Réponse, sans grille de cotation (ni niveaux de preuve, ni grades) — une seule mention « avis d'experts » dans tout le texte",
+    pages: 11,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-lEEG-cortical.pdf"
   }
 };
 

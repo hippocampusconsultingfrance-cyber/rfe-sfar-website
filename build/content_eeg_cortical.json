@@ -1,0 +1,504 @@
+{
+ "doc": "eeg_cortical",
+ "sections": [
+  {
+   "title": "Module A — connaissances nécessaires",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> RFE SFAR (format Question/Réponse, sans grille de cotation) sur l'utilisation clinique des moniteurs de profondeur d'anesthésie basés sur l'analyse de l'EEG cortical (BIS®, Entropie® — les deux moniteurs commercialisés en France en 2010). Structure en 2 modules : <b>Module A</b> — connaissances nécessaires (explicatif, non conçu comme des recommandations selon la source elle-même) ; <b>Module B</b> — bénéfice clinique et indications potentielles.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Module A — Connaissances nécessaires (contexte, non des recommandations)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Question",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Réponse",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1a. L'EEG de surface est-il utilisable pour monitorer tous les effets de l'anesthésie ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Non — il explore surtout la composante hypnotique et l'éventuelle réaction d'éveil cortical à une stimulation nociceptive. Sa performance diagnostique/prédictive seul n'est pas suffisante pour toute la pharmacologie des anesthésiques.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1b. Principaux algorithmes des moniteurs commercialisés en France",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Deux moniteurs : BIS® (Aspect Medical) et Entropie® (GE Healthcare) — algorithmes partiellement ou totalement publiés par les fabricants. En connaître les principes aide à l'interprétation clinique (reconnaissance des artefacts). Au-delà de l'index, les moniteurs fournissent le tracé EEG brut et d'autres paramètres (rapport de suppression, composante EMG) qui améliorent le raisonnement médical.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1b (complémentaire). Les moniteurs sont-ils interchangeables ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<b>Non</b> — les différences d'algorithme entre moniteurs (et parfois entre versions d'un même moniteur) sont suffisamment importantes pour rendre difficile l'extrapolation des résultats publiés d'un moniteur à un autre.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1c. Les index sont-ils corrélés linéairement aux concentrations d'hypnotiques et aux signes cliniques, pour tous les hypnotiques ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une corrélation existe (propofol, halogénés) mais <b>n'est pas linéaire</b> sur toute la plage de concentrations utilisées en anesthésie — variations faibles des index possibles pour des changements importants de concentration. Le burst suppression (EEG isoélectrique) signe une anesthésie très profonde, pris en compte différemment selon les algorithmes. La kétamine et le N2O ne modifient pas (ou très peu) les index malgré des signes cliniques de perte de conscience.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1d. Les morphiniques modifient-ils la relation concentration-hypnotique/index ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Peu, en l'absence de stimulation nociceptive, même à concentration élevée. Lors d'une stimulation nociceptive, un morphinique atténue la réaction d'éveil cortical (accélération EEG + augmentation de l'index) ; la présence de cette réaction lors d'une stimulation peut traduire une analgésie insuffisante pour le niveau hypnotique donné.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1e. Limites de l'EEG pour estimer les effets des agents anesthésiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tout facteur physiopathologique modifiant l'EEG modifie les index : ischémie cérébrale, hypothermie, hypoglycémie (ralentissent) ; activité épileptoïde (accélère). Les artefacts élèvent artificiellement les index. Certains médicaments (bêta-bloquants, éphédrine, neuroleptiques) modifient la relation index/concentration. Les curares, en atténuant le signal EMG frontal, diminuent en général les valeurs des index.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Figure source (« Courbes doses réponse des halogénés ») — page rendue à 220dpi et transcrite par relevé pixel des 3 courbes (règle 1, calibré sur les graduations des axes) :</i> relation entre index bispectral (BIS) et concentration au site effet d'halogéné, en CAM (0 à 3), pour desflurane, isoflurane et sévoflurane. Les trois courbes partent de ~100 à CAM=0. Le désflurane et le sévoflurane chutent tôt (dès ~0,3-0,4 CAM) vers ~50 dès 0,5 CAM ; l'isoflurane reste plus élevé un peu plus longtemps puis chute brutalement, croisant les deux autres courbes vers 0,55-0,6 CAM. Entre ~1 et 2,2 CAM, l'isoflurane <b>plateau</b> autour de BIS 37-41 tandis que c'est le <b>sévoflurane</b> qui décroît le plus et devient la courbe la plus basse dans cette plage (et non l'isoflurane). Au-delà de 2,3 CAM, une fois la courbe du sévoflurane terminée, l'isoflurane rechute fortement et devient la plus basse des trois, jusqu'à un BIS ~11 à l'extrémité de sa courbe (~2,8 CAM) — la plage de concentration testée la plus étendue des trois agents. Le désflurane reste le plus élevé en fin de courbe (BIS ~28 vers 2,5 CAM) ; le sévoflurane termine sa courbe à un niveau proche (BIS ~26-27 vers 2,3 CAM), pas nettement intermédiaire entre désflurane et isoflurane comme une première lecture visuelle (non calibrée par pixel) l'avait suggéré.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Concentration (CAM)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "0,5",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "1,0",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "1,5",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "2,0",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Fin de courbe",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Désflurane",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~53",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~48",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~42",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~35",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~28 (CAM ≈2,5)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Isoflurane",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~63-67",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~41",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~41",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~37",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~11 (CAM ≈2,8)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sévoflurane",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~48",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~43",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~38",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~30",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~26-27 (CAM ≈2,3)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Valeurs lues visuellement sur le graphique source (celui-ci ne fournit pas de tableau numérique) — approximatives, à l'échelle du pixel près ; se référer au graphique source pour toute utilisation exigeant une précision fine.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Module B — bénéfice clinique, pédiatrie & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Module B — Bénéfice clinique et indications",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Question",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Réponse",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2. L'EEG apporte-t-il une information complémentaire aux signes cliniques et autres moyens paracliniques ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les index estiment la variabilité inter-individuelle et intra-individuelle des besoins anesthésiques, complétant les concentrations prédites de propofol ou téléexpiratoires d'halogénés. Les moniteurs pourraient détecter un sous- ou surdosage anesthésique (<b>avis d'experts</b>), notamment quand les signes cliniques sont modifiés par les curares, les comorbidités ou une instabilité hémodynamique peropératoire.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3. Le monitorage change-t-il la conduite de l'anesthésie ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Diminution de 10 à 40 % des doses cumulées d'hypnotiques — mais pas dans toutes les études ni toutes les situations cliniques. Associée à une diminution statistiquement significative mais <b>cliniquement négligeable</b> des délais de réveil et des durées de séjour en SSPI.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4. Le monitorage diminue-t-il la morbidité de l'anesthésie ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le BIS® peut dépister certains épisodes de mémorisation explicite (surtout populations à risque) mais <b>n'abolit pas</b> la mémorisation explicite. L'entropie est, comme le BIS®, corrélée à la perte de conscience mais présente le même chevauchement de valeurs entre états conscient et non-conscient. Le monitorage par BIS® peut diminuer l'incidence des NVPO sous halogénés <b>en l'absence</b> de prévention systématique des NVPO — sans effet supplémentaire si une prévention systématique est déjà en place <i>(la phrase source correspondante omet elle-même un « pas » et est grammaticalement incomplète telle qu'imprimée — coquille du document source, disclosed, non silencieusement corrigée : la lecture retenue ici est la seule cohérente avec le reste du paragraphe)</i>. Influence sur la stabilité hémodynamique peropératoire faible et inconstante, sans corrélation démontrée avec des complications postopératoires. Le BIS® <b>ne détecte pas spécifiquement</b> les tracés épileptiformes observables à l'induction au sévoflurane. Aucune donnée ne permet à ce jour d'affirmer un bénéfice sur le devenir à long terme ou les complications tardives après anesthésie générale.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>5. Quelles catégories de patients/situations cliniques peuvent représenter des indications (critères intermédiaires) au monitorage de profondeur d'anesthésie ?</b> — utile pour affiner le raisonnement médical, en particulier lorsque la relation dose-concentration-effets des anesthésiques est inhabituelle, facilitant la détection du sous- ou surdosage. Liste <b>non exhaustive</b> (source) :",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<i>Terrain / traitements modifiant la relation dose-effet :</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "• Traitement chronique prolongé par antiépileptiques, morphiniques, benzodiazépines, ou toxicomanie à la cocaïne",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Consommation quotidienne d'alcool",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Utilisation préopératoire de bêta-bloquants",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• FEVG &lt;30 % ou index cardiaque &lt;2 L/min/m²",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Antécédent de mémorisation explicite",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Antécédent d'intubation difficile ou intubation difficile prévue",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• ASA 4/5",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Rétrécissement aortique sévère",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Maladies respiratoires graves",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Faible tolérance à l'effort",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Hypertension artérielle pulmonaire (HTAP)",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<i>Type de chirurgie / situation peropératoire :</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "• Chirurgie cardiaque (avec ou sans CEC)",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Césarienne",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Patients polytraumatisés avec hypovolémie",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Insuffisance hépatique sévère",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Traitement par inhibiteurs des protéases",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Hypotension artérielle peropératoire nécessitant un traitement",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "6. Particularités en pédiatrie",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Les deux moniteurs commercialisés en France reposent sur des algorithmes validés chez l'adulte. Chez l'enfant de plus de 2 ans, leur utilisation présente actuellement les mêmes qualités et réserves que chez l'adulte — la concentration d'hypnotique nécessaire pour un effet EEG cortical donné (ou une valeur de BIS® donnée) semble toutefois plus importante que chez l'adulte.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Question",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Réponse",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Enfant &gt;2 ans (AIVOC/TIVA)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Compte tenu de la grande variabilité interindividuelle pharmacodynamique et pharmacocinétique chez l'enfant, l'utilisation du BIS® (moniteur le plus étudié) <b>peut être recommandée</b> dans le contexte d'une anesthésie intraveineuse à objectif de concentration (AIVOC)/totale intraveineuse (TIVA).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Enfant &lt;2 ans (et surtout &lt;6 mois)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<b>Aucune étude</b> ne permet actuellement de recommander l'utilisation du monitorage EEG cortical dans cette tranche d'âge — pourtant probablement la population la plus vulnérable face aux effets délétères potentiels des anesthésiques généraux et aux processus de mémorisation implicite.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Monitorage de l'adéquation/profondeur de l'anesthésie à partir de l'analyse de l'EEG cortical » — Recommandations Formalisées d'Experts, texte court, Société française d'anesthésie et de réanimation (SFAR), septembre 2009 (publié 2010).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> format Question/Réponse, sans grille de cotation (ni niveaux de preuve, ni grades) — voir détail en page 1.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-lEEG-cortical.pdf",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 6 questions du Module A (connaissances, non recommandations selon la source) et des 5 questions du Module B (bénéfice clinique/indications), y compris la liste complète des situations cliniques de la question 5. Les valeurs de la figure dose-réponse des halogénés (question 1c) sont lues approximativement sur le graphique source, disclosed comme telles — la source ne fournit pas de tableau numérique pour cette figure.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document validé 2009/2010 :</b> cette fiche de synthèse indépendante reprend l'intégralité du contenu du texte source, mais ne le remplace pas et n'est ni éditée ni validée par la SFAR. Se référer au texte intégral pour toute décision clinique.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

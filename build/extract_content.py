@@ -1867,6 +1867,29 @@ def extract_eeg_cortical():
     return {"doc": "eeg_cortical", "sections": blocks}
 
 
+def extract_examens_pertinence_rea():
+    import style
+    import fiche_examens_pertinence_rea as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "examens_pertinence_rea", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2710,3 +2733,12 @@ if __name__ == "__main__":
         json.dump(eeg_cortical, f, ensure_ascii=False, indent=1)
     print("eeg_cortical sections:", len(eeg_cortical["sections"]),
           "total blocks:", sum(len(s["items"]) for s in eeg_cortical["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    examens_pertinence_rea = extract_examens_pertinence_rea()
+    with open(os.path.join(BUILD_DIR, "content_examens_pertinence_rea.json"), "w") as f:
+        json.dump(examens_pertinence_rea, f, ensure_ascii=False, indent=1)
+    print("examens_pertinence_rea sections:", len(examens_pertinence_rea["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in examens_pertinence_rea["sections"]))

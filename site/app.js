@@ -101,7 +101,8 @@ var RAW = {
   alr_non_specialiste: JSON.parse(document.getElementById('content-alr_non_specialiste').textContent),
   echo_acces_vasculaires: JSON.parse(document.getElementById('content-echo_acces_vasculaires').textContent),
   tests_viscoelastiques: JSON.parse(document.getElementById('content-tests_viscoelastiques').textContent),
-  eeg_cortical: JSON.parse(document.getElementById('content-eeg_cortical').textContent)
+  eeg_cortical: JSON.parse(document.getElementById('content-eeg_cortical').textContent),
+  examens_pertinence_rea: JSON.parse(document.getElementById('content-examens_pertinence_rea').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -204,7 +205,8 @@ var FICHE_HREF_MATCH = {
   alr_non_specialiste: ['pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation'],
   echo_acces_vasculaires: ['recommandations-sur-lutilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires'],
   tests_viscoelastiques: ['tests-viscoelastiques-2018'],
-  eeg_cortical: ['monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-leeg-cortical']
+  eeg_cortical: ['monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-leeg-cortical'],
+  examens_pertinence_rea: ['pertinence-de-la-prescription-des-examens-biologiques-et-de-la-radiographie-thoracique-en-reanimation']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1381,6 +1383,18 @@ var DOC_META = {
     methodology: "Format Question/Réponse, sans grille de cotation (ni niveaux de preuve, ni grades) — une seule mention « avis d'experts » dans tout le texte",
     pages: 11,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-lEEG-cortical.pdf"
+  },
+  examens_pertinence_rea: {
+    key: 'examens_pertinence_rea',
+    badge: 'GRADE',
+    title: "Pertinence des examens en réanimation",
+    short: "RFE commune SFAR-SRLF (méthode GRADE), validée 12/2016 (publiée 2017) : pertinence de la prescription des examens biologiques et de la radiographie thoracique (RT) au lit en réanimation. 42 recommandations (R1.1-R8.4) réparties en 8 champs : bilan d'entrée, bilan quotidien, biomarqueurs du sepsis (PCT/CRP), troponine postopératoire, peptides natriurétiques, bilan d'hémostase, examens bactériologiques (hémocultures, prélèvements pulmonaires, ECBU, coproculture), radiographie thoracique au lit — plus 3 questions sans recommandation possible et une anomalie de numérotation source disclosed (« R 7.2.5 »). Divergence de comptage source disclosed (49 recommandations annoncées vs 42 comptées directement dans le texte).",
+    society: "SFAR / SRLF",
+    version: "2016/2017",
+    validated: "CA de la SFAR (15/12/2016) et de la SRLF (13/12/2016)",
+    methodology: "Méthode GRADE®, méthode PICO — qualité des preuves en 4 catégories, formulation binaire forte/faible (Grade 1+/1-/2+/2-), certains items en avis d'expert",
+    pages: 26,
+    url: "https://sfar.org/wp-content/uploads/2017/01/2_RFE-EC-en-rea-version-15-12-16.pdf"
   }
 };
 

@@ -202,6 +202,8 @@ with open(os.path.join(BASE, "content_tests_viscoelastiques.json"), encoding="ut
     content_tests_viscoelastiques = f.read()
 with open(os.path.join(BASE, "content_eeg_cortical.json"), encoding="utf-8") as f:
     content_eeg_cortical = f.read()
+with open(os.path.join(BASE, "content_examens_pertinence_rea.json"), encoding="utf-8") as f:
+    content_examens_pertinence_rea = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -308,6 +310,7 @@ out = out.replace("__CONTENT_ALR_NON_SPECIALISTE__", safe(content_alr_non_specia
 out = out.replace("__CONTENT_ECHO_ACCES_VASCULAIRES__", safe(content_echo_acces_vasculaires))
 out = out.replace("__CONTENT_TESTS_VISCOELASTIQUES__", safe(content_tests_viscoelastiques))
 out = out.replace("__CONTENT_EEG_CORTICAL__", safe(content_eeg_cortical))
+out = out.replace("__CONTENT_EXAMENS_PERTINENCE_REA__", safe(content_examens_pertinence_rea))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

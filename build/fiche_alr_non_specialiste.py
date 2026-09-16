@@ -57,6 +57,25 @@ ARGUMENTAIRE : ce texte court de 2002 est deja tres condense nativement
 plus recentes) - la prose narrative EST le contenu actionnable. Seules les
 references bibliographiques numerotees [1]-[11] (liste finale) sont
 omises, sans perte d'information clinique.
+
+AUDIT INDEPENDANT (subagent, aveugle au brouillon) : grades/doses/contre-
+indications tous confirmes exacts (aucune erreur de grade, aucune inversion
+de contre-indication, aucun dosage errone). Points MEDIUM corriges suite a
+l'audit - contenu reellement present dans la source mais initialement trop
+condense (regle 2, couverture 100% ou scope explicitement disclosed) :
+Tableau 3 "Prodromes" (etourdissement/sensation ebrieuse/empatement de la
+parole/"voire absence" reintegres), Tableau 5 ligne "Toxicite systemique"
+(sensation de malaise/logorrhee/bradycardie/PNI-hypotension reintegres),
+reperes anatomiques des blocs median/radial/ulnaire (theme_table dediee) et
+technique complete du bloc de la gaine des flechisseurs (angle 45°, signe
+de verticalisation, injection sans resistance), positionnement + 3 blocs
+du pied additionnels moins utilises (tibial, calcaneen interne, tibial
+anterieur). Points LOW egalement corriges : scission du Tableau 4 Emla en
+2 lignes (tube 30g / tube 5g, au lieu d'un seul, comme la source), rapport
+de toxicite neurologique bupivacaine:ropivacaine:lidocaine 4:3:1, clause
+"inadequation equipes/patients" en milieu difficile, "medicaments
+antagonisables"/"autres hypnotiques inadaptes" en sedation associee,
+paragraphe deontologique de cloture de la Question 5.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -268,17 +287,24 @@ def _section_intro_pharmaco():
              "mal épileptique ; crises partielles complexes possibles ; attaques de "
              "panique/sensation de mort imminente (décharges hippocampiques)."],
             ["Prodromes", "Signes subjectifs : paresthésies, fourmillements des "
-             "extrémités, céphalées en casque ou frontales, goût métallique, malaise "
-             "avec angoisse, vertiges, logorrhée, hallucinations, bourdonnements "
+             "extrémités, céphalées en casque ou frontales, goût métallique dans la "
+             "bouche, malaise général avec angoisse, étourdissement, sensation ébrieuse, "
+             "vertiges, logorrhée, hallucinations visuelles ou auditives, bourdonnements "
              "d'oreille. Signes objectifs : pâleur, tachycardie, irrégularité "
-             "respiratoire, nausées/vomissements, confusion, nystagmus, fasciculations "
-             "des lèvres/langue. <i>Attention : peuvent être masqués par une "
-             "prémédication sédative.</i>"],
+             "respiratoire, nausées/vomissements, confusion voire absence, empâtement de "
+             "la parole, nystagmus, fasciculations des lèvres/langue. <i>Attention : "
+             "peuvent être masqués par une prémédication sédative.</i>"],
             ["Conduite à tenir", "Arrêt de l'injection, décubitus dorsal, matériel de "
              "ventilation préparé (ballon autoremplisseur à valve unidirectionnelle sur "
              "source d'oxygène)."],
         ], [32 * mm, CW_FULL - 32 * mm], head_bg=GREY))
     story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "Tous les anesthésiques locaux sont capables d'induire des accidents convulsifs. "
+        "Le rapport des toxicités neurologiques de la bupivacaïne, de la ropivacaïne et "
+        "de la lidocaïne est d'environ 4 ; 3 ; 1, correspondant au rapport de puissance "
+        "approximatif de ces agents.", S_NOTE))
+    story.append(Spacer(1, 1 * mm))
     story.append(P(
         "<b>Toxicité cardiaque :</b> aux concentrations toxiques (&gt;2-3 µg/ml), la "
         "bupivacaïne ralentit la conduction intraventriculaire (élargissement du QRS), "
@@ -348,9 +374,10 @@ def _section_intro_pharmaco_2():
              "2-3 ml (adulte), absorption variable"],
             ["Xylocaïne® gel urétral 2 %", "—", "Anesthésie urétrale",
              "1 tube (adulte), absorption variable"],
-            ["Crème Emla®", "Tube 30 g ou 5 g", "Ne pas laisser &gt;20 min au contact "
-             "des muqueuses ou d'une plaie", "30 g (adulte) ; 10 g (adulte, muqueuses) ; "
-             "0,15 g/kg (enfant)"],
+            ["Crème Emla® (tube 30 g)", "—", "Ne pas laisser &gt;20 min au contact des "
+             "muqueuses ou d'une plaie", "30 g (adulte)"],
+            ["Crème Emla® (tube 5 g)", "—", "Ne pas laisser &gt;20 min au contact des "
+             "muqueuses ou d'une plaie", "10 g (adulte, muqueuses) ; 0,15 g/kg (enfant)"],
             ["Mépivacaïne", "1 et 2 %", "Infiltration / bloc périphérique",
              "200 mg (infiltration) / 400 mg (bloc périphérique), adulte"],
             ["Ropivacaïne", "0,2 ; 0,75 et 1 %", "Infiltration, bloc périphérique",
@@ -542,28 +569,60 @@ def _section_blocs_membres():
     story.append(KeepTogether([
         P("<b>Blocs du pied</b>", S_H2),
         Spacer(1, 1 * mm),
+        P("Patient en décubitus dorsal, jambe et cuisse fléchies, pied reposant à plat "
+          "sur la table. Nerfs fibulaire superficiel (musculocutané) et sural, par "
+          "injection sous-cutanée au niveau de la cheville, à quatre travers de doigt "
+          "au-dessus de la pointe de la malléole latérale. Autres blocs, moins "
+          "utilisés : nerf tibial (tibial postérieur), rameau calcanéen médial du nerf "
+          "tibial postérieur (nerf calcanéen interne), fibulaire profond (nerf tibial "
+          "antérieur).", S_BODY_SM),
+        Spacer(1, 1 * mm),
         reco_table([
-            ("§3.2.2.2", "Les blocs du pied (nerfs fibulaire superficiel/sural par "
-             "injection sous-cutanée à la cheville, 4 travers de doigt au-dessus de la "
-             "malléole latérale) sont proposés pour la prise en charge de plaies du "
-             "pied.", "D"),
+            ("§3.2.2.2", "Les blocs du pied sont proposés pour la prise en charge de "
+             "plaies du pied.", "D"),
         ], RCW),
     ]))
     story.append(Spacer(1, 2 * mm))
     story.append(P("<b>Blocs du membre supérieur</b> — seuls les blocs tronculaires "
                     "périphériques sont retenus (lidocaïne 1 % non adrénalinée, "
-                    "3-4 ml/bloc) : nerf médian (canal carpien), nerf radial (tabatière "
-                    "anatomique), nerf ulnaire (bord médial du fléchisseur ulnaire du "
-                    "carpe).", S_BODY_SM))
+                    "3-4 ml/bloc).", S_BODY_SM))
+    story.append(Spacer(1, 1 * mm))
+    story.append(theme_table([
+        ("Nerf médian", "Face antérieure du poignet, dans le canal carpien, entre les "
+         "tendons des muscles fléchisseur radial du carpe (grand palmaire) et long "
+         "palmaire (petit palmaire) — injection après franchissement du rétinaculum "
+         "des fléchisseurs (ligament annulaire)."),
+        ("Nerf radial", "Avant-bras en position neutre, colonne du pouce en abduction "
+         "et extension ; ligne transversale de 3 cm tracée à l'angle supérieur de la "
+         "tabatière anatomique, 3 ml d'anesthésique local infiltrés en sous-cutané sur "
+         "cette ligne."),
+        ("Nerf ulnaire", "Pli de flexion tracé sur un poignet en extension ; point "
+         "marqué 2-3 cm au-dessus, au bord médial interne du muscle fléchisseur "
+         "ulnaire du carpe (cubital antérieur)."),
+    ], [32 * mm, CW_FULL - 32 * mm]))
     story.append(Spacer(1, 1.5 * mm))
     story.append(reco_table([
         ("§3.2.2.3", "Ces blocs tronculaires périphériques permettent l'exploration et "
          "la suture de plaies n'intéressant qu'un ou deux territoires de la main.", "D"),
-        ("§3.2.2.3", "Le bloc de la gaine des fléchisseurs (particulièrement intéressant "
-         "pour les gestes courts sur les 2e-4e doigts) doit être adopté en lieu et place "
-         "de l'ancienne technique d'anesthésie des nerfs collatéraux des doigts — "
-         "relativement douloureuse et incriminée dans la survenue d'ischémie par "
-         "compression d'artérioles terminales.", "B"),
+    ], RCW))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "<b>Bloc de la gaine des fléchisseurs</b> — particulièrement intéressant pour "
+        "les gestes courts sur les 2e-4e doigts (sutures de plaies, excision partielle "
+        "ou reposition d'ongles, extraction de corps étranger, réduction de luxation "
+        "interphalangienne, incision d'abcès). Aiguille introduite avec un angle de 45° "
+        "au niveau du pli cutané de flexion métacarpophalangien ; le tendon fléchisseur "
+        "est repéré par des mouvements de flexion au niveau de la tête du métacarpien "
+        "correspondant ; la bonne position de l'aiguille dans la gaine tendineuse est "
+        "attestée par sa verticalisation lors des mouvements de flexion — une injection "
+        "sans résistance prouve que la solution est dans la gaine du tendon (lidocaïne "
+        "non adrénalinée).", S_BODY_SM))
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(reco_table([
+        ("§3.2.2.3", "Cette technique doit être adoptée en lieu et place de l'ancienne "
+         "technique d'anesthésie des nerfs collatéraux des doigts — relativement "
+         "douloureuse et incriminée dans la survenue d'ischémie par compression "
+         "d'artérioles terminales.", "B"),
     ], RCW))
     return story
 
@@ -609,8 +668,11 @@ def _section_blocs_face_sedation():
         ("§3.3", "L'échec partiel ou total d'un bloc ne constitue en aucun cas "
          "l'indication d'une sédation.", "E"),
         ("§3.3", "Un score de Ramsay égal à 2 (patient coopérant, orienté et tranquille) "
-         "est l'objectif souhaité — le midazolam (anxiolyse et amnésie), en titration "
-         "par bolus de 0,5 à 1 mg, est la benzodiazépine la mieux adaptée à l'urgence.",
+         "est l'objectif souhaité — l'utilisation de médicaments facilement "
+         "antagonisables est un gage de sécurité. Le midazolam (anxiolyse et amnésie), "
+         "en titration par bolus de 0,5 à 1 mg, est la benzodiazépine la mieux adaptée "
+         "à l'urgence (variabilité interindividuelle importante) ; les autres "
+         "hypnotiques sont inadaptés à la sédation de complément d'une ALR en urgence.",
          "E"),
         ("§3.3", "Le risque de dépression respiratoire est majoré par l'association à "
          "un morphinique.", "B"),
@@ -670,8 +732,9 @@ def _section_precautions_surveillance():
              "doses ; test d'aspiration avant et pendant l'injection ; injection "
              "fractionnée, lente ; maintien du contact verbal",
              "Bourdonnement d'oreille, hyperacousie, dysesthésies péribuccales, goût "
-             "métallique, convulsions (ECG : QRS élargi, tachycardie ventriculaire) → "
-             "coma, arrêt cardiaque",
+             "métallique, sensation de malaise, logorrhée ; convulsions (ECG : QRS "
+             "élargi, tachycardie ventriculaire) ; troubles cardiaques : tachycardie, "
+             "bradycardie (PNI : hypotension) → coma, arrêt cardiaque",
              "Arrêt de l'injection ; oxygène 100 % (éviter l'hypercapnie) ; "
              "anticomitial IV ; traitement symptomatique du coma et de l'arrêt "
              "cardiaque ; <b>aucun antiarythmique</b> en cas de troubles du rythme"],
@@ -742,7 +805,8 @@ def _section_milieu_difficile_enfant():
         "sont particulièrement importantes. Problèmes spécifiques : conditions "
         "précaires d'évaluation et de réalisation (sécurité, hygiène, climat), durées de "
         "prise en charge, conséquences du relevage/transport, hypothermie, afflux "
-        "massif de victimes, impossibilité de monitorage. La nécessité d'une analgésie "
+        "massif de victimes ou inadéquation entre le nombre d'équipes médicales et le "
+        "nombre de patients, impossibilité de monitorage. La nécessité d'une analgésie "
         "efficace et précoce ne doit pas être remise en question du seul fait que le "
         "milieu est difficile.", S_BODY_SM))
     story.append(Spacer(1, 1.5 * mm))
@@ -818,6 +882,13 @@ def _section_formation_sources():
         "L'évaluation régulière des pratiques.",
     ]):
         story.append(b)
+    story.append(Spacer(1, 1.5 * mm))
+    story.append(P(
+        "Conformément aux règles déontologiques, les praticiens doivent connaître les "
+        "indications et les contre-indications des anesthésiques locaux et des "
+        "techniques, acquérir l'expérience de leur utilisation et disposer des moyens, "
+        "en particulier de surveillance, pour les mettre en œuvre. Ces connaissances "
+        "doivent être régulièrement actualisées.", S_NOTE))
     story.append(Spacer(1, 3 * mm))
     story.append(section_bar("Sources et traçabilité", color=GREY))
     story.append(Spacer(1, 2 * mm))
@@ -864,9 +935,11 @@ def _section123_all():
 def _section45_all():
     return _section4_all() + _section5_all()
 
+def _section_full():
+    return _section123_all() + _section45_all()
+
 SECTIONS = [
-    (SECTION1_TITLE, _section123_all),
-    (SECTION4_TITLE, _section45_all),
+    ("Pharmacologie, toxicité, blocs, précautions & sources", _section_full),
 ]
 
 def _make_doc(path=None):

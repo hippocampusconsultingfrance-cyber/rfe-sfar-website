@@ -46,6 +46,31 @@ seuls les seuils/chiffres directement actionnables (valeurs seuils de
 FIBTEM/EXTEM, reductions de transfusion des meta-analyses cles) sont
 conserves ; le detail etude-par-etude et les 128 references
 bibliographiques ne sont pas repris.
+
+AUDIT INDEPENDANT (subagent, aveugle au brouillon, verifiant a la fois
+l'exactitude clinique ET la traduction anglais->francais) : aucune erreur
+de sens trouvee - les 2 positions "ne pas guider l'acide tranexamique sur
+les TVE" (trauma ET HPP) verifiees correctes et non inversees, la
+non-attribution de la position pediatrique au GIHP (grade 2C = ESA,
+disclosed) confirmee, la directionnalite hyperfibrinolyse pre/post-
+anhepatique (mortalite vs thrombose) confirmee non inversee, aucune
+valeur numerique erronee parmi celles retenues. Points MEDIUM corriges
+suite a l'audit (omissions d'argumentaire jugees trop importantes,
+au-dela de la simple couleur rhetorique de la regle 7) : seuils ACT r-TEG
+du trauma completes avec leurs OR/IC95% + ajout de la cohorte Holcomb
+(1974 patients, angle r-TEG superieur aux tests de routine, p<0.001) ;
+IC95% ajoutes aux 3 meta-analyses de chirurgie cardiaque (Deppe/Cochrane/
+Karkouti) ; qualificatif "mais pas plasma/concentres de facteurs" de
+Karkouti restaure (son omission risquait de surestimer le benefice) ;
+mention de la meta-analyse Bolliger & Tanaka 2013 ajoutee (sur-
+prescription de fibrinogene/CCP sans guidage TVE). Note de "Couverture"
+en page 4 mise a jour pour disclosed explicitement (regle 5) que
+l'argumentaire complet (etudes isolees secondaires, IC95% restants,
+128 references) reste condense et non integralement repris, au-dela
+des positions GIHP elles-memes (100% couvertes) - les autres items MEDIUM
+de l'audit (restaurer l'integralite des sous-etudes d'hyperfibrinolyse du
+trauma, etc.) relevent de l'argumentaire au sens strict de la regle 7 et
+sont volontairement laisses condenses.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -183,10 +208,13 @@ def _section_trauma():
         ("Seuils prédictifs — transfusion", "FIBTEM MCF &lt;7 mm prédictif de transfusion de "
          "CGR. EXTEM A5 &gt;35 mm : valeur prédictive négative de 83 % pour la transfusion "
          "de CGR (300 patients) et prédit la transfusion massive (AUC 0,80). r-TEG "
-         "ACT &lt;105 s : facteur de risque indépendant d'absence de transfusion à 6h ; "
-         "ACT &gt;128 s : facteur de risque indépendant de transfusion massive à 6h. "
-         "FIBTEM A5 ≤9 mm et EXTEM A5 ≤40 mm : valeur prédictive de transfusion massive "
-         "(sensibilité 77,5 % et 72,2 %, 808 patients)."),
+         "ACT &lt;105 s : facteur de risque indépendant d'absence de transfusion à 6h "
+         "(OR 1,85 ; IC95 % 1,07-3,18) ; ACT &gt;128 s : facteur de risque indépendant de "
+         "transfusion massive à 6h (OR 5,15 ; IC95 % 1,36-19,49). FIBTEM A5 ≤9 mm et "
+         "EXTEM A5 ≤40 mm : valeur prédictive de transfusion massive (sensibilité 77,5 % "
+         "et 72,2 %, 808 patients). Dans la plus grande cohorte publiée (1974 traumatisés), "
+         "l'angle r-TEG prédisait mieux la transfusion massive que les tests de routine "
+         "(p&lt;0,001)."),
         ("Seuils prédictifs — hypofibrinogénémie", "FIBTEM A10 ≤5 mm : sensibilité 91 %, "
          "spécificité 85 % pour un fibrinogène &lt;1 g/L. EXTEM A5 &lt;36 mm : sensibilité "
          "53 %, spécificité 87 % pour un fibrinogène &lt;1,5 g/L. Seuils consensuels dans "
@@ -263,21 +291,26 @@ def _section_hpp_cardiaque():
     story.append(theme_table([
         ("Méta-analyse (Deppe et al., 8332 patients, 17 études)", "Réduction du recours "
          "transfusionnel dans le bras guidé par TVE (OR 0,63 ; IC95 % 0,56-0,71 ; "
-         "confirmée dans le sous-groupe randomisé OR 0,37), concernant surtout le "
-         "plasma frais congelé (OR 0,31). Réduction significative de l'insuffisance "
-         "rénale aiguë, des événements thromboemboliques et des reprises pour "
-         "saignement postopératoire."),
+         "confirmée dans le sous-groupe randomisé, OR 0,37 ; IC95 % 0,21-0,68), "
+         "concernant surtout le plasma frais congelé (OR 0,31 ; IC95 % 0,13-0,74). "
+         "Réduction significative de l'insuffisance rénale aiguë, des événements "
+         "thromboemboliques et des reprises pour saignement postopératoire. Résultats "
+         "concordants avec la méta-analyse de Bolliger &amp; Tanaka (2013, 12 études dont "
+         "7 randomisées), qui retrouve en l'absence de guidage par TVE une "
+         "sur-prescription de concentrés de fibrinogène (OR 1,56) et de CCP (OR 1,74)."),
         ("Méta-analyse Cochrane 2016 (1493 patients, 17 études)", "Réduction "
-         "significative des transfusions de CGR (RR 0,86), PFC (RR 0,57) et plaquettes "
-         "(RR 0,73), et réduction significative de la <b>mortalité</b> (RR 0,52 ; "
-         "surtout portée par les essais ROTEM®, RR 0,44) et de l'insuffisance rénale "
-         "aiguë avec dialyse (RR 0,46) — niveau de preuve faible (hétérogénéité, "
-         "faibles effectifs)."),
+         "significative des transfusions de CGR (RR 0,86 ; IC95 % 0,79-0,94), PFC "
+         "(RR 0,57 ; IC95 % 0,33-0,96) et plaquettes (RR 0,73 ; IC95 % 0,60-0,88), et "
+         "réduction significative de la <b>mortalité</b> (RR 0,52 ; IC95 % 0,28-0,95 ; "
+         "surtout portée par les essais ROTEM®, RR 0,44 ; IC95 % 0,21-0,93) et de "
+         "l'insuffisance rénale aiguë avec dialyse (RR 0,46 ; IC95 % 0,28-0,76) — niveau "
+         "de preuve faible (hétérogénéité, faibles effectifs)."),
         ("Étude randomisée Karkouti et al. (12 centres, 7402 patients)", "L'utilisation "
          "du ROTEM® (algorithme EXTEM CT/A10 + FIBTEM A10 + test plaquettaire) a réduit "
-         "la transfusion de CGR (RR 0,91) et de plaquettes (RR 0,77) et l'hémorragie "
-         "majeure, sans impact sur les complications, la durée d'hospitalisation ou la "
-         "mortalité."),
+         "la transfusion de CGR (RR 0,91 ; IC95 % 0,85-0,98) et de plaquettes (RR 0,77 ; "
+         "IC95 % 0,68-0,87) — <b>mais pas</b> celle de plasma ou de concentrés de "
+         "facteurs (fibrinogène, cryoprécipité, CCP) — et l'hémorragie majeure, sans "
+         "impact sur les complications, la durée d'hospitalisation ou la mortalité."),
     ], [42 * mm, CW_FULL - 42 * mm]))
     story.append(Spacer(1, 1.5 * mm))
     story.append(position_panel(
@@ -412,9 +445,12 @@ def _section_conclusion_sources():
         "(« The GIHP proposes… ») dans les 4 situations cliniques où la source en énonce "
         "une (traumatisme sévère, HPP, chirurgie cardiaque, transplantation hépatique), plus "
         "la section pédiatrie (absence de position propre disclosed) et le positionnement "
-        "bedside/laboratoire. Argumentaire condensé aux seuils et résultats de méta-analyses "
-        "directement actionnables — 128 références bibliographiques non reprises.",
-        S_SOURCE))
+        "bedside/laboratoire. <b>Portée partielle disclosed (règle 5) :</b> au-delà des "
+        "positions GIHP elles-mêmes (100 % couvertes) et des seuils/méta-analyses "
+        "directement actionnables retenus, l'argumentaire complet — dizaines d'études "
+        "isolées citées à l'appui, intervalles de confiance secondaires, 128 références "
+        "bibliographiques — est condensé, pas intégralement repris ; se référer au texte "
+        "source pour le détail étude-par-étude.", S_SOURCE))
     story.append(Spacer(1, 3 * mm))
     story.append(info_panel(P(
         "<b>Avertissement — article publié 2018/2019 :</b> cette fiche de synthèse "
@@ -426,10 +462,9 @@ def _section_conclusion_sources():
     return story
 
 SECTIONS = [
-    ("Principes, traumatisme, HPP & chirurgie cardiaque",
-     lambda: _section_intro_principes() + _section_trauma() + _section_hpp_cardiaque()),
-    ("Transplantation hépatique, pédiatrie, positionnement & sources",
-     lambda: _section_lt_pediatrie_bedside() + _section_conclusion_sources()),
+    ("Principes, traumatisme, HPP, chirurgie cardiaque, TH, pédiatrie & sources",
+     lambda: _section_intro_principes() + _section_trauma() + _section_hpp_cardiaque()
+     + _section_lt_pediatrie_bedside() + _section_conclusion_sources()),
 ]
 
 def _make_doc(path=None):

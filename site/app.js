@@ -99,7 +99,8 @@ var RAW = {
   plyo_transfusion: JSON.parse(document.getElementById('content-plyo_transfusion').textContent),
   tenue_vestimentaire: JSON.parse(document.getElementById('content-tenue_vestimentaire').textContent),
   alr_non_specialiste: JSON.parse(document.getElementById('content-alr_non_specialiste').textContent),
-  echo_acces_vasculaires: JSON.parse(document.getElementById('content-echo_acces_vasculaires').textContent)
+  echo_acces_vasculaires: JSON.parse(document.getElementById('content-echo_acces_vasculaires').textContent),
+  tests_viscoelastiques: JSON.parse(document.getElementById('content-tests_viscoelastiques').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -200,7 +201,8 @@ var FICHE_HREF_MATCH = {
   plyo_transfusion: ['indications-de-transfusion-de-plasmas-lyophilises-plyo'],
   tenue_vestimentaire: ['tenue-vestimentaire-au-bloc-operatoire'],
   alr_non_specialiste: ['pratique-des-anesthesies-locales-et-locoregionales-par-des-medecins-non-specialises-en-anesthesie-reanimation'],
-  echo_acces_vasculaires: ['recommandations-sur-lutilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires']
+  echo_acces_vasculaires: ['recommandations-sur-lutilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires'],
+  tests_viscoelastiques: ['tests-viscoelastiques-2018']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1353,6 +1355,18 @@ var DOC_META = {
     methodology: "Méthode GRADE® — qualité des preuves en 4 catégories (haute/modérée/basse/très basse), formulation binaire forte/faible (Grade 1+/1-/2+/2-)",
     pages: 7,
     url: "https://sfar.org/wp-content/uploads/2015/09/2_AFAR_utilisation-de-lechographie-lors-de-la-mise-en-place-des-acces-vasculaires.pdf"
+  },
+  tests_viscoelastiques: {
+    key: 'tests_viscoelastiques',
+    badge: 'Sans cotation',
+    title: "Tests viscoélastiques (TEG®/ROTEM®)",
+    short: "Position du GIHP (Groupe d'Intérêt en Hémostase Périopératoire), 2019 (Anaesth Crit Care Pain Med 2019;38:539-548, en ligne 2018) : revue narrative de la littérature sur la place des tests viscoélastiques (thromboélastographie TEG®, thromboélastométrie ROTEM®) en médecine d'urgence et périopératoire. Aucune grille de cotation (ni niveaux de preuve, ni grades) — 9 positions du GIHP formulées en prose dans 4 situations cliniques : traumatisme sévère (3 positions), hémorragie du post-partum, chirurgie cardiaque, transplantation hépatique. Rôle établi en traumatologie sévère et chirurgie cardiaque (réduction de transfusion et de mortalité dans les méta-analyses) ; rôle encore à définir en obstétrique, transplantation hépatique et pédiatrie (absence de position propre du GIHP en pédiatrie, disclosed — seule une recommandation externe ESA 2013 grade 2C est citée). Inclut les principes techniques TEG/ROTEM et le positionnement bedside/laboratoire.",
+    society: "GIHP (Groupe d'Intérêt en Hémostase Périopératoire) — Sfar",
+    version: "2019 (en ligne 2018)",
+    validated: "Publié Anaesth Crit Care Pain Med 2019;38:539-548",
+    methodology: "Revue narrative de la littérature, sans grille de cotation (ni niveaux de preuve, ni grades) — positions du GIHP formulées en prose",
+    pages: 10,
+    url: "https://sfar.org/download/tests-viscoelastiques-2018/?wpdmdl=34421"
   }
 };
 

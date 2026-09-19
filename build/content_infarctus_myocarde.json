@@ -1,0 +1,861 @@
+{
+ "doc": "infarctus_myocarde",
+ "sections": [
+  {
+   "title": "Question 1-2 — Désobstruction, reperfusion & traitements adjuvants",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge de l'infarctus du myocarde (IDM) à la phase aiguë, <b>en dehors des services de cardiologie</b> — tout professionnel de santé amené à prendre en charge un IDM aigu hors cardiologie, en particulier les urgentistes (SAMU/SMUR, médecins libéraux, sapeurs-pompiers, SOS Médecins, services d'urgences et de soins non cardiologiques). Conférence de consensus HAS, 23 novembre 2006, promue par SAMU de France, la Société francophone de médecine d'urgence et la Société française de cardiologie, avec le partenariat méthodologique de la HAS ; texte court publié en 2007. <b>5 questions</b> : critères décisionnels de désobstruction coronaire, stratégies de reperfusion et traitements adjuvants du SCA ST+, filières de prise en charge, situations particulières, complications initiales.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie — grades HAS A/B/C (études thérapeutiques), à la différence du GRADE 1+/2+ utilisé ailleurs dans ce corpus :</b> Grade A = preuve scientifique établie (essais randomisés de forte puissance/méta-analyses, niveau 1) ; Grade B = présomption scientifique (essais randomisés de faible puissance/études comparatives non randomisées, niveau 2) ; Grade C = faible niveau de preuve (études de cohorte/cas-témoins/rétrospectives, niveaux 3-4). <b>En l'absence de précision, la recommandation repose sur un consensus du jury</b> — c'est le cas de la grande majorité des énoncés de ce texte, y compris les 4 algorithmes décisionnels : reproduits ici avec « — » dans la colonne Grade plutôt qu'un grade inventé. 11 mentions explicites de grade figurent dans le corps du texte (3×A, 7×B, 1×C), chacune reproduite individuellement à l'endroit exact qu'elle qualifie — y compris les 2 tags « (grade B) » distincts du paragraphe « sujet âgé » et les 2 tags distincts du paragraphe « choc cardiogénique ».",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Question 1 — Critères décisionnels de désobstruction coronaire",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "La décision de prescription d'une désobstruction coronaire pour un IDM aigu repose sur une démarche de type bayésienne : l'évaluation clinique établit une probabilité initiale, réévaluée par la lecture de l'ECG, permettant de choisir entre débuter la désobstruction, poursuivre par le dosage de troponines, ou une autre stratégie.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Probabilité clinique de SCA",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "ECG contributif",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Troponines",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Forte",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Oui",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Désobstruction urgente",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Forte",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Non",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Positives",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Désobstruction urgente",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Forte",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Non",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Négatives",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas de stratégie invasive (suivi médical, évaluation secondaire)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Faible",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Oui",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Stratégie invasive différée (24-48 h)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Faible",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Non",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas de stratégie invasive (suivi médical, évaluation secondaire)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Algorithme 1 de la source, restructuré en tableau de décision (voir disclosure méthodologique en tête de fiche).</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Question 2 — Reperfusion et traitements adjuvants du SCA ST+",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "<b>Délais :</b> la pierre angulaire de la stratégie de reperfusion du SCA ST+ est la réduction du temps écoulé depuis le début des symptômes jusqu'à la reperméabilisation coronarienne. Le <b>premier contact médical</b> est le moment de l'arrivée auprès du patient du médecin permettant l'ECG et la confirmation du diagnostic. Pour la prise en charge hors cardiologie, le jury recommande de scinder le délai international premier contact médical-expansion du ballonnet (objectif global : 90 minutes) en 2 délais : le <b>délai porte à porte cardio</b> (premier contact médical → arrivée au service de cardiologie interventionnelle, seuil décisionnel recommandé : <b>45 minutes</b>) et le <b>délai porte cardio-ballon</b> (arrivée en cardiologie interventionnelle → expansion du ballonnet).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Stratégies de reperfusion :</b> angioplastie coronaire et fibrinolyse. L'angioplastie primaire est la technique la plus sûre et la plus efficace (réouverture de l'artère occluse dans ~90 % des cas contre ~60 % pour la fibrinolyse), mais nécessite un plateau technique. La fibrinolyse a l'avantage de sa simplicité et d'une réalisation possible en tous lieux ; son efficacité est optimale dans les 3 premières heures suivant le début des symptômes ; risque hémorragique intracérébral incontournable (0,5-1 %) malgré le respect strict des contre-indications. <b>Le jury recommande la ténectéplase</b> (produit fibrino-spécifique, bolus IV unique ~10 secondes, demi-vie courte, adaptable au poids, dose maximale 10 000 UI/50 mg) ; <b>la streptokinase n'est pas recommandée.</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Délai porte à porte cardio",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Début des symptômes",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Stratégie initiale",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "< 45 min ET somme des 2 délais < 90 min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "< 3 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Choix fibrinolyse (TL) ou angioplastie primaire (APL), selon procédures locales écrites et évaluées ; CI à la TL → APL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "< 45 min ET somme des 2 délais < 90 min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3-12 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Angioplastie primaire privilégiée ; CI à la TL → APL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "> 45 min, ou délai porte cardio-ballon non estimable",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "< 3 h ou 3-12 h (stratégie identique)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Fibrinolyse ; si échec fibrinolyse → angioplastie de sauvetage",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Algorithme 2 de la source, restructuré en tableau de décision. Cette stratégie justifie 3 recommandations du jury : il est impératif que l'ensemble des structures d'urgences (SMUR et accueil des urgences) dispose des moyens de pratiquer une fibrinolyse (recommandation unanime du jury) ; dans tous les cas, après fibrinolyse, le patient doit être dirigé vers un centre disposant d'une salle de coronarographie diagnostique et interventionnelle (SCDI) ; le jury recommande la mise en place de registres d'évaluation de cette stratégie, destinés à la faire évoluer.</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Traitements adjuvants",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Traitement",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Acide acétylsalicylique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bénéfice largement démontré dans le traitement des SCA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Clopidogrel",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Recommandé à la phase précoce d'un SCA ST+, en association avec l'aspirine ou seul si celle-ci est contre-indiquée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antagonistes GPIIb/IIIa",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "L'abciximab est utilisé en phase aiguë de SCA ST+ avant une angioplastie primaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anticoagulants",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "En cas de fibrinolyse, l'énoxaparine est supérieure à l'HNF chez les patients de moins de 75 ans à fonction rénale normale. En cas d'angioplastie, l'HNF est le traitement de référence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dérivés nitrés",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Non recommandés en dehors de l'OAP et éventuellement d'une poussée hypertensive.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Oxygénothérapie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Non systématique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antalgiques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Traitement de choix : morphine en titration IV.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bêtabloquants",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Administration non préconisée de façon systématique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IEC et antagonistes calciques",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Aucun argument ne permet de les recommander.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Insuline",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Recommandée pour corriger une hyperglycémie en phase aiguë d'IDM ; la solution glucose-insuline-potassium (GIK) n'est pas recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Question 3-5 — Filières, situations particulières & complications",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 3 — Filières de prise en charge",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "Compte tenu des pertes de chances induites par le retard diagnostique et thérapeutique, il faut insister sur la réalisation répétée de campagnes d'éducation du grand public et des professionnels de santé — objectif : « <b>prescrire le 15</b> ». L'appel (patient ou tiers) doit aboutir au <b>SAMU-Centre 15</b>, dont le médecin régulateur essaiera d'être mis directement en relation avec le patient puis déclenchera un effecteur destiné à amener le patient en SCDI opérationnelle (filière cardiologique). Le jury recommande que le médecin régulateur du SAMU soit le « <b>gardien du temps</b> » du déroulement de l'intervention, faisant le lien entre l'équipe d'intervention et l'équipe d'accueil.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Algorithme 3 (source) — Filières de prise en charge d'une douleur thoracique suspecte d'IDM</b>",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>Points d'entrée</b> vers le SAMU-Centre 15 (avec conférence à 3 si besoin) : appel direct du patient/d'un tiers • association d'urgentistes • régulation libérale de la permanence des soins • service de soins (patient déjà hospitalisé) • médecin libéral",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "↓",
+     "style": "arrow_c"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>SAMU-Centre 15</b> déclenche un effecteur : une unité mobile hospitalière (UMH) et/ou, à défaut, un médecin correspondant SAMU / urgentiste libéral conventionné / médecin pompier + ECG / médecin libéral (accord préalable) + ECG — dans tous les cas avec <b>défibrillateur semi-automatique (DSA) systématique</b>, ± fibrinolyse selon l'algorithme 2.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "↓",
+     "style": "arrow_c2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "<b>SCDI opérationnelle</b> — le patient y accède directement (vient directement / urgences hôpital), via une USI (si déjà hospitalisé), ou est réorienté secondairement en <b>USIC</b> depuis la SCDI.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Moyens engagés minimaux</b> en dehors des UMH : présence d'un médecin avec ECG ; un vecteur de transport avec au moins DSA et O2. Dans certaines situations d'exception (isolement, défaut d'accessibilité durable et prévisible aux secours médicalisés et aux moyens d'évacuation rapides), le jury recommande la rédaction préalable de protocoles décisionnels.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Question 4 — Situations particulières",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "<b>Personnes âgées :</b> la stratégie thérapeutique globale ne doit pas différer de celle des sujets jeunes malgré un risque de complications plus élevé (grade B), à l'exception du choc cardiogénique, où le recours à la reperfusion n'est pas systématique mais discuté cas par cas. <b>L'HNF est préférée aux HBPM chez le sujet de plus de 75 ans</b> (grade B).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Personnes diabétiques :</b> la stratégie globale ne diffère pas de celle des sujets non diabétiques (grade B). Déterminer la glycémie capillaire au plus tôt, y compris en préhospitalier ; réduction précoce de l'hyperglycémie par l'insuline et réduction des apports glucidiques à la phase aiguë.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>IDM survenant dans un service de soins non cardiologiques :</b> prise en charge organisée par des protocoles locaux pour une réponse dans les plus brefs délais. En cas de décision de reperfusion en urgence, les patients dans des sites avec plateau de cardiologie interventionnelle accessible doivent avoir une angioplastie primaire ; dans les autres cas, la stratégie de reperfusion ne diffère pas de celle proposée en dehors des structures de soins.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>IDM périopératoires :</b> prévention fondée sur l'analyse du segment ST et la correction rapide de toute anomalie hémodynamique (hypotension, hypertension, tachycardie) ou métabolique importante (anémie, hypothermie). Détection par analyse ECG quotidienne et dosages répétés de troponine postopératoire ; prise en charge graduée selon la modification du segment ST et la cinétique de la troponine. Le recours systématique en urgence à une coronarographie n'est licite qu'en cas de sus-décalage du segment ST.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Question 5 — Prise en charge des complications initiales",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "Le traitement spécifique des complications doit être associé à la correction des facteurs favorisants, notamment les dyskaliémies et l'hypoxie.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Bradycardies</b> — options thérapeutiques :",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "• surveillance électrocardioscopique seule, si bien tolérée et sans risque d'asystolie ;<br/>• entraînement électrosystolique externe, indiqué devant toute bradycardie symptomatique avec intolérance hémodynamique (habituellement liée à un BAV de haut degré), en cas de risque d'asystolie, ou si l'atropine est inefficace ;<br/>• traitement pharmacologique : en l'absence de cause réversible, <b>l'atropine</b> est la thérapeutique de choix devant toute bradycardie symptomatique aiguë. <b>L'isoprénaline n'est pas recommandée</b> et <b>l'adrénaline ne doit être utilisée qu'en dernier recours.</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tachycardies</b> (fréquence &gt; 100 bpm, hors défaillance vitale et tachycardie bien tolérée) — plusieurs options thérapeutiques",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "peuvent être envisagées <b>(grade B)</b> : le patient en arrêt circulatoire nécessite un choc électrique externe (CEE) immédiat, asynchrone, sans sédation, et une RCP médicalisée ; le patient en défaillance hémodynamique (hors tachycardie sinusale) nécessite un CEE immédiat, de préférence synchrone ; le patient conscient sans signes d'intolérance clinique : les TV soutenues/polymorphes justifient amiodarone et/ou CEE après sédation, sinon abstention thérapeutique avec surveillance seule. Pour le patient conscient avec signes d'intolérance (douleur thoracique ou OAP), la stratégie détaillée figure ci-dessous.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Mesures initiales, tous les patients :</b> oxygène en fonction de la SpO<sub>2</sub>, monitoring ECG, surveillance continue de la pression artérielle et de la SpO<sub>2</sub>, accès veineux.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation (patient conscient, signes d'intolérance : OAP/douleur thoracique)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Traitement de 1ère intention",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Si échec",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Arrêt circulatoire",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "RCP médicalisée + CEE asynchrone",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "État de choc cardiogénique / OAP massif",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sédation si conscient + CEE synchrone si possible + gestes de réanimation",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pas d'autres signes d'intolérance",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance clinique et paraclinique (scope)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rythme irrégulier, QRS fin < 0,12 s (FA rapide)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Amiodarone IV 300 mg/20-60 min puis 900 mg/24 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Esmolol IV (500 µg/kg puis 50-200 µg/kg/4 min) ou aténolol (5 mg IV puis 75 mg PO)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rythme irrégulier, QRS large > 0,12 s (TV polymorphe)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Amiodarone IV (même schéma)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "CEE synchrone",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rythme régulier, QRS fin < 0,12 s (tachycardie sinusale)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance attentive",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rythme régulier, QRS large > 0,12 s (TV)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Amiodarone IV (même schéma)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "CEE synchrone",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Algorithme 4 de la source, restructuré en tableau de décision. En cas de doute sur le mécanisme (rythme irrégulier QRS large [TV polymorphe] : évoquer de principe une FA avec conduction aberrante, se reporter à la conduite de la FA rapide ; rythme régulier QRS fin [tachycardie sinusale] : évoquer de principe un flutter auriculaire, se reporter à la conduite de la FA rapide ; rythme régulier QRS large [TV] : évoquer de principe une TSV avec conduction aberrante, se reporter à la conduite de la tachycardie sinusale).</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Annexe & sources",
+   "items": [
+    {
+     "t": "p",
+     "html": "<b>Arrêt circulatoire (AC)</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Le contexte ischémique de l'AC ne modifie pas les recommandations générales de la RCP. Si l'AC survient sur un IDM déjà diagnostiqué et qu'une RACS est obtenue, la stratégie de reperfusion repose sur l'accès rapide à une SCDI opérationnelle (pas de délai maximal fourni). Le massage cardiaque externe ne contre-indique pas la fibrinolyse ; chez un patient fibrinolysé, la survenue d'un AC peut être un signe de reperfusion coronaire — une réanimation prolongée (60 à 90 minutes après l'injection du fibrinolytique) est justifiée pour favoriser son efficacité. En l'absence de RACS, il n'y a pas d'argument scientifique pour recommander ou interdire la fibrinolyse. Si l'AC constitue la première manifestation de l'IDM, il n'y a pas d'argument pour recommander une fibrinolyse.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Choc cardiogénique</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Stratégie reposant sur le traitement étiologique associé au traitement symptomatique : <b>désobstruction coronaire précoce, préférentiellement par angioplastie (grade B)</b>, associée à des mesures de diminution de la consommation myocardique en oxygène (analgésie, oxygène). Restauration hémodynamique par remplissage vasculaire prudent (en l'absence de signes d'insuffisance ventriculaire gauche), avec si nécessaire catécholamines titrées (dobutamine en 1<sup>re</sup> intention, noradrénaline en 2<sup>e</sup> intention). <b>La contre-pulsion par ballonnet intra-aortique (CPBIA) favorise la stabilisation initiale des patients en choc cardiogénique secondaire à un IDM (grade B).</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Transferts interhospitaliers des infarctus compliqués</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Toujours des transports médicalisés par le SMUR, dont le premier objectif est de permettre au patient d'accéder à un niveau de soins supérieur tout en assurant sa sécurité. Chaque intervenant de la chaîne (médecin d'amont, médecin SMUR, médecin régulateur, médecin d'accueil) en a une part de responsabilité. Les équipes du SMUR doivent être formées aux techniques d'assistance circulatoire (CPBIA de plus en plus couramment utilisée, très rarement assistance circulatoire périphérique) ; l'équipe peut être complétée par un médecin maîtrisant ces techniques, dans le cadre d'un protocole en réseau impliquant tous les acteurs concernés.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Annexe 1 — Échelle de gradation HAS des recommandations",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau de preuve scientifique fourni par la littérature",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "p",
+        "html": "Preuve scientifique établie — essais comparatifs randomisés de forte puissance, méta-analyse d'essais comparatifs randomisés, analyse de décision basée sur des études bien menées (niveau de preuve 1).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "p",
+        "html": "Présomption scientifique — essais comparatifs randomisés de faible puissance, études comparatives non randomisées bien menées, études de cohorte (niveau de preuve 2).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "p",
+        "html": "Faible niveau de preuve — études cas-témoins, études comparatives comportant des biais importants, études rétrospectives, séries de cas (niveaux de preuve 3-4).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "En l'absence de précisions, les recommandations reposent sur un consensus exprimé par le jury.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge de l'infarctus du myocarde à la phase aiguë en dehors des services de cardiologie » — Conférence de consensus, 23 novembre 2006 (Paris, faculté de médecine Paris V), texte des recommandations (version courte), mise en ligne février 2007, publication mai 2007. Promoteurs : SAMU de France, Société francophone de médecine d'urgence, Société française de cardiologie ; copromoteurs : Afssaps, APNET, Bataillon des marins-pompiers de Marseille, Brigade de sapeurs-pompiers de Paris, SFAR, Société française de biologie clinique, Société française de médecine sapeur-pompier, SRLF, SOS Médecins France. Président du comité d'organisation : Pr Frédéric Adnet ; président du jury : Dr Jean-Louis Ducassé. Avec le partenariat méthodologique et le concours financier de la Haute Autorité de Santé (HAS).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> grades HAS A/B/C (échelle de gradation des études thérapeutiques, Annexe 1 ci-dessus), méthode « Conférence de consensus » HAS — jury de non-experts, huis clos de 48h après séance publique. 11 mentions de grade explicite figurent dans le corps du texte (3×A, 7×B, 1×C) ; la quasi-totalité des énoncés (dont les 4 algorithmes décisionnels) reposent sur un consensus du jury sans grade associé (voir disclosure méthodologique en page 1).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des 5 questions du texte court (critères de désobstruction coronaire, stratégies de reperfusion et traitements adjuvants du SCA ST+, filières de prise en charge, situations particulières — sujet âgé/diabétique/service non cardiologique/périopératoire —, complications initiales — bradycardies/tachycardies/arrêt circulatoire/choc cardiogénique/transferts interhospitaliers), ainsi que l'échelle de gradation (Annexe 1) et les 4 algorithmes décisionnels (restructurés en tableaux de décision, voir disclosure). Les sections méthodologiques sans contenu clinique (méthode « Conférence de consensus », composition du comité d'organisation/jury/groupe bibliographique, fiche descriptive) ne sont pas retranscrites.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2006/2007 :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des recommandations et algorithmes du texte source, mais ne remplace pas le texte intégral (argumentaire complet, références bibliographiques) et n'est ni éditée ni validée par la HAS, SAMU de France, la Société francophone de médecine d'urgence ou la Société française de cardiologie. <b>Les stratégies de reperfusion et les traitements adjuvants du SCA ST+ ont évolué depuis 2006</b> (nouveaux antiplaquettaires P2Y12, protocoles de délais, recommandations ESC ultérieures) : se référer en complément aux recommandations plus récentes et à un avis cardiologique spécialisé en cas de doute.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

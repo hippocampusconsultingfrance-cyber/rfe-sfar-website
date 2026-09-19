@@ -241,11 +241,6 @@
      ]
     },
     {
-     "t": "p",
-     "html": "R1.1 : 2 études concordantes (1 randomisée, 1 non randomisée) en faveur du CCT sur le devenir neurologique pour l'AC sur rythme choquable ; conférence de consensus et méta-analyse récente également favorables. R1.2 : une méta-analyse spécifique aux rythmes non choquables retrouve une diminution de la mortalité hospitalière (RR 0,86) sans différence sur le devenir neurologique ; absence d'alternative thérapeutique et absence d'étude de bon niveau défavorable. R1.4 : étude randomisée de 939 patients et méta-analyse concordantes — pas de différence entre 33 °C et 36 °C, mais bénéfice d'un CCT &lt;34 °C par rapport à l'absence de CCT. R1.5 : plusieurs études randomisées, dont une de haut niveau de preuve montrant une augmentation des récidives d'AC et des œdèmes pulmonaires avec le NaCl froid préhospitalier. R1.2 pédiatrique : seule étude randomisée disponible (270 enfants) ne montrant pas de différence de survie avec bon pronostic neurologique entre hypothermie à 33 °C et CCT à 36-37,5 °C.",
-     "style": "note"
-    },
-    {
      "t": "section",
      "text": "Champ 2 — Contrôle ciblé de la température après traumatisme crânien",
      "color": "navy"
@@ -354,7 +349,7 @@
     },
     {
      "t": "p",
-     "html": "R2.1/R2.2 : aucune étude randomisée contrôlée ne démontre qu'un CCT à 35-37 °C prévient l'HTIC ou améliore le pronostic neurologique après TC grave, mais la gravité du pronostic associé à l'hyperthermie impose, en l'absence d'autres preuves, de recommander ce CCT ; des études à haut niveau de preuve et des méta-analyses ne montrent en revanche aucun bénéfice de l'hypothermie thérapeutique (32-35 °C) versus normothermie sur la mortalité ou le devenir neurologique — échec du concept de neuroprotection par hypothermie chez le TC grave. R2.3 : résultats discordants — Polderman et al. montrent la supériorité de l'hypothermie sur les barbituriques seuls pour contrôler l'HTIC, mais l'essai randomisé Eurotherm (387 patients) montre un effet négatif du CCT 32-35 °C sur le devenir neurologique à 6 mois (devenir favorable 26 % vs 37 % ; OR de pronostic défavorable 1,53) ; une durée d'hypothermie plus longue (5 j vs 2 j) limiterait le rebond d'HTIC au réchauffement. R2.2 pédiatrique : 2 essais randomisés (225 et 77 patients) concordants pour l'absence de bénéfice de l'hypothermie modérée, avec davantage d'hypotension et de pression de perfusion cérébrale basse sous hypothermie.",
+     "html": "<b>Précisions :</b> R2.1/R2.2, échec du concept de neuroprotection par hypothermie chez le TC grave — aucun bénéfice démontré de l'hypothermie thérapeutique (32-35 °C) versus normothermie sur la mortalité ou le devenir neurologique, d'où le CCT plus modéré (35-37 °C) ciblant la seule prévention de l'hyperthermie.",
      "style": "note"
     }
    ]
@@ -452,11 +447,6 @@
        }
       ]
      ]
-    },
-    {
-     "t": "p",
-     "html": "R3.1 : hyperthermie fréquente (&gt;50 %) et corrélée au mauvais pronostic à la phase aiguë d'un AVC ischémique, mais l'intérêt de l'hypothermie thérapeutique n'est pas démontré (6 essais randomisés, effectifs réduits, biais méthodologiques ; 2 essais randomisés en cours : EuroHYP-1, ICTuS 2/3). Pas de bénéfice démontré des antipyrétiques systématiques sur le devenir neurologique ou la mortalité (méta-analyse de 4 essais). R3.2 : études essentiellement observationnelles, effectifs limités ; effet favorable sur la PIC rapporté mais sans conclusion possible sur le pronostic neurologique ; essai randomisé CINCH en cours. R3.3 : fièvre associée au mauvais pronostic dans plusieurs études observationnelles de grand effectif ; études interventionnelles limitées mais concordantes sur un effet modeste sur la PIC et une possible amélioration du pronostic à 12 mois (normothermie ou hypothermie 32-34 °C).",
-     "style": "note"
     },
     {
      "t": "section",
@@ -567,7 +557,7 @@
     },
     {
      "t": "p",
-     "html": "R4.1 : littérature clinique très limitée (état de mal épileptique réfractaire évoluant depuis plus de 24 h, malgré doses maximales de traitements antiépileptiques et anesthésiques) ; cas rapportés d'un meilleur contrôle de l'activité épileptique électrique et d'un tracé de suppression-burst sous CCT 32-35 °C. R4.2/R4.3 : pas d'étude interventionnelle sur le traitement de l'hyperthermie ; études observationnelles discordantes selon le contexte (infection du SNC vs autres agressions cérébrales) ; l'étude randomisée de Mourvillier et al. suggère un effet délétère de l'hypothermie en cas de méningite bactérienne sans HTIC, mais avec d'importants biais méthodologiques (choc septique plus fréquent dans le groupe hypothermie). R4.4 : étude de Kutlesa et al. en faveur de l'hypothermie en cas d'HTIC associée, mais groupe témoin historique et analyse statistique de faible valeur ; plusieurs cas d'encéphalites virales avec HTIC favorablement traitées par hypothermie également rapportés.",
+     "html": "<b>Précisions :</b> R4.2/R4.3 vs R4.4 — la conduite s'inverse selon la présence d'une HTIC associée (pas de CCT si fièvre bien tolérée et pas d'HTIC ; hypothermie recommandée si HTIC associée).",
      "style": "note"
     }
    ]
@@ -649,11 +639,6 @@
        }
       ]
      ]
-    },
-    {
-     "t": "p",
-     "html": "R5.1 : 4 études de faible niveau de preuve (prospectives vs groupe historique, rétrospectives ou non randomisées, effectifs faibles) — concluent seulement à la faisabilité de l'hypothermie modérée dans le choc cardiogénique, sans effet indésirable accru démontré ; étude prospective en cours (NCT01890317). R5.2/R5.3 : 5 essais randomisés en double insu, 3 d'entre eux comparant en réalité des AINS à un placebo (non spécifiquement le CCT) ; seule l'étude de Schortgen et al. évalue directement le CCT versus l'absence de CCT et montre une diminution significative de la dose de vasopresseurs et du nombre de jours en choc, avec une réduction de mortalité à J14 (objectif secondaire) non retrouvée à la sortie de réanimation ou de l'hôpital ; l'ensemble des études conclut à la faisabilité du CCT dans le choc septique, sans sur-incidence d'effets indésirables.",
-     "style": "note"
     },
     {
      "t": "section",
@@ -780,7 +765,7 @@
     },
     {
      "t": "p",
-     "html": "R6.1 : essentiellement étudié en post-arrêt cardiaque — meilleure stabilité thermique en phase de maintien avec les méthodes asservies (3 essais randomisés de niveau haut à modéré + nombreuses études non randomisées concordantes), effet sur le devenir neurologique non définitivement établi. R6.2 : aucune étude randomisée n'évalue la vitesse de réchauffement de façon isolée ; dans le TC et l'AVC, une vitesse de réchauffement plus lente semble limiter le rebond d'HTIC (études expérimentales et par analogie). R6.3 : le rectum est le seul site périphérique validé par rapport à une mesure cérébrale de référence ; bon accord entre sites centraux (artère pulmonaire, œsophage, vessie, rectum), accord médiocre pour les sites périphériques (cutané, tympanique — biais rapporté de 1 °C). R6.4 : méta-analyse à la limite de la significativité pour le sepsis et les pneumopathies, mais études observationnelles de grand effectif retrouvant une association ; hypokaliémie &lt;3,5 mmol/L et risque accru d'arythmie rapportés par plusieurs études comparatives.",
+     "html": "<b>Précisions :</b> R6.3, bon accord entre sites centraux (artère pulmonaire, œsophage, vessie, rectum — le rectum étant le seul site périphérique validé), accord médiocre pour les sites périphériques cutané/tympanique (biais rapporté de 1 °C). R6.4, hypokaliémie &lt;3,5 mmol/L et risque accru d'arythmie à surveiller.",
      "style": "note"
     },
     {

@@ -8,12 +8,88 @@ clinicians can rely on short, sourced, visually-clear summary sheets instead of
 reading full guideline PDFs (often 50-150+ pages).
 
 - Published website (single-page app, published via the Artifact tool):
-  `https://claude.ai/code/artifact/69853cb5-182e-461b-8642-ff69c37ddd16`
+  `https://claude.ai/code/artifact/63029698-e65d-4ebf-ab9a-9b93d29f2b26`
+  (republished 2026-09-08 — the previous URL, 69853cb5-182e-461b-8642-ff69c37ddd16,
+  stopped resolving; this one also declares the `db` capability the site's
+  report/admin-decision feature needs — see `rules` in the publish call: only
+  `admin_check` and `decisions` writes are admin-gated, `reports` stays default
+  so any viewer can submit an error report).
 - Delivered PDFs also live in `/Users/macbook/Downloads/claude/RFE_SFAR_2026/`
   on the user's machine (this repo's `output/` folder is the git-tracked copy).
-- **42 of 160 SFAR library items are built as of 2026-09-05.** Track progress via
-  `site/app.js`'s `FICHE_HREF_MATCH` object keys (one entry per built fiche) vs.
-  `build/library_final.json` (the full 160-item index).
+- **63 of 160 SFAR library items are git-tracked (this repo's `site/app.js`
+  `FICHE_HREF_MATCH`) as of 2026-09-12.** Track progress via that object's keys vs.
+  `build/library_final.json` (the full 160-item index). Fiche 61
+  (`urgences_transfusionnelles_obstetricales` — EFS table ronde 2000-2001, "Le
+  traitement des urgences transfusionnelles obstétricales"; library index
+  itself mislabels this item "Hémorragies du post-partum immédiat" / "2014",
+  a divergence disclosed inside the fiche, not resolved), fiche 62
+  (`sujet_age_esf` — "Anesthésie du sujet âgé : l'exemple de fracture de
+  l'extrémité supérieure du fémur", SFAR/SOFCOT/SFGG/SFPC RFE 2017, 26
+  recommandations, 6-page PDF; two disclosed corrections in the build script —
+  a PDF font-extraction artifact turning "−" into "S" in 3 grade tags, and a
+  genuine source-internal inconsistency on R3.3/R3.4's sign — both verified by
+  200dpi visual render before building, not guessed), and fiche 63
+  (`bris_dentaires` — "Bris dentaires périanesthésiques : texte court",
+  SFAR/Adarpef/SFSCMF RFE 2012, 31 propositions + 5 pediatric addenda, 5-page
+  PDF; no GRADE system at all — a single global "accord fort" statement covers
+  all 31 propositions, so every row is chipped uniformly "Fort" rather than
+  inventing a fort/faible split the source itself never states) all have their
+  full 4-file site integration done and are **published**. `site/rfe_garde.html`
+  (assembled) now contains **72** `id="content-*"` fiche markers (63
+  git-native + 9 recovered from the live Artifact, see KNOWN DRIFT below) + 1
+  library marker = 73 total. Published to the live Artifact URL below on
+  2026-09-12 (fiche 63, Version 15) — git and the live site are reconciled,
+  no known drift.
+- **✅ KNOWN DRIFT — git repo vs. live published Artifact (found 2026-09-11,
+  RESOLVED 2026-09-11). Temps 1 (recovery) and Temps 2 (publish) both DONE.**
+  Originally: the live Artifact's `FICHE_HREF_MATCH` had **69** keys vs. this
+  repo's 61 (60 at the time) — 9 keys present live with zero git history:
+  `aap_endoprotheses_coronaires`, `avc_precoce`, `douleur_postoperatoire`,
+  `examens_preinterventionnels`, `infarctus_myocarde`, `monitorage_traumatise`,
+  `recommandations_avk`, `tih_2002`, `traumatisme_cranien_grave_precoce`. Root
+  cause: an untracked session (not in `git log` on any branch checked) built
+  and published these directly to the Artifact without ever committing the
+  underlying `fiche_*.py`/`content_*.json`/source files to this repo (inverse
+  of the earlier `/tmp` scratchpad incidents — this time the *site* had the
+  content and *git* was missing it).
+  **Temps 1 — recovery, done 2026-09-11**: read the live Artifact
+  (`action: "read"`), brace-scanned its inline `app.js` for the 9 keys'
+  `RAW`/`FICHE_HREF_MATCH`/`DOC_META` entries and their `id="content-<key>"`
+  `<script>` JSON blocks, cross-checked each key's href/pdf-url needles
+  against `build/library_final.json` (exactly 1 match each, confirmed), wrote
+  them as `build/content_<key>.json`, and merged the JS entries into
+  `site/app.js` (brace-depth-aware insertion — a naive text-search insertion
+  first corrupted `DOC_META` by inserting into the wrong `};`, caught by
+  `node --check` + manual inspection before commit, redone correctly) and new
+  placeholder tags into `site/template.html` + read/replace calls into
+  `build/assemble.py`. Re-assembled `site/rfe_garde.html`; verified
+  functionally in headless Chromium (Playwright) — no JS errors, `RAW`/
+  `FICHE_HREF_MATCH`/`DOC_META` each have exactly 70 keys, and all 9 recovered
+  fiches (plus `voies_aeriennes_adulte` and `urgences_transfusionnelles_obstetricales`
+  for good measure) navigate and render their `<h1>` correctly.
+  **No `fiche_*.py`/source PDF exists for these 9** — only the rendered JSON
+  content was recoverable from the live HTML. Treat each of the 9 as a normal
+  backlog item (full pipeline: download source, build, audit, etc.) for a
+  future session, at which point its git-native `content_<key>.json` replaces
+  the recovered one — the recovered version is an interim measure, not a
+  substitute for this repo's normal triple-read/audit discipline (it was
+  built by a session that bypassed that discipline; nothing about it has been
+  re-audited against the source PDF).
+  Also unresolved: the `voies_aeriennes_adulte` same-key content collision
+  found while building fiche 60 (an untracked session had already built and
+  published the SAME source document under the SAME key, independently
+  reaching the same 53-item/A-E grade tally) — this repo's own build was kept,
+  the live one was NOT pulled in for that key (unlike the 9 above), since
+  ours already went through this repo's full audit discipline.
+  **Temps 2 — publish, DONE 2026-09-11**: per explicit user go-ahead ("fais le
+  nécessaire"), re-read the live Artifact per step 11 (confirmed no live-only
+  key would be dropped — this repo's `site/rfe_garde.html` was a strict
+  superset, 70 fiches vs. the live 69), then published `site/rfe_garde.html`
+  to the Artifact URL above (now Version 13). Live and git are reconciled: the
+  9 previously live-only fiches are now git-native (as recovered
+  `content_<key>.json`, still pending a real source-PDF rebuild per the note
+  above) and the `voies_aeriennes_adulte` collision was resolved in git's
+  favor as already decided. No outstanding drift as of this publish.
 
 ## Standing quality bar — do not compromise on these
 
@@ -40,6 +116,76 @@ reading full guideline PDFs (often 50-150+ pages).
    know — don't guess which one is "right."
 6. **Visually verify every rendered page**, including page 1's header
    specifically — see the pagination bug below.
+7. **Keep argumentaire/rationale prose minimal — do not transcribe the
+   source's discursive justification in extenso.** (User directive,
+   2026-09-14: "dans les fiches evite les argumentaires ca bouffe trop les
+   pages ... rend le contenu facile a lire a partir du pc ou telephone".)
+   A fiche's job is a scannable summary a clinician reads in seconds, on a
+   phone or a PC — not a condensed re-narration of the source's discussion
+   section. Concretely:
+   - The recommendation/table row text (what to do, its grade) is what must
+     be 100% complete per rule 2 — the *rationale paragraph* under it is
+     optional color, not required coverage. Default to omitting it.
+   - Where a rationale genuinely changes clinical practice (a specific
+     dose/threshold/contraindication not already in the recommendation
+     row itself), keep ONLY that — one to two sentences, not a paragraph
+     recapping the underlying studies/statistics/citations.
+   - Never build a long block literally titled "Argumentaire" per
+     recommendation (or per-number inline prose like "R4 : ...", "R5 : ...")
+     that mirrors the source's own discussion section — this is exactly the
+     pattern that bloats page count and makes on-screen reading tedious.
+     Prefer letting the table/chip carry the information; add a single
+     shared caveats paragraph only if something essential would otherwise
+     be lost.
+   - This applies going forward to every new fiche, AND retroactively: fiches
+     with heavy argumentaire blocks found by `grep -lc "Argumentaire"
+     build/fiche_*.py` (7 as of 2026-09-14: `remplissage_perioperatoire`,
+     `pancreatite`, `nutrition`, `ira`, `ih`, `epanchement_pleural`,
+     `antibioprophylaxie`) are a standing backlog item — trim, rebuild,
+     re-verify, re-integrate and commit each one whenever picked up, same as
+     any other backlog item. **Audit done 2026-09-14**: a broader scan (long
+     `S_NOTE`/`S_BODY_SM` paragraphs, not just the literal word
+     "Argumentaire") found `pancreatite`/`nutrition`/`ira`/`ih`/
+     `epanchement_pleural` were already concise/compliant (their long
+     paragraphs are actionable doses/thresholds/clarifications, not
+     evidentiary rationale) — no changes needed. **All trims done and
+     page-verified 2026-09-14**: `remplissage_perioperatoire` (new fiche,
+     5→4 pages, plus a genuine pagination bug fixed — an orphaned section
+     header found and fixed with proper `KeepTogether` wrapping) and
+     `antibioprophylaxie` (3 blocks, still 4 pages). Also found and fixed
+     while rebuilding (same per-rec `R#.#:`/untagged rationale-bloat pattern,
+     not literally tagged "Argumentaire"): `pavm`, `controle_temperature`,
+     `lat_soins_critiques` (9 pages — long due to figures/checklists, not
+     primarily argumentaire bloat; 4 blocks trimmed, all cleanly, no page
+     reduction expected or needed), and `eer` (7 pages, same — 6 blocks
+     trimmed across both the R#.#-tagged and untagged patterns found by a
+     per-file broad rescan, all visually re-verified). All 6 touched fiches
+     re-extracted (`extract_content.py`) and re-assembled (`assemble.py`)
+     into `site/rfe_garde.html` in the same session — content is live in the
+     git-tracked assembled HTML, not just the PDFs.
+   - **NEW backlog item found 2026-09-14, separate from the argumentaire
+     rule**: many older `fiche_*.py` scripts cannot currently be rebuilt in
+     this container at all — `grep -l "import pypdf" build/fiche_*.py` found
+     **34 files** still using the broken pypdf/cryptography import (pyo3
+     panic in this container, see step 5's `_count_pages` note — must be
+     `fitz`+`tempfile.mktemp()` instead), and `grep -l '^OUT = "/private/tmp'
+     build/fiche_*.py` found **25 files** with a stale macOS scratchpad path
+     baked into `OUT` (from whatever machine/session originally built them)
+     that doesn't exist in this container. Fixed opportunistically while
+     touched for the argumentaire cleanup: `pavm`, `controle_temperature`,
+     `lat_soins_critiques`, `eer`. The other ~30 affected files are untouched
+     — fix each one's `OUT`/`_make_doc`/`_count_pages` (copy the pattern from
+     `fiche_aap_programmee.py` — wait, check first: `aap_programmee` itself
+     is in the stale-path list above, so copy the pattern from a definitely-
+     fixed file like `fiche_remplissage_perioperatoire.py` instead) the next
+     time any of them needs a rebuild — no need to mass-fix files nobody is
+     touching, but don't assume a script builds cleanly in this environment
+     just because its PDF is already committed.
+   - Site readability (site/template.html's `.block-p{max-width:74ch}` and
+     its mobile breakpoints) was checked 2026-09-14 and is already adequate;
+     the actual readability problem is content density, not CSS — so this
+     rule is the fix, no template/CSS change needed unless content trimming
+     alone proves insufficient.
 
 ## Build pipeline (per fiche)
 
@@ -48,6 +194,52 @@ reading full guideline PDFs (often 50-150+ pages).
    `"status": "abrogé"`. Check the source's own page 1 for an obsolescence
    stamp before building (SFAR sometimes retires a document without updating
    this index — verified twice this session already, see git log).
+   **Before writing a single line of the fiche script, also check for a
+   same-topic collision by TITLE, not just by href-needle**: `grep -i
+   "<topic keyword>" site/app.js` (searching `DOC_META` titles/`short`
+   text, not just `FICHE_HREF_MATCH`) and separately `grep -i "<topic
+   keyword>" build/library_final.json` to see if a newer/older version of
+   the same guideline already occupies a site key. A library item can be
+   genuinely "unmatched" by the strict href/pdf-url needle scan (the
+   scan used to find backlog candidates) while an *entirely different*
+   `library_final.json` entry on the same clinical topic is already live
+   under a key with no needle pointing at the item you're about to build —
+   this happened 2026-09-15 (see below) and is silent: nothing errors,
+   you just build a real, accurate fiche for a document that turns out to
+   be superseded, then collide with the existing key at integration time.
+   **Incident, 2026-09-15**: built a full fiche (`fiche_preeclampsie.py`,
+   76 recommandations, triple-read + independently audited, 6 pages) for
+   "Prise en charge multidisciplinaire des formes graves de prééclampsie"
+   (SFAR/CNGOF/SFMP/SFNN, **2009**) — genuinely absent from
+   `FICHE_HREF_MATCH`. Only at the site-integration step (adding the
+   `preeclampsie` key) did `git status` reveal `content_preeclampsie.json`
+   already existed, committed in this repo's very first commit, fully
+   wired into `RAW`/`FICHE_HREF_MATCH`/`DOC_META` under that exact key —
+   for a **different, newer** `library_final.json` entry: "Prise en
+   charge de la patiente avec une pré-éclampsie sévère" (SFAR, **2020**,
+   RFE, same 7-theme scope: définitions, antihypertenseurs/algorithme,
+   magnésium, surveillance/arrêt de grossesse, anesthésie/postpartum,
+   formation/sources). This is the same untracked-session pattern as the
+   KNOWN DRIFT incident above (content live on the site with no
+   `fiche_*.py` ever committed) — just discovered pre-emptively this
+   time, before publishing, because nothing had been committed yet.
+   **Recovery**: `git restore --staged --worktree` on every file the new
+   build had touched (`build/content_preeclampsie.json`,
+   `build/extract_content.py`, `build/assemble.py`, `site/app.js`,
+   `site/template.html`, `site/rfe_garde.html`) to discard the local
+   overwrite and restore the original 2020-era content byte-for-byte;
+   `rm` + `git reset` on the newly-added, now-abandoned files
+   (`fiche_preeclampsie.py`, its `sources/*`, its `output/*.pdf`) since
+   nothing had ever been committed — full clean recovery, zero data loss,
+   because the collision was caught before any commit. **The 2009
+   document itself is not in this repo's backlog and should not be
+   rebuilt under a different key either** — the 2020 RFE supersedes it on
+   the same clinical question; there is no value in carrying both
+   vintages. If a similar collision is found only *after* a commit or
+   push has already happened, the fix is the same idea but needs
+   `git revert`/history-aware recovery instead of a plain restore — don't
+   force-overwrite a key you don't fully own the history of without
+   checking `git log -- build/content_<key>.json` first.
 2. Download: `curl -sL -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" -o sources/X.pdf "<url>"`
    — sfar.org 403s a plain curl/WebFetch; the Chrome UA works. Some links are
    redirect wrappers (`/download/...?wpdmdl=NNN`) — follow with `-L`.

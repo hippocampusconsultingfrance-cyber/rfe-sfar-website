@@ -47,7 +47,7 @@ from reportlab.lib.units import mm
 GRADE_COLORS["Fort"] = (GREEN, WHITE)
 GRADE_COLORS["Faible"] = (TEAL, WHITE)
 
-OUT = "/private/tmp/claude-501/-Users-macbook-Downloads-claude/65498e3e-5ddf-47a6-b100-3ac535d1faa0/scratchpad/rfe_sfar/output/Fiche_SRLF_Epuration_Extrarenale_2014.pdf"
+OUT = "/home/user/rfe-sfar-website/output/Fiche_SRLF_Epuration_Extrarenale_2014.pdf"
 
 SOURCE_TXT = ("Source : Recommandations Formalisées d'Experts sous l'égide de la SRLF, avec "
               "la participation de la SFAR, du GFRUP et de la SFD « Épuration extrarénale en "
@@ -166,15 +166,11 @@ def _section_champ1():
          "jeu le pronostic vital et en rapport avec l'IRA. (Avis d'experts)", "Faible"),
     ], [11*mm, PAGE_W-2*MARGIN-11*mm-16*mm, 16*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("Les 3 essais randomisés sur l'initiation précoce montrent des résultats "
-                    "discordants (absence de bénéfice, effet délétère, ou bénéfice net selon "
-                    "l'étude) ; une méta-analyse suggère un bénéfice mais le faible niveau de "
-                    "preuve des études, l'hétérogénéité des populations et des définitions "
-                    "empêchent toute conclusion définitive — d'où l'absence de "
-                    "recommandation sur le délai optimal hors urgence vitale. Chez l'enfant, "
-                    "une surcharge hydrique &gt;20 % est associée à une surmortalité majeure "
-                    "(OR 8,3) ; entre 10-20 %, le lien est moins net (significatif "
-                    "uniquement si &gt;3 défaillances d'organe associées).", S_NOTE))
+    story.append(P("<b>Précisions :</b> résultats discordants entre essais randomisés sur "
+                    "l'initiation précoce — d'où l'absence de recommandation sur le délai "
+                    "optimal hors urgence vitale. Chez l'enfant, le lien surcharge/mortalité "
+                    "est moins net entre 10-20 % (significatif uniquement si &gt;3 "
+                    "défaillances d'organe associées).", S_NOTE))
     return story
 
 def _section_champ2a():
@@ -210,17 +206,11 @@ def _section_champ2a():
          "d'expertise dans le domaine. (Avis d'experts)", "Fort"),
     ], [13*mm, PAGE_W-2*MARGIN-13*mm-16*mm, 16*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("Site sous-clavier évité par extrapolation des données IRC (risque de "
-                    "sténose veineuse compromettant une future fistule artérioveineuse). "
-                    "Seule étude randomisée fémoral vs. jugulaire (Cathédia) : pas de "
-                    "différence de colonisation globale (40,8 vs 35,7‰ jours-cathéters) ni "
-                    "de bactériémie (1,5 vs 2,3‰), sauf chez les patients IMC&gt;28 "
-                    "(sur-risque fémoral) ; dysfonction de cathéter comparable entre sites, "
-                    "sauf risque accru en jugulaire interne gauche. Échoguidage jugulaire : "
-                    "méta-analyse 2011 (7 études, 830 cathéters) — réduction du risque "
-                    "d'échec de pose (RR 0,12) et d'échec au 1er essai (RR 0,4). "
-                    "Échoguidage fémoral : 1 étude randomisée (110 cathéters) — succès "
-                    "98,2 % vs. 80 % par repérage anatomique (p=0,002).", S_NOTE))
+    story.append(P("<b>Précisions :</b> site sous-clavier évité par extrapolation des données "
+                    "IRC (risque de sténose veineuse compromettant une future fistule "
+                    "artérioveineuse). Fémoral déconseillé si IMC &gt;28 (sur-risque de "
+                    "colonisation) ; risque de dysfonction accru en jugulaire interne "
+                    "gauche.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Champ 2.2 — Membranes"))
     story.append(Spacer(1, 2*mm))
@@ -294,17 +284,11 @@ def _section_champ2b():
          "l'anticoagulation de la TIH. (Avis d'experts)", "Fort"),
     ], [15*mm, PAGE_W-2*MARGIN-15*mm-16*mm, 16*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("Citrate en épuration continue : 3 études observationnelles chez le "
-                    "patient à haut risque hémorragique, toutes en faveur d'une réduction "
-                    "des complications hémorragiques ; en épuration continue chez le "
-                    "patient à faible risque, 6 études randomisées + 8 observationnelles "
-                    "montrent une augmentation significative de la durée de vie des "
-                    "circuits, moins de complications hémorragiques, une épargne sanguine "
-                    "(transfusionnelle) et une limitation de la consommation plaquettaire, "
-                    "sans impact sur la mortalité. Anticoagulation régionale "
-                    "héparine-protamine non recommandée (risque de TIH, anaphylaxie à la "
-                    "protamine, effet rebond). Objectif TCA en cas d'héparine non "
-                    "fractionnée : 1,5× le témoin.", S_NOTE))
+    story.append(P("<b>Précisions :</b> le citrate réduit les complications hémorragiques et "
+                    "augmente la durée de vie des circuits, sans impact démontré sur la "
+                    "mortalité. Anticoagulation régionale héparine-protamine non recommandée "
+                    "(risque de TIH, anaphylaxie à la protamine, effet rebond). Objectif TCA "
+                    "en cas d'héparine non fractionnée : 1,5× le témoin.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Champ 2.4 — Eau osmosée"))
     story.append(Spacer(1, 2*mm))
@@ -335,14 +319,10 @@ def _section_champ3a():
          "faible clairance (SLED). (Avis d'experts)", "Fort"),
     ], [13*mm, PAGE_W-2*MARGIN-13*mm-16*mm, 16*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("Aucun bénéfice de survie démontré entre continu/intermittent malgré "
-                    "plusieurs essais randomisés ; données discordantes sur la récupération "
-                    "rénale (méta-analyse : risque accru en défaveur de l'intermittent, mais "
-                    "discordance entre études observationnelles OR 1,99 et randomisées OR "
-                    "1,15). Cérébrolésés : les techniques discontinues peuvent entraîner un "
-                    "œdème cérébral par syndrome de déséquilibre dialytique (variations "
-                    "osmotiques) ; 1 étude observationnelle retrouve une majoration de la "
-                    "PIC en hémodialyse intermittente chez le traumatisé crânien.", S_NOTE))
+    story.append(P("<b>Précisions :</b> aucun bénéfice de survie démontré entre continu et "
+                    "intermittent. Chez le cérébrolésé, les techniques discontinues peuvent "
+                    "entraîner un œdème cérébral par syndrome de déséquilibre dialytique "
+                    "(variations osmotiques) et majorer la PIC.", S_NOTE))
     story.append(Spacer(1, 3*mm))
     story.append(section_bar("Champ 3.2 — Dialyse péritonéale"))
     story.append(Spacer(1, 2*mm))
@@ -391,18 +371,10 @@ def _section_champ3b():
          "intensifier la dose d'épuration.", "Fort"),
     ], [13*mm, PAGE_W-2*MARGIN-13*mm-16*mm, 16*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("EER intermittente : 3 ECR, résultats contradictoires — Kt/V "
-                    "hebdomadaire supérieur associé à une mortalité réduite dans 1 étude "
-                    "(biais possibles), mais absence de différence dans les 2 autres ; "
-                    "conclusion = dose minimale (celle des bras témoins) au-delà de "
-                    "laquelle pas de bénéfice supplémentaire démontré. EER continue : 2 "
-                    "grandes études randomisées multicentriques (VA/NIH, 1124 patients ; "
-                    "RENAL, 1508 patients) ne retrouvent aucun bénéfice à intensifier la "
-                    "dose au-delà de 25 mL/kg/h, avec davantage de complications "
-                    "métaboliques dans les groupes intensifs. Sepsis : méta-analyse (9 "
-                    "essais, 1786 patients) — intensification non associée à une réduction "
-                    "de mortalité (OR 1,02) ; hémofiltration à haut volume proposée comme "
-                    "immunomodulatrice mais jamais confirmée par les essais contrôlés.", S_NOTE))
+    story.append(P("<b>Précisions :</b> en EER continue, pas de bénéfice démontré à "
+                    "intensifier la dose au-delà de 25 mL/kg/h — davantage de complications "
+                    "métaboliques dans les groupes intensifs ; 25 mL/kg/h est donc autant un "
+                    "plafond pratique qu'un plancher.", S_NOTE))
     return story
 
 def _section_champ3c():
@@ -437,17 +409,12 @@ def _section_champ3c():
          "bicarbonate.", "Fort"),
     ], [13*mm, PAGE_W-2*MARGIN-13*mm-16*mm, 16*mm]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("Réglages 3.4.6-3.4.10 visent à optimiser la tolérance hémodynamique en "
-                    "hémodialyse intermittente (les hypotensions favorisent l'entretien des "
-                    "lésions de nécrose tubulaire) : dialysat modérément hypotherme (limite "
-                    "le réchauffement et la baisse du tonus vasomoteur), tampon bicarbonate "
-                    "(préféré à l'acétate, vasoplégiant), conductivité sodée élevée (limite "
-                    "la baisse rapide d'osmolalité en début de séance) — une étude combinant "
-                    "ces réglages montre une amélioration nette de la tolérance "
-                    "hémodynamique, comparable à une technique continue. Fraction de "
-                    "filtration : maintenue &lt;25 % sous héparine non fractionnée (jusqu'à "
-                    "27 % sous citrate) ; hématocrite intrafiltre &lt;40 % comme meilleur "
-                    "indice de viscosité.", S_NOTE))
+    story.append(P("<b>Précisions :</b> réglages 3.4.6-3.4.10, les hypotensions favorisent "
+                    "l'entretien des lésions de nécrose tubulaire — dialysat modérément "
+                    "hypotherme, tampon bicarbonate (préféré à l'acétate, vasoplégiant), "
+                    "conductivité sodée élevée. Fraction de filtration à maintenir &lt;25 % "
+                    "sous héparine non fractionnée (jusqu'à 27 % sous citrate) ; hématocrite "
+                    "intrafiltre &lt;40 % comme meilleur indice de viscosité.", S_NOTE))
     return story
 
 def _section_champ4():
@@ -614,8 +581,8 @@ SECTIONS = [
     ("Synthèse, sources & traçabilité", _section_synthese),
 ]
 
-def _make_doc():
-    return SimpleDocTemplate(OUT, pagesize=A4,
+def _make_doc(path=None):
+    return SimpleDocTemplate(path or OUT, pagesize=A4,
                               leftMargin=MARGIN, rightMargin=MARGIN,
                               topMargin=32*mm, bottomMargin=16*mm,
                               title="Fiche SRLF 2014 - Epuration extrarenale en reanimation",
@@ -633,10 +600,18 @@ def _build_upto(section_fns):
     return story
 
 def _count_pages(story_flowables):
-    import pypdf
-    doc = _make_doc()
+    # NOTE: pypdf/cryptography is broken in this container (pyo3 panic on
+    # import) - use PyMuPDF (fitz) instead. Also: this MUST write to a fresh
+    # tempfile, never to OUT - reusing OUT for both the throwaway measurement
+    # build and the final build was found to silently corrupt page 1's
+    # header_band in the final PDF (see CLAUDE.md build pipeline step 5).
+    import fitz, tempfile
+    tmp_path = tempfile.mktemp(suffix=".pdf")
+    doc = _make_doc(tmp_path)
     doc.build(story_flowables, onFirstPage=_silent_page, onLaterPages=_silent_page)
-    return len(pypdf.PdfReader(OUT).pages)
+    n = fitz.open(tmp_path).page_count
+    os.remove(tmp_path)
+    return n
 
 def build():
     fns = [fn for _, fn in SECTIONS]

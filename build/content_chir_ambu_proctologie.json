@@ -1,0 +1,952 @@
+{
+ "doc": "chir_ambu_proctologie",
+ "sections": [
+  {
+   "title": "Méthodologie, R1-43 (parcours, douleur, rétention, hémorragie, transit) & sources",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> 43 recommandations pour développer la chirurgie proctologique ambulatoire avec les mêmes conditions de qualité et sécurité qu'en hospitalisation traditionnelle. Volontairement, ce document ne définit pas de liste d'actes éligibles : « ce n'est pas l'acte qui est ambulatoire mais le trio acte / patient / organisation de soins ». 5 champs : parcours de soin et organisation, douleur postopératoire, rétention d'urines, risque hémorragique, reprise du transit.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Méthodologie",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Grille à 4 niveaux : <b>A</b> (preuve scientifique établie — essais randomisés de forte puissance, méta-analyses) ; <b>B</b> (présomption scientifique — essais randomisés de faible puissance, cohortes) ; <b>C</b> (faible niveau de preuve — cas-témoins, biais importants) ; <b>AE</b> (accord d'experts, en l'absence d'études). Sur les 43 recommandations, seules 3 énoncés portent un grade A explicite (limitation des perfusions IV, choix d'anesthésique local pour la rachianesthésie, analgésie multimodale) ; le reste relève de l'accord d'experts.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>Grille SNFCP</b> — <b>A</b> : preuve scientifique établie ; <b>B</b> : présomption scientifique ; <b>C</b> : faible niveau de preuve ; <b>AE</b> : accord d'experts (absence d'études). Sur les 43 recommandations de ce document, seules 3 portent un grade A explicite — les grades B et C, bien que définis, ne sont utilisés pour aucune recommandation.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "2.1 Parcours de soin et organisation (R1-24)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier le mode ambulatoire lorsque les conditions médicales et psycho-sociales d'éligibilité sont réunies.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Identifier le médecin traitant et les personnes ressources (accompagnant, aidant naturel, personne de confiance).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vérifier les conditions d'ambulatoire à toutes les étapes ; délai pour atteindre une structure d'urgence ≤ 1 heure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une déficience physique ou intellectuelle n'interdit pas l'ambulatoire (nécessite des adaptations spécifiques).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le grand âge n'interdit pas l'ambulatoire si les conditions d'éligibilité sont réunies (diminuerait le risque confusionnel).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La consultation de programmation opératoire est essentielle : chemin clinique, coordination des acteurs, information orale et écrite.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Organisation basée sur la gestion des flux (minimiser les pertes de temps, optimiser les circuits).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'équipe de l'Unité de Chirurgie et Anesthésie Ambulatoire (UCA) doit être sensibilisée, expérimentée et formée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prise en charge au sein d'une unité d'accueil dédiée (réglementaire), recommandée à proximité immédiate du bloc opératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place une démarche de gestion des risques au sein de l'UCA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place une démarche qualité (taux d'échec, événements indésirables, EPP, RMM).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le médecin anesthésiste doit être informé par l'opérateur du choix du mode ambulatoire et de la technique opératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'opérateur doit être informé en cas de réserve de l'anesthésiste sur le mode ambulatoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prise en charge anesthésique définie par la RFE SFAR 2009 : jeûne préopératoire de 6 h (solides) et 2 h (liquides clairs sans pulpe ni gaz).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R15a",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour réduire l'incidence des rétentions d'urines, limiter les perfusions intraveineuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R15b",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si rachianesthésie choisie : anesthésique local de courte durée d'action, proscrire tout morphinique intrathécal.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R15c",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prévenir dès la période opératoire la douleur postopératoire (antalgiques et techniques d'infiltration appropriées).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R16",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Informer le médecin traitant du caractère ambulatoire dès la consultation de programmation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R17",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le médecin traitant communique les informations utiles avant l'intervention et reçoit les éléments utiles après (compte-rendu, consignes, ordonnances).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R18",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Expliquer au patient les modalités et recueillir son assentiment ; informer de l'importance de respecter les consignes pré- et postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R19",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La continuité des soins doit être organisée par l'UCA avec l'opérateur et l'anesthésiste, et formalisée par écrit.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R20",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Organiser par anticipation les mesures de sortie (ordonnances, consignes, rendez-vous postopératoire), réévaluées en postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R21",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Délivrer au patient un dossier de liaison sur la nature du geste et les suites prévisibles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R22",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Formaliser une procédure de contact (numéro de téléphone) pour la continuité des soins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R23",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Vérifier la compréhension des consignes préopératoires par appel/SMS avant admission ; contacter le patient après le retour à domicile.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R24",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Informer le patient des signes évoquant une complication (rétention, hémorragie, douleur non contrôlée, fécalome) et de la conduite à tenir.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "2.2 Douleur postopératoire (R25-30)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R25",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Donner en préopératoire une information complète et détaillée sur la douleur postopératoire et sa prise en charge.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R26",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer systématiquement la douleur (échelle EVA/EVS/EN) et la prendre en charge rapidement ; n'autoriser le retour à domicile que si le score est faible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R27a",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier l'analgésie multimodale, notamment par anesthésiques locaux de longue durée d'action (infiltration périnéale et/ou bloc pudendal).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R27b",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Informer le patient sur l'effet et la levée du bloc pudendal — il n'est pas nécessaire d'attendre la levée du bloc pour autoriser la sortie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R28",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier les analgésiques non opiacés (AINS, paracétamol) pour réduire la consommation d'opiacés et leurs effets secondaires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R29",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser les opiacés en cas de contrôle incomplet de la douleur par les non-opiacés et l'analgésie régionale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R30",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Fournir une ordonnance pré-établie dès la consultation ; s'assurer que le patient a anticipé l'achat des antalgiques disponibles à domicile.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "2.3 Rétention d'urines postopératoire (R31-38)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R31",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Informer le patient du risque élevé de rétention et l'évaluer systématiquement (âge, diabète, pathologie neurologique, obstacle uréthro-cervico-prostatique, type de chirurgie et d'anesthésie).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R32",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Obtenir une miction en préopératoire immédiat.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R33",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Limiter les médicaments augmentant le risque (morphiniques, anticholinergiques/néfopam) — tout en contrôlant la douleur, elle-même facteur de risque de rétention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R34",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Limiter les perfusions intraveineuses (cf. R15a — même recommandation, reformulée dans le contexte de la rétention urinaire).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R35",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient à faible risque : pas besoin d'attendre la reprise mictionnelle pour la sortie, sous réserve d'une évaluation du volume vésical.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R36",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient à risque élevé : quantifier la miction et évaluer le résidu post-mictionnel (si possible par échographie) avant la sortie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R37",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de rétention, sondage évacuateur ou maintien d'un cathéter urétral (cf. RPC traitement de la maladie hémorroïdaire, SNFCP 2014).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R38",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Informer le patient de contacter la structure d'hospitalisation en l'absence de miction dans les 12 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Disclosure :</i> R37 et R40 ne portent, dans le texte source, aucun marqueur de grade imprimé (ni « grade A/B/C » ni « AE ») — chippées AE ici par défaut, cohérent avec le reste du document qui ne connaît que ces deux issues (A explicite ou AE), non résolu silencieusement.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "2.6 Risque hémorragique (R39-40)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R39",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La gestion du risque hémorragique doit être une préoccupation majeure de tous les intervenants ; informer patient et médecin traitant du risque précoce et tardif (jusqu'à 3 semaines), surtout après chirurgie hémorroïdaire ou résection de tumeur rectale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R40",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients sous antiplaquettaires/anticoagulants, discuter l'éligibilité à l'ambulatoire et le maintien/relais du traitement entre tous les intervenants (cardiologue, opérateur, anesthésiste).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "2.7 Reprise du transit (R41-43)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R41",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prescrire en préopératoire des laxatifs et une alimentation enrichie en fibres pour améliorer le transit et diminuer la douleur aux premières selles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R42",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Remettre avant l'intervention des conseils écrits en cas de constipation postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R43",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le patient doit contacter un référent médical en l'absence d'évacuation de selles dans les 72 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SNFCP, avec l'ANAP et la SFAR, « Chirurgie ambulatoire en proctologie : texte des recommandations SNFCP », mars 2015. S'appuie sur un document produit par l'Association Française d'Urologie (Cuvelier et al., Progrès en Urologie 2013;23:62-66) et sur la RFE SFAR 2009 sur la prise en charge anesthésique en hospitalisation ambulatoire.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2015 :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des 43 recommandations du texte source, mais ne remplace pas le texte intégral et n'est ni éditée ni validée par la SNFCP/ANAP/SFAR. Les pratiques de chirurgie ambulatoire ayant pu évoluer depuis 2015, se référer à un avis spécialisé et aux recommandations actualisées avant toute décision.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -112,7 +112,8 @@ var RAW = {
   ivg_14sa: JSON.parse(document.getElementById('content-ivg_14sa').textContent),
   aod_programme: JSON.parse(document.getElementById('content-aod_programme').textContent),
   blocs_peripheriques_membres: JSON.parse(document.getElementById('content-blocs_peripheriques_membres').textContent),
-  raac_colorectal: JSON.parse(document.getElementById('content-raac_colorectal').textContent)
+  raac_colorectal: JSON.parse(document.getElementById('content-raac_colorectal').textContent),
+  chir_ambu_proctologie: JSON.parse(document.getElementById('content-chir_ambu_proctologie').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -226,7 +227,8 @@ var FICHE_HREF_MATCH = {
   ivg_14sa: ['prise-en-charge-de-linterruption-volontaire-de-grossesse-jusqua-14-semaines'],
   aod_programme: ['gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme', 'Reactualisation-GIHP_AOD_actes-programmes_Septembre-20151'],
   blocs_peripheriques_membres: ['Les-blocs-peripheriques-des-membres-chez-l-adulte'],
-  raac_colorectal: ['Rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee']
+  raac_colorectal: ['Rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee'],
+  chir_ambu_proctologie: ['RECOCHIRAMBUSNFCP']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1535,6 +1537,18 @@ var DOC_META = {
     methodology: "GRADE (qualité des preuves + force 1+/1-/2+/2-) + vote Delphi indépendant (Accord Fort/Faible) — voir légende dans la fiche",
     pages: 4,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee.pdf"
+  },
+  chir_ambu_proctologie: {
+    key: 'chir_ambu_proctologie',
+    badge: "Accord d'experts",
+    title: "Chirurgie ambulatoire en proctologie",
+    short: "SNFCP, avec l'ANAP et la SFAR, mars 2015. 43 recommandations pour développer la chirurgie proctologique ambulatoire avec les mêmes conditions de qualité et sécurité qu'en hospitalisation traditionnelle — sans définir de liste d'actes éligibles (« ce n'est pas l'acte qui est ambulatoire mais le trio acte/patient/organisation »). 5 champs : parcours de soin et organisation (éligibilité, UCA, rôle du médecin traitant et du patient, continuité des soins), douleur postopératoire, rétention d'urines, risque hémorragique, reprise du transit. Grille à 4 niveaux (A/B/C/AE) mais seules 3 recommandations portent un grade A explicite (limitation des perfusions IV, anesthésique local de courte durée pour la rachianesthésie, analgésie multimodale par AL de longue durée) — le reste relève de l'accord d'experts.",
+    society: "SNFCP / ANAP / SFAR",
+    version: "mars 2015",
+    validated: "Groupe de travail SNFCP, avec relecture d'un médecin généraliste",
+    methodology: "Grille A/B/C/AE (accord d'experts) — voir légende dans la fiche",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2016/08/RECOCHIRAMBUSNFCP-120315.pdf"
   }
 };
 

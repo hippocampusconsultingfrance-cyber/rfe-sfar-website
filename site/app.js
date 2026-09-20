@@ -107,7 +107,8 @@ var RAW = {
   hospit_ambulatoire: JSON.parse(document.getElementById('content-hospit_ambulatoire').textContent),
   echo_alr: JSON.parse(document.getElementById('content-echo_alr').textContent),
   alr_douleur_chronique: JSON.parse(document.getElementById('content-alr_douleur_chronique').textContent),
-  infections_nosocomiales_rea: JSON.parse(document.getElementById('content-infections_nosocomiales_rea').textContent)
+  infections_nosocomiales_rea: JSON.parse(document.getElementById('content-infections_nosocomiales_rea').textContent),
+  nutrition_perioperatoire: JSON.parse(document.getElementById('content-nutrition_perioperatoire').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -216,7 +217,8 @@ var FICHE_HREF_MATCH = {
   hospit_ambulatoire: ['prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire'],
   echo_alr: ['echographie-en-anesthesie-locoregionale'],
   alr_douleur_chronique: ['techniques-analgesiques-locoregionales-et-douleur-chronique'],
-  infections_nosocomiales_rea: ['prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus']
+  infections_nosocomiales_rea: ['prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus'],
+  nutrition_perioperatoire: ['recommandations-de-bonnes-pratiques-cliniques-sur-la-nutrition-perioperatoire']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1465,6 +1467,18 @@ var DOC_META = {
     methodology: "Inspirée de GRADE, formulée en locutions verbales plutôt qu'en symboles imprimés — voir légende dans la fiche",
     pages: 9,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus.pdf"
+  },
+  nutrition_perioperatoire: {
+    key: 'nutrition_perioperatoire',
+    badge: 'Avis d\'experts',
+    title: "Nutrition périopératoire (chirurgie programmée)",
+    short: "Actualisation 2010 SFAR/SFNEP de la Conférence de Consensus 1994 sur la nutrition artificielle périopératoire — étendue à la prise en charge nutritionnelle globale (orale + assistance) de l'adulte en chirurgie programmée. Distinct de la fiche « Nutrition artificielle en réanimation » (SFAR/SRLF/SFNEP RFE 2014, patients de réanimation). Méthode avis d'experts non formalisée, rédigée selon les déclinaisons de force Sfar/GRADE (fort/faible) explicitement définies par la source. 71 recommandations numérotées (R1-R71) sur 6 champs : évaluation de l'état nutritionnel (facteurs de risque, seuils diagnostiques de dénutrition, grade nutritionnel GN1-4), nutrition pré- et postopératoire, pharmaconutrition (immunonutrition, glutamine, oméga-3), obésité et chirurgie (dont bariatrique), diabète. Tableaux 3-6 (protocoles croisés GN × sous-groupe) condensés en synthèse — portée partielle disclosed.",
+    society: "SFAR / SFNEP",
+    version: "2010 (publié 2011)",
+    validated: "Actualisation de la Conférence de Consensus 1994",
+    methodology: "Avis d'experts non formalisée, rédigée selon les déclinaisons de force Sfar/GRADE (fort/faible) — voir légende dans la fiche",
+    pages: 9,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Nutrition-artificielle-perioperatoire-en-chirurgie-programmee-de-ladulte.pdf"
   }
 };
 

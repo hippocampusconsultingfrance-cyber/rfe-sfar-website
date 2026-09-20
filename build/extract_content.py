@@ -2005,6 +2005,29 @@ def extract_infections_nosocomiales_rea():
     return {"doc": "infections_nosocomiales_rea", "sections": blocks}
 
 
+def extract_nutrition_perioperatoire():
+    import style
+    import fiche_nutrition_perioperatoire as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "nutrition_perioperatoire", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2902,3 +2925,12 @@ if __name__ == "__main__":
         json.dump(infections_nosocomiales_rea, f, ensure_ascii=False, indent=1)
     print("infections_nosocomiales_rea sections:", len(infections_nosocomiales_rea["sections"]),
           "total blocks:", sum(len(s["items"]) for s in infections_nosocomiales_rea["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    nutrition_perioperatoire = extract_nutrition_perioperatoire()
+    with open(os.path.join(BUILD_DIR, "content_nutrition_perioperatoire.json"), "w") as f:
+        json.dump(nutrition_perioperatoire, f, ensure_ascii=False, indent=1)
+    print("nutrition_perioperatoire sections:", len(nutrition_perioperatoire["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in nutrition_perioperatoire["sections"]))

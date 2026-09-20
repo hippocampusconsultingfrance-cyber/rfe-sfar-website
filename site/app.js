@@ -106,7 +106,8 @@ var RAW = {
   alr_pediatrie: JSON.parse(document.getElementById('content-alr_pediatrie').textContent),
   hospit_ambulatoire: JSON.parse(document.getElementById('content-hospit_ambulatoire').textContent),
   echo_alr: JSON.parse(document.getElementById('content-echo_alr').textContent),
-  alr_douleur_chronique: JSON.parse(document.getElementById('content-alr_douleur_chronique').textContent)
+  alr_douleur_chronique: JSON.parse(document.getElementById('content-alr_douleur_chronique').textContent),
+  infections_nosocomiales_rea: JSON.parse(document.getElementById('content-infections_nosocomiales_rea').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -214,7 +215,8 @@ var FICHE_HREF_MATCH = {
   alr_pediatrie: ['anesthesie-loco-regionale-en-pediatrie'],
   hospit_ambulatoire: ['prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire'],
   echo_alr: ['echographie-en-anesthesie-locoregionale'],
-  alr_douleur_chronique: ['techniques-analgesiques-locoregionales-et-douleur-chronique']
+  alr_douleur_chronique: ['techniques-analgesiques-locoregionales-et-douleur-chronique'],
+  infections_nosocomiales_rea: ['prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1451,6 +1453,18 @@ var DOC_META = {
     methodology: "GRADE (qualité des preuves à 4 catégories, force forte/faible par vote Delphi) + avis d'experts + 9 énoncés « aucune recommandation possible » distincts d'un grade négatif (disclosed, voir fiche)",
     pages: 10,
     url: "https://sfar.org/wp-content/uploads/2015/10/2a_AFAR_Techniques-analgesiques-locoregionales-et-douleur-chronique.pdf"
+  },
+  infections_nosocomiales_rea: {
+    key: 'infections_nosocomiales_rea',
+    badge: 'Sans cotation',
+    title: "Prévention des infections nosocomiales en réanimation",
+    short: "5e Conférence de Consensus SFAR/SRLF (2008/2009) — transmission croisée et nouveau-né explicitement exclus du champ. Le texte s'inspire de GRADE mais n'imprime jamais de symbole : force portée par la locution verbale elle-même (« il faut »/« il faut probablement »), transcrite ici en chips 1+/1-/2+/2- (correspondance explicitement énoncée par la source) + un chip « 0/ » pour les 3 énoncés où le jury déclare explicitement ne pouvoir se prononcer faute de données. Cinq questions : épidémiologie et définitions (critères diagnostiques CTINILS des pneumopathies, infections urinaires, bactériémies, ILC, ISO ; épidémiologie REA Raisin 2006), organisation architecturale, impact de l'antibiothérapie (désescalade, durée, rotation/mélange), préventions spécifiques (PAVM, infection urinaire, cathéters, site opératoire, Clostridium difficile), stratégie globale.",
+    society: "SFAR / SRLF",
+    version: "2008 (en ligne 2009)",
+    validated: "5e Conférence de Consensus, Président du jury : J. Duranteau",
+    methodology: "Inspirée de GRADE, formulée en locutions verbales plutôt qu'en symboles imprimés — voir légende dans la fiche",
+    pages: 9,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus.pdf"
   }
 };
 

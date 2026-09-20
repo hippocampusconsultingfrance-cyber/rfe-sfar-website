@@ -2166,6 +2166,29 @@ def extract_mieux_vivre_reanimation():
     return {"doc": "mieux_vivre_reanimation", "sections": blocks}
 
 
+def extract_preparation_colique():
+    import style
+    import fiche_preparation_colique as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "preparation_colique", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -3126,3 +3149,12 @@ if __name__ == "__main__":
         json.dump(mieux_vivre_reanimation, f, ensure_ascii=False, indent=1)
     print("mieux_vivre_reanimation sections:", len(mieux_vivre_reanimation["sections"]),
           "total blocks:", sum(len(s["items"]) for s in mieux_vivre_reanimation["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    preparation_colique = extract_preparation_colique()
+    with open(os.path.join(BUILD_DIR, "content_preparation_colique.json"), "w") as f:
+        json.dump(preparation_colique, f, ensure_ascii=False, indent=1)
+    print("preparation_colique sections:", len(preparation_colique["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in preparation_colique["sections"]))

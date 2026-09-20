@@ -114,7 +114,8 @@ var RAW = {
   blocs_peripheriques_membres: JSON.parse(document.getElementById('content-blocs_peripheriques_membres').textContent),
   raac_colorectal: JSON.parse(document.getElementById('content-raac_colorectal').textContent),
   chir_ambu_proctologie: JSON.parse(document.getElementById('content-chir_ambu_proctologie').textContent),
-  mieux_vivre_reanimation: JSON.parse(document.getElementById('content-mieux_vivre_reanimation').textContent)
+  mieux_vivre_reanimation: JSON.parse(document.getElementById('content-mieux_vivre_reanimation').textContent),
+  preparation_colique: JSON.parse(document.getElementById('content-preparation_colique').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -230,7 +231,8 @@ var FICHE_HREF_MATCH = {
   blocs_peripheriques_membres: ['Les-blocs-peripheriques-des-membres-chez-l-adulte'],
   raac_colorectal: ['Rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee'],
   chir_ambu_proctologie: ['RECOCHIRAMBUSNFCP'],
-  mieux_vivre_reanimation: ['Mieux-vivre-la-reanimation']
+  mieux_vivre_reanimation: ['Mieux-vivre-la-reanimation'],
+  preparation_colique: ['preparation-colique-anesthesie-generale']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1563,6 +1565,18 @@ var DOC_META = {
     methodology: "Locutions modales (il faut/il faut probablement/il est/il est possible) + sigle RC — voir légende dans la fiche",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Mieux-vivre-la-reanimation.pdf"
+  },
+  preparation_colique: {
+    key: 'preparation_colique',
+    badge: "Position commune",
+    title: "Préparation colique et anesthésie générale",
+    short: "SFED/SFAR, position commune, validée 7 juillet 2016 (SFED) / 21 septembre 2016 (SFAR). La qualité de la préparation colique conditionne le taux d'intubation caecale et le taux de détection d'adénomes en coloscopie — la grande majorité des coloscopies françaises se fait sous anesthésie générale. Prise fractionnée avec pause nocturne supérieure pour une coloscopie du matin ; délai optimal de 3 à 5 h entre fin de purge et début d'examen. Un délai de 3 h entre dernière prise de préparation et induction anesthésique est jugé sûr (liquides de préparation assimilés à des liquides clairs, volume gastrique résiduel non majoré). Liste des situations ralentissant la vidange gastrique et tableau pratique des délais de jeûne selon l'horaire de la coloscopie (Tableaux I et II), reproduits intégralement. Précautions hydro-électrolytiques : phosphate de sodium contre-indiqué avant 18 ans et après 65 ans (risque d'hyperphosphatémie/hyponatrémie), PEG mieux toléré en cas d'insuffisance rénale/hépatique/cardiaque.",
+    society: "SFED / SFAR",
+    version: "2016",
+    validated: "Position commune des conseils d'administration SFED (7 juillet 2016) et SFAR (21 septembre 2016)",
+    methodology: "Texte narratif de synthèse de la littérature — pas de grille GRADE ni de recommandations numérotées",
+    pages: 2,
+    url: "https://sfar.org/wp-content/uploads/2019/04/preparation-colique-anesthesie-generale.pdf"
   }
 };
 

@@ -228,6 +228,8 @@ with open(os.path.join(BASE, "content_chir_ambu_proctologie.json"), encoding="ut
     content_chir_ambu_proctologie = f.read()
 with open(os.path.join(BASE, "content_mieux_vivre_reanimation.json"), encoding="utf-8") as f:
     content_mieux_vivre_reanimation = f.read()
+with open(os.path.join(BASE, "content_preparation_colique.json"), encoding="utf-8") as f:
+    content_preparation_colique = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -347,6 +349,7 @@ out = out.replace("__CONTENT_BLOCS_PERIPHERIQUES_MEMBRES__", safe(content_blocs_
 out = out.replace("__CONTENT_RAAC_COLORECTAL__", safe(content_raac_colorectal))
 out = out.replace("__CONTENT_CHIR_AMBU_PROCTOLOGIE__", safe(content_chir_ambu_proctologie))
 out = out.replace("__CONTENT_MIEUX_VIVRE_REANIMATION__", safe(content_mieux_vivre_reanimation))
+out = out.replace("__CONTENT_PREPARATION_COLIQUE__", safe(content_preparation_colique))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

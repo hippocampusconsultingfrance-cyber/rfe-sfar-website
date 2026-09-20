@@ -115,7 +115,8 @@ var RAW = {
   raac_colorectal: JSON.parse(document.getElementById('content-raac_colorectal').textContent),
   chir_ambu_proctologie: JSON.parse(document.getElementById('content-chir_ambu_proctologie').textContent),
   mieux_vivre_reanimation: JSON.parse(document.getElementById('content-mieux_vivre_reanimation').textContent),
-  preparation_colique: JSON.parse(document.getElementById('content-preparation_colique').textContent)
+  preparation_colique: JSON.parse(document.getElementById('content-preparation_colique').textContent),
+  organisation_ar_obstetricale: JSON.parse(document.getElementById('content-organisation_ar_obstetricale').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -232,7 +233,8 @@ var FICHE_HREF_MATCH = {
   raac_colorectal: ['Rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee'],
   chir_ambu_proctologie: ['RECOCHIRAMBUSNFCP'],
   mieux_vivre_reanimation: ['Mieux-vivre-la-reanimation'],
-  preparation_colique: ['preparation-colique-anesthesie-generale']
+  preparation_colique: ['preparation-colique-anesthesie-generale'],
+  organisation_ar_obstetricale: ['RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1577,6 +1579,18 @@ var DOC_META = {
     methodology: "Texte narratif de synthèse de la littérature — pas de grille GRADE ni de recommandations numérotées",
     pages: 2,
     url: "https://sfar.org/wp-content/uploads/2019/04/preparation-colique-anesthesie-generale.pdf"
+  },
+  organisation_ar_obstetricale: {
+    key: 'organisation_ar_obstetricale',
+    badge: "Recommandations professionnelles",
+    title: "Organisation de l'anesthésie-réanimation obstétricale",
+    short: "Ducloy-Bouthors AS, Tourres J, Malinovsky JM, pour le groupe d'experts de la Sfar et des sociétés associées (Caro, CNGOF, CNSF, Société française de néonatologie), Recommandations Professionnelles, texte validé par le Conseil d'administration de la Sfar le 11 décembre 2015, Anesth Réanim 2016;2:206-212. 30 recommandations (RP1 à RP4.6) portant sur l'organisation des locaux/équipements, des personnels/effectifs/permanence de soins, du parcours de soins (consultation préanesthésique, analgésie en salle de travail, anesthésie-réanimation en salle d'intervention, réanimation du nouveau-né, surveillance post-anesthésique, réhabilitation post-partum, surveillance continue/réanimation) et de la qualité des soins/formation/évaluation. Cotation Delphi : accord fort obtenu pour les 30 recommandations (100 %). Les recommandations relevant en outre d'une disposition légale ou réglementaire sont signalées d'un astérisque, convention reprise du texte source. Inclut l'Annexe 1 (soins maternels de recours) reproduite intégralement.",
+    society: "SFAR / Caro / CNGOF / CNSF / Société française de néonatologie",
+    version: "11 décembre 2015 (publié 2016)",
+    validated: "Groupe d'experts Sfar et sociétés associées, cotation Delphi (échelle 1-9, 2 tours)",
+    methodology: "Accord Fort (Delphi, 100 % des 30 RP) + astérisque pour les dispositions légales — pas de grille GRADE",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2018/03/RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale.pdf"
   }
 };
 

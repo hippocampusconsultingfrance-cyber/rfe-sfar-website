@@ -1,0 +1,824 @@
+{
+ "doc": "organisation_ar_obstetricale",
+ "sections": [
+  {
+   "title": "Locaux, personnels, parcours de soins, qualité, annexe & sources",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> ces 30 Recommandations Professionnelles (RP) portent sur l'organisation de l'anesthésie, de l'analgésie et de la réanimation dans les établissements habilités à pratiquer l'obstétrique. Objectif : réduire la morbidité maternelle par une prise en charge pluridisciplinaire et multiprofessionnelle coordonnée (obstétricien, sage-femme, anesthésiste-réanimateur, pédiatre, IADE, IBODE...). Élaborées avec le Caro, le CNGOF, le CNSF et la Société française de néonatologie.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "AF"
+       },
+       {
+        "t": "p",
+        "html": "<b>AF = Accord Fort</b> — cotation Delphi (échelle 1-9, 2 tours) : accord fort obtenu pour les 30 recommandations (100 %), aucune recommandation à accord faible. Les références suivies d'un <b>astérisque (*)</b> relèvent en outre d'une <b>disposition légale ou réglementaire</b> (décret/arrêté cité dans le texte source) — convention reprise telle quelle du texte source.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Locaux, équipements et matériels",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP1*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chaque établissement habilité à exercer l'obstétrique dispose des locaux/équipements nécessaires : accès permanent à ≥ 1 salle d'intervention dédiée à la chirurgie obstétricale d'urgence, contiguë au secteur de naissance ; équipement d'analgésie/anesthésie-réanimation obstétricales conforme au décret n°94-1050 dans chaque salle d'accouchement (fixe et/ou chariot mobile) ; chariot d'urgence adapté aux situations critiques obstétricales ; accès aux produits sanguins labiles/stables ; procédures de vérification, maintenance et matériovigilance tracées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Personnels, effectifs et permanence de soins",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP2.1*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Quel que soit le nombre d'accouchements, l'anesthésiste-réanimateur doit être disponible dans des délais compatibles avec l'impératif de sécurité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'anesthésiste-réanimateur dispose de l'assistance d'un ou plusieurs personnels supplémentaires pour l'activité non programmée (options : 2e anesthésiste, anesthésiste en formation, IADE, IDE formé(e) à la SSPI, personnel médical/paramédical obstétrical) — identifié(s) quotidiennement dans la charte de fonctionnement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'adéquation des ressources humaines dédiées à l'obstétrique tient compte : du nombre d'accouchements et des épisodes de suractivité/charge des grossesses à haut risque (effectifs des consultations préanesthésiques comptés séparément) ; de l'identification et de la hiérarchisation des situations à risque (patiente, tâches, compétence, équipe, environnement, organisation).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ces ressources sont revues à périodicité définie de 2 ans maximum, selon les résultats de l'analyse des événements indésirables associés aux soins (EIAS) et l'évolution du nombre annuel d'accouchements.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Anticiper et optimiser la sécurité de la prise en charge par une mise à disposition de ressources d'anesthésie-réanimation identifiées et organisées au sein de chaque structure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP2.5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si activité < 2000 accouchements/an et anesthésiste non dédié : organisation hiérarchisée assurant sécurité/continuité des soins dans les secteurs mutualisés, avec priorité à l'obstétrique urgente.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP2.5.2*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si activité > 2000 accouchements/an : l'anesthésiste-réanimateur doit être dédié au secteur naissance (décret n°98-900).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP2.5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Au-delà de 2000 accouchements/an : personnel soignant suffisant + organisation écrite, connue et validée de renfort ponctuel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP2.6*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ces organisations sont opérationnelles 24 h/24 pour assurer la continuité et la permanence des soins.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Parcours de soins — Procédures",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Consultation préanesthésique</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.1*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Consultation préanesthésique obligatoire et réglementaire : évaluer le risque anesthésique, proposer une stratégie analgésique/anesthésique, informer la patiente ; visite préanesthésique avant l'acte.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de consultation/visite préanesthésique : interrogatoire + examen clinique minimal compatible avec le degré d'urgence, en s'assurant de l'absence de contre-indication apparente au geste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Analgésie en salle de travail</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédure d'analgésie obstétricale (périmédullaire ou autre) organisée et consignée dans la charte : demande relayée par sage-femme/obstétricien ; personnels identifiés pour la mise en place, l'entretien et la surveillance mère/fœtus ; protocoles écrits de gestion des complications ; modalités de retrait du cathéter et surveillance du post-partum.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Anesthésie-réanimation en salle d'intervention (chirurgie obstétricale)</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.4*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Appliquer et consigner dans la charte du bloc/secteur de naissance les directives des décrets n°94-1050 et n°98-900.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Établir avec l'équipe obstétricale un code de communication définissant clairement le degré d'urgence de l'intervention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.6*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le dossier d'anesthésie-réanimation comporte la consultation préanesthésique et l'ensemble des données/événements liés à la patiente, à l'intervention et à l'analgésie/anesthésie — partie intégrante du dossier médical.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Réanimation du nouveau-né en salle de naissance/césarienne</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Identifier avant chaque naissance un membre de l'équipe pour accueillir le nouveau-né ; présence anticipée d'un pédiatre formé si risque materno-fœtal. À défaut en situation urgente, l'anesthésiste-réanimateur peut participer aux premiers soins/initier la réanimation néonatale en attendant l'équipe pédiatrique (formation à la réanimation néonatale souhaitable).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Surveillance post-anesthésique et post-interventionnelle</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.8*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance postanesthésique continue, par personnel dédié et formé ; communication organisée avec l'équipe obstétricale, décisions écrites.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.9*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance effectuée en SSPI (proche de la salle dédiée aux césariennes, ou centralisée avec personnel dédié 24 h/24) ou en salle de travail si personnel dédié et formé présent.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Organisation de cette surveillance prévue et écrite dans la charte du secteur de naissance.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dispositions architecturales et procédures favorisant la relation mère-père-nouveau-né ; modalités de surveillance du nouveau-né précisées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Réhabilitation post-partum</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prise en charge de la douleur et programme de réhabilitation rapide pluridisciplinaire après accouchement (voie basse ou césarienne).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Surveillance continue et réanimation en obstétrique</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Anticiper/organiser la surveillance continue des patientes à risque de défaillance d'organe (pathologie obstétricale sévère ou maternelle compliquée par la grossesse) ; orientation vers une unité de réanimation adulte selon convention établie si l'établissement n'en dispose pas.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP3.14*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La convention précise le partage du dossier et de la feuille de surveillance, la traçabilité des produits sanguins administrés, les critères et conditions du transfert.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Qualité des soins — Formation — Évaluation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Consensus",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place des protocoles de soins et des démarches d'évaluation/amélioration de la qualité en équipe par analyses de morbimortalité (équipe médicale et paramédicale d'anesthésie-réanimation obstétricale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place ces démarches de gestion des risques interdisciplinaires et pluriprofessionnelles incluant les personnels d'anesthésie-réanimation, au sein du réseau de périnatalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP4.3*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prévoir les orientations et modalités de transfert entre maternités selon les recommandations HAS 2012 (transferts in utero) et la circulaire du 21 juin 2006.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP4.4*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Consigner dans la convention les conditions de prise en charge anesthésique des patientes transférées d'une maison de naissance expérimentale (consultation d'anesthésie, procédure opérationnelle, gestion des risques a priori).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP4.5*",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans le cadre du DPC, actualiser les compétences et participer à l'évaluation des pratiques professionnelles individuelles et collectives, dont les revues de morbimortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RP4.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place des démarches d'évaluation/amélioration de la qualité en équipe : procédures validées de situation de crise (césarienne urgente code couleur, check-list), analyse des EIAS en RMM/CREX, formation en équipe à la communication et à la simulation, suivi d'indicateurs (IPAQSS, taux d'HPP grave, taux de transfusion, taux de césarienne, délai décision-incision).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Annexe 1 — Soins maternels de recours",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Les soins maternels de recours définissent l'accès aux soins d'urgence et de réanimation maternelle, indépendamment du type de soins de néonatologie — une pathologie maternelle et fœtale simultanée conduit à les associer comme éléments d'orientation du transfert. Conditions opérationnelles, à titre indicatif :",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "&bull; Équipe de recours d'anesthésie-réanimation dédiée aux situations obstétricales critiques et détachable des soins cliniques courants<br/>&bull; Salle d'intervention chirurgicale accessible et disponible 24 h/24<br/>&bull; Procédures et protocoles multidisciplinaires pour pathologies préexistantes à la grossesse et pathologies gravidiques<br/>&bull; Moyens de communication téléphoniques, fax et informatiques<br/>&bull; Laboratoire d'immunohématologie<br/>&bull; Stock de concentrés érythrocytaires d'urgence vitale + procédure de réapprovisionnement à partir d'un dépôt conventionné<br/>&bull; Centre de réanimation adulte conventionné (composante réanimation obstétricale ou unité de soins continus maternels)<br/>&bull; Centre d'embolisation<br/>&bull; Organisation en réseau de santé en périnatalité incluant les SAMU, prévoyant et régulant les procédures de transfert et d'orientation",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Ducloy-Bouthors AS, Tourres J, Malinovsky JM, pour le groupe d'experts de la Sfar et des sociétés/groupements professionnels associés (Caro, CNGOF, CNSF, SFN), « Organisation de l'anesthésie-réanimation obstétricale », Recommandations Professionnelles, texte validé par le Conseil d'administration de la Sfar le 11 décembre 2015, Anesth Réanim 2016;2:206-212. 9 références bibliographiques et textes réglementaires cités dans le texte intégral (non reproduits ici).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 30 Recommandations Professionnelles et l'Annexe 1 du texte source, mais condense le préambule méthodologique et omet la liste nominative des experts. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la Sfar. Le cadre réglementaire cité (décrets de 1994/1998, circulaire de 2006) date de la publication (2016) — vérifier l'actualité des textes réglementaires avant application.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

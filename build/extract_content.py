@@ -2189,6 +2189,29 @@ def extract_preparation_colique():
     return {"doc": "preparation_colique", "sections": blocks}
 
 
+def extract_organisation_ar_obstetricale():
+    import style
+    import fiche_organisation_ar_obstetricale as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "organisation_ar_obstetricale", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -3158,3 +3181,12 @@ if __name__ == "__main__":
         json.dump(preparation_colique, f, ensure_ascii=False, indent=1)
     print("preparation_colique sections:", len(preparation_colique["sections"]),
           "total blocks:", sum(len(s["items"]) for s in preparation_colique["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    organisation_ar_obstetricale = extract_organisation_ar_obstetricale()
+    with open(os.path.join(BUILD_DIR, "content_organisation_ar_obstetricale.json"), "w") as f:
+        json.dump(organisation_ar_obstetricale, f, ensure_ascii=False, indent=1)
+    print("organisation_ar_obstetricale sections:", len(organisation_ar_obstetricale["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in organisation_ar_obstetricale["sections"]))

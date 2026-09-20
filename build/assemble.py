@@ -206,6 +206,8 @@ with open(os.path.join(BASE, "content_examens_pertinence_rea.json"), encoding="u
     content_examens_pertinence_rea = f.read()
 with open(os.path.join(BASE, "content_alr_pediatrie.json"), encoding="utf-8") as f:
     content_alr_pediatrie = f.read()
+with open(os.path.join(BASE, "content_hospit_ambulatoire.json"), encoding="utf-8") as f:
+    content_hospit_ambulatoire = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -314,6 +316,7 @@ out = out.replace("__CONTENT_TESTS_VISCOELASTIQUES__", safe(content_tests_viscoe
 out = out.replace("__CONTENT_EEG_CORTICAL__", safe(content_eeg_cortical))
 out = out.replace("__CONTENT_EXAMENS_PERTINENCE_REA__", safe(content_examens_pertinence_rea))
 out = out.replace("__CONTENT_ALR_PEDIATRIE__", safe(content_alr_pediatrie))
+out = out.replace("__CONTENT_HOSPIT_AMBULATOIRE__", safe(content_hospit_ambulatoire))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

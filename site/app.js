@@ -103,7 +103,8 @@ var RAW = {
   tests_viscoelastiques: JSON.parse(document.getElementById('content-tests_viscoelastiques').textContent),
   eeg_cortical: JSON.parse(document.getElementById('content-eeg_cortical').textContent),
   examens_pertinence_rea: JSON.parse(document.getElementById('content-examens_pertinence_rea').textContent),
-  alr_pediatrie: JSON.parse(document.getElementById('content-alr_pediatrie').textContent)
+  alr_pediatrie: JSON.parse(document.getElementById('content-alr_pediatrie').textContent),
+  hospit_ambulatoire: JSON.parse(document.getElementById('content-hospit_ambulatoire').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -208,7 +209,8 @@ var FICHE_HREF_MATCH = {
   tests_viscoelastiques: ['tests-viscoelastiques-2018'],
   eeg_cortical: ['monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-leeg-cortical'],
   examens_pertinence_rea: ['pertinence-de-la-prescription-des-examens-biologiques-et-de-la-radiographie-thoracique-en-reanimation'],
-  alr_pediatrie: ['anesthesie-loco-regionale-en-pediatrie']
+  alr_pediatrie: ['anesthesie-loco-regionale-en-pediatrie'],
+  hospit_ambulatoire: ['prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1409,6 +1411,18 @@ var DOC_META = {
     methodology: "Méthode GRADE quand pertinente, sinon accord professionnel (méthode Groupe Nominal adaptée RAND/UCLA) — force encodée directement dans le verbe de chaque recommandation (forte/optionnelle), pas de grille de lettres A-E",
     pages: 13,
     url: "https://sfar.org/wp-content/uploads/2015/09/2_SFAR_Anesthesie-loco-regionale-en-pediatrie.pdf"
+  },
+  hospit_ambulatoire: {
+    key: 'hospit_ambulatoire',
+    badge: 'Sans cotation',
+    title: "Prise en charge anesthésique en hospitalisation ambulatoire",
+    short: "Recommandations Formalisées d'Experts (RFE) SFAR, 2009 (Ann Fr Anesth Réanim 29 (2010) 67-72). Aucune grille de cotation imprimée (ni GRADE, ni RAND/UCLA) — force de chaque recommandation déduite du seul verbe modal introduisant l'énoncé : « il est recommandé » (forte, R), « il est souhaitable » (intermédiaire, S), « il est possible » (permissif, P), « il n'est pas recommandé » (négatif, N). 71 recommandations réparties en 11 questions : définitions, critères d'éligibilité (triptyque acte-patient-structure), information du patient, choix de la technique d'anesthésie, prise en charge des suites opératoires (douleur, prévention thromboembolique, NVPO), modalités de sortie, coordination et continuité des soins, évaluation et gestion des risques, spécificités liées à l'âge (pédiatrie, gériatrie), spécificités organisationnelles et spatiales, responsabilité de l'anesthésiste-réanimateur.",
+    society: "SFAR",
+    version: "2009 (publié 2010)",
+    validated: "Recommandations Formalisées d'Experts, SFAR",
+    methodology: "Aucune grille de cotation scientifique imprimée — force déduite du verbe modal introduisant chaque recommandation (convention bespoke propre à ce document)",
+    pages: 6,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire.pdf"
   }
 };
 

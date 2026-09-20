@@ -1913,6 +1913,29 @@ def extract_alr_pediatrie():
     return {"doc": "alr_pediatrie", "sections": blocks}
 
 
+def extract_hospit_ambulatoire():
+    import style
+    import fiche_hospit_ambulatoire as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "hospit_ambulatoire", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2774,3 +2797,12 @@ if __name__ == "__main__":
         json.dump(alr_pediatrie, f, ensure_ascii=False, indent=1)
     print("alr_pediatrie sections:", len(alr_pediatrie["sections"]),
           "total blocks:", sum(len(s["items"]) for s in alr_pediatrie["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    hospit_ambulatoire = extract_hospit_ambulatoire()
+    with open(os.path.join(BUILD_DIR, "content_hospit_ambulatoire.json"), "w") as f:
+        json.dump(hospit_ambulatoire, f, ensure_ascii=False, indent=1)
+    print("hospit_ambulatoire sections:", len(hospit_ambulatoire["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in hospit_ambulatoire["sections"]))

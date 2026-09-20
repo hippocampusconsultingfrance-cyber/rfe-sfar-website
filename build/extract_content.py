@@ -2028,6 +2028,29 @@ def extract_nutrition_perioperatoire():
     return {"doc": "nutrition_perioperatoire", "sections": blocks}
 
 
+def extract_ivg_14sa():
+    import style
+    import fiche_ivg_14sa as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "ivg_14sa", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2934,3 +2957,12 @@ if __name__ == "__main__":
         json.dump(nutrition_perioperatoire, f, ensure_ascii=False, indent=1)
     print("nutrition_perioperatoire sections:", len(nutrition_perioperatoire["sections"]),
           "total blocks:", sum(len(s["items"]) for s in nutrition_perioperatoire["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    ivg_14sa = extract_ivg_14sa()
+    with open(os.path.join(BUILD_DIR, "content_ivg_14sa.json"), "w") as f:
+        json.dump(ivg_14sa, f, ensure_ascii=False, indent=1)
+    print("ivg_14sa sections:", len(ivg_14sa["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in ivg_14sa["sections"]))

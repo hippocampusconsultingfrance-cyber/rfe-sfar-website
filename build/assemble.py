@@ -216,6 +216,8 @@ with open(os.path.join(BASE, "content_infections_nosocomiales_rea.json"), encodi
     content_infections_nosocomiales_rea = f.read()
 with open(os.path.join(BASE, "content_nutrition_perioperatoire.json"), encoding="utf-8") as f:
     content_nutrition_perioperatoire = f.read()
+with open(os.path.join(BASE, "content_ivg_14sa.json"), encoding="utf-8") as f:
+    content_ivg_14sa = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -329,6 +331,7 @@ out = out.replace("__CONTENT_ECHO_ALR__", safe(content_echo_alr))
 out = out.replace("__CONTENT_ALR_DOULEUR_CHRONIQUE__", safe(content_alr_douleur_chronique))
 out = out.replace("__CONTENT_INFECTIONS_NOSOCOMIALES_REA__", safe(content_infections_nosocomiales_rea))
 out = out.replace("__CONTENT_NUTRITION_PERIOPERATOIRE__", safe(content_nutrition_perioperatoire))
+out = out.replace("__CONTENT_IVG_14SA__", safe(content_ivg_14sa))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

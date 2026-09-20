@@ -108,7 +108,8 @@ var RAW = {
   echo_alr: JSON.parse(document.getElementById('content-echo_alr').textContent),
   alr_douleur_chronique: JSON.parse(document.getElementById('content-alr_douleur_chronique').textContent),
   infections_nosocomiales_rea: JSON.parse(document.getElementById('content-infections_nosocomiales_rea').textContent),
-  nutrition_perioperatoire: JSON.parse(document.getElementById('content-nutrition_perioperatoire').textContent)
+  nutrition_perioperatoire: JSON.parse(document.getElementById('content-nutrition_perioperatoire').textContent),
+  ivg_14sa: JSON.parse(document.getElementById('content-ivg_14sa').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -218,7 +219,8 @@ var FICHE_HREF_MATCH = {
   echo_alr: ['echographie-en-anesthesie-locoregionale'],
   alr_douleur_chronique: ['techniques-analgesiques-locoregionales-et-douleur-chronique'],
   infections_nosocomiales_rea: ['prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus'],
-  nutrition_perioperatoire: ['recommandations-de-bonnes-pratiques-cliniques-sur-la-nutrition-perioperatoire']
+  nutrition_perioperatoire: ['recommandations-de-bonnes-pratiques-cliniques-sur-la-nutrition-perioperatoire'],
+  ivg_14sa: ['prise-en-charge-de-linterruption-volontaire-de-grossesse-jusqua-14-semaines']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1479,6 +1481,18 @@ var DOC_META = {
     methodology: "Avis d'experts non formalisée, rédigée selon les déclinaisons de force Sfar/GRADE (fort/faible) — voir légende dans la fiche",
     pages: 9,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Nutrition-artificielle-perioperatoire-en-chirurgie-programmee-de-ladulte.pdf"
+  },
+  ivg_14sa: {
+    key: 'ivg_14sa',
+    badge: 'ANAES A/B/C',
+    title: "Prise en charge de l'IVG jusqu'à 14 semaines",
+    short: "ANAES, mars 2001 (mise à jour partielle déc. 2010 par la HAS pour l'IVG médicamenteuse uniquement — non incluse ici, voir avertissement dans la fiche). Organisation des structures, accueil, consultations pré-IVG, choix de la technique (chirurgicale ou médicamenteuse) et du mode d'anesthésie selon l'âge gestationnel, prise en charge de la douleur, prévention des complications infectieuses et de l'incompatibilité Rhésus, suites et suivi post-IVG. Grille ANAES à 3 niveaux (A/B/C) ; 8 énoncés gradés explicitement, le reste relevant de l'accord professionnel (AP) par défaut selon la convention du texte source. Disclosure : le PDF source signale des passages modifiés en 2010 « en rouge », information de couleur non récupérable à l'extraction texte — non résolue silencieusement, voir la fiche.",
+    society: "ANAES / HAS",
+    version: "mars 2001 (màj partielle déc. 2010)",
+    validated: "ANCIC, ANSFL, CNGE, CNGOF, planning familial, Fédération Française de Psychiatrie, SFAR, SFMG, SFTG",
+    methodology: "Grille ANAES A/B/C (grade A/B/C explicite) + accord professionnel (AP) par défaut — voir légende dans la fiche",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_ANAES_Prise-en-charge-de-l-interruption-volontaire-de-grossesse-jusqu-a-14-semaines.pdf"
   }
 };
 

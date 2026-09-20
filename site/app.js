@@ -117,7 +117,8 @@ var RAW = {
   mieux_vivre_reanimation: JSON.parse(document.getElementById('content-mieux_vivre_reanimation').textContent),
   preparation_colique: JSON.parse(document.getElementById('content-preparation_colique').textContent),
   organisation_ar_obstetricale: JSON.parse(document.getElementById('content-organisation_ar_obstetricale').textContent),
-  erreurs_medicamenteuses_ar_2016: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_ar_2016').textContent)
+  erreurs_medicamenteuses_ar_2016: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_ar_2016').textContent),
+  anesth_pediatrique_structures: JSON.parse(document.getElementById('content-anesth_pediatrique_structures').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -236,7 +237,8 @@ var FICHE_HREF_MATCH = {
   mieux_vivre_reanimation: ['Mieux-vivre-la-reanimation'],
   preparation_colique: ['preparation-colique-anesthesie-generale'],
   organisation_ar_obstetricale: ['RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale'],
-  erreurs_medicamenteuses_ar_2016: ['texte-court-preco-erreurs-med-2016']
+  erreurs_medicamenteuses_ar_2016: ['texte-court-preco-erreurs-med-2016'],
+  anesth_pediatrique_structures: ['Recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1605,6 +1607,18 @@ var DOC_META = {
     methodology: "10 préconisations narratives numérotées — aucun système de cotation GRADE ni niveau de preuve individuel",
     pages: 2,
     url: "https://sfar.org/wp-content/uploads/2016/11/texte-court-preco-erreurs-med-2016-SFAR-SFPC-version-finale-25-oct-2016.pdf"
+  },
+  anesth_pediatrique_structures: {
+    key: 'anesth_pediatrique_structures',
+    badge: "Sans cotation",
+    title: "Structures et matériel de l'anesthésie pédiatrique",
+    short: "SFAR, septembre 2000, groupe d'experts coordonné par C. Ecoffey (Rennes). Les dispositions SFAR sur la surveillance péri-anesthésique et le décret du 5 décembre 1994 s'appliquent en pédiatrie ; ce texte précise les particularités liées au jeune âge. Partie I — Structures : salle d'intervention (personnel selon l'âge), transferts entre unités, SSPI (emplacements/personnel/qualification), prise en charge post-opératoire (charte de l'enfant hospitalisé — l'hospitalisation d'un enfant de moins de 10 ans en réanimation adulte ne se justifie pas), laboratoires/examens complémentaires. Partie II — Matériel : assistance respiratoire (masques, canules, ballons, valves, plateau d'intubation, sondes, masque laryngé, respirateurs, algorithme d'intubation difficile, drain pleural — tailles et spécifications chiffrées), abord vasculaire, défibrillateur, monitorage (cardiovasculaire, ventilatoire, divers), prévention de l'hypothermie, matériel de transport, solutés. Distinct de la RPP SFAR 2023 « Organisation de l'anesthésie pédiatrique » (organisation des centres), non traitée ici.",
+    society: "SFAR",
+    version: "Septembre 2000",
+    validated: "Groupe d'experts SFAR coordonné par C. Ecoffey",
+    methodology: "Texte narratif de spécifications structurelles et matérielles — aucun système de cotation GRADE ni recommandation numérotée",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique.pdf"
   }
 };
 

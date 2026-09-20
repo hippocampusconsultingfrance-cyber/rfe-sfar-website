@@ -222,6 +222,8 @@ with open(os.path.join(BASE, "content_aod_programme.json"), encoding="utf-8") as
     content_aod_programme = f.read()
 with open(os.path.join(BASE, "content_blocs_peripheriques_membres.json"), encoding="utf-8") as f:
     content_blocs_peripheriques_membres = f.read()
+with open(os.path.join(BASE, "content_raac_colorectal.json"), encoding="utf-8") as f:
+    content_raac_colorectal = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -338,6 +340,7 @@ out = out.replace("__CONTENT_NUTRITION_PERIOPERATOIRE__", safe(content_nutrition
 out = out.replace("__CONTENT_IVG_14SA__", safe(content_ivg_14sa))
 out = out.replace("__CONTENT_AOD_PROGRAMME__", safe(content_aod_programme))
 out = out.replace("__CONTENT_BLOCS_PERIPHERIQUES_MEMBRES__", safe(content_blocs_peripheriques_membres))
+out = out.replace("__CONTENT_RAAC_COLORECTAL__", safe(content_raac_colorectal))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

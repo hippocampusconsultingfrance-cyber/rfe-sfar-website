@@ -111,7 +111,8 @@ var RAW = {
   nutrition_perioperatoire: JSON.parse(document.getElementById('content-nutrition_perioperatoire').textContent),
   ivg_14sa: JSON.parse(document.getElementById('content-ivg_14sa').textContent),
   aod_programme: JSON.parse(document.getElementById('content-aod_programme').textContent),
-  blocs_peripheriques_membres: JSON.parse(document.getElementById('content-blocs_peripheriques_membres').textContent)
+  blocs_peripheriques_membres: JSON.parse(document.getElementById('content-blocs_peripheriques_membres').textContent),
+  raac_colorectal: JSON.parse(document.getElementById('content-raac_colorectal').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -224,7 +225,8 @@ var FICHE_HREF_MATCH = {
   nutrition_perioperatoire: ['recommandations-de-bonnes-pratiques-cliniques-sur-la-nutrition-perioperatoire'],
   ivg_14sa: ['prise-en-charge-de-linterruption-volontaire-de-grossesse-jusqua-14-semaines'],
   aod_programme: ['gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme', 'Reactualisation-GIHP_AOD_actes-programmes_Septembre-20151'],
-  blocs_peripheriques_membres: ['Les-blocs-peripheriques-des-membres-chez-l-adulte']
+  blocs_peripheriques_membres: ['Les-blocs-peripheriques-des-membres-chez-l-adulte'],
+  raac_colorectal: ['Rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1521,6 +1523,18 @@ var DOC_META = {
     methodology: "Grille EBM A-E (niveaux de preuve I-V) + consensus professionnel (CP) — voir légende dans la fiche",
     pages: 9,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Les-blocs-peripheriques-des-membres-chez-l-adulte.pdf"
+  },
+  raac_colorectal: {
+    key: 'raac_colorectal',
+    badge: "GRADE + Delphi",
+    title: "Réhabilitation rapide après chirurgie colorectale programmée",
+    short: "SFAR/SFCD, RFE, Ann Fr Anesth Réanim 33 (2014) 370-384. 35 recommandations organisées en 3 périodes (pré-, per- et postopératoire) sur 19 paramètres identifiés par la littérature. Double cotation propre à cette RFE : chaque recommandation porte à la fois un grade GRADE (1+/1-/2+/2-, 30/35 recommandations, 5 sans grade faute de preuves suffisantes) ET un résultat de vote Delphi indépendant du groupe de relecture (Accord Fort ou Accord Faible, présent pour les 35), deux axes distincts jamais fusionnés. Facteurs confirmés utiles mais insuffisamment appliqués : carbohydrates préopératoires, optimisation hémodynamique peropératoire, alimentation orale et lever avant h24, mastication de gommes. Pratiques confirmées inutiles : préparation colique mécanique (chirurgie colique), sonde nasogastrique systématique, drainage chirurgical systématique (chirurgie colique). Inclut le tableau annexe de synthèse par paramètre (recommandation principale/secondaire/absence de recommandation), reproduit intégralement.",
+    society: "SFAR / SFCD",
+    version: "2014",
+    validated: "RFE, groupe de travail Sfar/SFCD (30 experts, vote Delphi 3 tours)",
+    methodology: "GRADE (qualité des preuves + force 1+/1-/2+/2-) + vote Delphi indépendant (Accord Fort/Faible) — voir légende dans la fiche",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee.pdf"
   }
 };
 

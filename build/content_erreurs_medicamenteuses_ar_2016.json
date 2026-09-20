@@ -1,0 +1,246 @@
+{
+ "doc": "erreurs_medicamenteuses_ar_2016",
+ "sections": [
+  {
+   "title": "Stratégie, facteurs de risque, prévention/rangement, protocoles/REX & sources",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> la fréquence élevée des erreurs médicamenteuses (EM) en anesthésie-réanimation, leur gravité potentielle et leur caractère évitable justifient l'actualisation des préconisations SFAR de 2006, désormais coécrites avec la Société Française de Pharmacie Clinique (SFPC) et élargies à la réanimation. Une grille d'évaluation spécifique (auto-évaluation, audit croisé, préparation à la certification HAS/EPP) accompagne ces 10 préconisations.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Niveau stratégique et organisationnel",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Préconisation",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Toute structure réalisant anesthésies et/ou réanimation met en œuvre, de manière pérenne, des mesures écrites et cohérentes avec la démarche institutionnelle vis-à-vis de la prévention et du traitement des EM ainsi que du retour d'expérience (REX) associé — analyse selon des méthodes validées (REMED, ALARM, RMM), mesures d'impact et réévaluation régulière.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une équipe pluriprofessionnelle dédiée à la sécurisation de la prise en charge médicamenteuse (PECM) — au minimum médecin anesthésiste-réanimateur, cadre de santé, IADE et IDE de SSPI/réanimation, pharmacien — réalise des analyses a priori (cartographie des risques) et a posteriori (analyse des EM) sur tout le parcours de soins, de l'admission à la sortie du patient.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Facteurs de risque, formation et spécificités",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Préconisation",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Étudier particulièrement : gestion des traitements habituels du patient, médicaments à haut risque et « never events », informatisation de la prescription et ses interfaces, facteurs humains/organisationnels, interruptions de tâches. Conciliation médicamenteuse dès la consultation d'anesthésie (dossier pharmaceutique) ; rôles des chirurgiens/anesthésistes/IDE/pharmaciens à formaliser pour la gestion du traitement personnel du patient.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Formation continue pluriprofessionnelle à la gestion des risques et à la bonne utilisation des dispositifs d'administration (pompes/pousse-seringues électriques, lignes de perfusion, ergonomie), ciblant la prévention des erreurs de préparation/reconstitution et d'administration — privilégier la simulation en santé, l'e-learning, la « chambre des erreurs » ou le « chariot piégé ».",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Spécificités réanimation/soins critiques : étiquetage code couleur international (seringues, voies, poches, PCA/PCEA, chariots), lecture attentive de l'étiquetage avant administration, règle des <b>5B</b> (bon médicament, bonne dose, bon moment, bonne voie, bon patient), détrompeurs et lecteurs code-barres, limitation de la liste des médicaments en dotation (éviter similitudes forme/couleur/dénomination), déclaration/analyse des EM. Spécifique à la réanimation : implication régulière d'un pharmacien dans l'unité, pousse-seringues programmables reliés à des bases intelligentes, organisation du chariot d'urgence, vigilance particulière pour les sédatifs et vasopresseurs (les plus souvent en cause).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Prévention active/passive, rangement et étiquetage",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Préconisation",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Combiner mesures actives de contrôle (humaines, informatiques type codes-barres) et mesures passives (étiquetages, systèmes mécaniques). Préparation/administration par la même personne + règle des 5B ; double lecture par une seconde personne ou seringues à code-barres en complément. Prévention des erreurs de voie : contrôle du point d'insertion, étiquetage spécifique par voie, détrompeurs (norme ISO TC210 JWG4 en cours, non encore commercialisés en France), cathéters/tubulures de couleur ou forme différente en alternative.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Système de rangement clair, formalisé et commun à tous les sites de travail (dotations d'urgence, chariot d'ALR, chariots d'urgence, table d'anesthésie, plateaux). Responsables du rangement/vérification identifiés, vérification périodique tracée. Seuls les médicaments strictement nécessaires sont présents, sans préparation à l'avance. Stockage du KCl et autres médicaments à haut risque évité au maximum ; si réalisé : précautions de stockage/étiquetage/délivrance renforcées et personnel sensibilisé.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Étiquetages spécifiques : (a) voies d'administration — étiquettes couleur/bordure normées, apposées en proximal et distal ; (b) seringues — codes couleurs internationaux par classe pharmacologique (norme ISO 26825), vigilance renforcée pour les curares (risque de confusion avec le midazolam) ; (c) poches/flacons de préparation — DCI, quantité/concentration, date/heure et identité du préparateur, identité du patient (code-barres) ; (d) préparations PCA/PCEA/PSE — identité patient, médicament et dose, volume, solvant/concentration, date/heure, voie d'administration (couleur correspondante) ; (e) chariots/dispositifs de stockage — mode de rangement cohérent avec les règles de l'établissement.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Protocoles et gestion des erreurs (retour d'expérience)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Préconisation",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procédures et protocoles validés de prescription/préparation/administration précisant dilution, solvant, durée, vitesse et voie — système uniforme formalisé et disponible dans toutes les salles concernées. Plateaux d'anesthésie préparés selon un plan prédéfini (date/heure, préparateur, étiquette patient) ; éviter plusieurs concentrations d'un même médicament simultanément disponibles ; seringues préremplies prioritaires pour les médicaments d'urgence peu utilisés (atropine, éphédrine, phényléphrine). <b>Vigilance renforcée antiseptique/anesthésique injectable</b> (confusion notamment avec la chlorhexidine) : seuls des antiseptiques colorés doivent être utilisés, avec double lecture à voix haute (molécule, quantité, volume, concentration) entre celui qui donne l'agent et celui qui le prépare.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Toute erreur médicamenteuse (avérée ou potentielle) est analysée selon une méthode validée (REMED, ALARM), avec retour d'expérience (REX) organisé auprès de l'équipe concernée et, si pertinent, d'autres secteurs (CREX, RMM, staffs dédiés). Sont a minima concernées : les erreurs à conséquences graves, les « Never Events » (liste ANSM) et les événements porteurs de risque. Déclaration obligatoire au Centre régional de pharmacovigilance (CRPV) en cas d'impact patient, et possible au Guichet Erreurs Médicamenteuses de l'ANSM pour toute EM potentielle ou avérée sans événement indésirable.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFAR, en partenariat avec la Société Française de Pharmacie Clinique (SFPC), « Prévention des erreurs médicamenteuses en anesthésie et en réanimation » (texte court), actualisation 2016, validée par les Conseils d'administration de la SFAR et de la SFPC. Une version détaillée à visée pédagogique est disponible séparément. 32 références bibliographiques dans le texte intégral (non reproduites ici).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 10 préconisations du texte source mais omet la liste nominative des auteurs/relecteurs et la bibliographie. Elle ne remplace pas le texte intégral (ni la version détaillée pédagogique) et n'est ni éditée ni validée par la SFAR/SFPC. Document distinct de la fiche « Prévention des erreurs médicamenteuses en anesthésie » (SFAR seule, 2006), qu'il actualise et complète pour la réanimation.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

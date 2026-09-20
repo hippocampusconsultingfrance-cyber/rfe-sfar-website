@@ -116,7 +116,8 @@ var RAW = {
   chir_ambu_proctologie: JSON.parse(document.getElementById('content-chir_ambu_proctologie').textContent),
   mieux_vivre_reanimation: JSON.parse(document.getElementById('content-mieux_vivre_reanimation').textContent),
   preparation_colique: JSON.parse(document.getElementById('content-preparation_colique').textContent),
-  organisation_ar_obstetricale: JSON.parse(document.getElementById('content-organisation_ar_obstetricale').textContent)
+  organisation_ar_obstetricale: JSON.parse(document.getElementById('content-organisation_ar_obstetricale').textContent),
+  erreurs_medicamenteuses_ar_2016: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_ar_2016').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -234,7 +235,8 @@ var FICHE_HREF_MATCH = {
   chir_ambu_proctologie: ['RECOCHIRAMBUSNFCP'],
   mieux_vivre_reanimation: ['Mieux-vivre-la-reanimation'],
   preparation_colique: ['preparation-colique-anesthesie-generale'],
-  organisation_ar_obstetricale: ['RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale']
+  organisation_ar_obstetricale: ['RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale'],
+  erreurs_medicamenteuses_ar_2016: ['texte-court-preco-erreurs-med-2016']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1591,6 +1593,18 @@ var DOC_META = {
     methodology: "Accord Fort (Delphi, 100 % des 30 RP) + astérisque pour les dispositions légales — pas de grille GRADE",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2018/03/RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale.pdf"
+  },
+  erreurs_medicamenteuses_ar_2016: {
+    key: 'erreurs_medicamenteuses_ar_2016',
+    badge: "Sans cotation",
+    title: "Prévention des erreurs médicamenteuses en anesthésie-réanimation (actualisation 2016)",
+    short: "SFAR, en partenariat avec la Société Française de Pharmacie Clinique (SFPC), texte court, actualisation 2016. Actualise et élargit à la réanimation les préconisations SFAR de 2006 (document distinct, déjà disponible sous la fiche « Prévention des erreurs médicamenteuses en anesthésie »). 10 préconisations : démarche institutionnelle et équipe pluriprofessionnelle dédiée à la sécurisation de la prise en charge médicamenteuse (PECM) ; facteurs de risque (traitements habituels, médicaments à haut risque, informatisation, interruptions de tâches) et formation continue ; spécificités réanimation/soins critiques (règle des 5B, pharmacien dans l'unité, vigilance sédatifs/vasopresseurs) ; mesures actives/passives de prévention ; rangement et étiquetage détaillé (voies, seringues, poches, PCA/PCEA/PSE, chariots — codes couleurs internationaux ISO 26825) ; protocoles de prescription/préparation/administration (vigilance antiseptique/anesthésique injectable) ; gestion des erreurs et retour d'expérience (REMED, CREX, déclaration ANSM/CRPV).",
+    society: "SFAR / SFPC",
+    version: "Actualisation 2016 (préconisations initiales SFAR 2006)",
+    validated: "Conseils d'administration de la SFAR et de la SFPC",
+    methodology: "10 préconisations narratives numérotées — aucun système de cotation GRADE ni niveau de preuve individuel",
+    pages: 2,
+    url: "https://sfar.org/wp-content/uploads/2016/11/texte-court-preco-erreurs-med-2016-SFAR-SFPC-version-finale-25-oct-2016.pdf"
   }
 };
 

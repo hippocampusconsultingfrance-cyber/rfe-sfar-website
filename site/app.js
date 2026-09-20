@@ -104,7 +104,8 @@ var RAW = {
   eeg_cortical: JSON.parse(document.getElementById('content-eeg_cortical').textContent),
   examens_pertinence_rea: JSON.parse(document.getElementById('content-examens_pertinence_rea').textContent),
   alr_pediatrie: JSON.parse(document.getElementById('content-alr_pediatrie').textContent),
-  hospit_ambulatoire: JSON.parse(document.getElementById('content-hospit_ambulatoire').textContent)
+  hospit_ambulatoire: JSON.parse(document.getElementById('content-hospit_ambulatoire').textContent),
+  echo_alr: JSON.parse(document.getElementById('content-echo_alr').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -210,7 +211,8 @@ var FICHE_HREF_MATCH = {
   eeg_cortical: ['monitorage-de-ladequation-profondeur-de-lanesthesie-a-partir-de-lanalyse-de-leeg-cortical'],
   examens_pertinence_rea: ['pertinence-de-la-prescription-des-examens-biologiques-et-de-la-radiographie-thoracique-en-reanimation'],
   alr_pediatrie: ['anesthesie-loco-regionale-en-pediatrie'],
-  hospit_ambulatoire: ['prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire']
+  hospit_ambulatoire: ['prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire'],
+  echo_alr: ['echographie-en-anesthesie-locoregionale']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1423,6 +1425,18 @@ var DOC_META = {
     methodology: "Aucune grille de cotation scientifique imprimée — force déduite du verbe modal introduisant chaque recommandation (convention bespoke propre à ce document)",
     pages: 6,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire.pdf"
+  },
+  echo_alr: {
+    key: 'echo_alr',
+    badge: 'Sans cotation',
+    title: "Échographie en anesthésie locorégionale",
+    short: "Recommandations Formalisées d'Experts (RFE) SFAR, 2011 (Ann Fr Anesth Réanim 30 (2011) e33-e35). Texte narratif sans grille de cotation imprimée — force de chaque énoncé portée par une locution modale du texte lui-même, avec 3 niveaux distincts : « il est recommandé » (force pleine, R), « il est probablement recommandé » (force intermédiaire, PR), « il est possible » (permissif/qualifié, P). Complète, sans les remplacer, les RPC 2002 (blocs périphériques des membres) et 2006 (blocs périmédullaires). Couvre : règles générales et apprentissage (formation, sonoanatomie, courbe d'apprentissage), matériel et aspect technique (choix de sonde, réglages, aiguilles dédiées), règles de sécurité (limiter le risque d'injection intraneurale), application aux blocs des membres et du tronc (interscalénique, supraclaviculaire, axillaire, fémoral, poplité, blocs d'espace, périmédullaires), et conditions de réalisation/hygiène (Tableau 1 : classement des dispositifs médicaux et niveaux de traitement requis, reproduit verbatim).",
+    society: "SFAR",
+    version: "2011",
+    validated: "Recommandations Formalisées d'Experts, SFAR",
+    methodology: "Texte narratif sans grille de cotation imprimée — force déduite des locutions modales du texte (convention bespoke propre à ce document)",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_echographie-en-anesthesie-locoregionale.pdf"
   }
 };
 

@@ -2074,6 +2074,29 @@ def extract_aod_programme():
     return {"doc": "aod_programme", "sections": blocks}
 
 
+def extract_blocs_peripheriques_membres():
+    import style
+    import fiche_blocs_peripheriques_membres as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "blocs_peripheriques_membres", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2998,3 +3021,12 @@ if __name__ == "__main__":
         json.dump(aod_programme, f, ensure_ascii=False, indent=1)
     print("aod_programme sections:", len(aod_programme["sections"]),
           "total blocks:", sum(len(s["items"]) for s in aod_programme["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    blocs_peripheriques_membres = extract_blocs_peripheriques_membres()
+    with open(os.path.join(BUILD_DIR, "content_blocs_peripheriques_membres.json"), "w") as f:
+        json.dump(blocs_peripheriques_membres, f, ensure_ascii=False, indent=1)
+    print("blocs_peripheriques_membres sections:", len(blocs_peripheriques_membres["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in blocs_peripheriques_membres["sections"]))

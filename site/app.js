@@ -110,7 +110,8 @@ var RAW = {
   infections_nosocomiales_rea: JSON.parse(document.getElementById('content-infections_nosocomiales_rea').textContent),
   nutrition_perioperatoire: JSON.parse(document.getElementById('content-nutrition_perioperatoire').textContent),
   ivg_14sa: JSON.parse(document.getElementById('content-ivg_14sa').textContent),
-  aod_programme: JSON.parse(document.getElementById('content-aod_programme').textContent)
+  aod_programme: JSON.parse(document.getElementById('content-aod_programme').textContent),
+  blocs_peripheriques_membres: JSON.parse(document.getElementById('content-blocs_peripheriques_membres').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -222,7 +223,8 @@ var FICHE_HREF_MATCH = {
   infections_nosocomiales_rea: ['prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus'],
   nutrition_perioperatoire: ['recommandations-de-bonnes-pratiques-cliniques-sur-la-nutrition-perioperatoire'],
   ivg_14sa: ['prise-en-charge-de-linterruption-volontaire-de-grossesse-jusqua-14-semaines'],
-  aod_programme: ['gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme', 'Reactualisation-GIHP_AOD_actes-programmes_Septembre-20151']
+  aod_programme: ['gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme', 'Reactualisation-GIHP_AOD_actes-programmes_Septembre-20151'],
+  blocs_peripheriques_membres: ['Les-blocs-peripheriques-des-membres-chez-l-adulte']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1507,6 +1509,18 @@ var DOC_META = {
     methodology: "Propositions d'un groupe d'intérêt, sans grille de grade formelle (ni GRADE, ni A/B/C, ni fort/faible)",
     pages: 3,
     url: "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme/?wpdmdl=33608"
+  },
+  blocs_peripheriques_membres: {
+    key: 'blocs_peripheriques_membres',
+    badge: "Grille EBM A-E",
+    title: "Les blocs périphériques des membres chez l'adulte",
+    short: "SFAR/Sofcot/Sofmer, Recommandations pour la Pratique Clinique (RPC), présentées le 22 septembre 2001 (43e congrès SFAR), publiées Ann Fr Anesth Réanim 22 (2003) 567-581. 14 questions : information du patient, préparation/surveillance, anesthésie locorégionale intraveineuse (ALRIV), techniques de repérage (neurostimulation), matériel, agents pharmacologiques, recommandations par territoire anatomique (membre supérieur avec Tableau 1 des indications chirurgicales, membre inférieur), analgésie postopératoire, conduite sous anticoagulant ou en cas de pathologie neurologique, gestion de l'échec, toxicité systémique des anesthésiques locaux (avec tableau des doses maximales), complications neurologiques. Grille EBM à 5 niveaux (A-E) + chip CP (consensus professionnel/avis d'experts, distinct du Grade E) — convention propre à ce document. Document RPC 2001 non abrogé, complété (mais non remplacé) par la RFE 2011 sur l'échographie en ALR de ce même corpus.",
+    society: "SFAR / Sofcot / Sofmer",
+    version: "22 septembre 2001 (publié 2003)",
+    validated: "RPC, 43e Congrès national d'anesthésie et de réanimation",
+    methodology: "Grille EBM A-E (niveaux de preuve I-V) + consensus professionnel (CP) — voir légende dans la fiche",
+    pages: 9,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Les-blocs-peripheriques-des-membres-chez-l-adulte.pdf"
   }
 };
 

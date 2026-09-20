@@ -113,7 +113,8 @@ var RAW = {
   aod_programme: JSON.parse(document.getElementById('content-aod_programme').textContent),
   blocs_peripheriques_membres: JSON.parse(document.getElementById('content-blocs_peripheriques_membres').textContent),
   raac_colorectal: JSON.parse(document.getElementById('content-raac_colorectal').textContent),
-  chir_ambu_proctologie: JSON.parse(document.getElementById('content-chir_ambu_proctologie').textContent)
+  chir_ambu_proctologie: JSON.parse(document.getElementById('content-chir_ambu_proctologie').textContent),
+  mieux_vivre_reanimation: JSON.parse(document.getElementById('content-mieux_vivre_reanimation').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -228,7 +229,8 @@ var FICHE_HREF_MATCH = {
   aod_programme: ['gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme', 'Reactualisation-GIHP_AOD_actes-programmes_Septembre-20151'],
   blocs_peripheriques_membres: ['Les-blocs-peripheriques-des-membres-chez-l-adulte'],
   raac_colorectal: ['Rehabilitation-rapide-apres-une-chirurgie-colorectale-programmee'],
-  chir_ambu_proctologie: ['RECOCHIRAMBUSNFCP']
+  chir_ambu_proctologie: ['RECOCHIRAMBUSNFCP'],
+  mieux_vivre_reanimation: ['Mieux-vivre-la-reanimation']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1549,6 +1551,18 @@ var DOC_META = {
     methodology: "Grille A/B/C/AE (accord d'experts) — voir légende dans la fiche",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2016/08/RECOCHIRAMBUSNFCP-120315.pdf"
+  },
+  mieux_vivre_reanimation: {
+    key: 'mieux_vivre_reanimation',
+    badge: "Conférence de consensus",
+    title: "Mieux vivre la Réanimation",
+    short: "SFAR/SRLF, 6e Conférence de Consensus (texte long novembre 2009), avec le GFRUP et l'Adarpef, Ann Fr Anesth Réanim 29 (2010) 321-330. La réanimation est un lieu de vie mais aussi une agression — pour les patients, les familles et les soignants. 5 thématiques : barrières au « mieux vivre » (bruit, lumière, sommeil, douleur, delirium, ESPT, burn-out), amélioration de l'environnement (bruit, lumière, personnalisation de la chambre, organisation des soins, place de la famille), soins favorisant le mieux vivre (intimité, kinésithérapie précoce, massages, musique, hydratation, anxiété/dépression, douleur/agitation, soins centrés famille), stratégies de communication (soignant-patient, soignant-famille, entre soignants, famille-patient, sortie), personnalisation du processus décisionnel. Méthode narrative à locutions modales (« il faut »/« il faut probablement »/« il est »/« il est possible » + sigle RC pour les recommandations consensuelles sans référence scientifique majeure) — pas de grille GRADE imprimée avec symboles.",
+    society: "SFAR / SRLF",
+    version: "novembre 2009 (publié 2010)",
+    validated: "6e Conférence de Consensus, méthodologie ANAES, avec GFRUP et Adarpef",
+    methodology: "Locutions modales (il faut/il faut probablement/il est/il est possible) + sigle RC — voir légende dans la fiche",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Mieux-vivre-la-reanimation.pdf"
   }
 };
 

@@ -105,7 +105,8 @@ var RAW = {
   examens_pertinence_rea: JSON.parse(document.getElementById('content-examens_pertinence_rea').textContent),
   alr_pediatrie: JSON.parse(document.getElementById('content-alr_pediatrie').textContent),
   hospit_ambulatoire: JSON.parse(document.getElementById('content-hospit_ambulatoire').textContent),
-  echo_alr: JSON.parse(document.getElementById('content-echo_alr').textContent)
+  echo_alr: JSON.parse(document.getElementById('content-echo_alr').textContent),
+  alr_douleur_chronique: JSON.parse(document.getElementById('content-alr_douleur_chronique').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -212,7 +213,8 @@ var FICHE_HREF_MATCH = {
   examens_pertinence_rea: ['pertinence-de-la-prescription-des-examens-biologiques-et-de-la-radiographie-thoracique-en-reanimation'],
   alr_pediatrie: ['anesthesie-loco-regionale-en-pediatrie'],
   hospit_ambulatoire: ['prise-en-charge-anesthesique-des-patients-en-hospitalisation-ambulatoire'],
-  echo_alr: ['echographie-en-anesthesie-locoregionale']
+  echo_alr: ['echographie-en-anesthesie-locoregionale'],
+  alr_douleur_chronique: ['techniques-analgesiques-locoregionales-et-douleur-chronique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1437,6 +1439,18 @@ var DOC_META = {
     methodology: "Texte narratif sans grille de cotation imprimée — force déduite des locutions modales du texte (convention bespoke propre à ce document)",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_echographie-en-anesthesie-locoregionale.pdf"
+  },
+  alr_douleur_chronique: {
+    key: 'alr_douleur_chronique',
+    badge: 'GRADE',
+    title: "ALR et douleur chronique",
+    short: "RFE SFAR 2013 (Ann Fr Anesth Réanim 32 (2013) 275-284) — première recommandation francophone sur la place des techniques d'analgésie locorégionale (ALR) dans la douleur chronique. Méthode GRADE standard. 43 énoncés au total sur 6 champs (médicaments, algies craniofaciales, douleurs abdomino-pelviennes, douleurs neuropathiques des membres [SDRC, amputation], douleurs cancéreuses, gestion des cathéters au long cours) : 33 recommandations réellement gradées (1+/1-/2+/2-/avis d'experts), 9 énoncés où la source déclare explicitement qu'aucune recommandation n'est possible faute de données (disclosed, distingués d'un grade négatif), et 1 énoncé permissif non gradé explicitement par la source. Pathologies rachidiennes explicitement exclues (objet d'une recommandation séparée multi-spécialités).",
+    society: "SFAR",
+    version: "2013",
+    validated: "Recommandations Formalisées d'Experts, SFAR",
+    methodology: "GRADE (qualité des preuves à 4 catégories, force forte/faible par vote Delphi) + avis d'experts + 9 énoncés « aucune recommandation possible » distincts d'un grade négatif (disclosed, voir fiche)",
+    pages: 10,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2a_AFAR_Techniques-analgesiques-locoregionales-et-douleur-chronique.pdf"
   }
 };
 

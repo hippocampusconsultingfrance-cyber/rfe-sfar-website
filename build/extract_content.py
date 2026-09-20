@@ -1959,6 +1959,29 @@ def extract_echo_alr():
     return {"doc": "echo_alr", "sections": blocks}
 
 
+def extract_alr_douleur_chronique():
+    import style
+    import fiche_alr_douleur_chronique as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "alr_douleur_chronique", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -2838,3 +2861,12 @@ if __name__ == "__main__":
         json.dump(echo_alr, f, ensure_ascii=False, indent=1)
     print("echo_alr sections:", len(echo_alr["sections"]),
           "total blocks:", sum(len(s["items"]) for s in echo_alr["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    alr_douleur_chronique = extract_alr_douleur_chronique()
+    with open(os.path.join(BUILD_DIR, "content_alr_douleur_chronique.json"), "w") as f:
+        json.dump(alr_douleur_chronique, f, ensure_ascii=False, indent=1)
+    print("alr_douleur_chronique sections:", len(alr_douleur_chronique["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in alr_douleur_chronique["sections"]))

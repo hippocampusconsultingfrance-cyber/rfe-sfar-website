@@ -109,7 +109,8 @@ var RAW = {
   alr_douleur_chronique: JSON.parse(document.getElementById('content-alr_douleur_chronique').textContent),
   infections_nosocomiales_rea: JSON.parse(document.getElementById('content-infections_nosocomiales_rea').textContent),
   nutrition_perioperatoire: JSON.parse(document.getElementById('content-nutrition_perioperatoire').textContent),
-  ivg_14sa: JSON.parse(document.getElementById('content-ivg_14sa').textContent)
+  ivg_14sa: JSON.parse(document.getElementById('content-ivg_14sa').textContent),
+  aod_programme: JSON.parse(document.getElementById('content-aod_programme').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -220,7 +221,8 @@ var FICHE_HREF_MATCH = {
   alr_douleur_chronique: ['techniques-analgesiques-locoregionales-et-douleur-chronique'],
   infections_nosocomiales_rea: ['prevention-des-infections-nosocomiales-en-reanimation-transmission-croisee-et-nouveau-ne-exclus'],
   nutrition_perioperatoire: ['recommandations-de-bonnes-pratiques-cliniques-sur-la-nutrition-perioperatoire'],
-  ivg_14sa: ['prise-en-charge-de-linterruption-volontaire-de-grossesse-jusqua-14-semaines']
+  ivg_14sa: ['prise-en-charge-de-linterruption-volontaire-de-grossesse-jusqua-14-semaines'],
+  aod_programme: ['gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme', 'Reactualisation-GIHP_AOD_actes-programmes_Septembre-20151']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1493,6 +1495,18 @@ var DOC_META = {
     methodology: "Grille ANAES A/B/C (grade A/B/C explicite) + accord professionnel (AP) par défaut — voir légende dans la fiche",
     pages: 4,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_ANAES_Prise-en-charge-de-l-interruption-volontaire-de-grossesse-jusqu-a-14-semaines.pdf"
+  },
+  aod_programme: {
+    key: 'aod_programme',
+    badge: "Propositions GIHP",
+    title: "AOD : gestion périopératoire pour un acte programmé",
+    short: "GIHP, propositions réactualisées, septembre 2015 (réactualisation des propositions GIHP 2011). Distinct de la fiche « AOD : chirurgie et hémorragie en urgence » — ce document couvre la gestion PROGRAMMÉE (acte électif, délai d'arrêt préétabli), l'autre couvre la gestion en URGENCE. Aucune grille de grade (propositions pragmatiques d'un groupe d'intérêt, sans cotation formelle). Risque hémorragique faible : pas de prise la veille/le matin, reprise ≥6h après le geste. Risque hémorragique élevé : dernière prise à J-3 (rivaroxaban/apixaban/edoxaban) ou J-4/J-5 selon la clairance de la créatinine (dabigatran) ; reprise en dose prophylactique puis curative selon un délai indicatif. Inclut le Tableau 1 (schéma récapitulatif) et le Tableau 2 (posologies usuelles des 4 AOD par indication), tous deux transcrits depuis un rendu visuel. Doublon d'indexation disclosed : ce document apparaît deux fois dans l'index bibliothèque du projet sous deux années différentes (2015 et 2021) — il s'agit du même document (bibliographie de 18 références identique entre les deux PDF sources), pas d'une actualisation 2021 distincte.",
+    society: "GIHP",
+    version: "septembre 2015",
+    validated: "Groupe d'Intérêt en Hémostase Périopératoire (GIHP)",
+    methodology: "Propositions d'un groupe d'intérêt, sans grille de grade formelle (ni GRADE, ni A/B/C, ni fort/faible)",
+    pages: 3,
+    url: "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aod-pour-un-acte-programme/?wpdmdl=33608"
   }
 };
 

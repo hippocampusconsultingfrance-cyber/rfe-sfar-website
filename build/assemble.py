@@ -266,6 +266,8 @@ with open(os.path.join(BASE, "content_optimisation_hemodynamique_pediatrie_2024.
     content_optimisation_hemodynamique_pediatrie_2024 = f.read()
 with open(os.path.join(BASE, "content_optimisation_hemodynamique_adulte_2024.json"), encoding="utf-8") as f:
     content_optimisation_hemodynamique_adulte_2024 = f.read()
+with open(os.path.join(BASE, "content_resection_hepatique_2025.json"), encoding="utf-8") as f:
+    content_resection_hepatique_2025 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -404,6 +406,7 @@ out = out.replace("__CONTENT_RAAC_LOBECTOMIE_PULMONAIRE_2019__", safe(content_ra
 out = out.replace("__CONTENT_RAAC_CARDIAQUE_2021__", safe(content_raac_cardiaque_2021))
 out = out.replace("__CONTENT_OPTIMISATION_HEMODYNAMIQUE_PEDIATRIE_2024__", safe(content_optimisation_hemodynamique_pediatrie_2024))
 out = out.replace("__CONTENT_OPTIMISATION_HEMODYNAMIQUE_ADULTE_2024__", safe(content_optimisation_hemodynamique_adulte_2024))
+out = out.replace("__CONTENT_RESECTION_HEPATIQUE_2025__", safe(content_resection_hepatique_2025))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

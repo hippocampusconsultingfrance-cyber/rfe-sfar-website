@@ -133,7 +133,8 @@ var RAW = {
   raac_lobectomie_pulmonaire_2019: JSON.parse(document.getElementById('content-raac_lobectomie_pulmonaire_2019').textContent),
   raac_cardiaque_2021: JSON.parse(document.getElementById('content-raac_cardiaque_2021').textContent),
   optimisation_hemodynamique_pediatrie_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_pediatrie_2024').textContent),
-  optimisation_hemodynamique_adulte_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_adulte_2024').textContent)
+  optimisation_hemodynamique_adulte_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_adulte_2024').textContent),
+  resection_hepatique_2025: JSON.parse(document.getElementById('content-resection_hepatique_2025').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -268,7 +269,8 @@ var FICHE_HREF_MATCH = {
   raac_lobectomie_pulmonaire_2019: ['rfe-anesthesie-rac-lobectomie-pulmonaire'],
   raac_cardiaque_2021: ['rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant'],
   optimisation_hemodynamique_pediatrie_2024: ['optimisation-hemodynamique-perioperatoire-pediatrie'],
-  optimisation_hemodynamique_adulte_2024: ['optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique']
+  optimisation_hemodynamique_adulte_2024: ['optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique'],
+  resection_hepatique_2025: ['prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1829,6 +1831,18 @@ var DOC_META = {
     methodology: "GRADE (sans signe +/-) — 18 recommandations réelles (2 GRADE1 + 8 GRADE2 + 8 avis d'experts) + 6 absences ; résumé source annonce 24",
     pages: 3,
     url: "https://sfar.org/download/optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique/?wpdmdl=62044"
+  },
+  resection_hepatique_2025: {
+    key: 'resection_hepatique_2025',
+    badge: "RBP HAS/SFAR — GRADE (40 recs, décompte source disclosed)",
+    title: "Prise en charge péri-opératoire — Résection hépatique",
+    short: "HAS, recommandation de bonne pratique adoptée par le Collège le 11 septembre 2025, élaborée par la SFAR avec l'AFEF (Société Française d'Hépatologie) et l'ACHBPT. Méthode GRADE (recherche bibliographique 2004-2024, PRISMA, format PICO) — 3 champs, 14 questions, 40 recommandations numérotées (accord fort, 2 tours de vote) et 3 absences de recommandation : Champ 1 — évaluation/optimisation préopératoire (dépistage systématique anémie/thrombopénie/dénutrition/fragilité en chirurgie à haut risque ; préhabilitation si dénutrition/âge>65/fragilité/ASA>2 ; pas d'immunonutrition ; drainage biliaire au cas par cas si ictère obstructif ; scores ALBI/APRI/Fib4/MELD/Child-Pugh pour le risque d'insuffisance hépatique post-hépatectomie) ; Champ 2 — optimisation peropératoire (pas de préférence IV/inhalé ; bolus de dexaméthasone 8-10mg ; pas de N-acétylcystéine ni de préconditionnement au sévoflurane ; antibioprophylaxie selon la RFE SFAR/SPILF 2024 ; hypovolémie permissive guidée par le VES pendant la transsection puis restauration volémique ; cristalloïdes balancés ; ventilation protectrice 6-8ml/kg + PEP≥5 ; pas d'acide tranexamique préventif systématique ; analgésie multimodale ± infiltration/bloc/péridurale selon abord) ; Champ 3 — optimisation postopératoire (admission en soins critiques individualisée selon un arbre décisionnel à 5 étapes ; surveillance clinico-biologique rapprochée de la fonction hépatique ; thromboprophylaxie par HBPM 4 semaines si carcinologique sans cirrhose, 7 jours si bénin/donneur vivant ; réhabilitation améliorée après chirurgie ; pas de VNI/CPAP prophylactique systématique). Champ d'application explicitement exclu par le texte source : pédiatrie, transplantation hépatique, hydatidose/abcès hépatiques, indications chirurgicales, traitement interventionnel non-chirurgical. Écart de décompte disclosed : la synthèse du source annonce « 39 recommandations » (7 GRADE1+21 GRADE2+11 avis d'experts) mais un décompte direct des items numérotés trouve 40 (7 GRADE1+22 GRADE2+11 avis d'experts, chaque paire marqueur→grade revérifiée individuellement) — écart d'un GRADE2 non résolu, disclosed tel quel. Particularité : comme pour la fiche `optimisation_hemodynamique_adulte_2024`, ce document imprime « 1 »/« 2 » SANS signe +/- (chips locaux G1/G2/AE/ABS) ; ABS (« pas de recommandation », 3 cas) est explicitement distingué d'AE (avis d'experts) dans la légende même du source. Le source numérote deux Annexes différentes « Annexe 3 » (p.13 et p.18) — doublon propre au document, non corrigé.",
+    society: "HAS / SFAR / AFEF / ACHBPT",
+    version: "Septembre 2025",
+    validated: "Collège de la HAS, 11 septembre 2025 — groupe d'experts, méthode GRADE",
+    methodology: "GRADE (sans signe +/-) — 40 recommandations numérotées (7 GRADE1 + 22 GRADE2 + 11 avis d'experts, décompte direct) + 3 absences de recommandation ; résumé source annonce 39",
+    pages: 7,
+    url: "https://sfar.org/download/prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique/?wpdmdl=123091"
   }
 };
 

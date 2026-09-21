@@ -120,7 +120,8 @@ var RAW = {
   erreurs_medicamenteuses_ar_2016: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_ar_2016').textContent),
   anesth_pediatrique_structures: JSON.parse(document.getElementById('content-anesth_pediatrique_structures').textContent),
   aod_dabigatran_urgence_2016: JSON.parse(document.getElementById('content-aod_dabigatran_urgence_2016').textContent),
-  tc_readaptation: JSON.parse(document.getElementById('content-tc_readaptation').textContent)
+  tc_readaptation: JSON.parse(document.getElementById('content-tc_readaptation').textContent),
+  impact_environnemental_ag: JSON.parse(document.getElementById('content-impact_environnemental_ag').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -242,7 +243,8 @@ var FICHE_HREF_MATCH = {
   erreurs_medicamenteuses_ar_2016: ['texte-court-preco-erreurs-med-2016'],
   anesth_pediatrique_structures: ['Recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique'],
   aod_dabigatran_urgence_2016: ['gestion-perioperatoire-des-patients-sous-aod-en-urgence'],
-  tc_readaptation: ['Annales-de-Readaptation-et-de-Medecine-Physique_Les-traumatises-craniens-adultes-en-medecine-physique-et-readaptation']
+  tc_readaptation: ['Annales-de-Readaptation-et-de-Medecine-Physique_Les-traumatises-craniens-adultes-en-medecine-physique-et-readaptation'],
+  impact_environnemental_ag: ['reduction-de-limpact-environnemental-de-lanesthesie-generale']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1647,6 +1649,18 @@ var DOC_META = {
     methodology: "Deux échelles A/B/C distinctes selon la question + avis d'experts (AE) + accord professionnel (AP) — voir légende dans la fiche",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2015/10/Annales-de-Readaptation-et-de-Medecine-Physique_Les-traumatises-craniens-adultes-en-medecine-physique-et-readaptation.pdf"
+  },
+  impact_environnemental_ag: {
+    key: 'impact_environnemental_ag',
+    badge: "Avis d'experts (Accord fort)",
+    title: "Réduction de l'impact environnemental de l'anesthésie générale",
+    short: "SFAR, avec la SF2H et la SFPC, Recommandations de Pratiques Professionnelles, 2022 (validées CA SFAR 29/06/2022, CS SF2H). 17 recommandations en 3 champs : vapeurs/gaz anesthésiques (préférer le sévoflurane au desflurane/isoflurane à bénéfice égal, éviter le protoxyde d'azote, bas débit de gaz frais, monitorage de la profondeur d'anesthésie) ; médicaments intraveineux (préparation à la demande plutôt qu'anticipée, seringues pré-remplies, monitorage BIS/entropie pour limiter la consommation de propofol) ; dispositifs médicaux et environnement de travail (privilégier le réutilisable, éviter le DEHP, changement hebdomadaire des circuits de ventilateur, tri et recyclage des déchets). Méthode GRADE visée mais non applicable à l'ensemble des questions — les 17 recommandations sont toutes au niveau « Avis d'experts (Accord fort) », aucune n'est gradée 1+/1-/2+/2-.",
+    society: "SFAR / SF2H / SFPC",
+    version: "2022",
+    validated: "Comité des Référentiels Cliniques de la SFAR, CA SFAR (29/06/2022), Conseil Scientifique de la SF2H",
+    methodology: "Avis d'experts (Accord fort) uniforme — méthode GRADE visée mais non applicable à l'ensemble des questions",
+    pages: 2,
+    url: "https://sfar.org/download/reduction-de-limpact-environnemental-de-lanesthesie-generale/?wpdmdl=37890"
   }
 };
 

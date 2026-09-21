@@ -121,7 +121,8 @@ var RAW = {
   anesth_pediatrique_structures: JSON.parse(document.getElementById('content-anesth_pediatrique_structures').textContent),
   aod_dabigatran_urgence_2016: JSON.parse(document.getElementById('content-aod_dabigatran_urgence_2016').textContent),
   tc_readaptation: JSON.parse(document.getElementById('content-tc_readaptation').textContent),
-  impact_environnemental_ag: JSON.parse(document.getElementById('content-impact_environnemental_ag').textContent)
+  impact_environnemental_ag: JSON.parse(document.getElementById('content-impact_environnemental_ag').textContent),
+  diabete_perioperatoire_2025: JSON.parse(document.getElementById('content-diabete_perioperatoire_2025').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -244,7 +245,8 @@ var FICHE_HREF_MATCH = {
   anesth_pediatrique_structures: ['Recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique'],
   aod_dabigatran_urgence_2016: ['gestion-perioperatoire-des-patients-sous-aod-en-urgence'],
   tc_readaptation: ['Annales-de-Readaptation-et-de-Medecine-Physique_Les-traumatises-craniens-adultes-en-medecine-physique-et-readaptation'],
-  impact_environnemental_ag: ['reduction-de-limpact-environnemental-de-lanesthesie-generale']
+  impact_environnemental_ag: ['reduction-de-limpact-environnemental-de-lanesthesie-generale'],
+  diabete_perioperatoire_2025: ['prise-en-charge-du-patient-diabetique-en-peri-operatoire']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1661,6 +1663,18 @@ var DOC_META = {
     methodology: "Avis d'experts (Accord fort) uniforme — méthode GRADE visée mais non applicable à l'ensemble des questions",
     pages: 2,
     url: "https://sfar.org/download/reduction-de-limpact-environnemental-de-lanesthesie-generale/?wpdmdl=37890"
+  },
+  diabete_perioperatoire_2025: {
+    key: 'diabete_perioperatoire_2025',
+    badge: "Fiches simplifiées",
+    title: "Prise en charge du patient diabétique en péri opératoire",
+    short: "Groupe SFAR/SFD (Cheisson, Benhamou, Cosson, Ichai, Jacqueminet, Nicolescu-Catargi, Ouattara, Tauveron), Fiches simplifiées, version 2025. Aucune grille de grade — algorithmes et tableaux posologiques prêts à l'emploi. Généralités DT1/DT2 et stratégie selon HbA1c (objectif glycémique péri-opératoire 5-10 mmol/L) ; prise en charge pré-opératoire (arrêt des antidiabétiques selon le type d'intervention, règles de jeûne, protocole de glycémies capillaires) ; CAT devant une hyperglycémie ≥16,5 mmol/L (dont le cas particulier des inhibiteurs SGLT2 à risque d'acidocétose euglycémique) et devant une hypoglycémie ; protocole d'insulinothérapie IV à la seringue électrique (IVSE) à 8 paliers de glycémie ; relais IVSE/SC ; protocole d'insulinothérapie SC type Basal Bolus ; modalités de reprise des antidiabétiques chez le DT2 ; intervention de courte durée. ⚠ Document déjà conçu comme outil clinique simplifié : vérifier toute posologie contre le texte source ou un outil clinique validé avant application.",
+    society: "SFAR / SFD (Société Francophone du Diabète)",
+    version: "2025",
+    validated: "Groupe de travail SFAR/SFD",
+    methodology: "Fiches simplifiées (algorithmes et tableaux posologiques) — aucun système de cotation GRADE",
+    pages: 6,
+    url: "https://sfar.org/download/prise-en-charge-du-patient-diabetique-en-peri-operatoire/?wpdmdl=122568"
   }
 };
 

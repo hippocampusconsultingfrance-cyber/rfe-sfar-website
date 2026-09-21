@@ -1,0 +1,502 @@
+--- PAGE 1 ---
+Prise en charge 
+du patient diabétique 
+en péri opératoire
+ Fiches simplifiées 
+G. Cheisson, D. Benhamou, E. Cosson, C. Ichai, S. Jacqueminet, 
+B. Nicolescu-Catargi, A. Ouattara, I. Tauveron
+Version 2025
+
+--- PAGE 2 ---
+Type de diabète
+Diabète de type 1  (DT1)
+Diabète de type 2  (DT2)
+Mécanisme
+Maladie auto-immune conduisant à une insulinopénie majeure
+Insulinorésistance avec insulinopénie relative
+Traitement
+L’apport d’insuline exogène est vital
+et ne peut être arrêté
+Régime puis antidiabétiques (AD) non insuliniques 
+puis insuline à la phase tardive
+Complications
+Risque VITAL si arrêt de l’insuline basale (acidocétose)
+Accumulation des AD non insuliniques 
+si insuffisance rénale 
+Remarques
+Chirurgie pancréatique : le patient se comporte comme un 
+DT1 si pancréatectomie
+Vérification de la fonction rénale 
+avant reprise des AD non insuliniques
+- 2 types de diabète
+- Évaluation du contrôle glycémique par le dosage d’hémoglobine glyquée (HbA1c) : récupérer le dernier dosage en consultation ou faire un dosage 
+si le patient n’en a pas fait depuis plus de 3 mois ou s’il présente un déséquilibre de son diabète. 
+-  Stratégie pré opératoire selon la valeur d’HbA1c : 
+Généralités (DT1 et DT2)
+Groupe SFAR/SFD, 2025
+- Objectifs glycémiques en péri opératoire : 5 à 10 mmol/L (0,9 à 1,8 g/L)
+HbA1c
+Conduite à 
+tenir
+Différer
+Avis Médecin 
+Généraliste / 
+Diabétologue
+Intervention 
+possible
+Avis Médecin 
+Généraliste / 
+Diabétologue
+Différer
+5,0
+6,0
+8,0
+9,0
+%
+4,0
+10,0
+ATTENTION : 
+- Chez le patient DT1 et quelle que soit la glycémie :
+NE JAMAIS ARRÊTER L’INSULINE LENTE
+- Si hypoglycémie : Cf fiche 
+CAT devant une hypoglycémie à l’hôpital
+- Si hyperglycémie : Cf fiche
+CAT devant une hyperglycémie à l’hôpital
+
+--- PAGE 3 ---
+Règles de jeûne : 
+- Repas du soir normal
+- Donner le traitement habituel :  AD non insuliniques et/ou 
+insulines aux mêmes posologies
+- Dernier repas solide à H-6 et liquides clairs autorisés jusqu’à 
+H-2 de l’intervention
+- Indication à une perfusion de soluté glucosé chez un patient 
+diabétique si et seulement si : 
+. jeûne et insuline lente injectée (matin ou soir) ou pompe à 
+insuline en cours : G10% 40 mL/h à partir du premier repas 
+jeûné
+. jeûne prolongé = apports glucosés nécessaires 
+quotidiennement (100 à 150 g de glucose : G10% 40 mL/h 
+par exemple)
+Modalités d’arrêt des traitements antidiabétiques (AD) :
+En pré opératoire, faire les glycémies capillaires et appliquer le protocole suivant :  
+Prise en charge pré opératoire (DT1 et DT2)
+Groupe SFAR/SFD, 2025
+Intervention 
+avec
+≤ 1 repas jeûné
+Intervention mineure ou majeure avec
+≥ 2 repas jeûnés
+Intervention 
+urgente
+Metformine
+Pas d’arrêt
+Pas de prise le matin
+Arrêt
+Sulfamides, glinides
+Inhibiteurs ⍺-glucosidases
+Inhibiteurs DPP-4
+Agonistes 
+récepteurs GLP-1
+Pas d’arrêt 
+(échographie gastrique +/- induction en séquence rapide)
+ Inhibiteurs SGLT2
+Dernière prise 3 jours avant l’intervention 
+(risque acidocétose euglycémique)
+Insulines SC
+Pas d’arrêt
+Maintien de l’insuline lente (matin ou soir)
+Arrêt et relais
+Pompe à insuline
+Pas d’arrêt
+Arrêt de la pompe à l’arrivée au bloc *
+Arrêt et relais
+* Maintien possible d’une pompe à insuline si : 
+- Intervention courte < 2h 
+- Perturbations du contrôle glycémique non attendues
+- Dispositifs visibles et à distance du champ opératoire
+- Préférer les glycémies artérielles, veineuses ou capillaires 
+aux mesures du glucose interstitiel en per opératoire
+- Accord du patient et de l’équipe d’anesthésie
+- Gestion de son matériel par le patient précocement en 
+post opératoire
+- Avis du diabétologue pour adaptation des débits d’insuline
+
+--- PAGE 4 ---
+Recherche cétose en préférant la cétonémie à la cétonurie
+       Glycémie    
+ Traitement
+8-12 mmol/L 
+(1,5 - 2,2 g/L)
+12-16,4 mmol/L
+(2,2 - 2,99 g/L)
+≥ 16,5 mmol/L 
+(3 g/L)
+Analogue rapide 
+de l’insuline SC
+4 UI 
+6 UI 
+10 UI 
+Glucose
+15 g PO 
+ou 3 g IVD
+0
+0
+Cétonémie > 1,5 mmol/L
+Cétonurie ≥ 2 croix
+0,5 ≤ cétonémie ≤ 1,5 mmol/L
+Cétonurie à 1 croix 
+Transfert en USC pour 
+insulinothérapie IVSE
+Faire un GDS artériel et éliminer une 
+autre cause d’acidose métabolique
+(hyperlactatémie, hyperchlorémie, hypercapnie)
+Cétonémie < 0,5 mmol/L
+Cétonurie = 0
+Si hyperglycémie  : cf CAT devant 
+Glycémie ≥ 16,5 mmol/L (3 g/L)
+Surveillance cétonémie à H12
+Groupe SFAR/SFD, 2025
+Traitement par inhibiteur SGLT2   ET   arrêt < 3 jours
+Surveillance 
+glycémie et cétonémie 
+à H4
+Si pH ≤ 7,20
+Si pH > 7,20
+
+--- PAGE 5 ---
+CAT devant une glycémie ≥ 16,5 mmol/L (3 g/L)
+Glycémie ≥ 16,5 mmol/L (3 g/L)
+Recherche cétose en préférant la cétonémie à la cétonurie
+Cétonémie < 0,5 mmol/L
+Cétonurie = 0
+Cétonémie > 1,5 mmol/L
+Cétonurie ≥ 2 croix
+Contrôle glycémie et 
+recherche cétose à H4
+Transfert en USC pour 
+insulinothérapie IVSE
+Surveillance glycémie 
+à H4
+0,5 ≤ cétonémie ≤ 1,5 mmol/L
+Cétonurie à 1 croix 
+Groupe SFAR/SFD, 2025
+Faire un GDS artériel 
+pour rechercher une acidose
+Faire 10 UI SC 
+d’analogue rapide de l’insuline
+Faire 6 UI SC 
+d’analogue rapide de l’insuline
+
+--- PAGE 6 ---
+CAT devant une hypoglycémie à l’hôpital
+glycémie < 3,3 mmol/L (0,6 g/L)
+2,2 < glycémie < 3,3 mmol/L 
+Administration orale de sucre :
+- 3 morceaux de sucre
+- ou 20 cL de jus de fruit 
+glycémie < 2,2 mmol/L (0,4 g/L)
+ 
+Administration IV de glucose :
+ 6 g soit 2 ampoules de 10 mL 
+de G30% IVD
+Administration IV de glucose :
+3 g soit 1 ampoule de 10 mL 
+de G30% IVD
+Glycémie ≥ 3,3 mmol/L (0,6 g/L)
+Contrôle glycémie à 1 heure
+Glycémie < 3,3 mmol/L (0,6 g/L)
+Reprendre l’arbre décisionnel 
+et prévenir le médecin
+Contrôle de la glycémie à 15 min
+Patient conscient
+Patient inconscient
+Groupe SFAR/SFD, 2025
+Glycémie < 3,3 mmol/L (0,6 g/L)
+
+--- PAGE 7 ---
+Glycémie
+Initiation 
+insuline 
+IVSE
+Bolus 
+IVD
+0
+0
+0
+0
+3 UI
+4 UI
+6 UI
+Débit 
+IVSE
+0
+0
+0
+1 UI/h pour les DT1
+0 UI/h pour les DT2
+2 UI/h
+3 UI/h
+4 UI/h 
+Prévenir 
+médecin
+Fréquence des 
+glycémies
+15 min
+30 min
+1h
+          2h
+1h
+1h
+1h
+Adaptation du 
+débit insuline 
+IVSE
+Arrêt
+Arrêt
+- 1 UI/h
+           idem
++1 UI/h
++ 2 UI/h
+Bolus 6 UI
+Prévenir 
+médecin
+Reprise à 1/2 débit quand 
+glyc > 5,5 mmol/L chez DT1 
+glyc > 10 mmol/L chez DT2
+G 30%
+2 amp (6g)
+Prévenir 
+médecin
+1 amp 10 mL
+(3g)
+0
+Protocole d’insulinothérapie IVSE 
+Objectifs glycémiques peropératoires : 5 - 10 mmol/L (0,9 - 1,8 g/L)
+Modalités d’administration : en unités de soins critiques ou bloc opératoire seulement
+- Dilution : analogue rapide de l’insuline 1 UI/mL dans NaCl 0,9%
+- Voie d’abord : robinet proximal sur KTC ou robinet proximal sur VVP
+- Apports glucosés au bloc (G10% 40 mL/h) sauf si hyperglycémie > 16,5 mmol/L
+Surveillance glycémique et administration d’insuline selon le protocole ci-dessous : 
+Remarques :
+- Privilégier les mesures de glycémie sur 
+sang total (artériel ou veineux) et si 
+possible sur machine à gaz du sang
+- Surveillance de la kaliémie :               
+Objectif = 4 à 4,5 mmol/L.            
+Contrôle/4h si stable sinon à chaque 
+changement de débit d’insuline
+Pas de relais SC si insuline IVSE > 4 UI/h
+Arrêt du protocole IVSE et relais :
+- Dès que glycémies stabilisées et ≤ 10 mmol/L 
+(1,8 g/L)
+- Si alimentation orale
+- Si sortie du patient de SSPI, unités de soins 
+critiques avec relais par insuline SC ou pompe à 
+insuline
+Groupe SFAR/SFD, 2025
+ 1h
+- 1 UI/h
+16,5
+14
+10
+5
+3,3
+mmol/L
+2,2
+6
+0,4
+0,6
+0,9
+1,1
+1,8
+2,5
+3
+g/L
+
+--- PAGE 8 ---
+Relais insuline IVSE / SC
+Arrêt insuline IVSE
+entre 0h et 6h
+de 6 à 14h
+entre 14h et 16h 
+entre 16h et 0h 
+Dose insuline lente initiale
+3/4 dose
+1/2 dose
+1/4 dose
+dose de 20h
+Dose insuline lente suivante
+à 20h le soir même
+à 20h le jour suivant     
+Indications au relais : 
+- Dès que les glycémies sont stabilisées et ≤ 10 mmol/L (1,8 g/L)
+- Reprise d’une alimentation orale (mais non une condition)
+- Relais à l’arrêt de l’insuline IVSE si posologie ≤ 4 UI/h
+Contre-indications au relais :
+- Posologie d’insuline IVSE > 4 UI/h
+- Besoins en insuline non stabilisés
+Calcul de dose :
+Modalités : 
+- Pas de délai entre l’arrêt de l’insuline IVSE et l’injection de l’insuline lente : l’insuline lente est faite en SSPI
+- L’injection d’insuline lente SC est prescrite de préférence à 20h le soir
+- Sinon, faire une injection complémentaire pour couvrir les besoins jusqu’à 20h selon le schéma suivant :
+PAS D’INSULINE IVSE EN SALLE D’HOSPITALISATION CONVENTIONNELLE
+Pas de relais SC si :
+- Posologie d’insuline IVSE ≤ 0,5 UI/h chez un patient 
+non-insulinotraité antérieurement
+ou
+Groupe SFAR/SFD, 2025
+
+--- PAGE 9 ---
+Protocole d’insulinothérapie SC type Basal Bolus
+Groupe SFAR/SFD, 2025
+PRESCRIPTIONS       Dr...............................   date..................     heure....................
+- INSULINE LENTE : .............. UI SC à 20h (30 UI maximum à l’initiation)
+et arrêt insuline IVSE
+- ANALOGUE RAPIDE DE L’INSULINE SC : 
+Bolus pour le repas si alimentation orale : ..........UI SC à 8h, 12, 20h 
+Bolus correcteur selon glycémie
+Glycémie/4h (initiation protocole SC ou déséquilibre)   ou       Glycémie/8h
+1. BASAL = INSULINE LENTE
+- Insuline lente : 0,3 UI/kg/j SC à 20h (ou dose habituelle ou 1/2 dose IV des dernières 24h)
+- Adaptation de la posologie à la glycémie du matin suivant à jeun selon le protocole suivant :
+2. BOLUS POUR LE REPAS
+- Analogue rapide de l’insuline SC avant chaque repas oral et quelle que soit la glycémie : 0,1 UI/kg SC 
+- Faire la moitié de la posologie prévue si apports caloriques insuffisants
+- Ne pas faire si alimentation entérale ou parentérale continue
+3. BOLUS CORRECTEUR
+- Analogue rapide de l’insuline SC à adapter selon glycémie (à additionner au bolus du repas à 8h, 12h, 20h)
+- Glycémie pré prandiale à 8h, 12h, 20h et à 16h, 0h, 4h si déséquilibre important
+- 2 UI
++ 2 UI
+idem
+5
+10
+mmol/L
+Exemple
+1 amp G30% IV 
+ou 15g sucre PO
+0
+0
+3
+4
+6
+UI en SC
+3,3
+5
+10
+12
+16,5
+mmol/L
+1, 8
+g/L
+0, 9
+0,6
+2,2
+3
+0,9
+1,8
+g/L
+
+--- PAGE 10 ---
+Modalités de reprise des traitements antidiabétiques chez le DT2
+Groupe SFAR/SFD, 2025
+Alimentation orale suffisante
+Clairance de la créatinine (idéalement mesurée)
+Glycémie < 12 mmol/l (2,2 g/L) depuis plus de 24h
+< 30 mL/min
+30 < Cl créat < 60 mL/min
+> 60 mL/min
+Reprise de 
+tous les AD 
+Reprise des AD
+sauf metformine 
+Pas de reprise 
+des AD
+non
+Continuer et adapter 
+le schéma Basal Bolus
+Quand insuline 
+lente < 16 UI/j 
+arrêter  
+Basal Bolus 
+ Quand insuline 
+lente ≥16 UI/j 
+continuer 
+Basal Bolus 
+Appel équipe endocrinologie 
+avant la sortie
+non
+Retour domicile 
+avec compte-rendu au MT 
+Continuer et adapter 
+le schéma Basal Bolus
+oui
+oui
+Si pas d’insuline 
+antérieurement
+Retour domicile 
+avec compte-rendu au MT 
+Le traitement antérieur par antidiabétiques 
+non insuliniques (AD) peut-il être repris ?
+Le traitement péri opératoire 
+par schéma Basal Bolus peut-il être arrêté ?
+Reprise des 
+insulines 
+antérieures
+Si insuline 
+antérieurement
+et/ou
+
+--- PAGE 11 ---
+BOLUS CORRECTEUR
+- Analogue rapide de l’insuline SC à adapter selon glycémie (à additionner au bolus du repas à 8h, 12h, 20h)
+- Glycémie pré prandiale à 8h, 12h, 20h et à 16h, 0h, 4h si déséquilibre important
+1 amp G30% IV 
+ou 15g sucre PO
+0
+0
+3
+4
+6
+UI en SC
+3,3
+5
+10
+12
+16,5
+mmol/L
+0,6
+2,2
+3
+0,9
+1,8
+g/L
+En post opératoire : 
+   . Reprise d’une alimentation orale dès que possible
+   . Si glycémie ≤ 10 mmol/L (1,8 g/L), reprendre les traitements habituels aux horaires habituels
+   . Si glycémie > 10 mmol/L (1,8 g/L), prolonger l’hospitalisation jusqu’à correction de la glycémie entre 5 et 10 mmol/L avec 
+injection de bolus correcteurs selon le protocole précédent
+   . Si glycémie > 16,5 mmol/L (3 g/L), contre-indication à une sortie à domicile et hospitalisation pour insulinothérapie IVSE
+Rechercher les complications du diabète et doser l’HbA1c (différer la chirurgie si HbA1c > 9%)
+Stratégie péri-opératoire définie selon le nombre de repas jeûnés :
+En pré, per et post opératoire : bolus correcteur si besoin
+Intervention de courte durée
+Groupe SFAR/SFD, 2025
+Nombre de repas jeûnés Horaire prévisible de l’intervention
+Attitude pratique
+0
+quel que soit l’horaire
+Poursuite du traitement le matin
+1
+avant 10h
+Petit-déjeuner et traitement du matin sont pris après l’intervention
+entre 10h et 12h
+Pas de petit-déjeuner et traitement donné à l’arrivée. 
+Perfusion de G10% 40 mL/h jusqu’au repas suivant si insuline ou sulfamide
+après 12h
+Poursuite du traitement le matin avec prise d’un petit-déjeuner léger
+2
+Cf. Fiches DT1 et DT2 - Intervention mineure
+

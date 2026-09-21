@@ -126,7 +126,8 @@ var RAW = {
   anesth_cardiopathie_congenitale: JSON.parse(document.getElementById('content-anesth_cardiopathie_congenitale').textContent),
   ressources_humaines_anesthesie_2024: JSON.parse(document.getElementById('content-ressources_humaines_anesthesie_2024').textContent),
   demarches_anticipees_don_organes_2024: JSON.parse(document.getElementById('content-demarches_anticipees_don_organes_2024').textContent),
-  raac_orthopedique_2019: JSON.parse(document.getElementById('content-raac_orthopedique_2019').textContent)
+  raac_orthopedique_2019: JSON.parse(document.getElementById('content-raac_orthopedique_2019').textContent),
+  reduction_antibiotiques_reanimation_2014: JSON.parse(document.getElementById('content-reduction_antibiotiques_reanimation_2014').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -254,7 +255,8 @@ var FICHE_HREF_MATCH = {
   anesth_cardiopathie_congenitale: ['anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale'],
   ressources_humaines_anesthesie_2024: ['preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee'],
   demarches_anticipees_don_organes_2024: ['RBP-deimarches-anticipeies_12_10_24'],
-  raac_orthopedique_2019: ['rfe-rac-orthopedique']
+  raac_orthopedique_2019: ['rfe-rac-orthopedique'],
+  reduction_antibiotiques_reanimation_2014: ['2_SPILF_Strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1731,6 +1733,18 @@ var DOC_META = {
     methodology: "GRADE — 24 items dénombrés (8 GRADE1 + 15 GRADE2 + 1 avis d'experts), accord fort sauf R2 (accord faible)",
     pages: 3,
     url: "https://sfar.org/download/rfe-rac-orthopedique/?wpdmdl=24459"
+  },
+  reduction_antibiotiques_reanimation_2014: {
+    key: 'reduction_antibiotiques_reanimation_2014',
+    badge: "RFE — RAND/UCLA (Accord Fort/Faible), pas de GRADE numérique",
+    title: "Réduction de l'utilisation des antibiotiques en réanimation",
+    short: "SRLF/SFAR (GFRUP/SFM/SPILF/SF2H), RFE, Juin 2014 (adulte et pédiatrique). Méthode GRADE pour l'analyse de la littérature + cotation collective RAND/UCLA (2 tours, échelle 1-9) — 54 recommandations comportant 74 votes internes (47 Accord Fort + 27 Accord Faible), condensés ici en 62 lignes sans jamais fusionner deux niveaux d'accord différents. 5 questions : (Q1) lien résistance/consommation d'antibiotiques et données d'épidémiologie française (DDJ) ; (Q2) données microbiologiques (prélèvements avant antibiothérapie, PAVM, délai de culture, CMI, tests rapides, antigénuries) ; (Q3) choix de l'antibiothérapie — impact de la colonisation, réduction des carbapénèmes/quinolones/anti-SARM (probabiliste et documenté) ; (Q4) optimisation de l'administration — indication formelle et délais (choc septique <1h, méningite <3h), dosage/TDM (aminosides, vancomycine, bêta-lactamines), modalités d'administration (perfusion continue/prolongée), associations d'antibiotiques ; (Q5) réévaluation systématique à 48-72h, rôle de la procalcitonine, durées de traitement raccourcies (5-8 jours selon le site). Particularité méthodologique : contrairement à d'autres RFE de ce corpus, aucun grade GRADE numérique (1+/1-/2+/2-) n'est imprimé par item — seule la cotation Accord Fort/Faible (RAND/UCLA) est explicite, la force « il faut »/« il faut probablement » restant dans le libellé textuel de chaque recommandation.",
+    society: "SRLF / SFAR (GFRUP/SFM/SPILF/SF2H)",
+    version: "Juin 2014",
+    validated: "Groupe d'experts, méthode GRADE + cotation RAND/UCLA (2 tours)",
+    methodology: "RAND/UCLA — 54 recommandations / 74 votes (47 Accord Fort + 27 Accord Faible), pas de grade GRADE numérique par item",
+    pages: 5,
+    url: "https://sfar.org/wp-content/uploads/2015/09/2_SPILF_Strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation.pdf"
   }
 };
 

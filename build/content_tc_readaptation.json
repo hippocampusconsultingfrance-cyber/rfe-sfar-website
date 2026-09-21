@@ -1,0 +1,635 @@
+{
+ "doc": "tc_readaptation",
+ "sections": [
+  {
+   "title": "Méthodologie, Q1 (clinique), Q2 (examens), Q3 (traitements), Q4 (rééducation) & sources",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> 12 000 traumatisés crâniens graves (TCG) meurent chaque année en France, 8-10 000 gardent des séquelles, 1 800 perdent leur autonomie (les trois quarts ont moins de 30 ans, accidents de la route). Entre le coma et la rééducation, le « passage » pose problème : pronostic mal établi, isolement des soignants, place incertaine de la famille, discontinuité des soins. Cette conférence de consensus SOFMER traite 4 questions : définition clinique du passage coma → éveil, apport des examens complémentaires, traitements médicamenteux, procédures de rééducation.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Méthodologie — deux échelles A/B/C distinctes",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Questions 3 et 4</b> (efficacité/tolérance des traitements) : échelle Canadian Task Force on Periodic Health — <b>A</b> = essai comparatif ou méta-analyse d'essais randomisés ; <b>B</b> = essais non randomisés ou petits essais ; <b>C</b> = études de cohorte/cas-témoins, comparaisons de séries non contemporaines, études descriptives ou avis d'experts. <b>Questions 1 et 2</b> (études pronostiques/de validation d'échelle) : <b>A</b> = étude pronostique/de validation bien menée ; <b>B</b> = étude avec imperfections méthodologiques ; <b>C</b> = étude de qualité méthodologique médiocre, descriptive, ou avis d'experts. <b>Ces deux échelles partagent les lettres A/B/C mais reposent sur des critères différents</b> — disclosed ici plutôt que fusionné. Les recommandations « accord professionnel » n'ont fait l'objet d'aucune publication dans la littérature. <i>Numérotation Q#.# assignée par cette fiche pour référence uniquement — le texte source ne numérote pas ses recommandations.</i>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       },
+       {
+        "t": "p",
+        "html": "<b>A/B/C</b> — niveau de preuve, deux échelles distinctes selon la question (voir méthodologie) ; <b>AE</b> = avis d'experts (au sein du niveau C/III, identifié séparément par la source) ; <b>AP</b> = accord professionnel (énoncé sans aucune publication dans la littérature — distinct de AE).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Q1 — Modalités et niveaux cliniques du passage coma → éveil",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Coma = « état de non-réponse, yeux fermés, sujet non réveillable ». 1re frontière : réapparition de périodes yeux ouverts (vigilance). 2e frontière : reprise d'une activité consciente (graduelle, période transitoire amnésique/confuse/agitée possible). Sans reprise de conscience : « état végétatif ». États « pauci-relationnels » (Minimally Conscious/Responsive State) : manifestations fluctuantes mais identifiables de perception — à distinguer du mutisme akinétique et du locked-in syndrome (conscience probablement/certainement conservée).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.*",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Constat / recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le score de Glasgow (GCS), associé à l'observation attentive, reste le meilleur moyen de coter rapidement les niveaux cliniques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La durée de l'amnésie post-traumatique (APT), évaluée par le Galveston Orientation and Amnesia Test (GOAT), est le meilleur index pronostique global à la période initiale (par rapport au GCS et à la durée du coma).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La Wessex Head Injury Matrix (WHIM), traduite et validée en français, évalue les états pauci-relationnels/végétatifs (valeur prédictive non encore déterminée).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les stimulations sensorielles peuvent contribuer à distinguer état pauci-relationnel et état végétatif.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Corrélation entre durée du coma/de l'APT et les résultats de la Glasgow Outcome Scale (GOS, 5 catégories : décès, état végétatif persistant, handicap sévère/modéré, bonne récupération ; version étendue à 8 niveaux disponible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Consigner les résultats de ces échelles (GCS, GOAT, WHIM, GOS) et garantir leur accessibilité à toutes les unités successivement en charge du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q1.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le transfert vers une unité de rééducation, souvent différé par manque de place, devrait intervenir plus précocement ; la mise en place de filières de soins et l'identification d'une « unité d'éveil » dédiée (proche de la réanimation) sont recommandées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Q2 — Apport des examens complémentaires",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Phase aiguë (premiers jours)</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.*",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Constat / recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La TDM est l'examen de l'admission et de la 24e heure (diagnostic en urgence des lésions accessibles à un traitement neurochirurgical).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'IRM précoce peut préciser le diagnostic/pronostic (lésions axonales diffuses, tronc cérébral), mais n'est pas recommandée systématiquement (risque au transport, n'influence pas la prise en charge précoce).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Potentiels évoqués (PE) : PEATC/PES normaux ne permettent pas de se prononcer favorablement sur le pronostic ; PE cognitifs présents ont une forte valeur prédictive de l'éveil (mais pas sur la qualité de la récupération), absents = aucune valeur pronostique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'EEG (monitorage continu) détecte les états de mal épileptiques non convulsifs et a une valeur pronostique sur l'évolution ultérieure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Phases subaiguë et chronique</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.*",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Constat / recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La TDM reste le standard de suivi thérapeutique, mais sa valeur prédictive est inférieure à celle de l'IRM.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Facteurs péjoratifs à l'IRM : profondeur des lésions (corps calleux, noyaux gris centraux, hippocampe, mésencéphale, tronc cérébral dorso-latéral), &gt; 3 lésions, association de plusieurs types lésionnels.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une IRM est recommandée au moment du transfert en rééducation pour tout traumatisme crânien grave.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les PE sensoriels/moteurs sont utiles pour évaluer la perméabilité sensorielle avant stimulations et identifier le locked-in syndrome ; en phase subaiguë, la réapparition de PE cognitifs est prédictive d'un réveil proche.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le SPECT (scintigraphie de perfusion) n'est pas recommandé à la phase des soins initiaux et de l'éveil.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q2.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "PET-scan et IRM fonctionnelle (encore du domaine de la recherche) peuvent apporter des éléments d'individualisation de tableaux complexes (mutisme akinétique, locked-in syndrome) et de la neurotransmission.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Q3 — Traitements médicamenteux favorisant la reprise de conscience",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Molécules étudiées (neurotransmetteurs ciblés) : lévodopa/carbidopa, amantadine, bromocriptine, dextroamphétamine, méthylphénidate, pémoline, tricycliques, inhibiteurs de la recapture de la sérotonine. 8 études descriptives au total (2 lévodopa/carbidopa, 4 amantadine, 1 amphétamines, 1 méthylphénidate) + 1 étude comparative (bromocriptine) — toutes rapportent un effet positif sauf la lévodopa/carbidopa, mais avec effets secondaires fréquents (crise comitiale, tachycardie, insomnie, anxiété, agitation, hallucinations, hyperthermie ; 1 décès sous amantadine).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.*",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Constat / recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le faible niveau de preuve des essais disponibles (critères de jugement variés/peu sensibles, groupes hétérogènes, mise sous traitement tardive de 3 à 12 mois, durées de traitement diverses) ne permet pas de se prononcer sur l'efficacité de ces traitements médicamenteux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les symptômes associés (spasticité, douleur, comitialité, agitation) n'ont pas été étudiés quant à leur effet sur l'éveil ; leur traitement approprié est néanmoins recommandé, en tenant compte de ses effets secondaires (sédation).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'agitation à la phase d'éveil ne dispose d'aucun protocole de traitement validé à cette phase ; des études sont nécessaires pour préciser la prise en charge.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Q4 — Procédures de rééducation et prise en charge globale",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "4 approches étudiées (27 études, 1969-1996) : neurostimulation cérébrale profonde/médullaire (NS), stimulation sensorielle (SS), régulation sensorielle (RS), approche fondée sur la sémiotique (AS). Résultats globalement encourageants mais de faible niveau de preuve (absence de groupe contrôle, définitions imprécises, protocoles à peine décrits, population hétérogène) — <b>aucune recommandation précise ne peut être formulée quant aux approches à privilégier.</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.*",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Constat / recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La formulation d'un pronostic individuel reste difficile (données statistiques et scores de force/spécificité limitées) ; le pronostic annoncé influence l'engagement de l'équipe soignante — un pronostic pessimiste peut devenir une « prédiction auto-accomplie ».",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Élargir le temps de présence de la famille dans les limites de l'organisation des soins (connaissance du vécu du patient, premiers indices de conscience) — efficacité non démontrée scientifiquement mais justifiée par l'argument logique et la compassion.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une information cohérente, adaptée au moment, progressive et pédagogique est recommandée pour les familles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La présence de psychologues est nécessaire pour aider les familles et l'équipe soignante face à la charge émotionnelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Q4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans l'évaluation médico-légale, les différentes composantes du préjudice subi par les familles devraient être prises en compte.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SOFMER (Société française de médecine physique et réadaptation), Conférence de consensus « Les traumatisés crâniens adultes en médecine physique et réadaptation : du coma à l'éveil » (texte court des recommandations du jury, président Pr Jean-Luc Truelle), 8 octobre 2001, organisée selon les règles méthodologiques ANAES, Ann Readapt Med Phys 45 (2002) 417-423.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2001 :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les constats/recommandations des 4 questions du jury mais omet la liste nominative des experts. La numérotation Q#.# est assignée par cette fiche pour référence uniquement — le texte source ne numérote pas ses recommandations. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SOFMER/ANAES. Document de 2001 : les techniques d'imagerie/électrophysiologie et les données pharmacologiques ont évolué depuis — vérifier l'actualité clinique avant application.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

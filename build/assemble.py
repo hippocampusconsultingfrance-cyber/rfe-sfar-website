@@ -238,6 +238,8 @@ with open(os.path.join(BASE, "content_anesth_pediatrique_structures.json"), enco
     content_anesth_pediatrique_structures = f.read()
 with open(os.path.join(BASE, "content_aod_dabigatran_urgence_2016.json"), encoding="utf-8") as f:
     content_aod_dabigatran_urgence_2016 = f.read()
+with open(os.path.join(BASE, "content_tc_readaptation.json"), encoding="utf-8") as f:
+    content_tc_readaptation = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -362,6 +364,7 @@ out = out.replace("__CONTENT_ORGANISATION_AR_OBSTETRICALE__", safe(content_organ
 out = out.replace("__CONTENT_ERREURS_MEDICAMENTEUSES_AR_2016__", safe(content_erreurs_medicamenteuses_ar_2016))
 out = out.replace("__CONTENT_ANESTH_PEDIATRIQUE_STRUCTURES__", safe(content_anesth_pediatrique_structures))
 out = out.replace("__CONTENT_AOD_DABIGATRAN_URGENCE_2016__", safe(content_aod_dabigatran_urgence_2016))
+out = out.replace("__CONTENT_TC_READAPTATION__", safe(content_tc_readaptation))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

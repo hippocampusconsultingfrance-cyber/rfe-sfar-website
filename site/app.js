@@ -119,7 +119,8 @@ var RAW = {
   organisation_ar_obstetricale: JSON.parse(document.getElementById('content-organisation_ar_obstetricale').textContent),
   erreurs_medicamenteuses_ar_2016: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_ar_2016').textContent),
   anesth_pediatrique_structures: JSON.parse(document.getElementById('content-anesth_pediatrique_structures').textContent),
-  aod_dabigatran_urgence_2016: JSON.parse(document.getElementById('content-aod_dabigatran_urgence_2016').textContent)
+  aod_dabigatran_urgence_2016: JSON.parse(document.getElementById('content-aod_dabigatran_urgence_2016').textContent),
+  tc_readaptation: JSON.parse(document.getElementById('content-tc_readaptation').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -240,7 +241,8 @@ var FICHE_HREF_MATCH = {
   organisation_ar_obstetricale: ['RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale'],
   erreurs_medicamenteuses_ar_2016: ['texte-court-preco-erreurs-med-2016'],
   anesth_pediatrique_structures: ['Recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique'],
-  aod_dabigatran_urgence_2016: ['gestion-perioperatoire-des-patients-sous-aod-en-urgence']
+  aod_dabigatran_urgence_2016: ['gestion-perioperatoire-des-patients-sous-aod-en-urgence'],
+  tc_readaptation: ['Annales-de-Readaptation-et-de-Medecine-Physique_Les-traumatises-craniens-adultes-en-medecine-physique-et-readaptation']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1633,6 +1635,18 @@ var DOC_META = {
     methodology: "Propositions pragmatiques du GIHP — aucun système de cotation GRADE ; 3 algorithmes décisionnels transcrits en tableaux",
     pages: 3,
     url: "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aod-en-urgence/?wpdmdl=34412"
+  },
+  tc_readaptation: {
+    key: 'tc_readaptation',
+    badge: "Conférence de consensus",
+    title: "Traumatisés crâniens : du coma à l'éveil (médecine physique et réadaptation)",
+    short: "SOFMER, Conférence de consensus (texte court des recommandations du jury, président Pr Jean-Luc Truelle), 8 octobre 2001, organisée selon les règles ANAES, Ann Readapt Med Phys 45 (2002) 417-423. 4 questions : modalités et niveaux cliniques du passage coma → éveil (GCS, GOAT, WHIM, GOS, distinction état végétatif/pauci-relationnel/mutisme akinétique/locked-in syndrome), apport des examens complémentaires (TDM/IRM, potentiels évoqués, EEG selon la phase aiguë/subaiguë-chronique), traitements médicamenteux (faible niveau de preuve, aucune conclusion possible), procédures de rééducation (neurostimulation, stimulation/régulation sensorielle — aucune approche à privilégier ne peut être recommandée) et place de la famille. Deux échelles de grade A/B/C distinctes selon la question (disclosed, non fusionnées), plus les catégories « avis d'experts » et « accord professionnel » (distinctes l'une de l'autre). Numérotation Q#.# assignée par la fiche — le texte source ne numérote pas ses recommandations.",
+    society: "SOFMER (Société française de médecine physique et réadaptation)",
+    version: "8 octobre 2001 (publié 2002)",
+    validated: "Conférence de consensus, méthodologie ANAES, jury présidé par le Pr Jean-Luc Truelle",
+    methodology: "Deux échelles A/B/C distinctes selon la question + avis d'experts (AE) + accord professionnel (AP) — voir légende dans la fiche",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2015/10/Annales-de-Readaptation-et-de-Medecine-Physique_Les-traumatises-craniens-adultes-en-medecine-physique-et-readaptation.pdf"
   }
 };
 

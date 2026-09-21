@@ -2281,6 +2281,29 @@ def extract_aod_dabigatran_urgence_2016():
     return {"doc": "aod_dabigatran_urgence_2016", "sections": blocks}
 
 
+def extract_tc_readaptation():
+    import style
+    import fiche_tc_readaptation as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "tc_readaptation", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -3286,3 +3309,12 @@ if __name__ == "__main__":
         json.dump(aod_dabigatran_urgence_2016, f, ensure_ascii=False, indent=1)
     print("aod_dabigatran_urgence_2016 sections:", len(aod_dabigatran_urgence_2016["sections"]),
           "total blocks:", sum(len(s["items"]) for s in aod_dabigatran_urgence_2016["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    tc_readaptation = extract_tc_readaptation()
+    with open(os.path.join(BUILD_DIR, "content_tc_readaptation.json"), "w") as f:
+        json.dump(tc_readaptation, f, ensure_ascii=False, indent=1)
+    print("tc_readaptation sections:", len(tc_readaptation["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in tc_readaptation["sections"]))

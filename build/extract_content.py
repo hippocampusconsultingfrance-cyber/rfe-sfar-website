@@ -2511,6 +2511,29 @@ def extract_optimisation_beta_lactamines_2018():
     return {"doc": "optimisation_beta_lactamines_2018", "sections": blocks}
 
 
+def extract_raac_lobectomie_pulmonaire_2019():
+    import style
+    import fiche_raac_lobectomie_pulmonaire_2019 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "raac_lobectomie_pulmonaire_2019", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -3606,3 +3629,12 @@ if __name__ == "__main__":
         json.dump(optimisation_beta_lactamines_2018, f, ensure_ascii=False, indent=1)
     print("optimisation_beta_lactamines_2018 sections:", len(optimisation_beta_lactamines_2018["sections"]),
           "total blocks:", sum(len(s["items"]) for s in optimisation_beta_lactamines_2018["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    raac_lobectomie_pulmonaire_2019 = extract_raac_lobectomie_pulmonaire_2019()
+    with open(os.path.join(BUILD_DIR, "content_raac_lobectomie_pulmonaire_2019.json"), "w") as f:
+        json.dump(raac_lobectomie_pulmonaire_2019, f, ensure_ascii=False, indent=1)
+    print("raac_lobectomie_pulmonaire_2019 sections:", len(raac_lobectomie_pulmonaire_2019["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in raac_lobectomie_pulmonaire_2019["sections"]))

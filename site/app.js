@@ -129,7 +129,8 @@ var RAW = {
   raac_orthopedique_2019: JSON.parse(document.getElementById('content-raac_orthopedique_2019').textContent),
   reduction_antibiotiques_reanimation_2014: JSON.parse(document.getElementById('content-reduction_antibiotiques_reanimation_2014').textContent),
   simulation_soins_critiques_2019: JSON.parse(document.getElementById('content-simulation_soins_critiques_2019').textContent),
-  optimisation_beta_lactamines_2018: JSON.parse(document.getElementById('content-optimisation_beta_lactamines_2018').textContent)
+  optimisation_beta_lactamines_2018: JSON.parse(document.getElementById('content-optimisation_beta_lactamines_2018').textContent),
+  raac_lobectomie_pulmonaire_2019: JSON.parse(document.getElementById('content-raac_lobectomie_pulmonaire_2019').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -260,7 +261,8 @@ var FICHE_HREF_MATCH = {
   raac_orthopedique_2019: ['rfe-rac-orthopedique'],
   reduction_antibiotiques_reanimation_2014: ['2_SPILF_Strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation'],
   simulation_soins_critiques_2019: ['rfe-interets-de-lapprentissage-par-simulation-en-soins-critiques'],
-  optimisation_beta_lactamines_2018: ['RPP_beta-lactamines-en-soins-critiques_041018_logoSFPT']
+  optimisation_beta_lactamines_2018: ['RPP_beta-lactamines-en-soins-critiques_041018_logoSFPT'],
+  raac_lobectomie_pulmonaire_2019: ['rfe-anesthesie-rac-lobectomie-pulmonaire']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1773,6 +1775,18 @@ var DOC_META = {
     methodology: "GRADE grid — 21 recommandations (26 sous-items), 100 % Accord Fort",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2018/09/RPP_beta-lactamines-en-soins-critiques_041018_logoSFPT.pdf"
+  },
+  raac_lobectomie_pulmonaire_2019: {
+    key: 'raac_lobectomie_pulmonaire_2019',
+    badge: "RFE — GRADE (32 recs, incohérence source disclosed)",
+    title: "Réhabilitation améliorée après lobectomie pulmonaire",
+    short: "SFAR/SFCTCV, RFE, validée 20/09/2019 (population pédiatrique exclue). Méthode GRADE — 32 recommandations sur 5 champs : (1) parcours patient/information — centre à haut volume, pas d'hospitalisation systématique en réanimation, information de qualité ; (2) prise en charge et préhabilitation préopératoire — dépistage/correction dénutrition, arrêt tabac, réhabilitation préopératoire, désinfection oropharyngée chlorhexidine, prévention ACFA ; (3) anesthésie et analgésie — ventilation protectrice unipulmonaire, apports liquidiens titrés, analgésie locorégionale (bloc paravertébral privilégié), AINS, PCA ; (4) stratégie chirurgicale — thoracoscopie privilégiée, dispositif aérostatique, drain unique retiré rapidement ; (5) réhabilitation postopératoire — pas de VNI/OHD préventive systématique mais en traitement curatif, programme RAC avec mobilisation précoce, kinésithérapie multimodale. 31 recommandations à accord fort + 1 à accord faible (R2.5.2) ; 7 GRADE1+, 18 GRADE2+, 5 GRADE2-, 2 avis d'experts. ⚠ Incohérence disclosed : le résumé en tête de document annonce 2 questions sans réponse, la section « Synthèse des résultats » en annonce 3 — 3 cas trouvés et documentés (prémédication, décolonisation nasale S. aureus, aspiration du drain thoracique), écart non résolu.",
+    society: "SFAR / SFCTCV",
+    version: "20 septembre 2019",
+    validated: "Groupe d'experts, méthode GRADE (2 tours + amendements)",
+    methodology: "GRADE — 32 recommandations (7×1+, 18×2+, 5×2-, 2 avis d'experts), 31 accord fort + 1 accord faible",
+    pages: 3,
+    url: "https://sfar.org/download/rfe-anesthesie-rac-lobectomie-pulmonaire/?wpdmdl=24440"
   }
 };
 

@@ -270,6 +270,8 @@ with open(os.path.join(BASE, "content_resection_hepatique_2025.json"), encoding=
     content_resection_hepatique_2025 = f.read()
 with open(os.path.join(BASE, "content_programme_optimisation_perioperatoire_2022.json"), encoding="utf-8") as f:
     content_programme_optimisation_perioperatoire_2022 = f.read()
+with open(os.path.join(BASE, "content_facteurs_humains_2022.json"), encoding="utf-8") as f:
+    content_facteurs_humains_2022 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -410,6 +412,7 @@ out = out.replace("__CONTENT_OPTIMISATION_HEMODYNAMIQUE_PEDIATRIE_2024__", safe(
 out = out.replace("__CONTENT_OPTIMISATION_HEMODYNAMIQUE_ADULTE_2024__", safe(content_optimisation_hemodynamique_adulte_2024))
 out = out.replace("__CONTENT_RESECTION_HEPATIQUE_2025__", safe(content_resection_hepatique_2025))
 out = out.replace("__CONTENT_PROGRAMME_OPTIMISATION_PERIOPERATOIRE_2022__", safe(content_programme_optimisation_perioperatoire_2022))
+out = out.replace("__CONTENT_FACTEURS_HUMAINS_2022__", safe(content_facteurs_humains_2022))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

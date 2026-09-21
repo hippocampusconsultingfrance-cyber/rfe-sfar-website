@@ -135,7 +135,8 @@ var RAW = {
   optimisation_hemodynamique_pediatrie_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_pediatrie_2024').textContent),
   optimisation_hemodynamique_adulte_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_adulte_2024').textContent),
   resection_hepatique_2025: JSON.parse(document.getElementById('content-resection_hepatique_2025').textContent),
-  programme_optimisation_perioperatoire_2022: JSON.parse(document.getElementById('content-programme_optimisation_perioperatoire_2022').textContent)
+  programme_optimisation_perioperatoire_2022: JSON.parse(document.getElementById('content-programme_optimisation_perioperatoire_2022').textContent),
+  facteurs_humains_2022: JSON.parse(document.getElementById('content-facteurs_humains_2022').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -272,7 +273,8 @@ var FICHE_HREF_MATCH = {
   optimisation_hemodynamique_pediatrie_2024: ['optimisation-hemodynamique-perioperatoire-pediatrie'],
   optimisation_hemodynamique_adulte_2024: ['optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique'],
   resection_hepatique_2025: ['prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique'],
-  programme_optimisation_perioperatoire_2022: ['programme-doptimisation-perioperatoire-du-patient-adulte']
+  programme_optimisation_perioperatoire_2022: ['programme-doptimisation-perioperatoire-du-patient-adulte'],
+  facteurs_humains_2022: ['facteurs-humains-en-situations-critiques']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1857,6 +1859,18 @@ var DOC_META = {
     methodology: "GRADE (1+/1-/2+/2-/AE) — 30 recommandations (16 G1+ + 3 G1- + 10 G2+ + 1 AE) + 2 absences, décompte source exact",
     pages: 3,
     url: "https://sfar.org/download/programme-doptimisation-perioperatoire-du-patient-adulte/?wpdmdl=37889"
+  },
+  facteurs_humains_2022: {
+    key: 'facteurs_humains_2022',
+    badge: "RPP — 21 avis d'experts (accord fort 100 %)",
+    title: "Facteurs humains en situations critiques",
+    short: "SFAR, en association avec le Groupe Facteurs Humains en Santé (FHS), RPP, texte validé le 14/05/2022 (SFAR) et le 04/07/2022 (FHS). « Crisis resource management » en anesthésie-réanimation. Méthode GRADE prévue en amont (format PICO) mais non applicable en totalité faute d'essais randomisés sur le sujet — les 21 recommandations sont donc TOUTES des avis d'experts, à accord fort pour 100 % d'entre elles (décompte source vérifié exact, comme optimisation_hemodynamique_pediatrie_2024). 4 champs : 1. Communication (briefing avant prise en charge, communication sécurisée/standardisée, débriefing après prise en charge) ; 2. Organisation (conscience situationnelle individuelle et collective, culture de sécurité, leader identifié/partage d'informations/répartition des tâches, aide cognitive de crise) ; 3. Environnement de travail (matériel disposé logiquement et vérifié, formation systématique à tout nouveau matériel, utilisabilité des dispositifs complexes, protection contre les interruptions de tâche — notamment lors de l'administration d'une thérapeutique et lors des sources technologiques, gestion du risque de fatigue et de la charge de travail, ambiance de travail apaisée, prévention de l'épuisement professionnel) ; 4. Formation (préparation psychologique à la gestion du stress, formation aux facteurs humains). Piège de numérotation disclosed : le source alterne sans raison apparente entre les formats « R3.8 » et « R.3.10 » (point après le R) pour des items consécutifs — purement typographique. Inclut une reproduction condensée de l'Annexe 14 du source, une fiche pratique « réagir face à un comportement hostile » (campagne SFAR/CFAR 1Patient1Equipe, méthode DESC pour exprimer un désaccord) — seule annexe du document directement actionnable et non redondante avec le texte des recommandations ; les autres annexes (exemples cliniques illustratifs, liens externes vers des mémos HAS/SFAR déjà publiés ailleurs) ne sont pas reproduites.",
+    society: "SFAR / Groupe Facteurs Humains en Santé (FHS)",
+    version: "2022",
+    validated: "Comité des Référentiels Cliniques SFAR (14/05/2022) et CA FHS (04/07/2022)",
+    methodology: "GRADE prévu en amont, non applicable en totalité — 21 avis d'experts, accord fort 100 %, décompte source exact",
+    pages: 3,
+    url: "https://sfar.org/download/facteurs-humains-en-situations-critiques/?wpdmdl=37888"
   }
 };
 

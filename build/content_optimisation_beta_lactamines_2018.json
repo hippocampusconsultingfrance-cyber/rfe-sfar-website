@@ -1,0 +1,857 @@
+{
+ "doc": "optimisation_beta_lactamines_2018",
+ "sections": [
+  {
+   "title": "Optimisation du traitement par bêta-lactamines en soins critiques",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> RPP commune SFPT/SFAR sur l'optimisation du traitement par bêta-lactamines (posologie, modalités d'administration, suivi thérapeutique pharmacologique) chez le patient de soins critiques — 21 recommandations sur 4 champs : variabilité pharmacocinétique, relation PK-PD, modalités d'administration, suivi thérapeutique pharmacologique (TDM). Complémentaire de la fiche « Réduction de l'utilisation des antibiotiques en réanimation » (SRLF/SFAR 2014, recommandations générales) — celle-ci détaille spécifiquement les cibles PK-PD par molécule.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "AF"
+       },
+       {
+        "t": "p",
+        "html": "<b>AF = Accord Fort</b> — cotation GRADE grid (≥ 70 % d'opinions favorables, &lt; 20 % contraires). <b>Les 21 recommandations (26 sous-items cotés) ont toutes recueilli un accord fort</b>, sans exception. Terminologie RPP : « les experts suggèrent de faire/ne pas faire » — pas de grade GRADE numérique par item (méthode GRADE utilisée pour l'analyse de la littérature en amont).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Variabilité pharmacocinétique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cotation",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tenir systématiquement et quotidiennement compte des nombreuses sources de variabilité pharmacocinétique lors de la prescription de bêta-lactamines.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Estimer le débit de filtration glomérulaire par le calcul de la clairance de la créatinine (formule UxV/P) au début du traitement et lors de toute modification significative de l'état clinique/fonction rénale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Estimer le DFG (clairance créatinine, formule UxV/P) lors de la réalisation d'un dosage des bêta-lactamines, pour aider à l'interprétation du résultat.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Effectuer un suivi thérapeutique pharmacologique des bêta-lactamines chez les patients traités par épuration extra-rénale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Doser l'albuminémie (à défaut la protidémie) au moins une fois au début du traitement, pour évaluer le degré d'hypoalbuminémie et guider la prescription.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Doser l'albuminémie (à défaut la protidémie) lors de la réalisation d'un dosage des bêta-lactamines, pour aider à l'interprétation du résultat.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans l'attente du résultat du suivi thérapeutique, administrer à l'initiation une posologie journalière plus élevée que hors soins critiques, a fortiori chez les patients les plus graves à fonction rénale conservée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Relation pharmacocinétique-pharmacodynamique (PK-PD)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cotation",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Considérer le paramètre PK-PD %fT &gt; k×CMI (temps pendant lequel la concentration plasmatique libre dépasse un multiple de la CMI) comme cible thérapeutique des bêta-lactamines.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cibler une concentration plasmatique libre entre 4 et 8 fois la CMI pendant 100 % de l'intervalle de dose (%fT ≥ 4-8×CMI à 100 %) pour optimiser les chances de guérison clinique dans les infections graves.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les molécules sans seuil toxique validé, il est inutile voire dangereux de dépasser une concentration plasmatique &gt; 8 fois la CMI de la bactérie incriminée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Modalités d'administration",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cotation",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer les bêta-lactamines en perfusion prolongée ou continue en cas de CMI élevée de la bactérie responsable, pour augmenter les chances d'atteindre l'objectif PK-PD.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer les bêta-lactamines en perfusion prolongée ou continue chez les patients en état de choc et/ou à score de gravité élevé, pour améliorer le taux de guérison clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer les bêta-lactamines en perfusion prolongée ou continue chez les patients avec infection respiratoire basse, pour améliorer le taux de guérison clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer les bêta-lactamines en perfusion prolongée ou continue chez les patients ayant une infection à bacille à Gram négatif non-fermentant, pour améliorer le taux de guérison clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Précéder l'administration continue ou prolongée par une dose de charge en bolus intraveineux lent, au début du traitement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 4 — Suivi thérapeutique pharmacologique (TDM)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cotation",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser le suivi thérapeutique chez l'ensemble des patients pour lesquels une variabilité pharmacocinétique est attendue et/ou présentant des signes de toxicité aux bêta-lactamines.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser le suivi par un dosage de la concentration résiduelle en cas d'administration discontinue, et un dosage à l'équilibre en cas d'administration continue.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser le suivi thérapeutique 24-48h après l'initiation du traitement, après toute modification de posologie, et en cas de modification importante de l'état clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'infection neuro-méningée, réaliser si possible un dosage sur échantillons sanguin et de liquide cérébro-spinal prélevés de manière contemporaine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser le dosage selon une technique chromatographique validée, avec un rendu des résultats au clinicien le plus rapide possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Considérer comme cibles thérapeutiques les concentrations plasmatiques du Tableau 1 (ci-dessous), par molécule.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de non-obtention de la concentration cible : en 1ère intention, augmenter la fréquence d'administration (fractionner la dose) ou passer en perfusion continue à dose journalière égale, ou augmenter la dose unitaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de persistance d'une concentration inférieure à la cible après ces mesures : passer à une administration continue/prolongée associée à une augmentation de dose.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de concentration supra-thérapeutique : diminuer en 1ère intention la dose unitaire discontinue de 25-50 % (fréquence conservée), ou diminuer la dose journalière si administration continue.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'accumulation importante et/ou de signes évocateurs de toxicité compatibles avec un surdosage : suspendre l'administration, reprendre sous surveillance de la décroissance des concentrations.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Envisager une épuration extra-rénale si une insuffisance rénale aiguë est au moins en partie à l'origine d'un surdosage symptomatique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 1 — Cibles thérapeutiques par molécule (infection documentée) :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Molécule",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Fraction libre",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cible visée (Cmin/Céq ≥ 4×CMI)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "CMI seuil retenue",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Amoxicilline",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈80 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "40-80 mg/L",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "8 mg/L (E. coli)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Céfazoline",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈15-20 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "40-80 mg/L",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 mg/L (S. aureus)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Céfépime",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "80 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5-20 mg/L (Cmin) / 5-35 mg/L (Céq)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 mg/L (entérobactéries)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Céfotaxime",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈60-80 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "25-60 mg/L",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 mg/L (S. aureus)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ceftazidime",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈90 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "35-80 mg/L",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "8 mg/L (P. aeruginosa)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ceftriaxone",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈10 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "20-100 mg/L (Cmin)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,5 mg/L (E. cloacae)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cloxacilline",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈10 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "20-50 mg/L",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,5 mg/L (S. aureus)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ertapénème",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈10 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5-10 mg/L (Cmin)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,125 mg/L (H. influenzae)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Imipénème",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈80 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2,5-5 mg/L (Cmin)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,5 mg/L (E. coli)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Méropénème",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈100 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "8-16 mg/L",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 mg/L (P. aeruginosa)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pipéracilline",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "≈80 %",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "80-160 mg/L (Céq)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "16 mg/L (P. aeruginosa)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Cmin = concentration résiduelle (administration discontinue) ; Céq = concentration à l'équilibre (administration continue). Plage haute = seuil de toxicité à ne pas dépasser. Colonne « infection non documentée » et notes de bas de tableau détaillées non reproduites ici — se référer au texte intégral (Tableau 1).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFPT (Groupe STP/PT) / SFAR, « Optimisation du traitement par bêta-lactamines chez le patient de soins critiques », RPP, 2018. Méthode GRADE (analyse de la littérature, PRISMA, format PICO) + cotation GRADE grid. Références bibliographiques citées dans le texte intégral (non reproduites ici) ; composition nominative des groupes d'experts/lecture (non reproduite).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 21 recommandations (26 sous-items) et le Tableau 1 des cibles par molécule (colonne « infection documentée »), mais condense l'argumentaire de chaque item, la colonne « infection non documentée » et les notes de bas de tableau détaillées, et omet la composition nominative des groupes d'experts. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFPT/SFAR.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

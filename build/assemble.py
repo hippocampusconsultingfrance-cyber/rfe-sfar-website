@@ -256,6 +256,8 @@ with open(os.path.join(BASE, "content_reduction_antibiotiques_reanimation_2014.j
     content_reduction_antibiotiques_reanimation_2014 = f.read()
 with open(os.path.join(BASE, "content_simulation_soins_critiques_2019.json"), encoding="utf-8") as f:
     content_simulation_soins_critiques_2019 = f.read()
+with open(os.path.join(BASE, "content_optimisation_beta_lactamines_2018.json"), encoding="utf-8") as f:
+    content_optimisation_beta_lactamines_2018 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -389,6 +391,7 @@ out = out.replace("__CONTENT_DEMARCHES_ANTICIPEES_DON_ORGANES_2024__", safe(cont
 out = out.replace("__CONTENT_RAAC_ORTHOPEDIQUE_2019__", safe(content_raac_orthopedique_2019))
 out = out.replace("__CONTENT_REDUCTION_ANTIBIOTIQUES_REANIMATION_2014__", safe(content_reduction_antibiotiques_reanimation_2014))
 out = out.replace("__CONTENT_SIMULATION_SOINS_CRITIQUES_2019__", safe(content_simulation_soins_critiques_2019))
+out = out.replace("__CONTENT_OPTIMISATION_BETA_LACTAMINES_2018__", safe(content_optimisation_beta_lactamines_2018))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

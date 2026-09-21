@@ -2488,6 +2488,29 @@ def extract_simulation_soins_critiques_2019():
     return {"doc": "simulation_soins_critiques_2019", "sections": blocks}
 
 
+def extract_optimisation_beta_lactamines_2018():
+    import style
+    import fiche_optimisation_beta_lactamines_2018 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "optimisation_beta_lactamines_2018", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -3574,3 +3597,12 @@ if __name__ == "__main__":
         json.dump(simulation_soins_critiques_2019, f, ensure_ascii=False, indent=1)
     print("simulation_soins_critiques_2019 sections:", len(simulation_soins_critiques_2019["sections"]),
           "total blocks:", sum(len(s["items"]) for s in simulation_soins_critiques_2019["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    optimisation_beta_lactamines_2018 = extract_optimisation_beta_lactamines_2018()
+    with open(os.path.join(BUILD_DIR, "content_optimisation_beta_lactamines_2018.json"), "w") as f:
+        json.dump(optimisation_beta_lactamines_2018, f, ensure_ascii=False, indent=1)
+    print("optimisation_beta_lactamines_2018 sections:", len(optimisation_beta_lactamines_2018["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in optimisation_beta_lactamines_2018["sections"]))

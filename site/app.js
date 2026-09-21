@@ -128,7 +128,8 @@ var RAW = {
   demarches_anticipees_don_organes_2024: JSON.parse(document.getElementById('content-demarches_anticipees_don_organes_2024').textContent),
   raac_orthopedique_2019: JSON.parse(document.getElementById('content-raac_orthopedique_2019').textContent),
   reduction_antibiotiques_reanimation_2014: JSON.parse(document.getElementById('content-reduction_antibiotiques_reanimation_2014').textContent),
-  simulation_soins_critiques_2019: JSON.parse(document.getElementById('content-simulation_soins_critiques_2019').textContent)
+  simulation_soins_critiques_2019: JSON.parse(document.getElementById('content-simulation_soins_critiques_2019').textContent),
+  optimisation_beta_lactamines_2018: JSON.parse(document.getElementById('content-optimisation_beta_lactamines_2018').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -258,7 +259,8 @@ var FICHE_HREF_MATCH = {
   demarches_anticipees_don_organes_2024: ['RBP-deimarches-anticipeies_12_10_24'],
   raac_orthopedique_2019: ['rfe-rac-orthopedique'],
   reduction_antibiotiques_reanimation_2014: ['2_SPILF_Strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation'],
-  simulation_soins_critiques_2019: ['rfe-interets-de-lapprentissage-par-simulation-en-soins-critiques']
+  simulation_soins_critiques_2019: ['rfe-interets-de-lapprentissage-par-simulation-en-soins-critiques'],
+  optimisation_beta_lactamines_2018: ['RPP_beta-lactamines-en-soins-critiques_041018_logoSFPT']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1759,6 +1761,18 @@ var DOC_META = {
     methodology: "GRADE grid — 24 recommandations, 100 % Accord Fort (aucune à accord faible)",
     pages: 2,
     url: "https://sfar.org/wp-content/uploads/2019/05/rfe-interets-de-lapprentissage-par-simulation-en-soins-critiques.pdf"
+  },
+  optimisation_beta_lactamines_2018: {
+    key: 'optimisation_beta_lactamines_2018',
+    badge: "RPP — 21/21 Accord Fort",
+    title: "Optimisation du traitement par bêta-lactamines en soins critiques",
+    short: "SFPT (Groupe STP/PT) / SFAR, RPP, 2018. Méthode GRADE (PRISMA, format PICO) + cotation GRADE grid — 21 recommandations (26 sous-items cotés), toutes à accord fort sans exception, sur 4 champs : (1) variabilité pharmacocinétique — sources de variabilité, estimation du DFG (clairance créatinine UxV/P), TDM systématique en épuration extra-rénale, dosage albuminémie, posologie initiale majorée ; (2) relation PK-PD — cible %fT > k×CMI, viser 4-8×CMI pendant 100% de l'intervalle, seuil de toxicité à 8×CMI ; (3) modalités d'administration — perfusion prolongée/continue si CMI élevée, choc/gravité, infection respiratoire basse ou à bacille Gram négatif non-fermentant, dose de charge systématique ; (4) suivi thérapeutique pharmacologique (TDM) — indications, timing (24-48h), technique chromatographique, ajustements post-dosage, et Tableau 1 des cibles plasmatiques par molécule (11 bêta-lactamines : amoxicilline, céfazoline, céfépime, céfotaxime, ceftazidime, ceftriaxone, cloxacilline, ertapénème, imipénème, méropénème, pipéracilline). Complémentaire de la fiche `reduction_antibiotiques_reanimation_2014` (SRLF/SFAR 2014, recommandations générales sur le dosage/perfusion continue) — celle-ci est un RPP dédié beaucoup plus détaillé, spécifique aux bêta-lactamines, vérifié non redondant avant construction.",
+    society: "SFPT (Groupe STP/PT) / SFAR",
+    version: "2018",
+    validated: "Groupe d'experts, méthode GRADE + cotation GRADE grid",
+    methodology: "GRADE grid — 21 recommandations (26 sous-items), 100 % Accord Fort",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2018/09/RPP_beta-lactamines-en-soins-critiques_041018_logoSFPT.pdf"
   }
 };
 

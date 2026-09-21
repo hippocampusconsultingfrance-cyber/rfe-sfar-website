@@ -131,7 +131,8 @@ var RAW = {
   simulation_soins_critiques_2019: JSON.parse(document.getElementById('content-simulation_soins_critiques_2019').textContent),
   optimisation_beta_lactamines_2018: JSON.parse(document.getElementById('content-optimisation_beta_lactamines_2018').textContent),
   raac_lobectomie_pulmonaire_2019: JSON.parse(document.getElementById('content-raac_lobectomie_pulmonaire_2019').textContent),
-  raac_cardiaque_2021: JSON.parse(document.getElementById('content-raac_cardiaque_2021').textContent)
+  raac_cardiaque_2021: JSON.parse(document.getElementById('content-raac_cardiaque_2021').textContent),
+  optimisation_hemodynamique_pediatrie_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_pediatrie_2024').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -264,7 +265,8 @@ var FICHE_HREF_MATCH = {
   simulation_soins_critiques_2019: ['rfe-interets-de-lapprentissage-par-simulation-en-soins-critiques'],
   optimisation_beta_lactamines_2018: ['RPP_beta-lactamines-en-soins-critiques_041018_logoSFPT'],
   raac_lobectomie_pulmonaire_2019: ['rfe-anesthesie-rac-lobectomie-pulmonaire'],
-  raac_cardiaque_2021: ['rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant']
+  raac_cardiaque_2021: ['rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant'],
+  optimisation_hemodynamique_pediatrie_2024: ['optimisation-hemodynamique-perioperatoire-pediatrie']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1801,6 +1803,18 @@ var DOC_META = {
     methodology: "GRADE — 33 recommandations (7×1+, 3×1-, 15×2+, 4×2-, 4 avis d'experts), 100 % Accord Fort",
     pages: 3,
     url: "https://sfar.org/download/rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant/?wpdmdl=35416"
+  },
+  optimisation_hemodynamique_pediatrie_2024: {
+    key: 'optimisation_hemodynamique_pediatrie_2024',
+    badge: "RPP — 9/9 Avis d'experts, Accord Fort",
+    title: "Optimisation hémodynamique périopératoire — Pédiatrie",
+    short: "SFAR, RPP, mars 2024 (transfusion exclue du champ). Méthode GRADE (analyse bibliographique PRISMA) + cotation GRADE grid — 9 avis d'experts sur 4 champs, TOUS à accord fort, document entièrement non gradé (aucun GRADE 1+/1-/2+/2- imprimé) : Champ 1 — cibles de pression artérielle moyenne peropératoire par tranche d'âge (> 35 mmHg si < 6 mois, > 43 mmHg si 6 mois-2 ans, > [1,5×âge+40] mmHg si 2-10 ans) ; Champ 2 — VES/indices dynamiques (Doppler œsophagien chez le patient à risque élevé/très élevé si échocardiographie indisponible ; absence de recommandation pour la population générale sur le monitorage du VES et les indices dynamiques seuls) ; Champ 3 — indices de perfusion tissulaire (lactatémie utile en cas de bas débit, monitorage cérébral chez le nourrisson < 1 an en chirurgie majeure ; absence de recommandation sur DIVA-CO2/ScvO2) ; Champ 4 — expansion volémique (cristalloïde balancé en 1re intention, albumine 4-5% chez le nouveau-né/nourrisson, vasoconstricteur à dose majorée par rapport à l'adulte si hypotension persistante ; absence de recommandation sur le choix du vasoconstricteur). 4 questions sans réponse, décompte source vérifié exact (aucune incohérence). Complémentaire de la fiche `remplissage_perioperatoire` (RFE SFAR/Adarpef 2012, adulte à haut risque, brève mention pédiatrique règle 4-2-1 uniquement) — ce RPP 2024 est dédié et beaucoup plus détaillé spécifiquement à la pédiatrie.",
+    society: "SFAR",
+    version: "Mars 2024",
+    validated: "Groupe d'experts, méthode GRADE grid",
+    methodology: "GRADE grid — 9 avis d'experts, 100 % Accord Fort, document non gradé (pas de GRADE numérique)",
+    pages: 2,
+    url: "https://sfar.org/download/optimisation-hemodynamique-perioperatoire-pediatrie/?wpdmdl=62046"
   }
 };
 

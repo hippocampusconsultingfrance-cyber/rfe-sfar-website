@@ -250,6 +250,8 @@ with open(os.path.join(BASE, "content_ressources_humaines_anesthesie_2024.json")
     content_ressources_humaines_anesthesie_2024 = f.read()
 with open(os.path.join(BASE, "content_demarches_anticipees_don_organes_2024.json"), encoding="utf-8") as f:
     content_demarches_anticipees_don_organes_2024 = f.read()
+with open(os.path.join(BASE, "content_raac_orthopedique_2019.json"), encoding="utf-8") as f:
+    content_raac_orthopedique_2019 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -380,6 +382,7 @@ out = out.replace("__CONTENT_DIABETE_PERIOPERATOIRE_2025__", safe(content_diabet
 out = out.replace("__CONTENT_ANESTH_CARDIOPATHIE_CONGENITALE__", safe(content_anesth_cardiopathie_congenitale))
 out = out.replace("__CONTENT_RESSOURCES_HUMAINES_ANESTHESIE_2024__", safe(content_ressources_humaines_anesthesie_2024))
 out = out.replace("__CONTENT_DEMARCHES_ANTICIPEES_DON_ORGANES_2024__", safe(content_demarches_anticipees_don_organes_2024))
+out = out.replace("__CONTENT_RAAC_ORTHOPEDIQUE_2019__", safe(content_raac_orthopedique_2019))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

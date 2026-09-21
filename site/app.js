@@ -125,7 +125,8 @@ var RAW = {
   diabete_perioperatoire_2025: JSON.parse(document.getElementById('content-diabete_perioperatoire_2025').textContent),
   anesth_cardiopathie_congenitale: JSON.parse(document.getElementById('content-anesth_cardiopathie_congenitale').textContent),
   ressources_humaines_anesthesie_2024: JSON.parse(document.getElementById('content-ressources_humaines_anesthesie_2024').textContent),
-  demarches_anticipees_don_organes_2024: JSON.parse(document.getElementById('content-demarches_anticipees_don_organes_2024').textContent)
+  demarches_anticipees_don_organes_2024: JSON.parse(document.getElementById('content-demarches_anticipees_don_organes_2024').textContent),
+  raac_orthopedique_2019: JSON.parse(document.getElementById('content-raac_orthopedique_2019').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -252,7 +253,8 @@ var FICHE_HREF_MATCH = {
   diabete_perioperatoire_2025: ['prise-en-charge-du-patient-diabetique-en-peri-operatoire'],
   anesth_cardiopathie_congenitale: ['anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale'],
   ressources_humaines_anesthesie_2024: ['preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee'],
-  demarches_anticipees_don_organes_2024: ['RBP-deimarches-anticipeies_12_10_24']
+  demarches_anticipees_don_organes_2024: ['RBP-deimarches-anticipeies_12_10_24'],
+  raac_orthopedique_2019: ['rfe-rac-orthopedique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1717,6 +1719,18 @@ var DOC_META = {
     methodology: "Cotation RAND/UCLA à 2 tours (échelle 1-9), 29 blocs Accord Fort + 1 bloc Accord Faible — pas de grade GRADE numérique",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2024/10/RBP-deimarches-anticipeies_12_10_24.pdf"
+  },
+  raac_orthopedique_2019: {
+    key: 'raac_orthopedique_2019',
+    badge: "RFE — GRADE (24 items, 3 incohérences source disclosed)",
+    title: "Réhabilitation améliorée — arthroplastie de hanche/genou",
+    short: "SFAR, RFE, comité de 19 experts, méthode GRADE (format PICO, 18 questions), validé 20/09/2019. 15 questions avec recommandation graduée ou avis d'experts, 3 avec absence de recommandation explicite (Q2 information/éducation préopératoire, Q3 préhabilitation, Q7 apports liquidiens peropératoires). Points forts : programme de réhabilitation (1+), acide tranexamique (1+), lutte contre l'hypothermie (1+), analgésie locorégionale pour PTG (1+), thromboprophylaxie systématique (1+) ; pratiques déconseillées : dispositifs de récupération de sang si épargne sanguine préop (1-), bilan infectieux systématique (1-). ⚠ 3 incohérences internes au texte source disclosed, non résolues : (1) synthèse annonce 23 recommandations (7 GRADE1+15 GRADE2+1 avis d'experts) mais décompte direct des items numérotés = 24, écart de 1 sur le sous-total GRADE1 (8 dénombrés) ; (2) synthèse annonce un accord fort pour l'ensemble des recommandations alors que R2 (gabapentinoïdes) porte elle-même le tag imprimé « accord faible » ; (3) synthèse annonce 2 questions sans réponse dans la littérature alors que 3 portent la mention explicite « ABSENCE DE RECOMMANDATION ».",
+    society: "SFAR",
+    version: "20 septembre 2019",
+    validated: "Comité de 19 experts, méthode GRADE (2 tours + 1 amendement)",
+    methodology: "GRADE — 24 items dénombrés (8 GRADE1 + 15 GRADE2 + 1 avis d'experts), accord fort sauf R2 (accord faible)",
+    pages: 3,
+    url: "https://sfar.org/download/rfe-rac-orthopedique/?wpdmdl=24459"
   }
 };
 

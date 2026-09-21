@@ -123,7 +123,8 @@ var RAW = {
   tc_readaptation: JSON.parse(document.getElementById('content-tc_readaptation').textContent),
   impact_environnemental_ag: JSON.parse(document.getElementById('content-impact_environnemental_ag').textContent),
   diabete_perioperatoire_2025: JSON.parse(document.getElementById('content-diabete_perioperatoire_2025').textContent),
-  anesth_cardiopathie_congenitale: JSON.parse(document.getElementById('content-anesth_cardiopathie_congenitale').textContent)
+  anesth_cardiopathie_congenitale: JSON.parse(document.getElementById('content-anesth_cardiopathie_congenitale').textContent),
+  ressources_humaines_anesthesie_2024: JSON.parse(document.getElementById('content-ressources_humaines_anesthesie_2024').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -248,7 +249,8 @@ var FICHE_HREF_MATCH = {
   tc_readaptation: ['Annales-de-Readaptation-et-de-Medecine-Physique_Les-traumatises-craniens-adultes-en-medecine-physique-et-readaptation'],
   impact_environnemental_ag: ['reduction-de-limpact-environnemental-de-lanesthesie-generale'],
   diabete_perioperatoire_2025: ['prise-en-charge-du-patient-diabetique-en-peri-operatoire'],
-  anesth_cardiopathie_congenitale: ['anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale']
+  anesth_cardiopathie_congenitale: ['anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale'],
+  ressources_humaines_anesthesie_2024: ['preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1689,6 +1691,18 @@ var DOC_META = {
     methodology: "Avis d'experts (Accord fort, 100 % des 11 recommandations) — pas de grade GRADE numérique",
     pages: 3,
     url: "https://sfar.org/download/anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale-annexes/?wpdmdl=50052"
+  },
+  ressources_humaines_anesthesie_2024: {
+    key: 'ressources_humaines_anesthesie_2024',
+    badge: "RPP — Rappels réglementaires + Avis d'experts",
+    title: "Ressources humaines médicales en anesthésie programmée",
+    short: "SFAR, à l'initiative du CNP ARMPO, RPP, texte validé par le CA de la SFAR le 02/12/2024 (méthode GRADE grid, 11 préconisations : 4 rappels à la réglementation + 7 avis d'experts, accord fort dès le 1er tour pour toutes). Champ : anesthésie programmée hors urgence/soins critiques, hors anesthésie pédiatrique et obstétricale (fiches dédiées), hors consultation préanesthésique/médecine périopératoire. Q1 — qui fait quoi : MAR seul responsable de l'acte (R4311-12, R6153-1-2 CSP), IADE sous contrôle exclusif du MAR, DJ-AR en autonomie supervisée, surveillance clinique continue obligatoire. Q2 — combien de patients/salles par MAR : le MAR décide seul de prendre 1 ou 2 salles simultanées au maximum, aide IADE par salle ou pour 2 salles, exception pour ALR périphériques exclusives (>2 patients sous surveillance IDE dédiée), salles suffisamment proches en cas de responsabilité de 2 salles. Q3 — surveillance continue et recours : procédure organisationnelle par établissement, procédure de déclenchement d'un renfort, architecture des nouveaux sites d'anesthésie favorisant la proximité pour le recours humain.",
+    society: "SFAR / CNP ARMPO",
+    version: "2024",
+    validated: "CA de la SFAR, 02/12/2024",
+    methodology: "Méthode GRADE grid, format RPP — 4 rappels à la réglementation + 7 avis d'experts, accord fort 100 % dès le 1er tour",
+    pages: 2,
+    url: "https://sfar.org/download/preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee/?wpdmdl=72905"
   }
 };
 

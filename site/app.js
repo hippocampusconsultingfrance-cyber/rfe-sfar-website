@@ -124,7 +124,8 @@ var RAW = {
   impact_environnemental_ag: JSON.parse(document.getElementById('content-impact_environnemental_ag').textContent),
   diabete_perioperatoire_2025: JSON.parse(document.getElementById('content-diabete_perioperatoire_2025').textContent),
   anesth_cardiopathie_congenitale: JSON.parse(document.getElementById('content-anesth_cardiopathie_congenitale').textContent),
-  ressources_humaines_anesthesie_2024: JSON.parse(document.getElementById('content-ressources_humaines_anesthesie_2024').textContent)
+  ressources_humaines_anesthesie_2024: JSON.parse(document.getElementById('content-ressources_humaines_anesthesie_2024').textContent),
+  demarches_anticipees_don_organes_2024: JSON.parse(document.getElementById('content-demarches_anticipees_don_organes_2024').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -250,7 +251,8 @@ var FICHE_HREF_MATCH = {
   impact_environnemental_ag: ['reduction-de-limpact-environnemental-de-lanesthesie-generale'],
   diabete_perioperatoire_2025: ['prise-en-charge-du-patient-diabetique-en-peri-operatoire'],
   anesth_cardiopathie_congenitale: ['anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale'],
-  ressources_humaines_anesthesie_2024: ['preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee']
+  ressources_humaines_anesthesie_2024: ['preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee'],
+  demarches_anticipees_don_organes_2024: ['RBP-deimarches-anticipeies_12_10_24']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1703,6 +1705,18 @@ var DOC_META = {
     methodology: "Méthode GRADE grid, format RPP — 4 rappels à la réglementation + 7 avis d'experts, accord fort 100 % dès le 1er tour",
     pages: 2,
     url: "https://sfar.org/download/preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee/?wpdmdl=72905"
+  },
+  demarches_anticipees_don_organes_2024: {
+    key: 'demarches_anticipees_don_organes_2024',
+    badge: "RBP — Cotation RAND/UCLA (Accord Fort/Faible)",
+    title: "Démarches anticipées en vue de don d'organes et de tissus",
+    short: "Agence de la biomédecine, RBP (méthode RPC/HAS), septembre 2024. Cotation à 2 tours inspirée de RAND/UCLA (échelle 1-9, 3 zones) : 29 blocs à accord fort, 1 seul bloc à accord faible (conduite à tenir en cas de défaillance vitale immédiate au repérage). Champ : patients en coma grave (Glasgow < 8) sans perspective thérapeutique après lésion cérébrale irréversible, AVANT la survenue d'une mort cérébrale — distinct de la fiche « Mort encéphalique et prélèvement d'organes » (SFAR/SRLF/ABM 2005) qui traite d'un donneur déjà en mort encéphalique. 5 sections : (I) prérequis institutionnels, (II) définitions (démarche anticipée / entretien anticipé — le terme « abord anticipé » ne doit plus être utilisé), (III) prérequis cliniques (décision de limitation des traitements + annonce déjà faite aux proches), (IV) les 4 étapes de la démarche (repérage d'un donneur possible, appel à la CHPOT, entretiens avec les proches — objectifs et modalités pratiques qui/où/quand/comment/traçabilité —, transfert et accueil en réanimation), (V) formation des professionnels. 20 lignes de synthèse pour 30 blocs cotés du texte source (certains blocs de même cotation regroupés en une ligne quand ils décrivent une même étape, jamais deux cotations différentes fusionnées).",
+    society: "Agence de la biomédecine",
+    version: "Septembre 2024",
+    validated: "Conseil d'orientation de l'ABM, 19/09/2024",
+    methodology: "Cotation RAND/UCLA à 2 tours (échelle 1-9), 29 blocs Accord Fort + 1 bloc Accord Faible — pas de grade GRADE numérique",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2024/10/RBP-deimarches-anticipeies_12_10_24.pdf"
   }
 };
 

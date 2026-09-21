@@ -136,7 +136,8 @@ var RAW = {
   optimisation_hemodynamique_adulte_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_adulte_2024').textContent),
   resection_hepatique_2025: JSON.parse(document.getElementById('content-resection_hepatique_2025').textContent),
   programme_optimisation_perioperatoire_2022: JSON.parse(document.getElementById('content-programme_optimisation_perioperatoire_2022').textContent),
-  facteurs_humains_2022: JSON.parse(document.getElementById('content-facteurs_humains_2022').textContent)
+  facteurs_humains_2022: JSON.parse(document.getElementById('content-facteurs_humains_2022').textContent),
+  douleur_accouchement_2025: JSON.parse(document.getElementById('content-douleur_accouchement_2025').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -274,7 +275,8 @@ var FICHE_HREF_MATCH = {
   optimisation_hemodynamique_adulte_2024: ['optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique'],
   resection_hepatique_2025: ['prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique'],
   programme_optimisation_perioperatoire_2022: ['programme-doptimisation-perioperatoire-du-patient-adulte'],
-  facteurs_humains_2022: ['facteurs-humains-en-situations-critiques']
+  facteurs_humains_2022: ['facteurs-humains-en-situations-critiques'],
+  douleur_accouchement_2025: ['prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1871,6 +1873,18 @@ var DOC_META = {
     methodology: "GRADE prévu en amont, non applicable en totalité — 21 avis d'experts, accord fort 100 %, décompte source exact",
     pages: 3,
     url: "https://sfar.org/download/facteurs-humains-en-situations-critiques/?wpdmdl=37888"
+  },
+  douleur_accouchement_2025: {
+    key: 'douleur_accouchement_2025',
+    badge: "RBP HAS — GRADE (34 recs + 5 absences)",
+    title: "Douleur de l'accouchement — Analgésie périmédullaire",
+    short: "HAS, RBP validée par le Collège le 30 avril 2025, promue par la SFAR et le Collège d'Anesthésie et Réanimation en Obstétrique (CARO), en association avec CNGOF/SF2H/CNSF/CIANE/GIHP/SFTH et d'autres — actualisation des recommandations SFAR de 2006 sur l'analgésie obstétricale. Méthode GRADE (grade 1/grade 2 SANS signe +/-, comme resection_hepatique_2025), 5 champs — pose, initiation, entretien, gestion de l'insuffisance/échec, alternatives médicamenteuses à l'analgésie périmédullaire (APM) — 34 recommandations et 5 absences de recommandation (39 items). Points clés : pas de repérage échographique systématique (sauf obésité/rachis difficile) ; pas de préférence décubitus latéral/position assise ; délai après HBPM ≥12h (prophylactique)/≥24h (curative) ; technique avec ponction durale si efficacité rapide attendue ; accès à l'APM précoce (≤4cm) ; pas de dose-test à la lidocaïne ; bolus intermittent programmé (BIP) préféré au débit continu ; déambulation possible sous APM ; sufentanil systématique en adjuvant, pas de clonidine en 1re intention ni d'adrénaline ; mesures correctrices en cas d'échec avec algorithme dédié (Figure 4, d'après Rackelboom) et repose de cathéter à 45min si échec ; rémifentanil IV-PCA en 2e ligne si contre-indication à l'APM avec surveillance rapprochée (risque dépression respiratoire) ; pas de protoxyde d'azote comparé à l'APM. Ce document N'IMPRIME PAS de synthèse chiffrée globale à recouper (contrairement à resection_hepatique_2025) — décompte direct exhaustif uniquement, chaque marqueur R x.y[.z] et chaque bloc ABS (imprimé en encadrement avant ET après le texte, vérifié pour ne pas compter en double) apparié individuellement à son grade. 5 absences dont 2 sans aucun numéro R (port de la casaque stérile ; monitorage systématique maternel/RCF pendant la pose) — questions posées explicitement dans le texte source mais n'ayant reçu aucune proposition, même non numérotée.",
+    society: "HAS / SFAR / CARO",
+    version: "Avril 2025",
+    validated: "Collège de la HAS, 30 avril 2025",
+    methodology: "GRADE (sans signe +/-) — 34 recommandations (12 G1 + 10 G2 + 12 avis d'experts) + 5 absences, décompte direct exhaustif (pas de synthèse chiffrée source à recouper)",
+    pages: 5,
+    url: "https://sfar.org/download/prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses-texte-court/?wpdmdl=106110"
   }
 };
 

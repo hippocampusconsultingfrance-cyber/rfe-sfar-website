@@ -1,0 +1,743 @@
+{
+ "doc": "organisation_usc_2018",
+ "sections": [
+  {
+   "title": "Champs 1-2 — Typologie des patients & structure des USC",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> recommandations conjointes des Conseils Nationaux Professionnels de Médecine Intensive Réanimation, Anesthésie-Réanimation et Médecine d'Urgence (2018) sur l'organisation des Unités de Surveillance Continue (USC) — « soins intermédiaires » entre unité standard et réanimation. 26 recommandations (accord fort) sur 5 champs : typologie des patients, structure des USC, organisation paramédicale, organisation médicale, USC dans le contexte des GHT.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "Fort"
+       },
+       {
+        "t": "p",
+        "html": "Convention de ce document : chaque recommandation est suivie de la seule mention <b>« Accord Fort »</b> — pas de grille GRADE numérique, pas de distinction avis d'experts/recommandation graduée. 26 recommandations, toutes à accord fort, sur 5 champs. Aucune absence de recommandation dans ce document.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Typologie des patients",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sélectionner les patients pris en charge en USC dans un objectif de sécurité médicale, et non d'éligibilité à un tarif.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Organiser les USC pour prendre en charge des patients à risque de défaillance vitale nécessitant une surveillance rapprochée, avec capacité de faire face à la défaillance et de préparer un transfert rapide en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adapter les moyens et compétences des USC aux filières de l'établissement (post-opératoire, urgences, post-réanimation, activités à risque) ; dans les centres sans réanimation, tenir compte des délais de transfert.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les USC n'ont pas pour mission d'assurer la suppléance d'organe des patients en défaillance, en dehors de la préparation d'un transfert en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les USC ne doivent pas recevoir de patients pour engager un processus de fin de vie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Structure des USC",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'existence de lits d'USC dans une structure hospitalière devrait être soumise à autorisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si l'établissement comporte une unité de réanimation, l'USC doit être placée sous la même autorité médicale et paramédicale que cette unité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une USC doit avoir un projet médical et paramédical qui lui est spécifique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sans unité de réanimation sur site, la mission et l'organisation de l'USC doivent être précisées et intégrées au projet médical des soins critiques du GHT.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avec unité de réanimation, les lits d'USC peuvent être intégrés à cette unité ou constituer une unité distincte à proximité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Regrouper le plus possible les lits de soins critiques au sein d'une structure hospitalière.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas descendre, hors particularités géographiques, en dessous de 6 lits pour une USC.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champs 3-4 — Organisation paramédicale & médicale",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 3 — Organisation et management paramédical",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'équipe paramédicale d'une USC doit faire l'objet d'une organisation et d'un projet de soins spécifiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les paramédicaux exerçant en USC doivent recevoir une formation d'adaptation à l'emploi spécifique aux patients à risque de défaillance vitale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Cette formation doit aborder les aspects techniques, de prévention/qualité, et humains/psychologiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'effectif paramédical (IDE + AS) physiquement présent et affecté aux soins doit être ≥ 0,4 par lit ouvert.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avec réanimation sur site, mutualiser le planning IDE entre USC et réanimation (rotation des personnels) ; sans réanimation, mutualiser avec les autres soins critiques (urgences, soins intensifs).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 4 — Organisation et management médical",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les médecins exerçant en USC doivent avoir une formation initiale ou attestée à l'activité de soins critiques (anesthésie-réanimation, médecine intensive-réanimation ou médecine d'urgence).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'équipe médicale d'une USC rattachée à un service de réanimation doit être sous la même responsabilité que ce service.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sans unité de réanimation, l'équipe médicale de l'USC doit être sous la responsabilité d'un médecin exerçant à temps majoritaire dans l'USC.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Assurer la présence d'un médecin sur site 24h/24, 7j/7 (répondant aux critères de R4.1) ; mutualiser la permanence de nuit/week-end/jours fériés avec le service de rattachement (ou les autres soins critiques si pas de réanimation).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sans service de réanimation, assurer la formation continue et l'évaluation des pratiques en coopération avec le réseau de soins critiques du GHT.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 5 — GHT, critères d'admission & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 5 — USC dans le contexte des GHT",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les GHT doivent organiser la filière de soins critiques intégrant les USC selon le volume et la gravité des filières de patients « à risque ».",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sans unité de réanimation in situ, l'USC doit établir une convention avec l'unité de réanimation du GHT.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une USC doit avoir un projet d'unité précisant ses missions au sein du GHT, ses objectifs, et les catégories de patients qu'elle prend en charge.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les USC isolées, favoriser le partage de temps médical avec des réanimations partenaires (« pôle de soins critiques inter-établissements »), pour éviter l'isolement et les problèmes d'attractivité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "Fort"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Tableau — Critères d'admission en USC (American College of Critical Care, cité par le source)",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Appareil",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Indications d'admission en USC",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cardiovasculaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Suspicion d'IDM ou IDM hémodynamiquement stable ; troubles du rythme bien tolérés ; entraînement électrosystolique stable ; décompensation cardiaque modérée (NYHA 1-2) ; urgence hypertensive sans défaillance d'organe.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Respiratoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sevrage ventilatoire avec soins chroniques ; défaillance respiratoire stable nécessitant surveillance rapprochée et/ou CPAP ; besoin de soins/kinésithérapie respiratoire intense.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neurologique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "AVC stable nécessitant évaluations/nursing rapprochés ; traumatisme crânien aigu Glasgow &gt; 9 sous surveillance ; surveillance post-traitement d'anévrysme cérébral ; fuite de LCR ; trauma médullaire cervical stable ; hémorragie méningée non sévère en attente de sécurisation.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intoxications",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance cardiaque/pulmonaire/neurologique après intoxication médicamenteuse chez un patient stable.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Digestif",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie digestive modérée répondant au remplissage ; rupture de VO de faible intensité chez un patient stable ; insuffisance hépatocellulaire aiguë sans gravité vitale.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Endocrinien",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Acidocétose ou décompensation hyperosmolaire sans coma ; thyrotoxicose/coma myxœdémateux.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgical",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Transfusion/remplissage postopératoire chez un patient stable ; 24 premières heures postopératoires à soins infirmiers rapprochés (carotide, chirurgie vasculaire périphérique, neurochirurgie, greffe rénale…).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Divers",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sepsis stable sans choc ni défaillance d'organe ; monitorage du remplissage vasculaire ; pré-éclampsie/éclampsie ; soins infirmiers lourds ou pansements complexes.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> Conseils Nationaux Professionnels de Médecine Intensive Réanimation, d'Anesthésie-Réanimation et de Médecine d'Urgence, « Recommandations pour le fonctionnement des Unités de Surveillance Continue (USC) dans les Établissements de Santé », 2018.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2018/05/EXTE-USC-CNP.pdf",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 26 recommandations (5 champs), toutes à accord fort — aucune absence de recommandation dans ce document. Le tableau des critères d'admission ACCC (référence externe citée par le source) est reproduit intégralement. L'Annexe 1 (actes consommateurs de temps IDE) et les Tableaux 1-3 (valorisation tarifaire, organisation, charge en soins) ne sont pas retranscrits — administratifs/méthodologiques, non actionnables au chevet. Bibliographie et composition nominative du groupe de travail non reproduites.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 26 recommandations du texte source, mais condense l'argumentaire de chaque item. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par les Conseils Nationaux Professionnels concernés.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

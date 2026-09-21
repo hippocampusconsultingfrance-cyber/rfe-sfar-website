@@ -139,7 +139,8 @@ var RAW = {
   facteurs_humains_2022: JSON.parse(document.getElementById('content-facteurs_humains_2022').textContent),
   douleur_accouchement_2025: JSON.parse(document.getElementById('content-douleur_accouchement_2025').textContent),
   erreurs_medicamenteuses_2024: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_2024').textContent),
-  organisation_anesthesie_pediatrique_2023: JSON.parse(document.getElementById('content-organisation_anesthesie_pediatrique_2023').textContent)
+  organisation_anesthesie_pediatrique_2023: JSON.parse(document.getElementById('content-organisation_anesthesie_pediatrique_2023').textContent),
+  organisation_usc_2018: JSON.parse(document.getElementById('content-organisation_usc_2018').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -280,7 +281,8 @@ var FICHE_HREF_MATCH = {
   facteurs_humains_2022: ['facteurs-humains-en-situations-critiques'],
   douleur_accouchement_2025: ['prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses'],
   erreurs_medicamenteuses_2024: ['prevention-des-erreurs-medicamenteuses-en-anesthesie-reanimation', 'wpdmdl=68460'],
-  organisation_anesthesie_pediatrique_2023: ['organisation-de-lanesthesie-pediatrique']
+  organisation_anesthesie_pediatrique_2023: ['organisation-de-lanesthesie-pediatrique'],
+  organisation_usc_2018: ['EXTE-USC-CNP']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1913,6 +1915,18 @@ var DOC_META = {
     methodology: "Format RPP — 34 avis d'experts, accord fort 100 %, décompte source exact ; aucune absence de recommandation",
     pages: 4,
     url: "https://sfar.org/download/organisation-de-lanesthesie-pediatrique/?wpdmdl=43179"
+  },
+  organisation_usc_2018: {
+    key: 'organisation_usc_2018',
+    badge: "Recommandations CNP — 26 items (accord fort uniforme)",
+    title: "Fonctionnement des Unités de Surveillance Continue (USC)",
+    short: "Conseils Nationaux Professionnels de Médecine Intensive Réanimation, d'Anesthésie-Réanimation et de Médecine d'Urgence, « Recommandations pour le fonctionnement des Unités de Surveillance Continue (USC) dans les Établissements de Santé », 2018. Les USC (« soins intermédiaires ») se situent entre une unité de soins standard et la réanimation. Convention de cotation propre à ce document : chaque recommandation est suivie de la seule mention « Accord Fort » — pas de grille GRADE numérique, chip local réutilisé « Fort » (même convention que bris_dentaires, déjà git-trackée). 26 recommandations, toutes à accord fort (décompte vérifié exact, aucune absence de recommandation), sur 5 champs : 1. Typologie des patients (sélection sur critère de sécurité et non de tarif, USC ne se substituant pas à une suppléance d'organe, exclusion des situations de fin de vie) ; 2. Structure des USC (autorisation requise, rattachement à l'autorité de la réanimation si elle existe, projet médical/paramédical spécifique, taille minimale de 6 lits) ; 3. Organisation paramédicale (formation d'adaptation à l'emploi, effectif IDE+AS ≥ 0,4 par lit ouvert, mutualisation des plannings avec la réanimation) ; 4. Organisation médicale (formation en soins critiques, présence médicale 24h/24-7j/7, responsabilité clarifiée selon présence ou non d'une réanimation sur site) ; 5. USC dans le contexte des Groupements Hospitaliers de Territoire (GHT) — organisation en réseau, convention avec la réanimation du GHT, mutualisation du temps médical pour les USC isolées. Inclut le tableau des critères d'admission en USC de l'American College of Critical Care (référence externe citée par le source), reproduit intégralement par appareil (cardiovasculaire, respiratoire, neurologique, intoxications, digestif, endocrinien, chirurgical, divers).",
+    society: "CNP Médecine Intensive Réanimation / Anesthésie-Réanimation / Médecine d'Urgence",
+    version: "2018",
+    validated: "Conseils Nationaux Professionnels concernés",
+    methodology: "Convention « Accord Fort » uniforme (pas de grille GRADE) — 26 recommandations, décompte source exact, aucune absence de recommandation",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2018/05/EXTE-USC-CNP.pdf"
   }
 };
 

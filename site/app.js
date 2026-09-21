@@ -137,7 +137,8 @@ var RAW = {
   resection_hepatique_2025: JSON.parse(document.getElementById('content-resection_hepatique_2025').textContent),
   programme_optimisation_perioperatoire_2022: JSON.parse(document.getElementById('content-programme_optimisation_perioperatoire_2022').textContent),
   facteurs_humains_2022: JSON.parse(document.getElementById('content-facteurs_humains_2022').textContent),
-  douleur_accouchement_2025: JSON.parse(document.getElementById('content-douleur_accouchement_2025').textContent)
+  douleur_accouchement_2025: JSON.parse(document.getElementById('content-douleur_accouchement_2025').textContent),
+  erreurs_medicamenteuses_2024: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_2024').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -276,7 +277,8 @@ var FICHE_HREF_MATCH = {
   resection_hepatique_2025: ['prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique'],
   programme_optimisation_perioperatoire_2022: ['programme-doptimisation-perioperatoire-du-patient-adulte'],
   facteurs_humains_2022: ['facteurs-humains-en-situations-critiques'],
-  douleur_accouchement_2025: ['prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses']
+  douleur_accouchement_2025: ['prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses'],
+  erreurs_medicamenteuses_2024: ['prevention-des-erreurs-medicamenteuses-en-anesthesie-reanimation', 'wpdmdl=68460']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1885,6 +1887,18 @@ var DOC_META = {
     methodology: "GRADE (sans signe +/-) — 34 recommandations (12 G1 + 10 G2 + 12 avis d'experts) + 5 absences, décompte direct exhaustif (pas de synthèse chiffrée source à recouper)",
     pages: 5,
     url: "https://sfar.org/download/prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses-texte-court/?wpdmdl=106110"
+  },
+  erreurs_medicamenteuses_2024: {
+    key: 'erreurs_medicamenteuses_2024',
+    badge: "RPP — 29 avis d'experts (accord fort 100 %)",
+    title: "Prévention des erreurs médicamenteuses en anesthésie-réanimation",
+    short: "SFAR, en collaboration avec la Société Française de Pharmacie Clinique (SFPC), RPP, texte validé par le Comité des Référentiels Cliniques de la SFAR le 30 avril 2024. Réactualisation, complémentaire et beaucoup plus étendue, de la préconisation SFAR/SFPC 2016 déjà git-trackée sous la clé erreurs_medicamenteuses_ar_2016 (les deux fiches restent utiles, sous des clés distinctes). Format RPP choisi en amont (pas RFE) faute d'un nombre suffisant d'études permettant une cotation GRADE numérique — les 29 recommandations sont donc TOUTES des avis d'experts, à accord fort pour 100 % d'entre elles (décompte source vérifié exact). 4 champs : 1. Environnement de travail et processus (protocoles de prescription/préparation/administration standardisés, logiciels de prescription et aide à la prescription en soins critiques, bilan médicamenteux et conciliation, double contrôle, codes couleurs internationaux d'étiquetage, mentions obligatoires sur les étiquettes de poches PCA/PCEA, étiquetage des voies d'administration, conformité ANSM/ISO 26825-2020, limitation du nombre de médicaments différents disponibles, seringues préremplies, normes de connectique, traçabilité par code barre, standardisation de l'approvisionnement/stockage) ; 2. Facteurs humains et organisationnels (lutte contre les interruptions de tâches, restriction des communications non essentielles, audits d'équipe, lecture attentive/double lecture/communication sécurisée, formation par simulation, intégration de pharmaciens cliniciens) ; 3. Gestion des risques a posteriori (déclaration et analyse des erreurs, REX) ; 4. Pénuries médicamenteuses (anticipation des changements de marché/ruptures, inclusion dans les plans de gestion des risques). 2 absences de recommandation : informatisation de la prescription en anesthésie (distincte des recommandations sur les soins critiques) ; systèmes data-matrix et RFID (distincts de la recommandation sur la traçabilité par code barre). Aucune annexe dans le document source.",
+    society: "SFAR / Société Française de Pharmacie Clinique (SFPC)",
+    version: "2024",
+    validated: "Comité des Référentiels Cliniques SFAR, 30 avril 2024",
+    methodology: "Format RPP (pas RFE) — 29 avis d'experts, accord fort 100 %, décompte source exact ; 2 absences de recommandation",
+    pages: 3,
+    url: "https://sfar.org/download/prevention-des-erreurs-medicamenteuses/?wpdmdl=68460"
   }
 };
 

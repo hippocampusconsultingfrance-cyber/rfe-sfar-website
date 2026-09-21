@@ -132,7 +132,8 @@ var RAW = {
   optimisation_beta_lactamines_2018: JSON.parse(document.getElementById('content-optimisation_beta_lactamines_2018').textContent),
   raac_lobectomie_pulmonaire_2019: JSON.parse(document.getElementById('content-raac_lobectomie_pulmonaire_2019').textContent),
   raac_cardiaque_2021: JSON.parse(document.getElementById('content-raac_cardiaque_2021').textContent),
-  optimisation_hemodynamique_pediatrie_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_pediatrie_2024').textContent)
+  optimisation_hemodynamique_pediatrie_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_pediatrie_2024').textContent),
+  optimisation_hemodynamique_adulte_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_adulte_2024').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -266,7 +267,8 @@ var FICHE_HREF_MATCH = {
   optimisation_beta_lactamines_2018: ['RPP_beta-lactamines-en-soins-critiques_041018_logoSFPT'],
   raac_lobectomie_pulmonaire_2019: ['rfe-anesthesie-rac-lobectomie-pulmonaire'],
   raac_cardiaque_2021: ['rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant'],
-  optimisation_hemodynamique_pediatrie_2024: ['optimisation-hemodynamique-perioperatoire-pediatrie']
+  optimisation_hemodynamique_pediatrie_2024: ['optimisation-hemodynamique-perioperatoire-pediatrie'],
+  optimisation_hemodynamique_adulte_2024: ['optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1815,6 +1817,18 @@ var DOC_META = {
     methodology: "GRADE grid — 9 avis d'experts, 100 % Accord Fort, document non gradé (pas de GRADE numérique)",
     pages: 2,
     url: "https://sfar.org/download/optimisation-hemodynamique-perioperatoire-pediatrie/?wpdmdl=62046"
+  },
+  optimisation_hemodynamique_adulte_2024: {
+    key: 'optimisation_hemodynamique_adulte_2024',
+    badge: "RFE — GRADE (18 recs, décompte source disclosed)",
+    title: "Optimisation hémodynamique périopératoire — Adulte / Obstétrique",
+    short: "SFAR, RFE, janvier 2024 — réactualisation des recommandations SFAR 2012 sur le remplissage vasculaire périopératoire. Méthode GRADE — 18 recommandations réelles (2 GRADE1 + 8 GRADE2 + 8 avis d'experts, ces 3 sous-totaux exacts) + 6 absences de recommandation sur 5 champs : pression artérielle (éviter PAM <60-70 mmHg, cible >90% habituelle si hypertendu chronique, pas de monitorage continu systématique à risque faible/intermédiaire) ; VES/indices dynamiques (monitorage chez le patient à risque élevé/très élevé, associer un indice dynamique si analyse de courbe de PA, ne rien utiliser à risque faible/intermédiaire) ; indices de perfusion tissulaire (lactate artériel à très haut risque, pas de ScVO2, absence de recommandation sur DIVA-CO2/NIRS) ; expansion volémique/vasoconstricteurs/inotropes (cristalloïdes balancés, noradrénaline privilégiée à la phényléphrine, dobutamine en 1re intention si inotrope nécessaire) ; impact économique (optimisation utile sur la DMS à risque élevé, absence de recommandation sur les coûts). Inclut 4 recommandations et 1 absence spécifiques à la césarienne programmée sous rachianesthésie (préfixe OBS) : pas d'éphédrine prophylactique, phényléphrine/noradrénaline faiblement concentrée privilégiée, co-remplissage cristalloïde. ⚠ Le résumé du texte source annonce « 24 recommandations » mais le décompte direct trouve 18 réelles — 18+6 absences=24, disclosed sans résolution certaine (hypothèse la plus probable : le résumé compte les absences comme des « recommandations formulées » au sens large). Particularité : ce document imprime « GRADE 1 »/« GRADE 2 » SANS signe +/-, contrairement au format standard 1+/1-/2+/2- de ce corpus.",
+    society: "SFAR",
+    version: "Janvier 2024",
+    validated: "Groupe d'experts, méthode GRADE",
+    methodology: "GRADE (sans signe +/-) — 18 recommandations réelles (2 GRADE1 + 8 GRADE2 + 8 avis d'experts) + 6 absences ; résumé source annonce 24",
+    pages: 3,
+    url: "https://sfar.org/download/optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique/?wpdmdl=62044"
   }
 };
 

@@ -2580,6 +2580,29 @@ def extract_optimisation_hemodynamique_pediatrie_2024():
     return {"doc": "optimisation_hemodynamique_pediatrie_2024", "sections": blocks}
 
 
+def extract_optimisation_hemodynamique_adulte_2024():
+    import style
+    import fiche_optimisation_hemodynamique_adulte_2024 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "optimisation_hemodynamique_adulte_2024", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -3702,3 +3725,12 @@ if __name__ == "__main__":
         json.dump(optimisation_hemodynamique_pediatrie_2024, f, ensure_ascii=False, indent=1)
     print("optimisation_hemodynamique_pediatrie_2024 sections:", len(optimisation_hemodynamique_pediatrie_2024["sections"]),
           "total blocks:", sum(len(s["items"]) for s in optimisation_hemodynamique_pediatrie_2024["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    optimisation_hemodynamique_adulte_2024 = extract_optimisation_hemodynamique_adulte_2024()
+    with open(os.path.join(BUILD_DIR, "content_optimisation_hemodynamique_adulte_2024.json"), "w") as f:
+        json.dump(optimisation_hemodynamique_adulte_2024, f, ensure_ascii=False, indent=1)
+    print("optimisation_hemodynamique_adulte_2024 sections:", len(optimisation_hemodynamique_adulte_2024["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in optimisation_hemodynamique_adulte_2024["sections"]))

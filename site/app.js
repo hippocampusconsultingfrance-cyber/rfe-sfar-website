@@ -134,7 +134,8 @@ var RAW = {
   raac_cardiaque_2021: JSON.parse(document.getElementById('content-raac_cardiaque_2021').textContent),
   optimisation_hemodynamique_pediatrie_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_pediatrie_2024').textContent),
   optimisation_hemodynamique_adulte_2024: JSON.parse(document.getElementById('content-optimisation_hemodynamique_adulte_2024').textContent),
-  resection_hepatique_2025: JSON.parse(document.getElementById('content-resection_hepatique_2025').textContent)
+  resection_hepatique_2025: JSON.parse(document.getElementById('content-resection_hepatique_2025').textContent),
+  programme_optimisation_perioperatoire_2022: JSON.parse(document.getElementById('content-programme_optimisation_perioperatoire_2022').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -270,7 +271,8 @@ var FICHE_HREF_MATCH = {
   raac_cardiaque_2021: ['rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant'],
   optimisation_hemodynamique_pediatrie_2024: ['optimisation-hemodynamique-perioperatoire-pediatrie'],
   optimisation_hemodynamique_adulte_2024: ['optimisation-hemodynamique-perioperatoire-adulte-dont-obstetrique'],
-  resection_hepatique_2025: ['prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique']
+  resection_hepatique_2025: ['prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique'],
+  programme_optimisation_perioperatoire_2022: ['programme-doptimisation-perioperatoire-du-patient-adulte']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1843,6 +1845,18 @@ var DOC_META = {
     methodology: "GRADE (sans signe +/-) — 40 recommandations numérotées (7 GRADE1 + 22 GRADE2 + 11 avis d'experts, décompte direct) + 3 absences de recommandation ; résumé source annonce 39",
     pages: 7,
     url: "https://sfar.org/download/prise-en-charge-peri-operatoire-du-patient-adulte-lors-dune-resection-hepatique/?wpdmdl=123091"
+  },
+  programme_optimisation_perioperatoire_2022: {
+    key: 'programme_optimisation_perioperatoire_2022',
+    badge: "RFE — GRADE (30 recs, décompte source exact)",
+    title: "Programme d'optimisation périopératoire du patient adulte",
+    short: "SFAR, RFE, texte validé par le Comité des Référentiels Cliniques le 13/06/2022 et le Conseil d'Administration le 29/06/2022. Socle commun de mesures applicables quelle que soit la chirurgie (à la différence des RFE de réhabilitation améliorée déjà git-trackées dans ce corpus — raac_lobectomie_pulmonaire_2019, raac_cardiaque_2021, raac_orthopedique_2019, raac_colorectal — spécifiques à une chirurgie) : une mesure devait être valable dans au moins 3 domaines chirurgicaux distincts pour être retenue. Méthode GRADE (vote GRADE grid, 2 tours), 30 recommandations sur 4 champs — 1. Généralités (mettre en place un programme d'optimisation, inclure tous les patients, équipe pluriprofessionnelle dédiée ; absence de recommandation sur la place de la médecine de ville) ; 2. Mesures préopératoires (préhabilitation, jeûne limité à 6h solides/2h liquides clairs, pas de prémédication sédative systématique, admission le jour de l'intervention, patient blood management) ; 3. Mesures peropératoires (pas de préférence IV/inhalé ni générale/locorégionale en chirurgie des membres inférieurs, ventilation protectrice 6-8ml/kg + PEP≥5, anesthésiques locaux péri-nerveux en chirurgie des membres, analgésie locorégionale en chirurgie majeure, lidocaïne IV en laparoscopie abdomino-pelvienne, monitorage hémodynamique par VES, monitorage de la profondeur d'anesthésie, lutte contre l'hypothermie, prévention des NVPO, dexaméthasone systématique, acide tranexamique, antibioprophylaxie selon la RFE dédiée, monitorage de la curarisation ; absence de recommandation sur les moniteurs d'analgésie) ; 4. Mesures postopératoires (analgésie multimodale, thromboprophylaxie protocolisée, mesures d'optimisation dès la SSPI, alimentation orale précoce <24h, déambulation précoce <24h, critères de sortie prédéfinis) — plus 2 absences de recommandation au total. Décompte source vérifié EXACT (16 GRADE1+ + 3 GRADE1- + 10 GRADE2+ + 0 GRADE2- + 1 avis d'experts = 30, et 2 questions sans réponse, tous confirmés par un décompte direct item par item) : contrairement aux fiches optimisation_hemodynamique_adulte_2024 et resection_hepatique_2025 (chacune avec un écart de décompte disclosed), ce document est un cas « propre » sans divergence.",
+    society: "SFAR",
+    version: "2022",
+    validated: "Comité des Référentiels Cliniques (13/06/2022) et CA de la SFAR (29/06/2022)",
+    methodology: "GRADE (1+/1-/2+/2-/AE) — 30 recommandations (16 G1+ + 3 G1- + 10 G2+ + 1 AE) + 2 absences, décompte source exact",
+    pages: 3,
+    url: "https://sfar.org/download/programme-doptimisation-perioperatoire-du-patient-adulte/?wpdmdl=37889"
   }
 };
 

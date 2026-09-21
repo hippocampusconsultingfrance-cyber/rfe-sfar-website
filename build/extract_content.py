@@ -2626,6 +2626,29 @@ def extract_resection_hepatique_2025():
     return {"doc": "resection_hepatique_2025", "sections": blocks}
 
 
+def extract_programme_optimisation_perioperatoire_2022():
+    import style
+    import fiche_programme_optimisation_perioperatoire_2022 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "programme_optimisation_perioperatoire_2022", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -3766,3 +3789,12 @@ if __name__ == "__main__":
         json.dump(resection_hepatique_2025, f, ensure_ascii=False, indent=1)
     print("resection_hepatique_2025 sections:", len(resection_hepatique_2025["sections"]),
           "total blocks:", sum(len(s["items"]) for s in resection_hepatique_2025["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    programme_optimisation_perioperatoire_2022 = extract_programme_optimisation_perioperatoire_2022()
+    with open(os.path.join(BUILD_DIR, "content_programme_optimisation_perioperatoire_2022.json"), "w") as f:
+        json.dump(programme_optimisation_perioperatoire_2022, f, ensure_ascii=False, indent=1)
+    print("programme_optimisation_perioperatoire_2022 sections:", len(programme_optimisation_perioperatoire_2022["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in programme_optimisation_perioperatoire_2022["sections"]))

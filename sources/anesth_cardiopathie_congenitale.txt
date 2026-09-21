@@ -1,0 +1,221 @@
+--- PAGE 1 ---
+ 
+ 
+ 
+                              
+ 
+ 
+RECOMMANDATIONS DE PRATIQUES PROFESSIONNELLES 
+de la SOCIETE FRANÇAISE D’ANESTHESIE ET REANIMATION (SFAR) 
+ 
+en association avec la SOCIETE FRANÇAISE DE CARDIOLOGIE (SFC) 
+ la SOCIETE FRANÇAISE DE PEDIATRIE (SFP) 
+le CLUB ANESTHESIE-REANIMATION EN OBSTETRIQUE (CARO) 
+et la SOCIETE FRANÇAISE DE CHIRURGIE THORACIQUE ET CARDIO-VASCULAIRE (SFCTCV) 
+ 
+Anesthésie pour chirurgie non cardiaque des patients 
+adultes porteurs de cardiopathie congénitale  
+ 
+Guidelines for anaesthesia of adults with congenital heart disease in non-cardiac surgery 
+ 
+2023 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXES : FICHES PRATIQUES DE PRISE EN CHARGE 
+
+--- PAGE 2 ---
+ 
+ 
+FICHE PRATIQUE #1 : Gestion des traitements cardiotropes, anti-arythmiques, anti-hypertenseurs 
+pulmonaires et anticoagulants 
+Experts : Diane ZLOTNIK, Pascal AMEDRO 
+ 
+ 
+Gestion péri opératoire [1,2,3] 
+Conduite à tenir 
+Traitement de l’insuffisance 
+cardiaque 
+La veille de l’intervention 
+Le matin de 
+l’intervention 
+ 
+Diurétiques 
+Poursuite 
+Arrêt 
+Contrôle de la kaliémie souhaitable 
+Optimisation de la volémie 
+périopératoire 
+IEC 
+Poursuite 
+Arrêt 
+Poursuite en cas d’insuffisance 
+cardiaque et/ou FE ventricule 
+systémique < 40% 
+Bétabloquants 
+Poursuite 
+Poursuite 
+En l’absence d’urgence, discuter l’arrêt 
+du traitement par le cardiologue 
+congénitaliste référent.  
+Inhibiteurs SRAA 
+Poursuite 
+Arrêt 
+Arrêt ≥ 12h (Traitement de l’HTA) 
+Poursuite en cas d’insuffisance 
+cardiaque et/ou FE ventricule 
+systémique < 40% 
+Anti-arythmiques : 
+ 
+ 
+ 
+- Classe I (Flécaine…) 
+Arrêt 
+Arrêt 
+- Classe II, III (Cordarone) 
+Poursuite 
+Poursuite 
+Digoxine 
+Aucune recommandation  
+Aucune 
+recommandation  
+En l’absence d’urgence, discuter l’arrêt 
+du traitement par le cardiologue 
+congénitaliste référent. 
+Traitement antihypertenseur pulmonaire 
+Sildenafil 
+Poursuite  
+Poursuite 
+ 
+Bosentan 
+Prostacycline 
+Traitement anticoagulant [3,4,5] 
+AOD :  
+ 
+En l’absence d’urgence, discuter l’arrêt 
+du traitement par le cardiologue 
+congénitaliste référent. 
+- Rivaroxaban 
+- Apixaban 
+- Edoxaban 
+- Dabigatran 
+Voir recommandations GIHP 
+AVK  
+Interrompre 5 jours avant une chirurgie à risque 
+hémorragique élevé** 
+Relais HBPM ou HNF selon la pathologie catégorie de 
+risque 
+En absence d’urgence discuter du 
+relais AVK voir de l’arrêt avec le 
+cardiologue congénitaliste référent (en 
+particulier en prévention primaire chez 
+les ventricules uniques) 
+Agents antiagrégants plaquettaires [6] 
+Aspirine 
+Dernière prise J-3 
+Avis d’expert, arrêt sauf en cas de 
+shunt systémico-pulmonaire (blalock-
+taussig shunt, stent du canal artériel).  
+En absence d’urgence discuter avec le 
+cardiologue congénitaliste référent 
+d’un relais par HBPM ou HNF en post-
+opératoire.  
+Clopidogrel 
+Dernière prise J-5 
+Ticagrelor 
+Dernière prise J-5 
+Prasugrel 
+Dernière prise J-7 
+Références  
+[1] RFE SFAR Gestion périopératoire des traitements chroniques et dispositifs médicaux 2009 
+[2] Baumgartner H, De Backer J, Babu-Narayan SV, Budts W, Chessa M, Diller GP et al ESC Scientific Document Group. 2020 ESC Guidelines for the management 
+of adult congenital heart disease. Eur Heart J. 2021;42(6):563-645. doi:10.1093/eurheartj/ehaa554.  
+[3] Gestion des Anticoagulants Oraux Directs pour la chirurgie et les actes invasifs programmés : propositions réactualisées du Groupe d'Intérêt en Hémostase 
+Périopératoire (GIHP)-Septembre 2015 
+[4] Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par 
+antivitamines K en ville et en milieu hospitalier GEHT - HAS (service des bonnes pratiques professionnelles) / Avril 2008 
+[5] Recommendations of good practice for the management of thromboembolic venous disease in adults. Sanchez O, Benhamou Y, Bertoletti L, Constant J, 
+Couturaud F, Delluc A et al. Rev Mal Respir. 2019 Feb;36(2):249-283. doi: 10.1016/j.rmr.2019.01.003. 
+[6] Godier A, et al. Gestion des agents antiplaquettaires pour une procédure invasive programmée. Propositions du Groupe d'intérêt en hémostase périopératoire 
+(GIHP) et du Groupe français d'études sur l'hémostase et la thrombose (GFHT). Anesth Reanim. 2018
+
+--- PAGE 3 ---
+ 
+ 
+FICHE PRATIQUE #2 : Les pièges du monitorage chez les patients adultes porteurs de CC 
+ 
+Experts : Catherine KOFFEL, Loïc MACE, Xavier ALACOQUE, Elise LANGOUET 
+ 
+
+--- PAGE 4 ---
+ 
+ 
+FICHE PRATIQUE #3 : Principes d’anesthésie des patients porteurs de CC hors chirurgie cardiaque  
+ 
+Experts : Bernard CHOLLEY, Nadir TAFER 
+ 
+ 
+
+--- PAGE 5 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 6 ---
+ 
+ 
+FICHE PRATIQUE #4 : Protocole pour l’anesthésie en urgence d’un patient porteur d’une HTAP iso- ou 
+supra-systémique 
+ 
+Experts : Bernard CHOLLEY, Élise LANGOUET, Nadir TAFER 
+ 
+ 
+ 
+ 
+
+--- PAGE 7 ---
+ 
+ 
+FICHE PRATIQUE #5 : Protocole pour l’anesthésie en urgence d’un patient porteur d’une dérivation cavo-
+pulmonaire (Fontan) 
+ 
+Experts : Bernard CHOLLEY, Elise LANGOUET, Nadir TAFER 
+ 
+ 
+ 
+ 
+
+--- PAGE 8 ---
+ 
+ 
+ 
+FICHE PRATIQUE #6 : Conduite à tenir par situation physiopathologiques en anesthésie obstétricale 
+ 
+Experts : Estelle MORAU, Marie BRUYERE, Magali LADOUCEUR   
+       
+
+--- PAGE 9 ---
+ 
+ 
+
+--- PAGE 10 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

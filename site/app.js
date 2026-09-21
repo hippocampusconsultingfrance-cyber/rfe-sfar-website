@@ -122,7 +122,8 @@ var RAW = {
   aod_dabigatran_urgence_2016: JSON.parse(document.getElementById('content-aod_dabigatran_urgence_2016').textContent),
   tc_readaptation: JSON.parse(document.getElementById('content-tc_readaptation').textContent),
   impact_environnemental_ag: JSON.parse(document.getElementById('content-impact_environnemental_ag').textContent),
-  diabete_perioperatoire_2025: JSON.parse(document.getElementById('content-diabete_perioperatoire_2025').textContent)
+  diabete_perioperatoire_2025: JSON.parse(document.getElementById('content-diabete_perioperatoire_2025').textContent),
+  anesth_cardiopathie_congenitale: JSON.parse(document.getElementById('content-anesth_cardiopathie_congenitale').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -246,7 +247,8 @@ var FICHE_HREF_MATCH = {
   aod_dabigatran_urgence_2016: ['gestion-perioperatoire-des-patients-sous-aod-en-urgence'],
   tc_readaptation: ['Annales-de-Readaptation-et-de-Medecine-Physique_Les-traumatises-craniens-adultes-en-medecine-physique-et-readaptation'],
   impact_environnemental_ag: ['reduction-de-limpact-environnemental-de-lanesthesie-generale'],
-  diabete_perioperatoire_2025: ['prise-en-charge-du-patient-diabetique-en-peri-operatoire']
+  diabete_perioperatoire_2025: ['prise-en-charge-du-patient-diabetique-en-peri-operatoire'],
+  anesth_cardiopathie_congenitale: ['anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1675,6 +1677,18 @@ var DOC_META = {
     methodology: "Fiches simplifiées (algorithmes et tableaux posologiques) — aucun système de cotation GRADE",
     pages: 6,
     url: "https://sfar.org/download/prise-en-charge-du-patient-diabetique-en-peri-operatoire/?wpdmdl=122568"
+  },
+  anesth_cardiopathie_congenitale: {
+    key: 'anesth_cardiopathie_congenitale',
+    badge: "Avis d'experts (Accord fort)",
+    title: "Anesthésie et cardiopathie congénitale de l'adulte",
+    short: "SFAR, en association avec la SFC, la SFP, le CARO et la SFCTCV, RPP, 2023 (méthode GRADE Grid, 11 recommandations, accord fort 100 %). La mortalité périopératoire en chirurgie non cardiaque est 2 à 7 % chez l'adulte porteur de cardiopathie congénitale (CC) — facteur de risque indépendant, 60 % des complications survenant en postopératoire. Score composite de risque combinant le type de cardiopathie (classification AHA 2018), le statut physiologique A-D (Tableau 3, reproduit intégralement) et le risque chirurgical (Tableau 5, reproduit intégralement) ; prise en charge en centre expert si risque intermédiaire/élevé. Stratégie anesthésique : ALR préférée à l'AG, ALR neuraxiale titrée/continue préférée à la non titrée, monitorage adapté au risque (PVC continue si Fontan). Postopératoire : soins critiques et avis cardiologique spécialisé si risque intermédiaire/élevé. Obstétrique : évaluation précoce en centre expert, ALR titrée préférée, surveillance postpartum en soins critiques si risque intermédiaire/élevé. Annexe : tableau de gestion périopératoire des traitements cardiotropes/anticoagulants (Fiche pratique #1), reproduit intégralement. ⚠ Le Tableau 6 (croisement complet risque composite par lésion cardiaque spécifique) et les fiches pratiques #2-6 (infographies visuelles : pièges du monitorage, principes d'anesthésie, protocoles d'urgence HTAP/Fontan, conduite obstétricale) ne sont pas transcrits intégralement — se référer au texte source. Note : les 2 fichiers proposés par sfar.org pour ce document ont des noms trompeurs (le fichier sans « -annexes » contient en réalité les fiches pratiques visuelles, celui avec « -annexes » contient le texte principal synthétisé ici).",
+    society: "SFAR / SFC / SFP / CARO / SFCTCV",
+    version: "Septembre 2023",
+    validated: "Comité de 16 experts, méthode GRADE Grid (2 tours de cotation)",
+    methodology: "Avis d'experts (Accord fort, 100 % des 11 recommandations) — pas de grade GRADE numérique",
+    pages: 3,
+    url: "https://sfar.org/download/anesthesie-pour-chirurgie-non-cardiaque-des-patients-adultes-porteurs-de-cardiopathie-congenitale-annexes/?wpdmdl=50052"
   }
 };
 

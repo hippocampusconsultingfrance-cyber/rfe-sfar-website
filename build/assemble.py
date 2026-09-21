@@ -244,6 +244,8 @@ with open(os.path.join(BASE, "content_impact_environnemental_ag.json"), encoding
     content_impact_environnemental_ag = f.read()
 with open(os.path.join(BASE, "content_diabete_perioperatoire_2025.json"), encoding="utf-8") as f:
     content_diabete_perioperatoire_2025 = f.read()
+with open(os.path.join(BASE, "content_anesth_cardiopathie_congenitale.json"), encoding="utf-8") as f:
+    content_anesth_cardiopathie_congenitale = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -371,6 +373,7 @@ out = out.replace("__CONTENT_AOD_DABIGATRAN_URGENCE_2016__", safe(content_aod_da
 out = out.replace("__CONTENT_TC_READAPTATION__", safe(content_tc_readaptation))
 out = out.replace("__CONTENT_IMPACT_ENVIRONNEMENTAL_AG__", safe(content_impact_environnemental_ag))
 out = out.replace("__CONTENT_DIABETE_PERIOPERATOIRE_2025__", safe(content_diabete_perioperatoire_2025))
+out = out.replace("__CONTENT_ANESTH_CARDIOPATHIE_CONGENITALE__", safe(content_anesth_cardiopathie_congenitale))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

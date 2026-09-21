@@ -130,7 +130,8 @@ var RAW = {
   reduction_antibiotiques_reanimation_2014: JSON.parse(document.getElementById('content-reduction_antibiotiques_reanimation_2014').textContent),
   simulation_soins_critiques_2019: JSON.parse(document.getElementById('content-simulation_soins_critiques_2019').textContent),
   optimisation_beta_lactamines_2018: JSON.parse(document.getElementById('content-optimisation_beta_lactamines_2018').textContent),
-  raac_lobectomie_pulmonaire_2019: JSON.parse(document.getElementById('content-raac_lobectomie_pulmonaire_2019').textContent)
+  raac_lobectomie_pulmonaire_2019: JSON.parse(document.getElementById('content-raac_lobectomie_pulmonaire_2019').textContent),
+  raac_cardiaque_2021: JSON.parse(document.getElementById('content-raac_cardiaque_2021').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -262,7 +263,8 @@ var FICHE_HREF_MATCH = {
   reduction_antibiotiques_reanimation_2014: ['2_SPILF_Strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation'],
   simulation_soins_critiques_2019: ['rfe-interets-de-lapprentissage-par-simulation-en-soins-critiques'],
   optimisation_beta_lactamines_2018: ['RPP_beta-lactamines-en-soins-critiques_041018_logoSFPT'],
-  raac_lobectomie_pulmonaire_2019: ['rfe-anesthesie-rac-lobectomie-pulmonaire']
+  raac_lobectomie_pulmonaire_2019: ['rfe-anesthesie-rac-lobectomie-pulmonaire'],
+  raac_cardiaque_2021: ['rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1787,6 +1789,18 @@ var DOC_META = {
     methodology: "GRADE — 32 recommandations (7×1+, 18×2+, 5×2-, 2 avis d'experts), 31 accord fort + 1 accord faible",
     pages: 3,
     url: "https://sfar.org/download/rfe-anesthesie-rac-lobectomie-pulmonaire/?wpdmdl=24440"
+  },
+  raac_cardiaque_2021: {
+    key: 'raac_cardiaque_2021',
+    badge: "RFE — GRADE (33/33 Accord Fort)",
+    title: "Réhabilitation améliorée après chirurgie cardiaque adulte",
+    short: "SFAR/SFCTCV, RFE, validée 25/09/2021 (CEC ou à cœur battant, population pédiatrique exclue). Méthode GRADE — 33 recommandations sur 6 champs, TOUTES à accord fort (aucune exception, contrairement aux fiches sœurs raac_orthopedique_2019 et raac_lobectomie_pulmonaire_2019) : (1) parcours patient/information — programme RAACC, information de qualité, admission en soins critiques ; (2) prise en charge et préhabilitation préopératoire — dénutrition, sevrage tabagique, HbA1c, préhabilitation cardio-respiratoire, décolonisation nasale S. aureus, prévention FA, pas de statine de novo, jeûne limité à 6h/2h ; (3) anesthésie et analgésie — pas d'agent halogéné privilégié, ventilation protectrice hors CEC, optimisation hémodynamique, blocs échoguidés pariétaux privilégiés à l'infiltration pré-sternale, épargne morphinique sans gabapentine ; (4) stratégie chirurgicale et CEC — chirurgie mitrale vidéo-assistée (avis d'experts), CEC en normothermie, pas de pontage à cœur battant systématique, CEC optimisée ; (5) gestion personnalisée du capital sanguin (PBM) — programme PBM avec correction de l'anémie ferriprive, récupération sanguine peropératoire, pas de seuil transfusionnel systématique (avis d'experts) ; (6) réhabilitation postopératoire — extubation précoce (<6h), mobilisation précoce, ablation précoce des drains/sondes/cathéters. 7 GRADE1+, 3 GRADE1-, 15 GRADE2+, 4 GRADE2-, 4 avis d'experts (7+3+15+4+4=33, exact). 3 questions sans réponse (voies mini-invasives en chirurgie valvulaire aortique et coronaire, stratégie transfusionnelle restrictive/libérale) — décompte source cohérent cette fois, aucune incohérence trouvée.",
+    society: "SFAR / SFCTCV",
+    version: "25 septembre 2021",
+    validated: "Groupe d'experts, méthode GRADE (3 tours + amendements)",
+    methodology: "GRADE — 33 recommandations (7×1+, 3×1-, 15×2+, 4×2-, 4 avis d'experts), 100 % Accord Fort",
+    pages: 3,
+    url: "https://sfar.org/download/rehabilitation-amelioree-apres-chirurgie-cardiaque-adulte-sous-cec-ou-a-coeur-battant/?wpdmdl=35416"
   }
 };
 

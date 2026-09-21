@@ -260,6 +260,8 @@ with open(os.path.join(BASE, "content_optimisation_beta_lactamines_2018.json"), 
     content_optimisation_beta_lactamines_2018 = f.read()
 with open(os.path.join(BASE, "content_raac_lobectomie_pulmonaire_2019.json"), encoding="utf-8") as f:
     content_raac_lobectomie_pulmonaire_2019 = f.read()
+with open(os.path.join(BASE, "content_raac_cardiaque_2021.json"), encoding="utf-8") as f:
+    content_raac_cardiaque_2021 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -395,6 +397,7 @@ out = out.replace("__CONTENT_REDUCTION_ANTIBIOTIQUES_REANIMATION_2014__", safe(c
 out = out.replace("__CONTENT_SIMULATION_SOINS_CRITIQUES_2019__", safe(content_simulation_soins_critiques_2019))
 out = out.replace("__CONTENT_OPTIMISATION_BETA_LACTAMINES_2018__", safe(content_optimisation_beta_lactamines_2018))
 out = out.replace("__CONTENT_RAAC_LOBECTOMIE_PULMONAIRE_2019__", safe(content_raac_lobectomie_pulmonaire_2019))
+out = out.replace("__CONTENT_RAAC_CARDIAQUE_2021__", safe(content_raac_cardiaque_2021))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

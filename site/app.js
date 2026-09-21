@@ -118,7 +118,8 @@ var RAW = {
   preparation_colique: JSON.parse(document.getElementById('content-preparation_colique').textContent),
   organisation_ar_obstetricale: JSON.parse(document.getElementById('content-organisation_ar_obstetricale').textContent),
   erreurs_medicamenteuses_ar_2016: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_ar_2016').textContent),
-  anesth_pediatrique_structures: JSON.parse(document.getElementById('content-anesth_pediatrique_structures').textContent)
+  anesth_pediatrique_structures: JSON.parse(document.getElementById('content-anesth_pediatrique_structures').textContent),
+  aod_dabigatran_urgence_2016: JSON.parse(document.getElementById('content-aod_dabigatran_urgence_2016').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -238,7 +239,8 @@ var FICHE_HREF_MATCH = {
   preparation_colique: ['preparation-colique-anesthesie-generale'],
   organisation_ar_obstetricale: ['RFE-ANREA-Organisation-de-l-anesthesie-reanimation-obstetricale'],
   erreurs_medicamenteuses_ar_2016: ['texte-court-preco-erreurs-med-2016'],
-  anesth_pediatrique_structures: ['Recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique']
+  anesth_pediatrique_structures: ['Recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique'],
+  aod_dabigatran_urgence_2016: ['gestion-perioperatoire-des-patients-sous-aod-en-urgence']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1336,7 +1338,7 @@ var DOC_META = {
     key: 'aod_urgence',
     badge: 'Propositions GIHP',
     title: "AOD : chirurgie et hémorragie en urgence",
-    short: "Propositions du GIHP (2013, non une RFE/RPC — aucun système de cotation) pour la chirurgie urgente à risque hémorragique et les hémorragies graves chez un patient sous dabigatran ou rivaroxaban à dose curative : algorithmes guidés par dosage plasmatique (seuil de sécurité 30 ng/mL) ou, à défaut, par TCA/TP ; conduite en cas d'hémorragie grave (organe critique vs. autres, définition HAS 2008). ⚠ Document de 2013 antérieur aux antidotes spécifiques (idarucizumab, andexanet alfa) : ne couvre ni apixaban ni edoxaban (exclus par la source elle-même) et ne reflète pas la prise en charge actuelle de référence — repère historique des principes généraux uniquement.",
+    short: "Propositions du GIHP (2013, non une RFE/RPC — aucun système de cotation) pour la chirurgie urgente à risque hémorragique et les hémorragies graves chez un patient sous dabigatran ou rivaroxaban à dose curative : algorithmes guidés par dosage plasmatique (seuil de sécurité 30 ng/mL) ou, à défaut, par TCA/TP ; conduite en cas d'hémorragie grave (organe critique vs. autres, définition HAS 2008). ⚠ Document de 2013 antérieur aux antidotes spécifiques (idarucizumab, andexanet alfa) : ne couvre ni apixaban ni edoxaban (exclus par la source elle-même) et ne reflète pas la prise en charge actuelle de référence — repère historique des principes généraux uniquement. Pour le dabigatran spécifiquement, voir la fiche « Hémorragies et gestes urgents sous dabigatran (antidote idarucizumab) » (GIHP, réactualisation 2016), qui remplace ce document sur ce point précis.",
     society: "GIHP (Groupe d'Intérêt en Hémostase Périopératoire)",
     version: "2013",
     validated: "Consensus du GIHP (relecture critique des membres)",
@@ -1619,6 +1621,18 @@ var DOC_META = {
     methodology: "Texte narratif de spécifications structurelles et matérielles — aucun système de cotation GRADE ni recommandation numérotée",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_SFAR_Recommandations-pour-les-structures-et-le-materiel-de-lanesthesie-pediatrique.pdf"
+  },
+  aod_dabigatran_urgence_2016: {
+    key: 'aod_dabigatran_urgence_2016',
+    badge: "Propositions GIHP",
+    title: "Hémorragies et gestes urgents sous dabigatran (antidote idarucizumab)",
+    short: "GIHP, réactualisation septembre 2016 (Albaladejo, Pernod, Godier et al.) des propositions de 2013, spécifiquement pour le dabigatran (anti-IIa), intégrant l'antidote spécifique idarucizumab (Praxbind®, 5 g), désormais disponible. Couvre : hémorragie dans un organe critique/choc hémorragique, hémorragie grave (autre), hémorragie non grave (Figure 1) ; geste invasif urgent selon 3 niveaux de risque hémorragique et le délai de prise en charge (Figure 2) ; anesthésie locorégionale — bloc superficiel, anesthésie périmédullaire/bloc profond, cas particulier de la ponction lombaire diagnostique (Figure 3). Seuils de concentration 30/50 ng/mL, DDP et clairance de la créatinine comme critères de décision en l'absence de dosage. ⚠ Ne couvre que le dabigatran — pas rivaroxaban/apixaban (complément annoncé par le GIHP pour quand un antidote spécifique anti-Xa serait disponible) ; AVC ischémique hors périmètre. Complète la fiche « AOD : chirurgie et hémorragie en urgence » (GIHP 2013), explicitement datée et incomplète pour le dabigatran depuis la mise à disposition de l'idarucizumab.",
+    society: "GIHP (Groupe d'Intérêt en Hémostase Périopératoire)",
+    version: "Réactualisation septembre 2016 (propositions initiales 2013)",
+    validated: "GIHP (analyse de la littérature + relecture des membres)",
+    methodology: "Propositions pragmatiques du GIHP — aucun système de cotation GRADE ; 3 algorithmes décisionnels transcrits en tableaux",
+    pages: 3,
+    url: "https://sfar.org/download/gestion-perioperatoire-des-patients-sous-aod-en-urgence/?wpdmdl=34412"
   }
 };
 

@@ -1,0 +1,472 @@
+{
+ "doc": "aod_dabigatran_urgence_2016",
+ "sections": [
+  {
+   "title": "Agents hémostatiques, seuils, hémorragies (Fig. 1), gestes urgents (Fig. 2), ALR (Fig. 3) & sources",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> réactualisation 2016 des propositions GIHP de 2013, spécifiquement pour le <b>dabigatran</b> (anti-IIa), pour lequel un antidote spécifique — l'<b>idarucizumab</b> (Praxbind®) — est désormais disponible. Un complément est annoncé pour les AOD anti-Xa (rivaroxaban, apixaban) lorsqu'un antidote spécifique sera disponible pour eux. <b>L'AVC ischémique n'est pas abordé</b> — orienter vers les recommandations des sociétés référentes pour la thrombolyse/thrombectomie sous dabigatran.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Agents hémostatiques disponibles",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Détail",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Idarucizumab (Praxbind®)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<b>Antidote spécifique du dabigatran.</b> Fragment d'anticorps monoclonal humanisé, forte affinité (≈ 300× celle du dabigatran pour la thrombine). Dose recommandée : <b>5 g (2 × 2,5 g/50 mL)</b>, sans ajustement à l'âge, à la concentration, ni à la fonction rénale/hépatique. Ni contre-indication ni interaction médicamenteuse rapportée. Effet parfois transitoire (redistribution possible, concentration de dabigatran libre réapparaissant chez 21 % des patients à 24 h dans l'étude REVERSE-AD) — une 2e dose de 5 g peut être envisagée si réapparition d'un saignement avec allongement des tests de coagulation (TCA, dTT ou ECT), ou avant une 2e intervention/geste urgent avec temps de coagulation encore allongés. Mesurer la concentration de dabigatran avant et 12-18 h après l'administration si la situation l'exige.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CCP non activés (4 facteurs) / FEIBA® (activé)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence d'idarucizumab : <b>CCP non activés 50 U/kg</b> ou <b>FEIBA® 30-50 U/kg</b>, éventuellement renouvelés 8 h après la première administration (hémorragie dans un organe critique/choc). Efficacité non formellement établie (pas d'essai clinique, tests in vitro/ex vivo et modèles animaux uniquement). Risque thrombotique potentiel, non évalué dans ce contexte spécifique — plus fréquent aux fortes doses. <b>N'ont pas démontré leur capacité à neutraliser le dabigatran pour permettre une anesthésie périmédullaire ou un bloc nerveux profond</b> — non recommandés dans cette indication.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dialyse / charbon activé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le dabigatran est dialysable, mais la place de la dialyse n'est pas clairement établie et la disponibilité de l'idarucizumab en réduit encore l'intérêt potentiel. Charbon activé proposé pour limiter l'absorption digestive (mentionné pour de rares cas d'intoxication volontaire).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Seuils de sécurité et tests de coagulation",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Le seuil hémostatique en deçà duquel un saignement ne peut être attribué au dabigatran est mal connu : il varie entre <b>50 ng/mL</b> (concentration résiduelle moyenne après 2 demi-vies, sans insuffisance rénale) et <b>30 ng/mL</b> (après 3-4 demi-vies). Un <b>TT (temps de thrombine) normal</b> exclut avec certitude une concentration significative de dabigatran (test très sensible) — à l'inverse, un TCA/TQ normal n'exclut pas une concentration au-dessus du seuil de sécurité. <b>DDP</b> = délai depuis la dernière prise de dabigatran ; <b>ClCr</b> = clairance de la créatinine (formule de Cockcroft et Gault).",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Figure 1 — Prise en charge des hémorragies sous dabigatran",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Critère",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie dans un organe critique ou choc hémorragique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. dabigatran > 50 ng/mL, ou conc. inconnue ET (DDP ≤ 24 h OU ClCr ≤ 50 mL/min)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Idarucizumab ou, si indisponible, CCP ou FEIBA",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie dans un organe critique ou choc hémorragique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. dabigatran ≤ 50 ng/mL, ou conc. inconnue ET DDP > 24 h ET ClCr > 50 mL/min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Mesures non spécifiques",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie grave (autre)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Geste hémostatique (chirurgie, endoscopie, embolisation, tamponnement…) réalisé en premier",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Geste efficace → mesures non spécifiques suffisantes ; geste non indiqué ou saignement persistant → passer aux critères de concentration ci-dessous",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie grave (autre), geste non indiqué/inefficace",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. dabigatran > 50 ng/mL, ou conc. inconnue ET (DDP ≤ 24 h OU ClCr ≤ 50 mL/min)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Idarucizumab ou, si indisponible, CCP ou FEIBA",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie grave (autre), geste non indiqué/inefficace",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. dabigatran ≤ 50 ng/mL, ou conc. inconnue ET DDP > 24 h ET ClCr > 50 mL/min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Mesures non spécifiques",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie non grave",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Absence de tout signe de gravité, quelle que soit la concentration",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Traitement symptomatique — pas de neutralisation. Rechercher une contre-indication au dabigatran (ClCr ≤ 30 mL/min, interactions) ; discuter un simple saut de prise ou une réévaluation du traitement anticoagulant.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "« Hémorragie grave » (définition HAS/GEHT 2008, reprise ici) : hémorragie extériorisée non contrôlable, instabilité hémodynamique, nécessité d'un geste hémostatique urgent ou d'une transfusion, ou localisation menaçant le pronostic vital/fonctionnel (intracrânienne, intraspinale, intraoculaire, hémothorax, hémopéritoine, hémopéricarde, hématome profond/syndrome de loge, hémorragie digestive aiguë, hémarthrose).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Figure 2 — Geste invasif urgent sous dabigatran",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Trois niveaux de risque hémorragique du geste : <b>très élevé</b> (hémostase incontrôlable — ex. neurochirurgie, chirurgie hépatique), <b>élevé</b> (hémostase contrôlable — ex. péritonite, orthopédie), <b>faible</b>.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Critère",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque très élevé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. > 30 ng/mL ou inconnue — prise en charge ≤ 8 h ou geste d'hémostase",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Idarucizumab (ou si indisponible CCP/FEIBA) puis réaliser le geste",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque très élevé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. > 30 ng/mL ou inconnue — prise en charge > 8 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Reporter et mesurer la concentration, ou administrer idarucizumab (ou CCP/FEIBA) puis réaliser le geste",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque élevé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. > 50 ng/mL, ou inconnue ET (DDP ≤ 24 h OU ClCr ≤ 50 mL/min) — PEC ≤ 8 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser le geste ; si saignement per/postopératoire attribuable au dabigatran : idarucizumab (ou si indisponible CCP/FEIBA)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque élevé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. > 50 ng/mL, ou inconnue ET (DDP ≤ 24 h OU ClCr ≤ 50 mL/min) — PEC > 8 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Reporter et mesurer la concentration, ou réaliser le geste avec la même conduite qu'en PEC ≤ 8 h si saignement attribuable",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque faible, OU risque élevé avec conc. ≤ 50 ng/mL (ou inconnue ET DDP > 24 h ET ClCr > 50 mL/min), OU risque très élevé avec conc. ≤ 30 ng/mL",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Saignement, s'il survient, ne peut raisonnablement pas être attribué au dabigatran",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser le geste sans délai — pas de neutralisation",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Agents hémostatiques à administrer en peropératoire si le saignement n'est pas contrôlable par le chirurgien, plutôt qu'en prophylaxie préopératoire systématique.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Figure 3 — Anesthésie, analgésie et chirurgie urgente sous dabigatran",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "L'anesthésie périmédullaire et les gestes neuraxiaux (ponction lombaire, rachianesthésie, péridurale, injections rachidiennes) sont <b>contre-indiqués sous anticoagulant</b> — préférer l'anesthésie générale sauf contre-indication majeure à celle-ci.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Critère",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bloc nerveux superficiel* (risque hémorragique faible)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. dabigatran > 30 ng/mL ou inconnue",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer le rapport bénéfice/risque : favorable au bloc superficiel → réaliser le geste ; défavorable → autres techniques d'anesthésie/analgésie",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bloc nerveux superficiel* (risque hémorragique faible)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. dabigatran ≤ 30 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser le geste",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anesthésie périmédullaire** ou bloc nerveux profond* (risque hémorragique très élevé)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. dabigatran ≤ 30 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser le geste",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anesthésie périmédullaire** ou bloc nerveux profond* (risque hémorragique très élevé)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conc. dabigatran > 30 ng/mL ou inconnue",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Contre-indication aux autres techniques d'anesthésie/analgésie : si oui → idarucizumab*** puis réaliser le geste ; si non → autres techniques",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "&bull; * Blocs nerveux périphériques réalisés par un opérateur expérimenté et par échoguidage. Cathéter périnerveux : ne doit pas compromettre la reprise postopératoire des anticoagulants ; retrait dans des conditions hémostatiques optimales.<br/>&bull; ** Anesthésie périmédullaire réalisée par un opérateur expérimenté, en ponction unique, aiguille fine pour la rachianesthésie. Cathéter péridural : mêmes règles que la rachianesthésie pour la mise en place et le retrait.<br/>&bull; *** Les CCP (activés ou non) n'ont pas démontré leur capacité à neutraliser le dabigatran — non recommandés pour permettre la réalisation de l'ALR à leur place.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Ponction lombaire diagnostique en urgence</b> (ex. suspicion de méningite) : également contre-indiquée sous dabigatran, mais si jugée indispensable, l'administration d'idarucizumab avant le geste peut être proposée (CCP non recommandés dans cette indication faute de garantie sur l'hémostase). La PL doit être réalisée avec une aiguille fine par un opérateur expérimenté ; une antibiothérapie probabiliste ne doit pas être retardée par l'attente du geste (Société de Pathologie Infectieuse de Langue Française).",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Albaladejo P, Pernod G, Godier A, de Maistre E, Rosencher N, Mas JL, et al., pour le GIHP, « Prise en charge des hémorragies et des gestes invasifs urgents chez les patients recevant un anticoagulant oral et direct anti-IIa (dabigatran) », réactualisation septembre 2016. 37 références bibliographiques dans le texte intégral (non reproduites ici).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — périmètre dabigatran uniquement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle condense la justification pharmacologique détaillée (études, mécanismes) mais reprend intégralement la logique décisionnelle des 3 figures du texte source, transcrites en tableaux plutôt qu'en graphique pour une lecture plus rapide sur mobile/PC. <b>Ce texte ne couvre que le dabigatran</b> — un complément pour les AOD anti-Xa (rivaroxaban, apixaban) était annoncé pour quand un antidote spécifique serait disponible pour eux (voir la fiche « AOD : chirurgie et hémorragie en urgence », 2013, pour les principes généraux applicables aux AOD anti-Xa en l'absence d'antidote spécifique alors disponible). Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par le GIHP/SFAR. Les données d'efficacité de l'idarucizumab reposent sur une étude non randomisée, non contrôlée (REVERSE-AD, analyse intermédiaire) — vérifier les données/AMM actualisées avant application.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

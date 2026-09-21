@@ -138,7 +138,8 @@ var RAW = {
   programme_optimisation_perioperatoire_2022: JSON.parse(document.getElementById('content-programme_optimisation_perioperatoire_2022').textContent),
   facteurs_humains_2022: JSON.parse(document.getElementById('content-facteurs_humains_2022').textContent),
   douleur_accouchement_2025: JSON.parse(document.getElementById('content-douleur_accouchement_2025').textContent),
-  erreurs_medicamenteuses_2024: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_2024').textContent)
+  erreurs_medicamenteuses_2024: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_2024').textContent),
+  organisation_anesthesie_pediatrique_2023: JSON.parse(document.getElementById('content-organisation_anesthesie_pediatrique_2023').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -278,7 +279,8 @@ var FICHE_HREF_MATCH = {
   programme_optimisation_perioperatoire_2022: ['programme-doptimisation-perioperatoire-du-patient-adulte'],
   facteurs_humains_2022: ['facteurs-humains-en-situations-critiques'],
   douleur_accouchement_2025: ['prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses'],
-  erreurs_medicamenteuses_2024: ['prevention-des-erreurs-medicamenteuses-en-anesthesie-reanimation', 'wpdmdl=68460']
+  erreurs_medicamenteuses_2024: ['prevention-des-erreurs-medicamenteuses-en-anesthesie-reanimation', 'wpdmdl=68460'],
+  organisation_anesthesie_pediatrique_2023: ['organisation-de-lanesthesie-pediatrique']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1652,7 +1654,7 @@ var DOC_META = {
     key: 'anesth_pediatrique_structures',
     badge: "Sans cotation",
     title: "Structures et matériel de l'anesthésie pédiatrique",
-    short: "SFAR, septembre 2000, groupe d'experts coordonné par C. Ecoffey (Rennes). Les dispositions SFAR sur la surveillance péri-anesthésique et le décret du 5 décembre 1994 s'appliquent en pédiatrie ; ce texte précise les particularités liées au jeune âge. Partie I — Structures : salle d'intervention (personnel selon l'âge), transferts entre unités, SSPI (emplacements/personnel/qualification), prise en charge post-opératoire (charte de l'enfant hospitalisé — l'hospitalisation d'un enfant de moins de 10 ans en réanimation adulte ne se justifie pas), laboratoires/examens complémentaires. Partie II — Matériel : assistance respiratoire (masques, canules, ballons, valves, plateau d'intubation, sondes, masque laryngé, respirateurs, algorithme d'intubation difficile, drain pleural — tailles et spécifications chiffrées), abord vasculaire, défibrillateur, monitorage (cardiovasculaire, ventilatoire, divers), prévention de l'hypothermie, matériel de transport, solutés. Distinct de la RPP SFAR 2023 « Organisation de l'anesthésie pédiatrique » (organisation des centres), non traitée ici.",
+    short: "SFAR, septembre 2000, groupe d'experts coordonné par C. Ecoffey (Rennes). Les dispositions SFAR sur la surveillance péri-anesthésique et le décret du 5 décembre 1994 s'appliquent en pédiatrie ; ce texte précise les particularités liées au jeune âge. Partie I — Structures : salle d'intervention (personnel selon l'âge), transferts entre unités, SSPI (emplacements/personnel/qualification), prise en charge post-opératoire (charte de l'enfant hospitalisé — l'hospitalisation d'un enfant de moins de 10 ans en réanimation adulte ne se justifie pas), laboratoires/examens complémentaires. Partie II — Matériel : assistance respiratoire (masques, canules, ballons, valves, plateau d'intubation, sondes, masque laryngé, respirateurs, algorithme d'intubation difficile, drain pleural — tailles et spécifications chiffrées), abord vasculaire, défibrillateur, monitorage (cardiovasculaire, ventilatoire, divers), prévention de l'hypothermie, matériel de transport, solutés. Distinct de la RPP SFAR-ADARPEF 2023 « Organisation de l'anesthésie pédiatrique » (organisation ENTRE centres — réseaux, orientation par âge/ASA, effectifs), désormais également git-trackée sous la clé organisation_anesthesie_pediatrique_2023.",
     society: "SFAR",
     version: "Septembre 2000",
     validated: "Groupe d'experts SFAR coordonné par C. Ecoffey",
@@ -1899,6 +1901,18 @@ var DOC_META = {
     methodology: "Format RPP (pas RFE) — 29 avis d'experts, accord fort 100 %, décompte source exact ; 2 absences de recommandation",
     pages: 3,
     url: "https://sfar.org/download/prevention-des-erreurs-medicamenteuses/?wpdmdl=68460"
+  },
+  organisation_anesthesie_pediatrique_2023: {
+    key: 'organisation_anesthesie_pediatrique_2023',
+    badge: "RPP — 34 avis d'experts (accord fort 100 %)",
+    title: "Organisation de l'anesthésie pédiatrique",
+    short: "SFAR-ADARPEF, « Organisation structurelle, matérielle et fonctionnelle des centres effectuant de l'anesthésie pédiatrique », RPP, texte validé par le Comité des Référentiels Cliniques de la SFAR le 19/01/2023. Complémentaire de la fiche déjà git-trackée anesth_pediatrique_structures (RFE SFAR 2000, matériel chiffré au sein d'UN site) — celle-ci porte sur l'organisation ENTRE sites/centres, deux échelles différentes, toutes deux nécessaires. Méthode GRADE prévue en amont mais les 34 recommandations (« préconisations ») sont TOUTES formulées comme avis d'experts, à accord fort pour la totalité (décompte source vérifié exact, aucune absence de recommandation dans ce document). 4 champs : 1. Structure et logistique (salle d'intervention adaptée, secteur pédiatrique en SSPI, hospitalisation en secteur dédié, consultation d'anesthésie en lieu adapté, plateau technique et réseaux de consultants spécialistes) ; 2. Équipement et matériel (matériel respiratoire/vasculaire adapté à l'âge, solutés hydro-électrolytiques et de remplissage par tranche d'âge, chariot d'urgence pédiatrique, monitorage adapté dont oxygénation régionale cérébrale pour les chirurgies majeures du nouveau-né/nourrisson, prévention de l'hypothermie, sondes échographiques 25-38mm/8-14MHz) ; 3. Formation (≥3 mois de stage en centre spécialisé pour tout interne, activité régulière minimale pour tout MAR pratiquant la pédiatrie, simulation) ; 4. Organisation fonctionnelle — réseaux ville/centre spécialisé avec critères d'orientation par âge et ASA (nouveau-né <6 semaines, ancien prématuré <60 semaines d'âge post-conceptionnel, ASA 3-5 vers un centre spécialisé), et surtout des **critères d'effectifs minimaux par tranche d'âge** directement actionnables (< 1 an ou ASA 4-5 : 2 professionnels dédiés exclusivement ; 1-3 ans et 3-10 ans : MAR + IADE dédiés ou MAR dédié avec second professionnel identifié à l'avance ; > 10 ans : règles adultes), plus les effectifs SSPI (IDE/IADE/puéricultrice formée, second paramédical, renfort si ≥6 postes).",
+    society: "SFAR / ADARPEF",
+    version: "2023",
+    validated: "Comité des Référentiels Cliniques SFAR (19/01/2023), CA SFAR (26/01/2023)",
+    methodology: "Format RPP — 34 avis d'experts, accord fort 100 %, décompte source exact ; aucune absence de recommandation",
+    pages: 4,
+    url: "https://sfar.org/download/organisation-de-lanesthesie-pediatrique/?wpdmdl=43179"
   }
 };
 

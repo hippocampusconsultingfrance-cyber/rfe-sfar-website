@@ -276,6 +276,8 @@ with open(os.path.join(BASE, "content_douleur_accouchement_2025.json"), encoding
     content_douleur_accouchement_2025 = f.read()
 with open(os.path.join(BASE, "content_erreurs_medicamenteuses_2024.json"), encoding="utf-8") as f:
     content_erreurs_medicamenteuses_2024 = f.read()
+with open(os.path.join(BASE, "content_organisation_anesthesie_pediatrique_2023.json"), encoding="utf-8") as f:
+    content_organisation_anesthesie_pediatrique_2023 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -419,6 +421,7 @@ out = out.replace("__CONTENT_PROGRAMME_OPTIMISATION_PERIOPERATOIRE_2022__", safe
 out = out.replace("__CONTENT_FACTEURS_HUMAINS_2022__", safe(content_facteurs_humains_2022))
 out = out.replace("__CONTENT_DOULEUR_ACCOUCHEMENT_2025__", safe(content_douleur_accouchement_2025))
 out = out.replace("__CONTENT_ERREURS_MEDICAMENTEUSES_2024__", safe(content_erreurs_medicamenteuses_2024))
+out = out.replace("__CONTENT_ORGANISATION_ANESTHESIE_PEDIATRIQUE_2023__", safe(content_organisation_anesthesie_pediatrique_2023))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

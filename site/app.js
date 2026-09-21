@@ -127,7 +127,8 @@ var RAW = {
   ressources_humaines_anesthesie_2024: JSON.parse(document.getElementById('content-ressources_humaines_anesthesie_2024').textContent),
   demarches_anticipees_don_organes_2024: JSON.parse(document.getElementById('content-demarches_anticipees_don_organes_2024').textContent),
   raac_orthopedique_2019: JSON.parse(document.getElementById('content-raac_orthopedique_2019').textContent),
-  reduction_antibiotiques_reanimation_2014: JSON.parse(document.getElementById('content-reduction_antibiotiques_reanimation_2014').textContent)
+  reduction_antibiotiques_reanimation_2014: JSON.parse(document.getElementById('content-reduction_antibiotiques_reanimation_2014').textContent),
+  simulation_soins_critiques_2019: JSON.parse(document.getElementById('content-simulation_soins_critiques_2019').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -256,7 +257,8 @@ var FICHE_HREF_MATCH = {
   ressources_humaines_anesthesie_2024: ['preconisations-pour-les-ressources-humaines-medicales-en-anesthesie-programmee'],
   demarches_anticipees_don_organes_2024: ['RBP-deimarches-anticipeies_12_10_24'],
   raac_orthopedique_2019: ['rfe-rac-orthopedique'],
-  reduction_antibiotiques_reanimation_2014: ['2_SPILF_Strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation']
+  reduction_antibiotiques_reanimation_2014: ['2_SPILF_Strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation'],
+  simulation_soins_critiques_2019: ['rfe-interets-de-lapprentissage-par-simulation-en-soins-critiques']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1745,6 +1747,18 @@ var DOC_META = {
     methodology: "RAND/UCLA — 54 recommandations / 74 votes (47 Accord Fort + 27 Accord Faible), pas de grade GRADE numérique par item",
     pages: 5,
     url: "https://sfar.org/wp-content/uploads/2015/09/2_SPILF_Strategies-de-reduction-de-lutilisation-des-antibiotiques-a-visee-curative-en-reanimation.pdf"
+  },
+  simulation_soins_critiques_2019: {
+    key: 'simulation_soins_critiques_2019',
+    badge: "RPP — 24/24 Accord Fort",
+    title: "Intérêts de l'apprentissage par simulation en soins critiques",
+    short: "SRLF/SFAR/SFMU/SOFRASIMS, RPP, textes validés par les CA de la SRLF (20/12/2018), de la SFAR (10/01/2019), de la SFMU (16/01/2019) et de la SOFRASIMS (18/01/2019). Méthode GRADE (analyse de littérature, format PICO) + cotation GRADE grid (≥ 70 % d'opinions favorables, < 20 % contraires) — 24 recommandations réparties en 3 champs, toutes à accord fort sans exception : Champ 1 — compétences techniques (10 recs : formation initiale/continue, simulation basse fidélité préférée pour les gestes, évaluation systématique de l'impact, ne pas utiliser la simulation seule hors curriculum, gestion des voies aériennes, cathéters veineux centraux, cathétérisme artériel, drain pleural) ; Champ 2 — compétences non techniques (12 recs : intégration des novices, simulation haute fidélité pour le travail d'équipe et la gestion de crise, communication inter-professionnelle et avec les patients/proches, correction des erreurs cognitives, conscience de la situation, résolution de problème/prise de décision, compétences relationnelles, outils d'évaluation TEAM/ANTS, débriefing systématique) ; Champ 3 — situations sanitaires exceptionnelles (2 recs : acquisition de compétences, tri des victimes). Slug de l'URL source dit « rfe » mais le texte précise explicitement avoir choisi un format RPP plutôt que RFE (divergence disclosed, non corrigée).",
+    society: "SRLF / SFAR / SFMU / SOFRASIMS",
+    version: "Déc. 2018 - Janv. 2019",
+    validated: "Groupe d'experts, méthode GRADE + cotation GRADE grid",
+    methodology: "GRADE grid — 24 recommandations, 100 % Accord Fort (aucune à accord faible)",
+    pages: 2,
+    url: "https://sfar.org/wp-content/uploads/2019/05/rfe-interets-de-lapprentissage-par-simulation-en-soins-critiques.pdf"
   }
 };
 

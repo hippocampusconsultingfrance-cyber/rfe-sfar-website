@@ -150,7 +150,8 @@ var RAW = {
   blocs_perimedullaires_ci_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_ci_2006').textContent),
   blocs_perimedullaires_technique_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_technique_2006').textContent),
   blocs_perimedullaires_cesarienne_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_cesarienne_2006').textContent),
-  blocs_perimedullaires_postop_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_postop_2006').textContent)
+  blocs_perimedullaires_postop_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_postop_2006').textContent),
+  blocs_perimedullaires_terrain_cardioresp_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_terrain_cardioresp_2006').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -2060,6 +2061,18 @@ var DOC_META = {
     validated: "Comité des référentiels de la SFAR",
     methodology: "Grille EBM classique A/B/C (aucun D/AE dans ce périmètre) — 71 recommandations gradées (A:28, B:17, C:26), vérifiées par audit indépendant en aveugle, Question 8/15 uniquement (périmètre limité)",
     pages: 6,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf"
+  },
+  blocs_perimedullaires_terrain_cardioresp_2006: {
+    key: 'blocs_perimedullaires_terrain_cardioresp_2006',
+    badge: "SFAR/Sofcot/Sofmer — RPC 2007 (Q9-10/15, périmètre limité)",
+    title: "Les blocs périmédullaires chez l'adulte — Terrains cardiovasculaire & respiratoire (Q9-10/15)",
+    short: "SFAR/Sofcot/Sofmer, « Les blocs périmédullaires chez l'adulte », RPC, Ann Fr Anesth Réanim 26 (2007) 720-752. Cinquième installment de ce document (15 Questions, 369 citations de grade au total) — les Questions 1-2, 3-5, 7 et 8 sont des fiches séparées. Cette fiche couvre INTÉGRALEMENT les Questions 9 (terrain cardiovasculaire : effets hémodynamiques, HTA, coronarien, insuffisance cardiaque, valvulopathies, troubles du rythme) et 10 (terrain respiratoire : asthme, altération ventilatoire, SAOS, surveillance) — 18 recommandations gradées (A:4, B:3, C:10, AE:1), vérifiées par audit indépendant. Aucune citation « grade D », « consensus professionnel » ni « avis d'experts » dans ce périmètre. Les Questions 11-13 (hémostase, neurologique, infectieux — nettement plus volumineuses) et 14-15 (gestion de l'échec, facteurs de risque de complications) restent hors périmètre, installments futurs. La Question 6 reste EXCLUE (superseded par la fiche HAS 2025 dédiée).",
+    society: "SFAR / Sofcot / Sofmer",
+    version: "2006-2007",
+    validated: "Comité des référentiels de la SFAR",
+    methodology: "Grille EBM classique A/B/C/AE (aucun D/consensus professionnel/avis d'experts dans ce périmètre) — 18 recommandations gradées (A:4, B:3, C:10, AE:1), Questions 9-10/15 uniquement (périmètre limité)",
+    pages: 2,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf"
   }
 };

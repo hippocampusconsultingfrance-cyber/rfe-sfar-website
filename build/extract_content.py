@@ -2787,6 +2787,29 @@ def extract_transfusion_gr_anesth_2014():
     return {"doc": "transfusion_gr_anesth_2014", "sections": blocks}
 
 
+def extract_gestion_traitements_chroniques_cardio_2009():
+    import style
+    import fiche_gestion_traitements_chroniques_cardio_2009 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "gestion_traitements_chroniques_cardio_2009", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -3990,3 +4013,12 @@ if __name__ == "__main__":
         json.dump(transfusion_gr_anesth_2014, f, ensure_ascii=False, indent=1)
     print("transfusion_gr_anesth_2014 sections:", len(transfusion_gr_anesth_2014["sections"]),
           "total blocks:", sum(len(s["items"]) for s in transfusion_gr_anesth_2014["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    gestion_traitements_chroniques_cardio_2009 = extract_gestion_traitements_chroniques_cardio_2009()
+    with open(os.path.join(BUILD_DIR, "content_gestion_traitements_chroniques_cardio_2009.json"), "w") as f:
+        json.dump(gestion_traitements_chroniques_cardio_2009, f, ensure_ascii=False, indent=1)
+    print("gestion_traitements_chroniques_cardio_2009 sections:", len(gestion_traitements_chroniques_cardio_2009["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in gestion_traitements_chroniques_cardio_2009["sections"]))

@@ -141,7 +141,8 @@ var RAW = {
   erreurs_medicamenteuses_2024: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_2024').textContent),
   organisation_anesthesie_pediatrique_2023: JSON.parse(document.getElementById('content-organisation_anesthesie_pediatrique_2023').textContent),
   organisation_usc_2018: JSON.parse(document.getElementById('content-organisation_usc_2018').textContent),
-  transfusion_gr_anesth_2014: JSON.parse(document.getElementById('content-transfusion_gr_anesth_2014').textContent)
+  transfusion_gr_anesth_2014: JSON.parse(document.getElementById('content-transfusion_gr_anesth_2014').textContent),
+  gestion_traitements_chroniques_cardio_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_cardio_2009').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -284,7 +285,8 @@ var FICHE_HREF_MATCH = {
   erreurs_medicamenteuses_2024: ['prevention-des-erreurs-medicamenteuses-en-anesthesie-reanimation', 'wpdmdl=68460'],
   organisation_anesthesie_pediatrique_2023: ['organisation-de-lanesthesie-pediatrique'],
   organisation_usc_2018: ['EXTE-USC-CNP'],
-  transfusion_gr_anesth_2014: ['transfusion-de-globules-rouges-homologues']
+  transfusion_gr_anesth_2014: ['transfusion-de-globules-rouges-homologues'],
+  gestion_traitements_chroniques_cardio_2009: ['gestion-perioperatoire-des-traitements-chroniques']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1941,6 +1943,18 @@ var DOC_META = {
     methodology: "Grille HAS A/B/C/AE (preuve établie / présomption scientifique / faible niveau de preuve / accord d'experts) — 26 recommandations gradées + 4 absences de recommandation, Partie 2 uniquement (anesthésie/réanimation/chirurgie/urgence)",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_transfusion_de_globules_rouges_homologues_-_produits_indications_alternatives_-_recommandations.pdf"
+  },
+  gestion_traitements_chroniques_cardio_2009: {
+    key: 'gestion_traitements_chroniques_cardio_2009',
+    badge: "SFAR RFE 2009 — Module 1/4 (périmètre limité)",
+    title: "Gestion périopératoire des traitements chroniques — Cardiovasculaire",
+    short: "SFAR, « Gestion périopératoire des traitements chroniques et dispositifs médicaux », Recommandations Formalisées d'Experts, Ann Fr Anesth Réanim 28 (2009) 1037-1045. Le référentiel complet fusionne en réalité plusieurs articles distincts publiés entre 2009 et 2011, correspondant aux 4 modules annoncés par son Préambule (Cardiovasculaire ; Douleur chronique/toxicomanie ; Infectieux/immunosuppresseurs ; Neurologique-psychiatrique et/ou endocrinien). Cette fiche couvre UNIQUEMENT le Module 1 — Pathologies cardiovasculaires (le plus transversal à toute anesthésie programmée) : bêtabloquants, inhibiteurs calciques, diurétiques, activateurs des canaux potassiques (nicorandil), inhibiteurs du SRAA (IEC/sartans), dérivés nitrés, statines, antiarythmiques (classes I et III de Vaughan-Williams), et stimulateurs cardiaques/défibrillateurs automatiques implantables (DCI, section pratique non gradée). Les 3 autres modules ne sont pas traités — hors périmètre de cette fiche, disclosed explicitement. Les traitements antithrombotiques (antiagrégants plaquettaires, AVK) sont explicitement exclus de l'ensemble du référentiel par son comité d'organisation lui-même (déjà couverts par d'autres textes SFAR/HAS distincts, sans risque de chevauchement). Grille ANAES 2004 A/B/C/D — D étant systématiquement renforcé par méthode Delphi en « accord fort » (chip local AF) dans ce module. 15 recommandations gradées (A:0, B:3, C:3, AF:9) + 1 recommandation explicitement non gradée par la source elle-même (antiarythmiques classe I) + 1 section pratique non gradée (stimulateurs cardiaques/DCI, incluant 2 points explicitement signalés par la source comme ne faisant pas l'objet d'un consensus).",
+    society: "SFAR (Société française d'anesthésie et de réanimation)",
+    version: "2009",
+    validated: "Comité des référentiels de la SFAR",
+    methodology: "Grille ANAES 2004 A/B/C/D (D renforcé en « accord fort » par méthode Delphi) — 15 recommandations gradées + 1 non gradée, Module 1/4 uniquement (pathologies cardiovasculaires)",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux.pdf"
   }
 };
 

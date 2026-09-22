@@ -1,0 +1,1406 @@
+{
+ "doc": "recommandations_avk",
+ "sections": [
+  {
+   "title": "Surdosage asymptomatique",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> prise en charge des <b>surdosages asymptomatiques</b>, des <b>hémorragies</b> (spontanées ou traumatiques) et de la <b>chirurgie/acte invasif</b> chez les patients traités par antivitamines K (AVK). ~600 000 patients traités par AVK en France chaque année (~1 % de la population). Surdosage asymptomatique : 15-30 % des contrôles d'INR. Accidents hémorragiques des AVK : 1er rang des accidents iatrogènes (13 % des hospitalisations pour effet indésirable médicamenteux, ~17 000 hospitalisations/an). <b>Professionnels concernés :</b> médecins traitants, biologistes, infirmiers, urgentistes, chirurgiens, anesthésistes-réanimateurs, et médecins des disciplines liées à l'indication du traitement.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie — grades HAS A/B/C + « accord professionnel »</b> : Grade A = preuve scientifique établie ; Grade B = présomption scientifique ; Grade C = faible niveau de preuve ; <b>« accord professionnel »</b> (chip « AP ») = en l'absence d'études, avis du groupe de travail après consultation du groupe de lecture. <b>Vérifié exhaustivement par grep (texte aplati) : 28 citations « (grade X) » explicites — 5× A (dont 1 imprimée « grade A2 » dans la source, artefact de fusion entre le tag et un appel de note de bas de page — comptée ici comme grade A simple), 2× B, 21× C.</b> <b>Disclosure :</b> 2 énoncés cliniquement très analogues à des clauses gradées C dans la même sous-section n'ont, dans la source, aucun tag de grade imprimé (relais préopératoire AVK chez le patient en ACFA à haut risque, §4.2 ; clause MTEV « risque de récidive modéré », §4.4) — retranscrits ici avec « AP » plutôt qu'un « C » inventé par analogie.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "2 — Conduite à tenir en cas de surdosage asymptomatique",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Privilégier une prise en charge ambulatoire, si le contexte médical et social le permet. L'hospitalisation est préférable s'il existe un ou plusieurs facteurs de risque hémorragique individuel (âge, antécédent hémorragique, comorbidité). En l'absence d'hospitalisation : informer le patient et son entourage du risque hémorragique à court terme et des signes d'alerte (tout saignement, même minime, ou symptôme nouveau → consultation médicale sans délai).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 1 — Mesures correctrices recommandées</b> en cas de surdosage en AVK, en fonction de l'INR mesuré et de l'INR cible.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "INR mesuré",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "INR cible 2,5 (fenêtre 2-3)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "INR cible ≥ 3 (fenêtre 2,5-3,5 ou 3-4,5)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "INR < 4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas de saut de prise. Pas d'apport de vitamine K.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sans objet — la source marque cette combinaison d'un hachurage diagonal (« INR mesuré < 4 » n'est, par définition, pas un surdosage relatif à une INR cible ≥ 3).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4 ≤ INR < 6",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Saut d'une prise. Pas d'apport de vitamine K.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas de saut de prise. Pas d'apport de vitamine K.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6 ≤ INR < 10",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt du traitement par AVK. 1 à 2 mg de vitamine K par voie orale (1/2 à 1 ampoule buvable forme pédiatrique) — <b>grade A</b>.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Saut d'une prise. Avis spécialisé (ex. cardiologue si prothèse valvulaire mécanique) recommandé pour discuter un traitement éventuel par 1 à 2 mg de vitamine K par voie orale.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "INR ≥ 10",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt du traitement par AVK. 5 mg de vitamine K par voie orale (1/2 ampoule buvable forme adulte) — <b>grade A</b>.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Avis spécialisé sans délai ou hospitalisation recommandé.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "À faire dans tous les cas : rechercher la cause du surdosage (prise en compte pour l'adaptation éventuelle de la posologie). Contrôle de l'INR le lendemain. En cas de persistance d'un INR suprathérapeutique, les mesures du Tableau 1 restent valables et doivent être reconduites. Surveillance ultérieure de l'INR calquée sur celle de la mise en route du traitement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Hémorragies spontanées ou traumatiques",
+   "items": [
+    {
+     "t": "section",
+     "text": "3 — Hémorragies spontanées ou traumatiques",
+     "color": "red"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Hémorragie grave ou potentiellement grave</b> (définition, au moins un critère) : hémorragie extériorisée non contrôlable par les moyens usuels ; instabilité hémodynamique (PAS &lt; 90 mmHg ou -40 mmHg vs habituelle, ou PAM &lt; 65 mmHg, ou tout signe de choc) ; nécessité d'un geste hémostatique urgent (chirurgie, radiologie interventionnelle, endoscopie) ; nécessité de transfusion de culots globulaires ; localisation menaçant le pronostic vital/fonctionnel (hémorragie intracrânienne/intraspinale, intraoculaire/rétro-orbitaire, hémothorax, hémo/rétropéritoine, hémopéricarde, hématome musculaire profond/syndrome de loge, hémorragie digestive aiguë, hémarthrose). En l'absence de ces critères : hémorragie <b>non grave</b>.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Hémorragie non grave",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prise en charge ambulatoire par le médecin traitant, si l'environnement médico-social et le type d'hémorragie le permettent (ex. épistaxis rapidement contrôlable).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mesure de l'INR en urgence. En cas de surdosage : mêmes mesures de correction que pour le surdosage asymptomatique (Tableau 1). Recherche de la cause du saignement. Absence de contrôle de l'hémorragie par les moyens usuels = critère de gravité → indication de prise en charge hospitalière pour antagonisation rapide.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Médicaments utilisables en cas d'hémorragie grave",
+     "color": "teal-dark"
+    },
+    {
+     "t": "p",
+     "html": "La vitamine K et les concentrés de complexe prothrombinique (CCP/PPSB — Kaskadil® et Octaplex® commercialisés en France en 2008) sont les moyens médicamenteux les plus appropriés.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ne pas utiliser le plasma dans le seul but d'antagonisation des effets des AVK, sauf en cas d'indisponibilité d'un CCP.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ne pas utiliser le facteur VII activé recombinant (eptacog alpha, NovoSeven®) dans le but d'antagonisation des effets des AVK.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Conduite à tenir en cas d'hémorragie grave",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prise en charge hospitalière obligatoire. Formalisation de procédures organisationnelles pluridisciplinaires (améliore rapidité et qualité de la prise en charge). Geste hémostatique (chirurgical, endoscopique, endovasculaire) discuté rapidement avec chirurgiens/radiologues.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mesurer l'INR en urgence à l'admission — la mise en route du traitement ne doit pas attendre le résultat si celui-ci ne peut être obtenu rapidement ; INR par microméthode au lit du patient si délai prévisible &gt; 30-60 min. Objectif : restauration d'une hémostase normale (INR &lt; 1,5) dans un délai le plus bref possible (quelques minutes).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Arrêter l'AVK.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Administrer en urgence du CCP et de la vitamine K.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Assurer simultanément le traitement usuel d'une éventuelle hémorragie massive (correction de l'hypovolémie, transfusion de culots globulaires si besoin).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "En l'absence de circuit d'approvisionnement rapide : réserve de quelques flacons de CCP dans les services concernés (urgences, réanimation, certains blocs opératoires), en accord avec la pharmacie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dose de CCP si l'INR contemporain de l'hémorragie n'est pas disponible : 25 UI/kg d'équivalent facteur IX (1 ml/kg pour un CCP dosé à 25 U/ml). Si l'INR contemporain est disponible : dose suivant le RCP de la spécialité utilisée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Vitesse d'injection IV du CCP : 4 ml/min préconisé par les fabricants (des données préliminaires indiquent qu'un bolus de 3 min obtient un taux de correction comparable, niveau de preuve 4).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Administrer 10 mg de vitamine K par voie orale ou IV lente en même temps que le CCP, quel que soit l'INR de départ.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Contrôles biologiques : INR à 30 min après le CCP (complément de CCP si INR &gt; 1,5, adapté au RCP) ; INR à 6-8h puis quotidien pendant la période critique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Patient victime d'un traumatisme",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mesurer l'INR en urgence et adopter la même conduite que pour les hémorragies spontanées (grave ou non grave), suivant la nature du traumatisme.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traumatisme crânien : hospitalisation systématique pour surveillance ≥ 24h. Scanner cérébral immédiat si symptomatologie neurologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traumatisme crânien sans symptomatologie neurologique : scanner cérébral dans un délai rapide (4 à 6 heures).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Réintroduction AVK & chirurgie (4.1-4.2)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Réintroduction des AVK après une hémorragie grave",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Si l'indication des AVK est maintenue et le saignement contrôlé : traitement par héparine (HNF ou HBPM) à dose curative en parallèle de la reprise des AVK, en milieu hospitalier sous surveillance clinique et biologique. Modalités fonction du siège de l'hémorragie et de l'indication des AVK.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie intracrânienne, patient porteur d'une prothèse valvulaire mécanique (PVM) : la PVM impose la reprise d'une anticoagulation au long cours.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie intracrânienne, patient porteur d'une PVM : fenêtre thérapeutique de normocoagulation de 1 à 2 semaines proposée (discussion multidisciplinaire souhaitable pour en fixer la durée).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie intracrânienne à localisation hémisphérique et ACFA non valvulaire : arrêt définitif du traitement anticoagulant recommandé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie intracrânienne, patient ayant une MTEV : fenêtre thérapeutique de normocoagulation de 1 à 2 semaines proposée (discussion multidisciplinaire ; filtre cave discuté si MTEV &lt; 1 mois).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Autres hémorragies graves : fenêtre thérapeutique de 48 à 72h, modulée selon le risque thromboembolique. Reprise d'autant plus précoce qu'un geste hémostatique garantit une faible probabilité de récidive.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4 — Chirurgie ou acte invasif",
+     "color": "red"
+    },
+    {
+     "t": "section",
+     "text": "4.1 — Procédures réalisables sans interrompre les AVK",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie cutanée, dans la zone thérapeutique usuelle (INR 2-3), après vérification de l'absence de surdosage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie de la cataracte, dans la zone thérapeutique usuelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Actes de rhumatologie à faible risque hémorragique (voir Tableau — Annexe 1) ; certains actes bucco-dentaires et d'endoscopie digestive (se référer aux recommandations des sociétés spécialisées correspondantes).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "—"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dans les autres cas : arrêt des AVK ou antagonisation en urgence. Seuil d'INR ≤ 1,5 (≤ 1,2 en neurochirurgie) retenu comme absence de majoration du risque hémorragique périopératoire. Injections sous-cutanées possibles sans interrompre les AVK ; injections intramusculaires déconseillées (risque hémorragique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "4.2 — Situations imposant un relais héparinique (acte programmé)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque thromboembolique élevé (selon l'indication du traitement AVK) : relais pré- et postopératoire par héparine à dose curative. Dans les autres cas : relais postopératoire recommandé si la reprise des AVK à 24-48h postopératoires est impossible (voie entérale indisponible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "PVM cardiaque, quel que soit le type : relais pré- et postopératoire des AVK par les héparines recommandé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ACFA à haut risque thromboembolique (ATCD d'AVC/AIT ou d'embolie systémique) : relais pré- et postopératoire des AVK par les héparines recommandé — <i>niveau de preuve 2 cité par la source, mais sans « (grade X) » imprimé sur cette clause (voir disclosure méthodologique en page 1).</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "ACFA, autres cas : l'anticoagulation par AVK peut être interrompue sans relais préopératoire (reprise à 24-48h postopératoires).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "MTEV à haut risque thromboembolique (épisode &lt; 3 mois, ou maladie récidivante idiopathique ≥ 2 épisodes dont ≥ 1 sans facteur déclenchant) : relais pré- et postopératoire des AVK par les héparines recommandé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "MTEV, autres cas : l'anticoagulation par AVK peut être interrompue sans relais préopératoire (reprise à 24-48h postopératoires).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Relais héparinique & indication (4.3-4.4)",
+   "items": [
+    {
+     "t": "section",
+     "text": "4.3 — Modalités du relais héparinique (acte programmé)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Relais préopératoire :</b> mesurer l'INR 7 à 10 jours avant l'intervention. Si en zone thérapeutique : arrêter l'AVK 4-5 jours avant l'intervention (tous AVK), débuter l'héparine à dose curative 48h après la dernière prise de fluindione/warfarine, ou 24h après la dernière prise d'acénocoumarol. Si hors zone thérapeutique : avis de l'équipe médico-chirurgicale. Hospitaliser au plus tard la veille si le relais n'est pas géré en ville. INR la veille de l'intervention ; si INR &gt; 1,5 : 5 mg de vitamine K per os (contrôle le matin de l'intervention). Interventions programmées de préférence le matin. Arrêt préopératoire des héparines : HNF IV à la seringue électrique 4-6h avant ; HNF SC 8-12h avant ; HBPM, dernière dose 24h avant. Contrôle du TCA/anti-Xa le matin non nécessaire (voir Annexe 2 pour un exemple de schéma complet).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Relais postopératoire :</b> héparines à dose curative reprises 6-48h postopératoires selon le risque hémorragique/thromboembolique (jamais avant la 6e heure — si la reprise à dose curative n'est pas possible dès la 6e heure, prévention postopératoire de la MTEV selon les modalités habituelles). AVK repris dans les 24 premières heures (sinon dès que possible), aux posologies habituelles, sans dose de charge. Si voie entérale indisponible &gt; 24-48h : poursuivre l'héparine à dose curative jusqu'à reprise possible des AVK. Héparine interrompue après 2 INR successifs en zone thérapeutique à 24h d'intervalle.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "4.4 — Prise en charge selon l'indication du traitement (acte programmé)",
+     "color": "teal-dark"
+    },
+    {
+     "t": "p",
+     "html": "<b>Patient porteur d'une valve mécanique cardiaque</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Relais des AVK par des héparines recommandé en périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Relais possible par HBPM (hors AMM, dose curative, 2 injections SC/jour — enoxaparine ou dalteparine), par HNF IV à la seringue électrique, ou par HNF SC (2-3 injections/jour) à dose curative : ces trois options sont possibles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "En l'absence de données périopératoires, pour les procédures à risque hémorragique modéré ou élevé : l'HBPM à dose curative en une injection/jour ou le fondaparinux ne peuvent être recommandés. Héparines à dose curative dans les 6-48h postopératoires (jamais avant la 6e heure ; sinon prévention MTEV postopératoire précoce habituelle).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Patient traité pour arythmie chronique par fibrillation auriculaire (ACFA)</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque thromboembolique élevé : relais préopératoire des AVK par HBPM ou HNF à dose curative recommandé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque thromboembolique élevé : relais préférentiellement par des HBPM.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque thromboembolique faible ou modéré : l'anticoagulation par AVK peut être interrompue sans relais préopératoire. Si reprise des AVK impossible à 24-48h postopératoires : relais postopératoire par HBPM ou HNF à dose curative à envisager.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dans tous les cas, en l'absence de données périopératoires, pour les procédures à risque hémorragique modéré ou élevé : HBPM à dose curative en une injection/jour ou fondaparinux non recommandés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Patient traité pour un antécédent de MTEV</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Haut risque de récidive : différer une chirurgie réglée si possible, au minimum au-delà du 1er mois suivant l'épisode, de préférence au-delà du 3e mois.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Haut risque de récidive, chirurgie dans le 1er mois : mise en place d'un filtre cave préopératoire (éventuellement optionnel) à discuter.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Haut risque de récidive : relais préopératoire des AVK par HBPM à dose curative ou par HNF (IV à la seringue électrique ou SC 2-3 injections/jour) recommandé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque de récidive modéré : l'anticoagulation par AVK peut être interrompue sans relais préopératoire ; reprise des AVK recommandée à 24-48h postopératoires (sinon relais postopératoire par HBPM/HNF à dose curative). <i>Clause symétrique de son équivalent « haut risque » ci-dessus, mais sans « (grade X) » imprimé sur cette clause dans la source (voir disclosure méthodologique en page 1).</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dans tous les cas (MTEV) : prévention postopératoire précoce de la MTEV réalisée jusqu'à ce que l'INR soit en zone thérapeutique (ou la reprise des héparines à dose curative). En l'absence de données périopératoires, le fondaparinux à dose curative ne peut être recommandé. Privilégier l'HBPM à dose curative en 2 injections/jour ; l'HBPM en une injection/jour peut être discutée au cas par cas.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Acte urgent, annexes & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "4.5 — Chirurgie ou acte invasif urgent à risque hémorragique",
+     "color": "teal-dark"
+    },
+    {
+     "t": "p",
+     "html": "Un acte urgent est défini par sa réalisation indispensable dans un délai ne permettant pas d'atteindre le seuil hémostatique (INR &lt; 1,5, &lt; 1,2 en neurochirurgie) par la seule vitamine K.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mesurer l'INR à l'admission du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Administration de CCP recommandée, selon les modalités de la prise en charge de l'hémorragie grave.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Associer 5 mg de vitamine K à l'administration de CCP, sauf si la correction de l'hémostase n'est nécessaire que pendant moins de 4 heures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Privilégier la voie entérale pour la vitamine K, lorsqu'elle est possible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "INR recommandé dans les 30 min suivant le CCP et avant l'acte (complément de CCP si insuffisamment corrigé) ; INR à 6-8h après l'antagonisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Si l'acte est compatible avec une réversion par la seule vitamine K (délai 6-24h selon l'INR) : CCP non nécessaire ; vitamine K 5-10 mg (voie entérale si possible) ; INR répété toutes les 6-8h jusqu'à l'intervention. Prise en charge postopératoire identique à celle d'un acte programmé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Annexe 1 — Risque hémorragique des actes invasifs de rhumatologie",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Type d'acte",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau de risque",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltrations périarticulaires",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration simple des articulations périphériques hors coxo-fémorales",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration simple des articulations coxo-fémorales",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltration canalaire superficielle",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltration canalaire profonde (cf. Alcock)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ténotomie percutanée",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration rachidienne cervicale ou lombaire, épidurale ou intradurale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration rachidienne cervicale, foraminale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration rachidienne lombaire, foraminale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration rachidienne articulaire postérieure",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration rachidienne dorsale costo-vertébrale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lavage articulaire d'une articulation périphérique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-trituration de l'épaule",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Biopsie synoviale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Biopsie osseuse",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-biopsie discale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Biopsie des glandes salivaires accessoires",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cimentoplastie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Infiltration sacro-iliaque",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction kyste poplité",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Capsulodistension",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration sterno-claviculaire",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction-infiltration par le hiatus sacro-coccygien",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Cotation : 1 = risque élevé — 2 = risque modéré — 3 = risque faible.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Annexe 2 — Exemple de relais préopératoire AVK-héparine (acte programmé)",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "(INR déterminé 7 à 10 jours avant, en zone thérapeutique) — <b>J-5 :</b> dernière prise de fluindione/warfarine. <b>J-4 :</b> pas de prise d'AVK. <b>J-3 :</b> première dose d'HBPM curative sous-cutanée (SC) ou HNF SC le soir. <b>J-2 :</b> HBPM ×2/j SC ou HNF SC ×2-3/j. <b>J-1 :</b> hospitalisation systématique ; HBPM à dose curative le matin ou HNF SC jusqu'au soir ; ajustement selon le bilan biologique (si INR ≥ 1,5 la veille : 5 mg de vitamine K per os). <b>J0 :</b> chirurgie.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par antivitamines K en ville et en milieu hospitalier » — Recommandations professionnelles, Groupe d'étude sur l'hémostase et la thrombose (GEHT, promoteur), en partenariat avec la Haute Autorité de Santé (HAS). Validé par le Collège de la HAS en avril 2008.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> grades HAS A/B/C + accord professionnel (« AP ») — 28 citations « (grade X) » explicites (5× A, 2× B, 21× C) vérifiées par grep exhaustif sur le texte aplati ; 2 divergences source-internes disclosées (voir méthodologie en page 1).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des chapitres 2 (surdosage, Tableau 1), 3 (hémorragies), 4 (chirurgie/acte invasif, dont Annexe 2) et l'Annexe 1 (risque hémorragique en rhumatologie, 23 lignes). Comité d'organisation, groupe de travail, groupe de lecture (~85 noms) et « Fiche descriptive » ne sont pas retranscrits (sans contenu clinique nouveau).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2008 :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des recommandations du texte source, mais ne remplace pas le texte intégral (argumentaire complet) et n'est ni éditée ni validée par la HAS ou le GEHT. Les CCP/PPSB et vitamine K citées (Kaskadil®, Octaplex®) reflètent les spécialités commercialisées en France en 2008 ; vérifier l'actualité des disponibilités et des posologies (RCP en vigueur) et, en cas de doute, se référer à un avis spécialisé.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

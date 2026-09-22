@@ -1,0 +1,769 @@
+{
+ "doc": "organisation_anesthesie_pediatrique_2023",
+ "sections": [
+  {
+   "title": "Champ 1 — Structure et logistique",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> RPP SFAR-ADARPEF (2023) sur l'organisation structurelle, matérielle et fonctionnelle des centres pratiquant l'anesthésie pédiatrique — 34 recommandations (toutes avis d'experts, accord fort) sur 4 champs : structure et logistique, équipement et matériel, formation, organisation fonctionnelle. Complémentaire de la fiche déjà git-trackée <i>anesth_pediatrique_structures</i> (RFE SFAR 2000, matériel chiffré au sein d'un site) — celle-ci porte sur l'organisation ENTRE sites (réseaux, orientation par âge/ASA, effectifs).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>AE</b> = avis d'experts — méthode GRADE prévue en amont, mais les 34 recommandations (« préconisations ») sont TOUTES formulées comme avis d'experts, à accord fort pour la totalité d'entre elles (décompte source vérifié exact). Aucune absence de recommandation dans ce document.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Structure et logistique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser l'anesthésie pédiatrique dans une salle d'intervention disposant de matériel adapté au poids et à l'âge de l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Identifier un secteur pédiatrique en SSPI, pour regrouper personnel/matériel spécifiques et permettre la présence d'un accompagnant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hospitaliser les enfants en pré et postopératoire dans un secteur dédié à la pédiatrie (conventionnel, ambulatoire ou soins critiques).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser la consultation d'anesthésie dans un lieu dédié et adapté à l'enfant, pour favoriser son confort et diminuer son anxiété.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer d'un accès à un plateau technique (laboratoire, radiologie, produits sanguins labiles) capable de répondre aux besoins pédiatriques, dont les micro-prélèvements, pour toute activité pédiatrique programmée et/ou non programmée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Formaliser des réseaux de consultants spécialistes en pédiatrie, pour tout établissement ayant une activité pédiatrique programmée et/ou non programmée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 2 — Équipement et matériel",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 — Équipement et matériel",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adapter tout le matériel d'assistance respiratoire à l'âge, au poids et à la taille de l'enfant, pour assurer normoxémie et normocapnie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans les salles non dédiées à la pédiatrie, utiliser un chariot mobile spécifique contenant le matériel de gestion des voies aériennes pédiatrique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un matériel d'accès vasculaire adapté à l'âge/taille/poids de l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer, dans tous les lieux d'anesthésie pédiatrique (bloc, SSPI), de matériel d'abord intra-osseux (perceuse et trocarts adaptés) pour les situations critiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les apports hydro-électrolytiques peropératoires de base : soluté glucosé à 5 % + ≥ 4 g NaCl/l (nouveau-né) ; soluté isotonique balancé glucosé à 1 % (nourrisson/jeune enfant) ; soluté balancé isotonique (au-delà de 3 ans).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour le remplissage vasculaire péri-opératoire : soluté balancé isotonique en 1<super>re</super> intention ; albumine si hypovolémie persistante, en particulier chez le nouveau-né/nourrisson.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer d'un chariot d'urgence pédiatrique avec aides cognitives spécifiques, en plus du matériel/médicaments d'urgence.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un monitorage dont les composants sont adaptés au poids et/ou à l'âge de l'enfant, pour une interprétation fiable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le nouveau-né/nourrisson opéré de chirurgie majeure, monitorer l'oxygénation régionale cérébrale pour détecter précocement une désaturation cérébrale (hypotension, hypoxémie, anémie, hypocapnie).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser un monitorage systématique de la température péri-opératoire chez l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prévenir l'hypothermie dès le transport vers le bloc, débuter le réchauffement actif avant l'induction (dispositif adapté + contrôle de la température de salle), poursuivre en continu per- et postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer de sondes échographiques linéaires 25-38 mm / 8-14 MHz pour les abords vasculaires et l'ALR chez l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champs 3-4 — Formation & organisation (réseaux)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 3 — Formation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Appliquer les recommandations européennes selon les spécificités nationales/locales : tout interne d'anesthésie-réanimation doit suivre ≥ 3 mois de formation en anesthésie pédiatrique en centre spécialisé (≥ 6 mois + passage en soins critiques pédiatriques pour une activité régulière future).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tout MAR pratiquant l'anesthésie pédiatrique doit avoir une activité régulière dédiée (≥ une demi-journée/semaine) et actualiser ses compétences via des programmes individuels, dans le cadre de la certification périodique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Promouvoir les programmes de formation basés sur la simulation, en formation initiale et continue.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 4 — Organisation fonctionnelle (1/2) — Réseaux et orientation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les centres de proximité et spécialisés ayant une activité d'anesthésie pédiatrique doivent s'organiser en réseaux avec un centre spécialisé à vocation régionale, pour la chirurgie programmée ou non.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Formaliser cette organisation en réseaux par une convention (charte de fonctionnement locale, transfert des cas complexes).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prendre en charge en centre spécialisé (ou à vocation régionale) : nouveau-né à terme &lt; 6 semaines, ancien prématuré &lt; 60 semaines d'âge post-conceptionnel, patients ASA 3 à 5 (risque majoré de complications cardio-respiratoires sévères).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Certains patients ASA 3 peuvent être pris en charge hors centre spécialisé, dans un réseau de soins contractualisé (âge minimal, accord ARS).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Effectifs par âge & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Organisation fonctionnelle (2/2) — Effectifs par âge",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Tranche d'âge",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Effectif requis",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&lt; 1 an, ou ASA 4-5\n(R4.3.1)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque majoré d'arrêt cardiaque/hypoxie : 2 professionnels dédiés exclusivement — ≥ 1 MAR à activité régulière et formation pédiatrique complémentaire, assisté d'un second professionnel d'anesthésie à activité pédiatrique régulière.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1-3 ans\n(R4.3.2)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque majoré de complications respiratoires : MAR formé dédié + IADE à activité pédiatrique régulière dédié, OU MAR dédié seul avec second professionnel identifié à l'avance immédiatement disponible au bloc. Choix sous la responsabilité exclusive du MAR.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3-10 ans\n(R4.3.3)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "MAR formé + IADE dédié, OU MAR dédié avec second professionnel identifié à l'avance immédiatement disponible au bloc. Choix sous la responsabilité exclusive du MAR.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&gt; 10 ans\n(R4.3.4)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mêmes règles organisationnelles que chez l'adulte.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "MAR = médecin anesthésiste-réanimateur ; IADE = infirmier anesthésiste diplômé d'État.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Présence permanente en SSPI d'une infirmière (IDE, IADE ou puéricultrice) formée au réveil pédiatrique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Associer systématiquement un second professionnel paramédical, pour les spécificités du réveil de l'enfant.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Présence supplémentaire d'une seconde infirmière (IDE, IADE ou puéricultrice) si la SSPI a une capacité ≥ 6 postes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour une équipe à pratique mixte adulte/pédiatrique, concentrer l'activité pédiatrique sur un nombre limité de praticiens formés et actualisés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Collecter les données épidémiologiques/anesthésiques (dont incidents critiques) pour évaluer la qualité des soins par comparaison à la littérature récente.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthode :</b> groupe d'experts SFAR-ADARPEF, méthode GRADE prévue en amont, mais les 34 recommandations retenues sont toutes formulées comme avis d'experts, votées par méthode GRADE grid en 2 tours, accord fort pour la totalité.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> SFAR-ADARPEF, « Organisation structurelle, matérielle et fonctionnelle des centres effectuant de l'anesthésie pédiatrique », RPP, texte validé par le Comité des Référentiels Cliniques de la SFAR le 19/01/2023 et le Conseil d'Administration le 26/01/2023.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/organisation-de-lanesthesie-pediatrique/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 34 recommandations (4 champs). Aucune absence de recommandation dans ce document. R4.3.1-4.3.4 (effectifs par tranche d'âge) reproduites intégralement en tableau de recommandations ET résumées en tableau récapitulatif compact pour la lisibilité clinique. Bibliographie et composition nominative du groupe d'experts non reproduites.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 34 recommandations du texte source, mais condense l'argumentaire de chaque item. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR ni l'ADARPEF.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

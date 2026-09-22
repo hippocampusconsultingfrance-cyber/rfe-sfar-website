@@ -1,0 +1,692 @@
+{
+ "doc": "aod_urgence",
+ "sections": [
+  {
+   "title": "Contexte, pharmacocinétique & chirurgie — dosage disponible",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> propositions du Groupe d'Intérêt en Hémostase Périopératoire (GIHP) pour la chirurgie urgente à risque hémorragique et les hémorragies graves chez un patient traité par <b>dabigatran (Pradaxa®) ou rivaroxaban (Xarelto®)</b> à dose curative. <b>Portée limitée par la source elle-même</b> à ces 2 molécules (apixaban/edoxaban explicitement exclus, données insuffisantes en 2013). <b>Aucun système de cotation</b> : ce ne sont pas des recommandations mais des « propositions », amenées à évoluer.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>⚠ Avertissement majeur — document de 2013, antérieur aux antidotes spécifiques :</b> ce texte précède la commercialisation de l'idarucizumab (Praxbind®, antidote du dabigatran, autorisé en France en 2016) et de l'andexanet alfa (Ondexxya®, antidote des anti-Xa, autorisé en 2019). Il ne propose donc que des agents procoagulants non spécifiques (CCP, FEIBA) et NE REFLÈTE PAS la prise en charge actuelle de référence. À utiliser uniquement comme repère historique des principes généraux (dosage plasmatique, délais selon fonction rénale) — se référer impérativement aux protocoles actualisés intégrant les antidotes spécifiques avant toute décision thérapeutique.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Méthodologie et contexte",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Article publié le 18/03/2013 (accepté 25/04/2013) par le GIHP — ce n'est ni une RFE, ni une RPC, ni une conférence d'experts SFAR : aucun grade A/B/C, aucun « accord fort/faible ». La méthodologie repose sur l'analyse de la littérature pharmacocinétique puis une relecture critique par les membres du GIHP jusqu'à consensus — la source précise elle-même que « le peu de données disponibles ne permet pas d'émettre des recommandations, mais seulement des propositions ». <i>Note de datation :</i> la bibliothèque SFAR indexe ce document sous l'année « 2021 » (date de mise en ligne/réindexation probable), mais l'article lui-même est daté et signé 2013 — divergence disclosed, la date d'origine (2013) est retenue dans cette fiche.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Seuil de sécurité hémostatique :</b> une concentration plasmatique ≤ 30 ng/mL, pour le dabigatran comme pour le rivaroxaban, est extrapolée des protocoles des essais cliniques (RE-LY, ROCKET-AF) comme compatible avec une chirurgie à risque hémorragique sans majoration du risque. Dans tous les cas, il faut préciser : âge, poids, nom du médicament, indication, dose, nombre de prises/jour, heure de la dernière prise, clairance de la créatinine (formule de Cockcroft et Gault).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 1 — Données pharmacocinétiques des AOD (repère) :</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Cmax (ng/mL)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Cmin (ng/mL)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dabigatran 220 mg/j (1 prise)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "183 (5-95 perc : 64-447)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "37 (5-95 perc : 10-96) à 24 h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dabigatran 150 mg × 2/j",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "254 (± 70,5)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "80,3 (18,7) à 12 h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rivaroxaban 10 mg/j (1 prise)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "125 (5-95 perc : 91-195)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "9 (5-95 perc : 1-38) à 24 h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Rivaroxaban 20 mg/j (1 prise)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "215 (5-95 perc : 22-535)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "32 (5-95 perc : 6-239) à 24 h",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Note du Tableau 1 (source) : pas de donnée pour le rivaroxaban 15 mg × 2/j (schéma initial TVP/EP) ; les données 10 mg sont ici indicatives.</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Chirurgie urgente à risque hémorragique — dosage plasmatique disponible",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Fig. 1 — Dabigatran, selon la concentration plasmatique :</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Concentration",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "≤ 30 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Opérer sans délai.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "30-200 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Si un report est possible : attendre jusqu'à 12 h puis nouveau dosage. Si non : opérer ; en cas de saignement anormal, antagoniser (CCP 25-50 UI/kg ou FEIBA 30-50 UI/kg selon disponibilité).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "200-400 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Retarder au maximum l'intervention. Délai minimum de 24 h puis nouveau dosage <i>(le diagramme original de la source indique « 12-24 h », le corps du texte précise « un délai minimum de 24 heures » — divergence interne à la source, disclosed)</i>. Si clairance de Cockcroft &lt; 50 mL/min : discuter la dialyse (35 % du dabigatran est lié à l'albumine ; l'hémodialyse réduit la concentration de 40-60 % en 4 h).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&gt; 400 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Surdosage — risque hémorragique majeur. Discuter la dialyse avant chirurgie (délai pour atteindre le seuil de 30 ng/mL long en cas de surdosage, à intégrer dans la décision de report).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Fig. 2 — Rivaroxaban, selon la concentration plasmatique (même structure que le dabigatran) :</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Concentration",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "≤ 30 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Opérer sans délai.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "30-200 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Si un report est possible : attendre jusqu'à 12 h puis nouveau dosage. Si non : opérer ; en cas de saignement anormal, antagoniser (CCP 25-50 UI/kg ou FEIBA 30-50 UI/kg selon disponibilité).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "200-400 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Retarder au maximum l'intervention. Délai minimum de 24 h puis nouveau dosage <i>(même divergence diagramme/texte que pour le dabigatran, voir Fig. 1)</i>.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "&gt; 400 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Surdosage — risque hémorragique majeur. <b>Contrairement au dabigatran, la dialyse n'est pas envisageable</b> avec le rivaroxaban (motif non précisé par la source). Retarder au maximum l'intervention si l'état du patient le permet.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>CCP/FEIBA — mises en garde communes aux 2 molécules (notes de la source) : aucune donnée sur le risque thrombotique de fortes doses chez ces patients ; l'antagonisation par CCP ou FEIBA ne corrige pas complètement les anomalies biologiques de l'hémostase ; le rFVIIa n'est pas envisagé en première intention.</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Chirurgie sans dosage, hémorragie grave & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Chirurgie urgente à risque hémorragique — dosage spécifique indisponible",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Solution <b>dégradée</b>, seulement en cas d'indisponibilité immédiate du dosage spécifique — ne garantit pas formellement l'absence de complications hémorragiques. Combinaison TCA + TP (ou TQ) normaux : conclut avec une fiabilité relative à une concentration &lt; 30 ng/mL. Le temps de thrombine (TT, très sensible au dabigatran) peut exclure sa présence s'il est normal, mais retarde inutilement la décision dans la plupart des situations — peu utile en urgence.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Fig. 3 — Dabigatran, selon le ratio TCA/TQ malade-témoin (M/T) :</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Ratio TCA/TQ",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "TCA ≤ 1,2 ET TQ ≤ 1,2 (TP ≥ 70-80 %)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Opérer sans délai.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1,2 &lt; TCA ≤ 1,5, ou TQ &gt; 1,2 (TP &lt; 70-80 %)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Correspond à ≈ 30-200 ng/mL. Si un report est possible : attendre jusqu'à 12 à 24 h selon la fonction rénale, obtenir un dosage spécifique + nouveau TP/TCA. Si non : opérer ; en cas de saignement anormal, antagoniser (CCP 25-50 UI/kg ou FEIBA 30-50 UI/kg).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "TCA &gt; 1,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Correspond à &gt; 200 ng/mL (Cmax). Retarder au maximum l'intervention. Délai minimum de 24 h, obtenir un dosage spécifique + nouveau TP/TCA. Si Cockcroft &lt; 50 mL/min : discuter la dialyse.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Fig. 4 (rivaroxaban) — algorithme absent du PDF source, reconstruit à partir du texte (§3.3) :</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Ratio TCA/TQ",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "TCA ≤ 1,2 ET TQ ≤ 1,2 (ou activité anti-Xa ≤ 0,1 U/mL)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Opérer sans délai.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1,2 &lt; TCA ≤ 1,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Correspond à 30-200 ng/mL. Délai d'attente jusqu'à <b>12 h</b> (pas de qualificatif « selon la fonction rénale » dans la source pour cette molécule, à la différence du dabigatran), répéter le TCA, obtenir un dosage spécifique si compatible avec l'urgence.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "TCA &gt; 1,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Correspond à &gt; 200 ng/mL. Délai minimum de 24 h, obtenir un dosage spécifique dans ce délai. Retarder au maximum l'intervention. <b>La source ne mentionne pas la dialyse pour cette situation</b> (cohérent avec l'absence de dialyse envisageable pour le rivaroxaban, voir Fig. 2).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Défaut de production du PDF source disclosed :</b> la source affirme d'abord (§3.3, en préambule) une « approche identique à celle du dabigatran » pour le rivaroxaban, mais les délais qu'elle détaille ensuite pour chaque bande de ratio TCA diffèrent en réalité légèrement de ceux du dabigatran (12 h vs 12-24 h pour la bande intermédiaire ; aucune mention de dialyse pour le rivaroxaban) — incohérence interne à la source elle-même, disclosed plutôt que lissée. Par ailleurs, aucune figure numérotée correcte n'existe pour cet algorithme dans le PDF publié : l'emplacement annoncé par le texte (« Fig. 4 ») imprime en réalité, par erreur de mise en page de la source, une duplication du diagramme « hémorragie grave » (voir page suivante) — le tableau ci-dessus est donc reconstruit uniquement à partir du texte du corps. Seule différence testologique avec le dabigatran : la mesure de l'activité anti-Xa (technique héparine) est très sensible au rivaroxaban — une activité ≤ 0,1 U/mL exclut sa présence, mais ce test est peu utile en urgence (retarde la décision).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>⚠ L'INR n'a aucune place</b> dans la gestion des situations critiques chez un patient traité par AOD (mode d'expression conçu pour les AVK) — lui préférer le rapport malade/témoin (M/T) du temps de Quick.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Si la chirurgie ne peut être repoussée et les seuils ne sont pas atteints",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Opérer <b>sans</b> administration préventive de médicaments procoagulants. Recourir à ceux-ci (CCP 25-50 UI/kg, ou FEIBA 30-50 UI/kg — éventuellement renouvelable une fois en cas d'échec) <b>seulement en cas de saignement anormal</b> per- ou postopératoire. Privilégier en première ligne la dose la plus faible proposée.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Hémorragie grave spontanée ou chirurgicale",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "La définition HAS/GEHT 2008 des hémorragies graves sous AVK est reprise par défaut, faute de définition spécifique aux AOD (voir Tableau 2). Deux situations sont distinguées.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>1 — Hémorragie dans un organe critique</b> (intracérébrale, sous-durale aiguë, intra-oculaire…) :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Détail",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Conduite immédiate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Neutralisation immédiate de l'effet anticoagulant : FEIBA 30-50 UI/kg <b>ou</b> CPP 50 UI/kg, éventuellement renouvelé une fois à 8 h d'intervalle — quel que soit le résultat des tests, sans attendre. Le suivi de la concentration du médicament sera utile pour la décision opératoire complémentaire.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>2 — Autres hémorragies graves</b> (définition HAS, Tableau 2) :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Situation",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Geste hémostatique praticable d'emblée (endoscopique, intravasculaire)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "À privilégier quel que soit le taux du médicament.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Concentration ≤ 30 ng/mL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "L'hémorragie ne peut être imputée au seul médicament — pas d'administration d'agent hémostatique (CCP/FEIBA).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Concentration &gt; 30 ng/mL et aucun geste hémostatique adapté",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Tenter d'inhiber l'effet anticoagulant (CCP 25-50 UI/kg, ou FEIBA 30-50 UI/kg, éventuellement renouvelable une fois), optimiser la réanimation ; pour le dabigatran, envisager une épuration par hémodialyse guidée par la concentration.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dosage spécifique non disponible",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Raisonner sur le TCA et le TP, avec un niveau élevé d'incertitude (même logique que ci-dessus, seuil indicatif : ratio TCA ≤ 1,2 et TQ ≤ 1,2/TP ≥ 70-80 % → pas d'antagonisation ; au-delà → discuter l'antagonisation et obtenir un dosage spécifique).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Défaut de production du PDF source disclosed :</b> les 2 diagrammes correspondant à ce tableau (l'un guidé par la concentration, l'autre par les tests usuels) sont bien présents dans le PDF, mais leurs légendes sont incohérentes avec leur propre contenu — le diagramme « guidé par concentration » est imprimé deux fois sous les légendes erronées « Fig. 4 » et « Fig. 5 » (au lieu des figures réellement annoncées par le texte à ces emplacements), et le diagramme correctement légendé « Fig. 6 » décrit dans son titre une approche par concentration alors qu'il utilise en réalité des ratios TCA/TQ. Contenu clinique reconstruit ici à partir des diagrammes réels et du texte du corps, sans dépendre des légendes erronées.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>Tableau 2 — Définition HAS 2008 d'une hémorragie grave ou potentiellement grave sous AVK</b> (reprise par défaut pour les AOD, au moins un critère) :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Critère",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Détail",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémorragie extériorisée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Non contrôlable par les moyens usuels.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Instabilité hémodynamique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "PAS &lt; 90 mmHg ou diminution de 40 mmHg par rapport à la PAS habituelle, ou PAM &lt; 65 mmHg, ou tout signe de choc.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Geste hémostatique urgent nécessaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie, radiologie interventionnelle, endoscopie.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Transfusion",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Nécessité de transfusion de culots globulaires.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Localisation menaçant le pronostic vital ou fonctionnel",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie intracrânienne et intraspinale ; hémorragie intraoculaire et rétro-orbitaire ; hémothorax, hémo- et rétropéritoine, hémopéricarde ; hématome musculaire profond et/ou syndrome de loge ; hémorragie digestive aiguë ; hémarthrose.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge des complications hémorragiques graves et de la chirurgie en urgence chez les patients recevant un anticoagulant oral anti-IIa ou anti-Xa direct » — Propositions du GIHP. Coordinateurs : G. Pernod, P. Albaladejo. Reçu le 18/03/2013, accepté le 25/04/2013.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> Ann Fr Anesth Reanim 2013;32:691-700.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> analyse de la littérature + relecture critique du GIHP jusqu'à consensus — aucun système de cotation (pas de grade, pas d'accord fort/faible). Propositions, pas des recommandations (terminologie de la source elle-même).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/download/gestion-perioperatoire-des-aod-en-urgence/?wpdmdl=34804",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité du contenu actionnable pour le dabigatran et le rivaroxaban (seules molécules couvertes par la source elle-même). L'algorithme rivaroxaban/TCA manquant du PDF (défaut de production disclosed plus haut) est reconstruit fidèlement à partir du texte du corps. Hors champ, explicitement par la source : apixaban, edoxaban (données insuffisantes en 2013).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2013, propositions non validées comme recommandation officielle :</b> cette fiche de synthèse indépendante reprend l'intégralité du contenu actionnable du texte source, mais ne le remplace pas et n'est ni éditée ni validée par la SFAR ou le GIHP. Ce document est antérieur aux antidotes spécifiques (idarucizumab, andexanet alfa) et ne couvre ni l'apixaban ni l'edoxaban — se référer impérativement aux protocoles actualisés du centre de prise en charge et à un avis spécialisé (hématologie/hémostase) avant toute décision thérapeutique.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

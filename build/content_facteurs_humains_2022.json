@@ -1,0 +1,473 @@
+{
+ "doc": "facteurs_humains_2022",
+ "sections": [
+  {
+   "title": "Champ 1-2 — Communication & organisation",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> RPP SFAR/FHS 2022 sur la gestion de crise en anesthésie-réanimation (« crisis resource management »). Méthode GRADE prévue en amont mais non applicable en totalité — les 21 recommandations sont toutes des <b>avis d'experts, à accord fort (100 %)</b>, sur 4 champs : communication, organisation, environnement de travail, formation. Décompte source vérifié exact.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Communication",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser un briefing avant la prise en charge d'une situation critique, pour améliorer les performances de l'équipe, le climat de sécurité et diminuer les événements indésirables.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser une communication sécurisée et standardisée en situation de crise, pour améliorer la morbi-mortalité et limiter l'incidence des événements indésirables.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser un débriefing juste après la prise en charge d'une situation critique, pour améliorer les compétences techniques et non techniques.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Organisation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Développer une conscience situationnelle individuelle puis collective d'équipe, pour améliorer la qualité des soins et la sécurité du patient.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "S'engager dans une démarche de développement de la culture de sécurité, pour améliorer la qualité des soins et réduire les événements indésirables graves en situation critique.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adopter une organisation du travail en équipe reposant sur un leader clairement identifié, un partage d'informations, une coordination et une répartition cohérente des tâches, pour améliorer la sécurité des soins.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser une aide cognitive de crise, pour améliorer la qualité des soins et la sécurité du patient.",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 3 — Environnement de travail",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 3 — Environnement de travail",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer le matériel nécessaire à la prise en charge d'une situation critique de façon logique, avec un emplacement connu de toute l'équipe, pour réduire les événements indésirables graves.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Organiser le réapprovisionnement et la vérification de ce matériel, pour réduire les événements indésirables graves.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dispenser systématiquement une formation à tout nouveau matériel ou interface numérique avant sa mise en place, pour réduire les événements indésirables graves.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Former au moins un référent par service à l'utilisation avancée de ce matériel, pour réduire les événements indésirables graves.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Intégrer la notion d'utilisabilité des dispositifs complexes tout au long de leur cycle de vie (conception → utilisation en unité de soins), pour réduire les événements indésirables graves.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Se protéger d'une interruption de tâche, en particulier lors des étapes les plus vulnérables de la résolution de crise — sauf si l'interruption permet de rattraper une erreur en cours (cf R3.5-3.6).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas interrompre les étapes aboutissant à l'administration d'une thérapeutique en situation critique, pour réduire les événements indésirables graves.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Porter, en amont d'une crise attendue ou anticipable, une attention particulière aux sources d'interruption technologiques (alarmes de moniteur, sonneries de téléphone…), pour améliorer la sécurité des patients.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prendre en compte le risque de fatigue des professionnels exposés aux situations critiques et mettre en place des stratégies organisationnelles préventives (collectives et individuelles).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adapter la charge de travail aux effectifs présents, la répartir entre les membres de l'équipe et veiller à son adéquation avec les ressources disponibles, pour pouvoir faire face à une potentielle crise.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Maintenir une ambiance de travail adaptée en situation de crise — communication apaisée, niveau sonore optimal — pour améliorer la performance technique et non technique.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Limiter les facteurs responsables d'épuisement professionnel chez les soignants exposés aux situations de crise, pour diminuer le risque d'erreurs et de comportements non professionnels.",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 4 — Formation, Annexe 14 & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 4 — Formation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Assurer aux équipes confrontées aux situations critiques une préparation psychologique à la gestion du stress, pour améliorer leur vécu et leurs performances.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Former les équipes soignantes confrontées aux situations critiques aux facteurs humains, pour améliorer la qualité des soins et la sécurité du patient.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Annexe 14 — Réagir face à un comportement hostile (campagne SFAR/CFAR « 1 Patient 1 Équipe »)",
+     "color": "grey"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Contenu",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1-3. Rester centré",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Rester concentré sur les soins et la situation du patient ; adopter soi-même un ton et une attitude calmes, directs, honnêtes, respectueux et positifs ; intervenir seulement quand l'autre est accessible émotionnellement (attendre que l'émotion redescende).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4-8. Désamorcer",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Apaiser la tension en communiquant une intention positive ; écouter sans juger ; reformuler pour montrer sa compréhension ; demander confirmation de la bonne compréhension ; encourager la recherche d'un compromis.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3 attitudes contre-productives",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Éviter ou fuir ; se montrer agressif en retour ; répondre de façon sarcastique.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Méthode DESC (exprimer un désaccord)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "<b>D</b>écrire les faits/la situation (sans « tu »/« vous ») ; <b>E</b>xprimer une opinion/un ressenti sur les faits (« je ») ; <b>S</b>olutions — besoins centrés sur le patient, demande claire ouvrant à la négociation ; <b>C</b>onséquences positives de la solution pour les deux parties.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthode :</b> comité de 19 experts SFAR/FHS, méthode GRADE prévue en amont (format PICO) mais non applicable en totalité faute d'essais randomisés sur le sujet — 21 recommandations formulées comme avis d'experts après 2 tours de vote, accord fort pour 100 % d'entre elles. Ces RPP se substituent aux recommandations précédentes de la SFAR et/ou du groupe FHS sur le même champ.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> SFAR, en association avec le Groupe Facteurs Humains en Santé (FHS), « Facteurs humains en situations critiques », RPP, texte validé le 14/05/2022 (SFAR) et le 04/07/2022 (FHS).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/facteurs-humains-en-situations-critiques/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 21 recommandations (4 champs). L'Annexe 14 (fiche pratique de réaction face à un comportement hostile) est reproduite car directement actionnable et non redondante avec le texte des recommandations. Les autres annexes du source (exemples cliniques illustratifs de briefing/débriefing, liens externes vers des mémos HAS/SFAR déjà publiés ailleurs) ne sont pas reproduites. Bibliographie et composition nominative des groupes de travail non reproduites.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 21 recommandations du texte source, mais condense l'argumentaire de chaque item. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR ni FHS.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

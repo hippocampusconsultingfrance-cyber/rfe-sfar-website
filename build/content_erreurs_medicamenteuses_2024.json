@@ -1,0 +1,840 @@
+{
+ "doc": "erreurs_medicamenteuses_2024",
+ "sections": [
+  {
+   "title": "Champ 1 — Environnement de travail et processus (1/2)",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> RPP SFAR/SFPC (2024) — 29 recommandations (toutes avis d'experts, accord fort) et 2 absences de recommandation, sur 4 champs : environnement de travail et processus, facteurs humains et organisationnels, gestion des risques a posteriori, problématique des pénuries médicamenteuses. Complémentaire de la fiche déjà git-trackée <i>erreurs_medicamenteuses_ar_2016</i> (préconisation SFAR/SFPC antérieure, sur le même sujet).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "chip",
+        "label": "ABS"
+       },
+       {
+        "t": "p",
+        "html": "<b>AE</b> = avis d'experts — format RPP choisi en amont (pas RFE) faute d'un nombre suffisant d'études permettant une cotation GRADE numérique : les 29 recommandations sont TOUTES des avis d'experts, à accord fort pour 100 % d'entre elles (décompte source vérifié exact). <b>ABS</b> = absence de recommandation (données insuffisantes, aucune proposition faite).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Environnement de travail et processus (1/2)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Prescription</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Standardiser et utiliser des protocoles de prescription des médicaments (dilution, solvant, durée, vitesse, voie d'administration), pour réduire la survenue d'erreurs médicamenteuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un logiciel de prescription en soins critiques, pour diminuer les erreurs médicamenteuses et les effets indésirables évitables.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Implémenter en soins critiques des outils informatiques d'aide à la prescription, pour réduire les erreurs médicamenteuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adapter les logiciels de prescription et outils d'aide à la population des services de soins critiques (adultes, enfants, nouveau-nés), les paramétrer avant déploiement (soignants + pharmaciens cliniciens) et les actualiser en continu, pour réduire les erreurs médicamenteuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>ABS — Absence de recommandation</b> (données insuffisantes) : informatisation de la prescription en anesthésie (distincte de R1.2.1-1.2.3, spécifiques aux soins critiques).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser un bilan médicamenteux et une conciliation médicamenteuse en anesthésie et soins critiques, pour réduire les erreurs médicamenteuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Préparation</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Standardiser la préparation des médicaments avec des protocoles (dilution, solvant, durée, vitesse, voie d'administration), pour réduire les erreurs médicamenteuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Proscrire la coexistence de différentes concentrations d'un même médicament dans le plateau de médicaments, pour éviter les erreurs d'administration.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champ 1 — Environnement de travail et processus (2/2)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 1 — Environnement de travail et processus (2/2)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Administration</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Standardiser l'administration des médicaments, utiliser des protocoles (durée, vitesse, voie) et le double contrôle, pour réduire les erreurs médicamenteuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors de l'IV directe, choisir des dispositifs médicaux adaptés (pousse-seringue électrique) à l'administration des médicaments injectables et former les professionnels à leur usage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Étiquetage</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser les codes couleurs internationaux pour l'étiquetage des seringues, poches et voies d'administration.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.6.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sur l'étiquette des poches de perfusion/PCA/PCEA, mentionner : nom du médicament (DCI), quantité/concentration, date-heure et auteur de la préparation, date-heure de pose, identité du patient (code barre).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Apposer sur les voies d'administration (parties proximale et distale) des étiquettes de couleur à bordure spécifique, mentionnant explicitement la voie d'administration.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Conditionnement, dispositifs et connectique</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.7.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Choisir des ampoules/flacons à étiquetage conforme aux recommandations ANSM (typographie, mentions, code couleur ISO 26825-2020 par classe pharmacologique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.7.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Limiter au strict nécessaire le nombre de médicaments différents disponibles ; éviter deux concentrations différentes ou des conditionnements similaires (forme, couleur, dénomination) pour un même médicament.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser des seringues préremplies (SPR) plutôt que des seringues traditionnelles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser des normes de connectique par type de voie d'administration.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un système de traçabilité (code barre) aux différentes étapes du circuit du médicament.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>ABS — Absence de recommandation</b> (données insuffisantes) : systèmes data-matrix et RFID (distincts de R1.10, traçabilité par code barre).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>Approvisionnement et stockage</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.11.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Standardiser l'approvisionnement, le rangement et le stockage en soins critiques (armoire à pharmacie, chariot d'urgence).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.11.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Standardiser l'approvisionnement/rangement/stockage en anesthésie avec un système commun à tous les sites (chariots d'ALR, de pédiatrie, d'urgence).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Champs 2-4 — Facteurs humains, risques & pénuries, sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Champ 2 — Facteurs humains et organisationnels",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lutter contre les interruptions de tâches et les distractions.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Restreindre les communications non essentielles lors de la préparation et de l'administration de médicaments.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser au sein de chaque équipe un audit standardisé visant à limiter les interruptions de tâches spécifiques à l'équipe et à l'organisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la lecture attentive, la double lecture, la concordance, une communication sécurisée et une organisation du processus lors de la préparation et de l'administration.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la formation par tout type de simulation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Intégrer des pharmaciens cliniciens formés spécifiquement dans les services d'anesthésie et de soins critiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Gestion des risques a posteriori",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Déclarer et analyser a posteriori les erreurs médicamenteuses.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place des REX (Retour d'EXpérience).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 4 — Problématique des pénuries médicamenteuses",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts (accord fort)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Anticiper le plus possible les changements de médicaments (marché ou rupture), en partenariat avec les pharmaciens cliniciens.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Inclure des mesures de gestion des pénuries de produits de santé dans les plans de gestion des risques des établissements.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthode :</b> groupe d'experts SFAR/SFPC, recherche bibliographique 2004-2024 (PRISMA), format PICO. Format RPP choisi en amont faute de données suffisantes pour une cotation GRADE numérique — 29 recommandations formulées comme avis d'experts, votées par méthode GRADE grid, accord fort obtenu pour la totalité après un tour de vote et quelques ajustements.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> SFAR, en collaboration avec la Société Française de Pharmacie Clinique (SFPC), « Prévention des erreurs médicamenteuses en anesthésie-réanimation », RPP, texte validé par le Comité des Référentiels Cliniques de la SFAR le 30 avril 2024.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/prevention-des-erreurs-medicamenteuses-en-anesthesie-reanimation/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 29 recommandations et des 2 absences de recommandation (4 champs). Aucune annexe dans le document source. Bibliographie et composition nominative du groupe d'experts non reproduites.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 29 recommandations et les 2 absences de recommandation du texte source, mais condense l'argumentaire de chaque item. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR ni la SFPC.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

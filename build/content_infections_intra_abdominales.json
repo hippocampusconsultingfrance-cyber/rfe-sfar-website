@@ -1,0 +1,1194 @@
+{
+ "doc": "infections_intra_abdominales",
+ "sections": [
+  {
+   "title": "Méthodologie, définitions & IIA communautaires",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> actualisation 2015 (SFAR/SRLF/SPILF/AFC/SFCD) de la Conférence de consensus SFAR de 2000 sur les péritonites communautaires, étendue aux infections intra-abdominales (IIA) pédiatriques et associées aux soins. Champ : péritonites nécessitant une prise en charge chirurgicale — <b>hors champ</b> : infections primaires des cirrhoses, infections focalisées isolées (biliaires, abcès hépatiques isolés, sigmoïdites). Règles de bon sens rappelées par les experts : éradication systématique et en urgence de la source infectieuse ; ne jamais différer l'antibiothérapie pour les prélèvements ; ne jamais prélever sur redons/drains (résultats ininterprétables) ; le spectre antibiotique doit toujours couvrir les anaérobies. <b>44 recommandations, toutes Accord fort.</b>",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Définition d'une péritonite grave",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Détail",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Définition",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Forme grave de péritonite = ≥ 2 des manifestations suivantes (en l'absence d'autre cause) :",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Critères (≥ 2 requis)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hypotension rapportée au sepsis ; lactacidémie au-dessus des valeurs normales du laboratoire ; diurèse &lt; 0,5 mL/kg/h pendant &gt; 2 h malgré un remplissage adapté ; ratio PaO<sub>2</sub>/FiO<sub>2</sub> &lt; 250 mmHg en l'absence de pneumopathie ; créatininémie &gt; 2 mg/dL (176,8 µmol/L) ; bilirubinémie &gt; 2 mg/dL (34,2 µmol/L) ; thrombopénie &lt; 100 000/mm³.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Correction d'unité :</i> le texte source imprime « 176,8 mmol/L » et « 34,2 mmol/L » pour ces deux seuils — dimensionnellement incohérent avec 2 mg/dL (probable artefact d'extraction du symbole µ, absent de tout le document source extrait) ; corrigé ici en µmol/L, seule unité physiologiquement plausible pour ces valeurs.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Méthodologie — GRADE",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "GRADE standard : qualité des preuves en 4 catégories (Haute/Modérée/Basse/Très basse), force binaire — forte (GRADE 1+/1−) ou faible (GRADE 2+/2−) — déterminée par vote Delphi. 40 experts répartis en 6 groupes de travail ; publications retenues postérieures à 1999 (extension à 1990 si besoin). <b>62 recommandations initialement formalisées</b> → soumises à un groupe de relecture de 38 médecins → après 2 tours de cotation Delphi et amendements, 18 ont été abandonnées ou reformulées → <b>44 recommandations finales</b>, toutes à Accord fort.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<i>Disclosure :</i> le texte source affirme que parmi les 44 recommandations, « 10 sont fortes (Grade 1), 25 sont faibles (Grade 2) et... 9... avis d'experts ». Un comptage direct des tags individuels de ce document donne 11 Grade 1 (7×1+, 4×1−), 24 Grade 2 et 9 avis d'experts (11+24+9=44) — le total et le compte « avis d'experts » concordent, mais la répartition forte/faible annoncée par la source (10/25) diffère du tally direct (11/24). Disclosure non résolue ici.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>GRADE</b> — 1+/1- : recommandation <b>forte</b> ; 2+/2- : recommandation <b>faible/optionnelle</b> ; <b>AE</b> : avis d'experts (méthode GRADE non applicable). Toutes les 44 recommandations de ce texte sont à <b>Accord fort</b> (vote Delphi, 2 tours).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "IIA communautaires — Diagnostic, contrôle de la source (R1-R8)",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas faire d'imagerie en cas de suspicion de péritonite par perforation d'organe chez un patient grave si celle-ci retarde la procédure chirurgicale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de suspicion de péritonite par perforation d'ulcère gastroduodénal, l'indication opératoire peut être portée sur l'histoire clinique et la présence d'un pneumopéritoine sur un cliché d'abdomen sans préparation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut opérer le plus rapidement possible un patient suspect de péritonite par perforation d'organe, tout particulièrement en cas de choc septique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas utiliser la voie laparoscopique pour l'ulcère peptique perforé en péritonite chez un patient avec plus d'1 des facteurs suivants : choc à l'admission, score ASA III-IV, symptômes &gt; 24 h (score de Boey).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire de voie d'abord laparoscopique en cas de péritonite stercorale d'origine diverticulaire (Hinchey IV) ou de péritonite généralisée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence d'instabilité hémodynamique (&gt; 0,1 mg/kg/min adrénaline/noradrénaline), il faut probablement discuter en pluridisciplinaire le drainage radiologique percutané en 1<sup>re</sup> intention des abcès intra-abdominaux (sans signe de perforation) avec analyse microbiologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut réaliser un contrôle du drainage par TDM en cas d'évolution défavorable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsque le traitement chirurgical a été jugé satisfaisant (contrôle de la source, lavage), il ne faut pas programmer systématiquement de relaparotomies.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères :</b> score de Boey (0-3 pts : choc à l'admission, ASA III-IV, symptômes &gt; 24 h) — laparoscopie sûre si score 0-1, contre-indiquée si score 2-3. Relaparotomie « à la demande » (non systématique) : pas de bénéfice de survie démontré vs relaparotomie programmée, durées de séjour augmentées avec cette dernière.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "IIA communautaires — Microbiologie et antibiothérapie (R9-R24)",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement prélever les liquides péritonéaux pour identification microbienne et sensibilité aux anti-infectieux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients en choc septique et/ou immunodéprimés, il faut réaliser des hémocultures et un examen direct du liquide péritonéal à la recherche de levures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut établir les protocoles de traitement probabiliste sur la base de l'analyse régulière des données microbiologiques nationales/régionales de résistance.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas prendre en compte les E. coli résistants aux C3G sans signe de gravité, sauf résistance locorégionale &gt; 10 % ou séjour en zone à forte prévalence de BMR.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Compte tenu de l'évolution des profils de sensibilité des bactéroïdes, il ne faut pas utiliser la clindamycine et la céfoxitine en probabiliste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de signes de gravité, il ne faut pas initier de traitement probabiliste actif sur les Candidas.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans les péritonites graves (communautaires ou associées aux soins), il faut probablement instaurer un traitement antifongique si ≥ 3 des critères suivants : défaillance hémodynamique, sexe féminin, chirurgie sus-mésocolique, antibiothérapie &gt; 48 h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R16",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas prendre en compte les entérocoques sans signe de gravité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R17",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En 1<sup>re</sup> intention : (1) amoxicilline/ac. clavulanique + gentamicine ; OU (2) céfotaxime/ceftriaxone + imidazolés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R18",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si allergie avérée aux β-lactamines : lévofloxacine + gentamicine + métronidazole, ou à défaut tigécycline.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R19",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'IIA grave, le traitement probabiliste doit être adapté sur les germes suspectés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R20",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Patient grave, IIA communautaire : pipéracilline/tazobactam ± gentamicine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R21",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Patient grave (communautaire ou associée aux soins), si traitement antifongique probabiliste décidé : échinocandine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R22",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après réception des analyses microbiologiques/mycologiques, il faut probablement une désescalade (spectre le plus étroit possible).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R23",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "IIA communautaires localisées : antibiothérapie 2 à 3 jours.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R24",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "IIA communautaires généralisées : antibiothérapie 5 à 7 jours.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "IIA associées aux soins, algorithmes & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Particularités pédiatriques des IIA (R25-R27)",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "Littérature limitée chez l'enfant (peu d'études, souvent observationnelles), raisonnements majoritairement extrapolés des données adulte ; pas de spécificité diagnostique propre à l'enfant (ni radiologique ni biologique).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R25",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez l'enfant, il faut privilégier les examens iconographiques non irradiants.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R26",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez l'enfant, il faut probablement prendre en compte Pseudomonas aeruginosa en cas de facteurs de gravité (défaillance viscérale, comorbidités) ou d'échec thérapeutique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R27",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas prolonger la durée de l'antibiothérapie pédiatrique au-delà de ce qui est recommandé chez l'adulte.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "IIA associées aux soins — Diagnostic postopératoire (R28-R37)",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R28",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de survenue ou d'aggravation d'une dysfonction d'organe dans les jours suivant une chirurgie abdominale, il faut probablement évoquer une IIA.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R29",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "À partir du 4<sup>e</sup>-5<sup>e</sup> jour post-intervention, il faut probablement discuter une reprise chirurgicale si aucune amélioration clinique/biologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R30",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'apparition postopératoire de signes de gravité sans autre cause évidente doit faire discuter une réintervention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R31",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les abcès postopératoires : discuter en collégial le bénéfice-risque du drainage radiologique vs reprise chirurgicale, et probablement proposer une ponction diagnostique première à l'aiguille fine sous contrôle radiologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R32",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de suspicion de péritonite postopératoire chez un patient stable, il faut probablement réaliser une TDM abdominopelvienne avec injection (± opacification digestive à discuter).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R33",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence d'amélioration clinique/biologique à 4-5 j, une TDM non contributive ne permet pas d'éliminer une IIA persistante.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R34",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas utiliser de biomarqueur pour le diagnostic d'IIA persistante.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R35",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ponction diagnostique première à l'aiguille fine sous contrôle radiologique pour les collections des IIA associées aux soins, en cas de doute diagnostique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R36",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut prélever hémocultures et liquides péritonéaux pour identification microbienne/fongique et sensibilité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R37",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement effectuer un examen direct du liquide péritonéal à la recherche de levures.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "IIA associées aux soins — Antibiothérapie (R38-R44)",
+     "color": "red"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R38",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "1<sup>er</sup> épisode d'IIA associée aux soins : risque élevé de bactérie multirésistante si antibiothérapie dans les 3 mois précédents et/ou &gt; 2 jours avant le 1<sup>er</sup> épisode, et/ou délai &gt; 5 j entre 1<sup>re</sup> chirurgie et reprise.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R39",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Patients porteurs connus d'entérobactéries résistantes aux C3G, entérocoques résistants ampicilline/vancomycine, ou SARM : il faut probablement en tenir compte dans le traitement probabiliste.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R40",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Facteurs de risque d'entérocoque résistant à l'ampicilline (pathologie hépatobiliaire, transplanté hépatique, antibiothérapie en cours) : choisir un probabiliste actif (vancomycine, voire tigécycline).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R41",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Traitement antifongique probabiliste si levure à l'examen direct (échinocandines si infection grave) ; traitement systématique si culture positive à levures hors redons/drains (échinocandines si grave ou souches résistantes au fluconazole).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R42",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "1<sup>er</sup> épisode, sans facteur de risque de BMR : pipéracilline/tazobactam + amikacine (optionnelle si non grave). ≥ 2 des 6 critères de BMR (ou 1 seul si choc septique) : carbapénème large spectre (imipénème/méropénème/doripénème) + amikacine (optionnelle si non grave — même règle que pour le 1<sup>er</sup> schéma). <i>6 critères BMR : traitement antérieur par céphalosporine de 3<sup>e</sup> gén. ou fluoroquinolone (dont monodose) &lt; 3 mois ; portage BLSE ou P. aeruginosa résistant ceftazidime &lt; 3 mois ; hospitalisation à l'étranger &lt; 12 mois ; EHPAD médicalisé + sonde/gastrotomie ; échec d'un traitement par céphalosporine 3<sup>e</sup> gén., fluoroquinolone ou pipéracilline-tazobactam à large spectre ; récidive &lt; 15 j d'infection traitée par pipéracilline-tazobactam ≥ 3 j.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R43",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Allergie aux β-lactamines : (1) ciprofloxacine + amikacine + métronidazole + vancomycine ; ou (2) aztréonam + amikacine + vancomycine + métronidazole ; ou (3) à défaut, tigécycline + ciprofloxacine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R44",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "IIA nosocomiales/postopératoires : antibiothérapie 5 à 15 jours.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Algorithmes (Figures 1-3) — retranscrits depuis rendu visuel",
+     "color": "red"
+    },
+    {
+     "t": "p",
+     "html": "Les 3 algorithmes du texte source (pages 97-99) sont de purs schémas boîtes/flèches sans couche texte exploitable — retranscrits ci-dessous après rendu visuel direct à 170dpi. Ils résument visuellement les recommandations R1-R44 déjà couvertes ci-dessus, sans contenu clinique nouveau.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Figure 1 — Prise en charge d'une péritonite communautaire</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Étape",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Péritonite communautaire → signes de gravité ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "(critères définis dans le préambule, cf. Définition d'une péritonite grave, page 1)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Oui",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "→ Chirurgie (laparoscopie ou laparotomie)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Non",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "→ Scanner abdominal → drainage radiologique de l'abcès, ou chirurgie si besoin",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Figure 2 — Traitement anti-infectieux probabiliste, péritonite communautaire</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Question",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Allergie aux β-lactamines ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui → lévofloxacine + métronidazole + gentamicine, OU tigécycline. Non → étape suivante.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Signes de gravité ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui → pipéracilline-tazobactam + gentamicine. Non → amoxicilline-ac. clavulanique + gentamicine, OU céfotaxime/ceftriaxone + métronidazole.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement antifongique ? (critères R15)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui → échinocandine (caspofungine, micafungine ou anidulafungine). Non → pas de traitement antifongique.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Figure 3 — Traitement anti-infectieux probabiliste, péritonite associée aux soins</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Question",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Allergie aux β-lactamines ?",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui → ciprofloxacine + métronidazole + amikacine + vancomycine, OU aztréonam + métronidazole + amikacine + vancomycine, OU tigécycline + ciprofloxacine. Non → étape suivante.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Facteurs de risque de BMR ? (critères R42)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui → imipénème ou méropénème ± amikacine ± vancomycine. Non → pipéracilline-tazobactam + amikacine ± vancomycine.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement antifongique ? (critères R15/R41)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui → échinocandine (caspofungine, micafungine ou anidulafungine). Non → pas de traitement antifongique.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Déclaration d'intérêts, sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Prise en charge des infections intra-abdominales » — RFE conjointe SFAR/SRLF/SPILF/AFC/SFCD. Coordinateurs : P. Montravers, H. Dupont, M. Leone, J-M. Constantin, P-M. Mertes (Sfar/SRLF), P-F. Laterre, B. Misset (SRLF), J-P. Bru, R. Gauzit, A. Sotto (SPILF), C. Brigand, A. Hamy (AFC), J-J. Tuech (SFCD). Actualisation de la Conférence de consensus Sfar de 2000. 40 experts, 6 groupes de travail ; groupe de relecture de 38 médecins.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> Ann Fr Anesth Réanim, tome 1, n°1, février 2015.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (qualité des preuves 1-4, force 1+/1-/2+/2-, vote Delphi 2 tours) — voir détail en page 1.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2015/09/2_AFAR_Prise-en-charge-des-infections-intra-abdominales.pdf",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 44 recommandations finales sur les 6 thèmes de la source — communautaire (24), pédiatrie (3), associées aux soins (17) — (texte + grade) et des 3 figures/algorithmes (retranscrits depuis rendu visuel). Hors champ, explicitement exclu par la source elle-même : infections primaires des cirrhoses, infections focalisées isolées (biliaires, abcès hépatiques isolés, sigmoïdites). L'argumentaire détaillé (statistiques d'études, références bibliographiques) est volontairement condensé aux seuls seuils/schémas cliniquement actionnables — se référer au texte intégral pour le détail des preuves.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2015 :</b> cette fiche de synthèse indépendante reprend l'intégralité des recommandations et algorithmes du texte source, mais ne remplace pas le texte intégral et n'est ni éditée ni validée par la Sfar, la SRLF, la SPILF, l'AFC ou la SFCD. Les schémas d'antibiothérapie probabiliste et les seuils de résistance bactérienne locorégionale ayant pu évoluer depuis 2015, se référer à un avis spécialisé (infectiologue, microbiologiste) et aux recommandations actualisées avant toute décision thérapeutique.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

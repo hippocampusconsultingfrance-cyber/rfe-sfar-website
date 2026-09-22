@@ -1,0 +1,730 @@
+{
+ "doc": "douleur_reactualisation_2016",
+ "sections": [
+  {
+   "title": "Introduction, méthodologie & légende",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> cette réactualisation 2016 de la SFAR ne remplace PAS la RFE 2008 « Prise en charge de la douleur postopératoire chez l'adulte et l'enfant » (déjà couverte par une fiche distincte de ce corpus) : elle la <b>complète</b> sur des questions non traitées en 2008, ou <b>modifie</b> certaines recommandations 2008 à la lumière de nouvelles données de la littérature. Groupe de 14 experts SFAR, méthode GRADE®. Trois grands champs : évaluation de la DPO chez l'adulte et l'enfant (dont le monitorage de l'analgésie), thérapeutiques médicamenteuses par voies systémique et orale, anesthésie locale et locorégionale postopératoire.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie GRADE® :</b> qualité des preuves en 4 catégories (haute, modérée, basse, très basse) ; formulation finale toujours binaire — <b>forte</b> : il faut/ne faut pas faire (GRADE 1+ ou 1−) ; <b>faible</b> : il faut probablement/probablement pas faire (GRADE 2+ ou 2−). Vote Delphi/GRADE Grid : accord fort si ≥ 70 % des participants d'accord. Quand aucune méta-analyse ne permettait d'appliquer GRADE en totalité, un <b>avis d'experts</b> était proposé, validé si ≥ 70 % d'accord. <b>17 recommandations formalisées</b> au total ; accord fort obtenu pour 14 d'entre elles (accord faible pour 3, signalé en italique inline).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>⚠ Divergence source-interne disclosée</b> (non résolue silencieusement) : l'introduction de la source annonce elle-même « 11 [recommandations] fortes, 3 [...] faibles et, pour 3 recommandations, [...] un avis d'experts » (11+3+3 = 17). Le recompte exhaustif, tag par tag, des 17 recommandations imprimées individuellement (R1.1-R1.5, R3.1-R3.9, R4.1-R4.3 — aucun R2.x n'existe, voir note ci-dessous) donne <b>10× GRADE 1+/1− (fortes), 4× GRADE 2+/2− (faibles) et 3× avis d'experts</b> (10+4+3 = 17 également, mais 10 fortes et non 11). Aucun grade individuel n'a été deviné ou réassigné pour faire correspondre les deux comptages ; les 17 tags imprimés individuellement font foi dans cette fiche.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation formalisée — question du monitorage :</b> la question « quelles méthodes permettent de monitorer l'analgésie au bloc opératoire et en postopératoire immédiat ? » n'a abouti à AUCUNE recommandation formalisée (pupillométrie, index de nociception ANI, surgical pleth index SPI : évaluation correcte de la balance analgésie-nociception sous anesthésie générale, mais aucune preuve que ce monitorage réduise la douleur ou la consommation d'antalgiques postopératoires) — disclosure explicite de la source elle-même (« Absence de recommandation », imprimé tel quel), reproduite ici plutôt que silencieusement omise. C'est pourquoi la numérotation des recommandations passe directement de R1.5 à R3.1 : la question 2 (monitorage) ne porte aucun numéro Rx.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Légende des grades",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "p",
+        "html": "Il ne faut probablement pas faire",
+        "style": "badge_head"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "Avis d'experts",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "1 — Évaluation de la douleur en périopératoire",
+   "items": [
+    {
+     "t": "section",
+     "text": "1 — Évaluation de la douleur en périopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Quand et pourquoi évaluer ? Bénéfice sur les conséquences postopératoires/chronicisation</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "L'identification des patients vulnérables implique un suivi attentif avec une stratégie thérapeutique multimodale, comportant si possible une analgésie locorégionale et l'administration d'agents antihyperalgésiques. Facteurs chirurgicaux de risque de douleur chronique post-chirurgicale (DCPC) : type de chirurgie (thoracotomie, chirurgie mammaire, sternotomie, prélèvement de crête iliaque), reprises chirurgicales, douleurs préopératoires préexistantes, durée de chirurgie > 3 h. Facteurs psychologiques : anxiété, stress, dépression, catastrophisme — l'échelle APAIS (Amsterdam Preoperative Anxiety and Information Scale) permettrait de prédire la transition de la DPO aiguë à chronique. Une douleur neuropathique précoce devra être accompagnée d'un traitement adapté ; le résultat d'un dépistage positif devra être communiqué au patient, au chirurgien et au médecin traitant.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En période préopératoire, il est recommandé d'identifier les patients les plus vulnérables à la douleur (à risque de développer une douleur postopératoire sévère et/ou une DCPC), en recherchant la présence d'une douleur préopératoire y compris en dehors du site opératoire, la consommation d'opiacés au long court, des facteurs chirurgicaux et psychiques tels que l'anxiété ou la dépression. <i>Avis d'experts, accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'utiliser l'échelle Amsterdam Preoperative Anxiety and Information Scale (APAIS) pour rechercher une anxiété et/ou un besoin d'information en période préopératoire. <i>Avis d'experts, accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'identifier les facteurs de risques postopératoires de chronicisation de la DPO en recherchant une intensité élevée de la DPO à l'aide d'une échelle numérique (EN), une prolongation inhabituelle de la DPO, une douleur neuropathique précoce (échelle DN4), des signes d'anxiété et/ou de dépression. <i>Avis d'experts, accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Échelles de douleur chez l'enfant de moins de 7 ans et chez le patient non communicant</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Nouveau-nés : échelles EDIN, DAN, NFCS utilisables mais non validées en postopératoire ; FLACC utilisable à partir de 2 mois ; EVENDOL validée uniquement en préhospitalier/urgences ; l'EVA doit être présentée verticalement à l'enfant. Patient non communicant : FLACC modifiée-handicap (naissance à 18 ans, 5 items comportementaux) ; ALGOPLUS (score ≥ 2/5 : sensibilité 87 %, spécificité 80 %).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser une échelle d'autoévaluation à partir de l'âge de 5 ans (échelle des visages). À défaut, il est recommandé d'utiliser l'échelle FLACC pour l'hétéroévaluation de la douleur postopératoire chez l'enfant de moins de 7 ans. <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient non communiquant, il est probablement recommandé d'utiliser une échelle d'hétéroévaluation FLACC modifiée-handicap chez l'enfant et ALGOPLUS chez le vieillard. <i>(accord faible — tag imprimé « 1+ » par la source malgré la formulation « probablement recommandé », reproduit tel quel, non corrigé en 2+.)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Surveillance des patients sous opioïdes en structure de soins conventionnels</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Les modalités de surveillance (voie SC, ACP, péridurale) restent celles des conférences de consensus 1997/1999, non modifiées. Terrains à risque identifiés depuis : âge > 70 ans, naïveté aux opiacés, obésité morbide (IMC > 35), maladie respiratoire, SAOS, insuffisance hépatique/rénale, douleur intense cessant subitement, association à des dépresseurs du SNC (benzodiazépines, barbituriques, antidépresseurs, antiémétiques, antihistaminiques), alcool/drogues illicites, troubles neuromusculaires, voie périmédullaire. Une surveillance clinique plus fréquente et/ou un monitorage non invasif (saturométrie, capnographie en SSPI) sont probablement suggérés chez ces patients à risque — <b>aucune recommandation formalisée nouvelle</b> sur ce point (rappels méthodologiques uniquement).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Monitorage de l'analgésie au bloc opératoire et en postopératoire immédiat</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Pupillométrie, index de nociception (ANI), surgical pleth index (SPI) : évaluation correcte de la balance analgésie-nociception sous anesthésie générale, mais pas de preuve qu'un tel monitorage réduise la douleur postopératoire ou la consommation d'antalgiques. Chez le patient éveillé, corrélation partielle avec les scores d'auto/hétéroévaluation, sans preuve de supériorité en postopératoire immédiat ; aucune étude chez le patient « non communicant ».",
+     "style": "body_sm"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation formalisée</b> — imprimé tel quel par la source (x2) pour cette question.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "2 — Thérapeutiques médicamenteuses systémique/orale",
+   "items": [
+    {
+     "t": "section",
+     "text": "2 — Thérapeutiques médicamenteuses par voies systémique et orale",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>AINS sélectifs (ISCOX2) et non sélectifs (AINS-NS)</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Associés à la morphine : amélioration des scores de douleur, épargne morphinique significative, réduction des NVPO et de la durée de l'iléus (niveau de preuve élevé, 15 études dont 2 méta-analyses pour les AINS-NS, 25 études dont 1 méta-analyse pour les ISCOX2). Risque rénal : contre-indiqués si clairance créatinine < 50 mL/min. Risque thrombotique : bien démontré pour les ISCOX2 ; pour les AINS-NS, 2 études rétrospectives (10 873 et 1309 patients) sans risque cardiovasculaire surajouté retrouvé. Risque hémorragique : les AINS utilisés en France (kétoprofène, ibuprofène) n'augmentent pas le risque hémorragique postopératoire, y compris après amygdalectomie ; vigilance chez les patients sous anticoagulants (étude sur 8000 patients : risque de saignement x2,5 si AINS + anticoagulant curatif).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'associer un AINS non sélectif (AINS-NS) ou un inhibiteur sélectif des cyclo-oxygénases de type 2 (ISCOX2) à la morphine en l'absence de contre-indication à l'usage de l'AINS. <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé d'utiliser un inhibiteur des cyclo-oxygénases de type 2 (ISCOX2) chez les patients ayant des antécédents athéro-thrombotiques artériels (AOMI, AVC, IDM). <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les AINS-NS ne sont probablement pas recommandés chez les patients ayant des antécédents athéro-thrombotiques artériels (AOMI, AVC, IDM) au-delà de 7 jours de traitement. <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé d'associer des AINS-NS à un traitement anticoagulant à dose curative. <i>(accord faible)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Oxycodone, opiacés forts, lidocaïne IV, corticoïdes</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Oxycodone : efficacité clinique équivalente à la morphine (ratio 1/1 en IV, 1/2 par voie orale — 5 mg oxycodone = 10 mg sulfate de morphine). Lidocaïne IV : propriétés analgésiques, antihyperalgésiques et anti-inflammatoires ; dose 1-2 mg/kg en bolus puis 1-2 mg/kg/h en continu. Dexaméthasone : corticoïde le plus étudié en prémédication, dose recommandée 8 mg chez l'adulte (0,15 mg/kg chez l'enfant).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de prescrire un opiacé fort (morphine ou oxycodone), préférentiellement par voie orale, en cas de douleurs postopératoires sévères ou insuffisamment calmées par les antalgiques des paliers inférieurs, et ceci quel que soit l'âge. <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer de la lidocaïne en intraveineux et en continu à la dose d'1 à 2 mg/kg en bolus intraveineux suivi de 1 à 2 mg/kg/h, chez les patients adultes opérés d'une chirurgie majeure (abdomino-pelvienne, rachidienne) et ne bénéficiant pas d'une analgésie périnerveuse ou péridurale concomitante, dans le but de diminuer la douleur postopératoire et d'améliorer la réhabilitation. <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer la dexaméthasone IV à la dose de 8 mg pour diminuer la douleur postopératoire. <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Kétamine, magnésium, gabapentinoïdes</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Kétamine à faible dose (0,5 mg/kg max après induction, entretien 0,125-0,25 mg/kg/h, arrêt 30 min avant la fin de la chirurgie) : réduit l'intensité de la douleur aiguë sur 24h, la consommation de morphine (~15 mg/24h) et les NVPO (niveau de preuve modéré) ; réduit l'incidence de la DCPC à 3 mois de 30 % (niveau de preuve bas). Prolongation postopératoire : accroît le risque d'hallucinations sans bénéfice analgésique majoré. Magnésium : non recommandé (niveau de preuve insuffisant). Gabapentine/prégabaline en prémédication : réduisent douleur/consommation morphinique/NVPO sur 24h, mais aucun effet sur la DCPC (niveau de preuve élevé), risque de sédation/vertiges/troubles visuels ; bénéfice net surtout en chirurgie lourde pronociceptive (arthroplasties, rachis, amputations).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En peropératoire, l'administration de faible dose de kétamine chez un patient sous anesthésie générale est recommandée dans les deux situations suivantes : (a) chirurgie à risque de douleur aiguë intense ou pourvoyeuse de DCPC ; (b) patients vulnérables à la douleur, en particulier sous opioïdes au long cours ou présentant une toxicomanie aux opiacés. <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'utilisation systématique des gabapentinoïdes en périopératoire n'est pas recommandée pour la prise en charge de la DPO. <i>(accord faible)</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "3 — ALR postopératoire & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "3 — Anesthésie locale et locorégionale postopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Cathétérisme périnerveux, péridural et paravertébral</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "Intérêt confirmé d'un cathéter périnerveux en cas de risque de douleur postopératoire modérée à sévère, notamment chirurgie prothétique de l'épaule (interscalénique) et du genou (fémoral) : efficacité analgésique prolongée, épargne opioïde, réduction des NVPO, amélioration du sommeil et de la satisfaction — mais aucune preuve d'effet sur la chronicisation de la douleur. Risque de mobilisation du cathéter (5-25 %). Cathéter fémoral : bloc moteur pouvant favoriser les chutes et gêner la réhabilitation précoce après prothèse de genou. Cathéter interscalénique : parésie diaphragmatique à prendre en compte en cas de pathologie respiratoire. <b>Aucune recommandation formalisée nouvelle</b> sur ce point — la source imprime « Absence de recommandation » séparément pour le cathétérisme périnerveux ET pour le cathétérisme péridural/paravertébral (2 mentions distinctes, rappels méthodologiques uniquement).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Cathéter d'infiltration du site opératoire</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "De nombreux protocoles d'infiltration sont proposés comme alternative aux cathéters nerveux périphériques, mais leur efficacité est moindre après la 24<sup>e</sup> heure. Doses maximales d'anesthésiques locaux pour la première injection chez un adulte jeune ASA 1 :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Agent",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Dose maximale (mg/kg)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lidocaïne adrénalinée",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "7",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mépivacaïne",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lévobupivacaïne",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ropivacaïne",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell_c"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation (texte condensé, fidèle à la source)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de rester en deçà des doses maximales toxiques d'anesthésiques locaux, en particulier pour les infiltrations périprothétiques orthopédiques et lors d'association d'infiltrations cicatricielles et de cathéters périnerveux analgésiques. <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de laparotomie (laparotomie, césarienne et lombotomie) et en l'absence d'analgésie périmédullaire, il est probablement recommandé de proposer la mise en place d'un cathéter cicatriciel pour infiltration continue. <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé de réaliser une infiltration analgésique au moyen d'un cathéter intra-articulaire en raison du risque toxique des anesthésiques locaux sur le cartilage (toxicité directe sur les chondrocytes). <i>Accord fort.</i>",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Réactualisation de la recommandation sur la douleur postopératoire » — Recommandations formalisées d'experts, Société française d'anesthésie et de réanimation (SFAR). F. Aubrun, K. Nouette Gaulain, D. Fletcher, A. Belbachir, H. Beloeil, M. Carles, et al. Anesth Reanim. 2016;2:421-430, doi 10.1016/j.anrea.2016.09.006. Texte validé par le conseil d'administration de la Sfar le 17/06/2016, disponible sur Internet le 31 octobre 2016.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE® — 17 recommandations formalisées (R1.1-R1.5, R3.1-R3.9, R4.1-R4.3 ; pas de R2.x, la question du monitorage de l'analgésie n'ayant abouti à aucune recommandation formalisée). Divergence source-interne sur le décompte agrégé forte/faible/avis d'experts — voir disclosure méthodologique en page 1.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> cette fiche reprend l'intégralité des 17 recommandations formalisées et de leurs argumentaires cliniques sur les 3 champs traités (évaluation de la DPO, thérapeutiques médicamenteuses systémique/orale, anesthésie locale et locorégionale postopératoire), y compris le tableau des doses maximales d'anesthésiques locaux. Comité d'organisation, groupe d'experts, groupe de lecture et les 66 références bibliographiques ne sont pas retranscrits (sans contenu clinique actionnable au-delà de ce que l'argumentaire cite déjà).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2016 :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des 17 recommandations du texte source, mais ne remplace pas le texte intégral (argumentaire complet, 66 références bibliographiques) et n'est ni éditée ni validée par la SFAR. Ce texte COMPLÈTE (ne remplace pas) la RFE 2008 sur la douleur postopératoire, déjà couverte séparément dans ce corpus — se référer aux deux fiches pour une vue complète du sujet, et à un avis spécialisé en cas de doute.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

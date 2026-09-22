@@ -198,15 +198,12 @@ def _section_delai():
         ], [16*mm, cw-16*mm-22*mm, 22*mm]),
     ]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("<b>Argumentaire clé :</b> une administration après l'incision est associée à "
-                    "un surrisque d'ISO (méta-analyse De Jonge 2017, OR 1,89 [1,05-3,40]) ; le "
-                    "délai optimal se situe dans les 60 minutes précédant l'incision, sans "
-                    "différence démontrée entre 60-30 min et 30-0 min. Une administration avant "
-                    "l'induction anesthésique facilite l'imputabilité d'une éventuelle réaction "
-                    "allergique. Pour la vancomycine, le délai optimal se situe entre 60 et 30 "
-                    "minutes avant l'incision (un début trop précoce ou trop tardif est associé à "
-                    "un surrisque d'ISO) ; dilution ≤ 5 mg/mL et antihistaminique prophylactique "
-                    "réduisent les effets indésirables liés à la perfusion.", S_NOTE))
+    story.append(P("<b>Précisions :</b> délai optimal dans les 60 minutes précédant l'incision "
+                    "(pas de différence démontrée entre 60-30 min et 30-0 min) ; une "
+                    "administration avant l'induction facilite l'imputabilité d'une éventuelle "
+                    "réaction allergique. Vancomycine : délai optimal 60-30 min avant l'incision "
+                    "; dilution ≤ 5 mg/mL et antihistaminique prophylactique réduisent les effets "
+                    "indésirables liés à la perfusion.", S_NOTE))
     return story
 
 def _section_reinjection():
@@ -257,14 +254,11 @@ def _section_duree():
         ], [16*mm, cw-16*mm-22*mm, 22*mm]),
     ]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("<b>Argumentaire clé :</b> 33 méta-analyses (2000-2022) comparant "
-                    "administration « courte » (peropératoire, ≤ 24 h postopératoires) vs. "
-                    "« prolongée » (&gt; 24 h à 7 j) ne retrouvent, à de rares exceptions près "
-                    "(chirurgie cardiaque, chirurgie orthognatique — données anciennes ou "
-                    "contradictoires), aucune supériorité d'une administration prolongée. Quand "
-                    "une prolongation pourrait exceptionnellement se discuter (à ne pas confondre "
-                    "avec une antibiothérapie préemptive ou probabiliste), aucun argument ne "
-                    "justifie de dépasser 48 heures postopératoires.", S_NOTE))
+    story.append(P("<b>Précisions :</b> à de rares exceptions (chirurgie cardiaque, chirurgie "
+                    "orthognatique — données anciennes/contradictoires), aucune supériorité "
+                    "démontrée d'une administration prolongée. Si une prolongation se discute "
+                    "exceptionnellement (à ne pas confondre avec une antibiothérapie préemptive "
+                    "ou probabiliste), ne pas dépasser 48 heures postopératoires.", S_NOTE))
     return story
 
 def _section_obese():
@@ -337,18 +331,14 @@ def _section_eblse():
         ], [16*mm, cw-16*mm-22*mm, 22*mm]),
     ]))
     story.append(Spacer(1, 2*mm))
-    story.append(P("<b>Argumentaire clé :</b> la colonisation à E-BLSE multiplie par ~1,6 le "
-                    "risque d'ISO toutes bactéries confondues, et par ~7 le risque d'ISO à E-BLSE "
-                    "(méta-analyse Righi et al.). Chez les porteurs, une antibioprophylaxie "
-                    "ciblée (ertapénème 2 g IV lent en dose unique, ou alternative efficace sur "
-                    "la souche — céfoxitine, amoxicilline/clavulanate, pipéracilline/tazobactam) "
-                    "réduit l'incidence d'ISO par rapport à une antibioprophylaxie standard "
-                    "(étude Nutman : NNT = 13). Dans un objectif d'épargne des carbapénèmes, "
+    story.append(P("<b>Précisions :</b> chez les porteurs d'E-BLSE, antibioprophylaxie ciblée : "
+                    "ertapénème 2 g IV lent en dose unique, ou alternative efficace sur la "
+                    "souche (céfoxitine, amoxicilline/clavulanate, pipéracilline/tazobactam) — "
                     "l'administration systématique de carbapénème n'est <b>pas</b> synonyme "
-                    "d'antibioprophylaxie ciblée : plusieurs alternatives actives sur certaines "
-                    "souches d'E-BLSE existent. Seuil de 10 % retenu par analogie avec la "
-                    "définition OMS d'une colonisation « élevée », en l'absence de seuil "
-                    "prospectivement validé.", S_NOTE))
+                    "d'antibioprophylaxie ciblée, plusieurs alternatives existent. Seuil de "
+                    "portage retenu : 10 % (par analogie avec la définition OMS d'une "
+                    "colonisation « élevée », en l'absence de seuil prospectivement validé).",
+                    S_NOTE))
     return story
 
 def _section_sources():
@@ -451,12 +441,13 @@ def _build_upto(section_fns):
 def _count_pages(story_flowables):
     # Throwaway temp path (never OUT) for measurement-only builds — reusing OUT here was
     # found (in an earlier fiche) to silently corrupt page 1's header_band in the final PDF.
-    import pypdf, tempfile
+    # NOTE: pypdf/cryptography is broken in this container (pyo3 panic on
+    # import) - use PyMuPDF (fitz) instead.
+    import fitz, tempfile
     tmp_path = tempfile.mktemp(suffix=".pdf")
     doc = _make_doc(tmp_path)
     doc.build(story_flowables, onFirstPage=_silent_page, onLaterPages=_silent_page)
-    with open(tmp_path, "rb") as f:
-        n = len(pypdf.PdfReader(f).pages)
+    n = fitz.open(tmp_path).page_count
     os.remove(tmp_path)
     return n
 

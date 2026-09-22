@@ -1,0 +1,203 @@
+{
+ "doc": "tabagisme",
+ "sections": [
+  {
+   "title": "Méthodologie, recommandations 1 à 4, Question 5 & sources",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> actualisation 2016 (SFAR, avec SFT/CNCT/SOFCOT/CNP Chirurgie Plastique/CNP Chirurgie Thoracique et Cardio-vasculaire) de la conférence d'experts OFT/SFAR/AFC de 2005 — volontairement réduite à un nombre limité de recommandations simples et applicables. En France, ~30 % des 11 millions de patients opérés chaque année sous anesthésie sont fumeurs. Le tabagisme actif augmente d'environ 20 % la mortalité hospitalière et de 40 % les complications majeures postopératoires. La période préopératoire est identifiée comme un « teachable moment » particulièrement favorable au sevrage. <b>4 recommandations au total, toutes Grade 1+ (forte positive), Accord fort.</b>",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Méthodologie — GRADE",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Méthode GRADE standard : qualité des preuves en 4 catégories (Haute/Modérée/Basse/Très basse), force de recommandation binaire — <b>forte</b> (GRADE 1+/1−, « il est recommandé de faire/ne pas faire ») ou <b>faible</b> (GRADE 2+/2−, « il est probablement recommandé »). Pour valider une recommandation par vote GRADE Grid : ≥ 50 % des experts favorables et &lt; 20 % contraires. Recherche bibliographique Medline/Cochrane sur 10 ans (sauf question 4), privilégiant méta-analyses, revues systématiques et grandes cohortes. Population : adulte et enfant étudiés séparément (chez l'enfant, seule l'éviction tabagique est étudiée).",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Les 4 recommandations (Questions 1 à 4)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Offrir une prise en charge comportementale et la prescription d'une substitution nicotinique pour l'arrêt du tabac avant toute intervention chirurgicale programmée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Recommander systématiquement l'arrêt préopératoire du tabac, indépendamment de la date d'intervention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tous les professionnels du parcours de soins (chirurgiens, anesthésistes-réanimateurs, soignants) doivent informer les fumeurs des effets positifs de l'arrêt du tabac et leur proposer une prise en charge dédiée et un suivi personnalisé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Recommander l'arrêt du tabagisme parental ou l'éviction de l'enfant de tout environnement tabagique, le plus en amont possible de l'intervention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>R1 :</b> une intervention comportementale intensive (consultation dédiée, suivi 4 semaines, substituts nicotiniques) multiplie par 10 le taux de sevrage préopératoire et réduit les complications de 60 % vs absence d'intervention ; les substituts nicotiniques n'augmentent pas la douleur postopératoire ni la consommation d'opiacés.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>R2 — seuils de délai (donnée la plus actionnable de la RFE) :</b> arrêt &gt; 8 semaines avant l'intervention → environ −50 % de complications respiratoires vs fumeur actif ; arrêt &gt; 4 semaines → environ −25 % ; arrêt entre 2 et 4 semaines → pas de réduction démontrée des complications respiratoires ; <b>aucun effet délétère respiratoire démontré pour un arrêt &lt; 2 semaines</b> avant la chirurgie. Bénéfice sur la cicatrisation démontré après 3-4 semaines d'arrêt. Le bénéfice augmente proportionnellement à la durée du sevrage, quel que soit le délai par rapport à l'intervention.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>R3 :</b> un conseil bref (&lt; 20 min, ≤ 1 visite de suivi) augmente l'abstinence à 6 mois de 60 % ; un conseil intensif (&gt; 20 min, &gt; 1 visite, brochure) l'augmente de plus de 80 % — le conseil intensif est supérieur au conseil bref en comparaison directe.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>R4 :</b> le tabagisme passif chez l'enfant multiplie par 2 le risque d'effets indésirables périopératoires lors d'une anesthésie générale (toux, laryngospasme, bronchospasme, désaturation). Aucune étude n'a établi le délai nécessaire entre l'arrêt du tabac parental et la réduction du risque chez l'enfant.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Question 5 — Cigarette électronique : aucune recommandation possible",
+     "color": "amber"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>PICO :</b> quelles sont les conséquences et la place de la cigarette électronique en période périopératoire ? <b>Aucune recommandation n'a pu être formulée</b> — disclosure intégrale, per la règle GRADE Grid elle-même (≥ 50 % d'avis favorables et &lt; 20 % contraires requis) : deux propositions ont été soumises au vote des experts — (1) s'abstenir de toute recommandation (balance jugée incertaine), et (2) suggérer de ne pas décourager l'usage chez les patients l'utilisant déjà pour leur sevrage ou refusant les autres substituts (grade faible proposé). Le vote a montré une <b>grande dispersion des avis</b> sur la proposition (1) et des <b>avis très divergents</b> sur la proposition (2) — ni l'une ni l'autre n'a atteint le seuil de consensus requis par la méthode GRADE.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "p",
+     "html": "Éléments de contexte cités par la source (non recommandationnels) : un essai randomisé (hors contexte chirurgical) montre que la cigarette électronique multiplie par 2 le taux d'arrêt du tabac vs absence d'intervention, sans différence démontrée vs substituts nicotiniques (preuve de qualité basse). La HAS (2015) jugeait alors les données insuffisantes pour la recommander dans le sevrage tabagique. Le Haut Conseil de la Santé Publique (26/02/2016) estimait qu'elle peut être une aide au sevrage tout en pouvant constituer une porte d'entrée dans le tabagisme et un risque de renormalisation de sa consommation.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Déclaration d'intérêts, sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Déclaration d'intérêts :</b> tous les experts (H. Bouaziz, B. Chaput, B. Dureuil, B. Le Maître, Y. Martinet, AC. Masquelet, S. Pierre, C. Rivera, AM. Ruppert, J. Saboye, A. Sautet, JJ. Tournier, N. Wirth) déclarent n'avoir aucun conflit d'intérêt en lien direct avec le sujet.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Recommandations sur la prise en charge du tabagisme en période péri opératoire » (Guidelines on preoperative smoking cessation) — RFE SFAR. Coordinateurs d'experts : B. Dureuil, S. Pierre. Comité d'organisation : S. Pierre. Élaborée avec la Société Française de Tabacologie (SFT), le Comité National Contre le Tabagisme (CNCT), la SOFCOT, le CNP de Chirurgie Plastique et le CNP de Chirurgie Thoracique et Cardio-vasculaire — actualisation de la conférence d'experts OFT/SFAR/AFC de 2005.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> 2016.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (qualité des preuves 1-4, force 1+/1-/2+/2-, seuil de consensus GRADE Grid) — voir détail en page 1.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2016/08/2-SFAR-RFE-tabac_proposition-CRC.pdf",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 4 recommandations (texte + grade) et de la Question 5 (absence de recommandation, intégralement disclosed avec le détail du vote). Les tableaux GRADE d'évidence statistique détaillée (qualité des preuves par étude et par critère de jugement, ~20 pages du document source) ne sont pas reproduits — se référer au texte intégral pour le détail des preuves scientifiques sous-jacentes.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2016 :</b> cette fiche de synthèse indépendante reprend l'intégralité des recommandations du texte source, mais ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR. Les données sur la cigarette électronique en particulier ayant pu évoluer significativement depuis 2016, se référer à un avis spécialisé et aux recommandations actualisées avant toute décision thérapeutique.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,385 @@
+{
+ "doc": "anesth_pediatrique_structures",
+ "sections": [
+  {
+   "title": "Structures, matériel (respiratoire, vasculaire, monitorage, hypothermie, transport) & sources",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> les dispositions SFAR sur la surveillance péri-anesthésique et le décret du 5 décembre 1994 (sécurité en anesthésie) s'appliquent en pédiatrie. Ce texte précise les particularités liées au jeune âge, pour la chirurgie réglée comme pour l'urgence — sans créer de monopole pour les grands centres, mais pour fixer un standard de l'anesthésie pédiatrique.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "I — Structures",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Détail",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1. Salle d'intervention",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Idéalement, bloc opératoire spécifiquement pédiatrique avec SSPI dédiée (ergonomie/hygiène : mêmes recommandations SFAR). Personnel selon l'âge : 0-1 mois — au minimum un médecin anesthésiste-réanimateur assisté d'un(e) infirmier(e) ou d'un autre anesthésiste-réanimateur ; 1 mois-10 ans — assistance infirmière à l'induction/extubation (voire pendant l'anesthésie) si le médecin le juge nécessaire selon la chirurgie/le terrain.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2. Transferts entre unités (post-opératoire)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Structures contiguës, interventions lourdes : transport dans le lit/table de réanimation/incubateur sans rupture de soins/monitorage, sous surveillance directe du médecin. Interventions mineures : transmissions écrites suffisantes, complétées à l'oral si besoin. Structures éloignées : transfert par équipe mobile médicalisée avec matériel adapté (cf. Matériel de transport).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3. Salle de surveillance post-interventionnelle (SSPI)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Même matériel que le bloc, adapté à l'âge. Emplacements : &gt; 1,5, probablement 2 par salle d'opération (chirurgie pédiatrique plus courte), adapté au flux (ORL, ambulatoire). Personnel conforme aux recommandations SFAR, adapté si surcroît de surveillance nécessaire (âge préscolaire). Qualification conforme au décret du 5 décembre 1994 ; infirmier(e) puériculteur(trice) utile si SSPI pédiatrique dédiée. À défaut de structure dédiée : individualiser un secteur du bloc/SSPI polyvalent pour l'activité pédiatrique.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "4. Prise en charge post-opératoire (hospitalisation)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Idéalement service d'hospitalisation spécifiquement pédiatrique (secteur traditionnel, soins intensifs, réanimation). En structure mixte, respecter la circulaire n°83-24 du 1er août 1983 et la charte de l'enfant hospitalisé (EACH/parlement européen/Conseil de l'Europe/OMS) : présence des parents facilitée, pas d'hospitalisation en service adulte, réduction des durées (hospitalisation de jour), regroupement par tranches d'âge, visites libres sans limite d'âge, environnement adapté (physique/affectif), formation des soignants aux besoins psychologiques, intimité préservée. <b>L'hospitalisation d'enfants de moins de 10 ans en réanimation adulte ne se justifie pas</b> — transfert vers un service pédiatrique spécifique à distance si besoin.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5. Laboratoires et examens complémentaires",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Non problématique en hôpital d'enfants avec plateau technique dédié. Ailleurs : réseau de correspondants formés à la pratique pédiatrique.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "II — Matériel : assistance respiratoire",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Hors centre à vocation pédiatrique exclusive : chariot spécifique regroupant le matériel adapté au poids/âge de l'enfant. Masques, canules, sondes, lames de laryngoscope et ballons doivent être adaptés à la taille de l'enfant.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Matériel",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Spécifications",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Masque facial",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si possible transparent, à petit espace mort ; masque rond à bourrelet chez le nouveau-né. Tailles disponibles : 00 à 4.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Canule oro-pharyngée",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disponible mais non obligatoire si la langue n'obstrue pas le flux gazeux. Tailles : 00 à 4.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ballons",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adaptés au volume courant (tailles 500/750/1000/1500 ml — pression en ventilation contrôlée proportionnelle au carré du rayon). Ballons auto-gonflables adaptés à l'âge impératifs.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Valves",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Système de détrompage obligatoire (arrêté du 30 août 1996). Induction : valve de David® ou circuit respirateur (avec réinhalation), ou valve de Ruben®/Ambu® enfant-adulte (sans réinhalation) — circuit machine théoriquement inutilisable avant 1 an. Entretien : mêmes valves + valve de Digby-Leigh® (sans réinhalation), le plus souvent circuit du respirateur.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Plateau d'intubation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Manche de laryngoscope, lames droites (Miller 0/1/2) et courbes (Macintosh 1/2/3) selon l'âge, pinces de Magill (adulte/enfant), mandrins atraumatiques, seringue de gonflage, manomètre de pression du ballonnet, système de fixation.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sondes d'intubation",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tailles 2,5 à 6,5 ; diamètre calculé par formule au-dessus de 2 ans. Sondes armées ou préformées selon le type de chirurgie.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Masque laryngé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Alternative au masque facial/à la sonde d'intubation. Tailles disponibles : 1 à 3.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Respirateurs d'anesthésie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Volume courant adapté à l'âge/poids (faibles volumes &lt; 50 ml, fréquences élevées jusqu'à 80 c/min), PEP disponible, réglage précis du rapport I/E, adaptation d'évaporateurs différents sans fonctionnement simultané possible. Tuyaux de taille/compliance adaptés (petits tuyaux &lt; 10 kg), correction automatique de compliance préférable. Circuit à bas débit (≈ 1 L/min) utilisable &gt; 5 kg (nécessite débitmètres de précision ; capnographie moins fiable &gt; 30 c/min). Ventilateur de réanimation exceptionnellement nécessaire (compliance thoraco-pulmonaire très basse). Filtre antimicrobien recommandé (Recos hygiène SFAR 1997), taille adaptée (filtre spécifique &lt; 10 kg).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Intubation difficile",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Algorithme obligatoire par équipe, maîtrise d'au moins une technique d'attente et une de sauvetage, matériel adapté à l'âge/poids.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Drain pleural",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tailles disponibles : 8 à 14.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "II — Matériel : abord vasculaire, monitorage, hypothermie, transport",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Matériel",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Spécifications",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Abord vasculaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Périphérique : gamme complète de cathéters courts, du 24G au 14G. Central : cathéters simples/multi-voies adaptés à l'âge/indication/abord ; contrôle radiologique indispensable (amplificateur de brillance au bloc). Abord intra-osseux disponible en urgence vitale si échec de l'abord veineux conventionnel.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Défibrillateur",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Palettes pédiatriques et réglage de l'intensité obligatoires.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Monitorage — fonction cardiovasculaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Électrodes ECG adaptées à la taille. PA non invasive par oscillométrie : jeu complet de brassards (tailles 1 à 4 et adulte), brassard couvrant les 2/3 du bras. PA invasive : cathéters courts transcutanés ou spécifiques à l'abord artériel. Oxymétrie de pouls : capteurs de taille adaptée. PVC : ponction jugulaire, sous-clavière ou fémorale.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Monitorage — fonction ventilatoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Capnographie interprétable normalement (sous-estimation possible &gt; 30 c/min) — monitorage le plus distal, débit aspiratif élevé (&gt; 150 ml/min), analyse rapide ; capteur pédiatrique si capnographe non aspiratif et enfant &lt; 20 kg. Pressions transcutanées O2/CO2 utiles chez le nouveau-né/petit nourrisson.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Monitorage — divers",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Analyse continue de la FiO2 et des gaz halogénés obligatoire. Température : sonde rectale ou (mieux) œsophagienne. Curarisation : même matériel que l'adulte.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prévention de l'hypothermie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "D'autant plus impérative que l'enfant est petit ; monitorée. Mesures : bonnet/manchons de jersey ; matelas chauffant avec alarmes ou couverture à air pulsé (forme adaptée, usage unique) ; réchauffement/humidification des gaz ; température de la salle 20-26 °C, limitation des allées-venues ; réchauffement des perfusions/transfusions, antiseptiques, champs opératoires, solutions de cystoscopie. Chez les plus petits : lampe infrarouge/table radiante à l'induction, couveuse/table radiante au réveil.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Matériel de transport",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Recommandations SFAR sur les transferts interhospitaliers (1992) et intrahospitaliers (1994) médicalisés. Spécificités pédiatriques : monitorage et réchauffement (tables radiantes/couveuses sur batterie). Respirateur de transport adapté au poids requis pour les patients intubés-ventilés (mode pression contrôlée chez le nouveau-né/nourrisson, volume contrôlé chez l'enfant plus grand).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Solutés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Solutés poly-ioniques glucosés (G1/2,5/5/10 %) ; compensations par sérum salé 0,9 % ou Ringer lactate — un seul type de soluté d'entretien/compensation recommandé pour simplifier les protocoles. Remplissage : albumine chez le nouveau-né/petit nourrisson, cristalloïdes/colloïdes de synthèse chez l'enfant plus grand. Contrôle du débit indispensable &lt; 100 ml/h (pompe, seringue électrique, ou à défaut perfuseurs de précision) — régulateurs par réduction de calibre (type Dial-a-Flow®) à manier avec prudence, non fiables chez le petit enfant.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFAR, « Recommandations pour les structures et le matériel de l'anesthésie pédiatrique », septembre 2000, groupe d'experts coordonné par C. Ecoffey (Rennes).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2000 :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 2 parties (Structures, Matériel) du texte source mais omet la liste nominative des experts. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR. Les textes réglementaires cités (décret du 5 décembre 1994, arrêté du 30 août 1996, circulaire de 1983) et les données constructeur (tailles/références commerciales) datent de la publication — vérifier leur actualité et celle du matériel disponible avant application. Document distinct de la RPP SFAR 2023 « Organisation de l'anesthésie pédiatrique » (organisation des centres), non traitée ici.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

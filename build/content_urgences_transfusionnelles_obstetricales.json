@@ -1,0 +1,561 @@
+{
+ "doc": "urgences_transfusionnelles_obstetricales",
+ "sections": [
+  {
+   "title": "Introduction, épidémiologie & méthodologie",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> organisation de la réponse transfusionnelle à l'hémorragie du péripartum — définition de niveaux d'urgence, surveillance immuno-hématologique de la grossesse, et propositions d'organisation entre établissement de santé (ES) et site transfusionnel (ST). Conclusions d'une <b>table ronde EFS</b> réunie le 26 septembre 2000, réunissant gynécologues-obstétriciens, anesthésistes-réanimateurs, biologistes et spécialistes des produits sanguins.<br/><br/><b>Épidémiologie (texte source) :</b> en obstétrique, l'hémorragie du péripartum est la <b>1<sup rise=\"2\" size=\"6\">re</sup> cause de mortalité maternelle en France (33 %)</b>. L'incidence des transfusions en péripartum est faible (1 à 2,5 % pour les accouchements par voie basse ; 3,1 à 5 % pour les césariennes), mais l'hémorragie survient de façon imprévisible et, dans <b>84 % des cas</b>, chez des femmes sans facteur de risque particulier (en dehors de placenta prævia, hématome rétro-placentaire, multiparité…).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Méthodologie — absence de grading (disclosure) :</b> ce document ne comporte <b>aucun système de gradation</b> (ni GRADE, ni cotation RAND/UCLA, ni vote chiffré, ni échelle ANAES) : chaque proposition est imprimée en prose continue par le groupe d'experts, sans tag de force ou de niveau de preuve individuel. Aucun chip de grade n'est donc utilisé dans cette fiche — en inventer un serait fabriquer une information absente de la source.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Incohérence de métadonnées disclosurée :</b> l'index interne du projet (`library_final.json`) intitule cet item « Hémorragies du post-partum immédiat » avec une date « 2014 ». Le href et le PDF source de ce même item pointent pourtant, vérification faite (correspondance unique), vers CE document précis — dont le contenu intégral est daté 2000 (table ronde) / 2001 (texte finalisé, tamponné « 21/12/01 » et « 07/06/01 » sur chaque page), mis en ligne sur sfar.org le 29/09/2015 (métadonnée « datePublished » de la page). Aucune mention « 2014 » n'apparaît nulle part dans le texte, et aucune autre version PDF n'est liée depuis la page source (vérifié). Les trois dates (2014 index / 2000-2001 contenu / 2015 mise en ligne) sont rapportées ici telles quelles, sans qu'aucune ne soit écartée par supposition.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Deux types de risque (texte source)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Theme",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Contenu",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque immunologique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lié au passage d'hématies fœtales pendant la grossesse. Impose une gestion des analyses immuno-hématologiques adaptée à ces urgences, en particulier la recherche d'anticorps anti-érythrocytaires (agglutinines irrégulières, RAI).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Risque lié au retard à la transfusion",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans certains cas en péripartum, la disponibilité des produits sanguins labiles (PSL) doit être immédiate. Malgré l'existence de textes réglementaires pour la périnatologie, l'analyse des prescriptions de PSL et des examens d'immuno-hématologie, comme les modalités de la distribution en urgence, montrent une grande hétérogénéité des pratiques.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Les recommandations qui suivent sont regroupées en quatre chapitres, comme dans le texte source : I. définition de niveaux d'urgence ; II. règles de surveillance immuno-hématologique de la grossesse ; III. propositions pour répondre à l'urgence vitale transfusionnelle ; IV. évaluation et suivi des actions.</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "I. Niveaux d'urgence & II. Surveillance immuno-hématologique",
+   "items": [
+    {
+     "t": "section",
+     "text": "I — Définition des niveaux d'urgence",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Pour permettre une bonne communication entre l'établissement de soin et le site transfusionnel, il convient de distinguer, selon la brutalité de survenue et la gravité du saignement, trois niveaux d'urgence, et d'en mesurer les conséquences en matière de distribution :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Niveau d'urgence",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Délai d'obtention des PSL",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Modalités",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Urgence vitale immédiate (UVI)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sans délai",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Les CGR sont distribués immédiatement, éventuellement sans groupe sanguin s'il n'est pas disponible. La prescription le mentionne ; les prélèvements pour les analyses immuno-hématologiques sont acheminés dès que possible.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Urgence vitale (UV)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "&lt; 30 minutes",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Les CGR sont distribués avec un groupe conforme, éventuellement sans RAI si l'examen n'est pas disponible. La prescription le mentionne, les échantillons l'accompagnent. La RAI est réalisée dès que possible.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Transfusion urgente",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 à 3 heures, le plus souvent",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Permet la réalisation de l'ensemble des examens immuno-hématologiques (dont la RAI si elle date de plus de 3 jours) et l'obtention de PSL isogroupes et, au besoin, compatibilisés.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>La situation hémorragique pouvant se modifier à tout moment, il est possible de requalifier le niveau de l'urgence à tout instant.</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "II — Surveillance immuno-hématologique de la grossesse",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Principe :</b> le risque hémorragique se situant au moment de l'accouchement, il convient de prévoir, pendant les différentes consultations prénatales, l'ensemble des analyses biologiques nécessaires à la sécurité transfusionnelle (typage érythrocytaire, recherche d'anticorps anti-érythrocytaires), en tenant compte du fait que le risque de passages fœto-placentaires se situe en fin de gestation (situation privilégiée d'immunisation).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>II-1 — Typage érythrocytaire</b>",
+     "style": "h2"
+    },
+    {
+     "t": "p",
+     "html": "Les recommandations du décret n°92-143 sont jugées bien adaptées : pour une première grossesse, lors du premier examen prénatal (3<sup rise=\"2\" size=\"6\">e</sup> mois), si la patiente ne possède pas de carte de groupe sanguin complète avec un phénotype Rh et Kell, une première détermination des groupes sanguins ABO, Rh et Kell est réalisée, puis une deuxième détermination lors du 8<sup rise=\"2\" size=\"6\">e</sup> (6<sup rise=\"2\" size=\"6\">e</sup> examen prénatal) ou 9<sup rise=\"2\" size=\"6\">e</sup> mois (7<sup rise=\"2\" size=\"6\">e</sup> examen prénatal) de grossesse, si nécessaire.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>II-2 — Recherche d'anticorps anti-érythrocytaires (RAI) — dépistage</b>",
+     "style": "h2"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Theme",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Contenu",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RhD négatif (± ATCD transfusionnel) ou RhD positif avec ATCD transfusionnel/obstétrical",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance du décret n° 92-143 jugée bien adaptée : RAI lors du 3<sup rise=\"2\" size=\"6\">e</sup> mois (1er examen prénatal), puis aux 6<sup rise=\"2\" size=\"6\">e</sup> (4<sup rise=\"2\" size=\"6\">e</sup> examen), 8<sup rise=\"2\" size=\"6\">e</sup> (6<sup rise=\"2\" size=\"6\">e</sup> examen) et 9<sup rise=\"2\" size=\"6\">e</sup> mois (7<sup rise=\"2\" size=\"6\">e</sup> examen).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RhD positif, sans antécédent transfusionnel",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "RAI au moins à 2 reprises avant l'accouchement (Arrêté du 19/04/1985 + décret n°92-143, synthèse ANAES) : avant la fin du 3<sup rise=\"2\" size=\"6\">e</sup> mois (1er examen) et au cours du 8<sup rise=\"2\" size=\"6\">e</sup> ou 9<sup rise=\"2\" size=\"6\">e</sup> mois (6<sup rise=\"2\" size=\"6\">e</sup>/7<sup rise=\"2\" size=\"6\">e</sup> examen), avec une préférence au 9<sup rise=\"2\" size=\"6\">e</sup> mois si la 1re recherche était négative (fréquence des hémorragies fœto-maternelles au 3<sup rise=\"2\" size=\"6\">e</sup> trimestre).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "RhD positif, sans ATCD transfusionnel, mais manœuvres obstétricales à risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ponction amniotique, chute ou traumatisme, décollement d'un placenta normalement ou anormalement inséré… : il convient d'évaluer au cas par cas l'opportunité d'une RAI supplémentaire.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surveillance en post-partum",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une grossesse étant considérée comme un épisode transfusionnel (transfusion in utero), la surveillance de la survenue d'une immunisation secondaire par une RAI « serait à préconiser » — point jugé <b>insuffisamment documenté par la source elle-même</b>, « à confirmer par une étude prospective sur la surveillance des immunisations post-natales chez la femme RhD positif » (disclosure : la source signale elle-même cette incertitude, non résolue ici).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>II-2-2 — Identification :</b> en cas de dépistage positif, une identification et un titrage des anticorps sont immédiatement réalisés ; le rythme des examens ultérieurs est décidé en fonction de la spécificité, du titre et de la concentration des anticorps.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "III. Organisation — établissement de santé & site transfusionnel",
+   "items": [
+    {
+     "t": "section",
+     "text": "III — Propositions d'organisation",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>Afin d'améliorer la réponse à l'urgence, le texte précise les modalités qui reviennent soit à l'établissement de santé (ES), soit au site transfusionnel (ST), soit à l'ensemble des deux, en gardant à l'esprit que tout défaut de communication peut aggraver le risque.</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>III-1 — Ce qui revient à l'établissement de santé (ES)</b>",
+     "style": "h2"
+    },
+    {
+     "t": "p",
+     "html": "• <b>Disposer des résultats au moment opportun</b> dès l'entrée de la femme en salle de travail, en vérifiant la conformité de tous les documents nécessaires à une transfusion (carte de groupe sanguin complète, résultat de la RAI du dernier examen prénatal). La meilleure solution serait la disponibilité des résultats par transmission informatique, réalisant la compatibilité électronique avec la distribution des PSL.<br/><br/>• <b>Avertir le site transfusionnel (ST)</b> du caractère de l'urgence (UVI, UV ou urgence transfusionnelle classique) afin que toutes les procédures soient mises en œuvre immédiatement — par exemple identification claire de l'urgence vitale sur la fiche de prescription accompagnée d'un appel téléphonique, transmission d'un fax complétée d'un appel téléphonique, etc.<br/><br/>• <b>Avertir le ST en cas de RAI positive</b>, afin que des produits sanguins compatibles soient préparés le plus rapidement possible en vue d'une éventuelle transfusion.<br/><br/>• <b>Dépister les usurpations d'identité</b> et, en cas de doute, contrôler sur de nouveaux échantillons, notamment pour les patientes prises en charge en urgence et n'ayant pas fait l'objet d'un contrôle de groupe sanguin en cours de grossesse.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>III-2 — Ce qui revient au site transfusionnel (ST)</b>",
+     "style": "h2"
+    },
+    {
+     "t": "p",
+     "html": "• <b>Reconnaître les prescriptions</b> de PSL relevant d'une UVI, d'une UV ou d'une transfusion urgente et y répondre par une distribution adéquate : distribution immédiate, distribution différée (sang préparé mais gardé en réserve au ST), ou acheminement de précaution vers le dépôt (pose le problème des produits inutilisés — réflexion spécifique nécessaire, non tranchée par la source).<br/><br/>• <b>Mettre en route les examens immuno-hématologiques</b> dès réception des échantillons, en communiquant les résultats au prescripteur le plus rapidement possible. Le prélèvement de la RAI (&lt; 3 jours) doit permettre de mettre en évidence un anticorps d'apparition récente, même si la RAI de fin de grossesse diminue déjà le risque immunologique.<br/><br/>• <b>Réaliser une association informatique</b> combinant les résultats immuno-hématologiques et les produits distribués par le ST — transfert informatique des données validées du laboratoire vers le service de distribution ; en cas de prise en compte manuelle de résultats issus d'un autre laboratoire, ces données doivent obligatoirement répondre aux critères réglementaires en vigueur.<br/><br/>• <b>Prendre en compte un résultat de RAI négatif</b> réalisé dans un autre laboratoire que celui du site distributeur, dès lors que l'analyse a été réalisée selon les critères réglementaires.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "III. Organisation commune & IV. Évaluation-suivi",
+   "items": [
+    {
+     "t": "p",
+     "html": "<b>III-3 — Ce qui revient à la fois à l'établissement de soins et au site transfusionnel</b>",
+     "style": "h2"
+    },
+    {
+     "t": "p",
+     "html": "• <b>Analyser le maillage</b>, dans chaque département, entre services de gynéco-obstétrique et sites transfusionnels, en concertation avec les services déconcentrés de l'État et l'Agence Régionale d'Hospitalisation. Les établissements pratiquant des accouchements doivent pouvoir disposer de CGR en <b>≤ 30 minutes, 24 h/24 toute l'année</b> — trois solutions possibles : un site transfusionnel EFS à proximité, un dépôt de sang autorisé dans l'établissement, ou un dépôt d'urgence vitale autorisé sous conditions strictement réglementées. Le nombre de dépôts d'urgence doit être réduit à son strict minimum pour une bonne gestion des stocks phénotypés. Ce maillage, pour être réussi, suppose une concertation parfaite entre tous les acteurs, en gardant à l'esprit l'enjeu majeur d'éviter le décès maternel ; il doit évoluer en fonction de la restructuration de l'organisation nationale des maternités.<br/><br/>• <b>Établir la quantité et la qualité des stocks d'urgence vitale</b> : stock volontairement réduit (but : assurer la survie de la mère et de l'enfant pendant l'acheminement des autres CGR) ; composition conseillée : 2 CGR O RH:-1-2-3 KEL:-1 (anciennement ccddee, K-) et 2 CGR O RH:12-3-45 KEL:-1 (anciennement CCDee). La qualification CMV négatif <b>n'est pas nécessaire</b> dans ce contexte.<br/><br/>• <b>Réaliser des procédures de prescription d'urgence vitale</b> avec l'ensemble des acteurs (comités de sécurité transfusionnelle et d'hémovigilance), au niveau de l'ES et du ST, en clarifiant les modalités de communication (fax, téléphone — appels internes/externes, informatisation…), pouvant prendre la forme d'un arbre décisionnel d'utilisation des CGR en urgence vitale (voir Tableau I).<br/><br/>• <b>Prévoir le réapprovisionnement du dépôt d'urgence</b> : les hémorragies du péripartum étant souvent importantes et de survenue brutale, la capacité de réponse d'un dépôt peut être rapidement dépassée — le responsable du dépôt doit être prévenu sans attendre pour alerter le site transfusionnel.<br/><br/>• <b>Organiser les transports</b> — problème « ni réglé, ni même défini » selon la source elle-même (absence de bonnes pratiques de transport). Doivent être précisés : qui apporte les examens, qui transporte le sang, dans quels délais (notion essentielle pour le temps de réponse à l'UVI/UV), horaires d'ouverture et modalités des jours fériés, moyens utilisés (type de véhicule, containers, conservation sous contrôle), et qui réapprovisionne le dépôt. Un cahier des charges précis et/ou un contrat d'engagement doit définir clairement les points du transport liant ES, ST et transporteur.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "IV — Évaluation et suivi des actions",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "• L'évaluation de l'efficacité des mesures mises en place doit être clairement définie dans un calendrier : conseillée hebdomadaire dans un premier temps, puis mensuelle, puis trimestrielle.<br/><br/>• Elle doit être réalisée à la fois par l'établissement de santé et par le site transfusionnel (liste des items indispensables fournie en annexe à titre d'exemple, reproduite ci-après).<br/><br/>• Il est recommandé que toute trace écrite des éventuels événements figure dans le dossier clinique, à des fins d'enquête ou d'évaluation ultérieure.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Tableau I, liste des items & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Tableau I — Procédure d'urgence vitale",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>Séquence reproduite intégralement depuis le Tableau I du document source (arbre décisionnel d'utilisation des CGR en urgence vitale).</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "• Poser l'indication de la transfusion.<br/><br/>• Rédiger l'ordonnance de prescription de PSL.<br/><br/>• Avertir le site transfusionnel (ST) ou le dépôt de sang du niveau d'urgence : UVI ou UV (n<sup rise=\"2\" size=\"6\">os</sup> de tél./fax accessibles 24 h/24).<br/><br/>• Avertir le moyen de transport accessible 24 h/24 (interne ou externe à l'établissement).<br/><br/>• Faire parvenir l'ordonnance et les documents au ST ou au dépôt (fax, etc.) et, le cas échéant, les prélèvements nécessaires.<br/><br/>• Distribuer immédiatement (ou faire distribuer selon l'organisation locale) les PSL — voir les 3 cas de figure ci-dessous.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Documents IH disponibles complets",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Documents IH incomplets (1 seule détermination de groupe, ou RAI &gt; 3 j)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Absence de documents IH",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sang isogroupe si disponible immédiatement ; sinon 2 CGR O Rh nég Kell nég (ou 2 CGR O Rh pos [c-, E-] Kell nég), puis poursuivre par CGR compatibles.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 CGR O Rh nég Kell nég (ou 2 CGR O Rh pos [c-, E-] Kell nég) ; prélever pour RAI et pour la 2<sup rise=\"2\" size=\"6\">e</sup> détermination de groupe + phénotype Rh Kell si besoin ; poursuivre selon le résultat.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 CGR O Rh nég Kell nég (ou 2 CGR O Rh pos [c-, E-] Kell nég) ; prélever pour RAI + groupe sanguin avec phénotype Rh-Kell, dans une séquence différente pour la 2<sup rise=\"2\" size=\"6\">e</sup> détermination ; poursuivre selon ces derniers résultats.",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "• Avertir le laboratoire d'immuno-hématologie (téléphone/fax 24 h/24).<br/><br/>• Réceptionner les PSL. Contrôler les documents (si disponibles) + contrôle ultime au lit du patient, puis transfusion des PSL (informer la patiente si son état de conscience le permet).<br/><br/>• Prévenir le ST ou le dépôt des besoins ultérieurs en PSL.<br/><br/>• Traçabilité + évaluation régulière de la procédure.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Liste des items — procédure générale (prescription de PSL à l'acte transfusionnel)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>Toute procédure doit définir au moins, selon le document source :</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Item",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les différents acteurs intervenants : qui prescrit et qui pose l'indication de la transfusion",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les 3 niveaux d'urgence (UVI, UV et transfusion urgente)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les documents nécessaires (référencés, en documents associés)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les identifiants de l'unité de distribution : site transfusionnel ou dépôt (lieu, téléphone, fax, heures d'ouverture, noms des responsables) — inclure les procédures de distribution, dont celle pour une urgence vitale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Le(s) correspondant(s) en charge du transport (local ou extérieur), procédures d'appels, conditions selon horaires et jours fériés, convention…",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Le laboratoire d'immuno-hématologie : téléphone, fax, horaires, conditions de prise en charge des urgences",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Définition des prélèvements nécessaires, des documents, sans oublier les contrôles pré-transfusionnels obligatoires (hémovigilance)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Conditions d'acheminement des documents et des prélèvements",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Information de la patiente",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Modalités de réception des PSL",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Modalités de l'acte transfusionnel lui-même : vérification des documents, contrôle ultime pré-transfusionnel…",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "La tenue du dossier transfusionnel",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "La traçabilité",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Les contrôles post-transfusionnels",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "L'évaluation régulière des procédures mises en place (essentiellement pour l'urgence vitale), leur pertinence et leur efficacité",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Le traitement des urgences transfusionnelles obstétricales » — Conclusions de la table ronde organisée par l'EFS (réunie le 26 septembre 2000). Participants : G. Andreu, D. Benhamou, B. Carbonne, J. Chiaroni, F. Courtois, A.-S. Ducloy-Bouthors, A. François, P. Hervé, B. Maria, M. Palot, F. Roubinet, M. Tournaire. Experts de validation : A. Blond, F. Ferrer Le Cœur, M. Jeanne, C. Krause, A. Lienhart, R. Mortelecque, L. Mannessier et le Groupe Immuno-Hématologie de la SFTS, P. Rouger. Soumis pour avis à la SFAR, au Collège des Obstétriciens, aux Directeurs d'établissement de l'EFS et à la Société Française de Transfusion Sanguine.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Références citées par le texte source (8) :</b> 1. Arrêté du 19/04/1985 modifiant l'arrêté du 27/08/1971 (examens médicaux pré/post-nataux). 2. Circulaire DGS/3B/552 du 17/05/1985 (prévention des accidents transfusionnels et d'allo-immunisation). 3. Décret n°92-143 du 14/02/1992 (examens obligatoires prénuptial, pré et post-natal). 4. Arrêté du 04/08/1994 (bonnes pratiques de distribution des PSL). 5. Arrêté du 25/04/2000 (locaux de prétravail/travail, dispositifs médicaux et examens en néonatologie/réanimation néonatale). 6. Coeuret-Pellicer M, Bouvier-Colle M.H, Salanave B, Groupe Moms, J Gynecol Obstet Biol Reprod 1999;28:62-68. 7. Synthèse des textes réglementaires — ANAES, juillet 1997. 8. Bowman JM, Pollock JM, Biggins KR, Methods in Haematology, Churchill Livingston 1988;2,3:129-50.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> aucun système de gradation imprimé par la source (pas de GRADE, pas de RAND/UCLA, pas de vote chiffré, pas d'échelle ANAES) — conclusions de table ronde en prose continue. Aucun chip de grade n'est donc utilisé dans cette fiche.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 4 chapitres du corps du texte (niveaux d'urgence, surveillance immuno-hématologique, propositions d'organisation ES/ST/ES+ST, évaluation et suivi), du Tableau I (procédure d'urgence vitale) et de la liste des items de la procédure générale.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> ce document est une fiche de synthèse indépendante, produite pour un usage d'aide-mémoire. Il reprend l'intégralité des conclusions de la table ronde EFS, mais ne remplace pas le texte intégral et n'est ni édité ni validé par l'EFS, la SFAR, le Collège des Obstétriciens ou la SFTS. <b>Document dont le contenu date de 2000-2001</b> (voir disclosure de l'incohérence de métadonnées en page 1) : les pratiques et la réglementation transfusionnelle ont évolué depuis — vérifier l'existence d'une actualisation et se référer aux textes réglementaires en vigueur en cas de doute.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

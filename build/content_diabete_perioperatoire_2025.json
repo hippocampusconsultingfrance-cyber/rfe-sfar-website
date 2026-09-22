@@ -1,0 +1,1490 @@
+{
+ "doc": "diabete_perioperatoire_2025",
+ "sections": [
+  {
+   "title": "Généralités DT1/DT2 & stratégie HbA1c",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "crit",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement de sécurité :</b> cette fiche synthétise un document déjà conçu comme outil clinique simplifié (« Fiches simplifiées » SFAR/SFD, 2025). Elle est produite pour un usage d'aide-mémoire — vérifier toute posologie d'insuline contre le texte source intégral ou un outil clinique validé avant application, en particulier en cas de doute sur une valeur.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Généralités — DT1 et DT2",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Diabète de type 1 (DT1)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Diabète de type 2 (DT2)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mécanisme",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Maladie auto-immune conduisant à une insulinopénie majeure",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Insulinorésistance avec insulinopénie relative",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Traitement",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'apport d'insuline exogène est vital et ne peut être arrêté",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Régime puis antidiabétiques (AD) non insuliniques puis insuline à la phase tardive",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Complications",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque VITAL si arrêt de l'insuline basale (acidocétose)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Accumulation des AD non insuliniques si insuffisance rénale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Remarques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chirurgie pancréatique : le patient se comporte comme un DT1 si pancréatectomie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Vérification de la fonction rénale avant reprise des AD non insuliniques",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Objectifs glycémiques en péri opératoire : 5 à 10 mmol/L (0,9 à 1,8 g/L).</b> Évaluation du contrôle glycémique par le dosage d'hémoglobine glyquée (HbA1c) : récupérer le dernier dosage en consultation ou en faire un si le patient n'en a pas fait depuis plus de 3 mois, ou en cas de déséquilibre du diabète.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Stratégie pré opératoire selon la valeur d'HbA1c (Groupe SFAR/SFD, 2025) :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "HbA1c",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "< 5 %",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Différer",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5 – 6 %",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Avis médecin généraliste / diabétologue",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6 – 8 %",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Intervention possible",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8 – 9 %",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Avis médecin généraliste / diabétologue",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "> 9 %",
+        "style": "cell_c"
+       },
+       {
+        "t": "p",
+        "html": "Différer",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>ATTENTION :</b> chez le patient DT1, quelle que soit la glycémie, <b>NE JAMAIS ARRÊTER L'INSULINE LENTE</b>. Si hypoglycémie : cf. « CAT devant une hypoglycémie à l'hôpital ». Si hyperglycémie : cf. « CAT devant une hyperglycémie à l'hôpital ».",
+      "style": "body"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Prise en charge pré opératoire",
+   "items": [
+    {
+     "t": "section",
+     "text": "Prise en charge pré opératoire (DT1 et DT2)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Modalités d'arrêt des traitements antidiabétiques (AD) :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Traitement",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "≤ 1 repas jeûné",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Intervention avec ≥ 2 repas jeûnés",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Intervention urgente",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Metformine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'arrêt",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas de prise le matin",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sulfamides, glinides, inhibiteurs α-glucosidases, inhibiteurs DPP-4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'arrêt",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas de prise le matin",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Agonistes récepteurs GLP-1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'arrêt (échographie gastrique et/ou induction en séquence rapide)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'arrêt (échographie gastrique et/ou induction en séquence rapide)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Inhibiteurs SGLT2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dernière prise 3 jours avant l'intervention (risque acidocétose euglycémique)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Insulines SC",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'arrêt",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Maintien de l'insuline lente (matin ou soir)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt et relais",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pompe à insuline",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas d'arrêt",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt de la pompe à l'arrivée au bloc*",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt et relais",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>* Maintien possible d'une pompe à insuline si : intervention courte &lt; 2h ; perturbations du contrôle glycémique non attendues ; dispositif visible et à distance du champ opératoire ; glycémies artérielles/veineuses/capillaires préférées au glucose interstitiel en peropératoire ; accord du patient et de l'équipe d'anesthésie ; gestion du matériel par le patient précocement en post opératoire ; avis du diabétologue pour l'adaptation des débits.</i>",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Règles de jeûne :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "&bull; Repas du soir normal ; donner le traitement habituel (AD non insuliniques et/ou insulines aux mêmes posologies)<br/>&bull; Dernier repas solide à H-6, liquides clairs autorisés jusqu'à H-2 de l'intervention<br/>&bull; Perfusion de soluté glucosé <b>si et seulement si</b> : jeûne + insuline lente injectée (matin ou soir) ou pompe à insuline en cours → G10 % 40 mL/h à partir du premier repas jeûné ; ou jeûne prolongé (apports glucosés quotidiens nécessaires, 100 à 150 g de glucose, ex. G10 % 40 mL/h)",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>En pré opératoire, faire les glycémies capillaires (GC) et appliquer ce protocole</b> (bandes identiques à chaque échéance : GC &lt; 0,9 g/L [&lt; 5 mmol/L] ; 0,9-1,8 g/L [5-10 mmol/L] = cible, aucune correction ; 1,8-2,2 g/L [10-12 mmol/L] ; 2,2-3 g/L [12-16,5 mmol/L] ; &gt; 3 g/L [&gt; 16,5 mmol/L]) :",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Échéance",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "GC < 0,9 g/L (< 5 mmol/L)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "1,8-2,2 g/L (10-12 mmol/L)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "2,2-3 g/L (12-16,5 mmol/L)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "GC > 3 g/L (> 16,5 mmol/L)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Avant le repas du soir",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sucre 15 g PO (prévenir le médecin)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Analogue rapide 3 UI SC (si correction non faite par le patient)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Analogue rapide 4 UI SC",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Analogue rapide 6 UI SC + recherche de cétose (prévenir le médecin)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Au coucher (22h-0h) / si besoin (3h-4h)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "15 g PO ; GC à 15 min (prévenir le médecin)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3 UI SC",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 UI SC",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6 UI SC + recherche de cétose, ou IVSE en réa (prévenir le médecin)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6h-7h",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de prise d'AD non insuliniques ; G10 % 40 mL/h si insuline lente injectée ou pompe en cours",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "VVP NaCl 0,9 %",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pré opératoire (GC/3h)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "G10 % 60 mL/h (prévenir le médecin)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3 UI SC",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 UI SC",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "IVSE en réa ; différer le bloc",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>De 19h à 20h (tous les cas) : repas normal ± insulines habituelles ± AD non insuliniques. GC entre 0,9 et 1,8 g/L (5-10 mmol/L) : cible atteinte, aucune correction à aucune échéance.</i>",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "CAT hyperglycémie & hypoglycémie",
+   "items": [
+    {
+     "t": "section",
+     "text": "CAT devant une glycémie ≥ 16,5 mmol/L (3 g/L)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Rechercher une cétose en préférant la cétonémie à la cétonurie.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Cétose",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cétonémie < 0,5 mmol/L ; cétonurie = 0",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Faire 6 UI SC d'analogue rapide de l'insuline",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Surveillance glycémie à H4",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "0,5 ≤ cétonémie ≤ 1,5 mmol/L ; cétonurie à 1 croix",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Faire 10 UI SC d'analogue rapide de l'insuline",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Contrôle glycémie et recherche de cétose à H4",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cétonémie > 1,5 mmol/L ; cétonurie ≥ 2 croix",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Faire un GDS artériel pour rechercher une acidose",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Transfert en USC pour insulinothérapie IVSE",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Cas particulier — traitement par inhibiteur SGLT2 ET arrêt &lt; 3 jours</b> (risque d'acidocétose euglycémique) :",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Cétose",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Glycémie 8-12 mmol/L (1,5-2,2 g/L)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Glycémie 12-16,4 mmol/L (2,2-2,99 g/L)",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Glycémie ≥ 16,5 mmol/L (3 g/L)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cétonémie < 0,5 mmol/L ; cétonurie = 0",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si hyperglycémie : cf. CAT hyperglycémie ≥ 16,5 mmol/L. Surveillance cétonémie à H12.",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "0,5 ≤ cétonémie ≤ 1,5 mmol/L ; cétonurie à 1 croix (si pH > 7,20 au GDS)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Analogue rapide 4 UI SC + 15 g glucose PO ou 3 g IVD",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Analogue rapide 6 UI SC",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Analogue rapide 10 UI SC",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cétonémie > 1,5 mmol/L ; cétonurie ≥ 2 croix, ou pH ≤ 7,20 au GDS",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Faire un GDS artériel, éliminer une autre cause d'acidose métabolique (hyperlactatémie, hyperchlorémie, hypercapnie) → transfert en USC pour insulinothérapie IVSE si pH ≤ 7,20",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "idem",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "CAT devant une hypoglycémie à l'hôpital",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "État du patient",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Glycémie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Conduite à tenir",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Patient conscient",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "< 3,3 mmol/L (0,6 g/L)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Sucre PO : 3 morceaux de sucre ou 20 cL de jus de fruit",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Patient inconscient",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "2,2 < glycémie < 3,3 mmol/L",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Glucose IV : 3 g soit 1 ampoule de 10 mL de G30 % IVD",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Patient inconscient",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "< 2,2 mmol/L (0,4 g/L)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Glucose IV : 6 g soit 2 ampoules de 10 mL de G30 % IVD",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Contrôle de la glycémie à 15 min :</b> si glycémie ≥ 3,3 mmol/L (0,6 g/L) → contrôle glycémie à 1 heure, puis si toujours ≥ 3,3 mmol/L la prise en charge s'arrête là ; si &lt; 3,3 mmol/L à 1 heure ou dès le contrôle à 15 min → <b>reprendre l'arbre décisionnel et prévenir le médecin</b>.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Protocole d'insulinothérapie IVSE & relais IVSE/SC",
+   "items": [
+    {
+     "t": "section",
+     "text": "Protocole d'insulinothérapie IVSE",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Objectifs glycémiques peropératoires : 5-10 mmol/L (0,9-1,8 g/L).</b> Modalités : en unités de soins critiques ou bloc opératoire seulement. Dilution : analogue rapide de l'insuline 1 UI/mL dans NaCl 0,9 %. Voie d'abord : robinet proximal sur cathéter central ou sur voie veineuse périphérique. Apports glucosés au bloc (G10 % 40 mL/h) sauf si hyperglycémie &gt; 16,5 mmol/L.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Glycémie",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Bolus IVD initial",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Débit IVSE initial",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Fréq. contrôle",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Adaptation du débit",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "G30 %",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "< 2,2 mmol/L (< 0,4 g/L)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "15 min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt (reprise à ½ débit si glyc > 5,5 DT1 / > 10 DT2)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 amp (6 g), prévenir médecin",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2,2-3,3 mmol/L (0,4-0,6 g/L)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "30 min",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Arrêt (reprise à ½ débit si glyc > 5,5 DT1 / > 10 DT2)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 amp 10 mL (3 g)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3,3-5 mmol/L (0,6-0,9 g/L)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "− 1 UI/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "5-6 mmol/L (0,9-1,1 g/L)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 UI/h (DT1) ou 0 UI/h (DT2)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "− 1 UI/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "6-10 mmol/L (1,1-1,8 g/L)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 UI/h (DT1) ou 0 UI/h (DT2)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "idem (pas de changement)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "10-14 mmol/L (1,8-2,5 g/L)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "3 UI",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2 UI/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+ 1 UI/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "14-16,5 mmol/L (2,5-3 g/L)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "4 UI",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3 UI/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+ 2 UI/h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "> 16,5 mmol/L (> 3 g/L)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "6 UI",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 UI/h, prévenir médecin",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Bolus 6 UI, prévenir médecin",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Remarques : privilégier les mesures de glycémie sur sang total (artériel ou veineux), si possible sur machine à gaz du sang. Surveillance de la kaliémie : objectif 4 à 4,5 mmol/L, contrôle/4h si stable sinon à chaque changement de débit. Pas de relais SC si insuline IVSE &gt; 4 UI/h. Arrêt du protocole IVSE et relais dès que glycémies stabilisées et ≤ 10 mmol/L (1,8 g/L), si alimentation orale, ou à la sortie de SSPI/soins critiques avec relais par insuline SC ou pompe.</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Relais insuline IVSE / SC",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Détail",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Indications au relais",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dès que les glycémies sont stabilisées et ≤ 10 mmol/L (1,8 g/L) ; reprise d'une alimentation orale (non une condition en soi) ; relais à l'arrêt de l'insuline IVSE si posologie ≤ 4 UI/h.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Contre-indications au relais",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Posologie d'insuline IVSE > 4 UI/h ; besoins en insuline non stabilisés.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pas de relais SC si",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Posologie d'insuline IVSE ≤ 0,5 UI/h chez un patient non insulinotraité antérieurement. <b>Pas d'insuline IVSE en salle d'hospitalisation conventionnelle.</b>",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Calcul de dose (2 méthodes)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si quantité d'insuline inconnue : dose insuline lente SC 1×/soir = 0,3 UI/kg/24h ; dose d'analogue rapide SC par repas = 0,3 UI/kg/24h divisée par 3. OU, à partir de la quantité totale d'insuline IVSE sur 24h : dose insuline lente SC 1×/soir = ½ dose IVSE/24h ; dose d'analogue rapide SC par repas = ½ dose IVSE/24h divisée par 3.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Modalités",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de délai entre l'arrêt de l'insuline IVSE et l'injection d'insuline lente : faite en SSPI. Injection d'insuline lente SC prescrite de préférence à 20h ; sinon, injection complémentaire pour couvrir les besoins jusqu'à 20h selon le schéma : arrêt IVSE entre 0h-6h → 3/4 dose (prochaine dose à 20h le soir même) ; entre 6h-14h → 1/2 dose (20h le soir même) ; entre 14h-16h → 1/4 dose (20h le soir même) ; entre 16h-0h → dose de 20h (prochaine dose à 20h le jour suivant).",
+        "style": "cell"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Protocole Basal Bolus SC & reprise des AD",
+   "items": [
+    {
+     "t": "section",
+     "text": "Protocole d'insulinothérapie SC type Basal Bolus",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Thème",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Détail",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1. Basal (insuline lente)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "0,3 UI/kg/j SC à 20h (ou dose habituelle, ou 1/2 dose IV des dernières 24h). Adaptation à la glycémie du matin suivant à jeun : &lt; 5 mmol/L (0,9 g/L) → − 2 UI ; 5-10 mmol/L (0,9-1,8 g/L) → idem ; &gt; 10 mmol/L (1,8 g/L) → + 2 UI.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2. Bolus pour le repas",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Analogue rapide de l'insuline SC avant chaque repas oral, quelle que soit la glycémie : 0,1 UI/kg SC. Faire la moitié de la dose si apports caloriques insuffisants. Ne pas faire si alimentation entérale ou parentérale continue.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "3. Bolus correcteur",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Analogue rapide SC à adapter selon glycémie, à additionner au bolus du repas (8h, 12h, 20h) ; glycémie pré-prandiale à 8h/12h/20h, et à 16h/0h/4h si déséquilibre important. Échelle : 3,3-5 mmol/L (0,6-0,9 g/L) → 0 ; 5-10 mmol/L (0,9-1,8 g/L) → 0 ; 10-12 mmol/L (1,8-2,2 g/L) → 3 UI SC ; 12-16,5 mmol/L (2,2-3 g/L) → 4 UI SC ; &gt; 16,5 mmol/L (&gt; 3 g/L) → 6 UI SC (ou 1 ampoule G30 % IV / 15 g sucre PO si hypoglycémie associée).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Modalités de reprise des traitements antidiabétiques chez le DT2",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Conditions préalables à toute reprise : alimentation orale suffisante <b>et</b> glycémie &lt; 12 mmol/L (2,2 g/L) depuis plus de 24h — sinon, continuer et adapter le schéma Basal Bolus.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Clairance créatinine (idéalement mesurée)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Reprise des AD non insuliniques",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "> 60 mL/min",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Reprise de tous les AD → retour domicile avec compte-rendu au médecin traitant",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "30-60 mL/min",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Reprise des AD sauf metformine → retour domicile avec compte-rendu au médecin traitant",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "< 30 mL/min",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pas de reprise des AD → appel de l'équipe d'endocrinologie avant la sortie",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>En parallèle, arrêt du schéma Basal Bolus :</b> si le patient n'avait pas d'insuline antérieurement — continuer Basal Bolus si insuline lente ≥ 16 UI/j, l'arrêter si &lt; 16 UI/j ; si le patient avait de l'insuline antérieurement — reprise des insulines antérieures. Dans tous ces cas : retour à domicile avec compte-rendu au médecin traitant.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Intervention de courte durée & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Intervention de courte durée",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Rechercher les complications du diabète et doser l'HbA1c (différer la chirurgie si HbA1c &gt; 9 %). Stratégie définie selon le nombre de repas jeûnés — pour 2 repas jeûnés ou plus, se reporter aux fiches DT1/DT2 (intervention mineure).",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Repas jeûnés",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Horaire prévisible",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Attitude pratique",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "0",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Quel que soit l'horaire",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Poursuite du traitement le matin",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avant 10h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Petit-déjeuner et traitement du matin pris après l'intervention",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Entre 10h et 12h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Pas de petit-déjeuner, traitement donné à l'arrivée. Perfusion G10 % 40 mL/h jusqu'au repas suivant si insuline ou sulfamide.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après 12h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Poursuite du traitement le matin avec petit-déjeuner léger",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "Cf. fiches DT1/DT2 — intervention mineure",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "En pré, per et post opératoire : bolus correcteur si besoin, selon l'échelle du protocole Basal Bolus (3,3-5 mmol/L → 0 ; 5-10 → 0 ; 10-12 → 3 UI SC ; 12-16,5 → 4 UI SC ; &gt; 16,5 → 6 UI SC). <b>En post opératoire :</b> reprise d'une alimentation orale dès que possible ; si glycémie ≤ 10 mmol/L (1,8 g/L), reprendre les traitements habituels aux horaires habituels ; si &gt; 10 mmol/L, prolonger l'hospitalisation jusqu'à correction (5-10 mmol/L) avec bolus correcteurs ; si &gt; 16,5 mmol/L (3 g/L), contre-indication à une sortie à domicile et hospitalisation pour insulinothérapie IVSE.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Groupe SFAR/SFD — G. Cheisson, D. Benhamou, E. Cosson, C. Ichai, S. Jacqueminet, B. Nicolescu-Catargi, A. Ouattara, I. Tauveron, « Prise en charge du patient diabétique en péri opératoire » — Fiches simplifiées, version 2025.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante d'un document déjà lui-même conçu comme outil clinique simplifié — elle en reprend intégralement les algorithmes et tableaux posologiques, réorganisés en tableaux ligne-par-bande (plutôt que les diagrammes/tableaux à cellules fusionnées du PDF source) pour une lecture plus rapide sur mobile/PC, sans altérer aucune valeur numérique ni conduite à tenir. Elle ne remplace pas le texte intégral ni un outil clinique validé, et n'est ni éditée ni validée par la SFAR/SFD. <b>Vérifier toute posologie contre la source avant application.</b>",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

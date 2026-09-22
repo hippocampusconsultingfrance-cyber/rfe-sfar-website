@@ -1197,6 +1197,1573 @@ def extract_securisation_proc():
     return {"doc": "securisation_proc", "sections": blocks}
 
 
+def extract_mort_encephalique():
+    import style
+    import fiche_mort_encephalique as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    # SECTIONS here is (title, fn, new_page_bool) - a 3-tuple, unlike most other
+    # fiches' 2-tuples, because this fiche uses the chapter-boundary-only
+    # pagebreak pattern from CLAUDE.md's build pipeline step 7 - unpack accordingly.
+    for title, fn, _new_page in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "mort_encephalique", "sections": blocks}
+
+
+def extract_voies_aeriennes_adulte():
+    import style
+    import fiche_voies_aeriennes_adulte as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "voies_aeriennes_adulte", "sections": blocks}
+
+
+def extract_urgences_transfusionnelles_obstetricales():
+    import style
+    import fiche_urgences_transfusionnelles_obstetricales as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "urgences_transfusionnelles_obstetricales", "sections": blocks}
+
+
+def extract_sujet_age_esf():
+    import style
+    import fiche_sujet_age_esf as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "sujet_age_esf", "sections": blocks}
+
+
+def extract_douleur_reactualisation_2016():
+    import style
+    import fiche_douleur_reactualisation_2016 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "douleur_reactualisation_2016", "sections": blocks}
+
+
+def extract_ponction_lombaire():
+    import style
+    import fiche_ponction_lombaire as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "ponction_lombaire", "sections": blocks}
+
+
+def extract_amygdalectomie_enfant():
+    import style
+    import fiche_amygdalectomie_enfant as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "amygdalectomie_enfant", "sections": blocks}
+
+
+def extract_erreurs_medicamenteuses():
+    import style
+    import fiche_erreurs_medicamenteuses as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "erreurs_medicamenteuses", "sections": blocks}
+
+
+def extract_remplissage_perioperatoire():
+    import style
+    import fiche_remplissage_perioperatoire as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "remplissage_perioperatoire", "sections": blocks}
+
+
+def extract_thrombectomie():
+    import style
+    import fiche_thrombectomie as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "thrombectomie", "sections": blocks}
+
+
+def extract_insuffisance_analgesie_cesarienne():
+    import style
+    import fiche_insuffisance_analgesie_cesarienne as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "insuffisance_analgesie_cesarienne", "sections": blocks}
+
+
+def extract_relations_anesth_chir():
+    import style
+    import fiche_relations_anesth_chir as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "relations_anesth_chir", "sections": blocks}
+
+
+def extract_sauv():
+    import style
+    import fiche_sauv as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "sauv", "sections": blocks}
+
+
+def extract_catheters_veineux_centraux():
+    import style
+    import fiche_catheters_veineux_centraux as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "catheters_veineux_centraux", "sections": blocks}
+
+
+def extract_candidoses_aspergilloses():
+    import style
+    import fiche_candidoses_aspergilloses as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "candidoses_aspergilloses", "sections": blocks}
+
+
+def extract_bris_dentaires():
+    import style
+    import fiche_bris_dentaires as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "bris_dentaires", "sections": blocks}
+
+
+def extract_coronarien():
+    import style
+    import fiche_coronarien as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "coronarien", "sections": blocks}
+
+
+def extract_brule_grave():
+    import style
+    import fiche_brule_grave as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "brule_grave", "sections": blocks}
+
+
+def extract_tabagisme():
+    import style
+    import fiche_tabagisme as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "tabagisme", "sections": blocks}
+
+
+def extract_infections_intra_abdominales():
+    import style
+    import fiche_infections_intra_abdominales as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "infections_intra_abdominales", "sections": blocks}
+
+
+def extract_alr_perinerveuse():
+    import style
+    import fiche_alr_perinerveuse as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "alr_perinerveuse", "sections": blocks}
+
+
+def extract_urgences_ob_extrahosp():
+    import style
+    import fiche_urgences_ob_extrahosp as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "urgences_ob_extrahosp", "sections": blocks}
+
+
+def extract_aod_urgence():
+    import style
+    import fiche_aod_urgence as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "aod_urgence", "sections": blocks}
+
+
+def extract_plyo_transfusion():
+    import style
+    import fiche_plyo_transfusion as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "plyo_transfusion", "sections": blocks}
+
+
+def extract_tenue_vestimentaire():
+    import style
+    import fiche_tenue_vestimentaire as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "tenue_vestimentaire", "sections": blocks}
+
+
+def extract_alr_non_specialiste():
+    import style
+    import fiche_alr_non_specialiste as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "alr_non_specialiste", "sections": blocks}
+
+
+def extract_echo_acces_vasculaires():
+    import style
+    import fiche_echo_acces_vasculaires as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "echo_acces_vasculaires", "sections": blocks}
+
+
+def extract_tests_viscoelastiques():
+    import style
+    import fiche_tests_viscoelastiques as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "tests_viscoelastiques", "sections": blocks}
+
+
+def extract_eeg_cortical():
+    import style
+    import fiche_eeg_cortical as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "eeg_cortical", "sections": blocks}
+
+
+def extract_examens_pertinence_rea():
+    import style
+    import fiche_examens_pertinence_rea as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "examens_pertinence_rea", "sections": blocks}
+
+
+def extract_alr_pediatrie():
+    import style
+    import fiche_alr_pediatrie as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "alr_pediatrie", "sections": blocks}
+
+
+def extract_hospit_ambulatoire():
+    import style
+    import fiche_hospit_ambulatoire as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "hospit_ambulatoire", "sections": blocks}
+
+
+def extract_echo_alr():
+    import style
+    import fiche_echo_alr as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "echo_alr", "sections": blocks}
+
+
+def extract_alr_douleur_chronique():
+    import style
+    import fiche_alr_douleur_chronique as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "alr_douleur_chronique", "sections": blocks}
+
+
+def extract_infections_nosocomiales_rea():
+    import style
+    import fiche_infections_nosocomiales_rea as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "infections_nosocomiales_rea", "sections": blocks}
+
+
+def extract_nutrition_perioperatoire():
+    import style
+    import fiche_nutrition_perioperatoire as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "nutrition_perioperatoire", "sections": blocks}
+
+
+def extract_ivg_14sa():
+    import style
+    import fiche_ivg_14sa as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "ivg_14sa", "sections": blocks}
+
+
+def extract_aod_programme():
+    import style
+    import fiche_aod_programme as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "aod_programme", "sections": blocks}
+
+
+def extract_blocs_peripheriques_membres():
+    import style
+    import fiche_blocs_peripheriques_membres as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "blocs_peripheriques_membres", "sections": blocks}
+
+
+def extract_raac_colorectal():
+    import style
+    import fiche_raac_colorectal as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "raac_colorectal", "sections": blocks}
+
+
+def extract_chir_ambu_proctologie():
+    import style
+    import fiche_chir_ambu_proctologie as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "chir_ambu_proctologie", "sections": blocks}
+
+
+def extract_mieux_vivre_reanimation():
+    import style
+    import fiche_mieux_vivre_reanimation as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "mieux_vivre_reanimation", "sections": blocks}
+
+
+def extract_preparation_colique():
+    import style
+    import fiche_preparation_colique as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "preparation_colique", "sections": blocks}
+
+
+def extract_organisation_ar_obstetricale():
+    import style
+    import fiche_organisation_ar_obstetricale as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "organisation_ar_obstetricale", "sections": blocks}
+
+
+def extract_erreurs_medicamenteuses_ar_2016():
+    import style
+    import fiche_erreurs_medicamenteuses_ar_2016 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "erreurs_medicamenteuses_ar_2016", "sections": blocks}
+
+
+def extract_anesth_pediatrique_structures():
+    import style
+    import fiche_anesth_pediatrique_structures as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "anesth_pediatrique_structures", "sections": blocks}
+
+
+def extract_aod_dabigatran_urgence_2016():
+    import style
+    import fiche_aod_dabigatran_urgence_2016 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "aod_dabigatran_urgence_2016", "sections": blocks}
+
+
+def extract_tc_readaptation():
+    import style
+    import fiche_tc_readaptation as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "tc_readaptation", "sections": blocks}
+
+
+def extract_impact_environnemental_ag():
+    import style
+    import fiche_impact_environnemental_ag as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "impact_environnemental_ag", "sections": blocks}
+
+
+def extract_diabete_perioperatoire_2025():
+    import style
+    import fiche_diabete_perioperatoire_2025 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "diabete_perioperatoire_2025", "sections": blocks}
+
+
+def extract_anesth_cardiopathie_congenitale():
+    import style
+    import fiche_anesth_cardiopathie_congenitale as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "anesth_cardiopathie_congenitale", "sections": blocks}
+
+
+def extract_ressources_humaines_anesthesie_2024():
+    import style
+    import fiche_ressources_humaines_anesthesie_2024 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "ressources_humaines_anesthesie_2024", "sections": blocks}
+
+
+def extract_demarches_anticipees_don_organes_2024():
+    import style
+    import fiche_demarches_anticipees_don_organes_2024 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "demarches_anticipees_don_organes_2024", "sections": blocks}
+
+
+def extract_raac_orthopedique_2019():
+    import style
+    import fiche_raac_orthopedique_2019 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "raac_orthopedique_2019", "sections": blocks}
+
+
+def extract_reduction_antibiotiques_reanimation_2014():
+    import style
+    import fiche_reduction_antibiotiques_reanimation_2014 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "reduction_antibiotiques_reanimation_2014", "sections": blocks}
+
+
+def extract_simulation_soins_critiques_2019():
+    import style
+    import fiche_simulation_soins_critiques_2019 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "simulation_soins_critiques_2019", "sections": blocks}
+
+
+def extract_optimisation_beta_lactamines_2018():
+    import style
+    import fiche_optimisation_beta_lactamines_2018 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "optimisation_beta_lactamines_2018", "sections": blocks}
+
+
+def extract_raac_lobectomie_pulmonaire_2019():
+    import style
+    import fiche_raac_lobectomie_pulmonaire_2019 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "raac_lobectomie_pulmonaire_2019", "sections": blocks}
+
+
+def extract_raac_cardiaque_2021():
+    import style
+    import fiche_raac_cardiaque_2021 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "raac_cardiaque_2021", "sections": blocks}
+
+
+def extract_optimisation_hemodynamique_pediatrie_2024():
+    import style
+    import fiche_optimisation_hemodynamique_pediatrie_2024 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "optimisation_hemodynamique_pediatrie_2024", "sections": blocks}
+
+
+def extract_optimisation_hemodynamique_adulte_2024():
+    import style
+    import fiche_optimisation_hemodynamique_adulte_2024 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "optimisation_hemodynamique_adulte_2024", "sections": blocks}
+
+
+def extract_resection_hepatique_2025():
+    import style
+    import fiche_resection_hepatique_2025 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "resection_hepatique_2025", "sections": blocks}
+
+
+def extract_programme_optimisation_perioperatoire_2022():
+    import style
+    import fiche_programme_optimisation_perioperatoire_2022 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "programme_optimisation_perioperatoire_2022", "sections": blocks}
+
+
+def extract_facteurs_humains_2022():
+    import style
+    import fiche_facteurs_humains_2022 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "facteurs_humains_2022", "sections": blocks}
+
+
+def extract_douleur_accouchement_2025():
+    import style
+    import fiche_douleur_accouchement_2025 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "douleur_accouchement_2025", "sections": blocks}
+
+
+def extract_erreurs_medicamenteuses_2024():
+    import style
+    import fiche_erreurs_medicamenteuses_2024 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "erreurs_medicamenteuses_2024", "sections": blocks}
+
+
+def extract_organisation_anesthesie_pediatrique_2023():
+    import style
+    import fiche_organisation_anesthesie_pediatrique_2023 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "organisation_anesthesie_pediatrique_2023", "sections": blocks}
+
+
+def extract_organisation_usc_2018():
+    import style
+    import fiche_organisation_usc_2018 as m
+    trace = []
+    make_module_patches(m, trace)
+    make_module_patches(style, trace)
+
+    blocks = []
+    for title, fn in m.SECTIONS:
+        items = fn()
+        resolved = []
+        for x in items:
+            r = resolve(x)
+            if r is None:
+                continue
+            if isinstance(r, list):
+                resolved.extend(v for v in r if v is not None)
+            else:
+                resolved.append(r)
+        blocks.append({"title": title, "items": resolved})
+    return {"doc": "organisation_usc_2018", "sections": blocks}
+
+
 if __name__ == "__main__":
     # NOTE 2026-09-04: fiche_anticoagulants.py, fiche_ecbu.py and annexe_specialites.py
     # were lost from the /tmp scratchpad (along with style.py) during a long idle gap,
@@ -1779,3 +3346,615 @@ if __name__ == "__main__":
         json.dump(securisation_proc, f, ensure_ascii=False, indent=1)
     print("securisation_proc sections:", len(securisation_proc["sections"]),
           "total blocks:", sum(len(s["items"]) for s in securisation_proc["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc"):
+            del sys.modules[mn]
+    mort_encephalique = extract_mort_encephalique()
+    with open(os.path.join(BUILD_DIR, "content_mort_encephalique.json"), "w") as f:
+        json.dump(mort_encephalique, f, ensure_ascii=False, indent=1)
+    print("mort_encephalique sections:", len(mort_encephalique["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in mort_encephalique["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc", "fiche_mort_encephalique"):
+            del sys.modules[mn]
+    voies_aeriennes_adulte = extract_voies_aeriennes_adulte()
+    with open(os.path.join(BUILD_DIR, "content_voies_aeriennes_adulte.json"), "w") as f:
+        json.dump(voies_aeriennes_adulte, f, ensure_ascii=False, indent=1)
+    print("voies_aeriennes_adulte sections:", len(voies_aeriennes_adulte["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in voies_aeriennes_adulte["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc", "fiche_mort_encephalique", "fiche_voies_aeriennes_adulte"):
+            del sys.modules[mn]
+    urgences_transfusionnelles_obstetricales = extract_urgences_transfusionnelles_obstetricales()
+    with open(os.path.join(BUILD_DIR, "content_urgences_transfusionnelles_obstetricales.json"), "w") as f:
+        json.dump(urgences_transfusionnelles_obstetricales, f, ensure_ascii=False, indent=1)
+    print("urgences_transfusionnelles_obstetricales sections:", len(urgences_transfusionnelles_obstetricales["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in urgences_transfusionnelles_obstetricales["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc", "fiche_mort_encephalique", "fiche_voies_aeriennes_adulte", "fiche_urgences_transfusionnelles_obstetricales"):
+            del sys.modules[mn]
+    sujet_age_esf = extract_sujet_age_esf()
+    with open(os.path.join(BUILD_DIR, "content_sujet_age_esf.json"), "w") as f:
+        json.dump(sujet_age_esf, f, ensure_ascii=False, indent=1)
+    print("sujet_age_esf sections:", len(sujet_age_esf["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in sujet_age_esf["sections"]))
+
+    for mn in list(sys.modules):
+        if mn in ("fiche_ecbu", "style", "annexe_specialites", "fiche_anticoagulants", "fiche_choc_hemorragique", "fiche_intubation_urgence", "fiche_sepsis", "fiche_urgences_obstetricales", "fiche_anaphylaxie", "fiche_preeclampsie", "fiche_hyperthermie_maligne", "fiche_anticoag_urgence", "fiche_traumatisme_abdominal", "fiche_sedation_reanimation", "fiche_sedation_urgences", "fiche_vni", "fiche_aap_urgence", "fiche_curares", "fiche_remplissage", "fiche_traumatisme_membre", "fiche_voies_aeriennes_enfant", "fiche_intubation_difficile_adulte", "fiche_traumatisme_pelvien", "fiche_traumatisme_thoracique", "fiche_traumatisme_cranien", "fiche_traumatisme_vertebromedullaire", "fiche_intubation_reanimation", "fiche_traumatisme_cranien_leger", "fiche_lat_soins_critiques", "fiche_sdra", "fiche_pavm", "fiche_tracheotomie", "fiche_nutrition", "fiche_eer", "fiche_ira", "fiche_ih", "fiche_epanchement_pleural", "fiche_anemie", "fiche_hypothermie", "fiche_nvpo", "fiche_aap_programmee", "fiche_mtev_perioperatoire", "fiche_glycemie", "fiche_mal_epileptique", "fiche_allergie_prevention", "fiche_antibioprophylaxie", "fiche_controle_temperature", "fiche_tih", "fiche_civd", "fiche_eclsa", "fiche_transport_intrahospitalier", "fiche_transfusion_plasma", "fiche_sevrage_vm", "fiche_asthme_aigu_grave", "fiche_pancreatite", "fiche_corticotherapie", "fiche_antibiotherapie_probabiliste", "fiche_hsa", "fiche_sepsis_hemodynamique", "fiche_securisation_proc", "fiche_mort_encephalique", "fiche_voies_aeriennes_adulte", "fiche_urgences_transfusionnelles_obstetricales", "fiche_sujet_age_esf"):
+            del sys.modules[mn]
+    bris_dentaires = extract_bris_dentaires()
+    with open(os.path.join(BUILD_DIR, "content_bris_dentaires.json"), "w") as f:
+        json.dump(bris_dentaires, f, ensure_ascii=False, indent=1)
+    print("bris_dentaires sections:", len(bris_dentaires["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in bris_dentaires["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    douleur_reactualisation_2016 = extract_douleur_reactualisation_2016()
+    with open(os.path.join(BUILD_DIR, "content_douleur_reactualisation_2016.json"), "w") as f:
+        json.dump(douleur_reactualisation_2016, f, ensure_ascii=False, indent=1)
+    print("douleur_reactualisation_2016 sections:", len(douleur_reactualisation_2016["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in douleur_reactualisation_2016["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    ponction_lombaire = extract_ponction_lombaire()
+    with open(os.path.join(BUILD_DIR, "content_ponction_lombaire.json"), "w") as f:
+        json.dump(ponction_lombaire, f, ensure_ascii=False, indent=1)
+    print("ponction_lombaire sections:", len(ponction_lombaire["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in ponction_lombaire["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    amygdalectomie_enfant = extract_amygdalectomie_enfant()
+    with open(os.path.join(BUILD_DIR, "content_amygdalectomie_enfant.json"), "w") as f:
+        json.dump(amygdalectomie_enfant, f, ensure_ascii=False, indent=1)
+    print("amygdalectomie_enfant sections:", len(amygdalectomie_enfant["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in amygdalectomie_enfant["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    candidoses_aspergilloses = extract_candidoses_aspergilloses()
+    with open(os.path.join(BUILD_DIR, "content_candidoses_aspergilloses.json"), "w") as f:
+        json.dump(candidoses_aspergilloses, f, ensure_ascii=False, indent=1)
+    print("candidoses_aspergilloses sections:", len(candidoses_aspergilloses["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in candidoses_aspergilloses["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    catheters_veineux_centraux = extract_catheters_veineux_centraux()
+    with open(os.path.join(BUILD_DIR, "content_catheters_veineux_centraux.json"), "w") as f:
+        json.dump(catheters_veineux_centraux, f, ensure_ascii=False, indent=1)
+    print("catheters_veineux_centraux sections:", len(catheters_veineux_centraux["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in catheters_veineux_centraux["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    sauv = extract_sauv()
+    with open(os.path.join(BUILD_DIR, "content_sauv.json"), "w") as f:
+        json.dump(sauv, f, ensure_ascii=False, indent=1)
+    print("sauv sections:", len(sauv["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in sauv["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    relations_anesth_chir = extract_relations_anesth_chir()
+    with open(os.path.join(BUILD_DIR, "content_relations_anesth_chir.json"), "w") as f:
+        json.dump(relations_anesth_chir, f, ensure_ascii=False, indent=1)
+    print("relations_anesth_chir sections:", len(relations_anesth_chir["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in relations_anesth_chir["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    erreurs_medicamenteuses = extract_erreurs_medicamenteuses()
+    with open(os.path.join(BUILD_DIR, "content_erreurs_medicamenteuses.json"), "w") as f:
+        json.dump(erreurs_medicamenteuses, f, ensure_ascii=False, indent=1)
+    print("erreurs_medicamenteuses sections:", len(erreurs_medicamenteuses["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in erreurs_medicamenteuses["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    remplissage_perioperatoire = extract_remplissage_perioperatoire()
+    with open(os.path.join(BUILD_DIR, "content_remplissage_perioperatoire.json"), "w") as f:
+        json.dump(remplissage_perioperatoire, f, ensure_ascii=False, indent=1)
+    print("remplissage_perioperatoire sections:", len(remplissage_perioperatoire["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in remplissage_perioperatoire["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    thrombectomie = extract_thrombectomie()
+    with open(os.path.join(BUILD_DIR, "content_thrombectomie.json"), "w") as f:
+        json.dump(thrombectomie, f, ensure_ascii=False, indent=1)
+    print("thrombectomie sections:", len(thrombectomie["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in thrombectomie["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    insuffisance_analgesie_cesarienne = extract_insuffisance_analgesie_cesarienne()
+    with open(os.path.join(BUILD_DIR, "content_insuffisance_analgesie_cesarienne.json"), "w") as f:
+        json.dump(insuffisance_analgesie_cesarienne, f, ensure_ascii=False, indent=1)
+    print("insuffisance_analgesie_cesarienne sections:", len(insuffisance_analgesie_cesarienne["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in insuffisance_analgesie_cesarienne["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    coronarien = extract_coronarien()
+    with open(os.path.join(BUILD_DIR, "content_coronarien.json"), "w") as f:
+        json.dump(coronarien, f, ensure_ascii=False, indent=1)
+    print("coronarien sections:", len(coronarien["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in coronarien["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    brule_grave = extract_brule_grave()
+    with open(os.path.join(BUILD_DIR, "content_brule_grave.json"), "w") as f:
+        json.dump(brule_grave, f, ensure_ascii=False, indent=1)
+    print("brule_grave sections:", len(brule_grave["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in brule_grave["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    tabagisme = extract_tabagisme()
+    with open(os.path.join(BUILD_DIR, "content_tabagisme.json"), "w") as f:
+        json.dump(tabagisme, f, ensure_ascii=False, indent=1)
+    print("tabagisme sections:", len(tabagisme["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in tabagisme["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    infections_intra_abdominales = extract_infections_intra_abdominales()
+    with open(os.path.join(BUILD_DIR, "content_infections_intra_abdominales.json"), "w") as f:
+        json.dump(infections_intra_abdominales, f, ensure_ascii=False, indent=1)
+    print("infections_intra_abdominales sections:", len(infections_intra_abdominales["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in infections_intra_abdominales["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    alr_perinerveuse = extract_alr_perinerveuse()
+    with open(os.path.join(BUILD_DIR, "content_alr_perinerveuse.json"), "w") as f:
+        json.dump(alr_perinerveuse, f, ensure_ascii=False, indent=1)
+    print("alr_perinerveuse sections:", len(alr_perinerveuse["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in alr_perinerveuse["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    urgences_ob_extrahosp = extract_urgences_ob_extrahosp()
+    with open(os.path.join(BUILD_DIR, "content_urgences_ob_extrahosp.json"), "w") as f:
+        json.dump(urgences_ob_extrahosp, f, ensure_ascii=False, indent=1)
+    print("urgences_ob_extrahosp sections:", len(urgences_ob_extrahosp["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in urgences_ob_extrahosp["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    aod_urgence = extract_aod_urgence()
+    with open(os.path.join(BUILD_DIR, "content_aod_urgence.json"), "w") as f:
+        json.dump(aod_urgence, f, ensure_ascii=False, indent=1)
+    print("aod_urgence sections:", len(aod_urgence["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in aod_urgence["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    plyo_transfusion = extract_plyo_transfusion()
+    with open(os.path.join(BUILD_DIR, "content_plyo_transfusion.json"), "w") as f:
+        json.dump(plyo_transfusion, f, ensure_ascii=False, indent=1)
+    print("plyo_transfusion sections:", len(plyo_transfusion["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in plyo_transfusion["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    tenue_vestimentaire = extract_tenue_vestimentaire()
+    with open(os.path.join(BUILD_DIR, "content_tenue_vestimentaire.json"), "w") as f:
+        json.dump(tenue_vestimentaire, f, ensure_ascii=False, indent=1)
+    print("tenue_vestimentaire sections:", len(tenue_vestimentaire["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in tenue_vestimentaire["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    alr_non_specialiste = extract_alr_non_specialiste()
+    with open(os.path.join(BUILD_DIR, "content_alr_non_specialiste.json"), "w") as f:
+        json.dump(alr_non_specialiste, f, ensure_ascii=False, indent=1)
+    print("alr_non_specialiste sections:", len(alr_non_specialiste["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in alr_non_specialiste["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    echo_acces_vasculaires = extract_echo_acces_vasculaires()
+    with open(os.path.join(BUILD_DIR, "content_echo_acces_vasculaires.json"), "w") as f:
+        json.dump(echo_acces_vasculaires, f, ensure_ascii=False, indent=1)
+    print("echo_acces_vasculaires sections:", len(echo_acces_vasculaires["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in echo_acces_vasculaires["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    tests_viscoelastiques = extract_tests_viscoelastiques()
+    with open(os.path.join(BUILD_DIR, "content_tests_viscoelastiques.json"), "w") as f:
+        json.dump(tests_viscoelastiques, f, ensure_ascii=False, indent=1)
+    print("tests_viscoelastiques sections:", len(tests_viscoelastiques["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in tests_viscoelastiques["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    eeg_cortical = extract_eeg_cortical()
+    with open(os.path.join(BUILD_DIR, "content_eeg_cortical.json"), "w") as f:
+        json.dump(eeg_cortical, f, ensure_ascii=False, indent=1)
+    print("eeg_cortical sections:", len(eeg_cortical["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in eeg_cortical["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    examens_pertinence_rea = extract_examens_pertinence_rea()
+    with open(os.path.join(BUILD_DIR, "content_examens_pertinence_rea.json"), "w") as f:
+        json.dump(examens_pertinence_rea, f, ensure_ascii=False, indent=1)
+    print("examens_pertinence_rea sections:", len(examens_pertinence_rea["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in examens_pertinence_rea["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    alr_pediatrie = extract_alr_pediatrie()
+    with open(os.path.join(BUILD_DIR, "content_alr_pediatrie.json"), "w") as f:
+        json.dump(alr_pediatrie, f, ensure_ascii=False, indent=1)
+    print("alr_pediatrie sections:", len(alr_pediatrie["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in alr_pediatrie["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    hospit_ambulatoire = extract_hospit_ambulatoire()
+    with open(os.path.join(BUILD_DIR, "content_hospit_ambulatoire.json"), "w") as f:
+        json.dump(hospit_ambulatoire, f, ensure_ascii=False, indent=1)
+    print("hospit_ambulatoire sections:", len(hospit_ambulatoire["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in hospit_ambulatoire["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    echo_alr = extract_echo_alr()
+    with open(os.path.join(BUILD_DIR, "content_echo_alr.json"), "w") as f:
+        json.dump(echo_alr, f, ensure_ascii=False, indent=1)
+    print("echo_alr sections:", len(echo_alr["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in echo_alr["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    alr_douleur_chronique = extract_alr_douleur_chronique()
+    with open(os.path.join(BUILD_DIR, "content_alr_douleur_chronique.json"), "w") as f:
+        json.dump(alr_douleur_chronique, f, ensure_ascii=False, indent=1)
+    print("alr_douleur_chronique sections:", len(alr_douleur_chronique["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in alr_douleur_chronique["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    infections_nosocomiales_rea = extract_infections_nosocomiales_rea()
+    with open(os.path.join(BUILD_DIR, "content_infections_nosocomiales_rea.json"), "w") as f:
+        json.dump(infections_nosocomiales_rea, f, ensure_ascii=False, indent=1)
+    print("infections_nosocomiales_rea sections:", len(infections_nosocomiales_rea["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in infections_nosocomiales_rea["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    nutrition_perioperatoire = extract_nutrition_perioperatoire()
+    with open(os.path.join(BUILD_DIR, "content_nutrition_perioperatoire.json"), "w") as f:
+        json.dump(nutrition_perioperatoire, f, ensure_ascii=False, indent=1)
+    print("nutrition_perioperatoire sections:", len(nutrition_perioperatoire["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in nutrition_perioperatoire["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    ivg_14sa = extract_ivg_14sa()
+    with open(os.path.join(BUILD_DIR, "content_ivg_14sa.json"), "w") as f:
+        json.dump(ivg_14sa, f, ensure_ascii=False, indent=1)
+    print("ivg_14sa sections:", len(ivg_14sa["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in ivg_14sa["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    aod_programme = extract_aod_programme()
+    with open(os.path.join(BUILD_DIR, "content_aod_programme.json"), "w") as f:
+        json.dump(aod_programme, f, ensure_ascii=False, indent=1)
+    print("aod_programme sections:", len(aod_programme["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in aod_programme["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    blocs_peripheriques_membres = extract_blocs_peripheriques_membres()
+    with open(os.path.join(BUILD_DIR, "content_blocs_peripheriques_membres.json"), "w") as f:
+        json.dump(blocs_peripheriques_membres, f, ensure_ascii=False, indent=1)
+    print("blocs_peripheriques_membres sections:", len(blocs_peripheriques_membres["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in blocs_peripheriques_membres["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    raac_colorectal = extract_raac_colorectal()
+    with open(os.path.join(BUILD_DIR, "content_raac_colorectal.json"), "w") as f:
+        json.dump(raac_colorectal, f, ensure_ascii=False, indent=1)
+    print("raac_colorectal sections:", len(raac_colorectal["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in raac_colorectal["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    chir_ambu_proctologie = extract_chir_ambu_proctologie()
+    with open(os.path.join(BUILD_DIR, "content_chir_ambu_proctologie.json"), "w") as f:
+        json.dump(chir_ambu_proctologie, f, ensure_ascii=False, indent=1)
+    print("chir_ambu_proctologie sections:", len(chir_ambu_proctologie["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in chir_ambu_proctologie["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    mieux_vivre_reanimation = extract_mieux_vivre_reanimation()
+    with open(os.path.join(BUILD_DIR, "content_mieux_vivre_reanimation.json"), "w") as f:
+        json.dump(mieux_vivre_reanimation, f, ensure_ascii=False, indent=1)
+    print("mieux_vivre_reanimation sections:", len(mieux_vivre_reanimation["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in mieux_vivre_reanimation["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    preparation_colique = extract_preparation_colique()
+    with open(os.path.join(BUILD_DIR, "content_preparation_colique.json"), "w") as f:
+        json.dump(preparation_colique, f, ensure_ascii=False, indent=1)
+    print("preparation_colique sections:", len(preparation_colique["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in preparation_colique["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    organisation_ar_obstetricale = extract_organisation_ar_obstetricale()
+    with open(os.path.join(BUILD_DIR, "content_organisation_ar_obstetricale.json"), "w") as f:
+        json.dump(organisation_ar_obstetricale, f, ensure_ascii=False, indent=1)
+    print("organisation_ar_obstetricale sections:", len(organisation_ar_obstetricale["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in organisation_ar_obstetricale["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    erreurs_medicamenteuses_ar_2016 = extract_erreurs_medicamenteuses_ar_2016()
+    with open(os.path.join(BUILD_DIR, "content_erreurs_medicamenteuses_ar_2016.json"), "w") as f:
+        json.dump(erreurs_medicamenteuses_ar_2016, f, ensure_ascii=False, indent=1)
+    print("erreurs_medicamenteuses_ar_2016 sections:", len(erreurs_medicamenteuses_ar_2016["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in erreurs_medicamenteuses_ar_2016["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    anesth_pediatrique_structures = extract_anesth_pediatrique_structures()
+    with open(os.path.join(BUILD_DIR, "content_anesth_pediatrique_structures.json"), "w") as f:
+        json.dump(anesth_pediatrique_structures, f, ensure_ascii=False, indent=1)
+    print("anesth_pediatrique_structures sections:", len(anesth_pediatrique_structures["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in anesth_pediatrique_structures["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    aod_dabigatran_urgence_2016 = extract_aod_dabigatran_urgence_2016()
+    with open(os.path.join(BUILD_DIR, "content_aod_dabigatran_urgence_2016.json"), "w") as f:
+        json.dump(aod_dabigatran_urgence_2016, f, ensure_ascii=False, indent=1)
+    print("aod_dabigatran_urgence_2016 sections:", len(aod_dabigatran_urgence_2016["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in aod_dabigatran_urgence_2016["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    tc_readaptation = extract_tc_readaptation()
+    with open(os.path.join(BUILD_DIR, "content_tc_readaptation.json"), "w") as f:
+        json.dump(tc_readaptation, f, ensure_ascii=False, indent=1)
+    print("tc_readaptation sections:", len(tc_readaptation["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in tc_readaptation["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    impact_environnemental_ag = extract_impact_environnemental_ag()
+    with open(os.path.join(BUILD_DIR, "content_impact_environnemental_ag.json"), "w") as f:
+        json.dump(impact_environnemental_ag, f, ensure_ascii=False, indent=1)
+    print("impact_environnemental_ag sections:", len(impact_environnemental_ag["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in impact_environnemental_ag["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    diabete_perioperatoire_2025 = extract_diabete_perioperatoire_2025()
+    with open(os.path.join(BUILD_DIR, "content_diabete_perioperatoire_2025.json"), "w") as f:
+        json.dump(diabete_perioperatoire_2025, f, ensure_ascii=False, indent=1)
+    print("diabete_perioperatoire_2025 sections:", len(diabete_perioperatoire_2025["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in diabete_perioperatoire_2025["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    anesth_cardiopathie_congenitale = extract_anesth_cardiopathie_congenitale()
+    with open(os.path.join(BUILD_DIR, "content_anesth_cardiopathie_congenitale.json"), "w") as f:
+        json.dump(anesth_cardiopathie_congenitale, f, ensure_ascii=False, indent=1)
+    print("anesth_cardiopathie_congenitale sections:", len(anesth_cardiopathie_congenitale["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in anesth_cardiopathie_congenitale["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    ressources_humaines_anesthesie_2024 = extract_ressources_humaines_anesthesie_2024()
+    with open(os.path.join(BUILD_DIR, "content_ressources_humaines_anesthesie_2024.json"), "w") as f:
+        json.dump(ressources_humaines_anesthesie_2024, f, ensure_ascii=False, indent=1)
+    print("ressources_humaines_anesthesie_2024 sections:", len(ressources_humaines_anesthesie_2024["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in ressources_humaines_anesthesie_2024["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    demarches_anticipees_don_organes_2024 = extract_demarches_anticipees_don_organes_2024()
+    with open(os.path.join(BUILD_DIR, "content_demarches_anticipees_don_organes_2024.json"), "w") as f:
+        json.dump(demarches_anticipees_don_organes_2024, f, ensure_ascii=False, indent=1)
+    print("demarches_anticipees_don_organes_2024 sections:", len(demarches_anticipees_don_organes_2024["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in demarches_anticipees_don_organes_2024["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    raac_orthopedique_2019 = extract_raac_orthopedique_2019()
+    with open(os.path.join(BUILD_DIR, "content_raac_orthopedique_2019.json"), "w") as f:
+        json.dump(raac_orthopedique_2019, f, ensure_ascii=False, indent=1)
+    print("raac_orthopedique_2019 sections:", len(raac_orthopedique_2019["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in raac_orthopedique_2019["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    reduction_antibiotiques_reanimation_2014 = extract_reduction_antibiotiques_reanimation_2014()
+    with open(os.path.join(BUILD_DIR, "content_reduction_antibiotiques_reanimation_2014.json"), "w") as f:
+        json.dump(reduction_antibiotiques_reanimation_2014, f, ensure_ascii=False, indent=1)
+    print("reduction_antibiotiques_reanimation_2014 sections:", len(reduction_antibiotiques_reanimation_2014["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in reduction_antibiotiques_reanimation_2014["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    simulation_soins_critiques_2019 = extract_simulation_soins_critiques_2019()
+    with open(os.path.join(BUILD_DIR, "content_simulation_soins_critiques_2019.json"), "w") as f:
+        json.dump(simulation_soins_critiques_2019, f, ensure_ascii=False, indent=1)
+    print("simulation_soins_critiques_2019 sections:", len(simulation_soins_critiques_2019["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in simulation_soins_critiques_2019["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    optimisation_beta_lactamines_2018 = extract_optimisation_beta_lactamines_2018()
+    with open(os.path.join(BUILD_DIR, "content_optimisation_beta_lactamines_2018.json"), "w") as f:
+        json.dump(optimisation_beta_lactamines_2018, f, ensure_ascii=False, indent=1)
+    print("optimisation_beta_lactamines_2018 sections:", len(optimisation_beta_lactamines_2018["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in optimisation_beta_lactamines_2018["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    raac_lobectomie_pulmonaire_2019 = extract_raac_lobectomie_pulmonaire_2019()
+    with open(os.path.join(BUILD_DIR, "content_raac_lobectomie_pulmonaire_2019.json"), "w") as f:
+        json.dump(raac_lobectomie_pulmonaire_2019, f, ensure_ascii=False, indent=1)
+    print("raac_lobectomie_pulmonaire_2019 sections:", len(raac_lobectomie_pulmonaire_2019["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in raac_lobectomie_pulmonaire_2019["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    raac_cardiaque_2021 = extract_raac_cardiaque_2021()
+    with open(os.path.join(BUILD_DIR, "content_raac_cardiaque_2021.json"), "w") as f:
+        json.dump(raac_cardiaque_2021, f, ensure_ascii=False, indent=1)
+    print("raac_cardiaque_2021 sections:", len(raac_cardiaque_2021["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in raac_cardiaque_2021["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    optimisation_hemodynamique_pediatrie_2024 = extract_optimisation_hemodynamique_pediatrie_2024()
+    with open(os.path.join(BUILD_DIR, "content_optimisation_hemodynamique_pediatrie_2024.json"), "w") as f:
+        json.dump(optimisation_hemodynamique_pediatrie_2024, f, ensure_ascii=False, indent=1)
+    print("optimisation_hemodynamique_pediatrie_2024 sections:", len(optimisation_hemodynamique_pediatrie_2024["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in optimisation_hemodynamique_pediatrie_2024["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    optimisation_hemodynamique_adulte_2024 = extract_optimisation_hemodynamique_adulte_2024()
+    with open(os.path.join(BUILD_DIR, "content_optimisation_hemodynamique_adulte_2024.json"), "w") as f:
+        json.dump(optimisation_hemodynamique_adulte_2024, f, ensure_ascii=False, indent=1)
+    print("optimisation_hemodynamique_adulte_2024 sections:", len(optimisation_hemodynamique_adulte_2024["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in optimisation_hemodynamique_adulte_2024["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    resection_hepatique_2025 = extract_resection_hepatique_2025()
+    with open(os.path.join(BUILD_DIR, "content_resection_hepatique_2025.json"), "w") as f:
+        json.dump(resection_hepatique_2025, f, ensure_ascii=False, indent=1)
+    print("resection_hepatique_2025 sections:", len(resection_hepatique_2025["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in resection_hepatique_2025["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    programme_optimisation_perioperatoire_2022 = extract_programme_optimisation_perioperatoire_2022()
+    with open(os.path.join(BUILD_DIR, "content_programme_optimisation_perioperatoire_2022.json"), "w") as f:
+        json.dump(programme_optimisation_perioperatoire_2022, f, ensure_ascii=False, indent=1)
+    print("programme_optimisation_perioperatoire_2022 sections:", len(programme_optimisation_perioperatoire_2022["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in programme_optimisation_perioperatoire_2022["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    facteurs_humains_2022 = extract_facteurs_humains_2022()
+    with open(os.path.join(BUILD_DIR, "content_facteurs_humains_2022.json"), "w") as f:
+        json.dump(facteurs_humains_2022, f, ensure_ascii=False, indent=1)
+    print("facteurs_humains_2022 sections:", len(facteurs_humains_2022["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in facteurs_humains_2022["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    douleur_accouchement_2025 = extract_douleur_accouchement_2025()
+    with open(os.path.join(BUILD_DIR, "content_douleur_accouchement_2025.json"), "w") as f:
+        json.dump(douleur_accouchement_2025, f, ensure_ascii=False, indent=1)
+    print("douleur_accouchement_2025 sections:", len(douleur_accouchement_2025["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in douleur_accouchement_2025["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    erreurs_medicamenteuses_2024 = extract_erreurs_medicamenteuses_2024()
+    with open(os.path.join(BUILD_DIR, "content_erreurs_medicamenteuses_2024.json"), "w") as f:
+        json.dump(erreurs_medicamenteuses_2024, f, ensure_ascii=False, indent=1)
+    print("erreurs_medicamenteuses_2024 sections:", len(erreurs_medicamenteuses_2024["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in erreurs_medicamenteuses_2024["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    organisation_anesthesie_pediatrique_2023 = extract_organisation_anesthesie_pediatrique_2023()
+    with open(os.path.join(BUILD_DIR, "content_organisation_anesthesie_pediatrique_2023.json"), "w") as f:
+        json.dump(organisation_anesthesie_pediatrique_2023, f, ensure_ascii=False, indent=1)
+    print("organisation_anesthesie_pediatrique_2023 sections:", len(organisation_anesthesie_pediatrique_2023["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in organisation_anesthesie_pediatrique_2023["sections"]))
+
+    for mn in list(sys.modules):
+        if mn.startswith("fiche_") or mn in ("style", "annexe_specialites"):
+            del sys.modules[mn]
+    organisation_usc_2018 = extract_organisation_usc_2018()
+    with open(os.path.join(BUILD_DIR, "content_organisation_usc_2018.json"), "w") as f:
+        json.dump(organisation_usc_2018, f, ensure_ascii=False, indent=1)
+    print("organisation_usc_2018 sections:", len(organisation_usc_2018["sections"]),
+          "total blocks:", sum(len(s["items"]) for s in organisation_usc_2018["sections"]))

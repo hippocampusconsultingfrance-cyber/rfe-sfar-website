@@ -1,0 +1,563 @@
+{
+ "doc": "simulation_soins_critiques_2019",
+ "sections": [
+  {
+   "title": "Intérêts de l'apprentissage par simulation en soins critiques",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> RPP commune SRLF/SFAR/SFMU/SOFRASIMS sur l'intérêt de la simulation en soins critiques (anesthésie-réanimation, réanimation, médecine d'urgence) — 24 recommandations réparties en 3 champs : compétences techniques (10), compétences non techniques (12), situations sanitaires exceptionnelles (2). Simulation « basse fidélité » (mannequins/simulateurs simples, faible réalisme) vs « haute fidélité » (simulateurs avancés, immersion réaliste) — les deux ont leur place selon l'objectif pédagogique.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "AF"
+       },
+       {
+        "t": "p",
+        "html": "<b>AF = Accord Fort</b> — cotation GRADE grid (≥ 70 % d'opinions favorables, &lt; 20 % d'opinions contraires). <b>Les 24 recommandations ont toutes recueilli un accord fort</b>, sans exception (aucune à accord faible). Terminologie RPP : « les experts suggèrent de faire/ne pas faire » — pas de grade GRADE numérique par item (méthode GRADE utilisée seulement pour l'analyse de la littérature en amont).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Compétences techniques en soins critiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cotation",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pour l'apprentissage des gestes techniques en formation initiale, afin d'en améliorer l'acquisition.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pour maintenir la compétence des professionnels en exercice en formation continue, ou lors de l'introduction de nouvelles techniques ou matériels.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser préférentiellement la simulation basse fidélité, plutôt que haute fidélité, pour l'apprentissage des gestes techniques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Évaluer systématiquement l'impact de la simulation sur l'apprentissage des apprenants à l'aide d'indicateurs spécifiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser la simulation comme méthode pédagogique unique, sans intégration à un curriculum de formation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cotation",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Adapter la liste de compétences techniques enseignées par simulation en formation initiale aux conditions spécifiques d'exercice, en respectant les obligations réglementaires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pour l'apprentissage de la gestion des voies aériennes en formation initiale, pour améliorer l'apprentissage du geste et la performance lors de sa réalisation sur les patients.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pour l'apprentissage de la pose des cathéters veineux centraux, pour améliorer la confiance et les connaissances des apprenants et les pratiques professionnelles/soins apportés aux patients.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation basse fidélité pour l'apprentissage en formation initiale du cathétérisme artériel, pour améliorer la performance et réduire les complications chez les patients.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pour la formation initiale à la pose d'un drain pleural, pour améliorer la confiance et la performance des apprenants et réduire le taux de complications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Compétences non techniques en soins critiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cotation",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pour mieux développer et structurer l'apprentissage des compétences non techniques lors de l'intégration des novices médicaux et paramédicaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation haute fidélité pour développer les compétences non techniques en soins critiques, en formation initiale et continue.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation haute fidélité pour améliorer le travail en équipe pluri-professionnel dans la gestion de crises en soins critiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pour améliorer les compétences en communication entre professionnels en soins critiques, en formation initiale et continue, médicale et paramédicale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pour développer les compétences en communication avec les patients et leurs proches, en formation initiale et continue.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cotation",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation afin d'évaluer les connaissances antérieures et corriger les erreurs cognitives des apprenants en soins critiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation afin d'améliorer la conscience de la situation en soins critiques, en formation initiale et continue, médicale et paramédicale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation afin d'améliorer la résolution de problème et la prise de décision en soins critiques, en formation initiale et continue médicale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation afin de développer les compétences relationnelles (notamment gestion des désaccords et conflits) pour les médicaux et paramédicaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pluri-professionnelle ou inter-professionnelle pour développer les compétences non techniques en soins critiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser des outils d'évaluation spécifique du travail d'équipe (ex. échelles TEAM, ANTS) lors des formations par simulation centrées sur les compétences non techniques, pour améliorer la performance des équipes.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Faire un débriefing afin d'améliorer l'apprentissage par simulation des compétences non techniques en soins critiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Situations sanitaires exceptionnelles",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Cotation",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation pour acquérir les compétences nécessaires à la prise en charge des situations sanitaires exceptionnelles, sans qu'un outil particulier puisse être privilégié.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la simulation afin d'améliorer la confiance et les connaissances des apprenants en formation initiale, et d'améliorer les pratiques professionnelles pour le tri des victimes lors de situations sanitaires exceptionnelles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SRLF/SFAR/SFMU/SOFRASIMS, « Intérêts de l'apprentissage par simulation en soins critiques », RPP, textes validés par les CA de la SRLF (20/12/2018), de la SFAR (10/01/2019), de la SFMU (16/01/2019) et de la SOFRASIMS (18/01/2019). Méthode GRADE (analyse de la littérature) + cotation GRADE grid. ~150 références bibliographiques citées dans le texte intégral (non reproduites ici).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 24 recommandations du texte source mais condense l'argumentaire de chaque item (études citées) et omet la composition nominative du groupe d'experts ainsi que les grilles détaillées des outils d'évaluation (TEAM, ANTS). Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par les sociétés savantes concernées.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

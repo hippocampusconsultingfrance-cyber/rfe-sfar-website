@@ -1,0 +1,335 @@
+{
+ "doc": "ressources_humaines_anesthesie_2024",
+ "sections": [
+  {
+   "title": "Ressources humaines médicales en anesthésie programmée",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Champ :</b> anesthésie programmée (sédation, AG, ALR axiale et/ou périphérique) hors urgence, hors soins critiques, <b>hors anesthésie pédiatrique et obstétricale</b> (fiches dédiées), hors consultation d'évaluation préanesthésique/médecine périopératoire et hors anesthésie locale seule. Objectif : cadre organisationnel des ressources humaines médicales pour sécuriser la prise en charge.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "RR"
+       },
+       {
+        "t": "p",
+        "html": "<b>RR = Rappel à la réglementation</b> — la question trouve sa réponse dans un texte légal/réglementaire déjà en vigueur (4 préconisations). <b>AE = Avis d'experts</b> — méthode GRADE grid, terminologie RPP « les experts suggèrent » (7 préconisations). Les 11 préconisations ont recueilli un <b>accord fort dès le premier tour de cotation</b>, sans distinction de force entre elles — cette distinction RR/AE porte uniquement sur la nature de la source (loi vs avis d'expert), jamais fusionnée avec un niveau de consensus.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 1 — Quelle ressource humaine pour assurer la sécurité ?",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Préconisation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Statut",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'acte d'anesthésie est sous la <b>responsabilité exclusive d'un MAR</b> (articles R 4311-12 et R 6153-1-2 CSP).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "RR"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Seuls les <b>IADE</b> sont habilités à accomplir les soins et gestes d'anesthésie-réanimation peropératoire, sous le <b>contrôle exclusif d'un MAR</b> (article R 4311-12 CSP).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "RR"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'acte d'anesthésie peut être réalisé par un <b>DJ-AR</b> (docteur junior) en <b>autonomie supervisée</b> (article R 6153-1-2 CSP).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "RR"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un professionnel de l'anesthésie doit être présent pour assurer la <b>surveillance clinique continue</b> du patient anesthésié (articles R 4311-12 et R 6153-1-2 CSP).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "RR"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Qui fait quoi (repères réglementaires) :</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "p",
+     "html": "&bull; <b>MAR</b> : responsable de la stratégie anesthésique et de sa mise en œuvre ; évalue le patient en amont (acte programmé) ; identifié au dossier d'anesthésie.<br/>&bull; <b>IADE</b> : agit sous contrôle exclusif du MAR, à condition qu'un MAR soit présent sur le site et puisse intervenir sans délai (AG, réinjections d'ALR déjà posée par un MAR, surveillance du monitorage, SSPI immédiate).<br/>&bull; <b>DJ-AR</b> : autonomie supervisée sur 1 salle ; extension à 2 salles possible en phase de consolidation, après accord conjoint interne/RTS/médecin responsable du site (arrêté du 16/01/2020) ; ne peut pas pratiquer d'anesthésie délocalisée hors bloc opératoire.<br/>&bull; <b>Ne peuvent pas surveiller un patient sous anesthésie en pleine responsabilité</b>, même sous supervision d'un MAR : étudiants de 3<sup>e</sup> cycle et élèves IADE. Les IBODE, IDE de SSPI et personnels logistiques participent aux soins péri-anesthésiques sans se substituer à la surveillance de l'anesthésie elle-même.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Question 2 — Combien de patients/salles simultanément par MAR ?",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Préconisation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Statut",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le MAR est <b>seul habilité</b> à décider s'il prend la responsabilité d'<b>une ou de deux salles simultanées au maximum</b>.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le MAR est seul habilité à décider de s'adjoindre l'aide d'un IADE par salle, ou d'un IADE pour deux salles.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour des <b>ALR exclusivement périphériques</b>, le MAR peut prendre en charge plus de deux patients en phase pré-interventionnelle, sous réserve d'une surveillance continue par un IDE formé, sous supervision du MAR (article D6124-94 CSP).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsque le MAR a la responsabilité de deux patients simultanément, les <b>deux salles doivent être suffisamment proches</b> l'une de l'autre pour permettre son intervention sans délai.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>À noter :</b> la présence d'un IADE en salle n'autorise pas une augmentation du nombre de patients pris en charge par un seul MAR — l'IADE n'est habilité à la surveillance d'une anesthésie « qu'à la condition qu'un MAR puisse intervenir à tout moment » (article R4311-12 CSP). L'usage de salles de pré-induction contiguës n'est conforme que si elles disposent du même environnement matériel et du même personnel qu'une salle d'intervention (décret de 1994) — sinon elles deviennent un site d'anesthésie à part entière, comptant dans le nombre de patients pris en charge simultanément.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Question 3 — Surveillance continue et recours en situation critique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Préconisation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Statut",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Rédiger une <b>procédure organisationnelle</b> au sein de chaque établissement, garantissant une surveillance clinique continue de l'anesthésie par un professionnel de l'AR.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Rédiger une <b>procédure de déclenchement d'un renfort</b> pour faire face à une situation critique sur le plateau interventionnel (personne(s) recours identifiée(s), moyens de la/les joindre immédiatement).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour la <b>création de nouveaux sites d'anesthésie</b>, prévoir une architecture avec un nombre de sites suffisant, à proximité les uns des autres, pour faciliter le recours humain en cas de complication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "&bull; Le recours sera <b>idéalement un MAR</b> ; à défaut, dûment justifié, un médecin compétent en soins critiques, voire un IADE selon la situation (ex. aide à une transfusion massive).<br/>&bull; Toute création de site doit éviter une activité anesthésique isolée (bloc à 1-2 salles avec un seul MAR, site hors bloc/plateau technique isolé).",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFAR, à l'initiative du CNP ARMPO, « Préconisations pour les ressources humaines médicales en anesthésie programmée (hors anesthésie pédiatrique et anesthésie obstétricale) », RPP, texte validé par le CA de la SFAR le 02/12/2024. Méthode GRADE grid ; 40 références bibliographiques et textes réglementaires cités dans le texte intégral (non reproduites ici).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 11 préconisations du texte source mais condense l'argumentaire (études de risque, statistiques) et omet la liste nominative des auteurs/relecteurs. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

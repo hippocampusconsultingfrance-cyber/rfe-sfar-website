@@ -1,0 +1,643 @@
+{
+ "doc": "raac_orthopedique_2019",
+ "sections": [
+  {
+   "title": "Réhabilitation améliorée — arthroplastie de hanche/genou",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> 18 questions cliniques sur la réhabilitation améliorée (RAC) après arthroplastie de hanche ou de genou programmée (hors fracture) — 15 questions avec recommandation (graduée GRADE ou avis d'experts), 3 sans réponse dans la littérature (absence de recommandation explicite). Objectif : durée de séjour (DMS) et complications postopératoires.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>GRADE</b> — 1+/1- : recommandation <b>forte</b> (« il faut faire / ne pas faire ») ; 2+/2- : recommandation <b>faible</b> (« il est probablement recommandé... ») ; <b>AE</b> : avis d'experts, méthode GRADE non applicable (R11.3 uniquement). Sauf mention contraire, la cotation collective de toutes les recommandations est « accord fort » — <b>seule R2 porte le tag imprimé « accord faible »</b>, en contradiction avec la synthèse du texte source qui annonce un accord fort unanime (incohérence disclosed, non résolue).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>⚠ 3 incohérences du texte source, disclosed non résolues</b> (voir docstring du script pour le détail complet) : (1) décompte total 23 vs 24 items numérotés (écart sur le sous-total GRADE1, 7 annoncé vs 8 dénombré) ; (2) « accord fort pour l'ensemble » annoncé alors que R2 porte le tag imprimé « accord faible » ; (3) « deux questions sans réponse » annoncées alors que 3 portent la mention explicite « ABSENCE DE RECOMMANDATION » (Q2, Q3, Q7).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Généralités — Mise en place d'un programme de réhabilitation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de mettre en place un programme de récupération améliorée afin de réduire la durée de séjour des patients opérés d'une arthroplastie de hanche ou de genou.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de mettre en place un programme de récupération améliorée afin de réduire l'incidence de certaines complications après arthroplastie de hanche ou de genou.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : l'utilité de l'information et de l'éducation préopératoire du patient (Q2) et de la rééducation préopératoire/préhabilitation (Q3) sur la durée de séjour ou la survenue de complications — données contradictoires ou insuffisantes.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Préopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé d'utiliser systématiquement les gabapentinoïdes en péri-opératoire pour diminuer la douleur postopératoire (cotée « accord faible » dans le texte source, cf. encart ⚠ ci-dessus).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-*"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser l'érythropoïétine en préopératoire chez les patients ayant une anémie modérée (Hb 10-13 g/dL) pour diminuer le risque transfusionnel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'ajuster le nombre d'injections d'érythropoïétine en fonction du taux d'Hb préopératoire et d'y associer un apport de fer (au mieux IV) en début de traitement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé d'utiliser des dispositifs de récupération de sang en périopératoire lorsqu'une stratégie d'épargne sanguine préopératoire est appliquée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser l'acide tranexamique en périopératoire pour diminuer le saignement, le recours transfusionnel et la DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé de réaliser un bilan infectieux systématique avant une arthroplastie du membre inférieur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Peropératoire",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : la gestion des apports liquidiens en peropératoire (Q7) — aucune étude spécifique dans ce contexte de réhabilitation ; chirurgie à risque intermédiaire pouvant nécessiter un monitorage hémodynamique invasif chez les patients à haut risque cardiovasculaire.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'administrer de la dexaméthasone IV en peropératoire pour diminuer la douleur postopératoire et l'incidence des nausées-vomissements.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de lutter contre l'hypothermie en péri-opératoire pour diminuer la survenue des complications hémorragiques per et postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de privilégier un type d'anesthésie (générale ou rachianesthésie) pour diminuer la DMS ou la survenue de complications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de privilégier une technique chirurgicale particulière pour réduire la DMS ou la survenue de complications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé d'utiliser systématiquement un garrot pneumatique en peropératoire d'arthroplastie de genou pour réduire la DMS ou la survenue de complications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Postopératoire — Analgésie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'appliquer une stratégie d'épargne morphinique en postopératoire pour réduire la DMS et les complications digestives/respiratoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser des techniques d'analgésie locale et/ou loco-régionale pour diminuer la douleur et la consommation de morphiniques après arthroplastie de genou.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé d'utiliser une rachianalgésie à la morphine ou une analgésie péridurale pour la prise en charge de la douleur après arthroplastie de hanche ou de genou.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé, en l'absence de contre-indication, de prescrire des AINS en postopératoire pour diminuer la consommation de morphiniques et leurs complications associées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Postopératoire — Thromboprophylaxie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'administrer une thromboprophylaxie après arthroplastie de hanche ou de genou pour diminuer les complications thromboemboliques postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'aspirine est probablement recommandée après arthroplastie de hanche ou de genou comme alternative aux HBPM et aux anticoagulants oraux directs, dans les conditions ci-dessous (R11.3).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si le patient est inclus dans un programme de RAC, sans facteur de risque thromboembolique associé, levé dans les 24 premières heures postopératoires, sans AINS non-sélectifs associés, et avec une durée d'hospitalisation prévisible &lt; 3 jours : l'aspirine peut être utilisée comme alternative aux HBPM/AOD pour la thromboprophylaxie postopératoire. Choix individuel selon les facteurs de risque thromboembolique et hémorragique du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Postopératoire — Récupération",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé d'utiliser un drainage chirurgical systématique en postopératoire pour diminuer la DMS ou les complications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé d'utiliser une cryothérapie pour réduire la douleur postopératoire précoce.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de lever les patients dans les 24 premières heures postopératoires pour réduire la DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une rééducation précoce est probablement recommandée après arthroplastie de hanche ou de genou pour réduire la DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFAR, « Réhabilitation améliorée après chirurgie orthopédique lourde du membre inférieur (Arthroplastie de hanche et de genou hors fracture) », RFE, comité de 19 experts, méthode GRADE (format PICO, 18 questions), validé le 20/09/2019. Références bibliographiques par question (non reproduites ici) ; composition nominative du comité d'experts (non reproduite).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 24 items recommandés/gradés (dont le tag « accord faible » de R2 et les 3 mentions « absence de recommandation ») mais condense l'argumentaire de chaque question et omet la composition nominative du comité. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,637 @@
+{
+ "doc": "optimisation_hemodynamique_adulte_2024",
+ "sections": [
+  {
+   "title": "Optimisation hémodynamique périopératoire — Adulte / Obstétrique",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> réactualisation 2024 des recommandations SFAR 2012 sur le remplissage vasculaire périopératoire — 18 recommandations (dont 4 spécifiques à la césarienne programmée sous rachianesthésie, préfixées OBS) et 6 absences de recommandation, sur 5 champs : pression artérielle, VES/indices dynamiques, indices de perfusion tissulaire, expansion volémique/vasoconstricteurs/inotropes, impact économique.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "G1"
+       },
+       {
+        "t": "chip",
+        "label": "G2"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>G1/G2 = GRADE 1/GRADE 2</b> — le texte source imprime ces niveaux SANS signe +/- (contrairement au format standard de ce corpus) ; le sens favorable/défavorable de chaque item reste dans le verbe de la phrase elle-même. <b>AE</b> = avis d'experts. Toutes les recommandations sont à accord fort. ⚠ Le résumé du texte source annonce « 24 recommandations » mais un décompte direct trouve 18 recommandations réelles (2×G1 + 8×G2 + 8×AE, ces 3 sous-totaux correspondant exactement au résumé) + 6 absences de recommandation — 18+6=24, disclosed sans résolution certaine.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Optimisation périopératoire de la pression artérielle",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Éviter un niveau de PA moyenne (PAM) peropératoire &lt; 60-70 mmHg chez le patient non hypertendu chronique, pour diminuer la morbimortalité postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G2"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients hypertendus chroniques, cibler une PAM &gt; 90 % de sa valeur habituelle ou &gt; 70 mmHg, pour diminuer la morbi-mortalité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : impact du monitorage continu de la pression artérielle sur la morbi-mortalité périopératoire chez les patients à risque faible à intermédiaire.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>OBS — Césarienne programmée sous rachianesthésie</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "OBS R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Maintenir la PA systolique maternelle entre 90 et 100 % de la PAS mesurée avant l'induction de la rachianesthésie, pour réduire l'incidence des nausées-vomissements.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G2"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "OBS R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si la PAS est &lt; 80 % de la PAS de base, traiter l'hypotension sans délai, pour réduire l'incidence de l'acidose néonatale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — VES et indices dynamiques pour l'expansion volémique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un monitorage du VES (Doppler œsophagien ou analyse de la courbe de PA via cathéter artériel) pour diminuer la morbidité périopératoire chez les patients à risque élevé et très élevé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G2"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de monitorage du VES par analyse de la courbe de PA, associer un indice dynamique (VPP ou VVE) pour optimiser l'expansion volémique chez ces mêmes patients.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G2"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : utilisation d'un indice dynamique seul pour diminuer la morbidité périopératoire chez les patients à risque élevé ou très élevé.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser de monitorage du VES ou d'indice dynamique (ou leur association) chez les patients à risque faible ou intermédiaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G2"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Indices de perfusion tissulaire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez les patients à risque très élevé, intégrer le dosage du lactate artériel dans le schéma d'optimisation hémodynamique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser le monitorage de la saturation veineuse centrale en oxygène (ScVO2) pour diminuer la morbi-mortalité périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G2"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : impact du monitorage de la différence artério-veineuse en CO2 (DIVA-CO2) sur la morbi-mortalité périopératoire.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : utilisation du monitorage de la perfusion/oxygénation tissulaire par spectrométrie proche infrarouge (NIRS) en chirurgie non cardiaque adulte.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Champ 4 — Expansion volémique, vasoconstricteurs, inotropes",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser des solutés cristalloïdes balancés pour l'expansion volémique en chirurgie non cardiaque, pour préserver l'équilibre acido-basique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G2"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans un protocole d'optimisation hémodynamique, lorsque le VES a déjà été optimisé par expansion volémique, utiliser un vasoconstricteur pour diminuer la morbi-mortalité périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsqu'un vasoconstricteur est nécessaire, privilégier la noradrénaline à la phényléphrine pour un meilleur maintien du débit cardiaque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de persistance d'un index cardiaque inadapté après optimisation du VES et de la PA par vasoconstricteurs, utiliser un inotrope.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si un inotrope est utilisé pour index cardiaque inadapté, utiliser la dobutamine en 1ère intention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>OBS — Césarienne programmée sous rachianesthésie</b>",
+     "style": "cell_b"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "OBS R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser l'éphédrine en traitement prophylactique (vs phényléphrine ou noradrénaline), pour réduire acidose néonatale, hypotension, nausées-vomissements et tachycardie maternelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G1"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "OBS R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la phényléphrine ou la noradrénaline faiblement concentrée en traitement prophylactique, pour réduire hypotension, nausées-vomissements, tachycardie et lactatémie artérielle néonatale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G1"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : préférence entre noradrénaline et phényléphrine comme vasoconstricteur prophylactique — données actuelles insuffisantes.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "OBS R4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Conjointement à la phényléphrine/noradrénaline prophylactique, utiliser une expansion volémique rapide par cristalloïdes dès l'induction de la rachianesthésie (co-remplissage), pour réduire l'hypotension et les besoins en vasoconstricteurs.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 5 — Impact économique de l'optimisation hémodynamique",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient à risque élevé et très élevé, optimiser l'hémodynamique pour diminuer la durée moyenne de séjour.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "G2"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : impact de l'optimisation hémodynamique périopératoire sur les coûts liés aux soins.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFAR, « Optimisation hémodynamique périopératoire – Adulte dont obstétrique », RFE, janvier 2024 — réactualisation des recommandations SFAR de 2012. Méthode GRADE (analyse de la littérature, format PICO). Références bibliographiques par question et composition nominative du groupe d'experts (non reproduites ici).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 18 recommandations réelles et les 6 cas d'absence de recommandation du texte source, mais condense l'argumentaire de chaque item et omet la composition nominative du groupe d'experts. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

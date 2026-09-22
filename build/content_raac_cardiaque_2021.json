@@ -1,0 +1,831 @@
+{
+ "doc": "raac_cardiaque_2021",
+ "sections": [
+  {
+   "title": "Réhabilitation améliorée après chirurgie cardiaque adulte",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> 33 recommandations GRADE (SFAR/SFCTCV) organisées en 6 champs pour la réhabilitation améliorée après chirurgie cardiaque adulte (CEC ou à cœur battant, population pédiatrique exclue) : parcours patient/information, prise en charge et préhabilitation préopératoire, anesthésie/analgésie, stratégie chirurgicale et gestion de la CEC, gestion personnalisée du capital sanguin (PBM), réhabilitation postopératoire.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>GRADE</b> — 1+/1- : forte ; 2+/2- : faible ; <b>AE</b> : avis d'experts (4/33, méthode GRADE non applicable). <b>Les 33 recommandations ont toutes recueilli un accord fort</b>, sans exception (aucune à accord faible — contrairement aux fiches raac_orthopedique_2019 et raac_lobectomie_pulmonaire_2019 de ce corpus, qui comptent chacune 1 exception).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Sélection du parcours patient et information",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Inclure les patients dans un programme de RAACC, pour réduire les durées de ventilation mécanique et d'hospitalisation en réanimation/hôpital.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Délivrer une information et une éducation de qualité à l'aide de plusieurs supports avant chirurgie cardiaque, pour diminuer les complications postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Admettre les patients en unité de soins critiques (réanimation et/ou surveillance continue) en postopératoire, pour réduire les complications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Prise en charge et préhabilitation préopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dépister la dénutrition avant chirurgie cardiaque pour la corriger, afin de diminuer les complications postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Obtenir le sevrage tabagique le plus tôt possible avant chirurgie cardiaque, pour réduire les complications notamment respiratoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Disposer d'un dosage d'HbA1c de moins de 3 mois en préopératoire chez les patients diabétiques ou en syndrome métabolique, et prendre un avis diabétologique pour améliorer le contrôle glycémique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Proposer un programme de préhabilitation cardio-respiratoire et musculaire avant chirurgie cardiaque, pour diminuer complications et DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Procéder, sans dépistage microbiologique, à une décolonisation nasale du portage de S. aureus (mupirocine 2 % dans chaque narine) associée à une décontamination oropharyngée systématique par bain de bouche.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place une stratégie périopératoire de prévention de la fibrillation atriale postopératoire (maintien/introduction précoce d'anti-arythmiques), pour diminuer le risque d'AVC postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas initier de traitement par statine en l'absence de traitement préalable avant chirurgie cardiaque, pour réduire complications et DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Limiter le jeûne préopératoire à 6h pour les solides et 2h pour les liquides clairs, avec une solution carbohydratée préopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Anesthésie et analgésie pour chirurgie cardiaque",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas privilégier des agents halogénés plutôt qu'intraveineux, pour diminuer complications et DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Appliquer une stratégie de ventilation protectrice hors CEC (Vt 6-8 mL/kg de poids idéal, PEP, manœuvres de recrutement), pour diminuer les complications respiratoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas appliquer de ventilation pendant la CEC, pour diminuer les complications respiratoires et la DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser une stratégie d'optimisation hémodynamique per et postopératoire (monitorage systématique du volume d'éjection systolique, bilans entrées-sorties).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une analgésie locorégionale en privilégiant les blocs échoguidés de la paroi thoracique (injection unique ou continue).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas réaliser d'infiltration pré-sternale et/ou d'analgésie par cathéter pré-sternal, pour diminuer les complications postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser une analgésie multimodale systémique avec épargne morphinique (aucune classe thérapeutique supérieure démontrée hors paracétamol).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser la gabapentine dans le cadre de l'analgésie multimodale en chirurgie cardiaque, pour diminuer les complications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 4 — Stratégie chirurgicale et gestion de la CEC",
+     "color": "navy"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : impact des voies mini-invasives en chirurgie valvulaire aortique — ne peut faire l'objet de recommandation dans l'état actuel de la littérature.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Favoriser la chirurgie mitrale vidéo-assistée, pour diminuer le taux de transfusion et la DMS, sous réserve de l'expertise de l'équipe.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : impact des voies mini-invasives en chirurgie coronaire — ne peut faire l'objet de recommandation dans l'état actuel de la littérature.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser la chirurgie sous CEC en normothermie, pour diminuer le risque de transfusion postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas réaliser les pontages à cœur battant de façon systématique, même après 75 ans, pour réduire mortalité et complications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Considérer la technique des pontages à cœur battant chez les patients à aorte très athéromateuse ou calcifiée, pour limiter le risque d'AVC lié au clampage aortique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier une technique de « CEC optimisée », pour réduire complications postopératoires et mortalité hospitalière.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas privilégier une méthode de cardioplégie plutôt qu'une autre, pour réduire complications ou DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 5 — Gestion personnalisée du capital sanguin (PBM)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Implémenter un programme de PBM en chirurgie cardiaque, notamment rechercher et corriger une anémie ferriprive, pour réduire le recours aux transfusions.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Implémenter un programme de PBM et corriger une anémie ferriprive, pour diminuer les complications postopératoires et la DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un système de récupération sanguine peropératoire pour limiter la transfusion érythrocytaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : stratégie transfusionnelle restrictive ou libérale — les données actuelles ne permettent pas de recommander l'une ou l'autre stratégie pour diminuer complications ou DMS.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Considérer individuellement l'état clinique du patient, le risque chirurgical et la balance apports en oxygène/extraction tissulaire, plutôt qu'une valeur systématique de seuil transfusionnel.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 6 — Réhabilitation postopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une extubation précoce (dans les 6h suivant la fin de la chirurgie), pour diminuer les complications et les durées de séjour.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mobiliser précocement les patients, pour réduire la morbidité postopératoire et les durées d'hospitalisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Retirer précocement les drains thoraciques, la sonde vésicale et les cathéters artériel/veineux central, pour permettre la mobilisation précoce.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Associer au programme de préhabilitation un programme de réhabilitation postopératoire débuté dans les 2 premières semaines (cardiovasculaire, kinésithérapie respiratoire et mobilisatrice).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFAR/SFCTCV, « Réhabilitation améliorée après chirurgie cardiaque adulte sous CEC ou à cœur battant », RFE, validée le 25/09/2021. Méthode GRADE (3 tours de cotation, quelques amendements). Références bibliographiques par question et composition nominative du groupe d'experts (non reproduites ici).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 33 recommandations et les 3 cas d'absence de recommandation du texte source, mais condense l'argumentaire de chaque item et omet la composition nominative du groupe d'experts. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR/SFCTCV.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

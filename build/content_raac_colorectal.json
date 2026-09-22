@@ -1,0 +1,1022 @@
+{
+ "doc": "raac_colorectal",
+ "sections": [
+  {
+   "title": "Méthodologie, R1-35 (pré/per/postopératoire), annexe & sources",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> 35 recommandations organisées en 3 périodes (pré-, per- et postopératoire) pour un programme de réhabilitation rapide après chirurgie colorectale programmée. Facteurs non suffisamment appliqués en pratique mais recommandés : apport de carbohydrates préopératoire, optimisation hémodynamique peropératoire, reprise de l'alimentation orale avant h24, mastication de gommes postopératoire, lever et marche avant h24. Pratiques confirmées inutiles : préparation colique mécanique (chirurgie colique), sonde nasogastrique systématique, drainage chirurgical systématique (chirurgie colique).",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Méthodologie — GRADE + vote Delphi (double cotation)",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "Méthode GRADE : qualité des preuves en 4 catégories (Haute/Modérée/Basse/Très basse) ; force toujours binaire — <b>forte</b> (GRADE 1+/1-, « il faut faire / ne pas faire ») ou <b>faible</b> (GRADE 2+/2-, « il est possible de faire / ne pas faire »). <b>Particularité de cette RFE :</b> chaque recommandation porte en plus un résultat de <b>vote Delphi</b> indépendant du groupe de relecture (30 experts, 3 tours) — <b>Accord Fort</b> ou <b>Accord Faible</b> — deux axes distincts (force de la preuve vs. force du consensus), transcrits séparément ici, jamais fusionnés. Sur 35 recommandations : 22 fortes (Grade 1), 8 faibles (Grade 2), 5 sans grade GRADE (preuves insuffisantes, chip AP) ; 28 Accord Fort, 7 Accord Faible.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       },
+       {
+        "t": "p",
+        "html": "<b>GRADE</b> — 1+/1- : recommandation <b>forte</b> (« il faut faire / ne pas faire ») ; 2+/2- : recommandation <b>faible</b> (« il est possible de faire / ne pas faire ») ; <b>AP</b> : méthode GRADE non applicable (absence de preuves suffisantes). Chaque recommandation porte en outre un résultat de vote Delphi indépendant, <b>Accord Fort</b> ou <b>Accord Faible</b>, indiqué dans le texte de chaque ligne.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Période préopératoire (R1-10)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'information et les conseils liés au programme de réhabilitation sont des obligations réglementaires (loi n°2009-879 du 21 juillet 2009). — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lors d'une chirurgie colique, une préparation colique n'est pas recommandée de manière systématique. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour une chirurgie rectale, les données ne permettent pas d'émettre de recommandation sur l'utilité de la préparation colique. — Accord Faible",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les données ne permettent pas d'émettre de recommandation sur l'impact d'une prémédication anxiolytique. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les recommandations des sociétés savantes sont valides : jeûne de 2 h pour les liquides clairs, 4 à 6 h pour les solides. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de donner une solution isotonique riche en carbohydrates aux patients ASA 1 ou 2 en préopératoire. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé de donner cette solution aux patients diabétiques ou ayant des troubles de la vidange gastrique. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R8",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé de prescrire une immunonutrition en préopératoire d'une chirurgie colorectale carcinologique. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R9",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé de poursuivre une immunonutrition en postopératoire d'une chirurgie carcinologique. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R10",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé de prescrire une immunonutrition préopératoire pour une chirurgie colorectale non carcinologique. — Accord Faible",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Période peropératoire (R11-18)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R11",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un apport excessif de solutés n'est pas recommandé pendant le geste chirurgical. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R12",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'optimisation des apports liquidiens peropératoires, basée sur la mesure d'un paramètre hémodynamique reflétant la volémie, est recommandée. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R13",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'administration d'une dose unique de corticostéroïdes en préopératoire immédiat est probablement recommandée. — Accord Faible",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R14",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La prévention de l'hypothermie peropératoire est recommandée. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R15",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'administration d'une antibioprophylaxie couvrant les germes aérobies et anaérobies est recommandée. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R16",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La prévention des nausées et vomissements postopératoires est recommandée (stratégie basée sur le score d'Apfel). — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R17",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La chirurgie par laparoscopie est recommandée. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R18",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de laparotomie, aucune recommandation ne peut être faite sur le type d'incision (transversale ou verticale). — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AP"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Période postopératoire — analgésie (R19-26)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R19",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé de laisser une sonde nasogastrique après une chirurgie colorectale. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R20",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de prescrire une analgésie multimodale privilégiant les antalgiques non morphiniques et/ou une technique d'ALR. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R21",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les AINS sont probablement recommandés, mais un doute persiste sur le risque de fistule digestive. — Accord Faible",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R22",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après chirurgie par laparoscopie, l'analgésie péridurale thoracique n'est probablement pas recommandée. — Accord Faible",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R23",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après chirurgie colorectale par laparotomie, l'analgésie péridurale thoracique est une des techniques recommandées. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R24",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'administration intraveineuse continue de lidocaïne est recommandée (alternative en cas de laparoscopie/contre-indication à la péridurale). — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R25",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'irrigation pariétale avec une perfusion d'anesthésique local est probablement recommandée. — Accord Faible",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R26",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le bloc dans le plan du muscle transverse de l'abdomen (TAP block) est probablement recommandé, mais son bénéfice sur la réhabilitation reste à démontrer. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Période postopératoire — suite (R27-35)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R27",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'administration d'une héparine de bas poids moléculaire à dose prophylactique élevée est recommandée. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R28",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lors de la chirurgie colique, la mise en place d'un drainage n'est pas recommandée. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R29",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lors d'une chirurgie avec anastomose sous-péritonéale, un drainage aspiratif est probablement recommandé. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R30",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le lever précoce (avant h24) est recommandé. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R31",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé de débuter précocement (avant h24) une alimentation orale. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R32",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Après une chirurgie colique, la durée du sondage vésical ne doit pas excéder 24 heures. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R33",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lors d'une chirurgie du bas rectum nécessitant un drainage vésical > 4 jours, un cathéter sus-pubien est recommandé chez l'homme. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R34",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'administration de naloxone n'est pas recommandée. — Accord Faible",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R35",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La mastication de gommes (chewing-gum) est probablement recommandée. — Accord Fort",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Annexe — classement par période et impact (source, reproduit)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Paramètre",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation(s)",
+        "style": "head_w"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Information et conseils au patient",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui (recommandation principale).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Préparation colique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Non si chirurgie colique. Absence de recommandation si chirurgie rectale.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prémédication anxiolytique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Absence de données.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Jeûne préopératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Solides : 6 heures. Liquides clairs et/ou sucrés : 2 heures.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Apport en carbohydrates (veille + matin)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui si ASA 1 ou 2. Non si diabète ou troubles de la vidange gastrique.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Immunonutrition",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui en préopératoire de chirurgie carcinologique (recommandation principale). Non en préopératoire de chirurgie non carcinologique, non en postopératoire (recommandations secondaires).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Apports liquidiens peropératoires",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui : optimisation de la volémie (principale). Non : apport excessif de solutés (secondaire).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prévention du stress opératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui : dose unique de corticostéroïdes en préopératoire immédiat (secondaire).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prévention des infections du site opératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui, par la prévention de l'hypothermie peropératoire (principale) et l'antibioprophylaxie (secondaire).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prévention des NVPO",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui, systématique (recommandation principale).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Voie d'abord chirurgical",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Par laparoscopie (principale). Si laparotomie : aucune recommandation sur le type d'incision.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sondes nasogastriques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Non, à enlever systématiquement en fin d'intervention (recommandation principale).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Analgésie postopératoire — principes généraux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Analgésie multimodale privilégiant les antalgiques non morphiniques et/ou l'ALR (principale). Prescription d'AINS (secondaire).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Analgésie postopératoire — laparotomie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui : analgésie péridurale thoracique (principale). Secondaires : irrigation pariétale, ou lidocaïne IV, ou TAP block.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Analgésie postopératoire — laparoscopie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui : lidocaïne IV continue (principale). Non : analgésie péridurale thoracique. Secondaires : irrigation pariétale, ou TAP block.",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Thromboprophylaxie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui, par une HBPM à dose prophylactique élevée (recommandation principale).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mise en place d'un drainage chirurgical",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui si anastomose sous-péritonéale (secondaire). Non si chirurgie colique (principale).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mobilisation précoce",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui, avant h24 (recommandation principale).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Alimentation orale",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui, à débuter avant h24 (recommandation principale).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sondage vésical",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui, < 24 h après chirurgie colique (principale). Chirurgie du bas rectum : cathéter sus-pubien chez l'homme (secondaire).",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prévention de l'iléus postopératoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Oui : mastication de gommes (secondaire). Non : administration de naloxone (secondaire).",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFAR/SFCD, « Réhabilitation rapide après une chirurgie colorectale programmée », RFE, Ann Fr Anesth Réanim 33 (2014) 370-384. Population : chirurgie colorectale programmée (carcinologique ou non), patient autonome en préopératoire, sans critère d'âge. ~40 000 interventions/an en France (80 % programmées, 70 % carcinologiques) ; durée de séjour moyenne 18 jours, mortalité 3,4 %, complications 25-35 % — un référentiel de réhabilitation appliqué avec une bonne compliance réduit ces deux derniers indicateurs.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document de 2014 :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend l'intégralité des 35 recommandations et le tableau de synthèse en annexe, mais ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR/SFCD. Les pratiques de réhabilitation rapide (notamment les techniques d'analgésie et les seuils d'apport liquidien) ayant pu évoluer depuis 2014, se référer à un avis spécialisé et aux recommandations actualisées avant toute décision thérapeutique.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

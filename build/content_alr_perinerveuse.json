@@ -1,0 +1,449 @@
+{
+ "doc": "alr_perinerveuse",
+ "sections": [
+  {
+   "title": "Méthodologie, médicaments & écueils liés au terrain",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> mise à jour de la RPC-ALR 2003 (SFAR), centrée sur les données nouvelles depuis 2003 (échoguidage devenu technique de référence, adjuvants, toxicité). <b>Ne remplace pas la RPC 2003</b>, toujours valide pour les données anatomocliniques et les techniques de base ; les redacteurs ne proposent plus d'indication de l'ALR par type de chirurgie (jugées peu pertinentes du fait de l'évolution des techniques chirurgicales). Périmètre volontairement limité aux 24 premières heures postopératoires — la douleur postopératoire prolongée relève d'un référentiel distinct. 4 thèmes : médicaments, écueils liés au terrain, stratégies d'utilisation, hygiène et sécurité.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Méthodologie — GRADE",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "GRADE standard : qualité des preuves en 4 catégories (Haute/Modérée/Basse/Très basse), force binaire — forte (GRADE 1+/1−) ou faible (GRADE 2+/2−) — validée par vote Delphi (GRADE Grid). Seuls les essais randomisés contrôlés permettent une recommandation forte (Grade 1), sauf question à implication vitale majeure où l'allocation randomisée serait contraire à l'éthique. Un avis d'experts n'est validé qu'en cas d'accord fort (&gt; 70 % des experts).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<i>Disclosure :</i> le paragraphe de synthèse méthodologique de la source contient un texte non finalisé — « <b>XX</b> recommandations ont été formalisées » (XX littéralement non renseigné) et une répartition annoncée (4 fortes/5 faibles/5 avis d'experts = 14) qui ne correspond pas au compte direct des recommandations réellement présentes dans le texte (12, R1.1 à R5.2 : 2 Grade 1 [1×1+, 1×1−], 5 Grade 2 [3×2+, 2×2−], 5 avis d'experts). Très probablement un paragraphe-modèle d'un autre document RFE du corpus SFAR resté non adapté avant publication — disclosure non résolue ici ; le compte de 12 utilisé dans cette fiche est celui d'un comptage exhaustif direct.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>GRADE</b> — 1+/1- : recommandation <b>forte</b> ; 2+/2- : recommandation <b>faible</b> ; <b>AE</b> : avis d'experts (accord fort &gt; 70 % requis). Toutes les recommandations de ce texte sont à Accord fort.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "1 — Médicaments pour la réalisation d'une ALR-PN (R1.1-R1.3)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les mélanges d'AL (longue durée d'action + courte durée d'action) ne sont probablement pas recommandés si l'objectif est la réduction de la toxicité des AL.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est recommandé d'utiliser l'échoguidage pour la réalisation d'une ALR périnerveuse, dans le but d'obtenir, pour une efficacité équivalente ou supérieure aux autres techniques, une réduction de la dose (volume et concentration) d'AL utilisés et donc du risque de toxicité systémique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé d'associer aux AL en périnerveux les agonistes morphiniques, le tramadol, la naloxone ou le magnésium, du fait de l'absence de bénéfice clinique significatif en termes de durée ou d'efficacité.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1-"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères :</b> la clonidine en adjuvant prolonge l'analgésie et la qualité du bloc sensitif/moteur, au prix d'un risque d'effets secondaires notables (balance bénéfice-risque à considérer au cas par cas — non formalisé en recommandation numérotée). L'adrénaline reste envisageable pour la réalisation de la dose-test. <b>Dexaméthasone :</b> aucune recommandation formulée — jugée prématurée par le groupe de travail (études en cours sur dose/voie d'administration) ; mise à jour ultérieure annoncée par la source.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "2 — Écueils liés au terrain (R2.1-R2.3)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il faut probablement administrer des émulsions lipidiques intraveineuses au cours d'une intoxication systémique aux anesthésiques locaux, en complément des mesures de réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'existe aucune contre-indication à la réalisation d'une ALR périnerveuse chez le patient septique, à la condition de ne pas ponctionner directement au niveau de la zone infectée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez un patient traité par anticoagulant oral direct (AOD) à dose curative et en dehors de l'urgence, il est probablement recommandé de respecter un intervalle d'arrêt de 3 jours avant l'ALR-PN (dernière prise à J-3), sauf dabigatran pour lequel une dernière prise à J-4 ou J-5 est préférable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères (Relecture RPC 2003) :</b> l'anesthésie loco-régionale intraveineuse (ALRIV) est une technique vouée à disparaître au profit du bloc périnerveux échoguidé (les recommandations RPC 2003 sur sa réalisation restent valables tant qu'elle est utilisée). Place respective ALR-PN/infiltrations (hanche, genou) : aucune recommandation formulée, littérature encore contradictoire sur la période analysée — mise à jour ultérieure annoncée par la source.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Stratégies d'utilisation, hygiène-sécurité & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "3 — Stratégies d'utilisation (R3.1-R4.2)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est probablement pas recommandé de réaliser systématiquement une ALR périnerveuse (bloc fémoral, bloc ilio-fascial ou bloc du plexus lombaire par voie postérieure) pour le contrôle de la douleur postopératoire en chirurgie programmée de la hanche.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour la chirurgie du membre supérieur, il est probablement recommandé de réaliser une ALR périnerveuse par bloc des branches du plexus brachial comme seule technique anesthésique, pour un bénéfice sur les NVPO, l'épargne morphinique et la durée de séjour en SSPI.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour la chirurgie de la carotide, la réalisation d'un bloc du plexus cervical superficiel est probablement recommandée en alternative ou associée à l'AG, pour la réalisation de la chirurgie et un meilleur contrôle de la douleur postopératoire immédiate.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour la chirurgie de la thyroïde, la réalisation d'un bloc cervical superficiel bilatéral, associé à l'AG, est probablement recommandée pour réduire les doses d'agents anesthésiques peropératoires et contrôler la douleur postopératoire immédiate.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères — membre inférieur (Relecture RPC 2003, Question 8) :</b> hanche, bloc du plexus lombaire postérieur : pas de recommandation comme technique anesthésique isolée (absence d'argument bibliographique concluant). Genou : arthroscopie réalisable sous ALR-PN seule ou bloc fémoral + sciatique (intérêt limité si chirurgie courte) ; aucune donnée ne valide cette approche pour la prothèse totale de genou. Cheville : bloc échoguidé, taux de succès proche de 100 %, efficacité démontrée sur la douleur des 24 premières heures et au-delà.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "4 — Hygiène et sécurité (R5.1-R5.2)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "N°",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lorsqu'un bloc périphérique est réalisé seul, il est recommandé de réaliser une durée de surveillance (clinique + monitorage) d'au moins 30 minutes après une ALR du membre supérieur et 60 minutes après une ALR du membre inférieur (réalisée sans autre anesthésie : sédation, AG ou ALR périmédullaire).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est probablement recommandé en première intention de réaliser une ALR chez un patient éveillé ou légèrement sédaté, calme et coopérant. Après discussion avec le patient, un bloc associé à une anesthésie (générale ou régionale) ou une sédation profonde reste possible s'il existe un bénéfice — traçabilité du choix importante ; l'échoguidage apporte alors probablement une sécurité supplémentaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères (Relecture RPC 2003, chapitres 4-5 & 7) :</b> l'échoguidage est devenu la technique de référence pour la réalisation de l'ALR-PN (remplace la neurostimulation, désormais technique complémentaire de co-localisation ou alternative si l'échoguidage n'est pas possible). Les indications de bloc selon le type de chirurgie et certaines approches de surface (ex. bloc huméral) issues de la RPC 2003 sont devenues peu pertinentes du fait de l'évolution des techniques.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Relecture RPC 2003 — Complications neurologiques des blocs périphériques",
+     "color": "amber"
+    },
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "Conduite à tenir en cas de suspicion de lésion neurologique en rapport avec une ALR-PN (point d'actualisation, hors recommandation numérotée) : examen neurologique précis si la durée constatée du bloc dépasse la durée prévisible et/ou douleur neuropathique dans le territoire du bloc — avis neurologique rapide si déficit incomplet, neurochirurgical si déficit complet. En cas de suspicion de lésion nerveuse secondaire au bloc : <b>EMG précoce avant le 3<sup>e</sup> jour</b> (valeur de référence, dépistage d'une neuropathie préexistante), puis <b>EMG retardé à 3 semaines</b> (diagnostic topographique/lésionnel). Imagerie possible dans le bilan étiologique, avec probablement un apport supérieur de l'IRM par rapport à l'échographie ou la TDM. L'information et l'accompagnement du patient sont des points capitaux de la prise en charge.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Déclaration d'intérêts, sources et traçabilité",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Déclaration d'intérêts (sélection) :</b> Philippe Cuvillon (MSD, Ethypharma, Grunenthal, projet Smart Angel/BPI) ; Laurent Delaunay (Gamida, Nordic Pharma, GE) ; Valeria Martinez (Pfizer, Astellas, Grunenthal) ; Nadia Rosencher (Bayer, BMS, Pfizer, Aspen, Vifor, Hospira, Sandoz, Zimmer, Boehringer Ingelheim) ; Xavier Capdevila (Micrel, Pajunk, BBraun, Gamida, Halyard, Grunenthal, GE, Vifor Pharma, Pfizer, Sanofi). Les autres auteurs déclarent ne pas avoir de liens d'intérêts.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> « Anesthésie loco-régionale périnerveuse (ALR-PN) » — RFE SFAR. Coordinateurs : Michel Carles, Sébastien Bloc. Comité d'organisation : Dominique Fletcher. 4 groupes de travail (médicaments, écueils liés au terrain, stratégies d'utilisation, hygiène et sécurité). Texte validé par le Conseil d'administration de la SFAR le 18/11/2016.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Version :</b> Anesth Reanim 2019;5:208-217. doi:10.1016/j.anrea.2019.02.003. Publié en Open Access (CC BY 4.0).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Méthodologie :</b> GRADE (qualité des preuves 1-4, force 1+/1-/2+/2-, vote Delphi GRADE Grid) — voir détail en page 1.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/wp-content/uploads/2019/10/rfe-anesthesie-loco-regionale-perinerveuse.pdf",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité des 12 recommandations (texte + grade, comptage exhaustif direct — voir disclosure méthodologique en page 1), des 4 « Relectures RPC 2003 » hors recommandation numérotée (ALRIV, membre inférieur Question 8, technique de référence échoguidage, complications neurologiques) et des 2 NB non numérotés (dexaméthasone, ALR-PN/infiltrations). Hors champ, explicitement par la source elle-même : indications de l'ALR par type de chirurgie (non proposées, jugées peu pertinentes) ; douleur postopératoire prolongée au-delà des 24 premières heures (référentiel distinct) ; données anatomocliniques et techniques de base (toujours couvertes par la RPC 2003, non remplacée par ce texte).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement — document validé 2016 :</b> cette fiche de synthèse indépendante reprend l'intégralité des recommandations du texte source, mais ne remplace ni ce texte intégral ni la RPC 2003 sur l'ALR périnerveuse, et n'est ni éditée ni validée par la SFAR. Les techniques d'échoguidage et les seuils de gestion des anticoagulants oraux directs ayant pu évoluer depuis 2016, se référer à un avis spécialisé et aux recommandations actualisées avant toute décision thérapeutique.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

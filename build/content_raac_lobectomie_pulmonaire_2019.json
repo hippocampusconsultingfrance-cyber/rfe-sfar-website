@@ -1,0 +1,810 @@
+{
+ "doc": "raac_lobectomie_pulmonaire_2019",
+ "sections": [
+  {
+   "title": "Réhabilitation améliorée après lobectomie pulmonaire",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> 32 recommandations GRADE (SFAR/SFCTCV) organisées en 5 champs pour la réhabilitation améliorée après lobectomie pulmonaire (chirurgie thoracique, population pédiatrique exclue) : parcours patient/information, prise en charge et préhabilitation préopératoire, anesthésie/analgésie, stratégie chirurgicale, réhabilitation postopératoire.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "1+"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       },
+       {
+        "t": "chip",
+        "label": "2+*"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>GRADE</b> — 1+ : forte (aucune recommandation « 1- » dans ce document) ; 2+/2- : faible ; <b>AE</b> : avis d'experts (2/32, méthode GRADE non applicable). <b>2+* : seule recommandation à accord faible</b> (R2.5.2) — 31 des 32 recommandations sont à accord fort. ⚠ Le résumé en tête de document et la section « Synthèse des résultats » se contredisent sur le nombre de questions sans réponse (2 vs 3) — disclosed, non résolu, les 3 cas trouvés sont listés dans cette fiche.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Sélection du parcours patient et information",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Opérer les patients dans un centre chirurgical à haut volume d'activité, pour diminuer l'incidence des complications postopératoires et la durée d'hospitalisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas hospitaliser systématiquement en réanimation les patients s'inscrivant dans un programme de RAC, pour diminuer complications/DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Discuter l'hospitalisation en unité de soins continus des patients à risque de complications (comorbidités, événements peropératoires).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Délivrer une information de qualité à l'aide de plusieurs supports avant chirurgie, pour diminuer l'incidence des complications (anxiété, douleurs postopératoires).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Prise en charge et préhabilitation préopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dépister la dénutrition avant chirurgie, pour optimiser la réhabilitation postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Corriger une dénutrition dépistée en préopératoire par une stratégie nutritionnelle personnalisée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Encourager systématiquement l'arrêt préopératoire du tabac, indépendamment de la date de la lobectomie, pour diminuer les complications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : impact des modalités de prémédication préopératoire — absence de preuve spécifique à la chirurgie thoracique ; rappel d'éviter les benzodiazépines de longue durée d'action chez ces patients (âge moyen élevé, comorbidités respiratoires fréquentes).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Proposer un programme de réhabilitation préopératoire aux patients les plus à risque, pour diminuer complications et DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser une désinfection oropharyngée préopératoire à base de chlorhexidine, pour diminuer les infections du site opératoire et les bactériémies postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : décolonisation nasale du portage de S. aureus avant chirurgie — aucune donnée spécifique à la lobectomie pulmonaire disponible (mentionné en prose dans l'argumentaire de la question sur la désinfection oropharyngée, sans question numérotée ni tag dédié — l'un des 2 ou 3 cas selon la section du texte source, cf. légende ci-dessus).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuivre le traitement habituel par inhibiteurs calciques, bêtabloquants, IEC ou autre anti-arythmique en périopératoire chez les patients déjà traités, pour prévenir l'ACFA postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Introduire en péri/postopératoire immédiat, selon la balance bénéfice-risque, un traitement anti-arythmique (inhibiteur calcique type vérapamil/diltiazem ou bêtabloquant) chez les patients non traités.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+*"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Anesthésie et analgésie pour lobectomie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas privilégier une technique d'entretien de l'anesthésie plutôt qu'une autre (IV propofol ou inhalatoire halogénés).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser une stratégie multimodale de ventilation protectrice (Vt ≤ 6 mL/kg de poids idéal, PEP, manœuvres de recrutement) en ventilation unipulmonaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer des apports liquidiens peropératoires de base entre 2 et 6 mL/kg/h, pour diminuer les complications respiratoires postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Titrer le remplissage vasculaire peropératoire à l'aide d'un monitorage hémodynamique, en privilégiant le Doppler œsophagien.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser une technique d'analgésie locorégionale en postopératoire de lobectomie par thoracotomie, pour améliorer le contrôle de la douleur.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser une technique d'analgésie locorégionale en postopératoire de lobectomie par thoracoscopie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier en 1ère intention le bloc paravertébral continu à l'analgésie péridurale thoracique, pour un meilleur profil de tolérance.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser des AINS en cure courte dans le cadre de l'analgésie multimodale systémique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.7",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser une analgésie IV contrôlée par le patient (PCA) morphinique en cas de contre-indication/échec/inefficacité des techniques locorégionales.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 4 — Stratégie chirurgicale pour lobectomie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Favoriser les approches minimalement invasives par thoracoscopie plutôt que par thoracotomie, pour diminuer complications et DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de thoracotomie, ne pas privilégier une thoracotomie latérale d'épargne musculaire par rapport à une thoracotomie postérolatérale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un dispositif à visée aérostatique (colle ou patch) en cas de fuite aérique peropératoire, pour diminuer les fuites aériques prolongées et la DMS.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne placer qu'un seul drain thoracique pour la gestion des épanchements pleuraux postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un système d'aspiration électronique autonome en cas de mise en aspiration du drain thoracique, pour faciliter la réhabilitation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Absence de recommandation</b> (données insuffisantes) : impact de la mise en aspiration du drain thoracique — données discordantes dans la littérature (études randomisées de bonne qualité méthodologique retrouvant des résultats opposés).",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Enlever le(s) drain(s) thoracique(s) le plus rapidement possible en postopératoire, pour diminuer la durée de drainage et d'hospitalisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R4.4.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Enlever le(s) drain(s) dès qu'il n'y a plus de fuite aérique et un débit liquidien non sanglant/non chyleux ≤ 300 mL/j.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 5 — Réhabilitation postopératoire",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser la ventilation non-invasive préventive chez tous les patients.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser l'oxygénothérapie à haut débit préventive chez tous les patients.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2-"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser la VNI ou l'oxygénothérapie à haut débit pour traiter une complication pulmonaire postopératoire (hypoxémie, détresse respiratoire), pour diminuer le recours à l'intubation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un programme de réhabilitation amélioré après chirurgie, incluant la mobilisation précoce postopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "1+"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R5.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser de la kinésithérapie multimodale postopératoire, et non des techniques isolées de kinésithérapie respiratoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "2+"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFAR/SFCTCV, « Réhabilitation améliorée après lobectomie pulmonaire », RFE, validée le 20/09/2019. Méthode GRADE (2 tours de cotation, plusieurs amendements). Références bibliographiques par question et composition nominative du groupe d'experts (non reproduites ici).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement les 32 recommandations et les 3 cas d'absence de recommandation trouvés dans le texte source, mais condense l'argumentaire de chaque item et omet la composition nominative du groupe d'experts. Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR/SFCTCV.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

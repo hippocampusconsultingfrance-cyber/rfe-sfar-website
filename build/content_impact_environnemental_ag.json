@@ -1,0 +1,407 @@
+{
+ "doc": "impact_environnemental_ag",
+ "sections": [
+  {
+   "title": "Champ 1 (gaz), Champ 2 (médicaments IV), Champ 3 (dispositifs) & sources",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "good",
+     "content": {
+      "t": "p",
+      "html": "<b>Résumé :</b> 17 recommandations, en 3 champs, pour réduire l'impact environnemental de l'anesthésie générale sans compromettre la sécurité/qualité des soins : choix des vapeurs/gaz anesthésiques, médicaments intraveineux, dispositifs médicaux et organisation du travail. La méthode GRADE® n'a pu être appliquée à l'ensemble des questions — toutes les recommandations sont donc au niveau « Avis d'experts (Accord fort) ».",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>AE = Avis d'experts (Accord fort).</b> Méthode GRADE® visée mais non applicable à l'ensemble des questions (disclosed par la source elle-même) — les 17 recommandations sont donc <b>toutes</b> à ce niveau unique, aucune n'est graduée 1+/1-/2+/2- ni en « Accord faible ».",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 1 — Vapeurs et gaz anesthésiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "À bénéfice clinique égal, utiliser préférentiellement le sévoflurane au desflurane ou à l'isoflurane lors d'une anesthésie inhalée (PRG100 à 100 ans : sévoflurane 130, isoflurane 510, desflurane 2540 — desflurane jusqu'à 2540× plus réchauffant que le CO2).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas utiliser le protoxyde d'azote lors d'une anesthésie inhalée, à bénéfice clinique égal (PRG100 = 265, durée de vie atmosphérique 114 ans).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'utilisation du protoxyde d'azote, préférer un système d'administration par bouteille plutôt que par cadres et circuit de distribution.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un bas débit de gaz frais lors de l'anesthésie inhalée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de système d'anesthésie inhalée à objectif de concentration (AINOC), utiliser préférentiellement le mode automatisé plutôt que manuel pour diminuer le débit de gaz frais.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser un monitorage de la profondeur d'anesthésie en association avec la fraction expirée en vapeur anesthésique, pour diminuer la consommation d'halogénés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R1.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "À bénéfice clinique égal, recourir indifféremment à un entretien par vapeurs inhalées ou par AIVOC au propofol : les vapeurs ont un impact par émission de gaz à effet de serre, le propofol une écotoxicité pour le sol et les eaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 2 — Médicaments intraveineux",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En dehors d'une situation d'urgence attendue/prévisible, préparer juste avant leur utilisation uniquement les médicaments nécessaires à un patient donné, plutôt qu'une préparation systématique en amont (20 à 50 % des médicaments préparés sont in fine inutilisés et jetés selon les études citées ; jusqu'à 45 % des déchets pour le propofol seul).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser préférentiellement des seringues pré-remplies pour les médicaments à usage occasionnel (drogues d'urgence : éphédrine, phényléphrine, atropine, adrénaline, suxaméthonium), plutôt que de les préparer à l'avance dans des seringues classiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R2.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lors de l'anesthésie générale totale intraveineuse, utiliser un monitorage de la profondeur d'anesthésie (BIS ou entropie), pour diminuer la consommation de propofol.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Champ 3 — Dispositifs médicaux et environnement de travail",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Niveau",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier au maximum les dispositifs médicaux réutilisables plutôt qu'à usage unique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les dispositifs réutilisables, mettre en place des procédures d'inventaire et d'exploitation garantissant leur réutilisation maximale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas combiner, pour un dispositif médical donné, usage unique et usage multiple (effet additif de l'impact environnemental des deux types).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.1.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour les dispositifs en plastique, sélectionner des modèles sans diéthylhexyle phtalate (DEHP) et privilégier des fabricants locaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.2.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En association avec un changement de filtre à haute efficacité pour chaque patient et en l'absence de souillure visible, ne réaliser qu'un changement hebdomadaire des circuits de ventilateur plutôt qu'un changement quotidien.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place un programme de tri des déchets.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "R3.3.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Mettre en place un programme de recyclage et de valorisation des déchets.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "SFAR, avec la Société Française d'Hygiène Hospitalière (SF2H) et la Société Française de Pharmacie Clinique (SFPC), « Réduction de l'impact environnemental de l'anesthésie générale », Recommandations de Pratiques Professionnelles, référentiel validé par le Comité des Référentiels Cliniques de la SFAR le 02/06/2022, le Conseil d'Administration de la SFAR le 29/06/2022 et le Conseil Scientifique de la SF2H. Bibliographie extensive dans le texte intégral (non reproduite ici).",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante, produite pour un usage d'aide-mémoire. Elle reprend intégralement le texte des 17 recommandations mais condense fortement l'argumentaire environnemental détaillé (données chiffrées, références bibliographiques) qui compose l'essentiel du texte source (38 pages). Elle ne remplace pas le texte intégral et n'est ni éditée ni validée par la SFAR/SF2H/SFPC. La méthode GRADE® n'ayant pu être appliquée à l'ensemble des questions, aucune recommandation de ce document ne porte de grade numérique 1+/1-/2+/2- — toutes sont des avis d'experts en accord fort, une information à ne pas perdre en cas de comparaison avec d'autres RFE de ce corpus.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

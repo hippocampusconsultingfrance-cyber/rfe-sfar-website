@@ -1,0 +1,882 @@
+RECOMMANDATIONS FORMALISÉES D’EXPERTS
+Gestion périopératoire des traitements chroniques
+et dispositifs médicaux. Anti-infectieux,
+immunosuppresseurs
+Perioperative management of chronic treatment and
+medical devices: Anti-infectious, immunosuppressive
+Société francaise d’anesthésie et de réanimation
+GROUPE DE TRAVAIL
+Responsable du groupe
+Pr Olivier Mimoz (CHU la Milétrie, Poitiers) o.mimoz@chu-
+poitiers.fr
+Experts
+Dr Régis Bronchard (CHU Bichat, Paris)
+Dr Michel Carles (CHU de Nice, hôpital de l’Archet, Nice)
+Dr Claire Dahyot-Fizelier (CHU la Milétrie, Poitiers)
+Dr Sigismond Lasocki (CHU Bichat, Paris)
+Traitements :
+Antituberculeux
+Antirétroviraux
+Immunosuppresseurs
+1. ANTITUBERCULEUX
+Une mauvaise observance ou une mauvaise gestion des
+antituberculeux sont des facteurs reconnus favorisant l’émer-
+gence de résistances.
+1.1. Quel est le risque d’évènement ?
+1.1.1. Arrêt du traitement
+L’arrêt d’un ou de plusieurs antibiotiques équivaut à une
+mauvaise observance et favorise l’émergence de résistance du
+bacille tuberculeux, une recrudescence de la maladie et la
+majoration du risque de toxicité hépatique après la réin-
+troduction des antituberculeux. Cette interruption entraîne
+également le prolongement du traitement aﬁn de compenser
+les doses manquantes.
+1.1.2. Au maintien du traitement
+L’isoniazide, la rifampicine, l’acide para-aminosalicylique ainsi
+que les thioamides (éthionamide, protionamide) favorisent la
+survenue d’une toxicité hépatique surtout en cas de facteur
+favorisant comme une insufﬁsance circulatoire associée ou
+l’utilisation de médicament hépatotoxique.
+La
+rifampicine
+est
+également
+inducteur
+enzymatique
+hépatique et par une augmentation du métabolisme de
+certaines substances (cortisol) ou de certains médicaments
+(antivitamines K, corticoïdes, estroprogestatifs), elle diminue
+leur efﬁcacité. En cas d’administration de corticoïdes, il est
+recommandé d’augmenter la posologie de 30 à 50 %.
+Il existe des interactions médicamenteuses notamment avec
+la phénytoïne dont l’isoniazide inhibe l’hydroxylation avec un
+risque d’intoxication.
+La rifampicine peut également provoquer une thrombo-
+pénie, il est nécessaire avant toute chirurgie de s’assurer de son
+absence. Des accidents immunoallergiques sont possibles et
+l’apparition
+des
+anticorps
+est
+favorisée
+par
+des
+prises
+intermittentes de rifampicine.
+Les aminosides (streptomycine, amikacine, capréomycine)
+sont potentiellement néphrotoxiques, notamment chez les
+patients présentant une altération de la fonction rénale
+préexistante,
+en
+association
+avec
+d’autres
+médicaments
+néphrotoxiques chez le patient hypovolémique ou lors des
+traitements prolongés. Un monitorage de la fonction rénale est
+nécessaire associé à un suivi thérapeutique.
+Les thioamides favorisent les hypoglycémies chez les
+patients diabétiques, une surveillance de la glycémie est
+recommandée en périopératoire.
+L’acide para-aminosalicylique favorise la survenue d’hypo-
+kaliémie et d’acidose en cas d’insufﬁsance rénale associée, une
+Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1057–1065
+0750-7658/$ see front matter
+doi:10.1016/j.annfar.2009.10.014
+surveillance du ionogramme sanguin et du bilan rénal est
+recommandé.
+1.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Lors de l’anesthésie des patients sous antituberculeux,
+l’enjeu essentiel est d’éviter l’hépatotoxicité surajoutée par
+certains agents anesthésiques.
+Le pentothal, comme tous les barbituriques, est un puissant
+inducteur enzymatique hépatique. Associé à la rifampicine, il
+augmente le métabolisme de cette dernière et entraîne une
+diminution de son taux plasmatique, il augmente également le
+risque d’hépatotoxicité de l’association isoniazide-rifampicine.
+De plus, l’administration d’agents inducteurs sur l’activité du
+cytochrome P450 majore la toxicité hépatique de l’isoniazide
+en favorisant la synthèse de l’acéthylhydralazine, métabolite
+dont l’oxydation aboutit à un dérivé fortement hépatotoxique.
+L’induction par pentothal est donc contre-indiquée en cas de
+traitement antituberculeux.
+Parmi les agents anesthésiques, seuls les agents volatiles
+halogénés sont suspects d’hépatotoxicité. L’halothane et
+l’enﬂurane, actuellement peu utilisés, sont les deux seuls
+agents incriminés dans la genèse de lésions hépatiques sans
+qu’aucune certitude ne soit établie et sont, par conséquent,
+contre-indiqués. En ce qui concerne les autres halogénés
+comme l’isoﬂurane, le sévoﬂurane et le desﬂurane, les données
+publiées étant rassurantes sur leur absence de toxicité
+hépatique, ils peuvent être utilisés raisonnablement dans le
+cas d’un traitement antituberculeux en surveillant de façon
+rapprochée le bilan hépatique.
+L’anesthésie locorégionale est possible en l’absence d’atteinte
+hépatique préopératoire puisqu’aucune toxicité hépatique n’a
+été rapportée jusqu’à ce jour. Dans le cas contraire, elle doit être
+réalisée avec précaution puisque les anesthésiques locaux du
+groupe amino-amide, les plus utilisés, ont un métabolisme
+hépatique exclusif (CYP450) et que leur clairance totale dépend
+de leur clairance hépatique ; la lidocaïne possédant un coefﬁcient
+d‘extraction hépatique le plus élevé entre 65 et 85 %.
+Les curares n’ont pas de toxicité hépatique connue. En cas
+d’atteinte hépatique préopératoire,
+les curares dont le
+métabolisme est indépendant de la fonction hépatique ou
+rénale sont indiqués, à savoir le mivacurium, l’atracurium et le
+cisatracurium, ainsi que la succinylcholine en cas d’estomac
+plein. En cas de traitement antituberculeux de deuxième ligne
+par aminoside, l’utilisation des curares doit être prudente et
+guidée par le monitorage de la curarisation. En effet, les
+aminosides dépriment la fonction neuromusculaire et pro-
+voquent un bloc de type dépolarisant, majorant la profondeur
+du bloc dépolarisant et non dépolarisant et pouvant provoquer
+des syndromes myasthéniques iatrogènes.
+1.3. Proposer une stratégie d’arrêt, de maintien
+et/ou de substitution
+Il est fortement préconisé de poursuivre le traitement instauré
+aux mêmes posologies et par voie orale, ainsi que la
+supplémentation vitaminique associée (B1 et B6) (accord fort).
+En cas de nécessité d’interruption prolongée du traitement, une
+prise en charge pluridisciplinaire est recommandée (accord fort).
+Dans tous les cas, il est fortement préconisé de poursuivre le
+traitement instauré aux mêmes posologies et par voie orale. Un
+relais intraveineux peut être nécessaire dans le cadre d’une
+chirurgie nécessitant un jeûne postopératoire ou d’une
+impossibilité de réalimentation orale précoce. Seules trois
+molécules sont disponibles sous forme intraveineuse : l’iso-
+niazide, l’éthambutol et la rifampicine ; dans certains cas les
+quinolones peuvent également être utilisées. Le relais voie
+orale–voie intraveineuse pour ces trois molécules peut être
+réalisé par un médecin anesthésiste-réanimateur. Un avis
+spécialisé est indispensable pour la substitution des autres
+antibiotiques qui doit être guidée par l’antibiogramme.
+Le suivi thérapeutique de l’isoniazide en périopératoire
+standard est inutile. Il n’a d’intérêt qu’à l’instauration du
+traitement ou encore en cas d’insufﬁsance hépatique ou rénale.
+1.4. Circonstances postopératoires nécessitant
+l’adaptation posologique
+1.4.1. Insufﬁsance rénale
+En cas d’insufﬁsance rénale :
+ une clairance inférieure à 30 ml/min justiﬁe une diminution
+des posologies d’éthambutol (7–10 mg/kg), de pyrazinamide
+(15 mg/kg) et d’isoniazide (3–4 mg/kg) ;
+ en cas de dialyse, il est recommandé d’espacer les prises à
+trois fois par semaine, après chaque dialyse, l’éthambutol ne
+sera utilisé que chez les sujets bacillifères et à la posologie de
+10 mg/kg après chaque dialyse. La posologie unitaire de
+rifampicine et de pyrazinamide est inchangée, la posologie
+unitaire d’isoniazide est diminuée à 3–4 mg/kg. Un suivi
+thérapeutique est utile dans cette situation ;
+ en cas d’hémoﬁltration, la diminution de la posologie des
+antituberculeux et le suivi thérapeutique suivent les mêmes
+recommandations que pour la dialyse.
+1.4.2. Toxicité hépatique
+En cas de toxicité hépatique :
+ dans tous les cas un suivi du bilan hépatique est indiqué car
+l’INH, l’EMB et la PZA sont potentiellement hépatotoxiques.
+De l’INH, la RMP et la PZA, la PZA est la plus hépatotoxique
+et la RMP l’est le moins avec un risque essentiel d’ictère
+cholestatique ;
+ la conduite à tenir en fonction du dosage des transaminases
+est la suivante :
+ chez un patient sans signes digestifs, en cas d’élévation des
+transaminases sous traitement avec sérum glutomooxa-
+loacétate (SGOT) inférieur à trois fois la normale :
+poursuite
+du
+traitement
+aux
+mêmes
+posologies
+et
+surveillance rapprochée du bilan hépatique,
+ SGOT entre trois et six fois la normale : diminution par
+deux de la posologie d’isoniazide et surveillance étroite du
+bilan hépatique,
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1057–1065
+1058
+ SGOT supérieure à six fois la normale (dix fois pour
+l’OMS) : nécessite théoriquement l’arrêt de l’isoniazide
+mais un avis spécialisé est nécessaire aﬁn d’effectuer la
+substitution selon l’antibiogramme ;
+1.5. Doit-on faire appel à un spécialiste pour une
+décision collégiale ?
+Lorsque le traitement antituberculeux peut être maintenu
+aux mêmes posologies, aucun avis spécialisé n’est nécessaire.
+En revanche, en cas de nécessité de modiﬁcation de
+traitement ou de relais intraveineux, un avis spécialisé est
+recommandé.
+1.6. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Éviter toute hépatotoxicité surajoutée.
+Une tuberculose traitée depuis moins de 15 jours est
+bacillifère. Les règles d’isolement et d’hygiène recommandées
+doivent donc être appliquées au bloc, en SSPI et en réanimation
+(circulaire DGS/VS-DH no 69 du 29 octobre 1993 relative à la
+prévention de la transmission de la tuberculose dans les lieux
+de soins). Au-delà de 15 jours de traitement adapté, le patient
+est considéré comme non contagieux même en cas de présence
+de bacilles acido-alcoolo résistants à l’examen microscopique.
+Cependant, un BK tubage en urgence doit être réalisé et le
+résultat obtenu en une heure orientera les mesures d’isolement
+à mettre en œuvre.
+1.6.1. Agents anesthésiques
+Le thiopental doit être proscrit.
+L’anesthésie
+locorégionale
+est
+possible
+en
+l’absence
+d’atteinte hépatique préopératoire.
+Le propofol est complètement dénué de risque hépatique et
+est adapté pour l’induction et l’entretien de l’anesthésie d’un
+patient sous antituberculeux, une étude récente ne rapporte
+aucune inﬂuence de l’utilisation du propofol sur la fonction
+hépatocellulaire. Les halogénés tels que l’isoﬂurane, le desﬂurane
+et le sévoﬂurane peuvent être raisonnablement utilisés pour
+l’entretien de l’anesthésie en l’absence d’atteinte hépatique
+préopératoire.
+1.6.2. Précautions/mise en garde
+Toute insufﬁsance circulatoire peut favoriser la survenue
+d’une hépatotoxicité postopératoire. En cas d’insufﬁsance
+circulatoire prolongée en peropératoire et postopératoire
+accompagnée
+de
+stigmates
+de
+souffrance
+cellulaire,
+la
+surveillance
+thérapeutique
+est
+recommandée.
+En
+effet,
+l’isoniazide, la rifampicine et la pyrazinamide ont une
+extraction hépatique, et bien que son coefﬁcient d’extraction
+soit faible, en cas de bas débit hépato-splanchnique le risque de
+diminution de sa clairance hépatique et de son accumulation
+existe.
+Dans tous les cas, le bilan hépatique doit être surveillé de
+façon rapprochée en postopératoire.
+1.6.3. Analgésie postopératoire
+Aucun
+médicament
+analgésique
+postopératoire
+n’est
+contre-indiqué en cas de traitement antituberculeux en
+l’absence d’atteinte hépatique préopératoire. L’administration
+de posologies élevées de paracétamol, doit cependant être
+évitée.
+1.7. Proposer une stratégie de reprise du
+traitement
+En cas de modiﬁcation du traitement habituel pour la
+chirurgie, sa reprise doit être organisée avec le pneumologue.
+2. ANTIRÉTROVIRAUX
+Les trithérapies et plus largement les associations anti-
+rétrovirales ont largement modiﬁé le pronostic de l’infection
+par le VIH. Le principal objectif de cette stratégie thérapeutique
+est la suppression de la réplication virale attestée par une
+charge virale indétectable (celle-ci est estimée par la mesure
+des ARNm viraux plasmatiques). Une adhérence non optimale
+au traitement (interruptions itératives) altère le contrôle
+virologique de l’infection et est susceptible d’accroître la
+morbimortalité et les phénomènes de résistance. L’observance
+(assiduité et régularité des prises médicamenteuses) est un
+objectif primordial du suivi thérapeutique, conditionnant le
+succès du traitement et la prévention de la progression clinique
+de la maladie. Ainsi l’interruption de traitements antirétrovi-
+raux est potentiellement délétère et doit être décidée de façon
+raisonnée.
+2.1. Quel est le risque d’évènement ?
+2.1.1. À l’arrêt du traitement
+Les interruptions de traitement telles qu’elles ont été
+évaluées dans le cadre de programmes spéciﬁques (inter-
+ruptions programmées) ont démontré un effet délétère sur
+l’évolution virale et immunitaire des patients VIH. Néanmoins,
+les effets observés sont en relation avec des interruptions
+prolongées (plusieurs semaines), aucune étude n’étant dis-
+ponible sur une interruption ponctuelle de moins d’une
+semaine en rapport avec la période périopératoire. A
+contrario, les variabilités intra-individuelles importantes des
+taux sériques lors d’un traitement antirétroviral prolongé ne
+s’accompagnent d’aucune modiﬁcation du statut viral des
+patients.
+L’interruption du traitement ne représente vraisemblable-
+ment pas le même niveau de risque selon le moment de
+l’histoire médicale du patient. Un premier traitement anti-
+rétroviral a pour objectif une charge virale indétectable dans un
+délai de six mois. Cet objectif est en premier lieu non atteint en
+cas de mauvaise observance et doit imposer des mesures
+correctives. De la même façon, un traitement récemment ou
+prochainement modiﬁé en cas d’échec virologique avéré,
+nécessite une observance optimale. En revanche, bien que des
+traitements intermittents ne soient pas recommandés, une
+interruption ponctuelle en période de suppression de la
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1057–1065
+1059
+réplication virale et de restauration immunitaire (nadir de
+LyCD4+ supérieur à 250/mm3) est envisageable sans risque
+supplémentaire documenté.
+Du fait de l’activité de certains antirétroviraux sur le virus de
+l’hépatite B, un arrêt thérapeutique prolongé (par exemple en
+réanimation) peut entraîner un risque d’acutisation d’une
+hépatite B chronique (lamivudine, ténofovir, emtricitabine).
+2.1.2. Au maintien du traitement
+L’éventualité d’interrompre un traitement antirétroviral au
+motif des risques associés aux interférences avec les situations
+cliniques en anesthésie réanimation est rare.
+Les différentes modiﬁcations induites par les traitements
+antirétroviraux augmentent le risque d’acidose lactique, le
+risque de résistance à l’insuline et le risque global cardiovascu-
+laire de ces patients. Les effets des traitements antirétroviraux
+sur les iso-enzymes du cytochrome P450 (CYP 2B6 et CYP
+3A4 particulièrement) impliquent des modiﬁcations pharma-
+cocinétiques pour tous les médicaments utilisant ces voies
+métaboliques. Les médicaments utilisés en anesthésie ont un
+impact sur la pharmacocinétique des antirétroviraux.
+Syndrome de restauration immunitaire (IRIS) : ensemble de
+manifestations inﬂammatoires, quelques semaines après la
+mise en route d’un traitement antirétroviral, chez un patient
+très immunodéprimé. L’IRIS peut dévoiler ou aggraver une
+infection opportuniste (particulièrement à mycobactéries) et
+faire discuter l’interruption du traitement antirétroviral,
+particulièrement si le taux de CD4 est supérieur à 200/
+mm3. Dans tous les cas une telle décision procède d’un avis
+spécialisé.
+2.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Les classes thérapeutiques antirétrovirales sont les inhibi-
+teurs nucléosidiques ou nucléotidiques de la transcriptase
+inverse (INTI), les inhibiteurs non nucléosidiques de la
+transcriptase inverse (INNTI), les inhibiteurs de protéase
+(IP), les inhibiteurs de fusion (IF). De nouvelles classes
+thérapeutiques sont en évaluation (antagonistes du récepteur
+CCR5, inhibiteurs de l’intégrase. . . ).
+La pharmacocinétique de différentes molécules utilisées
+dans les polythérapies sont :
+ pour les INTI, une élimination principalement rénale avec
+métabolisme par glucuronoconjugaison pour la zidovudine et
+l’abacavir ;
+ pour les IP, un métabolisme intestinal (d’où leur faible
+biodisponibilité) puis au niveau hépatique par les iso-enzymes
+du cytochrome P450 : CYP3A4 et CYP3A5 (de même que les
+INNTI). Le ritonavir (IP) est un puissant inhibiteur du CYP3A
+et induit une augmentation signiﬁcative du taux sérique des IP
+associés ;
+ pour l’IF enfuvirtide, un métabolisme indépendant du CYP3A.
+Une mise au point complète des interactions médicamen-
+teuses des antirétroviraux avec les autres médicaments, mise à
+jour régulièrement, est disponible sur le site Internet : http://
+www.hiv-druginteractions.org.
+2.3. Effets secondaires des médicaments
+antirétroviraux pouvant être aggravés par les
+médicaments de l’anesthésie-réanimation
+L’existence d’une neuropathie liée à un traitement par
+certains INTI (didanosine par ex.) doit être prise en compte
+pour la réalisation d’une anesthésie locorégionale périnerveuse
+pouvant aggraver la symptomatologie.
+L’augmentation du risque d’acidose lactique, de résistance à
+l’insuline et du risque cardiovasculaire est à prendre en compte
+particulièrement en secteur de réanimation (conséquences des
+modiﬁcations des apports énergétiques, des paramètres
+hémodynamiques, augmentation de la dette myocardique en
+oxygène, hypoxie. . . ).
+2.4. Médicaments anesthésiques modiﬁant la
+pharmacocinétique des médicaments
+antirétroviraux
+Des données limitées ont suggéré une possibilité de
+modiﬁcation de la glucoroconjugaison de la zidovudine par
+les benzodiazépines et le propofol (augmentation des taux) et le
+phénobarbital (diminution des taux).
+Certains médicaments fréquemment utilisés en anesthésie
+peuvent interférer sur les antirétroviraux : par exemple les
+antifungiques azolés peuvent augmenter de 25–70 % les taux
+sériques du saquinavir (IP) et de même les macrolides en
+augmentent les taux sériques de plus de 100 % et la cimétidine
+de 120 %.
+Enﬁn, un traitement par rifampicine (par exemple dans le
+cadre d’une infection nosocomiale staphylococcique) est
+contre-indiqué avec les IP non associés au ritonavir. En cas
+de nécessité impérative, sans alternative thérapeutique, un
+monitorage thérapeutique des IP est obligatoire.
+2.5. Situation spéciﬁque : la réanimation prolongée
+De nombreux paramètres peuvent modiﬁer les taux
+sériques
+des
+traitements
+antirétroviraux
+administrés
+en
+réanimation : absence de forme injectable (à l’exception de
+la zidovudine et de l’enfuvirtide non encore commercialisés)
+nécessitant une reconstitution pour administration par une
+sonde digestive, fréquences des modiﬁcations physiologiques
+altérant l’absorption digestive (iléus digestif, nutrition entérale
+continue, traitement par antiulcéreux. . . ), insufﬁsance hépa-
+tique ou rénale associée. Un monitorage thérapeutique est
+donc nécessaire en réanimation. Plusieurs pathologies liées aux
+traitements antirétroviraux peuvent poser des problèmes
+spéciﬁques en réanimation :
+ augmentation du risque cardiovasculaire (risque relatif
+d’infarctus du myocarde) avec un risque accru de resténose
+après reperméabilisation ;
+ phénomène de résistance à l’insuline fréquent ;
+ risque d’acutisation d’une hépatite B chronique en cas
+d’interruption d’un antirétroviral ayant une activité spéciﬁque
+sur
+le
+virus
+de
+l’hépatite
+B
+(lamivudine,
+tenofovir,
+emtricitabine) ;
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1057–1065
+1060
+ risque d’acidose lactique avec les INTI, avec une mortalité
+proche de 50 % ;
+ risque de surdosage en benzodiazépine (administrée de façon
+prolongée) en cas d’association aux INNTI et aux anti-
+protéases.
+2.6. Proposer une stratégie d’arrêt, de maintien
+et/ou de substitution
+En toute circonstance il faut, autant que possible, éviter
+toute interruption thérapeutique.
+La prise des IP nécessite une prise alimentaire (corps gras)
+concomitante et est donc incompatible avec le jeûne pré-
+opératoire.
+En cas d’absolue nécessité, l’interruption thérapeutique
+devra être la plus courte possible dans le temps : 24 à 48 heures
+sans conséquences évaluables à ce jour.
+En cas d’interruption thérapeutique, celle-ci devra porter
+sur l’ensemble du traitement aﬁn d’éviter une monothérapie,
+source potentielle d’émergence de résistance virale.
+En raison de l’importance de l’observance du traitement
+antirétroviral, en période périopératoire, les arrêts de traitements
+doivent être évités (accord fort). Toute interruption non évitable
+(jeûne préopératoire) sera la plus courte possible et au plus de
+48 heures maximum (accord fort). En cas d’arrêt de traitement,
+tous les médicaments antirétroviraux doivent être interrompus et
+repris simultanément (accord fort). Tout arrêt de traitement doit
+faire l’objet d’un avis spécialisé (accord fort).
+2.7. Doit-on faire appel à un spécialiste pour une
+décision collégiale ?
+Lors de la consultation d’anesthésie, l’avis du prescripteur
+référent du traitement antirétroviral sera systématiquement
+sollicité concernant l’arrêt du traitement dans le cadre du jeûne
+préopératoire (mais également des précautions vis-à-vis du
+risque infectieux, des risques secondaires cardiovasculaires ou
+métaboliques, etc.).
+2.8. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Le maintien du traitement rétroviral dans le contexte du
+bloc opératoire ou de la réanimation doit s’accompagner d’une
+gestion des risques induits par cette thérapeutique, en
+particulier les phénomènes d’obésité, d’hypertension artérielle,
+de
+résistance
+insulinique,
+de
+dysrégulation
+lipidique
+et
+d’augmentation du risque cardiovasculaire.
+L’utilisation prolongée de propofol virtuellement peut
+majorer une dyslipidémie. En particulier, le risque d’hypertri-
+glycéridémie et de pancréatite doit être pris en compte dans les
+associations aux INTI.
+Le recours à une anesthésie locorégionale ne présente
+aucune
+restriction
+spéciﬁque,
+en
+dehors
+de
+l’existence
+préalable d’une neuropathie sévère.
+L’anesthésie péridurale en obstétrique est une technique
+recommandée.
+La plupart des médicaments de l’anesthésie peuvent être
+utilisés de façon ponctuelle sans précautions spéciﬁques.
+L’association du midazolam à un traitement antirétroviral
+peut entraîner une majoration de sa pharmacodynamie
+(dépression respiratoire, somnolence).
+En réanimation le maintien du traitement antirétroviral
+(administration entérale exclusive de la plupart des médica-
+ments antirétroviraux) implique une stratégie active (gestion
+des apports par sonde entérale) et un monitorage thérapeu-
+tique.
+2.9. Proposer une stratégie de reprise du
+traitement
+En cas d’arrêt, la reprise se fera au plus tôt, de façon
+complète (tout ou rien), avec un monitorage des fonctions
+immunitaires et de la charge virale, voire des taux sériques
+selon les médicaments associés.
+3. INHIBITEURS DE CALCINEURINE :
+CICLOSPORINE A (NEORALW), TACROLIMUS
+(PROGRAFW)
+3.1. Quel est le risque d’événement ?
+3.1.1. À l’arrêt du traitement
+Il existe un risque mal documenté de rejet à l’interruption du
+traitement, dépendant en particulier de la durée de l’inter-
+ruption et de l’organe transplanté.
+3.1.2. Au maintien du traitement
+Du fait d’un index thérapeutique étroit, le maintien du
+traitement implique de prendre en compte sa toxicité propre
+(néphrotoxicité, neurotoxicité, hyperkaliémie et hypertension
+artérielle en particulier) ainsi que les très nombreuses
+interactions médicamenteuses inﬂuant sur son métabolisme
+(hépatique par cytochrome P450 3A4) donc sa concentration
+(érythromycine, inhibiteurs calciques, azolés. . . ).
+La poursuite de l’immunosuppression peut s’accompagner
+d’un risque plus élevé d’infections postopératoires (grade C).
+3.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Il est décrit, concernant la ciclosporine, quelques cas
+d’augmentation de l’intensité et de la durée de curarisation avec
+les curares non dépolarisants, un monitorage est donc
+indispensable et peut-être une diminution des doses (grade C).
+L’utilisation de thiopental peut entraîner, par effet inducteur,
+une baisse des concentrations de ciclosporine ou de tacrolimus.
+Le midazolam et la lidocaïne diminueraient le métabolisme du
+tacrolimus (grade C).
+De grandes modiﬁcations des taux sanguins de ciclosporine
+ou de tacrolimus sont possibles en cas de remplissage massif
+périopératoire ou de circulation extracorporelle (grade C).
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1057–1065
+1061
+Il faut éviter les anti-inﬂammatoires non stéroïdiens dans la
+technique d’analgésie du fait de leur potentiel néphrotoxique en
+association avec les inhibiteurs de calcineurine.
+3.3. Proposer une stratégie d’arrêt, de maintien ou
+de substitution
+Il est recommandé de surveiller les taux plasmatiques et la
+fonction rénale en concertation avec le spécialiste en charge de
+l’immunosuppression du patient (accord fort).
+Il est recommandé de ne pas donner la ciclosporine le matin de
+l’intervention en cas d’anesthésie générale. Le tacrolimus peut
+être poursuivi par voie sublinguale.
+La reprise précoce du traitement est nécessaire (par voie orale
+ou intraveineuse selon la situation) (accord fort).
+Si la voie entérale est compromise, il est possible
+d’administrer le traitement par voie intraveineuse (grade C).
+3.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Il n’y a pas de contre-indication particulière à l’anesthésie
+générale ou locorégionale.
+Un monitorage des taux est indispensable en périopératoire
+quelle que soit la technique d’anesthésie. Le C2 (mesuré
+précisément deux heures après la prise) semble être le meilleur
+reﬂet de l’efﬁcacité pour la ciclosporine, le taux résiduel (avant
+la prise) étant utilisé pour le tacrolimus. Il est conseillé de suivre
+la fonction rénale et la kaliémie pour rechercher des signes de
+toxicité.
+3.5. Proposer une stratégie de reprise du
+traitement
+Délai : le soir même si possible avec un suivi sanguin (dosage
+quotidien).
+Voie : per os, en cas d’impossibilité de recourir à la voie
+entérale pendant plus de 24 à 48 heures, le passage à la forme
+intraveineuse
+(adaptation
+posologique
+indispensable)
+est
+conseillé.
+4. THALIDOMIDE (THALIDOMIDE LAPHALW)
+4.1. Quel est le risque d’événement ?
+4.1.1. À l’arrêt du traitement
+Il n’y a pas de description d’un risque particulier à
+l’interruption du traitement.
+4.1.2. Au maintien du traitement
+La prise en compte des effets indésirables de la thalidomide
+semble importante, en particulier les neuropathies sensitivo-
+motrices survenant deux à 18 mois après son instauration et
+pouvant persister à l’arrêt ainsi que le risque thrombœmbo-
+lique veineux.
+4.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Il n’y a pas d’interférence connue avec les médicaments
+d’anesthésie.
+4.3. Proposer une stratégie d’arrêt, de maintien ou
+de substitution
+Il est recommandé de ne pas interrompre la thalidomide en
+tenant compte de la fréquence des neuropathies et du risque de
+maladie thrombœmbolique veineuse (accord fort).
+4.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+L’indication
+d’une
+anesthésie
+locorégionale
+doit
+être
+prudente et précédée d’une évaluation précise d’une éventuelle
+neuropathie périphérique, décrite en particulier plus préco-
+cement sur les nerfs saphènes externes et médians mais
+pouvant toucher tous les territoires et persistant après l’arrêt
+du traitement.
+Il faut prendre en compte un risque majoré de complication
+thrombœmbolique veineuse périopératoire et donc le prévenir
+efﬁcacement.
+4.5. Proposer une stratégie de reprise du
+traitement
+Pas de stratégie particulière. La reprise est à programmer en
+cas de nécessité avec le prescripteur.\
+5. MÉTHOTREXATE
+5.1. Quel est le risque d’événement ?
+5.1.1. À l’arrêt du traitement
+Il n’y a pas de description d’un risque particulier à
+l’interruption du traitement.
+5.1.2. Au maintien du traitement
+La prise en compte des effets indésirables du méthotrexate
+est importante, notamment sa toxicité hématologique, rénale
+et respiratoire.
+5.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Il est fortement suspecté une toxicité médullaire et
+muqueuse du méthotrexate en présence de protoxyde d’azote
+(grade C).
+Il est contre-indiqué d’utiliser des anti-inﬂammatoires non
+stéroïdiens pour l’analgésie en raison d’une potentialisation de
+la toxicité hématologique et rénale (grade C).
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1057–1065
+1062
+5.3. Proposer une stratégie d’arrêt, de maintien ou
+de substitution
+Il est recommandé de ne pas interrompre le traitement. Il faut
+prendre en compte la toxicité hématologique et rénale, en
+particulier en association avec l’utilisation de protoxyde d’azote
+ou d’AINS en périopératoire (accord fort).
+5.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+En cas de maintien ou de reprise précoce du méthotrexate, il
+est conseillé de ne pas utiliser de protoxyde d’azote durant
+l’anesthésie (grade C).
+5.5. Proposer une stratégie de reprise du
+traitement
+Pas de stratégie particulière. La reprise est à programmer en
+cas de nécessité avec le prescripteur.
+6. AZATHIOPRINE (IMURELW)
+6.1. Quel est le risque d’événement ?
+6.1.1. À l’arrêt du traitement
+Il existe un risque théorique mais mal documenté de rejet à
+l’arrêt du traitement. Le risque lié à l’arrêt du traitement dans
+les maladies dysimmunitaires n’est pas étudié.
+Il a été décrit une augmentation du risque de saignement à
+l’arrêt de l’azathioprine chez un patient traité par warfarine.
+Cependant, les antivitamines K étant régulièrement arrêtés ou
+antagonisés en périopératoire, ce risque ne semble pas
+important.
+6.1.2. Au maintien du traitement
+Le risque théorique du maintien du traitement est de
+favoriser les infections postopératoires. Le taux d’infection
+postopératoire après induction de l’immunosuppression pour
+transplantation, n’est pas élevé (grade C). Dans le contexte de
+la chirurgie colique, le maintien de l’azathioprine n’est pas
+associé à un risque accru de complications postopératoires
+(grade C).
+Le second risque théorique est celui d’un surdosage par
+insufﬁsance rénale postopératoire, compliquée d’insufﬁsance
+médullaire. Cependant, ce risque est théorique et la toxicité
+médullaire apparaît après plusieurs jours de surdosage.
+6.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+La
+seule
+interférence
+décrite
+concerne
+les
+curares,
+l’azathioprine diminuant leur effet. Cependant, la posologie
+de curare semble pouvoir être identique à celle utilisée chez le
+sujet sain (grade C).
+6.3. Proposer une stratégie d’arrêt, de maintien ou
+de substitution
+Il est recommandé d’administrer le traitement avec la
+prémédication (accord fort).
+En cas d’interruption prolongée, il est recommandé de se
+concerter avec le spécialiste prenant en charge le patient pour
+ce traitement (accord fort).
+Un relais par voie intraveineuse, à posologie identique, est
+possible en cas d’indisponibilité de la voie orale.
+6.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Il convient de s’assurer de l’absence d’altération de la
+fonction rénale liée aux techniques utilisées, suivant l’injection
+d’anti-inﬂammatoires non stéroïdiens par exemple. L’insufﬁ-
+sance rénale pouvant être responsable de surdosage et donc de
+toxicité médullaire.
+6.5. Proposer une stratégie de reprise du
+traitement
+Le traitement pourra être repris le lendemain de l’inter-
+vention dans le cadre de la transplantation ou trois jours après
+dans le cadre des maladies dysimmunitaires. Un relais par voie
+intraveineuse, à posologie identique, est possible en cas
+d’indisponibilité de la voie orale.
+Les comprimés étant à manipuler avec précaution, le contact
+avec les mains étant déconseillé au personnel soignant, la voie
+intraveineuse sera préférée à la sonde nasogastrique en cas
+d’indisponibilité de la voie orale.
+7. MYCOPHÉNOLATE MOFÉTIL (CELLCEPTW)
+7.1. Quel est le risque d’événement ?
+7.1.1. À l’arrêt du traitement
+Il existe un risque théorique mais mal documenté de rejet à
+l’arrêt du traitement.
+7.1.2. Au maintien du traitement
+Comme médicament immunosuppresseur, le risque théo-
+rique du maintien du traitement est de favoriser les infections
+postopératoires. Il n’existe pas d’étude sur le sujet chez les
+patients transplantés.
+7.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Aucune interaction n’a été rapportée avec les médicaments
+de l’anesthésie.
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1057–1065
+1063
+7.3. Proposer une stratégie d’arrêt, de maintien ou
+de substitution
+Il est recommandé d’administrer le traitement avec la
+prémédication (accord fort).
+En cas d’interruption prolongée, il est recommandé de se
+concerter avec le spécialiste prenant en charge le patient pour
+ce traitement (accord fort).
+Le traitement pourra être repris le lendemain de l’inter-
+vention. Il n’y a pas d’intérêt au dosage de la molécule pour le
+suivi thérapeutique ou l’adaptation posologique (grade C).
+7.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Aucune contre-indication à l’anesthésie générale ni à
+l’anesthésie locorégionale n’existe.
+7.5. Proposer une stratégie de reprise du
+traitement
+Le traitement pourra être repris le lendemain de l’inter-
+vention.
+Les comprimés étant à manipuler avec précaution, le contact
+avec les mains étant déconseillé au personnel soignant, la
+suspension buvable (préparée par le pharmacien) sera préférée
+pour l’ingestion via une sonde nasogastrique en cas d’indispo-
+nibilité de la voie orale.
+En cas d’indisponibilité totale de la voie orale, un relais par
+voie intraveineuse est possible, en accord avec le médecin
+référant et sous surveillance de la numération sanguine.
+8. CYCLOPHOSPHAMIDE (ENDOXANW)
+8.1. Quel est le risque d’événement ?
+8.1.1. À l’arrêt du traitement
+Le
+risque
+d’arrêt
+du
+traitement
+dans
+les
+maladies
+dysimmunitaires n’est pas étudié.
+8.1.2. Au maintien du traitement
+Comme médicament immunosuppresseur, le risque théo-
+rique du maintien du traitement est de favoriser les infections
+postopératoires.
+Le
+second risque
+théorique
+est
+celui de
+la
+cystite
+hémorragique, en cas de trouble de l’hémostase postopéra-
+toires.
+8.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+L’effet des curares dépolarisants peut être prolongé chez les
+patients ayant reçu du cyclophosphamide, même à distance de
+la prise (grade C).
+8.3. Proposer une stratégie d’arrêt, de maintien ou
+de substitution
+Dans le contexte du traitement anticancéreux, le cyclo-
+phosphamide s’administre en cure, aussi il semble possible de
+décaler son administration.
+Dans le cadre d’un traitement immunosuppresseur, il est
+conseillé de poursuivre le traitement en préopératoire, jusqu’à
+la prémédication.
+Il est recommandé d’administrer le traitement avec la
+prémédication (accord fort).
+En cas d’interruption prolongée, il est recommandé de se
+concerter avec le spécialiste prenant en charge le patient pour
+ce traitement (accord fort).
+Le traitement pourra être repris le lendemain de l’inter-
+vention. Un relais par voie intraveineuse, à posologie identique,
+est possible en cas d’indisponibilité de la voie orale de plus de
+48 heures.
+8.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Il n’existe pas de recommandations spéciﬁques.
+8.5. Proposer une stratégie de reprise du
+traitement
+Le traitement pourra être repris le lendemain de l’inter-
+vention. Un relais par voie intraveineuse, à posologie identique,
+est possible en cas d’indisponibilité de la voie orale.
+9. ANTICORPS MONOCLONAUX ANTI-TNF :
+(REMICADEW, HUMIRAW, ENBRELW)
+9.1. Quel est le risque d’évènement ?
+9.1.1. À l’arrêt du traitement
+Il existe un risque théorique de rebond ou de poussée de la
+maladie sous-jacente à l’arrêt du traitement, mais il est mal
+documenté.
+9.1.2. Au maintien du traitement
+Comme médicament immunosuppresseur, le risque théo-
+rique du maintien du traitement est de favoriser les infections
+postopératoires et de retarder la cicatrisation. Dans le
+contexte de la chirurgie colique, le traitement par inﬂiximab
+n’est
+pas associé
+à un risque
+accru
+de
+complications
+postopératoires (grade C).
+9.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Aucune interférence n’a été décrite.
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1057–1065
+1064
+9.3. Proposer une stratégie d’arrêt, de maintien ou
+de substitution
+La consultation et la concertation avec le spécialiste en charge
+de l’immunosuppression du patient semble indispensable pour
+la gestion périopératoire du traitement en cas d’intervention
+programmée.
+Compte tenu du risque potentiel de sepsis et de la demi-vie
+longue de ces traitements, il est conseillé de les arrêter une
+semaine avant la chirurgie. Le traitement pourra être repris la
+semaine suivant l’intervention en l’absence de complication.
+Dans le cadre d’une chirurgie colique d’un patient porteur
+de maladie de Crohn ou de RCH, le traitement pourra être
+poursuivi (grade C).
+9.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Il n’existe pas de recommandations spéciﬁques.
+9.5. Proposer une stratégie de reprise du
+traitement
+Dans
+le
+cadre
+des
+pathologies
+de
+rhumatologie,
+le
+traitement pourra être repris la semaine suivant l’intervention
+en l’absence de complication.
+Dans le cadre d’une chirurgie colique d’un patient porteur
+de maladie de Crohn ou de RCH, le traitement pourra être
+poursuivi (grade C).
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1057–1065
+1065

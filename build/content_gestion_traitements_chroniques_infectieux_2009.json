@@ -1,0 +1,821 @@
+{
+ "doc": "gestion_traitements_chroniques_infectieux_2009",
+ "sections": [
+  {
+   "title": "Antituberculeux & antirétroviraux",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Périmètre limité :</b> le référentiel SFAR complet (2009-2011) comporte 4 modules (Cardiovasculaire, Douleur chronique/toxicomanie et Neurologique-psychiatrique/phytothérapie, traités dans des fiches séparées). Cette fiche couvre le Module 3 — anti-infectieux, immunosuppresseurs.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       },
+       {
+        "t": "p",
+        "html": "<b>Grille ANAES 2004</b> — seuls deux grades apparaissent effectivement dans ce module : <b>C</b> : faible niveau de preuve ; <b>AF</b> : accord fort (grade D renforcé par méthode Delphi, même convention que les Modules 1 et 2). Fiche limitée au Module 3/4 du référentiel (anti-infectieux, immunosuppresseurs) — voir encadré de périmètre ci-dessous.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Antituberculeux",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antituberculeux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuivre le traitement instauré aux mêmes posologies et par voie orale, ainsi que la supplémentation vitaminique associée (B1 et B6).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antituberculeux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de nécessité d'interruption prolongée du traitement, une prise en charge pluridisciplinaire est recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> isoniazide/rifampicine/thioamides favorisent une toxicité hépatique ; la rifampicine est inductrice enzymatique (majorer de 30-50% la posologie des corticoïdes associés) et peut provoquer une thrombopénie (à écarter avant chirurgie) ; aminosides potentiellement néphrotoxiques (monitorage rénal) ; surveillance glycémique sous thioamides. Agents anesthésiques : thiopental proscrit (induction enzymatique majore l'hépatotoxicité) ; halothane et enflurane contre-indiqués ; propofol, isoflurane, desflurane et sévoflurane utilisables raisonnablement avec surveillance hépatique rapprochée. Curares : mivacurium/atracurium/cisatracurium indiqués si atteinte hépatique (métabolisme indépendant) ; prudence si traitement par aminoside (potentialisation du bloc). Isolement respiratoire obligatoire si traitement < 15 jours (circulaire DGS/VS-DH n° 69 du 29/10/1993) ; BK tubage en urgence au-delà. Éviter les fortes doses de paracétamol. Relais IV possible pour isoniazide, éthambutol et rifampicine uniquement ; avis spécialisé indispensable pour les autres molécules (guidé par l'antibiogramme). Adaptations posologiques en cas d'insuffisance rénale (clairance < 30 ml/min) et de toxicité hépatique (paliers selon les transaminases) détaillées dans le texte source.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Antirétroviraux",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antirétroviraux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En raison de l'importance de l'observance, les arrêts de traitement doivent être évités en période périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antirétroviraux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Toute interruption non évitable (jeûne préopératoire) sera la plus courte possible, au plus 48 heures maximum.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antirétroviraux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'arrêt, tous les antirétroviraux doivent être interrompus et repris simultanément (éviter une monothérapie, source de résistance virale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antirétroviraux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Tout arrêt de traitement doit faire l'objet d'un avis spécialisé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> les inhibiteurs de protéase (IP) nécessitent une prise alimentaire concomitante, incompatible avec le jeûne préopératoire. Rifampicine contre-indiquée avec les IP non associés au ritonavir (monitorage thérapeutique obligatoire si nécessité impérative). Risque d'acutisation d'une hépatite B chronique à l'arrêt prolongé d'un antirétroviral actif sur ce virus (lamivudine, ténofovir, emtricitabine). Interactions via les cytochromes P450 (CYP2B6, CYP3A4) avec de nombreux médicaments d'anesthésie ; midazolam potentiellement majoré (dépression respiratoire, somnolence). Neuropathie sous INTI (ex. didanosine) à prendre en compte pour l'ALR périnerveuse. En réanimation prolongée : monitorage thérapeutique nécessaire (absence de forme injectable pour la plupart des molécules, altération de l'absorption digestive).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Immunosuppresseurs & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Inhibiteurs de calcineurine (ciclosporine, tacrolimus)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Inhib. calcineurine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La poursuite de l'immunosuppression peut s'accompagner d'un risque plus élevé d'infections postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Inhib. calcineurine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Monitorage indispensable (et possible diminution des doses) des curares non dépolarisants — la ciclosporine peut augmenter l'intensité et la durée de la curarisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Inhib. calcineurine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le midazolam et la lidocaïne diminueraient le métabolisme du tacrolimus.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Inhib. calcineurine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "De grandes modifications des taux sanguins sont possibles en cas de remplissage massif périopératoire ou de circulation extracorporelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Inhib. calcineurine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Surveiller les taux plasmatiques et la fonction rénale en concertation avec le spécialiste en charge de l'immunosuppression du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Inhib. calcineurine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La reprise précoce du traitement est nécessaire (voie orale ou intraveineuse selon la situation).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Inhib. calcineurine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si la voie entérale est compromise, il est possible d'administrer le traitement par voie intraveineuse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> ne pas donner la ciclosporine le matin de l'intervention en cas d'AG (le tacrolimus peut être poursuivi par voie sublinguale) ; éviter les AINS (potentiel néphrotoxique en association) ; monitorage des taux indispensable quelle que soit la technique d'anesthésie (C2 pour la ciclosporine, taux résiduel pour le tacrolimus).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Thalidomide",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Thalidomide",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas interrompre la thalidomide, en tenant compte de la fréquence des neuropathies et du risque de maladie thromboembolique veineuse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> évaluation précise d'une éventuelle neuropathie périphérique avant toute ALR (touche en particulier les nerfs saphènes externes et médians, peut persister après l'arrêt) ; prévention efficace du risque thromboembolique veineux périopératoire.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Méthotrexate",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Méthotrexate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une toxicité médullaire et muqueuse est fortement suspectée en présence de protoxyde d'azote.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Méthotrexate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les AINS sont contre-indiqués pour l'analgésie (potentialisation de la toxicité hématologique et rénale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Méthotrexate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas interrompre le traitement, en tenant compte de la toxicité hématologique et rénale, en particulier en association avec le protoxyde d'azote ou les AINS en périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Méthotrexate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de maintien ou de reprise précoce, il est conseillé de ne pas utiliser de protoxyde d'azote durant l'anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Azathioprine",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Azathioprine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le taux d'infection postopératoire après induction de l'immunosuppression pour transplantation n'est pas élevé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Azathioprine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans le contexte de la chirurgie colique, le maintien n'est pas associé à un risque accru de complications postopératoires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Azathioprine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La posologie de curare semble pouvoir être identique à celle utilisée chez le sujet sain, malgré une diminution de leur effet par l'azathioprine.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Azathioprine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer le traitement avec la prémédication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Azathioprine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'interruption prolongée, se concerter avec le spécialiste prenant en charge le patient pour ce traitement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Mycophénolate mofétil",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mycophénolate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer le traitement avec la prémédication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mycophénolate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'interruption prolongée, se concerter avec le spécialiste prenant en charge le patient pour ce traitement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mycophénolate",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'y a pas d'intérêt au dosage de la molécule pour le suivi thérapeutique ou l'adaptation posologique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Cyclophosphamide",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cyclophosphamide",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'effet des curares dépolarisants peut être prolongé chez les patients ayant reçu du cyclophosphamide, même à distance de la prise.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cyclophosphamide",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer le traitement avec la prémédication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cyclophosphamide",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'interruption prolongée, se concerter avec le spécialiste prenant en charge le patient pour ce traitement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Anticorps monoclonaux anti-TNF (infliximab, adalimumab, étanercept)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anti-TNF",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Dans le contexte de la chirurgie colique (maladie de Crohn ou RCH), le traitement n'est pas associé à un risque accru de complications postopératoires et pourra être poursuivi.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> compte tenu du risque potentiel de sepsis et de la demi-vie longue de ces traitements, il est conseillé de les arrêter une semaine avant une chirurgie programmée (hors contexte Crohn/RCH ci-dessus) ; reprise possible la semaine suivant l'intervention en l'absence de complication.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> Société française d'anesthésie et de réanimation (SFAR), « Gestion périopératoire des traitements chroniques et dispositifs médicaux — Anti-infectieux, immunosuppresseurs », Recommandations Formalisées d'Experts, Annales Françaises d'Anesthésie et de Réanimation 28 (2009) 1057-1065.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux-anti-infectieux-immunosuppresseurs/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> Module 3/4 du référentiel uniquement (anti-infectieux, immunosuppresseurs) — 30 lignes de recommandations gradées (accord fort:16, grade C:14 ; consolidation de 3 citations de même grade sur le même scénario clinique dans le module anti-TNF, dont une phrase source dupliquée mot pour mot). Ce module achève la couverture des 4 modules effectivement présents dans le PDF fusionné de ce référentiel (Cardiovasculaire, Douleur chronique/toxicomanie et Neurologique-psychiatrique/phytothérapie, traités dans des fiches séparées). Argumentaire scientifique détaillé (document source complet) non reproduit.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante et PARTIELLE (Module 3 uniquement). Elle ne remplace pas le texte intégral. Cette fiche n'est ni éditée ni validée par la SFAR.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

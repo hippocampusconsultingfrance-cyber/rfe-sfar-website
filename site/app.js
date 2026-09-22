@@ -149,7 +149,8 @@ var RAW = {
   delivrance_information_2012: JSON.parse(document.getElementById('content-delivrance_information_2012').textContent),
   blocs_perimedullaires_ci_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_ci_2006').textContent),
   blocs_perimedullaires_technique_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_technique_2006').textContent),
-  blocs_perimedullaires_cesarienne_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_cesarienne_2006').textContent)
+  blocs_perimedullaires_cesarienne_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_cesarienne_2006').textContent),
+  blocs_perimedullaires_postop_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_postop_2006').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -2047,6 +2048,18 @@ var DOC_META = {
     validated: "Comité des référentiels de la SFAR",
     methodology: "Grille EBM classique A/B/C/AE + un « grade D » cité par le source sans définition dans son propre préambule (incohérence disclosed) — 31 recommandations gradées (A:4, B:5, C:20, D:1, AE:1), Question 7/15 uniquement (périmètre limité)",
     pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf"
+  },
+  blocs_perimedullaires_postop_2006: {
+    key: 'blocs_perimedullaires_postop_2006',
+    badge: "SFAR/Sofcot/Sofmer — RPC 2007 (Q8/15, périmètre limité)",
+    title: "Les blocs périmédullaires chez l'adulte — Analgésie postopératoire (Q8/15)",
+    short: "SFAR/Sofcot/Sofmer, « Les blocs périmédullaires chez l'adulte », RPC, Ann Fr Anesth Réanim 26 (2007) 720-752. Quatrième installment de ce document (15 Questions, 369 citations de grade au total) — les Questions 1-2, 3-5 et 7 sont des fiches séparées. Cette fiche couvre INTÉGRALEMENT la Question 8 (analgésie postopératoire par voie périmédullaire : agents, indications par type de chirurgie, monitorage/surveillance) — 71 recommandations gradées (A:28, B:17, C:26), vérifiées par un audit indépendant en aveugle (un second agent, sans accès au brouillon, a reconstruit sa propre inventaire directement depuis le texte source et obtenu exactement le même décompte). Aucune citation « grade D », « accord professionnel » ni « avis d'experts » dans le périmètre de cette Question — disclosed explicitement, chips D/AE donc absents de cette fiche. Particularité méthodologique disclosed : la sous-section Monitorage/surveillance ne comporte AUCUNE citation de grade individuelle dans le source (seulement une justification méthodologique globale, non rattachée à une phrase précise) — plutôt que d'inventer un chip qui fabriquerait une recommandation gradée inexistante, ce contenu est intégralement condensé en repères pratiques non gradés. La Question 6 (travail obstétrical) reste EXCLUE (superseded par la fiche HAS 2025 dédiée).",
+    society: "SFAR / Sofcot / Sofmer",
+    version: "2006-2007",
+    validated: "Comité des référentiels de la SFAR",
+    methodology: "Grille EBM classique A/B/C (aucun D/AE dans ce périmètre) — 71 recommandations gradées (A:28, B:17, C:26), vérifiées par audit indépendant en aveugle, Question 8/15 uniquement (périmètre limité)",
+    pages: 6,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf"
   }
 };

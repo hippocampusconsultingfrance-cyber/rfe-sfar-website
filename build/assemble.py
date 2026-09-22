@@ -298,6 +298,8 @@ with open(os.path.join(BASE, "content_blocs_perimedullaires_technique_2006.json"
     content_blocs_perimedullaires_technique_2006 = f.read()
 with open(os.path.join(BASE, "content_blocs_perimedullaires_cesarienne_2006.json"), encoding="utf-8") as f:
     content_blocs_perimedullaires_cesarienne_2006 = f.read()
+with open(os.path.join(BASE, "content_blocs_perimedullaires_postop_2006.json"), encoding="utf-8") as f:
+    content_blocs_perimedullaires_postop_2006 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -452,6 +454,7 @@ out = out.replace("__CONTENT_DELIVRANCE_INFORMATION_2012__", safe(content_delivr
 out = out.replace("__CONTENT_BLOCS_PERIMEDULLAIRES_CI_2006__", safe(content_blocs_perimedullaires_ci_2006))
 out = out.replace("__CONTENT_BLOCS_PERIMEDULLAIRES_TECHNIQUE_2006__", safe(content_blocs_perimedullaires_technique_2006))
 out = out.replace("__CONTENT_BLOCS_PERIMEDULLAIRES_CESARIENNE_2006__", safe(content_blocs_perimedullaires_cesarienne_2006))
+out = out.replace("__CONTENT_BLOCS_PERIMEDULLAIRES_POSTOP_2006__", safe(content_blocs_perimedullaires_postop_2006))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

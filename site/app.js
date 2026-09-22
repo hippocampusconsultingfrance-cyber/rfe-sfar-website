@@ -146,7 +146,8 @@ var RAW = {
   gestion_traitements_chroniques_douleur_toxico_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_douleur_toxico_2009').textContent),
   gestion_traitements_chroniques_neuro_psy_2011: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_neuro_psy_2011').textContent),
   gestion_traitements_chroniques_infectieux_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_infectieux_2009').textContent),
-  delivrance_information_2012: JSON.parse(document.getElementById('content-delivrance_information_2012').textContent)
+  delivrance_information_2012: JSON.parse(document.getElementById('content-delivrance_information_2012').textContent),
+  blocs_perimedullaires_ci_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_ci_2006').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -291,7 +292,8 @@ var FICHE_HREF_MATCH = {
   organisation_usc_2018: ['EXTE-USC-CNP'],
   transfusion_gr_anesth_2014: ['transfusion-de-globules-rouges-homologues'],
   gestion_traitements_chroniques_cardio_2009: ['gestion-perioperatoire-des-traitements-chroniques'],
-  delivrance_information_2012: ['delivrance-de-linformation-a-la-personne']
+  delivrance_information_2012: ['delivrance-de-linformation-a-la-personne'],
+  blocs_perimedullaires_ci_2006: ['les-blocs-perimedullaires-chez-ladulte']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -2008,6 +2010,18 @@ var DOC_META = {
     methodology: "Grille HAS A/B/C/AE définie mais jamais citée individuellement — source explicite : absence de données suffisantes, toutes les recommandations reposent sur un accord d'experts (AE) — 28 items, couverture intégrale des 4 sections",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2015/10/2a_HAS_texte-court_Delivrance-de-linformation-a-la-personne-sur-son-etat-de-sante.pdf"
+  },
+  blocs_perimedullaires_ci_2006: {
+    key: 'blocs_perimedullaires_ci_2006',
+    badge: "SFAR/Sofcot/Sofmer — RPC 2007 (Q1-2/15, périmètre limité)",
+    title: "Les blocs périmédullaires chez l'adulte — Information & contre-indications (Q1-2/15)",
+    short: "SFAR/Sofcot/Sofmer, « Les blocs périmédullaires chez l'adulte », Recommandations pour la Pratique Clinique, présentées le 24 septembre 2005 (47e congrès SFAR), Annales Françaises d'Anesthésie et de Réanimation 26 (2007) 720-752. Document source très volumineux : 15 « Questions » cliniques, 369 citations de grade individuelles. Cette fiche couvre INTÉGRALEMENT les Questions 1 et 2 (information au patient ; contre-indications générales, surveillance et monitorage) — 41 recommandations gradées (A:3, C:31, AE:7). Les Questions 3 à 15 (technique de la rachianesthésie et de la péridurale, association AG-bloc, travail obstétrical, césarienne, analgésie postopératoire, terrains spécifiques, gestion de l'échec, facteurs de risque de complications) ne sont PAS couvertes ici — installments futurs de ce même document, disclosed explicitement en page 1. Grille EBM classique A/B/C/AE ; la seule occurrence du texte source en « avis d'experts » est traitée comme équivalente à l'« accord professionnel » (même palier le plus bas), disclosed comme variation terminologique et non un palier distinct. Une évaluation antérieure de ce document avait conclu à tort qu'il ne comportait aucune citation gradée (recherche sensible à la casse sur « Grade » majuscule) — correction apportée : le texte source utilise systématiquement la minuscule « grade », d'où 369 citations réelles au total.",
+    society: "SFAR / Sofcot / Sofmer",
+    version: "2006-2007",
+    validated: "Comité des référentiels de la SFAR",
+    methodology: "Grille EBM classique A/B/C/AE — 41 recommandations gradées (A:3, C:31, AE:7), Questions 1-2/15 uniquement (périmètre limité, document source 369 citations sur 15 Questions)",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf"
   }
 };
 

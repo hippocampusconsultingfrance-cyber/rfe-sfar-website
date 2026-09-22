@@ -1,0 +1,960 @@
+{
+ "doc": "blocs_perimedullaires_ci_2006",
+ "sections": [
+  {
+   "title": "Information au patient & CI neurologiques/hémodynamiques/septiques",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Périmètre limité :</b> le document source complet compte 15 « Questions » cliniques et 369 citations de grade individuelles — beaucoup trop dense pour une seule fiche. Cette fiche couvre INTÉGRALEMENT les Questions 1 et 2 (information au patient ; contre-indications générales, surveillance et monitorage) — le socle applicable à toute anesthésie-analgésie périmédullaire. Les Questions 3 à 15 (technique de la rachianesthésie et de la péridurale, association AG-bloc, travail obstétrical, césarienne, analgésie postopératoire, terrains spécifiques, gestion de l'échec, facteurs de risque de complications) ne sont PAS couvertes ici — installments futurs de ce même document, disclosed explicitement.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>Grille EBM classique</b> — <b>A</b> : essais randomisés de forte puissance/méta-analyses ; <b>B</b> : essais randomisés de faible puissance/études de cohorte ; <b>C</b> : cas-témoins/études rétrospectives ; <b>AE</b> : accord professionnel (absence d'études) — regroupe aussi l'unique occurrence « avis d'experts » du texte, même tiers. Fiche limitée aux Questions 1-2/15 du document (information au patient ; contre-indications générales et surveillance).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 1 — Quelle information donner au patient ?",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères non gradés (obligation légale/déontologique) :</b> l'information est un prérequis du consentement éclairé — elle expose les avantages, inconvénients et risques de l'ALR périmédullaire par rapport à une AG, y compris le risque d'échec nécessitant le recours à une AG et le risque exceptionnel de séquelles neurologiques. Elle est personnalisée, orale en priorité (un document écrit peut la compléter, jamais la remplacer). La preuve de l'information ne requiert pas la signature du patient — la meilleure preuve reste une tenue appropriée du dossier médical. En obstétrique, l'information doit spécifiquement répondre aux particularités de la douleur du travail, aux bénéfices attendus, aux modalités de mise en œuvre et aux enjeux propres à une éventuelle césarienne.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Information",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les risques habituels et les risques rares mais graves de l'ALR périmédullaire doivent être précisés à la femme enceinte, mais remis dans leur contexte.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Information",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Toute femme enceinte présentant un risque particulier de césarienne au cours du travail doit être fortement incitée à bénéficier de la mise en place précoce d'une analgésie péridurale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Information",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de consultation d'anesthésie à distance (réglementaire mais non réalisée), on ne peut refuser l'analgésie périmédullaire pour ce seul motif — il faut recueillir en urgence des éléments suffisants et la pratiquer si les conditions de sécurité sont réunies.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 2 — Prérequis & contre-indications neurologiques, hémodynamiques, septiques",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Prérequis",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La connaissance des techniques, l'adéquation des moyens de surveillance et le consentement éclairé du patient constituent les trois prérequis indispensables à la pratique d'une anesthésie périmédullaire (APM).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CI absolue",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le refus du patient est une contre-indication absolue.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CI",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'allergie documentée à l'un des agents injectés par voie intrathécale ou péridurale est une contre-indication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CI absolue",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La lidocaïne est contre-indiquée de façon absolue par voie intrathécale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CI",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un patient non coopérant est une contre-indication (risque de lésion par l'aiguille et/ou le cathéter).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Non recommandé",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La réalisation d'une APM sous anesthésie générale n'est pas recommandée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CI hémodynamique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une hypovolémie non corrigée et les situations où l'hémodynamique n'est pas stabilisée (état de choc, décompensation cardiaque) sont des contre-indications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CI hémodynamique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La chirurgie à haut risque hémorragique peropératoire doit faire préférer une technique anesthésique alternative.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Terrain à risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez le patient âgé ASA 3-4 en hypovolémie fréquente, si l'APM est choisie, préférer les techniques d'induction lente (rachianesthésie continue, anesthésie péridurale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CI septique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une infection localisée à proximité du point de ponction et/ou une infection systémique documentée sont des contre-indications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "CI respiratoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas dépasser 0,3 mg de morphine intrathécale et mettre en place une surveillance clinique adéquate jusqu'à la 24e heure (dépression respiratoire).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "CI hémostase/anticoagulants, terrain & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Contre-indications liées à l'hémostase et aux anticoagulants/antiplaquettaires",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hémostase",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'existence d'un trouble patent de l'hémostase est une contre-indication absolue. Le retrait d'un cathéter est une période à risque identique à la ponction.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Aspirine/AINS",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La prise d'aspirine ou d'AINS ne contre-indique pas l'APM si le bénéfice est jugé supérieur au risque exceptionnel d'hématome périmédullaire — à condition qu'aucun autre anticoagulant n'ait été reçu, qu'il n'existe pas d'anomalie associée de l'hémostase, de préférer la rachianesthésie en ponction unique, et d'assurer une surveillance neurologique postopératoire rigoureuse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HBPM",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avec les héparines de bas poids moléculaire, l'APM n'est pas contre-indiquée de façon absolue sous réserve de délais : 10-12h entre la dernière injection et l'APM/l'ablation du cathéter (dose unique quotidienne) ou 24h (deux doses/jour) ; 4-12h entre l'APM/l'ablation et la reprise des HBPM ; 24h avant la première dose en cas de ponction traumatique ou de difficultés techniques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "HNF",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avec l'héparine non fractionnée, l'APM n'est pas absolument contre-indiquée sous réserve de délais (Tableau 1) entre l'arrêt de l'héparine et l'APM/l'ablation du cathéter, entre l'APM et la reprise de l'héparinothérapie, et en cas de ponction traumatique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anti-Xa nouvelle gén.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de recul suffisant, l'APM n'est pas recommandée sous prophylaxie par fondaparinux ou danaparoïde.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AVK",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avec les antivitamines K, l'APM n'est pas contre-indiquée de manière absolue à condition d'antagoniser ou d'arrêter suffisamment à l'avance le traitement et de vérifier un INR ≤ 1,5 avant ponction.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Thiénopyridines",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les APM sont contre-indiquées avec les traitements par thiénopyridines (ticlopidine, clopidogrel).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Anti-GPIIb/IIIa",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La prise d'antagonistes des glycoprotéines IIb/IIIa (abciximab, eptifibatide, tirofiban) contre-indique toute APM ; en l'absence de données spécifiques, il est prudent d'éviter l'APM avant le délai de retour à la normale des fonctions plaquettaires (8h pour eptifibatide/tirofiban, 24-48h pour l'abciximab).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Inhib. thrombine",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le risque d'hématome périmédullaire avec les inhibiteurs directs de la thrombine (hirudine) est inconnu — le risque potentiel et l'absence d'antidote contre-indiquent l'APM.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fibrinolytiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les APM sont contre-indiquées en cas d'utilisation préopératoire de fibrinolytiques, ou lorsque leur utilisation péri/postopératoire est probable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Héparine non fractionnée",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Voie sous-cutanée",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Voie intraveineuse",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Délai arrêt héparine → APM/ablation cathéter",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "12 h (raccourci possible sous contrôle TCA)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Délai APM → héparinothérapie",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6 à 8 h",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6 à 8 h",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Délai héparinothérapie → ponction traumatique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "?",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "> 8 h",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Tableau 1 — Délais de réalisation d'une APM et héparinothérapie.</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Contre-indications selon le terrain (cardiovasculaire, respiratoire, neurologique)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cardiovasculaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'insuffisant cardiaque : l'APM est contre-indiquée si la chirurgie nécessite un bloc étendu ; l'HTA non contrôlée et la péricardite constrictive sont des contre-indications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cardiovasculaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les obstacles à l'éjection (rétrécissement mitral ou aortique serré, cardiomyopathie hypertrophique obstructive) sont des contre-indications.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cardiovasculaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'insuffisance mitrale ou aortique n'est pas une contre-indication si l'hypotension artérielle est rapidement traitée (remplissage et/ou vasoconstricteurs). La pathologie coronaire n'est pas une contre-indication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Respiratoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chez l'insuffisant respiratoire chronique, la rachianesthésie n'est théoriquement pas contre-indiquée si le bloc moteur ne dépasse pas T10.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Respiratoire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'APD thoracique aux anesthésiques locaux n'est pas contre-indiquée chez le BPCO sévère.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neurologique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'hypertension intracrânienne est une contre-indication absolue. En urgence pour traumatologie des membres inférieurs avec traumatisme crânien récent, privilégier une technique de bloc périphérique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neurologique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Face à une pathologie neurologique chronique, la décision repose sur l'évaluation du rapport bénéfice/risque. La syringomyélie est une contre-indication à la rachianesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neurologique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une épilepsie équilibrée n'est pas une contre-indication.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neurologique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lors d'une sclérose en plaques, l'indication est individualisée ; préférer l'APD à la rachianesthésie (neurotoxicité potentielle des anesthésiques locaux).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neurologique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le syndrome de Guillain-Barré et les neuropathies démyélinisantes non stabilisées (poussée ou récupération) contre-indiquent l'APM.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Neurologique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les antécédents céphalalgiques, migraineux ou de lombalgies ne sont pas des contre-indications absolues ; un canal lombaire étroit invite à la prudence pour la rachianesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> un bilan IRM est recommandé avant une APM chez un patient présentant une spina bifida identifiée.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Anomalies rachidiennes, matériel d'ostéosynthèse, antécédent de blood-patch",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Matériel rachidien",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La présence de matériel d'ostéosynthèse rachidien n'est pas une contre-indication absolue, mais rend souvent nécessaires plusieurs ponctions à différents niveaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie rachidienne",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le risque de brèche durale est augmenté lors d'anesthésie péridurale en cas d'antécédent de chirurgie rachidienne.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie rachidienne",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La diffusion de l'anesthésique local peut être anormale, avec un risque plus important par voie péridurale que par voie intrathécale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie rachidienne",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Une technique de titration est appropriée en cas de déformation rachidienne importante.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chirurgie rachidienne",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le repérage de la ligne médiane peut être facilité par l'échographie ; une ponction en dehors de la zone de fusion rachidienne est préférable.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Blood-patch",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un antécédent de blood-patch ne contre-indique pas la rachianesthésie ; le risque d'extension insuffisante de l'anesthésie paraît plus élevé en péridurale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> SFAR/Sofcot/Sofmer, « Les blocs périmédullaires chez l'adulte », Recommandations pour la Pratique Clinique, présentées le 24 septembre 2005 (47e congrès SFAR), Annales Françaises d'Anesthésie et de Réanimation 26 (2007) 720-752.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/les-blocs-perimedullaires-chez-ladulte/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> Questions 1-2/15 uniquement (information au patient ; contre-indications générales, surveillance et monitorage) — 41 recommandations gradées (A:3, C:31, AE:7). Les Questions 3 à 15 (technique rachianesthésie/péridurale, association AG-bloc, obstétrique, analgésie postopératoire, terrains spécifiques, échec, facteurs de risque de complications) ne sont pas couvertes ici — hors périmètre de cette fiche, disclosed en page 1, installments futurs. Argumentaire scientifique détaillé (document source complet) non reproduit.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante et PARTIELLE (Questions 1-2 uniquement, sur 15). Elle ne remplace pas le texte intégral — en particulier pour toute question de technique, d'obstétrique ou de terrain spécifique. Cette fiche n'est ni éditée ni validée par la SFAR.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

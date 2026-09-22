@@ -140,7 +140,8 @@ var RAW = {
   douleur_accouchement_2025: JSON.parse(document.getElementById('content-douleur_accouchement_2025').textContent),
   erreurs_medicamenteuses_2024: JSON.parse(document.getElementById('content-erreurs_medicamenteuses_2024').textContent),
   organisation_anesthesie_pediatrique_2023: JSON.parse(document.getElementById('content-organisation_anesthesie_pediatrique_2023').textContent),
-  organisation_usc_2018: JSON.parse(document.getElementById('content-organisation_usc_2018').textContent)
+  organisation_usc_2018: JSON.parse(document.getElementById('content-organisation_usc_2018').textContent),
+  transfusion_gr_anesth_2014: JSON.parse(document.getElementById('content-transfusion_gr_anesth_2014').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -282,7 +283,8 @@ var FICHE_HREF_MATCH = {
   douleur_accouchement_2025: ['prise-en-charge-de-la-douleur-de-laccouchement-analgesie-perimedullaire-et-alternatives-medicamenteuses'],
   erreurs_medicamenteuses_2024: ['prevention-des-erreurs-medicamenteuses-en-anesthesie-reanimation', 'wpdmdl=68460'],
   organisation_anesthesie_pediatrique_2023: ['organisation-de-lanesthesie-pediatrique'],
-  organisation_usc_2018: ['EXTE-USC-CNP']
+  organisation_usc_2018: ['EXTE-USC-CNP'],
+  transfusion_gr_anesth_2014: ['transfusion-de-globules-rouges-homologues']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1927,6 +1929,18 @@ var DOC_META = {
     methodology: "Convention « Accord Fort » uniforme (pas de grille GRADE) — 26 recommandations, décompte source exact, aucune absence de recommandation",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2018/05/EXTE-USC-CNP.pdf"
+  },
+  transfusion_gr_anesth_2014: {
+    key: 'transfusion_gr_anesth_2014',
+    badge: "HAS 2014 — Partie 2/4 (périmètre limité)",
+    title: "Transfusion de globules rouges homologues — Anesthésie/Réanimation",
+    short: "HAS, « Transfusion de globules rouges homologues : produits, indications, alternatives », recommandation de bonne pratique, novembre 2014. Le document source complet comporte 4 parties très hétérogènes (produits/qualifications de CGR — médecine transfusionnelle générale ; anesthésie/réanimation/chirurgie/urgence ; hématologie-oncologie : drépanocytose, thalassémie, leucémies ; néonatologie : exsanguino-transfusion). Cette fiche couvre INTÉGRALEMENT la seule Partie 2 (sections 5 à 8, la seule directement actionnable pour un anesthésiste-réanimateur d'adulte) — les Parties 1, 3 et 4 ne sont pas traitées, périmètre explicitement disclosed en page 1. Grille de cotation HAS classique A/B/C/AE (distincte du format SFAR 1+/1-/2+/2- utilisé ailleurs dans ce corpus) : seuils transfusionnels en anesthésie et en réanimation (Hb 7-10 g/dl selon contexte, TaO2 crit/sécurité), niveaux d'urgence transfusionnelle et procédures (CGR O par défaut, règles RH/KEL pour la femme en âge de procréer), alternatives à la transfusion homologue (fer, EPO, acide tranexamique, rFVIIa, récupération de sang péri/postopératoire, transfusion autologue programmée). 26 recommandations gradées + 4 absences de recommandation explicitement énoncées (neuroréanimation ; durée de conservation des CGR ; acide tranexamique et rFVIIa dans l'hémorragie du post-partum) — décompte vérifié exact sur la Partie 2 intégrale.",
+    society: "HAS (Haute Autorité de Santé)",
+    version: "2014",
+    validated: "Collège de la HAS, novembre 2014",
+    methodology: "Grille HAS A/B/C/AE (preuve établie / présomption scientifique / faible niveau de preuve / accord d'experts) — 26 recommandations gradées + 4 absences de recommandation, Partie 2 uniquement (anesthésie/réanimation/chirurgie/urgence)",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_HAS_transfusion_de_globules_rouges_homologues_-_produits_indications_alternatives_-_recommandations.pdf"
   }
 };
 

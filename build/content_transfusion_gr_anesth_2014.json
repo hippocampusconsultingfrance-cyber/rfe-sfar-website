@@ -1,0 +1,741 @@
+{
+ "doc": "transfusion_gr_anesth_2014",
+ "sections": [
+  {
+   "title": "Sections 5.1-5.2 — Seuils transfusionnels (anesthésie & réanimation)",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Périmètre limité :</b> le document source HAS (2014) comporte 4 parties. Cette fiche couvre INTÉGRALEMENT la seule <b>Partie 2 — Anesthésie, réanimation, chirurgie, urgence</b> (sections 5 à 8). Les Parties 1 (produits/qualifications de CGR — médecine transfusionnelle générale), 3 (hématologie-oncologie : drépanocytose, thalassémie, leucémies) et 4 (néonatologie : exsanguino-transfusion) ne sont PAS traitées — hors périmètre anesthésie/réanimation adulte de ce corpus, disclosed explicitement.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "chip",
+        "label": "ABS"
+       },
+       {
+        "t": "p",
+        "html": "<b>Grille HAS</b> (distincte du format SFAR 1+/1-/2+/2- utilisé ailleurs dans ce corpus) — <b>A</b> : preuve scientifique établie ; <b>B</b> : présomption scientifique ; <b>C</b> : faible niveau de preuve ; <b>AE</b> : accord d'experts (absence d'études) ; <b>ABS</b> : absence de recommandation. Fiche limitée à la Partie 2 du source (anesthésie/réanimation/chirurgie/urgence) — voir encadré de périmètre ci-dessous.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Section 5.1 — Seuil transfusionnel en anesthésie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le seuil critique du transport artériel en O<sub>2</sub> (TaO<sub>2</sub> crit) chez l'homme anesthésié est de l'ordre de 5 ml O<sub>2</sub>/kg/min (repère physiologique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour conserver une marge de sécurité, le seuil de sécurité du TaO<sub>2</sub> recommandé chez l'adulte est de 10 ml O<sub>2</sub>/kg/min. La tolérance à l'anémie aiguë dépend des possibilités d'augmentation du débit cardiaque — d'où la priorité à corriger l'hypovolémie, et un seuil plus élevé en cas d'insuffisance cardiaque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Seuils transfusionnels d'hémoglobine en période péri-opératoire : 7 g/dl chez les personnes sans antécédents particuliers ; 10 g/dl chez les personnes ne tolérant pas cliniquement des concentrations inférieures, ou atteintes d'insuffisance coronarienne aiguë, d'insuffisance cardiaque avérée, ou bêta-bloquées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier un seuil transfusionnel de 8-9 g/dl chez les personnes ayant des antécédents cardio-vasculaires.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Section 5.2 — Seuil transfusionnel en réanimation",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Seuil transfusionnel de 7 g/dl en l'absence d'insuffisance coronarienne aiguë (y compris chez les patients à cardiopathie chronique équilibrée) ; 10 g/dl d'Hb en présence d'une insuffisance coronarienne aiguë.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Patient traumatisé (hors traumatisme crânien) et hors transfusion massive : seuil transfusionnel de 7 g/dl en l'absence de mauvaise tolérance clinique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Hémorragie digestive (bonne tolérance clinique, absence de signe de choc) : seuil transfusionnel de 7 g/dl.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source (non gradée séparément) :</i> chez le patient traumatisé, viser une Hb entre 7 et 9 g/dl en tenant compte de la cinétique du saignement. En transfusion massive, associer les CGR à du plasma thérapeutique et des concentrés de plaquettes — en dehors de ce cadre, ne pas associer systématiquement plasma et CGR (précisions non gradées séparément).",
+     "style": "note"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>ABS — Absence de recommandation</b> (données insuffisantes) : seuil transfusionnel en neuroréanimation — données insuffisantes et résultats contradictoires.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>ABS — Absence de recommandation</b> (données insuffisantes) : âge/durée de conservation des CGR (Section 5.3) — données disponibles insuffisantes.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Sections 6-8.2 — Urgence transfusionnelle & alternatives (fer/EPO)",
+   "items": [
+    {
+     "t": "section",
+     "text": "Section 6 — Niveaux d'urgence transfusionnelle",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Définitions (Afssaps 2002) :</b> urgence vitale immédiate (UVI) — délivrance sans délai ; urgence vitale (UV) — obtention en &lt; 30 min ; urgence relative (UR) — obtention en 2-3 h.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le délai d'obtention des CGR prime sur celui des résultats d'examens immuno-hématologiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Section 7 — Transfusion en situation d'urgence",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Chaque établissement doit disposer d'une procédure d'urgence vitale propre, discutée avec la structure de délivrance (circuits, modalités d'acheminement, stock de dépôt d'urgence).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de résultat de groupe ABO disponible, ou en cas de doute sur le lien patient-examens, transfuser des CGR de groupe O.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Sans aucune donnée immuno-hématologique : CGR O RH:1 KEL:-1 — sauf pour la femme de la naissance à la fin de la période procréatrice, pour laquelle des CGR O RH:-1 KEL:-1 sont recommandés en 1<super>re</super> intention (dans la limite des disponibilités). Avec une seule détermination ABO-RH1/RH-KEL1 disponible, délivrer un CGR groupe O compatible avec ce phénotype si disponible dans les délais.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Communiquer les données d'identité les plus complètes possible (a minima sexe et âge, avec tout document disponible), pour affiner la sélection des CGR ou retrouver l'historique du patient.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Femme de groupe RH:1 connu, phénotype RH4 négatif ou inconnu : ne pas transfuser de CGR RH:-1 de la naissance à la fin de la période procréatrice.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "—",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En transfusion massive, la disponibilité des CGR prime sur la compatibilité dans les systèmes de groupes sanguins hors ABO.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Section 8.1-8.2 — Alternatives : fer et EPO",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le fer est recommandé en anesthésie uniquement en présence d'une carence martiale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.1",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'utilisation systématique du fer n'est pas recommandée en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'EPO n'est pas recommandée en réanimation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'EPO est recommandée en préopératoire de chirurgie orthopédique hémorragique chez les patients modérément anémiques (Hb 10-13 g/dl attendant des pertes de 900-1 800 ml).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.2",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'EPO n'est pas recommandée en péri-opératoire de chirurgie colorectale carcinologique (insuffisance de preuve d'efficacité).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Section 8.3-8.6 — Alternatives (suite) & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Section 8.3-8.4 — Alternatives : acide tranexamique et rFVIIa",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser l'acide tranexamique en péri-opératoire de chirurgie hémorragique, sauf contre-indication (antécédents thromboemboliques veineux/artériels, antécédents convulsifs — contre-indications relatives ; adapter la dose si insuffisance rénale).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.3",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Utiliser l'acide tranexamique dans les 3 premières heures de prise en charge d'un polytraumatisme : 1 g IV lente sur 10 min, puis 1 g sur 8 h.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer systématiquement le facteur VIIa recombinant (rFVIIa) en anesthésie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.4",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas administrer systématiquement le rFVIIa en traumatologie (réanimation).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>ABS — Absence de recommandation</b> (données insuffisantes) : acide tranexamique dans l'hémorragie du post-partum — insuffisance de données sur la balance bénéfice/risque.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>ABS — Absence de recommandation</b> (données insuffisantes) : rFVIIa dans l'hémorragie du post-partum — insuffisance de preuve d'efficacité.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "section",
+     "text": "Section 8.5-8.6 — Retransfusion et transfusion autologue",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Réf.",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Récupération de sang <b>per</b>opératoire : meilleures indications en chirurgie cardiaque et vasculaire ; non recommandée si champ opératoire infecté ou colles biologiques utilisées ; volumes non lavés ≤ 1 000 ml par patient adulte (au-delà, lavage requis).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.5",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Récupération de sang <b>post</b>opératoire : meilleures indications en arthroplastie de genou et hémothorax ; recueil limité aux 6 premières heures postopératoires ; non recommandée en cas d'infection (locale ou générale) ou d'insuffisance rénale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "8.6",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas proposer de transfusion autologue programmée (TAP), sauf groupe sanguin rare ou patient polyimmunisé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> HAS, « Transfusion de globules rouges homologues : produits, indications, alternatives », recommandation de bonne pratique, adoptée par le Collège de la HAS en novembre 2014 (Service des bonnes pratiques professionnelles).",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/transfusion-de-globules-rouges-homologues-produits-indications-alternatives/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> intégralité de la Partie 2 du source (sections 5 à 8 — anesthésie, réanimation, chirurgie, urgence) : 26 recommandations gradées et 4 absences de recommandation explicites. Les Parties 1, 3 et 4 du document (médecine transfusionnelle générale, hématologie-oncologie, néonatologie) ne sont pas couvertes — hors périmètre anesthésie/réanimation adulte de ce corpus, disclosed en page 1. Bibliographie et argumentaire scientifique détaillé (document séparé sur has-sante.fr) non reproduits.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante et PARTIELLE (Partie 2 uniquement), produite pour un usage d'aide-mémoire en anesthésie-réanimation adulte. Elle ne remplace pas le texte intégral — en particulier pour toute situation d'hématologie-oncologie, de pédiatrie ou de néonatologie, se référer aux Parties 1, 3 et 4 du document HAS complet. Cette fiche n'est ni éditée ni validée par la HAS.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

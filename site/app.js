@@ -148,7 +148,8 @@ var RAW = {
   gestion_traitements_chroniques_infectieux_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_infectieux_2009').textContent),
   delivrance_information_2012: JSON.parse(document.getElementById('content-delivrance_information_2012').textContent),
   blocs_perimedullaires_ci_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_ci_2006').textContent),
-  blocs_perimedullaires_technique_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_technique_2006').textContent)
+  blocs_perimedullaires_technique_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_technique_2006').textContent),
+  blocs_perimedullaires_cesarienne_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_cesarienne_2006').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -2033,6 +2034,18 @@ var DOC_META = {
     version: "2006-2007",
     validated: "Comité des référentiels de la SFAR",
     methodology: "Grille EBM classique A/B/C/AE — 24 recommandations gradées (A:11, B:4, C:8, AE:1), Questions 3-5/15 uniquement (périmètre limité, document source 369 citations sur 15 Questions)",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf"
+  },
+  blocs_perimedullaires_cesarienne_2006: {
+    key: 'blocs_perimedullaires_cesarienne_2006',
+    badge: "SFAR/Sofcot/Sofmer — RPC 2007 (Q7/15, périmètre limité)",
+    title: "Les blocs périmédullaires chez l'adulte — Césarienne (Q7/15)",
+    short: "SFAR/Sofcot/Sofmer, « Les blocs périmédullaires chez l'adulte », RPC, Ann Fr Anesth Réanim 26 (2007) 720-752. Troisième installment de ce document (15 Questions, 369 citations de grade au total) — les Questions 1-2 et 3-5 sont des fiches séparées. Cette fiche couvre INTÉGRALEMENT la Question 7 (quels blocs périmédullaires pour la césarienne : préparation, choix de la technique, gestion de l'échec, situations obstétricales particulières, analgésie postopératoire) — 31 recommandations gradées (A:4, B:5, C:20, D:1, AE:1), vérifiées par audit indépendant. La Question 6 (travail obstétrical) est délibérément EXCLUE de cet installment : elle est superseded par une fiche séparée plus récente (HAS 2025, « Douleur de l'accouchement », dont le texte source se décrit lui-même comme actualisant les recommandations SFAR 2006 sur l'analgésie obstétricale). Incohérence du source disclosed : le préambule méthodologique du document ne définit que les grades A/B/C + accord professionnel, mais le corps du texte cite un « grade D » (jamais défini) — présenté ici avec un chip visuellement distinct plutôt qu'arbitrairement assimilé à un grade existant. La Fig. 1 du source (deux algorithmes décisionnels visuels pour le choix de la technique d'ALR selon le degré d'urgence) est retranscrite fidèlement sous forme de texte structuré, ce corpus n'ayant pas de pattern établi pour l'intégration d'images matricielles dans une fiche.",
+    society: "SFAR / Sofcot / Sofmer",
+    version: "2006-2007",
+    validated: "Comité des référentiels de la SFAR",
+    methodology: "Grille EBM classique A/B/C/AE + un « grade D » cité par le source sans définition dans son propre préambule (incohérence disclosed) — 31 recommandations gradées (A:4, B:5, C:20, D:1, AE:1), Question 7/15 uniquement (périmètre limité)",
     pages: 4,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf"
   }

@@ -143,7 +143,8 @@ var RAW = {
   organisation_usc_2018: JSON.parse(document.getElementById('content-organisation_usc_2018').textContent),
   transfusion_gr_anesth_2014: JSON.parse(document.getElementById('content-transfusion_gr_anesth_2014').textContent),
   gestion_traitements_chroniques_cardio_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_cardio_2009').textContent),
-  gestion_traitements_chroniques_douleur_toxico_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_douleur_toxico_2009').textContent)
+  gestion_traitements_chroniques_douleur_toxico_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_douleur_toxico_2009').textContent),
+  gestion_traitements_chroniques_neuro_psy_2011: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_neuro_psy_2011').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -1966,6 +1967,18 @@ var DOC_META = {
     version: "2009",
     validated: "Comité des référentiels de la SFAR",
     methodology: "Grille ANAES 2004 A/B/C/D (D renforcé en « accord fort » par méthode Delphi) — 26 lignes de recommandations gradées (28 citations) + nombreux repères pratiques non gradés par substance, Module 2/4 uniquement (douleur chronique, toxicomanie)",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux.pdf"
+  },
+  gestion_traitements_chroniques_neuro_psy_2011: {
+    key: 'gestion_traitements_chroniques_neuro_psy_2011',
+    badge: "SFAR RFE 2011 — Module 4/4 (périmètre limité)",
+    title: "Gestion périopératoire des traitements chroniques — Neuro/psychiatrique & phytothérapie",
+    short: "SFAR, « Gestion périopératoire des traitements chroniques et dispositifs médicaux — Pathologies neurologiques et psychiatriques » + « Phytothérapie », RFE, Ann Fr Anesth Réanim 30 (2011) 191-194 et 200. Même document source composite que les Modules 1 et 2 (fiches séparées — la fiche bibliothèque de ce document source unique renvoie vers le Module 1 ; accédez à ce Module 4 directement via cette carte ou la barre latérale). Cette fiche couvre le Module 4 — antiparkinsoniens, antidépresseurs (dont une sous-section IMAO dédiée) — ET le texte court « Phytothérapie » publié à la suite dans le même document (bundled ici vu sa taille réduite). Le Module 3 (Infectieux/immunosuppresseurs) n'est pas traité ici. Un module « pathologies endocriniennes » annoncé par le préambule du référentiel n'a pas été retrouvé dans le PDF source téléchargé. Divergence méthodologique disclosed par rapport aux Modules 1 et 2 : ce module (groupe de travail différent, publié 2011) utilise « grade D » et « accord fort » comme deux notations distinctes et non interchangeables (contrairement aux Modules 1/2 où D n'apparaissait jamais autrement que relabellisé accord fort) ; une citation source imprime même un grade hésitant « B ou C » (association imipraminique-anticholinergique), reproduit tel quel sans trancher arbitrairement. 27 lignes de recommandations/repères gradés (A:3, B:5, C:6, D:4, accord fort:8, B/C:1).",
+    society: "SFAR (Société française d'anesthésie et de réanimation)",
+    version: "2011",
+    validated: "Comité des référentiels de la SFAR",
+    methodology: "Grille ANAES 2004 A/B/C/D avec « accord fort » comme notation distincte du grade D (divergence vs. Modules 1/2) — 27 lignes de recommandations gradées, Module 4/4 uniquement (neuro-psychiatrique + phytothérapie)",
     pages: 4,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux.pdf"
   }

@@ -1,0 +1,171 @@
+Annales Françaises d’Anesthésie et de Réanimation 30 (2011) 191–194
+RECOMMANDATIONS FORMALISÉES D’EXPERTS
+Gestion périopératoire des traitements 
+chroniques et dispositifs médicaux. Pathologies 
+neurologiques et psychiatriques 
+Perioperative management of chronic treatment 
+and medical devices. Neurological and 
+psychiatric diseases
+Société française d’anesthésie et de réanimation 
+GROUPE DE TRAVAIL
+Responsable du groupe :
+Pr Christophe Baillard (CHU Avicenne, Bobigny) christophe.baillard@avc.aphp.fr
+Pr Yvonnick Blanloeil (CHU de Nantes)
+Dr Inanna Gabriel (CHU Henri-Mondor, Créteil)
+Dr Eliane Melon (CHU Henri-Mondor, Créteil)
+Dr Bertrand Rozec (CHU de Nantes)
+Traitements
+Antiparkinsoniens
+Antidépresseurs
+1. ANTIPARKINSONIENS
+La mortalité de la maladie de Parkinson ayant diminué grâce à la dopathérapie, la prise en charge de ses patients pour des 
+chirurgies s’adressant à des patients âgés impliquent que les anesthésistes connaissent mieux la particularité des parkinsoniens 
+“graves” chez qui les complications motrices dues au traitement par la L-dopa au long cours constituent une entité pathologique 
+nouvelle et rendent la gestion de la période périopératoire délicate. Il est essentiel de connaître le traitement du patient, qui est 
+le reﬂ et de l’ajustement perpétuel des associations médicamenteuses en fonction de chaque cas particulier.
+1.1 Quel est le risque d’événement ?
+1.1.1 À l’arrêt du traitement
+Le risque d’événement à l’arrêt du traitement, qu’il soit médicamenteux ou chirurgical, est la survenue d’un syndrome de 
+sevrage avec un patient complètement akinéto-rigide, présentant des troubles de la déglutition, une atteinte de la toux, une 
+hypersialorrhée, une dyspnée laryngée, une exacerbation des troubles neurovégétatifs et psychiatriques.
+0750-7658/$ – see front matter © 2010 Published by Elsevier Masson SAS.
+doi:10.1016/j.annfar.2010.12.017
+192 
+Recommandations formalisées D’experts / Annales Françaises d’Anesthésie et de Réanimation   
+1.2 Existe-t-il une interférence avec les médicaments de l’anesthésie ?
+Il n’y a pas d’interactions entre les médicaments antiparkinsoniens et les agents anesthésiques actuels et en particulier, pas de 
+risque d’accès hypertensifs en cas d’utilisation d’un inhibiteur de la mono-amino-oxydase B.
+1.3 Proposer une stratégie d’arrêt, de maintien et/ou de substitution
+Il est recommandé de ne pas arrêter le traitement antiparkinsonien en périopératoire en maintenant exactement le schéma habituel 
+du patient jusqu’à l’intervention (accord fort).
+Il est recommandé de ne pas arrêter le stimulateur cérébral et d’appliquer les mêmes précautions périopératoires que pour un stimu-
+lateur cardiaque (accord fort).
+Une stratégie de substitution doit être prévue en cas d’indisponibilité de la voie orale et/ou digestive (accord fort).
+Elle s’appuie sur 2 médicaments: le Modopar® dispersible à doses équivalentes en dopa au traitement habituel du patient par 
+la sonde gastrique toutes les 2 heures; l’Apokinon® par voie sous-cutanée selon un protocole préétabli ou par titration. Le dom-
+péridone (Motilium®) est utile pour ses propriétés prokinétiques qui favorisent une meilleure absorption jéjunale de la L-dopa 
+et pour ses propriétés antidopaminergiques périphériques qui limitent les effets indésirables de l’Apokinon®. Il doit être prescrit 
+dès la consultation d’anesthésie dans les 3 jours précédant la chirurgie.
+1.4 Proposer une technique d’anesthésie
+Une anesthésie locorégionale a l’avantage de permettre le maintien du traitement antiparkinsonien tout le long de la période 
+périopératoire.
+En cas de vomissements, il est contre-indiqué d’administrer le dropéridol (Droleptan®). En cas de troubles psychiatriques, 
+il est contre-indiqué d’administrer les neuroleptiques “classiques” tels que l’halopéridol (Haldol®) et la loxapine (Loxapac®). 
+L’hydroxyzine et les benzodiazépines peuvent être utilisés. Il faut ajuster le traitement antiparkinsonien en arrêtant ou en 
+diminuant par ordre de fréquence de survenue des troubles psychiatriques : les anticholinergiques, l’amantadine, la sélégiline, les 
+agonistes dopaminergiques et en dernier lieu la L-dopa. En dernier recours, la clozapine (Leponex®), neuroleptique atypique avec 
+très peu d’effets antidopaminergiques, peut être utile, mais peut provoquer des agranulocytoses.
+2. ANTIDEPRESSEURS
+Le mode d’action des antidépresseurs (ATD) laisse prévoir des interférences potentielles avec l’anesthésie et la réanimation. 
+La classiﬁ cation basée sur des critères pharmacologiques distingue cinq classes d’ATD :
+ 
+- les imipraminiques ;
+ 
+- les inhibiteurs sélectifs de la recapture de la sérotonine (ISRS) ;
+ 
+- les inhibiteurs de la dégradation des monoamines (IMAO) ;
+ 
+- les inhibiteurs de la recapture de la sérotonine et de la noradrénaline (ISRN) ;
+ 
+- les non IMAO, non imipraminique, non ISRS dits de mécanisme pharmacologique différent.
+2.1 Quel est le risque d’événement ?
+2.1.1 À l’arrêt du traitement
+L’arrêt brutal expose au risque de récidive symptomatique de dépression (grade A). Tous les ATD sont susceptibles d’induire 
+un syndrome de sevrage. En l’absence de décroissance posologique progressive, un syndrome de sevrage peut apparaître dans 
+les 4 à 8 jours qui suivent l’arrêt du traitement. Les symptômes habituels sont : anxiété, irritabilité, fatigue, cauchemars, insomnie, 
+sensations vertigineuses, nausées, céphalées, syndrome pseudogrippal. Ils cèdent à la reprise du traitement à la dose antérieure 
+(grade A).
+Il est recommandé de maintenir les ATD jusqu’au matin de l’intervention et de les reprendre précocement (accord fort).
+2.2 Existe-t-il une interférence avec les médicaments de l’anesthésie ?
+Chez un patient, traité par ATD, de nombreuses associations médicamenteuses, en particulier des médicaments utilisés au 
+cours de la période peropératoire ou postopératoire, peuvent déclencher soit un syndrome anticholinergique soit un 
+ 
+Recommandations formalisées D’experts / Annales Françaises d’Anesthésie et de Réanimation 30 (2011) 191–194 
+193
+syndrome sérotoninergique. Les syndromes anticholinergique et sérotoninergique sont largement méconnus, probablement 
+parce que leurs formes mineures sont confondues avec d’autres causes de syndrome confusionnel et traitées efﬁ cacement de 
+manière symptomatique.
+Le traitement des deux syndromes est premièrement préventif en évitant les associations médicamenteuses favorisantes, et 
+deuxièmement repose sur la reconnaissance précoce de la complication permettant d’arrêter les médicaments en cause et sur 
+le traitement symptomatique des troubles.
+Les syndromes anticholinergiques et sérotoninergique surviennent moins de 12 heures après une augmentation de posologie 
+d’un des médicaments ou après une nouvelle association médicamenteuse. Ils peuvent être reconnus au cours de la phase de 
+réveil ou dans les premiers jours postopératoires.
+Le syndrome anticholinergique doit être recherché en présence de signes centraux, notamment une confusion, et de 
+signes généraux, et reconnu devant l’existence de signes spéciﬁ ques associés: muqueuses sèches, érythème cutané, peau 
+sèche au toucher, mydriase, absence de bruits intestinaux (grade C). L’association d’imipraminique à des médicaments à 
+action anticholinergique peut provoquer un syndrome anticholinergique (grade B ou C). 
+Un syndrome sérotoninergique doit être recherché en présence de signes centraux, comme agitation ou confusion, 
+et de signes non spéciﬁ ques dont l’hyperthermie, devant les signes spéciﬁ ques suivants : hypersialorrhée, sueurs profuses, 
+bruits intestinaux importants, hyperréﬂ exie, clonus spontané ou provoqué, augmentation du tonus musculaire 
+avec rigidité (grade B). Ce syndrome peut être déclenché chez un patient traité imipraminique ou SIRS, ou IMAO, et recevant 
+dans les moins de 6 h un nouveau médicament à action sérotoninergique. 
+L’association d’un ATD de type IMAO, ISRS, IRSN ou de mécanisme pharmacologique différent à un morphinique comme la 
+péthidine, le fentanyl et le tramadol (grade C) et le linézolide (grade B) peut provoquer un syndrome sérotoninergique.
+2.3 Proposer une stratégie d’arrêt, de maintien et/ou de substitution
+Le risque d’interactions médicamenteuses peropératoires avec les imipraminiques apparaît faible pour les conséquences 
+cardiovasculaires (grade B). 
+Le rôle d’interactions médicamenteuses avec les imipraminiques dans la confusion postopératoire existe, mais est sans doute 
+ignoré (grade C).
+Les imipraminiques peuvent être maintenus en période périopératoire chez les patients ASA I et II indemnes de pathologies 
+cardiovasculaires (accord fort). 
+Il est souhaitable d’interrompre les imipraminiques chez les patients avec une pathologie cardiovasculaire en raison de l’interaction 
+possible entre les imipraminiques, le terrain cardiovasculaire et l’anesthésie (accord fort)
+Le relais peut être fait sur avis psychiatrique dès la consultation préopératoire par substitution immédiate (grade D). 
+Les modiﬁ cations hémodynamiques peuvent être traitées par remplissage vasculaire en première intention puis avec de 
+l’éphédrine à dose titrée et par la noradrénaline en cas d’échec (grade D). 
+La survenue d’une confusion postopératoire doit faire rechercher d’une part les signes spéciﬁ ques d’un syndrome 
+ anticholinergique ou sérotoninergique, et d’autre part les médicaments potentiellement en cause qui doivent être évités (grade D).
+Il existe un risque faible de déclenchement d’un syndrome sérotoninergique chez ces patients lors d’administration de 
+morphiniques, en particulier la péthidine, le fentanyl et surtout le tramadol, qui doivent être évités chez ces malades. Les autres 
+morphiniques peuvent être utilisés (grade B). 
+Le linézolide peut être utilisé si nécessaire en présence d’un ISRS à condition d’encadrer sa prescription d’une surveillance 
+clinique étroite et d’un arrêt de l’ISRS à la moindre suspicion de syndrome sérotoninergique (grade C). 
+Au cours des chirurgies à risque hémorragique élevé, l’association aux antiplaquettaires en particulier l’aspirine doit être 
+discutée (grade D).
+2.4 Stratégies d’arrêt de maintien ou de substitution : IMAO
+Un traitement par IMAO ancienne génération doit être maintenu avec une discussion pluridisciplinaire (accord fort).
+Un traitement par IMAO d’ancienne génération (iproniazide : Marsilid®) peut être maintenu en période périopéra-
+toire si le risque de décompensation psychiatrique apparaît important. La prise en charge en cas de maintien doit éviter 
+l’utilisation de péthidine, fentanyl et tramadol. Les autres morphiniques sont utilisables (grade D). 
+Si le traitement est suspendu, il doit être arrêté au moins 2 semaines avant l’intervention en raison du mécanisme 
+d’action du médicament (grade A). Il peut être proposé, en accord avec un psychiatre, un relais avec un autre ATD 
+(grade D).
+194 
+Recommandations formalisées D’experts / Annales Françaises d’Anesthésie et de Réanimation   
+Un traitement par IMAO de nouvelle génération (moclobémide : Moclamine®) peut être maintenu en période périopératoire (accord fort).
+La prise en charge doit éviter de principe l’utilisation de péthidine, fentanyl et tramadol. Les autres morphiniques sont 
+utilisables (grade D). 
+Toute hypotension artérielle peropératoire chez un patient sous IMAO doit être traitée par remplissage vasculaire en première 
+intention. L’utilisation prudente des vasopresseurs est possible, par titration en commençant au tiers de la dose habituelle 
+(grade C). 
+Un syndrome sérotoninergique est favorisé par l’association aux ISRS, IRSN et à moindre degré aux autres ATD. Une telle 
+association doit être évitée en période périopératoire (grade D).
+Annales Françaises d’Anesthésie et de Réanimation 30 (2011) 200
+0750-7658/$ – see front matter © 2010 Published by Elsevier Masson SAS.
+doi:10.1016/j.annfar.2010.12.016
+RECOMMANDATIONS FORMALISÉES D’EXPERTS
+Gestion périopératoire des traitements 
+chroniques et dispositifs médicaux. Phytothérapie 
+Perioperative management of chronic treatment 
+and medical devices. Phytotherapy
+Société française d’anesthésie et de réanimation
+Responsable
+Pr Christophe Baillard (CHU Avicenne, Bobigny)
+christophe.baillard@avc.aphp.fr
+Il est nécessaire en consultation d’anesthésie de rechercher l’adhésion du patient à une phytothérapie car elle n’est pas 
+spontanément révélée (grade C). La prescription d’extraits de plantes favorise les anomalies préopératoires (anomalie de la 
+coagulation et hypokaliémie) pouvant nécessiter des mesures correctrices ou une modiﬁ cation du protocole anesthésique (grade B).
+Dans les situations où il est impossible de connaître précisément les extraits de plantes consommés par le patient, la prudence 
+est d’interrompre la phytothérapie une dizaine de jours avant une anesthésie.
+Dans les autres situations l’attitude peut être plus souple et adaptée à l’extrait de plante consommée puisqu’un nombre 
+restreint de produits est actuellement identiﬁ é comme susceptibles d’interférer avec la période périopératoire. 
+Compte tenu de ses propriétés immunostimulantes, la consommation d’échinacée n’est pas souhaitable chez les patients 
+présentant une maladie autoimmune, traités par corticoïde ou immunosuppresseur et/ou devant bénéﬁ cier d’une transplantation, 
+et doit être interrompue le plus précocement possible.
+Concernant l’éphedra, une interruption thérapeutique de 24 heures précédant une anesthésie est conseillée. 
+Lorsque l’on souhaite éviter tout effet antiagrégant plaquettaire, une interruption de dix jours permettant le renouvellement 
+plaquettaire est proposé pour l’ail et d’au moins 36 heures pour le ginkgo.
+En induisant l’activité du système des cytochromes P-450, le millepertuis interfère avec les molécules utilisant ce système 
+enzymatique en réduisant leur efﬁ cacité. Un arrêt thérapeutique d’au moins cinq jours est proposé si l’on souhaite s’affranchir 
+des effets résiduels du millepertuis.

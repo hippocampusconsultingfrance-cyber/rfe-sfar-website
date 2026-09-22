@@ -1,0 +1,688 @@
+{
+ "doc": "gestion_traitements_chroniques_neuro_psy_2011",
+ "sections": [
+  {
+   "title": "Antiparkinsoniens",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Périmètre limité :</b> le référentiel SFAR complet (2009-2011) comporte plusieurs modules (Cardiovasculaire et Douleur chronique/toxicomanie, déjà traités dans des fiches séparées ; Infectieux/immunosuppresseurs, non traité ici). Cette fiche couvre le Module 4 — Pathologies neurologiques et psychiatriques, avec le texte court « Phytothérapie » publié à la suite dans le même document. Un module « pathologies endocriniennes » était annoncé par le préambule du référentiel mais n'apparaît dans aucune page du PDF source téléchargé — probablement non publié sous cette forme ou publié ailleurs ; il reste donc absent de ce corpus.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Divergence méthodologique disclosed :</b> contrairement aux Modules 1 et 2 de ce référentiel (où le grade D n'apparaissait jamais autrement que relabellisé « accord fort »), ce Module 4 utilise « grade D » et « accord fort » comme DEUX notations distinctes et non interchangeables — reproduites ici avec deux chips séparés (D / AF), sans les fusionner.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       },
+       {
+        "t": "chip",
+        "label": "B/C"
+       },
+       {
+        "t": "p",
+        "html": "<b>Grille ANAES 2004</b> — <b>A</b> : preuve établie ; <b>B</b> : présomption scientifique ; <b>C</b> : faible niveau de preuve ; <b>D</b> : avis d'expert (distinct d'« accord fort » dans CE module — divergence disclosed, voir encadré ci-dessous) ; <b>AF</b> : accord fort ; <b>B/C</b> : incertitude de grade imprimée telle quelle par la source elle-même (jamais tranchée arbitrairement). Fiche limitée au Module 4/4 du référentiel.",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Antiparkinsoniens",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antiparkinsoniens",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas arrêter le traitement antiparkinsonien en périopératoire — maintenir exactement le schéma habituel du patient jusqu'à l'intervention.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antiparkinsoniens",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas arrêter un stimulateur cérébral profond — appliquer les mêmes précautions périopératoires que pour un stimulateur cardiaque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antiparkinsoniens",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Prévoir une stratégie de substitution en cas d'indisponibilité de la voie orale/digestive (Modopar® dispersible par sonde gastrique toutes les 2h à dose équivalente en dopa ; Apokinon® sous-cutané selon protocole/titration ; dompéridone pour ses propriétés prokinétiques et antidopaminergiques périphériques).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> l'ALR permet le maintien du traitement antiparkinsonien tout au long de la période périopératoire. Dropéridol contre-indiqué en cas de vomissements ; neuroleptiques classiques (halopéridol, loxapine) contre-indiqués en cas de troubles psychiatriques (hydroxyzine et benzodiazépines utilisables). En cas de troubles psychiatriques, ajuster en arrêtant/diminuant dans l'ordre : anticholinergiques, amantadine, sélégiline, agonistes dopaminergiques, puis L-dopa en dernier recours (clozapine en ultime recours, risque d'agranulocytose).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Antidépresseurs — risque, interactions & stratégie générale",
+   "items": [
+    {
+     "t": "section",
+     "text": "Antidépresseurs — risque, interactions & stratégie générale",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'arrêt brutal expose à un risque de récidive symptomatique de dépression.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En l'absence de décroissance progressive, un syndrome de sevrage peut apparaître (4 à 8 jours) ; il cède à la reprise du traitement à la dose antérieure.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Maintenir les antidépresseurs jusqu'au matin de l'intervention et les reprendre précocement.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le syndrome anticholinergique doit être recherché devant des signes spécifiques : muqueuses sèches, érythème cutané, peau sèche au toucher, mydriase, absence de bruits intestinaux.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'association d'un imipraminique à un médicament à action anticholinergique peut provoquer un syndrome anticholinergique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B/C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le syndrome sérotoninergique doit être recherché devant des signes spécifiques : hypersialorrhée, sueurs profuses, bruits intestinaux importants, hyperréflexie, clonus, rigidité musculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'association d'un IMAO, ISRS, IRSN ou ATD de mécanisme différent à la péthidine, au fentanyl ou au tramadol peut provoquer un syndrome sérotoninergique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'association d'un ATD au linézolide peut provoquer un syndrome sérotoninergique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le risque d'interactions médicamenteuses peropératoires avec les imipraminiques pour les conséquences cardiovasculaires apparaît faible.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le rôle des imipraminiques dans la confusion postopératoire existe, mais est sans doute sous-estimé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les imipraminiques peuvent être maintenus en périopératoire chez les patients ASA I-II indemnes de pathologie cardiovasculaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il est souhaitable d'interrompre les imipraminiques chez les patients avec pathologie cardiovasculaire (interaction possible imipraminiques/terrain CV/anesthésie).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les autres morphiniques que la péthidine, le fentanyl et le tramadol sont utilisables sans risque majoré de syndrome sérotoninergique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le linézolide peut être utilisé si nécessaire chez un patient sous ISRS, sous surveillance clinique étroite et avec arrêt de l'ISRS à la moindre suspicion de syndrome sérotoninergique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> en cas de relais nécessaire (imipraminiques interrompus), la substitution immédiate sur avis psychiatrique dès la consultation préopératoire, le traitement des modifications hémodynamiques (remplissage puis éphédrine titrée puis noradrénaline si échec), la recherche systématique des signes de syndrome anticholinergique/sérotoninergique devant une confusion postopératoire, et la discussion de l'association aux antiplaquettaires (aspirine) en cas de chirurgie à risque hémorragique élevé, sont toutes gradées D par la source (avis d'expert, distinct d'« accord fort » dans ce module).",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Antidépresseurs (IMAO) & phytothérapie",
+   "items": [
+    {
+     "t": "section",
+     "text": "Antidépresseurs — IMAO (sous-section dédiée)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IMAO ancienne gén.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un traitement par IMAO ancienne génération (iproniazide) doit être maintenu avec une discussion pluridisciplinaire si le risque de décompensation psychiatrique apparaît important.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IMAO ancienne gén.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si maintenu, éviter la péthidine, le fentanyl et le tramadol (autres morphiniques utilisables).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IMAO ancienne gén.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si suspendu, l'arrêter au moins 2 semaines avant l'intervention (mécanisme d'action du médicament).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IMAO ancienne gén.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un relais avec un autre antidépresseur peut être proposé en accord avec un psychiatre.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IMAO nouvelle gén.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un traitement par IMAO nouvelle génération (moclobémide) peut être maintenu en période périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IMAO nouvelle gén.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Éviter, de principe, la péthidine, le fentanyl et le tramadol (autres morphiniques utilisables).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IMAO nouvelle gén.",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Toute hypotension artérielle peropératoire doit être traitée par remplissage vasculaire en première intention ; utilisation prudente des vasopresseurs possible par titration en commençant au tiers de la dose habituelle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "IMAO (tous)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un syndrome sérotoninergique est favorisé par l'association aux ISRS, IRSN et, à moindre degré, aux autres antidépresseurs — association à éviter en période périopératoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "D"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Phytothérapie",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Phytothérapie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Rechercher en consultation d'anesthésie l'adhésion du patient à une phytothérapie — elle n'est pas spontanément révélée.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Phytothérapie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La prescription d'extraits de plantes favorise des anomalies préopératoires (coagulation, hypokaliémie) pouvant nécessiter des mesures correctrices ou une modification du protocole anesthésique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> si les extraits consommés ne sont pas précisément connus, la prudence est d'interrompre la phytothérapie une dizaine de jours avant l'anesthésie ; sinon, l'attitude peut être adaptée à l'extrait :",
+     "style": "note"
+    },
+    {
+     "t": "p",
+     "html": "<b>Échinacée</b> <i>(repère non gradé par la source)</i> : interrompre le plus précocement possible chez les patients avec maladie auto-immune, sous corticoïde/immunosuppresseur, ou en attente de transplantation (propriétés immunostimulantes).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Éphédra</b> <i>(repère non gradé par la source)</i> : interruption conseillée 24 heures avant l'anesthésie.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Ail</b> <i>(repère non gradé par la source)</i> : interruption 10 jours avant si l'on souhaite éviter l'effet antiagrégant plaquettaire (délai de renouvellement plaquettaire).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Ginkgo</b> <i>(repère non gradé par la source)</i> : interruption d'au moins 36 heures (effet antiagrégant).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Millepertuis</b> <i>(repère non gradé par la source)</i> : interruption d'au moins 5 jours si l'on souhaite s'affranchir des effets résiduels (induction du système des cytochromes P-450, réduction d'efficacité des médicaments utilisant ce système).",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> Société française d'anesthésie et de réanimation (SFAR), « Gestion périopératoire des traitements chroniques et dispositifs médicaux — Pathologies neurologiques et psychiatriques » et « Phytothérapie », Recommandations Formalisées d'Experts, Annales Françaises d'Anesthésie et de Réanimation 30 (2011) 191-194 et 200.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux-anti-infectieux-immunosuppresseurs/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> Module 4/4 du référentiel uniquement (pathologies neurologiques et psychiatriques + phytothérapie) — 27 lignes de recommandations/repères gradés (A:3, B:5, C:6, D:4, accord fort:8, B/C:1). Le Module 3 (Infectieux/immunosuppresseurs) n'est pas couvert ici — hors périmètre de cette fiche, disclosed en page 1. Un module « pathologies endocriniennes » annoncé par le préambule du référentiel n'a pas été retrouvé dans le PDF source. Argumentaire scientifique détaillé (document source complet) non reproduit.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante et PARTIELLE (Module 4 uniquement). Elle ne remplace pas le texte intégral — en particulier pour toute question relevant du Module 3 de ce référentiel. Cette fiche n'est ni éditée ni validée par la SFAR.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

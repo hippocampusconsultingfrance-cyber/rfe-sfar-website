@@ -1,0 +1,1457 @@
+{
+ "doc": "blocs_perimedullaires_technique_2006",
+ "sections": [
+  {
+   "title": "Question 3 — Rachianesthésie",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Périmètre limité — installment 2/n :</b> ce document source compte 15 « Questions » cliniques et 369 citations de grade au total. Cette fiche couvre INTÉGRALEMENT les Questions 3, 4 et 5 (modalités techniques de la rachianesthésie et de la péridurale, association avec l'anesthésie générale). Les Questions 1-2 (information, contre-indications générales) sont couvertes par une fiche séparée. Les Questions 6 à 15 (travail obstétrical, césarienne, analgésie postopératoire, terrains spécifiques, échec, facteurs de risque) ne sont PAS couvertes ici — installments futurs.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       },
+       {
+        "t": "p",
+        "html": "<b>Grille EBM classique</b> — <b>A</b> : essais randomisés de forte puissance/méta-analyses ; <b>B</b> : essais randomisés de faible puissance/études de cohorte ; <b>C</b> : cas-témoins/études rétrospectives ; <b>AE</b> : accord professionnel (absence d'études) — regroupe aussi « consensus professionnel » (Question 5), même tiers. Fiche limitée aux Questions 3-5/15 du document (rachianesthésie, péridurale, association AG-bloc).",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Question 3 — Modalités de réalisation de la rachianesthésie",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères non gradés :</b> la réalisation pratique ne se conçoit que dans un site d'anesthésie équipé, chez un patient perfusé et oxygéné, avec asepsie « chirurgicale » (lavage des mains, désinfection cutanée, calot, gants, masque). Plusieurs techniques de ponction sont possibles (assise ou décubitus latéral ; médiane, paramédiane ou méthode de Taylor) — un repérage échographique peut faciliter le geste.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Facteur",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Extension",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Durée",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dose",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++++",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++++",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Volume et concentration",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "±",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "–",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Densité",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Niveau de ponction (sol. hyperbare)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "–",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Vitesse d'injection",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "–",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pression abdominale (grossesse–obésité)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "–",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Position du patient (sol. hyperbare)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Volume du LCR",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+++",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Âge",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "++",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Orientation de l'orifice de l'aiguille",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "+",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Tableau 2 — Principaux facteurs déterminant les caractéristiques du bloc en rachianesthésie (cellules vides = non renseigné par le source).</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ponction",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser la ponction lombaire chez un patient conscient, dans l'espace interépineux le plus bas situé parmi ceux identifiés en dessous de la ligne de Tuffier.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Matériel",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Privilégier une aiguille 26-27G à pointe conique (Sprotte ou Whitacre) — le choix entre elles peut être guidé par le coût (performances comparables). Pas d'avantage à utiliser une aiguille plus fine que 27G (risque de ponctions multiples, maniement plus difficile) ; ne pas dépasser 24G (risque de céphalées).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Technique",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La progression de l'aiguille doit être lente, pour percevoir les structures anatomiques traversées et interrompre la progression dès que le passage de la dure-mère est perçu.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AL autorisés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La ropivacaïne, la bupivacaïne et la lévobupivacaïne sont les seuls anesthésiques locaux à bénéficier de l'AMM pour l'injection intrathécale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AL contre-indiqués",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La lidocaïne 5 % n'a plus l'AMM par voie intrathécale (risque de syndrome d'irritation radiculaire transitoire et de syndrome de la queue-de-cheval) ; les formes moins concentrées sont également contre-indiquées.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Molécule",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Niveau supérieur (à la piqûre)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Durée bloc moteur (min)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Durée bloc sensitif : régression 2 dermatomes (min)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Levée complète bloc sensitif S2 (min)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bupivacaïne 4 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T8 (T6–T12)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "NA",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "21 ± 4",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "115 ± 42",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bupivacaïne 8 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T5 (T4–T10)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "49 ± 44",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60 ± 15",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "198 ± 33",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bupivacaïne 12 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T5 (T3–T10)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "70 ± 37",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "65 ± 32",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "220 ± 63",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bupivacaïne 15 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T4 (T3–T11)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "180 (120–210)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "80 ± 40",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "255 (150–420)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lévobupivacaïne 4 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T10 (T7–T12)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "NA",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "24 ± 7",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "102 ± 52",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lévobupivacaïne 8 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T5 (T3–T7)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "39 ± 23",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "50 ± 12",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "175 ± 46",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lévobupivacaïne 12 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T5 (T3–T7)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "55 ± 35",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60 ± 30",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "165 ± 59",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lévobupivacaïne 15 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T4 (T3–T8)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "180 (100–210)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "80 ± 40",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "200 ± 70",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ropivacaïne 4 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T8 (T4–L1)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "NA",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "40 ± 30",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "81 ± 44",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ropivacaïne 8 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T8 (T3–L1)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "NA",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "75 ± 21",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "130 ± 27",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ropivacaïne 12 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T8 (T4–L2)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "85 ± 18",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "150 ± 44",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ropivacaïne 14 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T6 (T11–C7)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "90 (45–150)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "95 ± 32",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "175 ± 42",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ropivacaïne 20 mg",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "T3 (T11–C2)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "120 (23–150)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "95 ± 32",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "200 (180–345)",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Tableau 3 — Pharmacodynamie comparée des AL en solution isobare en rachianesthésie, ponction en L4-L5 (à titre indicatif).</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Extension du bloc",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'extension du bloc anesthésique est peu prévisible : elle dépend de nombreux facteurs (patient, technique d'injection, caractéristiques du LCR et de la solution) ; en pratique, elle dépend essentiellement de la dose d'AL et du volume du LCR (non estimable en clinique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Extension du bloc",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le volume et la concentration de la solution modifient peu l'étendue du bloc.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Solutions hyperbares",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Avec les solutions hyperbares, l'extension du bloc dépend de la position du patient et sa régression est plus rapide ; le niveau de blocage sensitivomoteur est plus reproductible qu'avec les solutions normobares.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Solutions hyperbares",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La quantité de glucose ajoutée pour rendre les solutions hyperbares est généralement trop importante.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dose/facteurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Pour un même niveau d'extension, réduire la dose avec l'âge et en cas de pression intra-abdominale élevée (grossesse, obésité, ascite). La vitesse d'installation, l'intensité et la durée du bloc dépendent de la dose totale administrée (rapport volume/concentration).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Limitation du bloc",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La limitation unilatérale ou caudale du bloc est favorisée par l'injection de faibles doses, l'injection lente, et le maintien en position latérale ou assise ; une extension secondaire retardée reste possible lors de la mobilisation.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères pratiques non gradés :</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Évaluation du bloc : discrimination chaud-froid pour le niveau sensitif, score de Bromage (ou modifié) pour le bloc moteur ; connaissance du niveau métamérique requis selon l'acte chirurgical impérative.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Adjuvants morphiniques : ne modifient pas la pharmacocinétique des AL. Sufentanil (2,5-5 µg) : +25-50 % de durée d'analgésie. Morphine (≤ 0,3 mg) : analgésie prolongée 6-24h.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Indications préférentielles : terrain (estomac plein, intubation difficile prévue, insuffisance respiratoire, artériopathie des membres inférieurs) et type d'intervention (urogénitale, abdominale basse, orthopédique, traumatologique et vasculaire des membres inférieurs, obstétricale).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Rachianesthésie continue : meilleure stabilité hémodynamique (titration) et prolongation du bloc par réinjections itératives ; précautions requises (syndrome de la queue-de-cheval, irritation radiculaire transitoire, méningite infectieuse).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Rachianesthésie unilatérale : réduit l'hypotension et la rétention vésicale en limitant le bloc sympathique ; adaptée au sujet âgé et à la chirurgie ambulatoire.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Question 4 — Anesthésie péridurale",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 4 — Modalités de réalisation de l'anesthésie péridurale",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères pratiques non gradés :</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Repérage de l'espace péridural lombaire : mandrin liquidien recommandé ; l'utilisation du mandrin gazeux ne peut être recommandée.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Dose-test (AL + 15 µg d'adrénaline) : recommandée en dehors du travail obstétrical — sa négativité ne garantit pas l'absence de risque d'injection erratique. L'injection de la dose anesthésique doit être lente et fractionnée.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• AMM péridurale : lidocaïne, ropivacaïne, bupivacaïne, lévobupivacaïne et mépivacaïne.",
+     "style": "body_sm"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hygiène",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Réaliser l'anesthésie péridurale sous mesures d'hygiène strictes : désinfection cutanée, lavage des mains, port de calot/gants/masque facial, habillage chirurgical de l'opérateur en cas de pose de cathéter, calot et masque facial pour tout le personnel de la salle.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Concentration (%)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Doses maximales (mg)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Délai d'installation (bloc 4 seg.) [min]",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Durée bloc moteur (min)",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Régression 2 seg. ± 2 DS (min)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lidocaïne",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1–2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "400 (6–10 mg/kg)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5–15",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "100 ± 80",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Mépivacaïne",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1–2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "400 (6–10 mg/kg)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "6–17",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "115 ± 15",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bupivacaïne",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "150 (2–3 mg/kg)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5–17",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "180",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "150 ± 200",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Lévobupivacaïne",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "150 (2–3 mg/kg)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "10–20",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "150–200",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Ropivacaïne",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,5 / 0,75 / 1",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "225–300 (3–4 mg/kg)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "10–20",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "138 / 180 / 300",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "168 ± 60 / 180 ± 30 / 180 ± 30",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Tableau 4 — Pharmacodynamie comparée des AL en anesthésie péridurale (cellule vide = non renseignée par le source ; les 3 lignes de ropivacaïne sont condensées ici par concentration croissante, ordre identique au source).</i>",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pharmacodynamie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le délai d'installation, la durée d'action et l'intensité du bloc dépendent de la dose administrée ; le niveau d'extension et la vitesse de régression du bloc sensitif et moteur en dépendent également.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Pharmacodynamie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "La vitesse d'injection influence le niveau supérieur du bloc.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Bloc différentiel",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le bloc différentiel (sensitivomoteur) est d'autant plus marqué que les concentrations utilisées sont faibles : lidocaïne ≤ 1 %, ropivacaïne ≤ 0,2 %, bupivacaïne ≤ 0,25 %.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Choix de l'AL",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Lidocaïne et mépivacaïne : délai d'action rapide, durée limitée. Ropivacaïne, bupivacaïne et lévobupivacaïne : délai d'action long, durée prolongée ; à dose équivalente, bupivacaïne et lévobupivacaïne sont pharmacodynamiquement équivalentes (rapport de puissance ropivacaïne : bupivacaïne/lévobupivacaïne ≈ 3:2).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Facteurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'âge augmente l'extension et réduit la durée du bloc.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Facteurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Au cours de la grossesse, l'espace péridural est réduit, ce qui accentue l'extension du bloc pour un volume d'AL donné.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "A"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<b>Repères pratiques non gradés :</b>",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Réinjections péridurales : tenir compte de la dose initiale et de la demi-vie d'élimination de l'AL, pour limiter le risque d'intoxication.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "• Étage thoracique : espace péridural réduit, faible densité de graisse — de faibles doses (4-5 ml) entraînent une extension de plus de 4-5 dermatomes par comparaison à l'étage lombaire.",
+     "style": "body_sm"
+    }
+   ]
+  },
+  {
+   "title": "Question 5 — Association AG-Bloc & sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Question 5 — AG et bloc périmédullaire : chronologie & surveillance",
+     "color": "navy"
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> l'analyse de la littérature ne permet pas de conclure sur l'existence d'une relation entre le moment de réalisation d'une anesthésie périmédullaire par rapport à l'induction d'une anesthésie générale et le risque de survenue d'une complication neurologique.",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Catégorie",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Monitorage",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un monitorage par électrocardioscope, pression artérielle non invasive et oxymètre de pouls est obligatoire ; le matériel d'intubation et un plateau d'agents injectables (induction d'une AG et/ou maintien de la pression artérielle) doivent être prêts et immédiatement disponibles dès le début de la procédure et pendant toute la durée du bloc anesthésique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AE"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Chronologie",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'APD doit être réalisée chez un sujet éveillé, éventuellement sous sédation légère ; chez l'adulte, la réalisation sous AG doit rester exceptionnelle, d'autant plus qu'elle est pratiquée à un niveau métamérique supérieur à L3 (risque de lésion médullaire).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surveillance",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'administration d'oxygène est recommandée lors de la réalisation de l'anesthésie péridurale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surveillance",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le risque d'arrêt cardiocirculatoire persiste pendant toute la durée du bloc sympathique ; une bradycardie doit être considérée comme un signe d'alerte pouvant précéder un arrêt cardiocirculatoire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Surveillance",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "L'association peropératoire d'une APD et d'une AG peut être responsable d'une hypotension artérielle sévère.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Facteurs de risque",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Le risque de complication neurologique médullaire est favorisé en cas d'artériopathie sévère préexistante, d'hyperlordose ou de canal lombaire étroit.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> SFAR/Sofcot/Sofmer, « Les blocs périmédullaires chez l'adulte », Recommandations pour la Pratique Clinique, présentées le 24 septembre 2005 (47e congrès SFAR), Annales Françaises d'Anesthésie et de Réanimation 26 (2007) 720-752.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/les-blocs-perimedullaires-chez-ladulte/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> Questions 3-5/15 uniquement (rachianesthésie, péridurale, association AG-bloc) — 24 recommandations gradées (A:11, B:4, C:8, AE:1). Les Questions 1-2 sont couvertes par une fiche séparée. Les Questions 6 à 15 (travail obstétrical, césarienne, analgésie postopératoire, terrains spécifiques, échec, facteurs de risque de complications) ne sont pas couvertes ici — hors périmètre de cette fiche, installments futurs. Argumentaire scientifique détaillé (document source complet) non reproduit.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante et PARTIELLE (Questions 3-5 uniquement, sur 15). Elle ne remplace pas le texte intégral — en particulier pour toute question d'obstétrique ou de terrain spécifique. Cette fiche n'est ni éditée ni validée par la SFAR.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

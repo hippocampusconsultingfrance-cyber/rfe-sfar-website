@@ -147,7 +147,8 @@ var RAW = {
   gestion_traitements_chroniques_neuro_psy_2011: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_neuro_psy_2011').textContent),
   gestion_traitements_chroniques_infectieux_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_infectieux_2009').textContent),
   delivrance_information_2012: JSON.parse(document.getElementById('content-delivrance_information_2012').textContent),
-  blocs_perimedullaires_ci_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_ci_2006').textContent)
+  blocs_perimedullaires_ci_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_ci_2006').textContent),
+  blocs_perimedullaires_technique_2006: JSON.parse(document.getElementById('content-blocs_perimedullaires_technique_2006').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -2020,6 +2021,18 @@ var DOC_META = {
     version: "2006-2007",
     validated: "Comité des référentiels de la SFAR",
     methodology: "Grille EBM classique A/B/C/AE — 41 recommandations gradées (A:3, C:31, AE:7), Questions 1-2/15 uniquement (périmètre limité, document source 369 citations sur 15 Questions)",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf"
+  },
+  blocs_perimedullaires_technique_2006: {
+    key: 'blocs_perimedullaires_technique_2006',
+    badge: "SFAR/Sofcot/Sofmer — RPC 2007 (Q3-5/15, périmètre limité)",
+    title: "Les blocs périmédullaires chez l'adulte — Rachianesthésie, péridurale, AG-Bloc (Q3-5/15)",
+    short: "SFAR/Sofcot/Sofmer, « Les blocs périmédullaires chez l'adulte », RPC, Ann Fr Anesth Réanim 26 (2007) 720-752. Deuxième installment de ce document (15 Questions, 369 citations de grade au total) — le premier installment (Questions 1-2, information au patient et contre-indications générales) est une fiche séparée. Cette fiche couvre INTÉGRALEMENT les Questions 3 (modalités de réalisation de la rachianesthésie), 4 (modalités de réalisation de l'anesthésie péridurale) et 5 (association blocs périmédullaires-anesthésie générale : chronologie, surveillance peropératoire) — 24 recommandations gradées (A:11, B:4, C:8, AE:1), vérifiées par audit indépendant (regex sur le script final). Trois tableaux pharmacologiques reproduits verbatim : facteurs déterminant le bloc en rachianesthésie, pharmacodynamie comparée des anesthésiques locaux en rachianesthésie et en péridurale (y compris leurs cellules vides, non renseignées par le source, vérifiées par rendu visuel du PDF source à 200dpi). Grille EBM classique A/B/C/AE — une troisième variante terminologique du palier le plus faible est rencontrée ici (« consensus professionnel », Question 5), en plus de « accord professionnel » et « avis d'experts » déjà rencontrés dans les Questions 1-2 ; toutes trois sont disclosed comme équivalentes, pas des paliers distincts. Les Questions 6 à 15 (travail obstétrical, césarienne, analgésie postopératoire, terrains spécifiques, échec, facteurs de risque de complications) ne sont PAS couvertes — installments futurs.",
+    society: "SFAR / Sofcot / Sofmer",
+    version: "2006-2007",
+    validated: "Comité des référentiels de la SFAR",
+    methodology: "Grille EBM classique A/B/C/AE — 24 recommandations gradées (A:11, B:4, C:8, AE:1), Questions 3-5/15 uniquement (périmètre limité, document source 369 citations sur 15 Questions)",
     pages: 4,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Blocs-perimedullaires-chez-ladulte.pdf"
   }

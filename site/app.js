@@ -142,7 +142,8 @@ var RAW = {
   organisation_anesthesie_pediatrique_2023: JSON.parse(document.getElementById('content-organisation_anesthesie_pediatrique_2023').textContent),
   organisation_usc_2018: JSON.parse(document.getElementById('content-organisation_usc_2018').textContent),
   transfusion_gr_anesth_2014: JSON.parse(document.getElementById('content-transfusion_gr_anesth_2014').textContent),
-  gestion_traitements_chroniques_cardio_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_cardio_2009').textContent)
+  gestion_traitements_chroniques_cardio_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_cardio_2009').textContent),
+  gestion_traitements_chroniques_douleur_toxico_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_douleur_toxico_2009').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -1953,6 +1954,18 @@ var DOC_META = {
     version: "2009",
     validated: "Comité des référentiels de la SFAR",
     methodology: "Grille ANAES 2004 A/B/C/D (D renforcé en « accord fort » par méthode Delphi) — 15 recommandations gradées + 1 non gradée, Module 1/4 uniquement (pathologies cardiovasculaires)",
+    pages: 4,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux.pdf"
+  },
+  gestion_traitements_chroniques_douleur_toxico_2009: {
+    key: 'gestion_traitements_chroniques_douleur_toxico_2009',
+    badge: "SFAR RFE 2009 — Module 2/4 (périmètre limité)",
+    title: "Gestion périopératoire des traitements chroniques — Douleur & toxicomanie",
+    short: "SFAR, « Gestion périopératoire des traitements chroniques et dispositifs médicaux — Douleur chronique, toxicomanie », Recommandations Formalisées d'Experts, Ann Fr Anesth Réanim 28 (2009) 1046-1056. Même document source composite que le Module 1 (Cardiovasculaire, fiche séparée — la fiche bibliothèque de ce document source unique renvoie vers ce Module 1 ; accédez au Module 2 directement via cette carte ou la barre latérale). Cette fiche couvre UNIQUEMENT le Module 2 — Douleur chronique, toxicomanie : opioïdes (traitement chronique, table de conversion), AINS/coxibs, antiépileptiques, antidépresseurs, benzodiazépines, cathéters intrathécaux/périmédullaires, stimulateurs médullaires, toxicomanie substituée (méthadone/buprénorphine, table de conversion), et toxicomanie active (cannabis, héroïne, cocaïne, autres excitants du SNC, médicaments détournés). Les modules Cardiovasculaire (traité séparément), Infectieux/immunosuppresseurs et Neurologique-psychiatrique/endocrinien ne sont pas traités ici. Grille ANAES 2004 A/B/C/D (D renforcé en « accord fort » par méthode Delphi). Particularité disclosed de ce module : la grande majorité des énoncés prescriptifs du texte source ne portent aucune citation de grade — seuls 28 citations de grade explicites (A:0, B:4, C:9, accord fort:15) apparaissent dans le texte, regroupées ici en 26 lignes de recommandations gradées ; tous les autres énoncés prescriptifs sont regroupés en repères pratiques non gradés par substance, sans grade fabriqué.",
+    society: "SFAR (Société française d'anesthésie et de réanimation)",
+    version: "2009",
+    validated: "Comité des référentiels de la SFAR",
+    methodology: "Grille ANAES 2004 A/B/C/D (D renforcé en « accord fort » par méthode Delphi) — 26 lignes de recommandations gradées (28 citations) + nombreux repères pratiques non gradés par substance, Module 2/4 uniquement (douleur chronique, toxicomanie)",
     pages: 4,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux.pdf"
   }

@@ -284,6 +284,8 @@ with open(os.path.join(BASE, "content_transfusion_gr_anesth_2014.json"), encodin
     content_transfusion_gr_anesth_2014 = f.read()
 with open(os.path.join(BASE, "content_gestion_traitements_chroniques_cardio_2009.json"), encoding="utf-8") as f:
     content_gestion_traitements_chroniques_cardio_2009 = f.read()
+with open(os.path.join(BASE, "content_gestion_traitements_chroniques_douleur_toxico_2009.json"), encoding="utf-8") as f:
+    content_gestion_traitements_chroniques_douleur_toxico_2009 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -431,6 +433,7 @@ out = out.replace("__CONTENT_ORGANISATION_ANESTHESIE_PEDIATRIQUE_2023__", safe(c
 out = out.replace("__CONTENT_ORGANISATION_USC_2018__", safe(content_organisation_usc_2018))
 out = out.replace("__CONTENT_TRANSFUSION_GR_ANESTH_2014__", safe(content_transfusion_gr_anesth_2014))
 out = out.replace("__CONTENT_GESTION_TRAITEMENTS_CHRONIQUES_CARDIO_2009__", safe(content_gestion_traitements_chroniques_cardio_2009))
+out = out.replace("__CONTENT_GESTION_TRAITEMENTS_CHRONIQUES_DOULEUR_TOXICO_2009__", safe(content_gestion_traitements_chroniques_douleur_toxico_2009))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

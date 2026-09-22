@@ -1,0 +1,992 @@
+{
+ "doc": "gestion_traitements_chroniques_douleur_toxico_2009",
+ "sections": [
+  {
+   "title": "Opioïdes, AINS/coxibs, antiépileptiques & dispositifs implantables",
+   "items": [
+    {
+     "t": "panel",
+     "tone": "default",
+     "content": {
+      "t": "p",
+      "html": "<b>Périmètre limité :</b> le référentiel SFAR complet (2009-2011) comporte 4 modules distincts (Cardiovasculaire, déjà traité dans une fiche séparée ; Douleur chronique/toxicomanie — cette fiche ; Infectieux/immunosuppresseurs ; Neurologique-psychiatrique et/ou endocrinien). Les 3 autres modules ne sont pas traités ici — disclosed explicitement, à construire séparément.",
+      "style": "body"
+     }
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "chip",
+        "label": "A"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       },
+       {
+        "t": "p",
+        "html": "<b>Grille ANAES 2004</b> — <b>A</b> : preuve scientifique établie ; <b>B</b> : présomption scientifique ; <b>C</b> : faible niveau de preuve ; <b>AF</b> : accord fort (grade D renforcé par méthode Delphi). Fiche limitée au Module 2/4 du référentiel (douleur chronique, toxicomanie) — voir encadré de périmètre ci-dessous. La majorité des énoncés de ce module ne portent aucun grade — voir « repères pratiques non gradés ».",
+        "style": "badge_head"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Opioïdes (traitement chronique de la douleur)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Opioïdes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un sevrage ou réajustement thérapeutique ne doit pas être envisagé en période périopératoire — seulement à distance de l'intervention, en période de stabilité et lorsque la douleur a significativement diminué.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Opioïdes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Administrer en préopératoire la dose habituelle de morphinique, ou la dose équianalgésique d'un autre opioïde (voie orale ou IV à l'induction).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Opioïdes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Un patch de fentanyl ne doit pas être retiré en périopératoire, sauf substitution par un autre opioïde.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Opioïdes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les morphiniques de palier 2 (codéine, dextropropoxyphène, tramadol) doivent être poursuivis, voire substitués par un autre opioïde (y compris de palier supérieur) à dose équianalgésique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Opioïdes",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Éviter, hors urgence, les antagonistes/agonistes partiels/antagonistes μ (naloxone, naltrexone, nalbuphine, butorphanol, buprénorphine, pentazocine) chez le patient dépendant aux opioïdes — risque de syndrome de sevrage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "DCI",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Ratio vs. morphine orale",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Équivalence",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dextropropoxyphène",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1/6",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60 mg = 10 mg morphine",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Codéine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1/6",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60 mg = 10 mg morphine",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Dihydrocodéine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1/3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "60 mg = 20 mg morphine",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Tramadol",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1/5 à 1/6",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "50-60 mg = 10 mg morphine",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Péthidine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1/5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "50 mg = 10 mg morphine",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Morphine IV",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "3",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 mg IV = 3 mg morphine orale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Morphine SC/IM",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "1 mg SC = 2 mg morphine orale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Oxycodone orale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "2",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "5 mg = 10 mg morphine orale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Hydromorphone",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "7,5",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "4 mg = 30 mg morphine",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Buprénorphine SL",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "30",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "0,2 mg = 6 mg morphine orale",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Fentanyl transdermique",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "variable",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "25 µg/h ~ 60 mg/j morphine",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>10 mg de morphine IV = 1 mg de morphine péridurale = 0,1 mg de morphine intrathécale.</i>",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Analgésiques non morphiniques — AINS et coxibs",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "AINS non sélectifs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Maintien recommandé en périopératoire si les contre-indications sont respectées — SAUF pour les chirurgies à risque hémorragique difficile à contrôler (neurochirurgie intracrânienne, chirurgie urologique, amygdalectomie, chirurgie ophtalmologique hors cataracte, chirurgie orthopédique lourde), où l'arrêt est recommandé.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Coxibs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Maintien recommandé en périopératoire chez les patients sans facteur de risque cardiovasculaire opérés de chirurgie non cardiaque.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> absence de recommandation dégagée par la source elle-même sur le risque cardiovasculaire périopératoire des coxibs au long cours (absence d'étude spécifique) ; pas d'arrêt recommandé d'un AINS/coxib avant une ALR périphérique (risque hémorragique très faible/nul). Stratégie d'arrêt pour chirurgie à risque hémorragique : AINS de longue demi-vie (oxicams, naproxène) 7 à 10 jours avant, AINS de demi-vie courte (ibuprofène, kétoprofène, flurbiprofène) 24 heures avant.",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Antiépileptiques, antidépresseurs & benzodiazépines (douleur chronique)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antiépileptiques",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuivre en périopératoire les traitements prescrits à visée antalgique (clonazépam, carbamazépine, gabapentine, prégabaline).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Antidépresseurs",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuivre en périopératoire les traitements prescrits à visée antalgique (tricycliques, IRS, venlafaxine).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Benzodiazépines",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuivre en périopératoire les traitements prescrits à visée antalgique (ex. clonazépam pour douleur neuropathique).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> la carbamazépine peut diminuer la durée d'action des curares ; la gabapentine en prémédication à dose importante (1200 mg) réduit l'hyperalgésie postopératoire. En cas d'interruption du transit, voie IV possible pour le clonazépam (aucune forme IV pour la gabapentine — sonde gastrique envisageable).",
+     "style": "note"
+    },
+    {
+     "t": "section",
+     "text": "Cathéters intrathécaux/périmédullaires & stimulateurs médullaires",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cathéters intrathécaux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas interrompre la perfusion des dispositifs analgésiques (opiacés, baclofène) tout au long de la période périopératoire, pour éviter un sevrage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cathéters intrathécaux",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas de risque particulier (effets indésirables du baclofène, récidive de troubles neurologiques à son arrêt), un contact avec le médecin référent est souhaitable pour déterminer la stratégie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Stimulateur médullaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Ne pas réaliser d'anesthésie et/ou d'analgésie périmédullaire chez le porteur d'un stimulateur médullaire.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Stimulateur médullaire",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Précautions d'utilisation au bloc opératoire identiques à celles des stimulateurs cardiaques (bistouri bipolaire recommandé), en l'absence de données spécifiques.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> en cas de tolérance/désensibilisation aux opiacés (cathéter intrathécal au long cours), il est recommandé d'augmenter les posologies de morphiniques (la kétamine pourrait être d'un apport intéressant) ; en cas d'anesthésie axiale, peser les bénéfices/risques (contamination infectieuse du dispositif) et connaître le niveau d'insertion et le trajet du cathéter.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "title": "Toxicomanie substituée & active, sources",
+   "items": [
+    {
+     "t": "section",
+     "text": "Toxicomanie substituée (méthadone, buprénorphine)",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Subst. opiacés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Donner oralement, le matin de l'intervention, la dose quotidienne du traitement substitutif, quelle que soit la technique d'anesthésie choisie.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Subst. opiacés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Si la voie orale est impossible, administrer la morphine par voie sous-cutanée ou intraveineuse.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Subst. opiacés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Poursuivre le traitement substitutif tout au long de l'hospitalisation, pour assurer les besoins de base en opiacés et éviter un sevrage.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Subst. opiacés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Favoriser chaque fois que possible une ALR axiale ou périphérique.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Subst. opiacés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Augmenter les doses de morphine prescrites pour l'analgésie postopératoire ; la kétamine pourrait présenter un intérêt chez ces patients tolérants aux opiacés.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Subst. opiacés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les agonistes-antagonistes et antagonistes des récepteurs μ (nalbuphine, butorphanol, pentazocine, naloxone) sont formellement contre-indiqués chez le patient sous traitement substitutif.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<i>Précision du source :</i> il est recommandé d'arrêter la naltrexone au minimum 24 à 48 heures avant une intervention (cet antagoniste μ diminue fortement les effets des morphiniques) ; adresser le patient en consultation avec un médecin spécialisé en toxicomanie ; prémédication par benzodiazépine souvent adaptée (codépendance fréquente).",
+     "style": "note"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Molécule",
+        "style": "head_w_c"
+       },
+       {
+        "t": "p",
+        "html": "Équivalence (ordre de grandeur)",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sulfate de morphine oral",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "10 mg (référence)",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Sulfate de morphine parentéral (IV/SC)",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~ 3,3 mg",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Méthadone orale",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~ 6–7 mg",
+        "style": "cell"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Buprénorphine",
+        "style": "cell"
+       },
+       {
+        "t": "p",
+        "html": "~ 1,2–1,4 mg",
+        "style": "cell"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Toxicomanie active — cannabis, héroïne, cocaïne, autres substances",
+     "color": "navy"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       {
+        "t": "p",
+        "html": "Classe",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Recommandation",
+        "style": "head_w"
+       },
+       {
+        "t": "p",
+        "html": "Grade",
+        "style": "head_w_c"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cannabis",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "S'abstenir de fumer ou de consommer du cannabis avant une chirurgie réglée (comme pour le tabac).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "AF"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Héroïne (active)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Les agonistes-antagonistes et antagonistes μ sont formellement contre-indiqués (risque de syndrome de sevrage aigu).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Héroïne (active)",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Augmenter fréquemment les doses des médicaments hypnotiques et morphiniques en cas d'anesthésie générale.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Cocaïne",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "En cas d'ALR axiale, demander au minimum un dosage des plaquettes (risque de thrombopénie).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Médic. détournés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Risque de crise convulsive lors d'un sevrage des benzodiazépines.",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "C"
+       }
+      ],
+      [
+       {
+        "t": "p",
+        "html": "Médic. détournés",
+        "style": "cell_b"
+       },
+       {
+        "t": "p",
+        "html": "Il n'est pas recommandé d'administrer des doses plus élevées de morphiniques pour l'anesthésie générale ou l'analgésie postopératoire (absence de tolérance croisée benzodiazépines/morphiniques).",
+        "style": "cell"
+       },
+       {
+        "t": "chip",
+        "label": "B"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Repères pratiques non gradés :</b> la majorité des énoncés prescriptifs de ce module ne portent aucune citation de grade dans le texte source. Conformément à la règle anti-fabrication de grade, ils sont regroupés ci-dessous en repères pratiques par substance, distincts des tableaux de recommandations effectivement gradées.",
+      "style": "body_sm"
+     }
+    },
+    {
+     "t": "p",
+     "html": "<b>Cannabis</b> <i>(repères non gradés par la source)</i> : prudence avec les médicaments tachycardisants (kétamine, pancuronium, atropine, éphédrine, adrénaline), éviter l'halothane ; potentialise les effets des opiacés (somnolence, dépression respiratoire).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Héroïne (active)</b> <i>(repères non gradés par la source)</i> : le sevrage en période chirurgicale n'est jamais le bon moment (risque de récidive) ; établir un contrat de soins explicite avec le patient et l'équipe spécialisée ; substitution le matin de la chirurgie par une dose équivalente de morphine orale ; en urgence, considérer le patient comme estomac plein et réaliser une induction en séquence rapide.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Cocaïne</b> <i>(repères non gradés par la source)</i> : sevrage complet d'au moins une semaine avant une intervention programmée (un sevrage plus court ne protège pas des complications) ; éviter étomidate, kétamine et halothane en cas d'anesthésie générale ; bêtabloquants contre-indiqués (majoration de la vasoconstriction) ; benzodiazépines et dérivés nitrés en traitement de première intention des complications cardiovasculaires ; vérifier le taux de plaquettes avant ALR axiale chez la parturiente cocaïnomane.",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Autres excitants du SNC (LSD, PCP, ecstasy/MDMA…)</b> <i>(repères non gradés par la source)</i> : précaution avec les vasopresseurs (éphédrine) ; éviter succinylcholine et halogénés en cas d'antécédent d'hyperthermie induite par le MDMA ; surveiller les apports hydriques et le bilan hydroélectrolytique (risque d'hyponatrémie profonde).",
+     "style": "body_sm"
+    },
+    {
+     "t": "p",
+     "html": "<b>Médicaments détournés (benzodiazépines)</b> <i>(repères non gradés par la source)</i> : prescrire une benzodiazépine en périopératoire pour prévenir un syndrome de sevrage ; réduire les doses d'hypnotiques en cas d'intoxication aiguë.",
+     "style": "body_sm"
+    },
+    {
+     "t": "section",
+     "text": "Sources et avertissement",
+     "color": "grey"
+    },
+    {
+     "t": "p",
+     "html": "<b>Document source :</b> Société française d'anesthésie et de réanimation (SFAR), « Gestion périopératoire des traitements chroniques et dispositifs médicaux — Douleur chronique, toxicomanie », Recommandations Formalisées d'Experts, Annales Françaises d'Anesthésie et de Réanimation 28 (2009) 1046-1056.",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>URL source :</b> https://sfar.org/gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux-anti-infectieux-immunosuppresseurs/",
+     "style": "source"
+    },
+    {
+     "t": "p",
+     "html": "<b>Couverture :</b> Module 2/4 du référentiel uniquement (douleur chronique, toxicomanie) — 26 lignes de recommandations gradées (28 citations de grade source, A:0/B:4/C:9/accord fort:15) + de nombreux repères pratiques non gradés par la source elle-même, regroupés par substance. Les modules Cardiovasculaire (traité séparément), Infectieux/immunosuppresseurs, et Neurologique-psychiatrique/endocrinien ne sont pas couverts ici — hors périmètre de cette fiche, disclosed en page 1. Argumentaire scientifique détaillé (document source complet) non reproduit.",
+     "style": "source"
+    },
+    {
+     "t": "panel",
+     "tone": "grey",
+     "content": {
+      "t": "p",
+      "html": "<b>Avertissement :</b> cette fiche est une synthèse indépendante et PARTIELLE (Module 2 uniquement). Elle ne remplace pas le texte intégral — en particulier pour toute question relevant des 3 autres modules du référentiel. Cette fiche n'est ni éditée ni validée par la SFAR.",
+      "style": "body_sm"
+     }
+    }
+   ]
+  }
+ ]
+}

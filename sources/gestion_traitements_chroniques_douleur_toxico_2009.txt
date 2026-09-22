@@ -1,0 +1,1196 @@
+RECOMMANDATIONS FORMALISÉES D’EXPERTS
+Gestion périopératoire des traitements chroniques et
+dispositifs médicaux. Douleur chronique, toxicomanie
+Perioperative management of chronic treatment and
+medical devices : cardiovascular pathologies
+Société française d’anesthésie et de réanimation
+GROUPE DE TRAVAIL
+Responsables du groupe
+Pr D. Fletcher (CHU Raymond-Poincaré, Garches, France)
+dominique.ﬂetcher@rpc.ap-hop-paris.fr
+Pr H. Keita-Meyer (CHU Louis-Mourier, Colombes, France)
+hawa.keita@lmr.aphp.fr
+Experts
+Dr F. Aubrun (CHU de la Pitié-Salpêtrière, Paris, France)
+Dr H. Beloeil (CHU de Bicêtre, Le Kremlin-Bicêtre, France)
+Dr X. Paqueron (Centre clinical, Soyaux, France)
+Traitements et dispositifs évalués
+ Morphiniques (traitements au long cours) ;
+ analgésiques non morphiniques :
+ AINS et Coxibs,
+ antiépileptiques,
+ antidépresseurs,
+ benzodiazépines ;
+ stimulateurs médullaires ;
+ cathéters intrathécaux et périmédullaires ;
+ toxicomanie :
+ substituée,
+ active : héroïne, cannabis, cocaïne, autres excitants du
+SNC, drogues de synthèse, médicaments détournés.
+1. OPIOÏDES
+La prévention des désordres psychoaffectifs périopératoi-
+res tels que l’anxiété est recommandée chez les patients
+bénéﬁciant d’un traitement chronique par des opioïdes. Les
+patients doivent être rassurés sur le fait que leur traitement
+habituel ne constitue par un obstacle au soulagement de
+leur
+douleur
+postopératoire.
+Toutefois,
+ils
+doivent
+être informés dès la consultation d’anesthésie du risque
+d’instabilité
+thérapeutique,
+d’augmentation
+possible
+de
+l’intensité douloureuse périopératoire et donc de leurs
+besoins en morphinomimétiques. La période périopératoire
+n’est pas la meilleure période pour envisager un sevrage ou un
+réajustement thérapeutique des patients dépendants des
+opioïdes. En revanche, un tel objectif peut être envisagé à
+distance de l’intervention chirurgicale, dans un contexte de
+stabilité et lorsque l’intensité douloureuse a signiﬁcativement
+diminué (grade C).
+1.1. Quel est le risque d’événement ?
+1.1.1. À l’arrêt ou au maintien du traitement
+La littérature médicale est insufﬁsante pour évaluer l’impact
+de l’adaptation posologique ou de l’arrêt préopératoire
+d’agents pouvant entraîner un syndrome de sevrage. La
+littérature est également insufﬁsante concernant l’évaluation
+de l’efﬁcacité d’un traitement antalgique initié dans la période
+préopératoire ou dans le cadre d’une analgésie multimodale.
+Toutefois, il convient d’ajuster le traitement préopératoire en
+fonction des objectifs thérapeutiques ﬁxés : poursuivre un
+traitement analgésique dans la période préopératoire et/ou
+réduire le risque de sevrage médicamenteux.
+1.2. Proposer une stratégie d’arrêt, de maintien et/
+ou de substitution
+Lors de la prise en charge des patients traités par des
+opioïdes, il est recommandé d’administrer en préopératoire
+la dose habituelle de morphinique, ou la dose équi-
+analgésique d’un autre opioïde (accord fort).
+L’administration préopératoire peut être soit orale, soit
+intraveineuse, à l’induction anesthésique.
+Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+0750-7658/$ see front matter
+doi:10.1016/j.annfar.2009.10.013
+1.3. Proposer une stratégie de reprise du
+traitement
+Le traitement habituel du patient est poursuivi après
+l’intervention chirurgicale soit par voie orale sans modiﬁer la
+posologie, en cas de chirurgie mineure, notamment dans le
+cadre d’une chirurgie ambulatoire ou alors par voie paren-
+térale, chez des patients hospitalisés, en cas de procédure
+chirurgicale invasive. La dose morphinique quotidienne peut
+alors être administrée par voie intraveineuse et/ou par
+analgésie autocontrôlée. Le débit continu doit alors tenir
+compte
+de
+la
+dose
+habituelle
+convertie
+en
+morphine
+intraveineuse
+et
+les
+bolus
+correspondent
+à
+l’analgésie
+chirurgicale Grade C. En cas d’analgésie insufﬁsante, il est
+recommandé d’augmenter le débit de perfusion ou la dose de
+bolus administrée. L’intervalle réfractaire entre les bolus peut
+également être réduit. Si malgré l’ensemble de ces mesures, le
+patient n’est pas soulagé, il est recommandé de remplacer la
+morphine par un autre opioïde à dose équivalente.
+En dehors des situations d’urgence, l’administration d’opioï-
+des antagonistes tels que la naloxone ou la naltrexone,
+d’agonistes partiels ou d’agonistes k, d’antagonistes m tels que
+la nalbuphine, le butorphanol, la buprénorphine et la
+pentazocine, doit être évitée chez des patients dépendants
+des opioïdes car ils peuvent entraîner un syndrome de
+sevrage (grade C). Un patch de fentanyl ne doit pas être retiré
+dans la période périopératoire ou alors une substitution par
+un autre opioïde est nécessaire (accord fort).
+Le sevrage des morphiniques de palier 2 (codéine,
+dextropropoxyphène, tramadol) peut avoir des conséquen-
+ces cliniques importantes. Ils doivent également être
+poursuivis, voire substitués par un autre opioïde, y compris
+du palier supérieur en tenant compte des doses équi-
+analgésiques (accord fort).
+1.4. Tableau des correspondances
+Certains calculs de conversion peuvent varier d’une source
+bibliographique à l’autre et demeurent donc empiriques.
+DCI
+Ratio
+Équivalence de la dose
+de morphine orale
+Dextropropoxyphène
+1/6
+60 mg de D = 10 mg de
+morphine
+Codéine
+1/6
+60 mg de C = 10 mg de
+morphine
+Dihydrocodéine
+1/3
+60 mg de DC = 20 mg de
+morphine
+Tramadol
+1/5 à 1/6
+50 à 60 mg de T = 10 mg de
+morphine
+Péthidine
+1/5
+50 mg de P = 10 mg de morphine
+Morphine oralea
+1a
+Morphine intraveineuse
+3
+1 mg de morphine intraveineuse
+= 3 mg de morphine orale
+Morphine SC ou IM
+2
+1 mg de morphine SC = 2 mg
+de morphine orale
+Oxycodone orale
+2
+5 mg d’O = 10 mg de morphine
+orale
+(Suite)
+DCI
+Ratio
+Équivalence de la dose
+de morphine orale
+Hydromorphone
+7,5
+4 mg d’hydromorphine = 30 mg
+de morphine
+Buprénorphine SL
+30
+0,2 mg de B = 6 mg de
+morphine orale
+Nalbuphine SC
+2
+5 mg de nalbuphine SC = 10 mg
+de morphine orale
+Fentanyl transdermique
+(FTD)
+variable
+25 mg/h de FTD  60 mg/j de
+morphine
+a 10 mg de morphine intraveineuse = 1 mg de morphine par voie péridu-
+rale = 0,1 mg de morphine par voie intrathécale. DC : dihydrocodeine.
+Agents
+Dose intraveineuse (mg)
+Dose orale (mg)
+Morphine
+10
+30
+Hydromorphone
+1,5
+7,5
+Méthadone
+2 (précautions)
+2 à 3 (précautions)
+Oxycodone
+10
+20
+2. ANALGÉSIQUES NON MORPHINIQUES :
+AINS ET COXIBS
+Selon
+les
+recommandations
+de
+l’Afssaps,
+seules
+les
+manifestations symptomatiques d’arthrose et de polyarthrite
+rhumatoïde justiﬁent un traitement au long cours par AINS ou
+coxibs.
+2.1. Quel est le risque d’événement ?
+2.1.1. À l’arrêt du traitement
+Le risque à l’arrêt d’un traitement chronique par AINS non
+sélectif ou coxib est essentiellement une recrudescence des
+douleurs inﬂammatoires en périopératoire et une consomma-
+tion d’antalgiques augmentée en postopératoire.
+2.1.2. Au maintien du traitement
+Pour les AINS, le risque de leur maintien en périopératoire
+est essentiellement hémorragique et rénal. Si les contre-
+indications des AINS sont respectées, leur responsabilité dans
+la survenue d’hémorragie digestive et d’insufﬁsance rénale est
+probablement exceptionnelle. En conséquence, le maintien
+des AINS non sélectifs (prescrits dans le respect des contre-
+indications) est recommandé en périopératoire (grade B).
+Cette recommandation ne s’applique pas aux chirurgies
+hémorragiques pour lesquelles l’hémostase périopératoire
+est difﬁcile à contrôler : neurochirurgie intracrânienne,
+chirurgie urologique, amygdalectomie, chirurgie ophtalmolo-
+gique autre que la cataracte, chirurgie orthopédique lourde
+(arthrodèse de rachis, prothèse totale de hanche [PTH],
+prothèse totale de genou [PTG]) où il est alors recommandé
+d’arrêter les AINS non sélectifs (grade B).
+Pour les coxibs, la tolérance digestive est vraisembla-
+blement meilleure et le risque hémorragique réduit. En
+revanche, la toxicité rénale est similaire. Pour les patients sans
+facteurs de risques cardiovasculaires et opérés de chirurgie
+non cardiaque, le risque d’évènements cardiovasculaires
+périopératoires ne semble pas majoré. En conséquence et
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1047
+dans ces conditions, le maintien des coxibs (prescrits dans le
+respect des contre-indications) est recommandé en pério-
+pératoire (grade B).
+L’absence
+d’étude
+évaluant
+les
+risques
+d’évènements
+cardiovasculaires périopératoires chez des patients traités au
+long cours par coxibs ne permet cependant pas de dégager de
+recommandation.
+2.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Pour l’anesthésie locorégionale (ALR) des membres (blocs),
+le risque hémorragique lié aux AINS est probablement très
+faible ou nul. Il n’est pas recommandé d’arrêter un traitement
+par AINS ou coxibs avant une ALR périphérique.
+Plusieurs études concluent à l’innocuité de la prescription
+d’AINS chez des patients bénéﬁciant d’une anesthésie
+péridurale (niveau de preuve 2). La réalisation d’une anesthésie
+péridurale chez un patient sous antiagrégant (aspirine et
+AINS) est possible sous certaines conditions. Celles-ci ont
+été précisées lors d’une conférence d’experts (Sfar-GEHT,
+2001).
+2.3. Proposer une stratégie d’arrêt, de maintien ou
+de substitution
+La stratégie d’arrêt recommandée pour les chirurgies à
+risque hémorragique est d’interrompre la prise d’AINS de
+longue demi-vie (oxicams, naproxène), sept à dix jours avant la
+chirurgie et 24 heures avant pour les AINS de demi-vie courte
+(buprofène, kétoprofène, ﬂurbiprofène).
+3. ANALGÉSIQUES NON MORPHINIQUES :
+ANTIÉPILEPTIQUES
+Les principaux antiépileptiques utilisés dans le traitement de
+la douleur chronique sont : clonazépam, carbamazépine,
+gabapentine, prégabaline.
+Les antiépileptiques ont montré une efﬁcacité certaine dans
+le cadre des névralgies du trijumeau, de la neuropathie
+diabétique et de la prophylaxie de la migraine. La gabapentine
+semble efﬁcace dans le traitement de la neuropathie diabétique
+douloureuse et des névralgies post-herpétiques. Administrée
+en préopératoire, la gabapentine assure, par ailleurs, une bonne
+qualité d’analgésie postopératoire.
+3.1. Quel est le risque d’événement ?
+3.1.1. À l’arrêt du traitement
+Le risque de l’arrêt du traitement antiépileptique prescrit
+dans le cadre de la douleur neuropathique chronique est
+d’introduire un déséquilibre dans la thérapeutique antalgique,
+souvent difﬁcile à mettre en place et à équilibrer.
+3.1.2. Au maintien du traitement
+Le
+maintien
+des
+antiépileptiques
+en
+périopératoire
+présente un risque
+faible ou nul.
+Le maintien de la
+gabapentine en périopératoire est d’autant plus recommandé
+qu’un certain nombre d’études ont montré son intérêt dans
+la diminution de l’hyperalgésie postopératoire lorsqu’elle est
+administrée en préopératoire à des doses importantes
+(1200 mg).
+3.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+La carbamazépine peut diminuer la durée d’action des
+curares.
+3.3. Proposer une stratégie d’arrêt, de maintien
+et/ou de substitution
+Il est recommandé de poursuivre en périopératoire les
+traitements par antiépileptiques à visée antalgique (accord
+fort).
+3.4. Proposer une stratégie de reprise du
+traitement
+Si le transit digestif est interrompu, la voie intraveineuse est
+possible pour le clonazépam. Il n’existe pas de forme
+intraveineuse pour la gabapentine. L’administration par une
+sonde gastrique peut être envisagée. Une substitution par de la
+kétamine en postopératoire jusqu’à la reprise d’une adminis-
+tration per os est à discuter.
+4. ANALGÉSIQUES NON MORPHINIQUES :
+ANTIDÉPRESSEURS
+Les principaux antidépresseurs utilisés dans le traitement de
+la douleur chronique sont les tricycliques (amitriptyline,
+clomipramine), les inhibiteurs spéciﬁques de la recapture de
+la sérotonine, les antidépresseurs non imipraminiques, à action
+monoaminergique mixte (venlafaxine).
+Les antidépresseurs sont efﬁcaces dans le traitement des
+douleurs chroniques bénignes mais cet effet reste partiel. Les
+douleurs neuropathiques représentent le type de douleur le
+plus sensible à leurs effets. Les effets analgésiques sont observés
+indépendamment de l’effet thymoanaleptique.
+4.1. Quel est le risque d’événement ?
+4.1.1. À l’arrêt du traitement
+Le risque de l’arrêt du traitement antidépresseur prescrit
+dans le cadre de la douleur neuropathique chronique est
+d’introduire un déséquilibre dans la thérapeutique antalgique,
+souvent difﬁcile à mettre en place et à équilibrer.
+4.1.2. Au maintien du traitement
+Le maintien des antidépresseurs en périopératoire présente
+un risque faible ou nul.
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1048
+4.2. Proposer une stratégie d’arrêt, de maintien et/
+ou de substitution
+Il est recommandé de poursuivre en périopératoire les
+traitements par antidépresseurs à visée antalgique (accord
+fort).
+4.3. Proposer une stratégie de reprise du
+traitement
+L’effet antalgique apparaît plus rapidement que l’effet
+antidépresseur, il est donc souhaitable d’initier le traitement
+avec des doses peu importantes et de les augmenter en
+cas
+de
+réponse
+insufﬁsante.
+En
+cas
+d’interruption
+du
+transit digestif, une administration par la sonde gastrique
+est
+envisageable,
+en
+particulier
+pour
+les
+solutions
+buvables.
+5. ANALGÉSIQUES NON MORPHINIQUES :
+BENZODIAZÉPINES
+Le clonazépam est utile en cas de douleur neuropathique,
+mais l’attention est attirée sur le risque de son utilisation en
+usage prolongé, en particulier dépression et atteinte hépatique.
+Une majoration des doses en préopératoire (à type de
+prémédication) semble utile. Le risque de dépendance, reconnu
+pour les benzodiazépines avec syndrome de sevrage, doit être
+pris en considération.
+5.1. Quel est le risque d’événement ?
+5.1.1. À l’arrêt du traitement
+Le risque de l’arrêt du traitement par benzodiazépines
+prescrit à visée antalgique est d’introduire un déséquilibre dans
+la thérapeutique antalgique et anxiolytique, avec majoration de
+l’angoisse du patient.
+5.1.2. Au maintien du traitement
+Le maintien des benzodiazépines en périopératoire présente
+un risque faible ou nul.
+5.2. Proposer une stratégie d’arrêt, de maintien
+et/ou de substitution
+Il est recommandé de poursuivre en périopératoire les
+traitements par benzodiazépines (accord fort).
+5.3. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Risque de majoration des effets sédatifs des médicaments de
+l’anesthésie.
+5.4. Proposer une stratégie de reprise du
+traitement
+Il est recommandé de ne pas arrêter le traitement et de le
+reprendre en postopératoire immédiat. En cas d’interrup-
+tion du transit, la voie intraveineuse est possible pour de
+nombreuses molécules.
+6. CATHÉTERS INTRATHÉCAUX ET
+PÉRIMÉDULLAIRES
+Les systèmes implantables permettant de délivrer différents
+types de substances analgésiques ou antispastiques sont en
+majorité représentés par les cathéters intrathécaux, qui offrent
+le meilleur rapport dose/effet pour les opiacés notamment.
+Certaines pompes plus anciennes sont purement mécaniques,
+et ne permettent pas de modiﬁer le débit du médicament,
+tandis que les pompes plus récentes sont équipées d’un
+microprocesseur et d’une batterie, ce qui les rend repro-
+grammables de manière percutanée.
+Ces dispositifs implantables sont utilisés dans la majorité des
+cas pour le traitement de douleurs rebelles cancéreuses ou non
+(opiacés), les chimiothérapies, mais également très rarement
+dans le traitement de complications spastiques (baclofène) de
+certains états neurologiques.
+6.1. Quel est le risque d’événement ?
+6.1.1. À l’arrêt du traitement
+L’administration chronique de morphiniques par voie
+intrathécale entraîne une tolérance et une dépendance aux
+opiacés. Il existe un risque de syndrome de sevrage en cas
+d’arrêt du dispositif.
+L’arrêt brutal du baclofène peut majorer la spasticité,
+provoquer la survenue de convulsions, d’hallucinations visuelles
+et de comportements psychotiques aigus lors d’une adminis-
+tration chronique.
+6.1.2. Au maintien du traitement
+Un risque de surdosage en opiacés est toujours théorique-
+ment
+possible
+lors
+de
+l’association
+d’opiacés
+par
+voie
+intrathécale et systémique ou lorsqu’une ALR risque d’entraî-
+ner une suppression de la douleur, étant donné que la douleur
+participe au maintien de la commande respiratoire lors des
+traitements par opiacés à forte dose. En pratique, la tolérance
+et la désensibilisation induites par les opiacés au long cours
+rendent cette complication peu probable.
+6.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Lors de l’administration intrathécale d’antalgiques, Il existe
+une interférence avec les morphiniques.
+Lorsque des agonistes alpha-2 adrénergiques ou des
+anesthésiques locaux sont employés, il existe une interférence
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1049
+avec les effets hémodynamiques que peuvent induire les
+anesthésiques généraux.
+Des interférences sont possibles entre le baclofène et les
+curares, les anesthésiques généraux. Elles peuvent être
+responsables d’une majoration du bloc neuromusculaire, de
+la survenue de troubles du rythme cardiaque, d’hypotension
+artérielle ou d’une majoration de la sédation.
+6.3. Proposer une stratégie d’arrêt de maintien ou
+de substitution
+Il est recommandé de ne pas interrompre la perfusion des
+dispositifs thérapeutiques à visée analgésique tout au long de
+la période périopératoire pour éviter l’apparition d’un
+sevrage (accord fort).
+La poursuite de l’administration intrathécale ou périmédul-
+laire des opiacés a pour objectif de maintenir le niveau de base
+en opiacés.
+Compte tenu du risque :
+1) d’effets indésirables possibles avec le baclofène (curares,
+retard de réveil, hypotension artérielle),
+2) de récidives des troubles neurologiques,
+3) à l’arrêt du baclofène intrathécal, un contact avec le
+médecin référent est souhaitable pour déterminer la
+stratégie (accord fort).
+6.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Aucune technique anesthésique n’est contre-indiquée avec
+ces dispositifs.
+En cas d’administration chronique de morphiniques, il faut
+considérer les patients comme tolérants et désensibilisés pour
+les opiacés. Il est recommandé dans ce cas d’augmenter les
+posologies de morphiniques. Dans cette situation, la kétamine
+pourrait être d’un apport intéressant.
+En cas d’anesthésie axiale, il est recommandé de peser les
+bénéﬁces
+et
+les
+risques,
+notamment
+de
+contamination
+infectieuse du dispositif.
+En cas d’anesthésie axiale, il est recommandé de connaître le
+niveau d’insertion du cathéter ainsi que son trajet pour éviter
+de l’endommager lors de la ponction de l’anesthésie.
+6.5. Précautions d’emploi
+Les manipulations de ces dispositifs exposent à des risques
+septiques. Mais le risque principal est celui d’un surdosage
+accidentel
+lors du remplissage
+du
+réservoir avec des
+concentrations
+trop
+élevées
+de
+morphiniques
+ou
+de
+baclofène, par du personnel qui n’est pas familier de ce
+genre de dispositif.
+7. STIMULATEUR MÉDULLAIRE
+La stimulation médullaire est utilisée depuis la ﬁn des années
+1960. Les principales indications de la stimulation médullaire
+sont la douleur chronique et le traitement de certains troubles
+urinaires.
+7.1. Quel est le risque d’événement ?
+7.1.1. À l’arrêt du traitement
+Il n’y a pas de risque particulier à l’arrêt d’un stimulateur, en
+dehors d’une augmentation de la symptomatologie doulou-
+reuse.
+7.1.2. Au maintien du traitement
+Il existe un risque d’interactions avec le bistouri électrique
+qui nécessite les mêmes précautions peropératoires qu’avec un
+stimulateur cardiaque. L’emploi d’un bistouri bipolaire est
+recommandé.
+7.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+La réalisation d’une ALR axiale est possible, en sachant
+qu’elle entraîne un risque potentiel théorique de greffe
+infectieuse sur la sonde, de traumatisme des ﬁls de conduction
+lors de la ponction par l’aiguille, et de perte transitoire de
+l’efﬁcacité de la stimulation du fait de l’injection de liquide dans
+l’espace péridural.
+7.3. Proposer une stratégie d’arrêt, de maintien et/
+ou de substitution
+Il est recommandé de ne pas faire d’anesthésie et/ou
+d’analgésie périmédullaire (accord fort).
+7.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Il n’existe aucune donnée ni recommandation dans la
+littérature concernant les interactions potentielles entre ces
+dispositifs et l’anesthésie.
+Aucune
+recommandation
+particulière
+concernant
+la
+conduite de l’anesthésie ne peut être proposée.
+Concernant une ALR axiale (rachi ou péri), les précautions
+détaillées ci-dessus sont les seules actuellement disponibles et
+recommandables.
+7.5. Précautions d’emploi
+En l’absence de données spéciﬁques, les précautions
+d’utilisation au bloc opératoire sont celles applicables aux
+stimulateurs cardiaques (accord fort).
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1050
+8. SUBSTITUTION DE L’HÉROÏNE
+(ET OPIACÉS)
+Les deux principales molécules utilisées en France pour la
+substitution de la toxicomanie à l’héroïne ou aux opiacés sont la
+méthadone et la buprénorphine (Subutex1). Les patients
+substitués demeurent physiquement tolérants et dépendants
+pour les opiacés, même s’ils ne présentent plus de comporte-
+ment addictif.
+8.1. Quel est le risque d’événement ?
+8.1.1. À l’arrêt du traitement
+À l’arrêt d’un traitement substitutif, les risques sont la
+survenue d’un syndrome de sevrage, la sous-estimation de la
+douleur postopératoire, de sous-traiter la douleur post-
+opératoire, voire de refuser la prescription d’opiacés par
+crainte d’une récidive de l’addiction.
+Le risque de récidive d’une toxicomanie à la faveur d’une
+intervention chirurgicale, n’est pas nul mais n’a jamais été évalué
+précisément.
+L’arrêt de la méthadone, de la buprénorphine ou de la
+codéine expose à un risque de syndrome de sevrage.
+La naltrexone n’est pas utilisée en France pour le sevrage de
+la toxicomanie aux opiacés.
+8.1.2. Au maintien du traitement
+L’administration de la dose quotidienne de méthadone le
+jour de l’intervention ne fait pas courir de risque de surdosage
+en opiacés, du fait de la tolérance.
+L’administration préopératoire de buprénorphine à titre
+substitutif n’inhibe pas les effets analgésiques des morphiniques
+ayant une forte afﬁnité pour les récepteurs m (sufentanil,
+alfentanil, rémifentanil. . .), capables de déplacer la buprénor-
+phine du récepteur.
+En cas de poursuite de la naltrexone, cet antagoniste des
+récepteurs m va diminuer très fortement les effets des
+morphiniques utilisés pour l’analgésie intra et postopératoire.
+Il est recommandé d’arrêter la naltrexone au minimum dans
+les 24 à 48 heures qui précèdent une intervention chirurgicale.
+8.2. Quel est le risque de récurrence d’une
+toxicomanie active ?
+8.2.1. Toxicomane substitué
+Chez les patients substitués par la méthadone ou la
+buprénorphine, le risque de récurrence de l’addiction, bien
+que non chiffré, ne paraît pas très élevé.
+8.2.2. Ancien héroïnomane sevré
+Chez l’ancien héroïnomane sevré, la survenue d’une
+sensation de manque est fréquente en postopératoire, mais
+le risque de réapparition d’une réelle dépendance, bien que non
+nul, demeure non chiffré. Il serait plus élevé en cas d’utilisation
+de morphiniques de forte afﬁnité.
+8.3. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Il existe une interférence entre les produits de substitution
+et les opiacés, du fait de la tolérance.
+8.4. Proposer une stratégie d’arrêt, de maintien
+et/ou de substitution
+Les patients sevrés restent dépendants pour les opiacés.
+Il est recommandé de donner oralement le matin de
+l’intervention la dose quotidienne du traitement substitutif
+quelle que soit la technique d’anesthésie choisie (accord fort).
+Lorsque la voie orale est impossible, il faut administrer la
+morphine par voie sous-cutanée ou intraveineuse (accord
+fort).
+Il est recommandé de poursuivre le traitement substitutif
+tout au long de l’hospitalisation, pour éviter un sevrage, en
+assurant les besoins de base en opiacés (accord fort).
+Un ancien toxicomane mal analgésié peut développer un
+comportement de pseudo-addiction, qu’il ne faut pas inter-
+préter comme la récurrence de l’addiction, mais comme une
+douleur intense mal soulagée, cette pseudo-addiction disparaît
+lorsque l’analgésie devient adaptée.
+Il est recommandé de prescrire des opiacés à doses
+sufﬁsantes en compléments des antalgiques périphériques pour
+l’analgésie postopératoire. Dès que possible il convient de
+privilégier l’analgésie locorégionale.
+8.5. Règles de conversion entre méthadone,
+buprénorphine et morphine
+Les rapports de conversion avec la morphine rapportés ici
+ne permettent que de donner un ordre de grandeur des
+équivalences :
+10 mg de sulfate de morphine oral
+, 3,3 mg de sulfate de morphine parentéral (intraveineuse
+ou SC)
+, 6–7 mg de méthadone orale
+, 1,2–1, 4 mg de buprénorphine
+8.6. Doit-on faire appel à un spécialiste pour
+décision collégiale ?
+Les patients substitués sont souvent anxieux et préoccupés
+par le risque de récurrence de la toxicomanie lors de
+l’utilisation périopératoire de morphiniques, par le risque de
+subir un syndrome de manque et par les problèmes posés par la
+douleur lors de leur hospitalisation.
+Il est recommandé d’adresser le patient en consultation avec
+un médecin spécialisé dans la toxicomanie.
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1051
+8.7. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+8.7.1. Chirurgie programmée
+8.7.1.1. Consultation d’anesthésie. La consultation d’anesthésie
+fait le point sur les drogues consommées, sur les pathologies
+éventuellement associées à la toxicomanie (infection par le VIH,
+hépatite virale C [HCV]. . .), permet d’expliquer au patient les
+modalités de la prévention du syndrome de sevrage.
+Il faut expliquer au patient qu’il ne sera pas en manque du fait
+de la poursuite de la substitution tout au long de son
+hospitalisation et que la substitution est indépendante de
+l’analgésie.
+8.7.1.2. Prémédication. La dépendance aux benzodiazépines
+est fréquente, et l’anxiété préopératoire est importante.
+La prémédication vient en plus de l’administration de la dose
+journalière du médicament de substitution le matin de
+l’intervention. Les benzodiazépines peuvent représenter un
+bon choix de prémédication.
+8.7.1.3. Choix de la technique d’anesthésie. L’ALR permet de
+réduire l’utilisation des opiacés, offre un meilleur contrôle de la
+douleur postopératoire et permet aux patients de dissocier la
+prévention du manque, de celle de la douleur.
+Il est recommandé de favoriser chaque fois que possible une
+ALR axiale ou périphérique (accord fort).
+Lorsque l’anesthésie générale est préférée, elle fait appel aux
+techniques et produits habituels, en sachant qu’il existe une
+tolérance aux opiacés et une hypersensibilité aux stimuli
+nociceptifs. Il faut fréquemment augmenter les doses de
+morphiniques.
+8.7.1.4. Analgésie
+postopératoire. L’analgésie
+postopératoire
+chez le patient toxicomane substitué, nécessite en premier
+lieu de ne pas sous-évaluer la douleur et son traitement, et en
+second lieu, de ne pas confondre la prescription d’analgésie
+avec celle de la substitution qui ne vise qu’à empêcher le
+manque.
+Il faut prescrire l’analgésie en sus de la substitution, utiliser
+les techniques d’analgésie locorégionale continue par cathéter
+périnerveux ou péridural lorsque la situation le permet, et de
+systématiquement prévoir une analgésie balancée utilisant les
+analgésiques périphériques, les AINS en dehors de leurs
+contre-indications, et la morphine.
+L’existence d’une augmentation de la perception doulou-
+reuse et la tolérance aux opiacés explique que les patients
+substitués présentent fréquemment des besoins majorés en
+morphiniques.
+Il est recommandé d’augmenter les doses de morphine
+prescrites pour l’analgésie postopératoire (grade C). La
+kétamine pourrait présenter un intérêt analgésique chez ces
+patients tolérants aux opiacés (grade C).
+La tendance à limiter l’administration parentérale rapide de
+la morphine pour éviter ses effets psychiques, fait que l’usage de
+la PCA intraveineuse aux opiacés, demeure encore contro-
+versée pour l’analgésie postopératoire chez l’ancien héroïno-
+mane.
+Mais
+aujourd’hui,
+les
+experts
+accordent
+que
+l’administration parentérale de morphine est tout à fait
+acceptable, sous couvert d’une sélection des patients éligibles,
+d’une surveillance régulière et rigoureuse des doses adminis-
+trées, et de la poursuite de l’administration quotidienne de la
+substance de substitution.
+Il est recommandé de choisir l’administration de la morphine
+par voie orale chaque fois que celle-ci est possible, mais en
+sachant ne pas contre-indiquer l’administration parentérale de
+morphine lorsque l’intensité de la douleur postopératoire ou
+que la voie orale est impossible.
+Les opiacés aux propriétés agonistes antagonistes m
+(nalbuphine, butorphanol, pentazocine) et les antagonistes
+des récepteurs m (naloxone) peuvent précipiter un syndrome
+de sevrage aigu.
+Les agonistes antagonistes et les antagonistes des récepteurs
+m sont donc formellement contre-indiqués chez le patient sous
+traitement substitutif (grade C).
+8.7.2. Chirurgie en urgence
+En cas de chirurgie en urgence, les mêmes règles sont
+applicables qu’en chirurgie réglée.
+Dans cette situation, l’ALR représente probablement un
+choix intéressant.
+9. TOXICOMANIE ACTIVE
+Les principaux problèmes de gestion des toxicomanes dans
+le contexte périopératoire sont :
+ la substitution de la drogue et la prévention du sevrage
+représentent le risque principal de l’arrêt ;
+ la prise en compte des complications organiques associées à
+la toxicomanie (héroïne surtout), notamment les pathologies
+infectieuses (VIH, hépatites, endocardite. . .) ;
+ la nécessité d’une prise en charge spéciﬁque des toxicomanes
+par une équipe spécialisée ;
+ la prise en charge de la douleur aiguë chez le patient
+toxicomane risque d’être plus difﬁcile ;
+ savoir suspecter ou se méﬁer d’une polytoxicomanie possible
+et non avouée.
+10. CANNABIS
+10.1. Quel est le risque d’événement ?
+10.1.1. À l’interruption de la substance
+L’arrêt du cannabis n’entraîne pas de risque de sevrage chez
+le consommateur occasionnel ou modéré. Un arrêt du cannabis
+de courte durée (quelques jours), rend la survenue d’un sevrage
+très peu probable, même en cas de consommation ancienne et
+importante.
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1052
+10.1.2. À la poursuite périopératoire de l’addiction
+Le cannabis inﬂue sur le système nerveux autonome, et peut
+entraîner des perturbations de la pression artérielle et de la
+fréquence cardiaque.
+10.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Bien qu’aucune donnée ne soit disponible, une tolérance
+croisée entre le cannabis, les barbituriques, les opiacés,
+les benzodiazépines et les phénothiazines est considérée
+comme plausible sur la base de travaux expérimentaux chez
+l’animal.
+L’activation sympathique entraînée par le cannabis peut
+interférer avec les médicaments anesthésiques qui modiﬁent la
+fréquence cardiaque, la pression artérielle ou la contractilité
+myocardique.
+Il est recommandé d’utiliser avec prudence les médicaments
+anesthésiques tachycardisants (kétamine, pancuronium, atro-
+pine, éphédrine, adrénaline) ainsi que d’éviter l’halothane.
+Certains métabolites actifs du cannabis sont synergiques
+avec les morphiniques. La fumée de cannabis peut induire un
+bronchospasme, un laryngospasme ou un œdème de la luette.
+Il est recommandé comme pour le tabac, de s’abstenir de
+fumer ou de consommer du cannabis avant une chirurgie
+réglée (accord fort).
+10.3. Proposer une stratégie d’arrêt, de maintien
+et/ou de substitution
+Comme pour le tabac, il est recommandé de ne pas fumer
+dans les six à 12 heures avant une intervention. Il est peu
+probable de voir survenir des manifestations de sevrage, pour
+un arrêt de courte durée, aucune substitution n’est donc
+nécessaire. En cas d’anxiété ou de nervosité, une benzodiazé-
+pine peut être proposée en prémédication.
+10.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Quel que soit le type d’anesthésie chez le consommateur de
+cannabis, il faut prendre en compte l’activation sympathique
+induite par le cannabis ainsi que les potentielles complications
+respiratoires (bronchospasme, laryngospasme). Le cannabis
+potentialise les effets des opiacés et risque de majorer la
+somnolence postopératoire et une dépression respiratoire. Le
+cannabis peut entraîner en cas d’anesthésie générale des
+réactions psychiatriques. Il n’y a aucune contre-indication
+d’ALR axiale ou périphérique ou d’anesthésie générale. La
+seule recommandation est d’utiliser avec prudence les
+médicaments anesthésiques tachycardisants (kétamine, pan-
+curonium, atropine, éphédrine, adrénaline) ainsi que d’éviter
+l’halothane.
+11. HÉROÏNE
+11.1. Quel est le risque d’événement ?
+11.1.1. À l’interruption de la substance
+La dépendance de l’héroïne est physique et psychique, et
+entraîne un risque important de sevrage pouvant apparaître
+dans les quatre à six heures qui suivent la dernière prise. Il est
+caractérisé par des symptômes d’excitation du système
+nerveux autonome.
+11.1.2. À la poursuite périopératoire de l’addiction
+La poursuite cachée d’héroïne expose au risque d’overdose
+dans le contexte périopératoire. La poursuite de l’héroïne peut
+majorer les effets sédatifs des hypnotiques ou des morphini-
+ques administrés pour l’anesthésie.
+11.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+L’héroïne entraîne une dépendance et une tolérance croisée
+pour les opiacés. La perception douloureuse et les besoins en
+morphiniques périopératoires sont majorés chez l’héroïno-
+mane. Les opiacés aux propriétés agonistes antagonistes m
+(nalbuphine, butorphanol, pentazocine) et les antagonistes des
+récepteurs m (naloxone) peuvent précipiter un syndrome de
+sevrage aigu.
+Les agonistes antagonistes et les antagonistes des récepteurs
+m donc sont formellement contre-indiqués chez l’héroïno-
+mane (grade C).
+L’héroïne entraîne une augmentation des besoins en
+hypnotiques. Il existe un risque théorique de majorer la
+tolérance lors d’utilisation prolongée de protoxyde d’azote.
+Si une instabilité tensionnelle est fréquente sous anesthésie
+générale ou locorégionale, il faut savoir que l’apparition d’une
+hypotension artérielle peropératoire peut être le signe d’un
+sevrage.
+Quelques cas d’insufﬁsance surrénale ont été rapportés
+chez les héroïnomanes.
+11.3. Proposer une stratégie d’arrêt, de maintien
+et/ou de substitution
+Les sevrages réalisés dans la précipitation lors d’une
+hospitalisation chirurgicale aboutissent le plus souvent à la
+récidive. L’hospitalisation d’un patient toxicomane n’est jamais
+le bon moment pour entreprendre un sevrage.
+La stratégie doit prévenir le syndrome de sevrage, éviter un
+surdosage en opiacés ou une overdose en héroïne, assurer une
+analgésie efﬁcace et proposer un traitement symptomatique
+des troubles affectifs et du comportement.
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1053
+11.3.1. Contrat de soins
+L’hospitalisation d’un patient toxicomane à l’héroïne est
+souvent vécue comme source de problèmes par le patient et
+l’équipe soignante. Aussi, est-il fondamental de désamorcer les
+conﬂits. Il est recommandé d’établir d’emblée avec le patient un
+contrat de soins qui doit être explicite. Il est également
+indispensable de faire appel au concours d’une équipe
+spécialisée en toxicomanie ou de l’équipe de psychiatrie dans
+cette démarche.
+11.3.2. En pré- et peropératoire
+La substitution de l’héroïne par la morphine vise à assurer les
+besoins de base en opiacés pour prévenir un sevrage. Il est
+recommandé d’administrer le matin de la chirurgie, la dose de
+substitution par une dose équivalente de morphine orale.
+Devant un patient présentant un syndrome de sevrage, une
+titration intraveineuse de morphine en salle de soin post-
+interventionnelle (SSPI) est possible jusqu’à l’amendement des
+signes de manque. Une codépendance aux benzodiazépines est
+très fréquemment associée.
+Dans cette situation, il est recommandé d’administrer une
+benzodiazépine en prémédication.
+11.3.3. En postopératoire
+Un sevrage peut survenir dans les six heures qui suivent
+l’arrêt de l’héroïne. Il est impératif de poursuivre la substitution
+par la morphine toutes les quatre à six heures. La voie orale est
+utilisée dès que le patient peut s’alimenter.
+11.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+11.4.1. Consultation d’anesthésie
+La consultation d’anesthésie fait le point sur les drogues
+consommées, sur les pathologies éventuellement associées à la
+toxicomanie (infection par le VIH, HCV. . .) permet d’expliquer
+au patient les modalités de la prévention du syndrome de
+sevrage.
+Il est recommandé d’expliquer au patient qu’à l’arrêt de
+l’héroïne, il ne sera pas en manque du fait du relais par la
+morphine.
+Il est recommandé d’expliquer au patient que les doses de
+morphine de substitution sont indépendantes des doses à but
+analgésique. Il est recommandé d’adresser le patient au
+spécialiste de la toxicomanie.
+11.4.2. Prémédication
+Chez l’héroïnomane, la codépendance aux benzodiazépines
+est très fréquente, et l’anxiété préopératoire est importante. La
+prémédication vient en plus de l’administration de la dose de
+substitution par la morphine orale. Les benzodiazépines
+peuvent représenter un bon choix de prémédication.
+11.4.3. Choix de la technique d’anesthésie
+L’ALR permet de réduire l’utilisation des opiacés, offre un
+meilleur contrôle de la douleur postopératoire, et permet aux
+yeux des patients de dissocier la prévention du manque, de celle
+de la douleur.
+Il est recommandé de favoriser chaque fois que possible une
+ALR axiale ou périphérique.
+Lorsque
+l’anesthésie
+générale
+est
+préférée
+(impératif
+chirurgical,
+ou
+actes
+courts
+peu
+douloureux,
+refus
+du
+patient. . .), elle fait appel aux techniques et produits habituels,
+tout en sachant qu’il faut fréquemment augmenter les doses des
+médicaments hypnotiques et morphiniques (grade C).
+En cas d’intervention en urgence, la substitution de l’héroïne
+peut s’effectuer par l’administration intraveineuse de morphine
+en SSPI sous surveillance clinique et instrumentale, et les
+patients doivent être considérés comme estomac plein. En
+urgence, il est recommandé de réaliser une induction en
+séquence rapide avec intubation trachéale.
+11.4.4. Analgésie postopératoire
+L’analgésie postopératoire doit être prescrite en sus de la
+substitution. Les antalgiques périphériques (néfopam, AINS)
+doivent systématiquement être employés en dehors de leurs
+contre-indications.
+Il est recommandé de favoriser l’analgésie par cathéter
+périnerveux ou périmédullaire. Il n’existe pas de contre-
+indication à l’utilisation des morphiniques en patient controlled
+analgesia
+(PCA)
+ou
+en
+injection
+sous-cutanée
+en
+cas
+d’impossibilité d’utilisation de la voie orale, sous réserve
+d’une étroite surveillance des doses consommées. Il est
+recommandé de réaliser la titration intraveineuse de morphine
+avec des bolus supérieurs à ceux habituellement utilisés et de
+privilégier un relais avec la morphine orale précocement en
+postopératoire.
+12. COCAÏNE
+12.1. Quel est le risque d’événement ?
+Les problèmes anesthésiques liés à la cocaïne découlent
+plutôt d’une absence d’arrêt, que d’un sevrage.
+12.1.1. À l’arrêt de la substance
+La dépendance psychique à la cocaïne étant plus marquée
+que la dépendance physique, il n’y a souvent pas de risque
+majeur de sevrage à l’arrêt.
+12.1.2. À la poursuite périopératoire de l’addiction
+L’intoxication
+à
+la
+cocaïne
+entraîne
+une
+stimulation
+sympathique intense, source de tachycardie, hypertension
+artérielle,
+augmentation
+de
+la
+consommation
+d’oxygène
+myocardique, vasoconstriction coronaire et cérébrale, res-
+ponsables des accidents cardiovasculaires et cérébraux.
+Au long cours, la cocaïne peut provoquer également des
+complications coronaires, vasculaires (dissection aortique),
+ORL, psychiatriques, épileptiques et respiratoires.
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1054
+12.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Le risque de complication anesthésique chez le cocaïnomane
+est plus lié à la survenue d’une hyperstimulation sympathique
+qu’à de réelles interactions avec les médicaments de l’anesthésie.
+Il n’existe pas de tolérance croisée entre la cocaïne et les
+opiacés. Il existe des interférences avec l’halothane qui
+sensibilise le myocarde à l’effet des catécholamines. Des
+interférences sont possibles avec la kétamine et l’étomidate.
+Il a été suggéré que l’effet de la succinylcholine pourrait être
+prolongé.
+b-bloquants contre-indiqués chez le cocaïnomane car ils
+peuvent majorer l’effet vasoconstricteur de la cocaïne, et
+exacerber la vasoconstriction coronaire ou l’hypertension
+artérielle. Le traitement des manifestations cardiovasculaires
+induites par la cocaïne peut faire appel sans risque aux
+benzodiazépines, à l’hydralazine, aux dérivés nitrés, aux
+inhibiteurs
+calciques
+(vérapamil)
+et
+à
+la
+phentolamine.
+L’association de benzodiazépines et de dérivés nitrés est
+recommandée par l’American Heart Association comme
+traitement de première intension des syndromes coronariens
+aigus liés à la cocaïne.
+Une instabilité tensionnelle (hypertension ou hypotension)
+due à l’usage de cocaïne peut survenir au cours d’une ALR axiale
+ou d’une anesthésie générale. L’utilisation de l’éphédrine doit
+être prudente car elle peut déclencher une poussée hyper-
+tensive.
+12.3. Proposer une stratégie d’arrêt, de maintien
+et/ou de substitution
+Des
+complications
+cardiovasculaires
+peuvent
+survenir
+malgré une abstinence de quelques jours.
+Il est recommandé un sevrage complet d’une semaine
+minimum avant une intervention pour éviter tout risque de
+complication grave périopératoire, un sevrage plus court ne
+protégeant pas de la survenue de telles complications.
+Des données expérimentales récentes suggèrent que
+l’ondansétron pourrait s’avérer un traitement efﬁcace du
+syndrome de sevrage de la cocaïne.
+12.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Aucune technique anesthésique n’est interdite ou contre-
+indiquée avec la cocaïne.
+Le propofol et le thiopental sont utilisables sans danger chez
+les patients cocaïnomanes.
+En cas d’anesthésie générale, compte tenu des interférences
+décrites plus haut, il est recommandé d’éviter l’étomidate, la
+kétamine et l’halothane (les autres halogénés étant utilisables).
+Il est également recommandé de rester vigilant aux stimuli qui,
+comme la laryngoscopie, peuvent déclencher une hyperstimu-
+lation sympathique.
+L’effet de la succinylcholine pourrait être légèrement
+prolongé. Cependant, il n’est pas recommandé de contre-
+indiquer la succinylcholine, notamment lors d’une induction en
+séquence rapide.
+Une thrombopénie peut survenir chez le cocaïnomane. En
+cas d’ALR axiale, il est recommandé de demander au minimum
+un dosage des plaquettes (grade C).
+12.5. Cocaïne et anesthésie obstétricale
+Les complications cardiovasculaires seraient plus fréquentes
+pendant la grossesse. L’analgésie péridurale obstétricale du
+travail est recommandée, cependant les conséquences hémo-
+dynamiques et la possibilité d’une thrombopénie sont à prendre
+en compte avant de poser cette indication. Il est recommandé
+de vériﬁer le taux de plaquettes avant la réalisation d’une ALR
+axiale chez les parturientes cocaïnomanes.
+13. AUTRES EXCITANTS DU SNC, SUBSTANCE
+DE SYNTHÈSE
+Ce groupe de drogues consommées oralement, comprend
+essentiellement
+l’acide
+lysergique
+diéthylamide
+(LSD),
+la
+phencyclidine
+(PCP),
+la
+psilocybine,
+la
+mescaline,
+la
+3,4 méthylène-dioxy-méthamphétamine (MDMA) ou ecstasy,
+le g-hydroxybutyrate et le g-butyrolactone. Elles produisent
+des hallucinations auditives, visuelles, tactiles, associées à des
+distorsions de l’image du corps. Ces effets peuvent être
+associés à des sensations d’anxiété, de panique.
+13.1. Quel est le risque d’événement ?
+13.1.1. À l’arrêt de l’addiction
+Ces substances n’entraînent aucune dépendance physique
+ou psychique. Il n’y a pas de risque de sevrage à l’arrêt de leur
+consommation.
+13.1.2. À la poursuite périopératoire de l’addiction
+L’intoxication au LSD ou au PCP entraîne une activation
+sympathique
+avec
+hypertension
+artérielle,
+tachycardie,
+mydriase, élévation de la température corporelle, qui dure
+une douzaine d’heures et peut conduire à un coma, des
+convulsions ou une overdose.
+En dehors des troubles cognitifs et comportementaux,
+l’intoxication aiguë par l’ecstasy peut entraîner la survenue d’une
+hyperthermie maligne, d’une coagulation intravasculaire dis-
+séminée, d’une hépatite fulminante, voire d’un œdème cérébral
+avec convulsions consécutif à une hyponatrémie profonde.
+13.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Ces stupéﬁants entraînent des effets sympathomimétiques,
+une dérégulation du système nerveux autonome et font courir
+un risque de réaction cardiovasculaire exagérée aux stimula-
+tions adrénergiques.
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1055
+Il est recommandé d’utiliser avec précaution les vasopres-
+seurs tels que l’éphédrine.
+13.3. Proposer une stratégie d’arrêt, de maintien
+et/ou de substitution
+Il n’y a pas de risque de sevrage à l’arrêt de leur
+consommation.
+Le traitement de l’agitation entraînée par ces substances
+peut faire appel efﬁcacement aux benzodiazépines (diazépam)
+ou aux neuroleptiques (halopéridol).
+13.4. Proposer une technique d’anesthésie et
+d’analgésie adaptée
+Il
+existe
+une
+possibilité
+de
+complications
+vasculaires
+cérébrales.
+Il est recommandé d’éviter les fortes variations de pression
+artérielle et de fréquence cardiaque lors de l’anesthésie.
+Il faut toujours penser qu’une hyperthermie peut survenir
+chez le consommateur d’ecstasy, ce qui rend difﬁcile le
+diagnostic
+différentiel
+d’une
+hyperthermie
+maligne
+sous
+anesthésie générale.
+Il est recommandé de se méﬁer et d’éviter si possible,
+l’utilisation de la succinylcholine et des halogénés chez les
+patients aux antécédents d’hyperthermie induite par le MDMA
+(ecstasy).
+Les consommateurs d’ecstasy peuvent développer des
+hyponatrémies profondes.
+Il est recommandé de surveiller les apports hydriques et le
+bilan hydroélectrolytique.
+14. MÉDICAMENTS DÉTOURNÉS
+14.1. Benzodiazépines
+14.1.1. Quel est le risque d’événement ?
+Il existe un risque de crise convulsive lors d’un sevrage des
+benzodiazépines (grade C).
+Les benzodiazépines sont très fréquemment consommées
+en association avec d’autres drogues, pour en atténuer les
+effets désagréables ou en prolonger les effets.
+Il
+est
+recommandé
+de
+prescrire
+durant
+la
+période
+périopératoire une benzodiazépine aﬁn de prévenir un
+syndrome de sevrage.
+14.2. Existe-t-il une interférence avec les
+médicaments de l’anesthésie ?
+Il n’existe pas de tolérance croisée entre les benzodiazé-
+pines et les morphiniques.
+Il n’est pas recommandé d’administrer des doses plus
+élevées de morphiniques pour l’anesthésie générale, ou pour
+l’analgésie postopératoire (grade B).
+L’intoxication aiguë par les benzodiazépines peut potentia-
+liser les effets des hypnotiques et majorer le risque de
+dépression respiratoire en cas d’association avec les morphi-
+niques.
+Si des doses plus élevées d’hypnotiques sont fréquemment
+nécessaires chez le consommateur de benzodiazépines, il
+est recommandé à l’inverse en cas d’intoxication aiguë,
+de réduire les doses d’hypnotiques en cas d’anesthésie
+générale.
+14.3. Kétamine
+Cette molécule est le plus souvent utilisée en co-
+administration avec d’autres drogues.
+14.3.1. Quel est le risque d’événement ?
+Les manifestations psychiques et hémodynamiques ainsi que
+les implications anesthésiques de la kétamine, parfaitement
+connues des anesthésistes, ne posent pas de problème
+particulier pour l’anesthésie.
+Recommandations formalisées d’experts / Annales Françaises d’Anesthésie et de Réanimation 28 (2009) 1046–1056
+1056

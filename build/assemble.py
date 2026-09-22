@@ -290,6 +290,8 @@ with open(os.path.join(BASE, "content_gestion_traitements_chroniques_neuro_psy_2
     content_gestion_traitements_chroniques_neuro_psy_2011 = f.read()
 with open(os.path.join(BASE, "content_gestion_traitements_chroniques_infectieux_2009.json"), encoding="utf-8") as f:
     content_gestion_traitements_chroniques_infectieux_2009 = f.read()
+with open(os.path.join(BASE, "content_delivrance_information_2012.json"), encoding="utf-8") as f:
+    content_delivrance_information_2012 = f.read()
 with open(os.path.join(SITE, "app.js"), encoding="utf-8") as f:
     app_js = f.read()
 
@@ -440,6 +442,7 @@ out = out.replace("__CONTENT_GESTION_TRAITEMENTS_CHRONIQUES_CARDIO_2009__", safe
 out = out.replace("__CONTENT_GESTION_TRAITEMENTS_CHRONIQUES_DOULEUR_TOXICO_2009__", safe(content_gestion_traitements_chroniques_douleur_toxico_2009))
 out = out.replace("__CONTENT_GESTION_TRAITEMENTS_CHRONIQUES_NEURO_PSY_2011__", safe(content_gestion_traitements_chroniques_neuro_psy_2011))
 out = out.replace("__CONTENT_GESTION_TRAITEMENTS_CHRONIQUES_INFECTIEUX_2009__", safe(content_gestion_traitements_chroniques_infectieux_2009))
+out = out.replace("__CONTENT_DELIVRANCE_INFORMATION_2012__", safe(content_delivrance_information_2012))
 out = out.replace("__CONTENT_LIBRARY__", safe(content_lib))
 out = out.replace("__APP_JS__", safe(app_js))
 

@@ -145,7 +145,8 @@ var RAW = {
   gestion_traitements_chroniques_cardio_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_cardio_2009').textContent),
   gestion_traitements_chroniques_douleur_toxico_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_douleur_toxico_2009').textContent),
   gestion_traitements_chroniques_neuro_psy_2011: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_neuro_psy_2011').textContent),
-  gestion_traitements_chroniques_infectieux_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_infectieux_2009').textContent)
+  gestion_traitements_chroniques_infectieux_2009: JSON.parse(document.getElementById('content-gestion_traitements_chroniques_infectieux_2009').textContent),
+  delivrance_information_2012: JSON.parse(document.getElementById('content-delivrance_information_2012').textContent)
 };
 
 var LIBRARY = JSON.parse(document.getElementById('content-library').textContent);
@@ -289,7 +290,8 @@ var FICHE_HREF_MATCH = {
   organisation_anesthesie_pediatrique_2023: ['organisation-de-lanesthesie-pediatrique'],
   organisation_usc_2018: ['EXTE-USC-CNP'],
   transfusion_gr_anesth_2014: ['transfusion-de-globules-rouges-homologues'],
-  gestion_traitements_chroniques_cardio_2009: ['gestion-perioperatoire-des-traitements-chroniques']
+  gestion_traitements_chroniques_cardio_2009: ['gestion-perioperatoire-des-traitements-chroniques'],
+  delivrance_information_2012: ['delivrance-de-linformation-a-la-personne']
 };
 LIBRARY.forEach(function(item){
   item.fiche_key = null;
@@ -1994,6 +1996,18 @@ var DOC_META = {
     methodology: "Grille ANAES 2004 — seuls grade C et accord fort apparaissent dans ce module — 30 lignes de recommandations gradées, Module 3/4 uniquement (anti-infectieux, immunosuppresseurs)",
     pages: 3,
     url: "https://sfar.org/wp-content/uploads/2015/10/2_AFAR_Gestion-perioperatoire-des-traitements-chroniques-et-dispositifs-medicaux.pdf"
+  },
+  delivrance_information_2012: {
+    key: 'delivrance_information_2012',
+    badge: "HAS — RBP, mai 2012",
+    title: "Délivrance de l'information à la personne sur son état de santé",
+    short: "HAS, « Délivrance de l'information à la personne sur son état de santé », Recommandation de Bonne Pratique, validée par le Collège de la HAS en mai 2012. Actualise et remplace « Information des patients — Recommandations destinées aux médecins » (ANAES, mars 2000, désormais lien mort). Couvre : le contenu et les qualités de l'information (ce qu'elle doit contenir, comment la délivrer pour qu'elle soit comprise) ; les modalités de délivrance (entretien individuel, accompagnant, personne de confiance, documents écrits, coordination entre professionnels, traçabilité) ; l'information du mineur, du majeur protégé ou du majeur inapte à recevoir l'information (cas particuliers détaillés) ; l'évaluation de l'information donnée. Grille HAS A/B/C/AE définie en préambule mais jamais citée individuellement — la source énonce explicitement que l'absence de données scientifiques suffisantes fait reposer toutes les recommandations sur un accord d'experts (AE), appliqué uniformément aux 28 items de la fiche. Divergence disclosed : l'index bibliothèque date ce document de 2010, mais le document lui-même affiche mai 2012 comme date de validation par le Collège de la HAS ; le lien PDF direct de l'index contient aussi une coquille (corrigée pour cette fiche).",
+    society: "HAS (Haute Autorité de Santé)",
+    version: "2012",
+    validated: "Collège de la HAS, mai 2012",
+    methodology: "Grille HAS A/B/C/AE définie mais jamais citée individuellement — source explicite : absence de données suffisantes, toutes les recommandations reposent sur un accord d'experts (AE) — 28 items, couverture intégrale des 4 sections",
+    pages: 3,
+    url: "https://sfar.org/wp-content/uploads/2015/10/2a_HAS_texte-court_Delivrance-de-linformation-a-la-personne-sur-son-etat-de-sante.pdf"
   }
 };
 
